@@ -1,0 +1,223 @@
+this
+.ns_names
+  .load_text(
+<:['
+1|Disolo
+2|Kisadi
+3|Disolo kisadi
+5|Disolo $1
+6|Fisye
+7|Disolo fisye
+12|Lusadisu
+13|Disolo lusadisu
+14|Kalasi
+15|Disolo kalasi
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|Lumîngu
+monday|Kimosi
+tuesday|Kizôle
+wednesday|Kitatu
+thursday|Kîya
+friday|Kitânu
+saturday|Sabala
+sun|Lum
+mon|ki-1
+tue|ki-2
+wed|ki-3
+thu|ki-4
+fri|ki-5
+sat|Sab
+january|ngônda ya ntete
+february|ngônda ya zôle
+march|ngônda ya tatu
+april|ngônda ya yiya
+may_long|ngônda ya tânu
+june|ngônda ya sambânu
+july|ngônda ya nsambwâdi
+august|ngônda ya nâna
+september|ngônda ya yivwa
+october|ngônda ya kûmi
+november|ngônda ya kûmi na mosi
+december|ngôida ya kûmi na zôle
+january-gen|ngônda ya ntete
+february-gen|ngônda ya zôle
+march-gen|ngônda ya tatu
+april-gen|ngônda ya yiya
+may-gen|ngônda ya tânu
+june-gen|ngônda ya sambânu
+july-gen|ngônda ya nsambwâdi
+august-gen|ngônda ya nâna
+september-gen|ngônda ya yivwa
+october-gen|ngônda ya kûmi
+november-gen|ngônda ya kûmi na mosi
+december-gen|ngônda ya kûmi na zôle
+jan|ng1
+feb|ng2
+mar|ng3
+apr|ng4
+may|ng5
+jun|ng6
+jul|ng7
+aug|ng8
+sep|ng9
+oct|ng10
+nov|ng11
+dec|ng12
+redirectedfrom|(Balulama tuka ~{0})
+categories|Bakalasi
+lastmodifiedat|Mukânda yayi me sobama na kilumbu ~{0} na ngûnga ~{1}
+otherlanguages|Bandinga ya nkaka
+pagecategories|{{PLURAL:~{0}\u007CKalasi\u007CBakalasi}}
+category_header|Mikanda na kalasi "~{0}"
+nextn|bilandi {{PLURAL:~{0}\u007C~{0}}}
+prevn|biyita {{PLURAL:~{0}\u007C~{0}}}
+underline-always|Bambala nyonso
+underline-never|Ata mbala mosi ve
+article|Pagina contenta continens
+cancel|Katula
+mypage|Lukaya ya munu
+mytalk|Disolo ya munu
+and| mpe
+qbfind|Sosa
+qbbrowse|Tala
+qbedit|Soba
+vector-action-delete|Kufwa
+vector-action-move|Nata
+vector-view-edit|Sonika
+vector-view-history|Tala bansoba
+vector-view-view|Tânga
+errorpagetitle|Foti
+returnto|Vutukila ~{0}
+help|Nsadisa
+search|Sosa
+searchbutton|Sosa
+searcharticle|Kwenda
+history|Bansoba ya mukanda
+history_short|Bansoba
+view|Tala
+edit|Sonika
+editthispage|Soba mukanda yayi
+delete|Kufwa
+deletethispage|Kufwa mukanda yayi
+talkpagelinktext|Disolo
+talk|Disolo
+views|Bantadilu
+toolbox|Bisadilu
+viewtalkpage|Tala disolo
+jumpto|Pamuka na:
+jumptosearch|nsosa
+currentevents|Mambu ya mpa
+currentevents-url|Project:Mambu ya mpa
+mainpage|Lukaya ya mfumu
+mainpage-description|Lukaya ya mfumu
+retrievedfrom|Receptum de "~{0}"
+youhavenewmessages|Nge kele na ~{0} (~{1}).
+newmessageslink|bansangu ya yimpa
+youhavenewmessagesmulti|Nge kele na bansangu ya yimpa kuna ~{0}
+editsection|soba
+editold|soba
+editlink|soba
+editsectionhint|Soba kibuku: ~{0}
+red-link-title|~{0} (mukanda kele ve)
+nstab-main|Mukanda
+nstab-mediawiki|Nsangu
+nstab-category|Kalasi
+yourname|Nkûmbu ya nsoniki:
+yourpassword|Mpovo ya kuluta:
+login|Kota
+userlogin|Kota / sala konti
+logout|Basika
+userlogout|Basika
+nologin|Nge kele na konti ve? ~{0}.
+nologinlink|Sala konti
+createaccount|Sala konti
+gotaccountlink|Kota
+loginlanguagelabel|Ndinga: ~{0}
+newarticle|(Yimpa)
+editing|Na kusonika ~{0}
+editingsection|Na kusonika ~{0} (kibuku)
+history-fieldset-title|Monisa bansoba
+histfirst|Ya ntete
+histlast|Ya nsuka
+lineno|Nzila ya ~{0}:
+editundo|vutula
+viewprevnext|Mona (~{0} {{int:pipe-separator}} ~{1}) (~{2}).
+searchprofile-everything|Nyonso
+searchprofile-articles-tooltip|Sosa na ~{0}
+searchprofile-project-tooltip|Sosa na ~{0}
+search-result-size|~{0} ({{PLURAL:~{1}\u007Cmpovo 1\u007Cbampovo ~{1}}})
+search-section|(kibuku ~{0})
+searchall|nyonso
+powersearch|Sosa
+mypreferences|Konte ya munu
+yourlanguage|Ndinga:
+recentchanges|Bansoba ya yimpa
+recentchanges-label-minor|Nsoba yayi kele ya fyoti-fyoti
+recentchanges-label-bot|Nsoba yayi me salama na robo
+rcshowhideminor|~{0} bansoba ya fyoti-fyoti
+rcshowhidemine|~{0} bansoba na munu
+diff|nsoba
+hist|nsoba
+show|Monisa
+minoreditletter|f
+filehist-datetime|Kilumbu/Ngûnga
+filehist-user|Nsoniki
+randompage|Lukaya na kintulumukini
+ncategories|{{PLURAL:~{0}\u007Ckalasi\u007Cbakalasi}} ~{0}
+newpages|Mikanda ya yimpa
+alphaindexline|~{0} tî ~{1}
+mycontris|Makabu ya munu
+month|Katuka ngônda:
+year|Katuka mvula:
+sp-contributions-talk|disolo
+whatlinkshere|Balukaya ke songa awa
+movearticle|Nata lukaya:
+newtitle|Nkûmbu ya nkaka:
+movepagebtn|Nata lukaya
+pagemovedsub|Kunata me nunga
+movepage-moved|'''"~{0}" me natama na "~{1}"'''
+articleexists|Lukaya ya nkaka kele na nkûmbu yango, to nkûmbu yango kele ya mbote ve.\nSôla nkûmbu ya nkaka.
+movereason|Samu:
+tooltip-pt-userpage|Mukanda ya munu
+tooltip-pt-mytalk|Disolo ya munu
+tooltip-pt-logout|Basika
+tooltip-search|Sosa na {{SITENAME}}
+tooltip-undo|"Vutula" ke vutula nsoba yayi mpe yawu ke monisa lumoni ya kusoba. Nge lênda sonika kikuma ya mvutula.
+namespacesall|nyonso
+monthsall|nyonso
+table_pager_next|Lukaya ya kulanda
+table_pager_prev|Lukaya ya kuyita
+table_pager_first|Lukaya ya ntete
+table_pager_last|Lukaya ya nsuka
+']:>
+).lang
+;

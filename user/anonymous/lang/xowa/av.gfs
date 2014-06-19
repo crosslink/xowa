@@ -1,0 +1,101 @@
+this
+.fallback_load('ru')
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|ГьатӀан
+monday|Итни
+tuesday|Талат
+wednesday|АрбагӀ
+thursday|Хамиз
+friday|Рузман
+saturday|Шаммат
+otherlanguages|Цойги мацӀазда
+mytalk|Дур бахlс
+and| ва
+errorpagetitle|Гъалатl
+help|Кумек
+history|Хиса-басазул тарих
+printableversion|КутӀизе версия
+permalink|Кидаго букӀунеб рехсей
+edit|Хисизабе
+talkpage|Гьумералда тlасан бахlс
+talk|Бахlс
+toolbox|Алатал
+userpage|ГӀахьалчиясул гьумер
+currentevents|Жакъасел лъугьа-бахъинал
+mainpage|БетӀераб гьумер
+mainpage-description|БетӀераб гьумер
+portal|Майдан
+portal-url|Project:Майдан
+editsection|хисизабизе
+nstab-help|Кумек
+error|Гъалатl
+internalerror|Жанисеб гъалатl
+viewsource|Код бихьи
+userlogin|ЦIар бице
+userlogout|Къватlиве лъугьине
+savearticle|Хъвай-хъвай цӀунизе
+preferences|Рекъезаби
+localtime|Бакlалъул заман
+userrights-user-editname|ГӀахьалчиясул цӀар хъвай:
+recentchanges|ЦӀиял хиса-басал
+rcshowhideminor|~{0} гӀиси-микъинал хиса-басал
+rcshowhidebots|~{0} бот
+rcshowhideliu|~{0} цӀар рагьарал гӀахьалчагӀи
+rcshowhideanons|~{0} цӀаргьечӀ
+rcshowhidemine|~{0} дир хиса-басал
+diff|батӀалъи
+hide|Бахчизе
+show|Бихьизабизе
+minoreditletter|гӀ.-м.
+newpageletter|ЦӀ
+recentchangeslinked|Рухьарал хиса-басиял
+recentchangeslinked-feed|Рухьарал хиса-басиял
+recentchangeslinked-toolbox|Рухьарал хиса-басиял
+uploadnologin|Дуца цӀар бицун гьечӀо
+randompage|Цебе ккараб гьумер
+shortpages|Къокъал макъалаби
+longpages|Кlудиял гьумерал
+listusers|Гlахьалчагlазул сияхl
+specialloguserlabel|ГӀахьалчи:
+allarticles|Киналго макъалаби
+watchlist|Дур халгьабиялъул сияхl
+watch|хал гьабизе
+contributions|ГӀахьалчиясул хӀалтӀи
+mycontris|Дур гlахьаллъи
+whatlinkshere|Рехсей гьанибе
+move-page-legend|Гьумералъул цlар хисизе
+movearticle|Гьумералъул цӀар хисизе
+movepagebtn|Гьумералъул цlар хисизе
+specialpages|Хассал гьумерал
+cite_article_link|Гьумер рехсезе
+sitesupport|Садакъа
+']:>
+).lang
+;

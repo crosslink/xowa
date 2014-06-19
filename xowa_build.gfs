@@ -1,0 +1,36 @@
+// y will show a "Press enter to continue" at the end of the script
+app.bldr.pause_at_end = 'n';
+
+// runs commands in xowa.gfs
+app.scripts.run_file_by_type('xowa');
+
+// for more info see [[Help:Import/Command-line]] and [[Help:Import/Command-line/Script]]
+app.bldr.cmds {
+  // do import. note that first argument must be a valid domain name
+  add_many('simple.wikipedia.org'
+  
+  // initialize databases
+  , 'import.sql.init'
+
+  // import <page>
+  , 'import.sql.page'
+
+  // build Category v1 categorylinks.sql from quick parse of wikitext
+  , 'import.sql.category_v1'
+
+  // generate list of [[Category]] pages
+  , 'import.sql.category_registry'
+
+  // assign pages to categories
+  , 'import.sql.categorylinks'
+
+  // generate search v2 index
+  , 'import.sql.search_title.wkr'
+
+  // calculate statistics; cleanup
+  , 'import.sql.term'
+  );
+}
+
+// run cmds
+app.bldr.run;

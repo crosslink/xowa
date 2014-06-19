@@ -1,0 +1,1851 @@
+this
+.fallback_load('fr')
+.ns_names
+  .load_text(
+<:['
+-2|Xibaarukaay
+-1|Jagleel
+1|Waxtaan
+2|Jëfandikukat
+3|Waxtaani jëfandikukat
+5|$1 waxtaan
+6|Dencukaay
+7|Waxtaani dencukaay
+8|MediaWiki
+9|Waxtaani MediaWiki
+10|Royuwaay
+11|Waxtaani royuwaay
+12|Ndimbal
+13|Waxtaani ndimbal
+14|Wàll
+15|Waxtaani wàll
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+1|Discuter
+2|Utilisateur
+3|Discussion Utilisateur
+5|Discussion $1
+7|Discussion Image
+9|Discussion MediaWiki
+10|Modèle
+11|Discussion Modèle
+12|Aide
+13|Discussion Aide
+14|Catégorie
+15|Discussion Catégorie
+']:>
+).lang
+.specials
+  .clear
+  .load_text(
+<:['
+CreateAccount|Sos am sàq
+Listfiles|Limu nataal yi
+Listgrouprights|Limu mboolooy jëfandikukat
+Listusers|Limu jëfandikukat yi
+Lonelypages|Xëtu jirim
+Mycontributions|Samay cëru
+Mypage|Sama xët
+Mytalk|Samay waxtaan
+Newimages|Nataal bu bees
+Preferences|Tànneef
+Randompage|Xët cig mbetteel
+Recentchanges|Coppite yu mujj
+Search|Ceet
+Uncategorizedcategories|Wàll yi amul wàll
+Uncategorizedimages|Nataal yi amul wàll
+Uncategorizedpages|Xët yi amul wàll
+Uncategorizedtemplates|Royuwaay yi amul wàll
+Unusedcategories|Royuwaay yiñ jëfandikuwul
+Unusedimages|Nataal yiñ jëfandikuwul
+Upload|Yeb
+Userlogin|Lonku
+Userlogout|Lonkiku
+Wantedcategories|Wàll yiñ laaj
+Wantedpages|Xët yiñ laaj
+Watchlist|Limu toppte
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|dibéer
+monday|altine
+tuesday|talaata
+wednesday|àllarba
+thursday|alxamis
+friday|àjjuma
+saturday|gaawu
+sun|dib
+mon|alt
+tue|tal
+wed|àll
+thu|alx
+fri|àjj
+sat|gaa
+january|Semwiyee
+february|Fewriyee
+march|Maars
+april|Awril
+may_long|Mee
+june|Suwe
+july|Sulet
+august|Ut
+september|Sattumbar
+october|Oktoobar
+november|Nowembar
+december|Deesàmbar
+january-gen|Samwie
+february-gen|Fewirie
+march-gen|Maars
+april-gen|Awril
+may-gen|Mee
+june-gen|Suwe
+july-gen|Sulet
+august-gen|Ut
+september-gen|Sattumbar
+october-gen|Oktoobar
+november-gen|Nowembar
+december-gen|Disembar
+jan|Sam
+feb|Few
+mar|Maa
+apr|Awr
+may|Mee
+jun|Suw
+jul|Sul
+aug|Ut
+sep|Sat
+oct|Okt
+nov|Now
+dec|Dis
+toc|Tëraliin
+redirectedfrom|(Yoonalaat gu jóge ~{0})
+allpages|Xët yépp
+prevpage|Xët wi jiitu (~{0})
+nextpage|Xët wi toftal (~{0})
+categories|Wàll
+lastmodifiedat|Coppite bu mujj bu xët wii ~{0} ci ~{1}.<br />
+thumbnail-more|Ngandal
+otherlanguages|Yeneeni làkk
+blanknamespace|(njëkk)
+pagecategories|{{PLURAL:~{0}\u007CWàll \u007CWàll }}
+category_header|Xëti wàll wi « ~{0} »
+subcategories|Ron-wàll
+category-media-header|Jukkiy wàll wi « ~{0} »
+category-empty|''Nii-nii wàll wii ëmbul tus, dub ron-wàll, dub jukki, dub dencukaay. ''
+category-subcat-count|{{PLURAL:~{1}\u007CWii wàll wenn ron-wàll rekk la am, di wiy toftal.\u007C {{PLURAL:~{0}\u007CWii ron-wàll \u007C~{0} Ron-wàll yii }} bokk  {{PLURAL:~{0}\u007Cna\u007Cnañu}} ci ~{1} ron-wàll yi nekk ci wii wàll.}}
+category-subcat-count-limited|Wii wàll am na {{PLURAL:~{0}\u007Cron-wàll\u007C~{0} ron-wàll}}.
+category-article-count|{{PLURAL:~{1}\u007CWii wàll wenn xët rekk la am, di wiy toftal.\u007C{{PLURAL:~{0}\u007CWii xët \u007C~{0} xët yii }} bokk  {{PLURAL:~{0}\u007Cna\u007Cnañu}} ci ~{1} xët yi nekk ci wii wàll.}}
+category-article-count-limited|Wii wàll ëmb na {{PLURAL:~{0}\u007Cxët wiy toftal \u007C~{0} xët yiy toftal}}.
+category-file-count|{{PLURAL:~{1}\u007CWii wàll benn dencukaay rekk la ëmb, di biy toftal.\u007C {{PLURAL:~{0}\u007CBii dencukaay \u007C~{0} dencukaay yii }} bokk  {{PLURAL:~{0}\u007Cna\u007Cnañu}} ci ~{1} dencukaay yi nekk ci wii wàll.}}
+category-file-count-limited|Wii wàll moo ëmb {{PLURAL:~{0}\u007Cdencukaay biy toftal\u007C~{0} dencukaay yiy toftal}}.
+nextn|{{PLURAL:~{0}\u007C~{0}}} yi toftal
+prevn|{{PLURAL:~{0}\u007Cwi jiitu\u007C~{0} yi jiitu}}
+listingcontinuesabbrev|(desit)
+showingresultsheader|{{PLURAL:~{4}\u007CNgérte '''~{0}''' bu '''~{2}'''\u007CNgértey '''~{0} - ~{1}'''}}  ngir '''~{3}'''
+bold_sample|Duufal mbind mi
+bold_tip|Duufal mbind mi
+italic_sample|Wengal mbind mi
+italic_tip|Wengal mbind mi
+link_sample|Koju lëkkalekaay bi
+link_tip|Lëkkalekaay yu biir
+headline_sample|Ron-koj
+headline_tip|Ron-koj 2 tolluwaay
+wikieditor-toolbar-tool-ulist|Lim bees tombal
+wikieditor-toolbar-tool-ulist-example|Cëri lim bees tombal
+wikieditor-toolbar-tool-olist|Lim bees nimerool
+wikieditor-toolbar-tool-olist-example|Cëri lim bees nimerool
+pipe-separator| • 
+hidden-category-category|Wàll yi nëbbu
+statistics|Limbari
+statistics-header-pages|Limbari ñeel xët yi
+statistics-articles|Xëti ëmbiit
+statistics-pages|Xët
+statistics-pages-desc|Xët yépp yi ci wiki bi, xëti waxtaanuwaay yi, jubluwaat yi, añs.
+tog-underline|Rëddaatu lëkkalekaay yi :
+tog-justify|Maaseel xise yi
+tog-hideminor|Nëbb coppite yu néewal yi mujj
+tog-hidepatrolled|Nëbb coppite yi ñuy fuglu ci coppite yu mujj yi
+tog-newpageshidepatrolled|Nëbb xët yi ñuy fuglu, yi ci limu xët yu bees yi
+tog-extendwatchlist|Yatalal limu toppte bi ngir muy wone bépp coppite, déet yu mujj yi rekk
+tog-usenewrc|Jëfandikool coppite yu mujj yees gënal (laaj na JavaScript)
+tog-numberheadings|Koj yi jox lim seen bopp
+tog-showtoolbar|Wone bànqaasu njëlu coppite bi (JavaScript)
+tog-editondblclick|Cuq cuqaatal ngir soppi aw xët (JavaScript)
+tog-editsection|Soppi ab xaaj jaare ko cib lëkkalekaay [Soppi]
+tog-editsectiononrightclick|Soppi ab xaaj cib cuqub ndeyjoor ci kojam  (JavaScript)
+tog-showtoc|Wone tëralinu ne-ne yi (ngir xët yi ëpp 3 xaaj)
+tog-rememberpassword|Fattalikul sama baatujàll  (for a maximum of ~{0} {{PLURAL:~{0}\u007Cday\u007Cdays}})
+tog-watchcreations|Yokk ci sama limu toppte xët yi may sos
+tog-watchdefault|Yokk ci sama limu toppte xët yi may soppi
+tog-watchmoves|Yokk ci sama limu toppte xët yi may tuddaat
+tog-watchdeletion|Yokk ci sama limu toppte xët yi may far
+tog-minordefault|jàppe samay coppite ni yu néewal saa su ne
+tog-previewontop|Tegal wonendi gi ci kaw balaa boyotu coppite bi
+tog-previewonfirst|wone wonendi gi su dee soppi gu njëkk la
+tog-nocache|Doxadil ndenciti xët yi
+tog-enotifwatchlistpages|Yónne ma ab bataaxal su aw xët wu ne ci sama limu toppte soppikoo
+tog-enotifusertalkpages|Yónne ma ab bataaxal su ay coppite amee ci sama xëtu waxtaanuwaay
+tog-enotifminoredits|Yónne ma ab bataaxal donte coppite yu néew lañu
+tog-enotifrevealaddr|Wone sama màkkaan bu mbëjfeppal ci bataaxali yëgle yi
+tog-shownumberswatching|Wone limu jëfandikukat yiy topp wii xët
+tog-oldsig|Wonendig xaatim gi teew:
+tog-fancysig|Soppi sa xaatim (du am lëkkalekaay bu boppu)
+tog-showjumplinks|Doxalal lëkkalekaay yii di « joowin » ak « seet »
+tog-uselivepreview|Jëfandikul wonendi gu gaaw gi (JavaScript)
+tog-forceeditsummary|Wax ma ko suma mottaliwul koju coppite bi
+tog-watchlisthideown|Nëbb samay coppite ci limu toppte bi
+tog-watchlisthidebots|Nëbb coppite yi bot yi def ci biir limu toppte bi
+tog-watchlisthideminor|Nëbb coppite yu néewal yi ci biir limu toppte bi
+tog-watchlisthideliu|Nëbb coppite yu jëfandikukat yi bindu ci limu toppte bi
+tog-watchlisthideanons|Nëbb coppite yu jëfandikukat yi binduwul ci limu toppte bi
+tog-watchlisthidepatrolled|Nëbb coppite yi ñu aar, yi ci limu toppte bi
+tog-ccmeonemails|Yónne ma ab duppit bu bataaxal yi may yónne yeneen jëfandikukat yi
+tog-diffonly|Bul wone ëmbitu xët yi ci suufu fi ngay méngalee ay sumbam
+tog-showhiddencats|Wone wàll yi nëbbu
+tog-norollbackdiff|Bul wone diff bi ginnaaw bu ma defee ag loppanti
+underline-always|Saa su ne
+underline-never|Mukk
+underline-default|Aju ci joowukaay bi
+editfont-style|Meliinu mbind mu barabu coppite bi:
+editfont-default|Bi wàccaaleek joowukaay bi
+editfont-monospace|Dayoob mbind genn dig-digal
+editfont-sansserif|Dayoob mbind bu amul-dig
+editfont-serif|Dayoob mbind bu am-dig
+hidden-categories|{{PLURAL:~{0}\u007Cwàll bi nëbbu\u007Cwàll yi nëbbu}}
+about|Ci mbirum
+article|Jukki
+newwindow|(Day ubbeeku ci beneen palanteer)
+cancel|Neenal
+moredotdotdot|Ak yeneen...
+mypage|Samaw xët
+mytalk|Xëtu waxtaanuwaay
+anontalk|Waxtaan ak bii IP
+navigation|Joowiin
+and| ak
+qbfind|Seet
+qbbrowse|Lemmi
+qbedit|Soppi
+qbpageoptions|Xëtuw tànneef
+qbmyoptions|Samay tànneef
+qbspecialpages|Xëti jagleel
+faq|Laaj yi ëpp
+faqpage|Project:FAQ
+vector-action-addsection|Yokkuw tëriit
+vector-action-delete|Far
+vector-action-move|Tuddewaat
+vector-action-protect|Aar
+vector-action-undelete|Delloowaat
+vector-action-unprotect|Aaradi
+vector-view-create|Sos
+vector-view-edit|Soppi
+vector-view-history|Wone jaar-jaaram
+vector-view-view|Jàng
+vector-view-viewsource|Wone gongikuwaayam
+actions|Jëf
+namespaces|Barabu tur
+variants|Wuute
+errorpagetitle|Njuumte
+returnto|Dellu ci wii xët ~{0}.
+tagline|Jóge  {{SITENAME}}.
+help|Ndimbal
+search|Seet
+searchbutton|Seet
+go|Ayca
+searcharticle|Ayca
+history|Jaar-jaaru xët wi
+history_short|Jaar-jaar
+updatedmarker|Ci samag nemmeeku gu mujj lañ ko soppi
+printableversion|Sumb bu móolu
+permalink|Lëkkalekaay yu sax
+print|Móol
+edit|Soppi
+create|Sos
+editthispage|Soppi xët wii
+create-this-page|Sos wii xët
+delete|Far
+deletethispage|Far wii xët
+undelete_short|Delloowaat {{PLURAL:~{0}\u007C1 coppite\u007C ~{0} ciy coppite}}
+protect|Aar
+protect_change|soppi
+protectthispage|Aar wii xët
+unprotect|Aaradi
+unprotectthispage|Aaradil wii xët
+newpage|Xët wu bees
+talkpage|Xëtu waxtaanuwaay
+talkpagelinktext|Diisoo
+specialpage|Xëtu jagleel
+personaltools|Samay jumtukaay
+postcomment|Xaaj bu bees
+articlepage|Gis jukki bi
+talk|Waxtaan
+views|Xool yo
+toolbox|Boyotu jumtukaay yi
+userpage|Xëtu jëfandikukat
+projectpage|Wone xëtu sémb wi
+imagepage|Wone xëtu dencukaay bi
+mediawikipage|Wone xëtu bataaxal bi
+templatepage|Wone xëtu royuwaay bi
+viewhelppage|Xoolal xëtu ndimbal wi
+categorypage|Wone xëtu wàll wi
+viewtalkpage|Xëtu diisoowaay
+redirectpagesub|Xëtu yoonalaat
+viewcount|Xët wii nemmeeku nañ ko {{PLURAL:~{0}\u007C~{0} yoon\u007C~{0} yoon}}.
+protectedpage|Xët wees aar
+jumpto|Dem :
+jumptonavigation|Joowiin
+jumptosearch|Seet
+view-pool-error|jéggalu, joxekaay yi dañoo xat nii-nii.\nJëfandikukat yiy jéem a ubbi xët wii dañoo bari.\nTaaxiirlul ba ci kanam nga jéemaat.\n\n~{0}
+aboutsite|Ci mbiri {{SITENAME}}
+aboutpage|Project:Ci mbiri
+copyright|Ëmbit laa ngi  jàppandi ci ~{0}.
+copyrightpage|{{ns:project}}:Copyright
+currentevents|Luy xew
+currentevents-url|Project:Luy xew
+disclaimers|Ay aartu
+disclaimerpage|Project:Aartu yu daj
+edithelp|Ndimbal
+helppage|Help:Ndimbal
+mainpage|Xëtu Njëlbéen
+mainpage-description|Xët wu njëkk
+policy-url|Project:àtte
+portal|Buntub askan
+portal-url|Project:Xët wu njëkk
+privacy|Politigu mbóot
+privacypage|Project:Xibaar ci say mbóot
+badaccess|Njuumte ci ndigël gi
+badaccess-group0|Amoo ay sañ-sañ yu doy ngir man a def li nga bëgg a def.
+badaccess-groups|Jëf ji ngay jéem a def dañu koo jagleel jëfandikukat yi bokk ci {{PLURAL:~{1}\u007Cmbooloo mu\u007Cbenn ci mbooloo yi toftal}}: ~{0}.
+versionrequired|Laaj na ~{0} sumbub MediaWiki
+versionrequiredtext|Laaj na ~{0} sumbum MediaWiki ngir man a jëfandikoo wii xët. Xoolal [[Special:Version\u007Cfii]]
+ok|waaw
+retrievedfrom|Ci « ~{0} » lañ ko jële
+youhavenewmessages|Am nga ~{0} (~{1}).
+newmessageslink|Bataaxal yu bees
+newmessagesdifflink|Coppite gu mujj
+youhavenewmessagesmulti|Am nga bataaxal yu yees ci ~{0}
+editsection|Soppi
+editold|Soppi
+viewsourceold|Xool gongikuwaayam
+editlink|soppi
+viewsourcelink|xool gongikuwaayam
+editsectionhint|Soppi bii xaaj : ~{0}
+showtoc|Wone
+hidetoc|Nëbb
+thisisdeleted|Da ngaa bëgg a wone walla delloowaat ~{0} ?
+viewdeleted|Xool ~{0} ?
+restorelink|{{PLURAL:~{0}\u007C1 coppite lañ far \u007C~{0} ciy coppite lañ far}}
+feedlinks|Wal
+feed-invalid|Gii xeetu wal baaxul.
+feed-unavailable|juumtukaayu wone soppi yu yees yi jàppandiwul
+site-rss-feed|Walu RSS gu ~{0}
+site-atom-feed|Walu Atom gu ~{0}
+page-rss-feed|Walu RSS gu "~{0}"
+page-atom-feed|Walu Atom gu "~{0}"
+feed-atom|Atom
+feed-rss|RSS
+red-link-title|~{0} (xët wi amagul)
+nstab-main|Xët
+nstab-user|Xëtu jëfandikukat
+nstab-media|Xibaarukaay
+nstab-special|Xëtu jagleel
+nstab-project|Xëtu sémb
+nstab-image|Dencukaay
+nstab-mediawiki|Bataaxal
+nstab-template|Royuwaay
+nstab-help|Xëtu ndimbal
+nstab-category|Wàll
+nosuchaction|Jëf ji xameesu ko
+nosuchactiontext|Jëf ji nga def ci URL bi xameesu  ko.\nXéj-na dangaa juum ci bind URL bi, walla nga topp lëkkalekaay bu baaxul.\nLii man naa doon it ag njuumte ci tëriin bi ñuy jëfandikoo ci {{SITENAME}}.
+nosuchspecialpage|Xëtu jagleel wu amul
+nospecialpagetext|<strong>Da nga laaj aw xëtu jagleel wu wiki bi xamul.</strong>\n\nAb limu xëti jagleel yépp, ma nees na koo gis ci [[Special:SpecialPages\u007C{{int:specialpages}}]].
+error|Njuumte
+databaseerror|Njuumtey dàttub njoxe bi
+dberrortext|�Njuumtey mbindin ci laaj bi nga yónne dàttub njoxe bi.\nMan na nekk it ab njuumte ci tëriin bi.\nLaaj bees mujje yónne ci dàttub njoxe bi moo doonoon:\n<blockquote><tt>~{0}</tt></blockquote>.\nbàyyikoo ci bii solo « <tt>~{1}</tt> ».\nDàttub njoxe bee delloo bii njuumte « <tt>~{2} : ~{3}</tt> ».
+dberrortextcl|Ab laajub dàttub njoxe bi jur na njuumte.\nLaaj bees mujje yónne dàttub njoxe bi moo doon :\n« ~{0} »\nbàyyikoo ci bii solo « ~{1} ».\nDàttub njoxe bi delloo bii njuumte « ~{2} : ~{3} ».
+laggedslavemode|Moytul, wii xët man naa bañ a man dékku coppite yi ñu mujjee def
+readonly|Dàttub njoxe bi dañu koo caabi
+enterlockreason|Biralal ngirtey tëj gi ak diir bi mu war a amee
+readonlytext|Ci jamono jii yokk yeek coppitey xët yi jàppandiwuñu ndax dàttub njoxe bi dañu koo caabi, xéj-na dañoo nekk ciy liggéey, su ñu noppee rekk dàttub njoxe bi baaxaat.\nYorkat bi def caabi ji, joxe na yii lay :~{0}
+missing-article|Dàttub njox bi manuta fexe ba gis mbidum ab jukki bu mu waaroona mana gis, mi ngi tudd  « ~{0} » ~{1}.\n\nLi koy waral yenn saa yi mooy da ngay jéma ubbi ab lëkkalekaay, jaare ko ci ab jaar-jaar walla méngaleeb ay sumb yu aw xët wu faru.\n\nSu dul loolu kon daa am ag njuumte ci tëriinu Mediawiki bi.\nDi la sakku nga yegge ko ab [[Special:ListUsers/sysop\u007Cyorkat]] , jox ko màkkaan bi.
+missingarticle-rev|(Limu sumb bi# : ~{0})
+missingarticle-diff|(Wuute : ~{0}, ~{1})
+readonly_lag|Dàttub njoxe bi daa caabi boppam ngir may ñaareelu joxekaay yi dap joxekaay bu njëkk bi.
+internalerror|Njuumte gu biir
+internalerror_info|Njuumte gu biir : ~{0}
+fileappenderror|Maneesul a yokk "~{0}" ci "~{1}".
+filecopyerror|Duppig dencukaay bii di « ~{0} » jëm « ~{1} » antuwul.
+filerenameerror|Tuddewaatug « ~{0} » niki « ~{1} » antuwul.
+filedeleteerror|Farug dencukaay bii di « ~{0} » antuwul.
+directorycreateerror|Sosug wayndare bii di « ~{0} » antuwul.
+filenotfound|Gisug dencukaay bii di « ~{0} » antuwul.
+fileexistserror|Mbind mi ci wii wayndare « ~{0} » antuwul : dencukaay bi am na ba noppi
+formerror|Tolof-tolof:Maneesu la yonnee mbind mi
+badarticleerror|Jii jëf defuwul ci wii xët.
+cannotdelete|Farug xët walla dencukaay bi antuwul. (xayna  keneen def na ko ba noppi.)
+badtitle|Koj bu baaxul
+badtitletext|Kojug xët wi nga laaj baaxul, amul dara walla  day di kojjug diggantelàkk walla diggantesémb yu seen lonkoo baaxul. Xayna it dafa am benn walla ay araf yu ñu manuta jëfandikoo cib koj.
+perfcached|Lii ab duppitu ndencitu sumb mi la, kon xéj-na beesul. A maximum of {{PLURAL:~{0}\u007Cone result is\u007C~{0} results are}} available in the cache.
+perfcachedts|Njoxe yii di toftal ab duppitu nëbbitu dàttub njoxe bi la, te yeesalam gu mujj mi ngi am ci: ~{0}. A maximum of {{PLURAL:~{3}\u007Cone result is\u007C~{3} results are}} available in the cache.
+querypage-no-updates|Yeesal yu xët wii dañ leen a doxadil fi mu ne nii. Xibaar yi ne fii ci suuf beesuñu.
+wrong_wfQuery_params|Njuumte ci xibaar yi ci wfQuery()<br />\nSolo : ~{0}<br />\nLaaj : ~{1}
+viewsource|Xool gongikuwaayam
+actionthrottled|Jëf jees digal
+actionthrottledtext|Ngir xeex spam yi, jëf ji nga namm a def dañ kaa digal ci yoon yoo ko man ci benn diir bu gatt. Te mel na ne romb nga boobu dig. Jéemaatal fii aki simili.
+protectedpagetext|Wii xët dañ koo aar ngir bañ ag coppiteem.
+viewsourcetext|Man ngaa xool te duppi li nekk ci bii jukki ngir man cee liggéey :
+protectedinterface|Xët wii dafa am ay mbind yu bokk ci jokkalekaayu tëriin wi, moo tax ñu caabi ko ngir bañ ku ci ëppal.
+editinginterface|'''Moytul''': mbindu xët wii dafa bokk ci jokkalekaayu tëriin bi. Bépp coppite boo ci def day feeñ ci bataaxal yi yeneen jëfandikukat yi di gis. Ngir tekki yi ñu lay ñaan nga dem ci   [//translatewiki.net/wiki/Main_Page?setlang=wo translatewiki.net] di am sémb ngir bennal bataaxal yi.
+sqlhidden|(Laaju SQL nëbbu na)
+cascadeprotected|Xët wii dañ kaa aar ndaxte daa ëmbu ci {{PLURAL:~{0}\u007Cxët wi toftal\u007Cxët yi toftal}}, di yu ñu aar :\n~{1}
+namespaceprotected|Amoo sañ-sañu soppi xët yi ne ci bii barabu tur « '''~{0}''' ».
+ns-specialprotected|Xët yi ne ci bii barabu tur « {{ns:special}} » kenn maneesu leen a soppi.
+titleprotected|Koj bii [[User:~{0}\u007C~{0}]] moo ko aar ngir bañ sosteefam.\nNgirte li mu joxe mooy ne « ''~{1}'' ».
+virus-badscanner|Tànnéef wu bon: saytukatu wiris bees xamul: ''~{0}''
+virus-scanfailed|Saytu gi dog na (code ~{0})
+logouttext|Fi mu nekk nii génn nga.'''\n\nMan ngaa wéy di jëfandikoo {{SITENAME}} ci anam buñ la dul xamme walla nga  <span class='plainlinks'>[~{0} duggewaat]</span> ak wenn tur wi walla ak weneen.
+yourname|Sa turu jëfandikukat
+yourpassword|Sa baatujàll
+yourpasswordagain|Bindaatal sa baatujàll
+remembermypassword|Denc sama yëgley dukkukaay ci bii joowukaay (lu ëpp nag ~{0} {{PLURAL:~{0}\u007Cday\u007Cdays}})
+yourdomainname|Sa barab
+externaldberror|Njuumte judd na ci dàttub njoxe bi, walla day ni rekk amuloo sañ-sañu yeesal sa sàqum biti.
+login|xammeeku
+nav-login-createaccount|Dugg / Bindu
+loginprompt|Faaw nga doxal cookie yi ngir man a dugg ci {{SITENAME}}.
+userlogin|Dugg / Bindu
+logout|Génnu
+userlogout|Génnu
+notloggedin|Duggoo de
+nologin|Sosagoo am sàq ? '''~{0}'''.
+nologinlink|Sos ko leegi
+createaccount|Sos am sàq
+gotaccount|Sos nga am sàq? '''~{0}'''.
+gotaccountlink|Dugg
+createaccountmail|Jaare ko ci m-bataaxal
+badretype|Baatujàll yi nga bind yemuñu.
+userexists|Turu jëfandikukat bi nga bind am na boroom ba noppi. Tànnal weneen.
+loginerror|Njuumte ci dugg gi
+createaccounterror|Sosug sàq mi antuwul: ~{0}
+nocookiesnew|Sàqum jëfandikukat mi sosu na, waaye dugg gi antuwul. {{SITENAME}} day jëfandikoo ay cookie ngir dugg gi, waaye danga leen doxadil. Doxal leen ci sa joowukaay te duggaat ak sa tur ak sa baatujàll bi nga sos.
+nocookieslogin|{{SITENAME}} day jëfandikoo ay cookie ngir dugg gi, te yaw say cookies dañoo doxadi. Doxal leen ci sa joowukaay te jéem a duggaat.
+noname|Bindoo turu jëfandikukat bi baax.
+loginsuccesstitle|Sag dugg jàll na
+loginsuccess|Léegi nag dugg nga ci {{SITENAME}} yaay « ~{0} ».
+nosuchuser|Amul benn jëfandikukat bu tudd « ~{0} ». Xoolaatal bu baax mbindiin mi walla nga sos meneen sàqum jëfandikukat.
+nosuchusershort|Amul benn jëfandikukat bu tudd « ~{0} ». Xoolaatal mbidiin mi.
+nouserspecified|Laaj na nga tànn ab turu jëfandikukat
+wrongpassword|Bii baatujàll baaxul. Jéemaatal.
+wrongpasswordempty|Duggaloo ab baatujàll, jéemaatal.
+passwordtooshort|Sa baatujàll war naa am lumu néew  {{PLURAL:~{0}\u007C1 màndarga\u007C~{0} màndarga}}.
+password-name-match|Sa baatujàll dafa war a wuute ak sa turu jëfandikukat
+mailmypassword|Yónne ma ab baatujàll bu bees
+passwordremindertitle|Sa baatujàll bu bees ci {{SITENAME}}
+passwordremindertext|Kenn(xéj-na yaw la) ku am bii màkkaanu IP ~{0} moo laaj ngir ñu yónne ko ab baatujàll bu bees ngir duggam ci {{SITENAME}} (~{3}).\nBaatujàll bu jëfandikukat bii di « ~{1} » léegi mooy « ~{2} ».\nDi la digal rekk nga dugg te soppi baatujàll bi ci ni mu gëna gaawee.\nBaatujáll bii nag diirub dundam {{PLURAL:~{4}\u007Cfan\u007C~{4} fan}} la.\n\nSoo doonul ki biral bii laaj, walla fattaliku nga sa baatujàll bu njëkk ba, te nammatoo koo soppi, man ngaa tankamlu bii bataaxal te wéy di jëfandikoo baatujàll bu yàgg ba.
+noemail|Bii jëfandikukat « ~{0} » amufi benn màkkaanub m-bataaxal.
+noemailcreate|Laaj na nga joxe màkkaanub m-bataaxal bu baax
+passwordsent|Ab baatujàll bu bees yónne nañ ko ci màkkaanub m-bataaxal bu jëfandikukat bii di « ~{0} ». Jéemal a duggaat soo ko jotee.
+blocked-mailpassword|Ngir faggandiku ci yaq gi, ku ñu téye sa màkkaanu IP ba doo man a soppi dara, doo man a yónneelu baatujàll bu bees.
+eauthentsent|Yónnee nañ la ab m-bataaxalub dëggal ci màkkaanub m-bataaxal bi nga joxe. Balaa ñuy yónnee beneen m-bataaxal ci bii màkkaan, fawwu nga topp tektal yiñ la jox ngir dëggal ni yaa moom bii màkkaan.
+throttled-mailpassword|Ab m-bataaxal bu lay fattali sa baatujàll yónne nañu la ko, am na {{PLURAL:~{0}\u007Cwaxtu\u007C~{0} waxtu}}.\nNgir moytu ay yaq, benn m-bataaxalu fattali rek lañu lay yónne ci diiru {{PLURAL:~{0}\u007Cwaxtu\u007C~{0} hours}}..
+mailerror|Njuumte ci yónneeb m-bataaxal bi : ~{0}
+acct_creation_throttle_hit|Kenn kuy jëfandikoo bii màkkaanu IP sos na {{PLURAL:~{0}\u007Cam sàq\u007C~{0} sàq}} ci bés bu mujj bi, te mooy lim bi ëpp bi ñu la sañalal ci bii diir. Loolu moo tax, jëfandikukatu bii màkkaanu IP manuta sos sàq mu bees ci jii jamono.
+emailauthenticated|~{1} ci ~{2}. Nga dëggal sa màkkaanu m-bataaxal.
+emailnotauthenticated|Dëggalagoo sa m-bataaxal. Duñ la man a yónne benn m-bataaxal bu aju ci yii ci suuf.
+noemailprefs|Joxeel ab m-bataaxal ngir doxal yii solo
+emailconfirmlink|Dëggalal sa m-bataaxal
+invalidemailaddress|Dayoob m-bataaxal bi baaxul. Duggalal beneen walla nga bàyyi tool bi ne këmm
+accountcreated|léegi bindu nga.
+accountcreatedtext|Mbindug jëfandikukat bii di ~{0} jàll na
+createaccount-title|Sosum sàq ci {{SITENAME}}
+createaccount-text|Kenn ku sos am sàq ci {{SITENAME}} te tudd ~{1} (~{3}).\nBaatujàll bu « ~{1} » mooy « ~{2} ». Li gën mooy nga dugg ci teel te soppi baatujàll bi.\n\nJéelaleel bataaxal bii su fekkee ci njuumte nga sosee mii sàq.
+usernamehasherror|Turu jëfandikukat bi warul am mandarga yu hash
+login-throttled|Jéem ngaa dugg ay yoon te jàllul.\n\nNgalla néggandikul ab diir door a jéemaat.
+loginlanguagelabel|Làkk : ~{0}
+resetpass|Soppi baatujàll bi
+resetpass_announce|Danga dugg ak ab baatujàll bu saxul-dakk, buñ la yónne cib bataaxal. Ngir matal mbindu mi, faaw nga roof ab baatujàll bu bees fii:
+resetpass_text|<!-- Bindal fii -->
+resetpass_header|Soppi baatujàllu sàq mi
+oldpassword|Baatujàll bu yàgg :
+newpassword|Baatujàll bu bees :
+retypenew|Bindaatal baatujàll bu bees bi :
+resetpass_submit|Soppil baatujàll bi te dugg
+resetpass_success|Coppiteeg baatujàll bi antu na : Yaa ngi dugg...
+resetpass_forbidden|Baatujàll bi manoo kaa soppi
+resetpass-no-info|faaw nga dugg ngir man a jot ci wii xët.
+resetpass-submit-loggedin|Soppi baatujàll bi
+resetpass-wrong-oldpass|Baatujall bu diiru walla bi teew baaxul.\nXèj-na baatujàll bi soppi nga ko ba noppi, walla xéj-na it dangaa laaj beneen baatujàll bu diiru.
+resetpass-temp-password|Baatujàll bu diiru :
+extlink_sample|http://www.example.com koju lëkkalekaay bi
+extlink_tip|Lëkkalekaay yu biti (bul fattee jiital http://)
+nowiki_sample|Dugalal fii mbind mi ñu joxul melokaan
+nowiki_tip|Jéllaleel mbindinu wiki
+image_sample|Misaal.jpg
+image_tip|Roof ab nataal
+media_sample|Misaal.ogg
+media_tip|Lëkkalekaay buy jëme ciw ŋara
+sig_tip|Xaatimee waxtu wi
+hr_tip|Rëdd wu tëdd (bul ci ëppal)
+summary|Tënk��:
+subject|Tëriit/koj:
+minoredit|Coppite yu néewal
+watchthis|Topp xët wii
+savearticle|Wattu xët wi
+preview|Wonendi
+showpreview|Wonendi
+showlivepreview|Wonendi gu gaaw
+showdiff|Wone samay soppi
+anoneditwarning|'''Moytul :''' Duggoo. Sa màkkaanub IP di nañu ko dugal ci jaar-jaaru xët wii.
+missingsummary|'''Fattali :''' Defoo ab tënk ci coppite yi nga amal. Soo cuqaate ci «Denc xët wi», say coppite di nañ dugg te duñ am tënk, maanaam duñ xam loo soppi.
+missingcommenttext|Di la sakku nga dugal ab tënk ci suuf, jërëjëf.
+missingcommentheader|'''Fattali :''' Joxoo ab koj say coppite. Soo cuqaate ci «Denc xët wi», di nañ leen dugal te duñ am koj.
+summary-preview|Wonendig tënk bu:
+subject-preview|Wonendi gu tëriit/koj:
+blockedtitle|Bii jëfandikukat dañ kaa téye
+blockedtext|'''Sa sàqum jëfandikukat walla sa màkkaanu IP dañ koo téye .'''\n\nKi def téye gi mooy ~{0} te lii mooy ngirte li : ''~{1}''.\n\n* Ndorteelu téye gi : ~{7}\n* Njeextalu téye gi : ~{5}\n* Sàq mi ñu téye : ~{6}.\n\nMan ngaa jokkoo ak ~{0} walla kenn ci [[{{MediaWiki:Grouppage-sysop}}\u007Cyorkat]] yi ngir ngeen ma cee waxtaan.\n\nTe nga jàpp ne jumtukaay bii di "yónne bataaxal bii jëfandikukat" du dox su fekke dugaluloo ab m-bataaxal ci say [[Special:Preferences\u007Ctànneef]].\nSa màkkaanu IP mooy ~{2}, xammeekaayu téye gi moy #~{4}.\nDi la sakku nga dugal leen fépp fuñ la leen laajee
+autoblockedtext|Sa màkkaanu IP dañ kaa téye ndaxte danga koo bokk ak beneen jëfandikukat, te moom it ~{0} moo ko téye ~{0}.\nTe lii mooy ngirte yi mu joxe :\n\n:''~{1}''\n\n* Ndoorteelu téye gi: ~{7}\n* Njeextalu téye gi : ~{5}\n* Sàq mees téye: ~{6}\n\n\nMan ngaa jookkook ~{0} walla ak kenn ci [[{{MediaWiki:Grouppage-sysop}}\u007Cyorkat]] yi ngir waxtaan ci téye gi.\n\nSu fekkee joxe nga ab màkkaanu m-bataaxal ci say [[Special:Preferences\u007Ctànneef]] te terewuñu la nga jëfandikoo ko, man ngaa jëfandikoo jumtukaay bii di "yónne ab m-bataaxal bii jëfandikukat" ngir jookkook ab yorkat.\n\nSa màkkaanu IP mooy ~{2} xammeekaayu téye gi mooy #~{4}. Di la sakku nga joxe leen fuñu la leen laajee.
+blockednoreason|Joxewul benn ngirte
+whitelistedittext|Faaw nga doon ~{0} ngir am sañ-sañu soppi ëmbit li.
+confirmedittext|Ngir man a soppi dara faaw nga dëggal sa m-bataaxal. Ngir kocc-koccal walla dëggal sa màkkaan demal ci say [[Special:Preferences\u007Ctànneef]].
+nosuchsectiontitle|Xaaj bi amul
+nosuchsectiontext|Da nga doon jéema soppi ab xaaj bu amul.
+loginreqtitle|Laaj na nga bindu
+loginreqlink|Dugg
+loginreqpagetext|Faaw nga ~{0} ngir gis yeneen xët yi.
+accmailtitle|Baatujàll bi yónne nañ ko.
+accmailtext|Ab baatujàll ngir [[User talk:~{0}\u007C~{0}]]  yónne nañu ko ~{1}.\nBaatujàllub bii jëfandikukat bu bees man nga ko soppi ci ''[[Special:ChangePassword\u007Csoppi baatujàll]]'' soo duggee ba noppi.
+newarticle|(Bees)
+newarticletext|Da ngaa topp ab lëkkalekaay buy jëme ci aw xët wu amagul. ngir sos xët wi léegi, duggalal sa mbind ci boyot bii ci suuf (man ngaa yër [[{{MediaWiki:Helppage}}\u007Cxëtu ndimbal wi]] ngir yeneeni xamle). Su fekkee njuumtee la fi indi cuqal ci '''dellu''' bu sa joowukaay.
+anontalkpagetext|---- ''Yaa ngi ci xëtu waxtaanuwaayu ab jëfandikukatu alaxam, bu bindoogul ba fim ne mbaa jëfandikoowul am sàqam.\nKon ngir xàmmee ko fàw nga jëfandikoo màkkaanub IP wam. Te màkkaanub IP jëfandikukat yu bari man nañ koo bokk.\nSu fekkee jëfandikukatu alaxam nga, te nga gis ne dees laa féetale ay kàddu yoo moomul, ngalla [[Special:UserLogin\u007Cbindu]] walla [[Special:UserLogin\u007Cdugg]] ngir benn jaxase bañatee am ëllëg .''
+noarticletext|Fi mu ne ni amul menn mbind ci xët wii; man ngaa [[Special:Search/{{PAGENAME}}\u007Cseet koju xët wi]] ci yeneen xët, <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} seet ci xëtu jagleel wi ],\nwalla [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} soppi xët wii]</span>.
+noarticletext-nopermission|Nii-nii amul menn mbind ci wii xët.\nMan nga [[Special:Search/{{PAGENAME}}\u007Cseet bii koj]] ci yeneen xët,\nwalla <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} nga seet ci yéenekaay yees ko féetaleel]</span>.
+userpage-userdoesnotexist|Mii sàqum jëfandikukat « <nowiki>~{0}</nowiki> » du bu ku-bindu. Seetal bu baax ndax da ngaa namma sos walla soppi wii xët.
+clearyourcache|'''Karmat :''' Soo dence xët wi ba noppi, faaw nga far nëmbiitu sa joowukaay ngir man a gis say coppite, te nga, su dee '''Mozilla / Firefox / Safari :''' cuq ci ''yeesal'' te bësaale ''shift'', walla nga bës ''Shift-R'' walla ''Ctrl-F5'' (Command-R ci Mac ), su dee '''Konqueror''': cuq ''yeesal'' walla nga bës ''F5''; su dee '''Opera''' faral nëbiit li (''Jumtukaay → Tànneef'') su dee '''Internet Explorer:''' cuq ci ''yeesal te bësaale ''Ctrl''  walla nga bës ''Ctrl-F5''.
+usercssyoucanpreview|'''Xelal :''' di la digël nga cuq ci «Wonendi» ngir gis say xobi CSS walla JavaScript yu bees laata nga leen di denc.
+userjsyoucanpreview|'''Xelal :''' di la digël nga cuq ci «Wonendi» ngir gis say xobi CSS walla JavaScript yu bees laata nga leen di denc.
+usercsspreview|Bul fatte ne lii wonendib sa CSS rekk la; dencagoo say coppite!'''
+userjspreview|'''Bul fatte ne lii ab wonendib sa yoonu javaScript rekk la; dencagoo say coppite!'''
+userinvalidcssjstitle|'''Moytul :''' amul genn col gu tudd « ~{0} ». Bul fatte ne xët yiy jeexee .css ak .js seeni koj ay araf yu tuut ñoo ciy tegu/.<br />ci misaal, {{ns:user}}:Foo/'''v'''ector.css moo baax, waaye bii du baax {{ns:user}}:Foo/'''V'''ector.css .
+updated|(bees na)
+note|'''Karmat :'''
+previewnote|'''Lii ab wonendi rekk la; coppite yi ci xët wi dencagoo leen!'''
+previewconflict|Wonendi bi mengóo na ak mbind yi ne ci boyotu coppite bi te nii lay mel soo cuqe ci 'Denc xët wi'.
+session_fail_preview|'''Jéegalu! manu noo denc say coppite ngir ñakkug ay njoxe ñeel sag dugg. Di la ñaan nga jéemaat. Su tolof-tolof bi wéyee, Jéemal a génn te duggaat. '''
+session_fail_preview_html|'''Jéegalu ! manu noo denc say coppite ngir ñakkug ay njoxe ñeel sag dugg.'''\n\n''Segam ci bii dal dañ fee doxal HTML bu ñumm, ngir ay ngirtey kaaraange, wonendi gi du gisu.''\n\n'''Su tolof-tolof bi wéyee, man nga jéem a génn te duggaat .'''
+token_suffix_mismatch|'''Votre modification n’a pas été acceptée car votre navigateur a mal codé les caractères de ponctuation dans l’identifiant de modification.'''\nCe rejet est nécessaire pour empêcher la corruption du texte de la page.\nCe problème se produit parfois lorsque vous utilisez un serveur mandataire anonyme problématique basé sur le web.
+editing|Coppiteg ~{0}
+editingsection|Coppiteg ~{0} (xaaj)
+editingcomment|Coppiteg ~{0} (xaaj bu bees)
+editconflict|jàppanteb coppite ci: ~{0}
+explainconflict|Am na beneen jëfandikukat bu soppi xët wi, mu gën a mujj, ci bi ngay soog a door say coppite.\nMbind yi ne ci boyotu coppite bi ci kaw, ñooy yi teew nii ci dàttub njoxe bi, ni ko beneen jëfandikukat bi soppee.\nYaw nag say coppite ñoo nekk ci boyotu coppite bi ci suuf.\nSoo nammee denc say coppite, faaw nga dugal leen ci boyot bi ci kaw.\nSoo cuqe ci 'Denc xët wi', mbind yi ne ci boyot bi ci kaw rekk ñooy dencu .
+yourtext|Sa mbind
+storedversion|Sumb bees wattu
+nonunicodebrowser|'''Attention : Votre navigateur ne supporte pas l’unicode. Une solution temporaire a été trouvée pour vous permettre de modifier en tout sûreté un article : les caractères non-ASCII apparaîtront dans votre boîte de modification en tant que codes hexadécimaux. Vous devriez utiliser un navigateur plus récent.'''
+editingold|'''Moytul: yaa ngi soppi ab sumb bu yàgg bu xët wii. Soo leen dence, bépp coppite buñu defoon laataa bii sumb, di nañu leen ñakk.'''
+yourdiff|Wuute
+copyrightwarning|Bépp cëru ci {{SITENAME}} dañ leen di jàppe niki ay siiwal yoo def te teg leen ci ~{1} (xoolal ~{0} ngir yeneeni xamle).\nSoo bëggul keneen jël say mbind soppi leen, tas leen teg ci, bu leen fi dugal.<br />\nTe it na wóor ne li nga fiy dugal yaa leen moom, yaa leen bind, walla fa nga leen jële gongikuwaay bu ubbeeku la, lu kenn moomul.\n'''BUL FI DUGAL LIGGÉEYI KENEEN YU AQI AJI-SOS AAR TE AMOO CI BENN NDIGËL!'''
+copyrightwarning2|Karmat: Bépp cëru ci {{SITENAME}} yeneen jëfandikukat yi man nañ leen a soppi walla far leen.\nSoo bëggul keneen jël say mbind soppi leen, tas leen teg ci, bu leen fi dugal.<br />\nTe it na wóor ne li nga fiy dugal yaa leen moom, yaa leen bind, walla fa nga leen jële gongikuwaay bu ubbeeku la, lu kenn moomul (xoolal ~{0} ngir yeneeni xamle).\n'''BUL FI DUGAL LIGGÉEYI KENEEN YU AQI AJI-SOS AAR TE AMOO CI BENN NDIGËL!'''
+longpageerror|'''NJUUMTE : mbind mi nga yónne guddee na ~{0} kio, kon romb na dig bi di ~{1} kio. Mbind mi maneesu kaa denc.'''
+readonlywarning|'''Moytul: dàttub njoxe bi dañu koo caabi ngir ay liggéey,\nkon doo man a denc say coppite fi mu nekk nii. Man ngaa duppi mbind mi taf ko cib tëriin bu ñuy binde te taaxirlu ñu ubbi dàttub njoxe bi.'''\n\nYorkat bi caabi dàttub njoxe bi joxe na yii leeral: ~{0}
+protectedpagewarning|'''Moytul : wii xët dañ kaa aar.\nJëfandikukat yi nekk yorkat rekk a ko man a soppi.'''
+semiprotectedpagewarning|'''Karmat :''' wii xët dañ kaa aar ba nga xam ne ñi bindu rekk a ko man a soppi.
+cascadeprotectedwarning|'''MOYTUL :''' Xët wii dañ kaa aar ba nga xam ne yorkat yi rek ñoo koy man a soppi. Kaaraange googu dañ kaa def ndaxte xët wii dañ kaa dugal ci biir {{PLURAL:~{0}\u007Caw xët wu ñu aar\u007Cay xët yu ñu aar}}.
+titleprotectedwarning|'''MOYTUL: wii xët dañ koo aar ba tax laaj na nga am  [[Special:ListGroupRights\u007Cyenn sañ-sañ]] yi ngir man koo sos.'''
+templatesused|{{PLURAL:~{0}\u007C Royuwaay bi\u007C Royuwaay yi}} nekk ci wii xët :
+templatesusedpreview|{{PLURAL:~{0}\u007C Royuwaay  bi\u007CRoyuwaay yi}} nekk ci gii wonendi :
+templatesusedsection|Royuwaay yi ne ci bii xaaj:
+template-protected|(aar)
+template-semiprotected|(aar-diggu)
+hiddencategories|{{PLURAL:~{0}\u007Cwàll bu nëbbu bu\u007Cwàll yu nëbbu yu }} xët wii bokk :
+nocreatetext|Jëfandikukat yi bindu rekk a man a sosi xët ci {{SITENAME}}. Man nga dellu ginnaaw walla soppi aw xët wu am ba noppi, [[Special:UserLogin\u007Cduggu walla sos am sàq]].
+nocreate-loggedin|Amuloo sañ-sañ yu doy ngir man a sosi xët yu bees.
+permissionserrors|Njuumte ci sañ-sañ yi
+permissionserrorstext|Amuloo sañ-sañu àggali jëf ji nga tambali, ngax {{PLURAL:~{0}\u007Clii toftal\u007Cyii toftal}} :
+permissionserrorstext-withaction|Amoo sañ-sañu ~{1}, ngir {{PLURAL:~{0}\u007Clii di toftal \u007Cyii di toftal}} :
+recreate-moveddeleted-warn|'''Moytul: yaa ngi nekk di sosaat aw xët wees faroon.'''\n\nWóorlul bu baax ndax sosaat xët wi di na doon li gën.\nXoolal yéenekaayu far gi ci suuf.
+moveddeleted-notice|Xët wii dañu koo far.\nJaar-jaaru far yeek tuddewaat yi moo ngi ci suuf ngir yeneen xibaar.
+log-fulllog|Wone yéenekaay bu matale
+edit-hook-aborted|Dogug coppite gi ak xeet yi.\nLi ko waral xameesu ko
+edit-gone-missing|Yeesalug xët wi antuwul.\nMel na ne dañu koo far.
+edit-conflict|Jàppante cig coppite.
+edit-no-change|Tankamlu nañu say coppite, ndax defoo benn coppite ci mii mbind.
+edit-already-exists|Sosug xët wu bees wi antuwul.\nAm na fi ba noppi.
+post-expand-template-inclusion-warning|Moytul: Royuwaay yi ñu dugal ci xët wi dañoo ëpp.\nYenn royuwaay yi duñu man a dugg.
+post-expand-template-inclusion-category|Xët yu am royuwaay yu ëpp
+post-expand-template-argument-warning|Moytul: wii xët daa ëmb ab royuwaay bu dayoom gudd ba ëpp ba tax maneesu koo yokk. Loolu waral ag faram.
+post-expand-template-argument-category|Xët yu ëmb ay royuwaay yu seen ëmbit matadi
+undo-success|Gii coppite man nga kaa neenal. Xoolal méngale gi ne ci suuf ngir wóorlu ne ni ëmbit li mel na ni nga ko bëgge, te nga denc xët wi ngir jeexal.
+undo-failure|Neenalug coppite gi defuwul: man naa jur ab jàppante ci coppite yi ci diggante bi
+undo-norev|Coppite gi manoo koo neenal ndaxte nekkul walla dañu koo far
+undo-summary|Neenalug coppite ~{0} yu [[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Cwaxtaan]])
+cantcreateaccounttitle|sag mbindu Manu la nekk .
+cantcreateaccount-text|Sosum sàq mu bàyyikoo ci bii màkkaanu IP ('''~{0}''') dañ kaa téye [[User:~{2}\u007C~{2}]].\n\nNgirtey téye gi ~{2} joxe, mooy ne: ''~{1}''.
+viewpagelogs|Xool yéenekaayu xët wii
+nohistory|Xët wii amulub jaar-jaar.
+currentrev|Sumb bi teew
+currentrev-asof|Sumb bi teew bu ~{0}
+revisionasof|Sumb bu ~{0}
+revision-info|Sumb bu ~{0}, bu: ~{1}
+previousrevision|← Sumb bi jiitu
+nextrevision|Sumb bi toftal →
+currentrevisionlink|Sumb bi teew
+cur|xamle
+next|toftal
+last|jiitu
+page_first|njëkk
+page_last|mujj
+histlegend|Méngaley sumb: falal sumb yi nga bëgg a méngale te bës ci Ayca walla ci cuquwaay bi ci suuf.\n\n(teew) = li mu wuuteek sumb bi teew, (jii) = li mu wuuteek sumb bi jiitu, <b>c</b> = coppite yu néewal.
+history-fieldset-title|Joowal ci jaar-jaar gi
+histfirst|Cëru yi njëkk
+histlast|Cëru yi mujj
+historysize|({{PLURAL:~{0}\u007C~{0} byte\u007C~{0} byte}})
+historyempty|(këmm)
+history-feed-title|Jaar-jaaru sumb yi
+history-feed-description|Jaar-jaaru xët wi ci bii wiki
+history-feed-item-nocomment|~{0} ci ~{1}
+history-feed-empty|Xët wi nga laaj amul. Xej-na dañ koo dindi ci dal bi walla ñu tuddewaat ko. Man nga jéem a [[Special:Search\u007Cseet ci wiki bi]] ndax ay xët yu bees am nañ fi.
+rev-deleted-comment|(sanni-kàddu bi far nañ ko)
+rev-deleted-user|(turu jëfandikukat bi far nañ ko)
+rev-deleted-event|(duggit li far nañ ko)
+rev-deleted-text-permission|Sumb bu xët wii dañ koo '''far'''. Xoolal [{{fullurl:{{#Special:Log}}/delete\u007Cpage={{FULLPAGENAMEE}}}} jaar-jaaru farte] yi ngir yeneeni xibaar.
+rev-deleted-text-unhide|Sumb bu xët wii dañ koo '''far'''.\nMan nga am yeneeni xamle ci [{{fullurl:{{#Special:Log}}/delete\u007Cpage={{FULLPAGENAMEE}}}} jaar-jaaru far] yi.\nLi nga doon yorkat tax na nga man a  [~{0} saytu bii sumb] su la neexee.
+rev-suppressed-text-unhide|Sumb bu xët wii dees koo '''far'''.\nSaytul [{{fullurl:{{#Special:Log}}/suppress\u007Cpage={{FULLPAGENAMEE}}}} jaar-jaaru far] yi ngir yeneeni xamle.\nLi nga doon saytukat tax na nga man a [~{0} gis bii sumb] su la neexee.
+rev-deleted-text-view|Bii sumb bu xët wii dañ koo '''far'''.\nLi nga doon yorkat moo tax nga man gis mbind mi. Saytul [{{fullurl:{{#Special:Log}}/delete\u007Cpage={{FULLPAGENAMEE}}}} jaar-jaaru far] yi ngir yeneeni xibaar.
+rev-suppressed-text-view|Bii sumb bu wii xët dees koo '''faroon'''.\nSaytukat yi man nañu koo gis ba-tay; saytul  [{{fullurl:{{#Special:Log}}/suppress\u007Cpage={{FULLPAGENAMEE}}}} jaar-jaaru far] yi ngir yenneni xamle.
+rev-deleted-no-diff|Manoo wone gii méngale  ndax benn ci sumb yi dañu koo '''far'''.\nMan ngaa ami xibaar ci [{{fullurl:{{#Special:Log}}/suppress\u007Cpage={{FULLPAGENAMEE}}}} jaar-jaaru far] yi.
+rev-deleted-unhide-diff|Benn ci sumb yi ngay méngale dees koo '''far'''.\nMan ngaa ami xamle ci [{{fullurl:{{#Special:Log}}/suppress\u007Cpage={{FULLPAGENAMEE}}}} jaar-jaaru far] yi.\nLi nga doon yorkat tax na ba-tay nga man a [~{0} gis gii wuute] su la neexee.
+rev-delundel|wone/nëbb
+revisiondelete|Far/Deloosiwaati sumb
+revdelete-nooldid-title|Waxoo ban sumb
+revdelete-nooldid-text|Waxoo ci ban sumb bu xët wii ngay amal solo sii.
+revdelete-nologtype-title|Joxewoo benn xeetu yéenekaay
+revdelete-nologtype-text|Waxoo ci ban xeetu yéenekaay ngay amal jëf jii.
+revdelete-nologid-title|Duggiitu yéenekaay bi baaxul
+revdelete-no-file|Dencukaay bi amul
+revdelete-show-file-confirm|Ndax wóor na ne bëgg ngaa wone sumb bees far bu bii dencukaay "<nowiki>~{0}</nowiki>" bu ~{1} ci ~{2}?
+revdelete-show-file-submit|Waaw
+revdelete-selected|'''{{PLURAL:~{1}\u007CSumbum '''~{0}''' mi falu\u007CSumbi '''~{0}''' yi falu}} :'''
+logdelete-selected|'''{{PLURAL:~{0}\u007CXew-xewu yéenekaay bi falu\u007CXew-xewi yéenekaay yi falu}}:'''
+revdelete-text|'''Sumb yi nga far dañuy wéy di feeñ ci jaar-jaaru xët wi, waaye mbind yi ñu ëmb ñépp duñ leen man a gis.'''\nYeneen yorkat yu {{SITENAME}} di nañ man a gis ëmbit yu laqu yi te loppanti leen ci benn jokkalekaay bi, su fekkee defuñu fi ay digal yu leen koy tere man a def.
+revdelete-legend|Taxawal ay digal ci sumb yi ñu far:
+revdelete-hide-text|Nëbb mbindum sumb bi
+revdelete-hide-image|Nëbb ëmbiitu dencukaay bi
+revdelete-hide-name|Nëbb jëf ji ak njeexitam
+revdelete-hide-comment|Nëbb saraay coppite gi
+revdelete-hide-user|Nëbb tur walla màkkaanu IP bu soppikat bi
+revdelete-hide-restricted|Nëbb yii xibaar yorkat yi itam
+revdelete-suppress|Nëbb xibaar yi yorkat yi tamit.
+revdelete-unsuppress|Far digal yi ci sumb yees delloowaat
+revdelete-log|Ngirte :
+revdelete-submit|Def ko ci sumb bi falu
+revdelete-success|'''Coppiteg gisub sumb bi, baax na.'''
+revdelete-failure|'''Gisub sumb bi manoo koo soppi'''\n~{0}
+logdelete-success|'''Gisub xew-xew bi soppiku na bu baax.'''
+logdelete-failure|'''Gisub yéenekaay bi manoo koo soppi'''\n~{0}
+revdel-restore|Soppi gis bi
+pagehist|Jaar-jaaru xët wi
+deletedhist|Jaar-jaaru far gi
+revdelete-hide-current|Njuumte ci nëbbug cër bi taarixam doon ~{1}, ~{0}: mooy sumb bi teew.\nManeesu koo nëbb.
+revdelete-show-no-access|Njuumte ci woneg cër bi taarixam doon ~{1}, ~{0}: dees koo jàppe niki lees ''digal''.\nManoo cee jot.
+revdelete-modify-no-access|Njuumte ci coppiteg cër bi taariixam doon ~{1}, ~{0}: dees koo jàppe niki lees ''digal''.\nManoo cee dugg.
+revdelete-modify-missing|Njuumte ci coppiteg cër bi xammekaayam doon ~{0}: nekkatul ci dàttub njoxe bi!
+revdelete-no-change|'''Moytul:''' cër bi taarixam doon ~{1}, ~{0} laajoon nañu ba noppi anami gisam.
+revdelete-concurrent-change|Njuumte ci coppiteg cër bi taarixam doon ~{1}, ~{0}: beneen jëfandikukat moo soppi nekkiinam ci jamono ji nga koy jéem a soppi.\nXoolal jaar-jaar yi.
+revdelete-only-restricted|Manoo fare yii cër ci gisu yorkat yi te tànnoo lu bon-bon benn ci yeneen tànneefi far yi.
+revdelete-edit-reasonlist|Soppi ngirtey far gi
+suppressionlog|Yéenekaayu far yi
+suppressionlogtext|Ci suuf, di nga fi gis limu far yeek téye yeek coppite yees nëbb yorkat yi. Xoolal\n[[Special:IPBlockList\u007Climu IP yees téye]] ngir gis IP yees téye nii-nii.
+mergehistory|Booleb jaar-jaar yu aw xët
+mergehistory-header|Wii xët day tax nga man a boole sumb yépp yi ne ci jaar-jaaruw xët (di ko wax it xëtu gongikuwaay) ak jaar-jaaru weneen xët wu mujj.\nwóorluwul ne coppite gi du yaq jaar-jaaru xët wi.
+mergehistory-box|Boole sumbi ñaari xët:
+mergehistory-from|Xëtu gongikuwaay :
+mergehistory-into|Xëtu jëmuwaay :
+mergehistory-list|Jaar-jaar yi boolewu
+mergehistory-merge|Sumb yii di toftal yu [[:~{0}]] man nañ leen boole ak yu [[:~{1}]]. Jëfandikul boyotu tànneef yi ci wet gi ngir boole sumb yépp ba taariix ak waxtu bi nga wax.\n\nSoo jëfandikoo lëkkalekaayu joow yi day neenal boyot yi nga jotoon a fal.
+mergehistory-go|Wone coppite yi boolewu
+mergehistory-submit|Boole jagal yi
+mergehistory-empty|Manuloo boole menn sumb.
+mergehistory-success|~{2} {{PLURAL:~{2}\u007Csumb\u007Csumb}} mu [[:~{0}]] boole {{PLURAL:~{2}\u007Cnañ ko\u007Cnañ leen}} ci jàmm ak [[:~{1}]].
+mergehistory-fail|Booleb jaar-jaar yi antuwul. Falaatal xët wi ak taariix yi
+mergehistory-no-source|Xëtu gongikuwaay bii ~{0} amul.
+mergehistory-no-destination|Xëtu jëmuwaay bii ~{0} amul.
+mergehistory-invalid-source|Xëtu gongikuwaay bi daa war a am koj bu baax.
+mergehistory-invalid-destination|Xëtu jëmuwaay bi daa war a am koj bu baax.
+mergehistory-autocomment|Booleb [[:~{0}]] ak [[:~{1}]]
+mergehistory-comment|Booleb [[:~{0}]] ak [[:~{1}]] : ~{2}
+mergehistory-same-destination|Gongikuwaay ak jëmuwaayu xët yi waruñoo bokk
+mergehistory-reason|Ngirte :
+mergelog|Yéenekaayu boole yi
+pagemerge-logentry|Booleb [[~{0}]] ak [[~{1}]] (sumb ba ~{2})
+revertmerge|Neenal boole yi
+mergelogpagetext|Lii ci suuf ab lim la ci boole yu mujj yu jaar-jaaru aw xët ak weneen .
+history-title|Jaar-jaaru sumbi « ~{0} »
+lineno|Rëdd ~{0} :
+compareselectedversions|Méngale sumb yi nga fal
+editundo|neenal
+diff-multi|({{PLURAL:~{0}\u007Cam sumb mu diggu feeñul\u007C~{0} sumb yu diggu feeñuñu}}.)
+searchresults|Ngértey ceet gi
+searchresults-title|Ngértey ceet gu "~{0}"
+searchresulttext|Ngir yeneeni xibaar ci ceet gi ci {{SITENAME}}, xoolal [[{{MediaWiki:Helppage}}\u007C{{int:help}}]].
+searchsubtitle|Yaa ngi seet « '''[[:~{0}]]''' » ([[Special:Prefixindex/~{0}\u007Cwépp xët wu tambalee "~{0}"]]{{int:pipe-separator}}\n[[Special:WhatLinksHere/~{0}\u007Cwépp xët wu lëkkalook "~{0}"]])
+searchsubtitleinvalid|Yaa ngi seet « ~{0} »
+toomanymatches|Dafa bari ay yem-yem. Soppil laaj bi.
+titlematches|Koju xët yi ñoo yam
+notitlematches|Amul benn koju xët wu yam ak ceet gi
+textmatches|Mbindu jukki yi ñoo yam.
+notextmatches|Amul benn mbindu jukki bu yam ak ceet gi.
+prevn-title|~{0} {{PLURAL:~{0}\u007Cngérte bi jiitu t\u007Cngérte yi jiitu}}
+nextn-title|~{0} {{PLURAL:~{0}\u007Cngérte bi toftal\u007Cngérte yi toftal}}
+shown-title|Wone ~{0} {{PLURAL:~{0}\u007Cngérte\u007Cngérte}} ciw xët
+viewprevnext|Xool (~{0} {{int:pipe-separator}} ~{1}) (~{2}).
+searchmenu-legend|Tànneefi ceet
+searchmenu-exists|'''wenn xët wu tudd « [[:~{0}]] » moo am ci bii wiki'''
+searchmenu-new|'''Sosal xët wii di « [[:~{0}\u007C~{0}]] » ci bii wiki !'''
+searchmenu-prefix|[[Special:PrefixIndex/~{0}\u007CXoolal xët wi tambalee nii]]
+searchprofile-articles|Xëti ëmbiit
+searchprofile-project|Xëti Ndimbal ak Sémb
+searchprofile-images|Barixibaarukaay
+searchprofile-everything|Lépp
+searchprofile-advanced|Ceet gu xóot
+searchprofile-articles-tooltip|Seet ci ~{0}
+searchprofile-project-tooltip|Seet ci ~{0}
+searchprofile-images-tooltip|Seeti dencukaay
+searchprofile-everything-tooltip|Seet fépp (ba ci xëti waxtaanuwaay yi)
+searchprofile-advanced-tooltip|Seet ci barabi tur yi
+search-result-size|~{0} ({{PLURAL:~{1}\u007C1 baat\u007C~{1} baat}})
+search-result-score|Baaxaay: ~{0}%
+search-redirect|(jubluwaat bu jëm ~{0})
+search-section|(xaaj ~{0})
+search-suggest|Xéj-na lii nga doon seet: ~{0}
+search-interwiki-caption|Sémbu niroowaale
+search-interwiki-default|~{0} ngérte :
+search-interwiki-more|(yeneen)
+search-relatedarticle|Yeneeni ngérte
+mwsuggest-disable|Doxadil xelal yu AJAX
+searcheverything-enable|Seet ci barabi tur yépp
+searchrelated|yeneeni ngérte
+searchall|yépp
+showingresults|Woneg <b>~{0}</b> {{PLURAL:~{0}\u007Cngérte\u007Cciy ngérte}} doore ko ci #<b>~{1}</b>.
+showingresultsnum|Woneg <b>~{2}</b> {{PLURAL:~{2}\u007Cngérte\u007Cciy ngérte}} doore ko ci #<b>~{1}</b>.
+nonefound|<strong>Karmat</strong> : ci yenn barabi tur yi rekk lañuy seet cig tëralnjëkk.\nJéemala bindaale ''all'' ngir seet ci biir ëmbit gépp (boolewaale ci xëti waxtaanuwaay yi, royuwaay yi, añs), walla nga jëfandikoo barabu tur bi la neek
+search-nonefound|Ceet gi jurul dara.
+powersearch|Seet
+powersearch-legend|Ceet gu xóot
+powersearch-ns|Seet ci barabi tur yi :
+powersearch-redir|Limu jubluwaat yi
+powersearch-field|Seet
+powersearch-togglelabel|Fal:
+powersearch-toggleall|Yépp
+powersearch-togglenone|Dara
+search-external|Ceet gu biti
+searchdisabled|Ceet gi ci {{SITENAME}} doxul. Ci négandiku doxal gi, man nga seet ci Google. Jàppal ne, xéj-na ëmbiti {{SITENAME}} gi ci bii seetukaay yeesaluñ leen.
+preferences|Tànneef
+mypreferences|Samay tànneef
+prefs-edits|Limu coppite yi:
+prefsnologin|Duggoo
+prefsnologintext|Laaj na nga <span class="plainlinks">[{{fullurl:{{#Special:UserLogin}}\u007Creturnto=~{0}}} dugg]</span> ngir soppi say tànneef.
+changepassword|Coppiteg baatujàll bi
+prefs-skin|Melokaan
+skin-preview|Wonendil
+datedefault|Benn tànneef
+prefs-datetime|Taariix ak waxtu
+prefs-personal|Xibaar yu la ñeel
+prefs-rc|Coppite yu mujj
+prefs-watchlist|Limu toppte
+prefs-watchlist-days|Limu bes yi nga koy ba ci sa limu toppte :
+prefs-watchlist-days-max|Maximum ~{0} {{PLURAL:~{0}\u007Cday\u007Cdays}}
+prefs-watchlist-edits|Limu coppite yi ngay wone ci limu toppte gees yaatal gi:
+prefs-misc|Yeneeni tànneef
+prefs-resetpass|Soppi baatujàll
+prefs-email|Tànneefi m-bataaxal
+saveprefs|Wattu
+resetprefs|Loppanti tànneef yi
+restoreprefs|Delloo say tànneef nañu meloon ca sag mbindu
+prefs-editing|Boyotu coppite
+rows|Rëdd:
+columns|Kenu :
+searchresultshead|Seet
+resultsperpage|Limu ngérte ci xët wu ne :
+recentchangesdays|Limu bes yi nga koy wone ci coppite yu mujj yi :
+recentchangesdays-max|(bi ëpp ~{0} {{PLURAL:~{0}\u007Cbés\u007Cbés}})
+recentchangescount|Limu coppite yi ngay wone ci coppite yu mujj yi cig wàccaale:
+prefs-help-recentchangescount|Dafa ëmb coppite yu mujj, xëti jaar-jaar yeek yéenekaay.
+savedprefs|Say tànneef wattu nañu leen.
+timezonelegend|Waxtuw barab:
+localtime|Waxtuw barab:
+timezoneuseserverdefault|Jëfandikoo waxtuw joxekaay bi
+timezoneuseoffset|Yeneen (waxaaleel wuute gi)
+timezoneoffset|Wuute¹ :
+servertime|Waxtu joxekaay bi :
+guesstimezone|Jëfandikoo waxtuw sa joowukaay
+timezoneregion-africa|Afrig
+timezoneregion-america|Aamerig
+timezoneregion-antarctica|Goxub Dottub bëj-saalum
+timezoneregion-arctic|Goxub Dottub bëj-gànnaar
+timezoneregion-asia|Asi
+timezoneregion-atlantic|Mbàmbulaan gu Atlas
+timezoneregion-australia|Óstraali
+timezoneregion-europe|Tugal
+timezoneregion-indian|Mbàmbulaan gu End
+timezoneregion-pacific|Mbàmbulaan gu Dal
+allowemail|Joxeel ndigël ngir  yeneeni jëfandikukat man laa yónne bataaxal
+prefs-searchoptions|Tànneefi Ceet
+prefs-namespaces|dig-digalub tur
+defaultns|Walla nga seet ci barabi tur yi:
+default|wàccaale
+prefs-files|Dencukaay
+prefs-custom-css|CSS yees jëmmal
+prefs-custom-js|JavaScript yees jëmmal
+prefs-reset-intro|Man ngaa jëfandikoo wii xët ngir delloowaat coppitey say tànneef delloo leen ci yi dal bi wàccaale. Doo ko man a neenal.
+prefs-emailconfirm-label|Dëggalug sa m-bataaxal :
+youremail|Sa màkkaanub m-bataaxal :
+username|Turu jëfandikukat :
+uid|Limu Jëfandikukat :
+prefs-memberingroups|Céru {{PLURAL:~{0}\u007Cmbooloo\u007Cmbooloo yu}} :
+prefs-registration|Taariixu sag mbindu :
+yourrealname|Sa tur dëgg*
+yourlanguage|Làkk :
+yournick|Xaatim ngir say waxtaan :
+badsig|Xaatim gu ñumm gi baaxul; saytul sa yoonub HTML.
+badsiglength|Sa xaatim daa gudd lool, guddaay bi warul romb {{PLURAL:màndarga\u007C~{0} màndarga}}.
+gender-unknown|Waxeesu ko
+gender-male|Góor
+gender-female|Jigéen
+email|Màkkaanub m-bataaxal
+prefs-help-realname|Sa tur dëgg du lu manuta ñakk: soo ko ci bëgge duggal it dañ koy jëfandikoo rek ngir moomale la say cëru.
+prefs-help-email|Sa màkkaanub m-bataaxal du lu manuta ñakk: day tax rek ñu man laa yónne ab bataaxal jaare ko ci sa xëtu jëfandikukat walla yónne la baatujàll bu bees soo ko fattee, te du tax sa màkkaan gisu.
+prefs-help-email-required|Laaj na ab màkkaanub m-bataaxal
+prefs-info|Xibaaari dàtt
+prefs-i18n|Digganteréewal
+prefs-signature|Xaatim
+prefs-dateformat|Melokaanu taariix
+prefs-timeoffset|Wuutey waxtu
+prefs-advancedediting|Tànneef yu xóot
+prefs-advancedrc|Tànneef yu xóot
+prefs-advancedrendering|Tànneef yu xóot
+prefs-advancedsearchoptions|Tànneef yu xóot
+prefs-advancedwatchlist|Tànneef yu xóot
+prefs-displayrc|Tànneefi wonewiin
+prefs-diffs|Wuute
+userrights|Yorug sañ-sañu aji-sos
+userrights-lookup-user|Yorug mboolooy jëfandikukat
+userrights-user-editname|Dugal ab turu jëfandikukat :
+editusergroup|Coppiteg mboolooy Jëfandikukat
+editinguser|Coppiteg sañ-sañi jëfandikukat bii di '''[[User:~{0}\u007C~{0}]]''' ([[User talk:~{0}\u007C{{int:talkpagelinktext}}]] \u007C [[Special:Contributions/~{0}\u007C{{int:contribslink}}]])
+userrights-editusergroup|Soppi mboolooy jëfandikukat
+saveusergroups|Denc mboolooy jëfandikukat yi
+userrights-groupsmember|Cëru mbooloo mu:
+userrights-groups-help|Man ngaa soppi mbooloo yi jëfandikukat bi bokk\n*Boyot bu ci falu day wone ne jëfandikukat bi bokk na ci\n*Boyot bu ci faluwul day wone ne jëfandikukat bi bokku ci\n*Ab * day wone ne manoo koo cee jëlee gannaaw boo ko ci boole, walla safaan wa.
+userrights-reason|Ngirte :
+userrights-no-interwiki|Amoo sañ-sañu soppi sañ-sañi jëfandikukat yi ci yeneen wiki
+userrights-nodatabase|Dàttub njoxe bii « ~{0} » amul walla nekkul ci barab bi.
+userrights-nologin|Faaw nga  [[Special:UserLogin\u007Cdugg]] ak sàqum ab yorkat ngir man a soppi sañ-sañi ab jëfandukukat.
+userrights-notallowed|Sa sàq amul sañ-sañ ngir man a joxi sañ-sañ ab jëfandikukat.
+userrights-changeable-col|Mbooloo yees man a soppi
+userrights-unchangeable-col|Mbooloo yees manuta soppi
+userrights-irreversible-marker|~{0}*
+group|Mbooloo :
+group-user|Jëfandikukat
+group-autoconfirmed|Jëfandikukat bu bindu
+group-bot|Bot
+group-sysop|Yorkat
+group-suppress|Saytukat
+group-all|Yépp
+group-user-member|Jëfandikukat
+group-autoconfirmed-member|Jëfandikukat bu bindu
+group-bot-member|Bot
+group-sysop-member|Yorkat
+group-suppress-member|Saytukat
+grouppage-user|{{ns:project}}:Jëfandikukat
+grouppage-autoconfirmed|{{ns:project}}:Jëfandikukat bu bindu
+grouppage-bot|{{ns:project}}:Bot
+grouppage-sysop|{{ns:project}}:Yorkat
+grouppage-suppress|{{ns:project}}:Saytukat
+right-read|Saytu xët yi
+right-edit|Soppi xët yi
+right-createpage|Sos ay xët (yu doonul xëti diisoowaay)
+right-createtalk|Sos xëti diisoowaay
+right-createaccount|Sos sàqi jëfandikukat yu yees
+right-minoredit|Fésal coppite yi niki yu néewal
+right-move|Tuddewaat ay xët
+right-move-subpages|Tuddewaat ay xët ak seeni ron-xët
+right-move-rootuserpages|Tuddewaat xëti njalbeen yu ay jëfandikukat.
+right-movefile|Tuddewaat ay dencukaay
+right-suppressredirect|Bul sos ab jubluwaat suñu tuddewaatee aw xët
+right-upload|Yebi dencukaay
+right-reupload|War dencukaay bu fi amoon
+right-reupload-own|War dencukaay bu fi amoon, boo yebal sa bopp
+right-reupload-shared|War ci barab bi dencukaay bu ne cib dencu bees bokk
+right-upload_by_url|Yeb ab dencukaay jëlee ko cib màkkaanub URL
+right-purge|Raxas nëbbiitu dal bi te du jar dëggal
+right-autoconfirmed|Soppi xët yees aar-digg
+right-bot|Jàppee ko niki jëfiin ju boppu
+right-nominornewtalk|Bu ñu yónne bataaxal jëfandikukat bi su ñu amalee coppite yu néewal ci xëtu diisoowaayam
+right-apihighlimits|Jëfandikoo dig yu kawe ci laaji APi yi
+right-writeapi|Jëfandikoo API bi cig mbind
+right-delete|Far ay xët
+right-bigdelete|Far ay xët yu seen jaar-jaar bari
+right-deleterevision|Far walla delloosiwaat yenn sumb yu ay xët
+right-deletedhistory|Wone duggiitu jaar-jaar jees far, bu ci seen mbind bokkaale
+right-browsearchive|Seet xët wees far
+right-undelete|Delloosi aw xët
+right-suppressrevision|Xoolaat te delloosiwaat sumb yees nëbb yorkat yi
+right-suppressionlog|Xool yéenekaay yi kenn moom
+right-block|Téye yeneen jëfandikukat ci mbind mi
+right-blockemail|Tere ab jëfandikukat yónney m-bataaxal
+right-hideuser|Téye ab jëfandikukat, nëbbaale ko mbooloo mi
+right-ipblock-exempt|Jéggi IP yees téye, téye yu boppu ak téyey tooli IP
+right-proxyunbannable|Jéggi téye yu proxy yi
+right-protect|Soppi tolluwaayu kaaraange gi te soppi xët yees aar
+right-editprotected|Soppi xët yees aar
+right-editinterface|Soppi jokkalekaayu jëfandikukat bi
+right-editusercssjs|Soppi dencukaay yu CSS ak  JS yu yeneen jëfandikukat
+right-editusercss|Soppi dencukaay yu CSS yu yeneen jëfandikukat
+right-edituserjs|Soppi dencukaay yu JS yu yeneen jëfandikukat
+right-rollback|Loppanti gu gaaw gu coppite yub jëfandikukat bu mujj ci wenn xët wi
+right-markbotedits|Fésal coppite yi niki yu ab bot def
+right-noratelimit|Bu digal ci jëf am njeexiit ci yaw
+right-import|Jéggaani ay xët ci yeneen wiki
+right-importupload|Jéggaani ay xët cib dencukaay bees yeb
+right-patrol|Fésal coppitey ñeneen ñi niki yees fuglu
+right-autopatrol|Am say coppite ñu fésal seen bopp niki yees fuglu
+right-patrolmarks|Wone fésal gi tukke ci fuglug coppite yu mujj
+right-unwatchedpages|Wone limu xët yees toppul
+right-mergehistory|Boole jaar-jaaru xët yi
+right-userrights|Soppi bépp sañ-sañu jëfandikukat bi
+right-userrights-interwiki|Soppi sañ-sañi jëfandikukat yu yeneen wiki
+right-siteadmin|Caabi walla caabeedi dàttub njoxe bi
+right-override-export-depth|génne ay xët yu ëmbi xët yu lëkkaloo ba-ci xóotaay bu tolluwaayam àgg 5
+newuserlogpage|Jëfandikukat yu yees yi
+newuserlogpagetext|Xët wii daf lay won limu sáq yi fi mujjee sosu.
+rightslog|Sañ-sañi jëfandikukat
+rightslogtext|Lii di toftal limu jaar-jaaru coppitey sañ-sañi jëfandikukat yi.
+action-read|jàng wii xët
+action-edit|soppi xët wii
+action-createpage|Sosi xët
+action-createtalk|sos xëti waxtaanuwaay
+action-createaccount|sos mii sàqum jëfandikukat
+action-minoredit|fésal gii coppite niki gu néewal
+action-move|tuddewaat wii xët
+action-move-subpages|tuddewaat wii xët aki ron-xëtam
+action-move-rootuserpages|tuddewaat xët wu njëkk wu ab jëfandikukat
+action-movefile|tuddewaat bii dencukaay
+action-upload|yeb bii dencukaay
+action-reupload|war dencukaay bi fi nekkoon
+action-reupload-shared|war dencukaay bi nekk cib dencu bu ñu bokk
+action-upload_by_url|yeb dencukaay bii jëlee ko cib màkkaanub URL
+action-writeapi|jëfandikoo API bi cig mbind
+action-delete|far wii xët
+action-deleterevision|far bii sumb
+action-deletedhistory|wone jaar-jaar bi ñu far bu wii wët
+action-browsearchive|seet xët yu ñu far
+action-undelete|loppanti wii xët
+action-suppressrevision|wone te loppanti sumb yi nëbbu
+action-block|téye bii jëfandikukat ci mbind mi
+action-protect|soppi tolluwaayu kaaraangeg wii xët
+action-import|jëli wii xët ci beneen wiki
+action-importupload|jëli wii xët ci ŋara wu ñu yeb
+action-patrol|fésal coppite yu yeneen jëfandikukat yi niki yu ñu saytu
+action-autopatrol|fésal say coppite niki yoo saytu
+action-unwatchedpages|wone limu xët yi kenn toppul
+action-mergehistory|boole jaar-jaaru wii xët
+action-userrights|soppi aqi jëfanfikukat yépp
+action-userrights-interwiki|soppi aqi jëfandikukat yu jëfandikukat yu beneen wiki
+action-siteadmin|caabi walla caabeedi dàttub njoxe bi
+nchanges|~{0} {{PLURAL:~{0}\u007Ccoppite\u007Cciy coppite}}
+recentchanges|Coppite yu mujj
+recentchanges-legend|tànneefi coppite yu mujj
+recentchanges-summary|Toppal ci wii xët coppite yu mujj ci {{SITENAME}}.
+recentchanges-feed-description|Toppal coppite yu mujj yu bii wiki.
+recentchanges-label-newpage|Coppite gi sos na xët wu bees
+recentchanges-label-minor|Coppite gu néewal la
+recentchanges-label-bot|Coppite bu ab bot def
+recentchanges-label-unpatrolled|Coppite bii kenn fugloogu ko
+rcnote|{{PLURAL:~{0}\u007CLii mooy coppite bu mujj bees def\u007CYii ñooy coppite yu mujj yees def}} ci {{PLURAL:~{1}\u007Cbés bu mujj bi\u007C<b>~{1}</b> bés yu mujj yi}}; njoxe yi ñoo ngi leen yeesal ~{4} ci ~{3}.
+rcnotefrom|Yii ñooy coppite yi dalee '''~{1}''' (ba '''~{0}''').
+rclistfrom|Wone coppite yi mujj yi dooree ~{0}.
+rcshowhideminor|~{0} Coppite yu néewal
+rcshowhidebots|~{0} bot yi
+rcshowhideliu|~{0} jëfandikukat yu bindu
+rcshowhideanons|~{0} jëfandikukat yu binduwul
+rcshowhidepatr|~{0} coppite bees fuglu
+rcshowhidemine|~{0} samay cëru
+rclinks|Wone ~{0} coppite yi mujj ci ~{1}  fan yi mujj <br />~{2}.
+diff|wuute
+hist|Jaar
+hide|Nëbb
+show|Wone
+minoreditletter|m
+newpageletter|N
+boteditletter|b
+number_of_watching_users_pageview|[{{PLURAL:~{0}\u007Cjëfandikukat moo koy topp\u007C~{0} jëfandikukat ñoo koy topp}}]
+rc_categories|Digalub wàll yi (xaajale leen ak « "\u007C" »)
+rc_categories_any|Yépp
+rc-change-size|~{0}
+newsectionsummary|/* ~{0} */ xaaj bu bees
+rc-enhanced-expand|Xool faramfacce yi (laaj na JavaScript)
+rc-enhanced-hide|nëbb faramfacce yi
+recentchangeslinked|Coppite yi ko ñeel
+recentchangeslinked-feed|Coppite yi ko ñeel
+recentchangeslinked-toolbox|Coppite yi ko ñeel
+recentchangeslinked-title|Coppite yi ñeel ~{0}
+recentchangeslinked-summary|Wii xëtu jagleel moo lay won coppite yu mujj ci xët yi lëkkalook wii. Xët yi ci sa [[Special:Watchlist\u007Climu toppte]] ñoo '''duuf'''.
+recentchangeslinked-page|Turu xët wi :
+recentchangeslinked-to|Wone coppite yi ñeel xët yi lëkkalook xët wi nga joxe
+upload|Yeb ab dencukaay
+uploadbtn|Yeb ŋara wi
+uploadnologin|Duggoo
+uploadnologintext|Faaw nga [[Special:UserLogin\u007Cdugg]] ngir man a yebi ŋara.
+upload_directory_missing|Wayndareb yeb bu (~{0}) nekku fi te joxekaayub web bi manu koo sos.
+upload_directory_read_only|Joxekaayub web bi manuta bind ci wayndareb yeb bu (~{0}).
+uploaderror|Njuumte ci yeb gi
+upload-permitted|Xeeti ŋara yiñ fi nangu : ~{0}.
+upload-preferred|Xeeti ŋara yiñ fi taamu : ~{0}.
+upload-prohibited|Xeeti ŋara yiñ fi tere : ~{0}.
+uploadlog|Dencukaay yiñ fi yeb
+uploadlogpage|Dencukaay yiñ fi yeb
+uploadlogpagetext|Liy toftal limu dencukaay yiñ fi mujje yeb la.\nSaytul [[Special:NewFiles\u007C gaaraluwaayu dencukaay yu yees yi]] ngir gis bu gën a yaatu
+filename|Turu dencukaay bi
+filedesc|Faramfacce
+fileuploadsummary|Faramfacce :
+filereuploadsummary|Coppitey dencukaay bi :
+filestatus|Ay xibaar ci aqi aji-sos :
+filesource|Gongikuwaay :
+uploadedfiles|Dencukaay yiñ fi yeb
+ignorewarning|Tanqamlu dànkaafu bi te dugal dencukaay bi.
+ignorewarnings|tanqamlu bépp dànkaafu
+minlength1|Turu dencukaay bi war na am benn araf lumu néew néew.
+illegalfilename|Turu dencukaay bu « ~{0} » am na ay araf yuñ dul nangu ci boppi xët yi. Jox ko beneen tur te jéemaat ko yeb.
+badfilename|Nataal bi tuddewaat nañ ko « ~{0} ».
+filetype-badmime|Nanguwuñ ku fi yeb xeeti dencukaay yu MIME « ~{0} » .
+filetype-bad-ie-mime|Yebug dencukaay bi antuwul ndax Internet Explorer daf koo jàppe niki « ~{0} », ndax li mu man a doon xeetu  dencukaay bu wóoradi
+filetype-unwanted-type|« .~{0} »''' doon na xeetu dencukaay buñ fi taamuwul.\n{{PLURAL:~{2}\u007Cxeetu dencukaay biñ fi taamu mooy\u007Cxeeti dencukaay yiñ fi taamu ñooy}} ~{1}.
+filetype-banned-type|'''".$1"''' xeetu dencukaay buñ fi nanguwul la.\n{{PLURAL:$3\u007Cbiñ fi nangu mooy\u007Cyiñ fi nangu ñooy}} $2.
+filetype-missing|Dencukaay bi amul genn lawal (niki « .jpg »).
+large-file|Li gën mooy dayoo dencukaay bi bañ a romb ~{0}; bii dencukaay ~{1} la.
+largefileserver|Dayoo dencukaay bi romb na kem bu joxekaay bi attan.
+emptyfile|dencukaay bi nga bëgg a yeb dafa mel ni amul dara. Xéj-na ag njuumte ci turu dencukaay bi moo ko waral. Seetal bu baax ndax dëgg-dëgg bëgg nga yeb bii dencukaay.
+fileexists|Am na dencukaay bu tudd nii ba noppi.\nSaytul <strong>[[:~{0}]]</strong> su dee wóoru la ne bëgg nga koo soppi.\n[[~{0}\u007Cthumb]]
+filepageexists|Xëtu faramfacce bu dencukaay bi sos nañ ko ba noppi ci bii màkkaan <strong>[[:~{0}]]</strong>, waaye amagul dencukaay bu ni tudd nii-nii. Faramfacceg xët wi nga dugal ci diirub yeb gi du feeñ ci xëtu waxtaanuwaay wi. Ngir faramfacce gi feeñ ci xëtu waxtaanuwaay wi faaw nga soppi ko ak sa loxo.
+fileexists-extension|Am na dencukaay bu ni tudd ba noppi: [[~{1}\u007Cthumb]]\n* Turu dencukaay bi ngay yeb : <strong>[[:~{0}]]</strong>\n* Turu dencukaay bi fi am : <strong>[[:~{1}]]</strong>\nTànnal weneen tur.
+fileexists-forbidden|Am na ŋara wu ni tudd ba noppi te mano koo war; Dellul ginnaaw ngir yeb ŋara wi ak weneen tur\n[[File:~{0}\u007Cthumb\u007Ccenter\u007C~{0}]]
+fileexists-shared-forbidden|Am na ŋara wu ni tudd ba noppi ci dencuwaayu ŋara bi ñuy bokk; Dellul ginnaaw ngir yeb ŋara wi ak weneen tur. [[File:~{0}\u007Cthumb\u007Ccenter\u007C~{0}]]
+file-exists-duplicate|ŋara wi ñaaralub {{PLURAL:~{0}\u007C ŋara wii di toftal la\u007C ŋara yii di toftal lañu}} :
+uploadwarning|Moytul !
+savefile|Denc dencukaay bi
+uploadedimage|Yeb na « [[~{0}]] »
+overwroteimage|moo yeb sumb bu bees bu « [[~{0}]] »
+uploaddisabled|Di jéeggalu, yebug dencukaay yi dañ koo doxadilandi.
+uploaddisabledtext|Yebug dencukaay yi dañ koo doxadil.
+uploadscripted|Wii ŋara dafa am yoonug HTML walla ab script bu ab joowukaayub web mana tekke ci anam gu baaxul.
+uploadvirus|Wii ŋara daa am doomu-jangoro! Ngir yeneen xamle, saytul : ~{0}
+sourcefilename|Turu ŋara wi ci cosaan:
+destfilename|Tur bi nga bëgg a jox ŋara wi:
+upload-maxfilesize|Dayoob ŋara wi warul romb: ~{0}
+watchthisupload|Topp dencukaay bii
+filewasdeleted|Dencukaay bu tudd nii yeboon nañ ko fi ba noppi, faraat ko. Saytul ~{0} laataa nga koy yebaat.
+filename-bad-prefix|Turu dencukaay bi ngay yeb moo ngi tambalee '''"$1"''', te muy tur wu nosukaay bi di joxal boppam nataalukaay yi.\nDila ñaan nga tànn tur wuy faramfacce dencukaay bi.
+upload-success-subj|Yeb gi jàll na
+imgfile|Dencukaay
+listfiles|Limu dencukaay
+listfiles_date|Taariix
+listfiles_name|Tur
+listfiles_user|Jëfandikukat
+listfiles_size|Dayoo
+listfiles_description|Faramfacce
+listfiles_count|Sumb
+file-anchor-link|Dencukaay
+filehist|Jaar-jaaru dencukaay bi
+filehist-help|Cuqal cib taariix/waxtu ngir gis ni dencukaay bi meloon ca jamono jooju.
+filehist-deleteall|Far lépp
+filehist-deleteone|Far
+filehist-revert|Delloowaat
+filehist-current|teew
+filehist-datetime|Taariix ak Waxtu
+filehist-thumb|Tuutal
+filehist-thumbtext|Tuutal gu  sumb bu ~{0}
+filehist-user|Jëfandikukat
+filehist-dimensions|Dayoo
+filehist-filesize|Dayoo ŋara wi
+filehist-comment|Saraa
+filehist-missing|Dencukaay bi fi nekkul
+imagelinks|Xët yi am bii dencukaay
+linkstoimage|{{PLURAL:~{0}\u007CXët wii ci suuf ëmb na\u007C~{0} xët yii ci suuf ëmb nañu}} bii dencukaay:
+linkstoimage-more|Lu ëpp ~{0} {{PLURAL:~{0}\u007Cxët lëkkale nañu leen\u007Cxët lëkkale nañu leen}} ak bii dencukaay.\nLim bii di toftal moo lay won {{PLURAL:~{0}\u007Cxët wi ñu njëkk a\u007Cxët yi ñu njëkk a}} lëkkale ak wii.\nAb [[Special:WhatLinksHere/~{1}\u007Clim bu mat]] jàppandi na.
+nolinkstoimage|Amul wenn xët wu ëmb bii dencukaay.
+morelinkstoimage|Xool [[Special:WhatLinksHere/~{0}\u007Cyeneeni lëkkalekaay]] yuy jëme ci bii dencukaay.
+duplicatesoffile|{{PLURAL:~{0}\u007CDencukaay bii\u007C~{0} Dencukaay  yii}} di toftal {{PLURAL:~{0}\u007Cab duppitu\u007Cay duppitu}} bii {{PLURAL:~{1}\u007Cla\u007Clañu}} ([[Special:FileDuplicateSearch/~{1}\u007Cyeneeni faramfacce]])::
+sharedupload|Dencukaay bii ~{0} la bàyyikoo, te man nañu koo jëfandikoo ci yeneen sémb.
+sharedupload-desc-there|Dencukaay bii ~{0} la bàyyikoo te man nañu koo jëfandikoo ci yeneen sémb.\nSaytul [~{1} xëtu faramfaccewaayu dencukaay bii] ngir yeneeni xibaar.
+sharedupload-desc-here|Dencukaay bii ~{0} la bàyyikoo te man nañu koo jëfandikoo ci yeneen sémb.\nFaramfacce gi ci [~{1} xëtu faramfaccewaayu xët wi] lañuy wone ci suuf .
+filepage-nofile|Amul benn dencukaay bu ni tudd.
+filepage-nofile-link|Amul benn dencukaay bu ni tudd, waaye man nga koo [~{0} yeb]
+uploadnewversion-linktext|Yeb sumb bu bees bu bii dencukaay
+shared-repo-from|~{0}
+shared-repo|ab dencu bees bokk
+filerevert|Loppanti ~{0}
+filerevert-legend|Delloowaat dencukaay bi
+filerevert-intro|Yaa ngi waaj a delloowaat dencukaay bii di '''[[Media:~{0}\u007C~{0}]]''' ci  [~{3} sumb bu ~{1} ci ~{2}].
+filerevert-comment|Saraa:
+filerevert-defaultcomment|Sumb bu ~{0} ci ~{1} delloowaat nañu ko
+filerevert-submit|Delloowaat
+filerevert-success|'''[[Media:~{0}\u007C~{0}]]''' delloowaat nañu ko [~{3} ci sumb bu ~{1} ci ~{2}].
+filerevert-badversion|Amul sumb yu jiitu bu bii dencukaay ci taariix bi nga joxe.
+filedelete|Far ~{0}
+filedelete-legend|Far bii dencukaay
+filedelete-intro|Yaa ngi waaj a far dencukaay bii di '''[[Media:~{0}\u007C~{0}]]''' ak jaar-jaaram bépp.
+filedelete-intro-old|Yaa ngi waaj a far sumb bu '''[[Media:~{0}\u007C~{0}]]''' bu  [~{3} ~{1} ci ~{2}].
+filedelete-comment|Ngirte :
+filedelete-submit|Far
+filedelete-success|'''~{0}''' far nañu ko.
+filedelete-success-old|Sumbu '''[[Media:~{0}\u007C~{0}]]''' bu ~{1} ci ~{2} far nañu ko.
+filedelete-nofile|'''~{0}''' amul.
+filedelete-nofile-old|Amul benn sumb bu ñu denc bu '''~{0}''' ak melokaan yi nga joxe.
+filedelete-otherreason|Yeneeni ngirte:
+filedelete-reason-otherlist|yeneeni ngirte
+filedelete-reason-dropdown|* Ngirtey far yi ëpp\n** jalgati aqi aji-sos\n** dencukaay bees ñaaral
+filedelete-edit-reasonlist|Soppi ngirtey far gi
+mimesearch|Seet ci xeeti ëmbiit yii di MIME
+mimesearch-summary|Xët wii dina la may nga man segg xeeti dencukaay yu MIME.\nDuggalal baat bi ci pax mi  ''xeet/''ron-xeet'', ci misaal <code>image/jpeg</code>.
+mimetype|Xeet wu MIME :
+download|yebbi
+unwatchedpages|Xët yees toppul
+listredirects|Limu jubluwaat yi
+unusedtemplates|Royuwaay yees jëfandikoowul
+unusedtemplatestext|Ci wii xët dañ fiy lim xët yépp yi tudd {{ns:template}} yu ñu duggalul ci wenn xët.\nBul fattee seet baxam amul yeneen lëkkalekaay yu lay jëmale ci royuwaay yi balaa nga leen di far.
+unusedtemplateswlh|yeneeni lëkkalekaay
+randompage|Aw xët ci mbetteel
+randompage-nopages|Amul xët {{PLURAL:~{1}\u007C wu barabu turam\u007C yu seen barabu tur}} doon: ~{0}.
+randomredirect|Jubluwaat cig mbetteel
+randomredirect-nopages|Amul benn jubluwaat bu barabu turam doon  « ~{0} ».
+statistics-header-edits|Limbari ñeel coppite yi
+statistics-header-views|Limbari ñeel saytu yi
+statistics-header-users|Limbari ñeel jëfandikukat yi
+statistics-header-hooks|Yeneen limbari
+statistics-files|Xët yees yeb fii
+statistics-edits|Coppitey xët yi dalee ca campug  {{SITENAME}}
+statistics-views-total|Mbooleem saytu yi
+statistics-views-peredit|Saytu ngir soppi
+statistics-users|[[Special:ListUsers\u007CJëfandikukat]] yi bindu
+statistics-users-active|Jëfandikukat yu yëngu
+statistics-users-active-desc|Jëfandikukat yi amal ag yëngu-yëngu ci {{PLURAL:~{0}\u007Cbés bu mujj bi\u007C~{0} bés yu mujj yi}}
+statistics-mostpopular|Xët yees gën a saytu
+disambiguations|Xëti turandoo
+disambiguationspage|Template:turandoo
+disambiguations-text|Xët yii di toftal dañoo ëmb ay lëkkalekaay yuy jëme ciy '''xëti turandoo'''.\nDañoo waroon a jublu ci jukki yu baax. <br />\nXëti turandoo yi ñooy yi ëmb benn ci royuwaay yees def fii [[MediaWiki:Disambiguationspage]]
+doubleredirects|Jubluwaat ñaari yoon
+doubleredirectstext|Wii xët dafa ëmb mbooleem xët yees jubluwaatal ci yeneen xëti jubluwaat.\nRëdd wu ne am na lëkkalekaay buy jëme ci bu njëkk ak ñaareelu jubluwaat bi, ak rëdduw mbind wu njëkk wu ñaareelu jubluwaat bi, biy ëmb xëtu jëmuwaay wu ''baax'' wi, wi jubluwaat bu njëkk bi war a jublu moom itam.
+double-redirect-fixed-move|[[~{0}]] tuddewaat nañu ko.\nLéegi mi ngi jublu [[~{1}]].
+double-redirect-fixer|Jubbantikaayu jubluwaat
+brokenredirects|Jubluwaat yu yaqu
+brokenredirectstext|Jubluwaat yii dañuy jëmee ciy xët yu amul :
+brokenredirects-edit|Soppi
+brokenredirects-delete|far
+withoutinterwiki|Xët yi amul lëkkalekaay diggantey-làkk
+withoutinterwiki-summary|Xët yii amuñu lëkkalekaay yuy jëme ci yeneeni làkk:
+withoutinterwiki-submit|Wone
+fewestrevisions|Jukki yi gën a néewi coppite
+nbytes|~{0} {{PLURAL:~{0}\u007Cbyte\u007Cbyte}}
+ncategories|~{0} {{PLURAL:~{0}\u007Cwàll\u007Cciy wàll}}
+nlinks|~{0} {{PLURAL:~{0}\u007Clëkkalekaay\u007Cciy lëkkalekaay}}
+nmembers|~{0} {{PLURAL:~{0}\u007Cxët\u007Cciy xët}} ci biir
+nrevisions|~{0} {{PLURAL:~{0}\u007Csumb\u007Csumb}}
+nviews|~{0} {{PLURAL:~{0}\u007Cnemmeeku\u007Cnemmeeku}}
+specialpage-empty|Xët wii amul dara
+lonelypages|Xëti jiriim
+lonelypagestext|Xët yiy toftal amuñuy lëkkalekaay yu ne ci yeneen xët yu leen di ubbi te ëmbuwuñu itam ci benn xëtu {{SITENAME}}.
+uncategorizedpages|Xët yi amul wàll
+uncategorizedcategories|Wàll yi amul wàll
+uncategorizedimages|Dencukaay yi amul wàll
+uncategorizedtemplates|Royuwaay yi amul Wàll
+unusedcategories|Wàll yees jëfandikoowul
+unusedimages|Dencukaay yees jëfandikoowul
+popularpages|Xët yees gën a saytu
+wantedcategories|Wàll yi ñu gën a laaj
+wantedpages|Xët yi ñu gën a laaj
+wantedpages-badtitle|Koj bu baaxul bu nekk ci ngérte yi : ~{0}
+wantedfiles|Ŋara yi ñu gën a soxla
+wantedtemplates|Royuwaay yi ñu laaj
+mostlinked|Xët yi ñu gën a lëkkale
+mostlinkedcategories|Wàll yi ñu gën a jëfandikoo
+mostlinkedtemplates|Royuwaay yi ñu gën a jëfandikoo
+mostcategories|Jukki yi ëpp yiy jëfandikooy wàll
+mostimages|Ŋara yi ñu gën a jëfandikoo
+mostrevisions|Jukki yi ñu gën a soppi
+prefixindex|wépp xët wu tambalee
+shortpages|Xët yu gàtt
+longpages|Xët yu gudd
+deadendpages|Xët yi amul génnuwaay
+deadendpagestext|Xët yii di toftal lëkkaloowuñu ak wenn xët ci bii wiki
+protectedpages|Xët yi ñu aar
+protectedpages-indef|Yi ñu aarandi rekk
+protectedpagestext|Xët yii di toftal dañu leen aar, maneesu leen soppi walla tuddewaat
+protectedpagesempty|Nii-nii amul wenn xët wu ñu aar ci gii anam
+protectedtitles|Koj yi ñu aar
+protectedtitlestext|Maneesul a sos ay xët ak koj yi ñu lim fii
+protectedtitlesempty|Nii-nii amul benn koj bu ñu aar ci gii anam.
+listusers|Limu jëfandikukat yi
+listusers-editsonly|Wone jëfandikukat yi am ay cëru
+usercreated|Ñoo ngi ko sos  ~{0} ci ~{1}
+newpages|Xët yu yees
+newpages-username|Jëfëndikookat :
+ancientpages|Jukki yi gënë néew ay coppite ci lu mujj
+move|Tuddewaat
+movethispage|Tuddewaat xët wi
+unusedimagestext|Jàppal ne yeneeni dal man nañoo ami lëkkalekaay yuy jëme ci yii dencukaay, kon ab dencukaay man nañu koo jàppe niki bees jëfandikoowul te fekk na ab dalub biti moo ngi koy jëfandikoo.
+unusedcategoriestext|Wàll yii toftal, nekk nañu wante amuñu benn jukki walla wàll ci seen biir.
+notargettitle|Njoxe yi matuñu
+notargettext|Waxoo ci wan xët walla ci ban jëfandikukat ngay amal solo sii.
+nopagetitle|Xëtu jubluwaay wi amul
+nopagetext|Xët jubluwaay wi nga laaj amul.
+pager-newer-n|{{PLURAL:~{0}\u007Cgën a bees\u007C~{0} yi gën a yees}}
+pager-older-n|{{PLURAL:~{0}\u007Cgën a yàgg\u007C~{0} yi gën a yàgg}}
+suppress|Saytu
+booksources|Téereb delluwaay
+booksources-search-legend|Seet ab téereb delluwaay
+booksources-isbn|ISBN :
+booksources-go|Ayca
+booksources-text|Lii ab lima ay lëkkalekaay la yu jëme ciy dal yu biti yuy jaayi téere yu yees ak yu magget, man nga faa ami xibaar ñeel téere yi ngay seet:
+booksources-invalid-isbn|ISBN bi nga joxe mel na ni baaxul; xoolal bu baax ndax defoo ag njuumte ci bi nga koy duppi ca gongikuwaayam.
+specialloguserlabel|Jëfandikukat :
+speciallogtitlelabel|Koj :
+log|Yéenekaay
+all-logs-page|Yéenekaay mbooloo yépp
+alllogstext|Wone gees boole gu mbooleem yéenekaayu {{SITENAME}}.\nMan ngaa wàññi wone gi soo tànnee ab yéenekaay, turu jëfandikukat, walla xët wu mu laal (ñaar ñépp dañuy yëg tolluwaayu mbind mi) .
+logempty|Dara nekkul ci jaar-jaaru xët wii.
+log-title-wildcard|Seet ay koj yu tambalee mii mbind
+alphaindexline|~{0} ba ~{1}
+allpagesfrom|Wone xët yi tambalee ci:
+allpagesto|Wone xët yi ba :
+allarticles|Xët yépp
+allinnamespace|Xët yépp(turu barab bu ~{0})
+allnotinnamespace|Xët yépp (génne ci barabu tur bu ~{0})
+allpagesprev|Jiitu
+allpagesnext|Toftal
+allpagessubmit|Ayca
+allpagesprefix|Wone xët yi tambalee :
+allpagesbadtitle|Koj bi nga bindal xët wii baaxul. xéj-na dafa am ay araf yu ñu manula jëfandikoo cib koj.
+allpages-bad-ns|Barabu tur bii di « ~{0} » amul ci {{SITENAME}}.
+categoriespagetext|{{PLURAL:~{0}\u007CWàll wiy\u007CWàll yiy}} toftal {{PLURAL:~{0}\u007Cdafa ëmb \u007Cdañoo ëmb}} ay xët walla xibaarukaay.\n[[Special:UnusedCategories\u007CWáll yu këmm]] yi wonewuñu leen fi.\nXoolal itam [[Special:WantedCategories\u007Cwàll yi ñuy laaj]].
+categoriesfrom|Wone wàll yi dalee ko ci :
+special-categories-sort-count|nosee lim
+special-categories-sort-abc|nosee abajada
+deletedcontributions|Cëru yees far
+deletedcontributions-title|Cëru yees far
+sp-deletedcontributions-contribs|cëru
+linksearch|Lëkkalekaay yu biti
+linksearch-pat|Kaddu yi ngay seet :
+linksearch-ns|Barabu tur:
+linksearch-ok|Seet
+linksearch-line|~{0} moo ngi ci xët wii di ~{1}
+listusersfrom|Wone jëfandikukat yi doore ko ci:
+listusers-submit|Wone
+listusers-noresult|Benn jëfandikukat giseesu ko
+listusers-blocked|(téyees)
+activeusers|Limu jëfandikukat yu yëngu
+activeusers-count|~{0} coppite {{PLURAL:~{1}\u007Cbu mujj\u007Cyu mujj}}
+activeusers-from|Wone jëfandikukat yi dalee ko ci:
+activeusers-noresult|Benn jëfandikukat giseesu ko
+listgrouprights|Sañ-sañi mbooloom jëfandikukat mi
+listgrouprights-summary|Lii di toftal mooy limu mboolooy jëfandikukat yi ne ci bii wiki, ak sañ-sañ yi ñu leen féetaleel.\nMan ngaa fee gis itam [[{{MediaWiki:Listgrouprights-helppage}}\u007Cyeneen xibaar]] ñeel sañ-sañi mbooloo mu ci nekk.
+listgrouprights-key|* <span class="listgrouprights-granted">Sañ-sañ yees joxe</span>\n* <span class="listgrouprights-revoked">Sañ-sañ yees nangu</span>
+listgrouprights-group|Mbooloo
+listgrouprights-rights|Sañ-sañ
+listgrouprights-helppage|Help:Sañ-sañi mbooloo yi
+listgrouprights-members|(limu cër yi)
+listgrouprights-addgroup|Man ngaa yokk {{PLURAL:~{1}\u007Cmbooloo mi\u007Cmbooloo yi}} : ~{0}
+listgrouprights-removegroup|Man ngaa far {{PLURAL:~{1}\u007Cmbooloo mi\u007Cmbooloo yi}}: ~{0}
+listgrouprights-addgroup-all|Man ngaa yokk ci mbooloo yépp
+listgrouprights-removegroup-all|Man ngaa faree ci mbooloo yépp
+listgrouprights-addgroup-self|Man ngaa yokk {{PLURAL:~{1}\u007Cmbooloo mi\u007Cmbooloo yi}} ci sa sàq : ~{0}
+listgrouprights-removegroup-self|Man ngaa far {{PLURAL:~{1}\u007Cmbooloo mi\u007Cmbooloo yi}} ci sa sàq: ~{0}
+listgrouprights-addgroup-self-all|Man ngaa yokk mbooloo yépp ci sa sàq
+listgrouprights-removegroup-self-all|Man ngaa far mbooloo yépp ci sa sàq
+mailnologin|Amul benn mákkaan boo man a yónne bataaxal bi
+mailnologintext|Ngir man a yónney bataaxal laaj na nga [[Special:UserLogin\u007Cdugg]] te it am ab màkkaanub m-bataaxal bu baax ci say [[Special:Preferences\u007Ctànneef]].
+emailuser|Bind bii jëfandikukat
+emailpage|Yónne ab m-bataaxal bii jëfandikukat
+usermailererror|Njuumte ci koju m-bataaxal bi
+defemailsubject|M-bataaxalu {{SITENAME}}
+noemailtitle|Amul mákkaanub m-bataaxal
+noemailtext|Bii jëfandikukat joxewul ab màkkaanub m-bataaxal bu baax.
+nowikiemailtitle|Amul m-bataaxal bees nangu
+nowikiemailtext|Bii jëfandikukat dafa tànn bañ yeneen jëfandikukat yi yónne koy m-bataaxal.
+email-legend|Yónne ab m-bataaxal beneen jëfandikukatu {{SITENAME}}
+emailfrom|Yónnekat:
+emailto|Jotkat:
+emailsubject|Koj:
+emailmessage|Bataaxal��:
+emailsend|Yónne
+emailccme|Yónne ab duppiit ci sama màkkaan.
+emailccsubject|Duppiitu bataaxal bi nga yónne ~{0}: ~{1}
+emailsent|Bataaxal yees yónne
+emailsenttext|Sa bataaxal yónne nañu ko.
+emailuserfooter|~{0} moo yónne bii bataaxal ~{1} jaare ko ci solo su "Yónne ab bataaxal bii jëfandikukat" ci {{SITENAME}}.
+watchlist|Limu toppte
+mywatchlist|Limu toppte
+nowatchlist|Sa limu toppte amul benn jukki.
+watchlistanontext|Ngir mana gis walla soppi jëfkayu sa limu toppte, faw nga  ~{0}.
+watchnologin|Duggoo de
+watchnologintext|Yaa wara nekk [[Special:UserLogin\u007Cduggal]] ngir soppi lim gi.
+addedwatchtext|Xët wii di « [[:~{0}]] » yokk nañu ko ci sa [[Special:Watchlist\u007Climu toppte]].\nCoppite yiy ñëw yu xët wi ak xëtu waxtaanuwaay wi mu àndal di nañu leen fa dugal, dañula koy won mu '''duuf''' ci [[Special:RecentChanges\u007Climu coppite yu mujj yi]] ngir xammee gi yomb.
+removedwatchtext|Xët wii di « [[:~{0}]] » jële nañu ko ci sa [[Special:Watchlist\u007Climu toppte]].
+watch|Topp
+watchthispage|Topp xët wii
+unwatch|Bul toppati
+unwatchthispage|Bul toppati
+watchlist-details|Topp nga ~{0} {{PLURAL:~{0}\u007Cxët\u007Cciy xët}}, soo waññiwaalewul xëti waxtaanuwaay yi.
+wlheader-showupdated|Xët yi ñu soppiwoon ca sa duggu bu mujj ñoom la ñu fesal ñu <b>xëm</b>
+watchmethod-recent|saytug coppite yu mujj yu xët yi ngay topp
+watchmethod-list|saytug xët yi ñuy topp ngir ay coppite yu mujj
+watchlistcontains|Sa limu toppte am na '''~{0}''' {{PLURAL:~{0}\u007Cxët\u007Cxët}}.
+iteminvalidname|Ay jafe-jafe ak xët wii di « ~{0} » : tur bi baaxul.
+wlnote|Fii ci suuf {{PLURAL:~{0}\u007C ngay gis coppite yu mujj yi\u007Cngay gis ~{0} coppite yu mujj}} ci {{PLURAL:~{1}\u007Cwaxtu gu mujj gi\u007C<b>~{1}</b> waxtu yu mujj}}.
+wlshowlast|wone ~{0} waxtu yu mujj, ~{1} bess yu mujj, walla ~{2}.
+watchlist-options|Tànneefi limu toppte bi
+watching|Topp...
+unwatching|Farug toppte gi ...
+enotif_reset|Fésal xët yépp niki yoo nemmeeku ba noppi
+enotif_impersonal_salutation|Jëfandikukat bu {{SITENAME}}
+enotif_lastvisited|Nemmeekul ~{0} ngir gis bépp coppite dale ba sa nemmeku gu mujj.
+enotif_lastdiff|Xoolal ~{0} ngir gis gii coppite.
+enotif_anon_editor|Jëfandikukat bu binduwul ~{0}
+created|sosu na
+changed|soppi
+deletepage|Far xët wi
+confirm|Dëggal
+excontent|ëmbitam doonoon « ~{0} »
+excontentauthor|ëmbitam doonoon: « ~{0} » te kenn ki ci cëru doonoon « [[Special:Contributions/~{1}\u007C~{1}]] »
+exbeforeblank|ëmbitam laataa far gi : ~{0}
+exblank|xët wi amul dara
+delete-confirm|Far « ~{0} »
+delete-legend|Far
+historywarning|Moytul! xët wi ngay waaja far am na jaar-jaar :
+confirmdeletetext|Yaa ngi waaja far ba faaw, ci dáttub njoxe bi, aw xët walla ab nataal ak jaar-jaaram. Dila ñaan nga dëggal ne loolu nga namma def dëgg-dëgg, te xam nga limuy jur, te itam dëppoo na ak átte yi ñu tëral ci [[{{MediaWiki:Policy-url}}]].
+actioncomplete|Jëf jees def
+deletedtext|« ~{0} » far nañu ko.\nXolal ~{1} ngir gis limu farte bi mujj.
+dellogpage|Jaar-jaaru farte bi
+dellogpagetext|Li toftal ab limu farte yi mujj la.
+deletionlog|jaar-jaaru  farte bi
+reverted|Loppanti ci sumb mi weesu
+deletecomment|Ngirte :
+deleteotherreason|Yeneeni ngirte :
+deletereasonotherlist|Yeneeni ngirte
+deletereason-dropdown|*Ngirtey farte yi gëna bari\n** Aji-sos jee ko deflu\n** Jalgati aqi aji-sos\n** Caay-caay
+delete-edit-reasonlist|Soppi ngirtey farte gi
+delete-toobig|Xët wii dafa am jaar-jaar bu bari, bu weesu ~{0} {{PLURAL:~{0}\u007Csumb\u007Csumb}}. Farteg yooyule xët dañu koo digal ngir bañ ay jafe-jafe yu mana am ci doxinu {{SITENAME}}.
+delete-warning-toobig|Xët wii dafa am jaar-jaar bu bari, bu weesu ~{0} {{PLURAL:~{0}\u007Csumb\u007Csumb}}. Seenug farte man naa jur ag jaxasoo ci dáttub njoxeeb {{SITENAME}} ; def ko ak teey.
+rollback|Loppanti coppite yi
+rollback_short|Loppanti
+rollbacklink|delloowaat
+rollbackfailed|Loppanti gi antuwul
+cantrollback|Neenal coppite gi manula nekk;\nKi def coppite gi mooy Kenn ki masa cëru ci xët wii.
+alreadyrolled|Loppantig coppite gu mujj gu xët wii di « [[:~{0}]] » manula nekk, ki ko def di [[User:~{1}\u007C~{1}]] ([[User talk:~{1}\u007CWaxtaan]]{{int:pipe-separator}}[[Special:Contributions/~{1}\u007C{{int:contribslink}}]]);\nam na keneen ku jota soppi walla loppanti xët wi.\n\nKi mujje soppi xët wi mooy [[User:~{2}\u007C~{2}]] ([[User talk:~{2}\u007CWaxtaan]]{{int:pipe-separator}}[[Special:Contributions/~{2}\u007C{{int:contribslink}}]]).
+editcomment|Tënkug coppite gi mooy: « ''~{0}'' ».
+revertpage|Loppantig coppite gu [[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007CWaxtaan]]) dello ko ci sumb mu [[User:~{0}\u007C~{0}]]
+rollback-success|Ki loppanti mooy ~{0} ;\nKi ko dello ci sumb mu mujj mi mooy ~{1}.
+sessionfailure|Dafa mel ne sa dugg gi am na ay tolof-tolof ;\nNoste gi téye na sag dugg ngir wattu kaaraange.\nDi la ñaan nga dellu ginnaaw te yesalaat xët wa jóge, te jéemaat
+protectlogpage|Jaar-jaaru aar yi
+protectlogtext|Lii di toftal ab limu xët yi ñu aar ak yi ñu aaradi la.\nnemmeekul [[Special:ProtectedPages\u007Climu xët yi ñu aar]] ngir gis ab lim ci xët yi ñu aar nii-nii.
+protectedarticle|moo aar « [[~{0}]] »
+modifiedarticleprotection|moo soppi tolluwaayu kaaraange gu « [[~{0}]] »
+unprotectedarticle|moo aaradi « [[~{0}]] »
+movedarticleprotection|moo jële kaaraange gi ci « [[~{1}]] » jëmale ko « [[~{0}]] »
+protect-title|Soppi tolluwaayu kaaraange gu « [[~{0}]] »
+prot_1movedto2|[[~{0}]] leegi mooy [[~{1}]]
+protect-legend|Dëggalal aar gi
+protectcomment|Ngirte :
+protectexpiry|Jeexintal :
+protect_expiry_invalid|Waxtub njeextal bi baaxul.
+protect_expiry_old|Waxtub njeextal bi weesu na.
+protect-text|Fii man nga fee gise ak soppi tolluwaayu kaaraange gu wii xët '''~{0}'''.
+protect-locked-blocked|Manoo soppi tolluwaayu kaaraange gi su ñu la téyee.\nNii la xët wi tëdde '''~{0}''' :
+protect-locked-access|Sa sàq amul sañ-sañ yu mat ba man a soppi tolluwaayu kaaraangeg xët wi.\nNii-nii kocc-koccalu xët wii ñooy '''~{0}''':
+protect-cascadeon|Xët wii dees koo aar ndax limu ëmbu {{PLURAL:~{0}\u007Cci xët wiy toftal wees aar\u007Cci xët yiy toftal yees aar}} ak kaaraangeg toftaloo. Man ngaa soppi tolluwaayu kaaraangeg xët wi, waaye du am njeexiit ci kaaraangeg toftaloo gi
+protect-default|Sañal jëfandikukat yépp
+protect-fallback|Laaj na sañ-sañ bii di « ~{0} »
+protect-level-autoconfirmed|Téye jëfandikukat yu binduwul ak yu yees yi
+protect-level-sysop|Yorkat yi rekk
+protect-summary-cascade|toftaloo
+protect-expiring|Njeexte: ~{0} (UTC)
+protect-expiry-indefinite|ba faaw
+protect-cascade|Aaraale xët yi ne ci wii (kaaraange cig toftaloo)
+protect-cantedit|Manoo soppi tolluwaayu kaaraange gu wii xët , ndax amoo sañ-sañ yu doy ngir soppi ko
+protect-othertime|Beneen app:
+restriction-type|Sañ-sañ:
+restriction-level|Tolluwaayu yamale gi :
+minimum-size|Dayoo bi gëna tuuti
+maximum-size|Dayoo bi gëna rëy:
+restriction-edit|Soppi
+restriction-move|Tuddewaat
+restriction-create|Sos
+restriction-upload|Yeb
+restriction-level-sysop|karaange gu mat
+restriction-level-autoconfirmed|kaarange gu diggu
+restriction-level-all|bépp tolluwaay
+undelete|Xool xët yi ñu far
+undeletepage|Xool te loppanti xët yi ñu far
+undeletepagetitle|'''Lim biy toftal dafa ëmb sumb yi faru yu [[:~{0}\u007C~{0}]]'''.
+viewdeletedpage|Xool xët yi ñu far
+undeletepagetext|{{PLURAL:~{0}\u007Cxët wii dañ koo far, waaye moo ngi dencu ba tay, manees na koo loppanti\u007Cxët yii dañ leen far, waaye ñoo ngi dencu ba tay, manees na leen loppanti}}. Dencu bi man nañu koo wëyëŋal ci benn diir bi
+undelete-fieldset-title|Loppanti sumb yi
+undelete-nodiff|Giseesul benn sumb bu weesu.
+undeletebtn|Delloowaat
+undeletelink|Wone/delloowaat
+undeleteviewlink|wone
+undeletereset|Neenal
+undeleteinvert|Jallarbi fal gi
+undeletecomment|Tënk :
+undeletedrevisions|~{0} {{PLURAL:~{0}\u007Cdelloowaat nañ ab sumb\u007Cdelloowaat nañ ~{0} sumb}}
+undeletedrevisions-files|~{0} {{PLURAL:~{0}\u007Csumb\u007Csumb}} ak ~{1} {{PLURAL:~{1}\u007Cŋara\u007Cŋara}} loppanti nañu leen
+undeletedfiles|{{PLURAL:~{0}\u007C1 dencukaay\u007C~{0} dencukaay}} lañu delloowaat
+cannotundelete|Delloowaat gi antuwul. Xéj-na keneen delloowaat na ko ba noppi.
+undeletedpage|'''Xët wii di ~{0} delloowaat nañu ko.'''\n\nSaytul [[Special:Log/delete\u007Cjaar-jaaru far bi]] ngir xool far yi ak delloowaat yu mujj yi.
+undelete-header|Saltul [[Special:Log/delete\u007Cjaar-jaaru far bi ]] ngir xool far yi mujj.
+undelete-search-box|Seet xët wu ñu far
+undelete-search-prefix|Wone xët yi tambalee :
+undelete-search-submit|Seet
+undelete-no-results|Amul wenn xët wu yem ak li ngay seet.
+undelete-filename-mismatch|Neenalug far gu sumb mu ~{0} antuwul: ŋara wi gisuwul
+undelete-bad-store-key|Neenalug far gu sumb mu ~{0} : ŋara wi jàppandiwul woon laataa far gi.
+undelete-cleanup-error|Njuumte ci farug ŋaraw dencu wu ñu jëfandikuwul « ~{0} ».
+undelete-missing-filearchive|Loppantig ŋaraw dencu wu xameekaayam doon ~{0} antuwul, ndax nekkul ci dáttub njoxe bi.\nXéj-na keeneen loppanti na ko ba noppi
+undelete-error-short|Njuumte ci loppantig ŋara wu: ~{0}
+undelete-error-long|Njuumte ci jéem gee neenal farug dencukaay bi:\n\n~{0}
+undelete-show-file-confirm|Ndax wóor na ne bëgg ngaa wone sumb bees far bu bii dencukaay "<nowiki>~{0}</nowiki>" bu ~{1} ci ~{2}?
+undelete-show-file-submit|Waaw
+namespace|Barabu tur :
+invert|Jallarbi fal gi
+contributions|Cëruy bii jëfandikukat
+contributions-title|Cëru yu jëfandikukat bii di ~{0}
+mycontris|Samay cëru
+contribsub2|Ngir ~{0} (~{1})
+nocontribs|Amul benn coppite bu melokaanoo nii bu ñu gis.
+uctop|(bi mujj)
+month|Tambali ci weeru (ak yi jiitu) :
+year|Tambali ci atum (ak yi jiitu) :
+sp-contributions-newbies|Wone cëru yu jëfandikukat yu yees yi rekk
+sp-contributions-newbies-sub|yu jëfandikukat yu yees yi
+sp-contributions-newbies-title|Cëru yu jëfandikukat yu yees yi
+sp-contributions-blocklog|Jaar-jaaru téye yi
+sp-contributions-deleted|cëru yi ñu far
+sp-contributions-logs|Yéenekaay
+sp-contributions-talk|waxtaan
+sp-contributions-userrights|Yorug sañ-sañi jëfandikukat yi
+sp-contributions-search|Seet ay cëru
+sp-contributions-username|Makkaanu IP walla turu jëfandikukat :
+sp-contributions-submit|Seet
+whatlinkshere|Xët yi mu lëkkalool
+whatlinkshere-title|Xët yi lëkkalook wii « ~{0} »
+whatlinkshere-page|Xët :
+linkshere|Xët yii ci suuf am nañ ab lëkkalekaay buy jëm <b>[[:~{0}]]</b> :
+nolinkshere|Amul wenn xët wu lëkkalook wii <b>[[:~{0}]]</b>.
+nolinkshere-ns|Amul wenn xët wu lëkkalook wii '''[[:~{0}]]''' ci barabu tur bi nga tànn.
+isredirect|Xëtu jubluwaat
+istemplate|mboole
+isimage|lëkkalekaayu nataal bi
+whatlinkshere-prev|{{PLURAL:~{0}\u007Cwi jiitu\u007C~{0} yi jiitu}}
+whatlinkshere-next|{{PLURAL:~{0}\u007Cwi toftal\u007C~{0} yi toftal}}
+whatlinkshere-links|← lëkkalekaay
+whatlinkshere-hideredirs|~{0} jubluwaat
+whatlinkshere-hidetrans|~{0} mboole
+whatlinkshere-hidelinks|~{0} lëkkalekaay
+whatlinkshere-hideimages|~{0} lëkkalekaayi nataal
+whatlinkshere-filters|Seggukaay
+blockip|Téyeb jëfandikukat
+blockip-legend|Téye jëfandikukat bi
+ipadressorusername|Màkkaanu IP walla turu jëfandikukat:
+ipbexpiry|Diiru téye gi
+ipbreason|Ngirte :
+ipbreasonotherlist|Yeneeni ngirte
+ipbreason-dropdown|* Ngirtey téye yi ëpp\n** Ag caay-caay\n** Dugalub xibaar yu dëgguwul\n** Farug ëmbitu ay xët\n** Dugalub lëkkalekaay ngir yëgle ay dal\n** Dugalub ëmbit yu amul-njariñ\n** Di jéem a xiixaan walla di xuloo ak nit ñi\n** Ëppal ci sosi sàq yu bari\n** Turu jëfandikukat buñu fi nanguwul
+ipbcreateaccount|Tere sosug yeneeni sàq
+ipbemailban|Tere jëfandikukat bi yónne ay m-bataaxal
+ipbenableautoblock|Téye ci saa si màkkaanu IP bi mu mujje jëfandikoo, ak yeneen yi muy jëfandikoo-ji ngir amali coppite
+ipbsubmit|Téye bii jëfandikukat
+ipbother|Beneen diir:
+ipboptions|2 waxtu:2 hours,1 fan:1 day,3 fan:3 days,1 ayubés:1 week,2 ayubés:2 weeks,1 weer:1 month,3 weer:3 months,6 weer:6 months,1 at:1 year,ba-faaw:infinite
+ipbotheroption|beneen
+ipbotherreason|Yeneeni ngirte/faramfacce:
+ipbhidename|Nëbb turu jëfandikukat bi ci coppite yeek lim yi
+ipbwatchuser|Topp xëtu jëfandikukat ak bu waxtaanuwaay bu bii jëfandikukat
+ipb-change-block|Téyewaat bii jëfandikukat ak yii anam
+badipaddress|Màkkaanu IP bi baaxul.
+blockipsuccesssub|Téye gi antu na
+blockipsuccesstext|[[Special:Contributions/~{0}\u007C~{0}]] dees koo téye.<br />\nXoolal [[Special:BlockList\u007Climu IP yees téye]] ngir gis ñees téye ñépp.
+ipb-edit-dropdown|Soppi ngirtey téye gi
+ipb-unblock-addr|Téyedi ~{0}
+ipb-unblock|Téyedi ab turu jëfandikukat walla ab màkkaanub IP
+ipb-blocklist|Xool téye yi teew
+ipb-blocklist-contribs|Cëru yu ~{0}
+unblockip|Téyedi jëfandikukat bi
+ipusubmit|Far gii téye
+unblocked|[[User:~{0}\u007C~{0}]] dees koo téye
+unblocked-id|Téye gu ~{0} far nañu ko
+ipblocklist|Màkkaanu IP ak jëfandikukat yees Téye
+ipblocklist-legend|Seet jëfandikukat bees téye
+ipblocklist-submit|Ceet
+infiniteblock|Ba-faww
+expiringblock|jeex ~{0} ci ~{1}
+anononlyblock|Alaxam rek
+noautoblockblock|Téye gu boppu doxadi na
+createaccountblock|Téyeg sosug sàq mi
+emailblock|m-bataaxal bees téye
+blocklist-nousertalk|Du man a soppi xëtu waxtaanuwaayam
+ipblocklist-empty|Limu ñees téye ñi amul dara.
+ipblocklist-no-results|Màkkaanu IP walla turu jëfandikukat bi nga laaj du bees téye.
+blocklink|Téye
+unblocklink|téyedi
+change-blocklink|soppi téye gi
+contribslink|cëru
+autoblocker|Dañ la téye ndax sa màkkanu IP « ~{0} » moo ko mujje jëfandikoo. Li waral téyeg ~{0} mooy ne : « ~{1} ».
+blocklogpage|Jaar-jaaru téye yi
+blocklogentry|moo téye « [[~{0}]] » - ci diirub : ~{1} ~{2}
+reblock-logentry|moo soppi anami téye gu [[~{0}]] ak diirub njeextal bu ~{1} ~{2}
+blocklogtext|Lii ab lim la ci téye ak téyedi yu jëfandikukat yi. Màkkaani IP yi ñu téye cig boppal limuñu leen fi. yëral [[Special:BlockList\u007Climu jëfandikukat yiñ téye]] ngi gis ñi ñu téye nii-nii.
+unblocklogentry|moo téyedi « ~{0} »
+block-log-flags-anononly|jëfandikukat yi binduwul rek
+block-log-flags-nocreate|Tere nañ sa sosum sàq
+block-log-flags-noautoblock|Téye gu boppu yu IP yi doxadi na
+block-log-flags-noemail|m-bataaxal yi téye nañ leen
+block-log-flags-nousertalk|Du man a soppi xëtu waxtaanuwaayam
+block-log-flags-angry-autoblock|téye gu boppu gu xóot gi dox na
+block-log-flags-hiddenname|Turu jëfandikukat bees nëbb
+range_block_disabled|Man gee téye ay mboolooy IP jàppandiwul nii-nii
+ipb_expiry_invalid|Diirub jeexintalu téye gi baaxul
+ipb_expiry_temp|Danki jëfandikukat yi nëbbu dañu wara doon yuy jeex.
+ipb_hide_invalid|Maneesul a far mii sàq; dafa mel ne ay coppiteem dañoo bari lool.
+ipb_already_blocked|Jëfandikukat bi « ~{0} » dañ ko téye ba noppi
+ipb-needreblock|~{0} dañu koo téye ba noppi.\nDangaa bëgg a soppi anam yi?
+ipb_cant_unblock|Njuumte: téyeg ~{0} gisuwul. Xéj-na dañ kaa téyedi ba noppi.
+ipb_blocked_as_range|Njuumte: màkkaan mi ~{0} téyewuñ ko moom kase, kon doo ko man téyedi. Ci mbooloom ~{1} la bokk, faww nga téyedi mbooloo mépp.
+ip_range_invalid|Mbooloom IP mi baaxul.
+blockme|Téye ma
+proxyblocker|Téyekatu yóbbantekat
+proxyblocker-disabled|Bii solo doxul.
+proxyblockreason|Dañ téye sa IP ndax dadi ab yóbbantekat bu ubbeeku. Di la ñaan nga jublu ci sa ki la jox internet yegge ko jafe-jafeb kaaraange bi.
+proxyblocksuccess|Jàll na.
+sorbsreason|Sa màkkaanu IP dañ ko limaale niki ab yóbbantekat bu ubbeeku ci DNSBL bi {{SITENAME}} di jëfandikoo.
+sorbs_create_account_reason|Sa màkkaanu IP dañ ko limaale niki ab yóbbantekat bu ubbeeku ci DNSBL bi {{SITENAME}} di jëfandikoo. Kon sag mbindu du mana nekk.
+cant-block-while-blocked|Manoo di téye yeneen jëfandikukat ci diir bi ñu la téye.
+lockdb|Caabi dàttub njoxe bi
+unlockdb|Caabeedi dàttub njoxe bi
+lockdbtext|Caabi dàttub njoxe bi day tax ba benn jëfandikukat du man a soppi aw xët walla sos weneen, soppi ay tànneefam ak xët yi muy topp, cig matale du man a def lenn luy laaj coppiteg dàttub njoxe bi. Di la ñaan nga dëggal ne lii nga bëgg a def dëgg-dëgg, te nga caabeedi ko soo noppee ci sa liggéey.
+unlockdbtext|Caabeedi dàttub njoxe bi day tax ba bépp jëfandikukat man a soppi aw xët walla sos weneen, soppi ay tànneefam ak xët yi muy topp, cig matale, man a def lépp luy laaj coppiteg dàttub njoxe bi. Di la ñaan nga dëggal ne lii nga bëgg a def dëgg-dëgg.
+lockconfirm|Waaw, dàttub njoxe bi laa bëgg a caabi
+unlockconfirm|Waaw, dàttub njoxe bi laa bëgg a caabeedi.
+lockbtn|Caabi dàttub njoxe bi
+unlockbtn|Caabeedi dàttub njoxe bi
+locknoconfirm|Cuqoo ci néegu dëggal bi.
+lockdbsuccesssub|Caabig dàttub njoxe bi jàll na.
+unlockdbsuccesssub|Caabi ju dàttub njoxe bi far nañu ko
+lockdbsuccesstext|Dàttub njoxe bi caabi nañu koo.<br />\nBul fattee [[Special:UnlockDB\u007Cdindi caabi ji]] soo noppee ci sa liggéey.
+unlockdbsuccesstext|Caabeedi nañu dàttub njoxe bi.
+lockfilenotwritable|Maneesul a bind ci dencukaayub caabi bi.\nNgir caabi walla caabeedi dàttub njoxe bi, laaj na joxekaayub web bi man cee bind.
+databasenotlocked|Kenn caabiwul dàttub njoxe bi
+move-page|Tuddewaat ~{0}
+move-page-legend|Tuddewaat aw xët
+movepagetext|Bii palanteeru coppite dafay tax a man a tuddewaat aw xët, toppale jaar-jaaram bépp ci tur wu bees wi.\nXët wu yàgg wa dafay jublu wu bees wi.\nMan ngaa def ba xët yi jubluwoon  wu yàgg wa  yeesal seen bopp, jublu koj wu bees wi.\nSoo taamoo bañ koo def, saytul baxam sosul [[Special:DoubleRedirects\u007Cñaari jubluwaat]] walla [[Special:BrokenRedirects\u007Cjubluwaat bu baaxul]].\nKiy tuddewaat moo sasoo saytu baxam lëkkalekaay yaa ngi jëme fees njort mu jëme fa.\n\nJàppal ne xët wi '''duñu''' ko man a tuddewaat weneen tur wu am ba noppi, amaana muy wu këmm walla wu jubluwaat te amul benn jaar-jaar bu weesu.\nLii mooy tax nga man a dellu ci koj wu njëkk wu aw xët su tuddewaat gi antuwulee, te maneesul bind-ci-kaw wenn xëtt wu am ba noppi cig njuumte.\n\n'''MOYTUL'''\nJii jëf jees foogeewul man naa juri coppite ciy xët yees di saytu lu bari;\nwóorluwul bu beex ne nand nga njeexiti jëf ji laataa ngay wéy.
+movepagetalktext|Xëtu waxtaanuwaay wi mu àndal di na tuddewaat boppam, lu dul:\n*Aw xët wu këmmul am ci wii tur wu bees, walla\n*boyot bi toftal faladi nees ko.\n\nCi yii anam, faww nga tuddewaat walla yokk wii xëtu waxtaanuwaay ak sa loxo, su la neexee.
+movearticle|Tuddewaatal jukki bi
+movenologintext|Ngir man a tuddewaat aw xët, da ngaa war a [[Special:UserLogin\u007Cdugg]] ni jëfëndikookat bu bindu te saw sàq war naa am yaggaa bi mu laaj.
+movenotallowed|Amoo sañ-sañu tuddewaat xët yi.
+movenotallowedfile|Amoo sañ-sañu tuddewaat dencukaay yi.
+cant-move-user-page|Amoo sañ-sañu tuddewaat xëti jëfandikukat yi (ba mu des ron-xët yi).
+cant-move-to-user-page|Amoo sañ-sañu tuddewaat aw xët jëme ko ciw xëtu jëfandikukat (ba mu des ron-xëti jëfandikukat yi)
+newtitle|Koj bu bees
+move-watch|Topp xët wii
+movepagebtn|Tuddewaat xët wi
+pagemovedsub|Tuddewaat gi antu na
+movepage-moved|'''« ~{0} »''' lañu tuddewaat '''« ~{1} »'''
+movepage-moved-redirect|Sosees na ab jubluwaat
+movepage-moved-noredirect|Sosug ab jubluwaat far nañu ko.
+articleexists|Am na ba noppi ab jukki bu am bii koj, walla koj bi nga tànn baaxul. tànnal bennen.
+cantmove-titleprotected|Toppale xët wi du man a nekk ndax tur wu bees wi dañu koo aar njëkk ngir bañ ag sosoom.
+talkexists|'''Toppaleb xët wi antu na, waaye xëtu waxtaanuwaay wi mu andaloon toppalewu ko, ndax nekk na fi ak weneen koj wu bees. Faaw nga boole leen ak sa loxo'''
+movedto|Turam bu bees
+movetalk|Tuddewaat tamit xëtu waxtaanukaay wi mu andal
+move-subpages|Tuddewaat ron-xët yi (ba ~{0})
+move-talk-subpages|Tuddewaat ron-xëti xëti waxtaanuwaay yi (ba ~{0})
+movepage-page-exists|Xët wii di ~{0} am na ba noppi te maneesul a bind ci kawam cig boppu
+movepage-page-moved|Xët wii di ~{0} lees tuddewaat ~{1}
+movepage-page-unmoved|Xët wii di ~{0} maneesu koo tuddewaat ~{1}
+movepage-max-pages|Lim bi gën-a-bari bu ~{0} {{PLURAL:~{0}\u007Cxët\u007Cxët}} lees tuddewaat te maneesul a tuddewaat yeneen cig boppu.
+movelogpage|Jaar-jaaru tuddewaat yi
+movelogpagetext|Lii mooy limu xët yees mujje tuddewaat.
+movesubpage|{{PLURAL:~{0}\u007Cron-xët\u007Cron-xët}}
+movesubpagetext|Wii xët am na ~{0} ron-xët di yii ci suuf.
+movenosubpage|Wii xët amul ron-xët
+movereason|Ngirte :
+revertmove|delloowaat
+delete_and_move|Far te tuddewaat
+delete_and_move_text|== Laajub far ==\nXët wi nga joge niki àgguwaay « [[:~{0}]] » am na fi.\nDëgg-dëgg namm nga koo far ngir tuddewaat gi mana antu?
+delete_and_move_confirm|Waaw, faral xët wi
+delete_and_move_reason|Far nañu ko ngir mana amal tuddewaat gi
+selfmove|Koj bu njëkk ba ak bu mujj bi ñoo yam;\nManoo tudewaat aw xët ci wenn tur wi.
+immobile-source-namespace|Manoo tuddewaat xët yi ci barabu tur bu « ~{0} »
+immobile-target-namespace|Manoo toppale ay xët ci biir barabu tur bu « ~{0} »
+immobile-target-namespace-iw|Ab lëkkalekaayub diggantewiki manuta nekk kojuw xët.
+immobile-source-page|Xët wii kenn manuta soppi turam.
+immobile-target-page|Xët wii manoo koo jox wii tur.
+export|Génne ay xët
+export-addcattext|Yokkal xëti Wàll gi :
+export-addcat|Yokk
+allmessagesname|Turu tool bi
+allmessagescurrent|Bataaxal bi fi nekk
+allmessagestext|Lii mo'y limu bataaxal yëpp yi am ci biir MediaWiki
+tooltip-pt-userpage|Sa xëtu jëfandikukat
+tooltip-pt-anonuserpage|Xëtu jëfandikukat wu bii màkkaanu IP
+tooltip-pt-mytalk|Sa xëtu waxtaanuwaay
+tooltip-pt-anontalk|Xëtu diisoowaay wu bii màkkaanu IP
+tooltip-pt-preferences|Say tànneef
+tooltip-pt-watchlist|Limu xët yi ngay topp
+tooltip-pt-mycontris|Limu say cëru
+tooltip-pt-login|Woo nan la ngir nga xammeku, waaye doonul lu manuta ñakk.
+tooltip-pt-anonlogin|woo nan la ngir nga xammeku, waaye doonul lu manuta ñakk.
+tooltip-pt-logout|Génn
+tooltip-ca-talk|Waxtaan yi ñeel xët wii
+tooltip-ca-edit|Man ngaa soppi xët wi. Ngir yàlla wonendil laataa ngay denc.
+tooltip-ca-addsection|Tambali xaaj bu bees
+tooltip-ca-viewsource|Xët wii dañ koo aar. Waaye man ngaa xool ëmbitam.
+tooltip-ca-history|Sumb yi weesu yu xët wi.
+tooltip-ca-protect|Aar xët wii
+tooltip-ca-delete|Far xët wii
+tooltip-ca-undelete|Loppanti xët wi mu dellu mel na mu meloon laataa far gi
+tooltip-ca-move|Tuddewaatal xët wii
+tooltip-ca-watch|Yokk xët wii ci sa limu toppte
+tooltip-ca-unwatch|Jële xët wii ci sa limu toppte
+tooltip-search|Seet ci biir {{SITENAME}}
+tooltip-search-go|Dem ci xët wi tudd ni nga wax, su dee am na.
+tooltip-search-fulltext|Seet xët yi ëmb kàddu gi
+tooltip-p-logo|Xët wu njëkk
+tooltip-n-mainpage|Nemmeeku xëtu njëlbéen
+tooltip-n-mainpage-description|Nemmeku xët wu njëkk wi
+tooltip-n-portal|Ngir xam dara ci mbiri sémb bi, noo ci mana jàppe
+tooltip-n-currentevents|Xibaar ci xew-xew yu teew yi
+tooltip-n-recentchanges|Limu coppite yi mujj ci wiki bi
+tooltip-n-randompage|Wone aw xët ci mbetteel
+tooltip-n-help|Xëtu ndimbal wi
+tooltip-t-whatlinkshere|limu xët yi ci wiki bi yi lëkkalook wii
+tooltip-t-recentchangeslinked|Limu coppite yu mujj yu xët yi lëkkalook wii
+tooltip-feed-rss|Walug RSS ngir wii xët
+tooltip-feed-atom|Walug Atom ngir wii xët
+tooltip-t-contributions|Xool limu cëru bu bii jëfandikukat
+tooltip-t-emailuser|Yónne ab m-bataaxal bii jëfandikukat
+tooltip-t-upload|Yeb ay dencukaay
+tooltip-t-specialpages|Limu xëti jagleel yépp
+tooltip-t-print|Sumb bu móolu bu xët wii
+tooltip-t-permalink|Lëkkalekaay bu sax buy jëme ci bii sumb bu xët wi
+tooltip-ca-nstab-main|Xool jukki bi
+tooltip-ca-nstab-user|Xool xëtu jëfandikukat wi
+tooltip-ca-nstab-media|Xool xëtu dencukaay wi
+tooltip-ca-nstab-special|Lii aw xëtu jagleel la, kenn manu kaa soppi.
+tooltip-ca-nstab-project|Xool xëtu sémb wi
+tooltip-ca-nstab-image|Xool xëtu dencukaay wi
+tooltip-ca-nstab-mediawiki|Xool bataaxalu noste bi
+tooltip-ca-nstab-template|Xool royuwaay gi
+tooltip-ca-nstab-help|Xool xëtu ndimbal wi
+tooltip-ca-nstab-category|Xool xëtu wàll wi
+tooltip-minoredit|Fésal samay coppite niki yu néewal
+tooltip-save|Wattu say coppite
+tooltip-preview|Jërëjëf ci nga wonendi say coppite balaa nga leen di denc!
+tooltip-diff|Ngir xool coppite yi nga amal ci mbind mi.
+tooltip-compareselectedversions|Xool wuute gi ne ci diggante ñaari sumb yi falu yu xët wi.
+tooltip-watch|Yokk xët wii ci sa limu toppte
+tooltip-recreate|Sosaat xët wi donte dañ kaa faroon
+tooltip-upload|Door yeb gi
+tooltip-rollback|"Delloowaat" dafay neenal coppitey cërukat bi mujj ci xët wii ci benn cuq.
+tooltip-undo|"Neenal" dafay far coppite yi te ubbi palanteeru coppite bi ci anamug wonendi.\nDafay tax nga man a bind ngirte li ci boyotu tënk bi.
+common.css|/* CSS yiñ def fii dañuy am ay njeexit ci col yépp  */
+cologneblue.css|/* CSS yiñ def fii dañuy am ay njeexit ci jëfandikukatu col gu Cologne Blue */
+monobook.css|/* CSS yiñ def fii dañuy am ay njeexit ci jëfandikukatu col gu Monobook. */
+modern.css|/* CSS yiñ def fii dañuy am ay njeexit ci jëfandikukatu col gu Modern */
+common.js|/* Bépp JavaScript buñ fi duggal, xët yéppa koy yeb ak jëfandikukat bumu manti doon. */
+cologneblue.js|/* Bépp JavaScript buñ fi duggal jëfandikukat yiy jëfandikoo col gu Cologne Blue keppa koy yeb */
+monobook.js|/*Bépp JavaScript buñ fi duggal jëfandikukat yiy jëfandikoo col gu Monobook keppa koy yeb. */
+modern.js|/* Bépp JavaScript buñ fi duggal jëfandikukat yiy jëfandikoo col gu Modern keppa koy yeb */
+notacceptable|Bii joxekaay bu wiki manuta jébbal ay njoxe cib kem bu sa client mana jàng.
+anonymous|Benn walla ay jëfandikukat yu binduwul yu {{SITENAME}}
+siteuser|~{0}, Jëfandikukatu {{SITENAME}}
+lastmodifiedatby|~{2} moo mujje soppi xët wi ci ~{0}, ci ~{1}.
+othercontribs|Mi ngi dàttu ci liggéeyu ~{0}.
+others|yeneen
+siteusers|~{0}, Jëfandikukat yu {{SITENAME}}
+creditspage|Way-sos yu xët wi
+nocredits|Amul benn xibaar ci way-sos yi ju jàppandi ngir wii xët.
+spamprotectiontitle|Seggukaay lank-spam
+spam_reverting|Loppantib sumb mu mujj mu amul lëkkalekaay buy jëme ~{0}
+spam_blanking|Setal nañ wecc sumb yi amoon lëkkalekaay buy jëme ~{0}
+previousdiff|← Coppite yi gën a yàgg
+nextdiff|Coppite yi mujj →
+file-info|Réyaayu file bi : ~{0}, type MIME : ~{1}
+file-info-size|~{0} × ~{1} pixels, réyaayu file bi : ~{2}, type MIME : ~{3}
+file-nohires|Amul kem bu ëpp bii bu jàppandi.
+svg-long-desc|Dencukaay SVG, kem bu jaadu  ~{0} × ~{1} pixel, dayoo dencukaay bi: ~{2}
+show-big-image|Ngandalal nataal gii
+ilsubmit|Seet
+bydate|ci diir
+bad_image_list|Limu  cër yi nekk ci rëdd yi tàmbalee * rekk lees di faale.\nLëkkalekaay bu njëkk bu aw rëdd dafa war a nekk bu ab dencukaay bu baaxul.\nLëkkalekaay yiy toftal, ci wenn rëdd wi, dees leen di jàppee nikiy sette, maanaam xët yi dencukaay bi man a feeñ.
+metadata|Jégginjoxe
+metadata-help|Bii dencukaay dafa ami xibaar yees ci yokk, xéj-na nataalukaay bu waaraame walla waaraamalekaay bees jëfandikoo moo leen ci yokk. Su fekkee soppees na xar-kanamu dencukaay bi, yenn ci fàramfacce ñeel ko manees nañoo bañ a dëppook li am.
+metadata-expand|Wone faramfacce yi
+metadata-collapse|Nëbb faramfacce yi
+metadata-fields|Tool yi ñu jagleel jégginjoxe yu EXIF yi ñu lim ci wii xët di nañu leen wone ci xëtu nataal wi suñu waññee àlliwa bu jegginjoxe yi.\n* make\n* model\n* datetimeoriginal\n* exposuretime\n* fnumber\n* isospeedratings\n* focallength\n* artist\n* copyright\n* imagedescription\n* gpslatitude\n* gpslongitude\n* gpsaltitude
+exif-imagewidth|Yaatuwaay
+exif-imagelength|Kawewaay
+exif-usercomment|Kadduy jëfëndikookat bi
+exif-componentsconfiguration-0|Amul
+edit-externally|Soppi xët wii ak ab tëriin bu biti
+edit-externally-help|Xoolal [//www.mediawiki.org/wiki/Manual:External_editors tegtali camp gi] ngir yeneeni xamle
+watchlistall2|yépp
+namespacesall|Yépp
+monthsall|Yépp
+confirmemail|Dëggalal sa m-bataaxal
+confirmemail_noemail|Jooxewoo ab m-bataaxal bu baax ci say [[Special:Preferences\u007Ctànneef]].
+confirmrecreate|Jëfëndikookat bii [[User:~{0}\u007C~{0}]] ([[User talk:~{0}\u007CWaxtaan]]) moo dindi xët wii, nga xam ne tambaliwoon nga koo defar, ngir ngirte lii :\n: ''~{1}''\nDëgëlël ni bëgg ngaa sakkaat xët wii.
+autoredircomment|Jubluwaat fii [[~{0}]]
+autosumm-new|Xët wu bees : ~{0}
+watchlistedit-numitems|Sa xëtu toppte am na {{PLURAL:~{0}\u007Caw xët\u007C~{0} ciy xët}}, soo ci gennee xëtu waxtaanukaay yi
+watchlistedit-noitems|Sa limu toppte amul benn xët.
+watchlistedit-normal-title|Coppiteg xëtu toppte gi
+watchlistedit-normal-legend|Dindi ay xët yi limu toppte gi
+watchlistedit-normal-explain|xët yu sa limu toppte ñooy gisu fii ci suuf.\nNgir dindi am xët (ak xëtu waxtaanukaayam) ci lim gi, kligal ci néeg moomu ci wetam te nga klig ci suuf.\nMan nga tamit  [[Special:EditWatchlist/raw\u007Csoppi ko]].
+watchlistedit-normal-submit|Dindi xët yi nga tann
+watchlistedit-normal-done|{{PLURAL:~{0}\u007CDindi nañ am xët\u007C~{0} ciy xët dindi nañ leen}} ci sa limu toppte :
+watchlistedit-raw-title|Coppiteg limu toppte gi
+watchlistedit-raw-legend|Coppiteg limu toppte gi
+watchlistedit-raw-explain|Limu xët yi nekk ci sa limu toppte moo nekk ci suuf, xëtu waxtaan yi nekku ñu ci(ñoo  ciy duggal seen bopp). Man ngaa soppi lim gi: yokk ci xët yi nga bëgg a topp, am xët ci rëdd mu ne, ak dindi xët yi nga bëggtul a topp. Soo noppee, kligal ci suuf ngir yeesal lim gi. Man nga tamit jëfëndikoo  [[Special:EditWatchlist\u007CSoppikaay gu mak gi]].
+watchlistedit-raw-titles|Xët :
+watchlistedit-raw-submit|Yeesal lim gi
+watchlistedit-raw-done|Sa limu toppte yeesal nañ ko.
+watchlistedit-raw-added|{{PLURAL:~{0}\u007CYokk nañ ci aw xët\u007C~{0} ciy xët lañ fi yokk}} :
+watchlistedit-raw-removed|{{PLURAL:~{0}\u007CDindi nañ am xët\u007C~{0} ciy xët dindi nañ leen}} :
+watchlisttools-view|Limu toppte
+watchlisttools-edit|Xool te soppi limu toppte gi
+watchlisttools-raw|Soppi lim gi
+specialpages|Xëti jagleel
+revdelete-restricted|doxalub digal ngir yorkat yi
+revdelete-unrestricted|digal ngir yorkat yi deñ na
+rightsnone|(menn)
+wikieditor-toolbar|Banqaasu jumtukaayu coppite
+wikieditor-toolbar-desc|Banqaasu jumtukaayu coppite bees gënal ag jëfandikoom
+wikieditor-toolbar-preference|Doxal banqaasu jumtukaayu coppite bees gënal bi
+wikieditor-toolbar-dialogs-preference|Doxal palanteeri duggaluwaayu lëkkalekaay, xaatim ak yeneen
+wikieditor-toolbar-loading|Ci yoonu yeb...
+wikieditor-toolbar-tool-bold|Duuf
+wikieditor-toolbar-tool-bold-example|Mbind mu duuf
+wikieditor-toolbar-tool-italic|Weng
+wikieditor-toolbar-tool-italic-example|Mbind mu weng
+wikieditor-toolbar-tool-ilink|Lëkkalekaay bu biir
+wikieditor-toolbar-tool-ilink-example|Koju lëkkalekaay bi
+wikieditor-toolbar-tool-xlink|Lëkkalekaay bu biti (fattalikul http://)
+wikieditor-toolbar-tool-xlink-example|http://www.example.com koju lëkkalekaay bi
+wikieditor-toolbar-tool-link|Lëkkalekaay
+wikieditor-toolbar-tool-link-title|Duggal lëkkalekaay
+wikieditor-toolbar-tool-link-int|Jëme ciw xëtu wiki
+wikieditor-toolbar-tool-link-int-target|Koju xët wi
+wikieditor-toolbar-tool-link-int-text|Mbindu lëkkalekaay bi
+wikieditor-toolbar-tool-link-ext|Jëme ciw xëtu web wu biti
+wikieditor-toolbar-tool-link-ext-target|URL bu lëkkalekaay bi:
+wikieditor-toolbar-tool-link-ext-text|Mbindu lëkkalekaay bi:
+wikieditor-toolbar-tool-link-insert|Duggal ab lëkkalekaay
+wikieditor-toolbar-tool-link-cancel|Neenal
+wikieditor-toolbar-tool-link-int-target-status-exists|Xët wu am
+wikieditor-toolbar-tool-link-int-target-status-notexists|Xët wi amul
+wikieditor-toolbar-tool-link-int-target-status-invalid|Koj bu baaxul
+wikieditor-toolbar-tool-link-int-target-status-loading|Caytug amug xët wi...
+wikieditor-toolbar-tool-link-int-invalid|koj bi nga joxe baaxul.
+wikieditor-toolbar-tool-link-lookslikeinternal|URL bi nga joxe dafa nirook lëkkalekaay buy jëme ci beneen wiki. Danga koo namm a def lëkkalekaay bu biir?
+wikieditor-toolbar-tool-link-lookslikeinternal-int|Lëkkalekaay bu biir
+wikieditor-toolbar-tool-link-lookslikeinternal-ext|Lëkkalekaay bu biti
+wikieditor-toolbar-tool-link-empty|Duggaloo dara lees man a lëkkale
+wikieditor-toolbar-tool-file|Dencukaay bees roofaale
+wikieditor-toolbar-tool-file-example|Misaal.jpg
+wikieditor-toolbar-tool-reference|Delluwaay
+wikieditor-toolbar-tool-reference-example|Duggalal fii mbindu karmat gi
+wikieditor-toolbar-tool-signature|Xaatim ak taariix
+wikieditor-toolbar-section-advanced|Xóot
+wikieditor-toolbar-tool-heading|Koj
+wikieditor-toolbar-tool-heading-1|Tolluwaay 1
+wikieditor-toolbar-tool-heading-2|Tolluwaay 2
+wikieditor-toolbar-tool-heading-3|Tolluwaay 3
+wikieditor-toolbar-tool-heading-4|Tolluwaay 4
+wikieditor-toolbar-tool-heading-5|Tolluwaay 5
+wikieditor-toolbar-tool-heading-example|Mbindu koj bi
+wikieditor-toolbar-group-format|Lim
+wikieditor-toolbar-tool-indent|Xise
+wikieditor-toolbar-tool-big|Rëy
+wikieditor-toolbar-tool-big-example|Mbind mu rëy
+wikieditor-toolbar-tool-small|Tuuti
+wikieditor-toolbar-tool-small-example|Mbind mu tuuti
+wikieditor-toolbar-tool-superscript|Tiimaan
+wikieditor-toolbar-tool-superscript-example|Mbind ci tiimaan
+wikieditor-toolbar-tool-subscript|Suufaan
+wikieditor-toolbar-tool-subscript-example|Mbind ci suufaan
+wikieditor-toolbar-group-insert|Roof
+wikieditor-toolbar-tool-gallery|Gaaraluwaayu  nataal
+wikieditor-toolbar-tool-gallery-example|~{0}:Misaal.jpg\u007CFaramfacce1\n~{0}:Misaal.jpg\u007CFaramfacce2
+wikieditor-toolbar-tool-newline|Rëdd wu bees
+wikieditor-toolbar-tool-table|Xaatim
+wikieditor-toolbar-tool-table-example-old|-\n! koj 1\n! koj 2\n! koj 3\n\u007C-\n\u007C rëdd 1, keno 1\n\u007C rëdd 1, keno 2\n\u007C rëdd 1, keno 3\n\u007C-\n\u007C rëdd 2, keno 1\n\u007C rëdd 2, keno 2\n\u007C rëdd 2, keno 3
+wikieditor-toolbar-tool-table-example-cell-text|Mbindum kër gi
+wikieditor-toolbar-tool-table-example-header|Mbindum koj bi
+wikieditor-toolbar-tool-table-title|Roof ab xaatim
+wikieditor-toolbar-tool-table-dimensions-rows|Rëdd
+wikieditor-toolbar-tool-table-dimensions-columns|Keno
+wikieditor-toolbar-tool-table-dimensions-header|Duggalaale rëdduw kaw-xët
+wikieditor-toolbar-tool-table-wikitable|Meliin ak wet yi
+wikieditor-toolbar-tool-table-sortable|Def xaatim bi nosuwu
+wikieditor-toolbar-tool-table-example|Mbindum kër gi
+wikieditor-toolbar-tool-table-preview|Wonendi
+wikieditor-toolbar-tool-table-insert|Roof
+wikieditor-toolbar-tool-table-cancel|Neenal
+wikieditor-toolbar-tool-table-toomany|Maneesula roofub xaatim bu weesu ~{0} kër ak bii jumtukaay.
+wikieditor-toolbar-tool-table-invalidnumber|Duggaloo limub rëdd walla keno bu baax.
+wikieditor-toolbar-tool-table-zero|Manoo roofub xaatim bu amul rëdd walla keno
+wikieditor-toolbar-tool-replace|Seet te wuutu
+wikieditor-toolbar-tool-replace-title|Seet te wuutal
+wikieditor-toolbar-tool-replace-search|Seet:
+wikieditor-toolbar-tool-replace-replace|Wuutal ak:
+wikieditor-toolbar-tool-replace-case|Tollale dayoo
+wikieditor-toolbar-tool-replace-button-findnext|Gis bi toftal
+wikieditor-toolbar-tool-replace-button-replaceall|Wuutal yépp
+wikieditor-toolbar-tool-replace-close|Neenal
+wikieditor-toolbar-tool-replace-nomatch|Sa ceet gi jurul dara
+wikieditor-toolbar-tool-replace-success|~{0} wuutu lees def
+wikieditor-toolbar-tool-replace-emptysearch|Waxoo looy seet.
+wm-license-information-description|Faramfacce
+wm-license-information-source|Gongikuwaay
+sitesupport|Joxe ag ndimbal
+']:>
+).lang
+;

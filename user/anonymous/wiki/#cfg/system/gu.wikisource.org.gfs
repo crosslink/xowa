@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('પૃષ્ઠ', 'પૃષ્ઠ_ચર્ચા', 'સૂચિ', 'સૂચિ_ચર્ચા');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('પૃષ્ઠ', 'પૃષ્ઠ_ચર્ચા', 'સૂચિ', 'સૂચિ_ચર્ચા');
+// wiki.xtns.pages.end

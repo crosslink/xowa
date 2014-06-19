@@ -1,0 +1,1041 @@
+this
+.fallback_load('es')
+.ns_names
+  .load_text(
+<:['
+-2|Medya
+-1|Especial
+1|Diskusyón
+2|Usador
+3|Messaje de Usador
+5|Diskusyón de $1
+6|Dosya
+7|Diskusyón de Dosya
+8|MedyaViki
+9|Diskusyón de MedyaViki
+10|Xablón
+11|Diskusyón de Xablón
+12|Ayudo
+13|Diskusyón de Ayudo
+14|Kateggoría
+15|Diskusyón de Kateggoría
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+-1|Especial
+1|Discusión
+2|Usuario
+3|Usuario Discusión
+5|$1 Discusión
+6|Archivo
+7|Archivo Discusión
+9|MediaWiki Discusión
+10|Plantilla
+11|Plantilla Discusión
+12|Ayuda
+13|Ayuda Discusión
+14|Categoría
+15|Categoría Discusión
+-2|Meddia
+1|Diskussión
+2|Empleador
+3|Message de Empleador
+5|Diskussión de $1
+6|Dossia
+7|Diskussión de Dossia
+9|Diskussión de Xabblón
+10|Xabblón
+11|Diskusyón de Xabblón
+13|Diskussión de Ayudo
+14|Katēggoría
+15|Diskusyón de Katēggoría
+']:>
+).lang
+.specials
+  .clear
+  .load_text(
+<:['
+Activeusers|UsadoresAktivos
+Allmessages|TodosLosMessajes
+Allpages|TodasLasHojas
+Ancientpages|HojasViejas
+Blankpage|VaziarHoja
+Block|Bloquear
+Blockme|Bloquearme
+Booksources|FuentesDeLivros
+BrokenRedirects|DireksionesBozeadas
+Categories|Katēggorías
+ChangePassword|TrocarKóddiche
+ComparePages|KompararHojas
+Confirmemail|AverdadearLetral
+Contributions|Àjustamientos
+CreateAccount|KrîarCuento
+Deadendpages|HojasSinAtamientos
+DeletedContributions|AjustamientosEfassados
+Disambiguations|Apartamiento_de_senso
+DoubleRedirects|DireksionesDobles
+EditWatchlist|TrocarLista_de_Akavidamiento
+Emailuser|MandarLetralUsador
+Export|AktarearAfuera
+Fewestrevisions|MankoEddisyones
+FileDuplicateSearch|BuscarDosyasDobles
+Filepath|Pozisyón_de_dosya
+Import|AktarearAriento
+Invalidateemail|DesverdadearLetral
+BlockList|UsadoresBloqueados
+LinkSearch|Busqueda_de_atamientos
+Listadmins|ListaDeAdministradores
+Listbots|ListaDeBotes
+Listfiles|ListaDosyas
+Listgrouprights|DerechosGruposUsadores
+Listredirects|TodasLasDireksyones
+Listusers|ListaUsadores
+Lockdb|BloquearBasa_de_dados
+Log|Rējistro
+Lonelypages|HojasHuérfanas
+Longpages|HojasLargas
+MergeHistory|ÀjuntarÎstoria
+MIMEsearch|BuscarPorMIME
+Mostcategories|MásKateggorizadas
+Mostimages|DosyasLoMásMunchoLinkeadas
+Mostlinked|HojasLoMásMunchoLinkeadas
+Mostlinkedcategories|KatēggoríasMásUsadas
+Mostlinkedtemplates|XablonesMásUsados
+Mostrevisions|MásEddisyones
+Movepage|TaxirearHoja
+Mycontributions|MisÀjustamientos
+Mypage|MiHoja
+Mytalk|MiDiskusyón
+Myuploads|MisCargamientos
+Newimages|MuevasDosyas
+Newpages|HojasMuevas
+PasswordReset|Meter_á_zero_el_kóddiche
+PermanentLink|AtamientoPermanente
+Popularpages|HojasMásVisitadas
+Preferences|Preferencias
+Prefixindex|Fijhrist_de_prefiksos
+Protectedpages|HojasGuardadas
+Protectedtitles|TítůlosGuardados
+Randompage|KualunkeHoja
+Randomredirect|KualunkeDireksyón
+Recentchanges|TrocamientosFreskos
+Recentchangeslinked|TrocamientosÈnterassados
+Revisiondelete|EfassarRēvizyón
+Search|Buscar
+Shortpages|HojasKurtas
+Specialpages|HojasEspesyales
+Statistics|Estatistika
+Tags|Etiketas
+Unblock|Desblokea
+Uncategorizedcategories|KatēggoríasNoKateggorizadas
+Uncategorizedimages|DosyasNoKateggorizadas
+Uncategorizedpages|HojasNoKateggorizadas
+Uncategorizedtemplates|XablonesNoKateggorizados
+Undelete|TraerAtrás
+Unlockdb|DesblokearBasa_de_dados
+Unusedcategories|KatēggoríasSinUso
+Unusedimages|DosyasSinUso
+Unusedtemplates|XablonesSinUso
+Unwatchedpages|HojasSinKudiadas
+Upload|KargarDosya
+UploadStash|Muchedumbre_de_kargamientos
+Userlogin|Entrada_del_usador
+Userlogout|Salida_del_usador
+Userrights|DerechosUsadores
+Version|Versión
+Wantedcategories|KatēggoríasDemandadas
+Wantedfiles|DosyasDemandadas
+Wantedpages|HojasDemandadas
+Wantedtemplates|XablonesDemandados
+Watchlist|Lista_de_eskojidos
+Whatlinkshere|LoKeSeAtaKonAkí
+Withoutinterwiki|SinIntervikis
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+redirect|0|#DIRIJAR~#DIRECCIÓN~#REDIRECCIÓN~#REDIRECCION~#REDIRECT~
+fullpagename|1|NOMBREDEHOJACOMPLETA~NOMBREDEPÁGINACOMPLETA~NOMBREDEPAGINACOMPLETA~NOMBREDEPÁGINAENTERA~NOMBREDEPAGINAENTERA~NOMBRECOMPLETODEPÁGINA~NOMBRECOMPLETODEPAGINA~FULLPAGENAME~
+subpagename|1|NOMBREDEHOJICA~NOMBREDESUBPAGINA~NOMBREDESUBPÁGINA~SUBPAGENAME~
+msg|0|MSJ~MSG~
+img_left|1|cierda~izquierda~izda~izq~left~
+img_none|1|dinguna~dinguno~ninguna~nada~no~ninguno~none~
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#asegún~#según~#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|Aljhad
+monday|Lunes
+tuesday|Martes
+wednesday|Miércoles
+thursday|Juğeves
+friday|Viernes
+saturday|Shabbath
+sun|Aljh
+mon|Lun
+tue|Mar
+wed|Mie
+thu|Juğ
+fri|Vie
+sat|Shab
+january|Enero
+february|Hevrero
+march|Março
+april|Abril
+may_long|Mayo
+june|Juño
+july|Jullo
+august|Agosto
+september|Setiembre
+october|Ochòvre
+november|Noviembre
+december|Deziembre
+january-gen|Enero
+february-gen|Hevrero
+march-gen|Março
+april-gen|Abril
+may-gen|Mayo
+june-gen|Juño
+july-gen|Jullo
+august-gen|Agosto
+september-gen|Setiembre
+october-gen|Ochòvre
+november-gen|Noviembre
+december-gen|Deziembre
+jan|Ene
+feb|Hev
+mar|Mar
+apr|Abr
+may|May
+jun|Juñ
+jul|Jull
+aug|Ago
+sep|Set
+oct|Och
+nov|Nov
+dec|Dez
+toc|Contènidos
+redirectedfrom|(Redirigido desde ~{0})
+allpages|Todas las hojas
+prevpage|Hoja de antés (~{0})
+categories|Kategorías
+lastmodifiedat|Esta hoja fue trocada por la dal cavo vez el ~{0}, a las ~{1}.
+thumbnail-more|Engrandece
+otherlanguages|En otras linguas
+blanknamespace|(Principal)
+pagecategories|{{PLURAL:~{0}\u007CKateggoría\u007CKateggorías}}
+category_header|Artíkolos en la kateggoría "~{0}"
+subcategories|Sòkateggorías
+category-media-header|Arxivos de multimedya en la kateggoría "~{0}"
+category-empty|''Esta katēggoría oy día, no contiene ni artícůlos ni arxivos de multimedya''
+category-subcat-count|{{PLURAL:~{1}\u007CEsta katēggoría contiene sólo una baxo-katēggoría:\u007CEsta katēggoría contiene {{PLURAL:~{0}\u007Cesta baxo-katēggoría aquí abaxo\u007C~{0} baxo-katēggorías aquí abaxo}}, de un total de ~{1} baxo-katēggorías:}}
+category-subcat-count-limited|Esta katēggoría contiene {{PLURAL:~{0}\u007Cla baxo-katēggoría venidera\u007C~{0} baxo-katēggorías venideras}}.
+category-article-count|{{PLURAL:~{1}\u007CEsta katēggoría contiene sólo la hoja venidera.\u007C{{PLURAL:~{0}\u007CLa hoja venidera apartiene\u007CLas ~{0} hojas venideras apartienen}} a esta katēggoría, de un total de ~{1}.}}
+category-article-count-limited|{{PLURAL:~{0}\u007CLa hoja venidera apartiene\u007CLas ~{0} hojas venideras apartienen}} a esta katēggoría.
+category-file-count|{{PLURAL:~{1}\u007CEsta katēggoría contiene sólo la dosya venidera.\u007C{{PLURAL:~{0}\u007CLa dosya venidera apartiene\u007CLas ~{0} dosyas venideras apartienen}} a esta katēggoría, de un total de ~{1}.}}
+category-file-count-limited|{{PLURAL:~{0}\u007CLa dosya venidera apartiene\u007CLas ~{0} dosyas venideras apartienen}} a esta katēggoría.
+categorytree-member-counts|kontiene {{PLURAL:~{0}\u007C1 basho-kateggoria\u007C~{0} basho-kateggorias}}, {{PLURAL:~{1}\u007C1 oja\u007C~{1} ojas}}, i {{PLURAL:~{2}\u007C1 dossia\u007C~{2} dossias}}
+categorytree-num-categories|~{0} K
+categorytree-num-pages|~{0} O
+categorytree-num-files|~{0} D
+nextn|{{PLURAL:~{0}\u007C~{0}}} venideras
+prevn|{{PLURAL:~{0}\u007C~{0}}} de antes
+listingcontinuesabbrev|cont.
+showingresultsheader|{{PLURAL:~{4}\u007CResultado '''~{0}''' de '''~{2}'''\u007CResultados '''~{0}-~{1}''' de '''~{2}'''}} para '''~{3}'''
+bold_sample|Teksto gordo
+bold_tip|Teksto gordo
+italic_sample|Teksto cursivo
+italic_tip|Teksto en cursiva
+link_sample|Título del link
+link_tip|Link interno
+headline_sample|Escrituria de títůlo
+headline_tip|Titular de nivel 2
+hidden-category-category|Katēggorías escondidas
+statistics|Estatísticas
+tog-underline|Suliñar los atamientos:
+tog-justify|Arrimar los paraggrafos de dos vandas
+tog-hideminor|Esconder los trocamientos chiquiticos en la hoja de los "trocamientos freskos"
+tog-hidepatrolled|Esconder los trocamientos surveyados en la hoja de los "trocamientos freskos"
+tog-newpageshidepatrolled|Esconder las hojas surveyadas de la lista de las hojas muevas
+tog-extendwatchlist|Anchar mi lista de akavidamiento afín de àmostrar todos los trocamientos, no sólo los muevos
+tog-usenewrc|Usar el modo adelantado (JavaScript es menester)
+tog-numberheadings|Numerotar otomatika mente los títůlos de los kapítůlos
+tog-showtoolbar|Àmostrar el chibuk de aparatos (JavaScript es menester)
+tog-editondblclick|Trocar las hojas con doble klik (JavaScript es menester)
+tog-editsection|Ofrir la possibilidad de trocar los kapítůlos con el atamiento [trocar]
+tog-editsectiononrightclick|Pueder trocar los kapítůlos, en pizando el botón derecho del ratón encima el títůlo (JavaScript es menester)
+tog-showtoc|Àmostrar el cuadro de contènidos (para las hojas que tienen más de 3 títůlos de capítůlo)
+tog-rememberpassword|Acordarse de mi entrada en este navigador (a lo más muńcho ~{0} {{PLURAL:~{0}\u007Cdía\u007Cdías}})
+tog-watchcreations|Akavidar las hojas que crîo
+tog-watchdefault|Akavidar las hojas que troco
+tog-watchmoves|Akavidar las hojas que taxireo
+tog-watchdeletion|Akavidar las hojas que efasso
+tog-minordefault|Yir marcando todos los trocamientos como chiquiticos
+tog-previewontop|Àmostar el previsteo enriva del cuadro de trocamiento
+tog-previewonfirst|Àmostar el previsteo al primer trocamiento
+tog-nocache|Desaktivar la kaxé de las hojas del navigador
+tog-enotifwatchlistpages|Cada vez que y ay un trocamiento en una hoja que está en mi lista de akavidamiento, mándame una letral (e-mail)
+tog-enotifusertalkpages|Cuando y ay un trocamineto en mi hoja de diskusyón, mándame una letral (e-mail)
+tog-enotifminoredits|I para los trocamientos chiquiticos de las hojas, mándame una letral (e-mail)
+tog-enotifrevealaddr|En las letrales de avizo, amóstrame á mi el adresso de letral mío
+tog-shownumberswatching|Àmostrar el kadhar de usadores que están akavidando las hojas
+tog-oldsig|La firma presente
+tog-fancysig|Tratar la firma como un vikiteksto (sin un atamiento otomatiko)
+tog-showjumplinks|Aktivar los atamientos de ayudo "{{int:jumpto}}"
+tog-uselivepreview|Usar el "previsteo bivo" (JavaScript es menester) (eksperimental)
+tog-forceeditsummary|Avizarme cuando dexo el somaryo vazío
+tog-watchlisthideown|Esconder mis trocamientos en mi lista de akavidamiento
+tog-watchlisthidebots|Esconder trocamientos de bot en mi lista de akavidamiento
+tog-watchlisthideminor|Esconder trocamientos chiquiticos en mi lista de akavidamiento
+tog-watchlisthideliu|Esconder trocamientos de los usadores enrejistrados en mi lista de akavidamiento
+tog-watchlisthideanons|Esconder trocamientos de los usadores anōnimes en mi lista de akavidamiento
+tog-watchlisthidepatrolled|Esconder trocamientos surveyados en mi lista de akavidamiento
+tog-ccmeonemails|Mandarme copias de las letrales (e-mail) que mando a otros usadores
+tog-diffonly|No amostrar el contenido de la hoja debaxo las diffes (diferencias entre los trocamientos)
+tog-showhiddencats|Amostrar las katēggorías escondidas
+tog-norollbackdiff|No amostrar la diff doeśpués de aboltar
+underline-always|Siempre
+underline-never|Nunca
+underline-default|Que dessidde el navigador
+editfont-style|Modo de tipografía de la rējión de trocamiento
+editfont-default|Modo supozado del navigador
+editfont-monospace|Tipografía que cuvre lugar fikso
+editfont-sansserif|Tipografía sans-serif
+editfont-serif|Tipografía serif
+hidden-categories|{{PLURAL:~{0}\u007CKateggoría escondida\u007CKateggorías escondidas}}
+index-category|Hojas arregladas en lista
+noindex-category|Hojas no arregladas en lista
+broken-file-category|Hojas que tienen atamientos rotos de arxivos
+about|Encima de
+article|Artícůlo de contenido
+newwindow|(Se avre en una mueva ventana)
+cancel|Anular
+moredotdotdot|Más...
+mypage|Mi hoja
+mytalk|Mi diskusyon
+anontalk|Diskusyón para este adresso de IP
+navigation|Navigación
+and| y
+qbfind|Topar
+qbbrowse|Navigar
+qbedit|Trocar
+qbpageoptions|Esta hoja
+qbmyoptions|Mis hojas
+qbspecialpages|Hojas especiales
+faq|DAD
+faqpage|Project:DDS
+vector-action-addsection|Àjustar sujeto
+vector-action-delete|Efassar
+vector-action-move|Taxirear
+vector-action-protect|Guardar
+vector-action-undelete|Traer atrás
+vector-action-unprotect|No guardar
+vector-simplesearch-preference|Aktivar consejos de búsqueda adelantada (sólo pelejo Vector)
+vector-view-create|Criar
+vector-view-edit|Trocar
+vector-view-history|Ver la istoria
+vector-view-view|Meldar
+vector-view-viewsource|Ver su manadero
+actions|Aksiones
+namespaces|Espacios de nombres
+variants|Formas diferentes
+errorpagetitle|Yerro
+returnto|Tornar a ~{0}.
+tagline|De {{SITENAME}}
+help|Ayudo
+search|Busca
+searchbutton|Busca
+go|Vate
+searcharticle|Vate
+history|La îstoria de la hoja
+history_short|Istoria
+updatedmarker|trocado desde mi visita de alcavo
+printableversion|Forma apropiada para imprimir
+permalink|Atamiento permanente
+print|Imprimir
+view|Ver
+edit|Trocar
+create|Criar
+editthispage|Trocar esta hoja
+create-this-page|Crîar esta hoja
+delete|Efaçar
+deletethispage|Efassar esta hoja
+undelete_short|Traer atrás ~{0} {{PLURAL:~{0}\u007Ctrocamientos\u007Ctrocamientos}}
+viewdeleted_short|Ver {{PLURAL:~{0}\u007Cun trocamiento efassado\u007C~{0} trocamientos efassados}}
+protect|Guardar
+protect_change|troca el guardadijo
+protectthispage|Guardar esta hoja
+unprotect|Trocar guardadijo
+unprotectthispage|Trocar el guardadijo desta hoja
+newpage|Hoja mueva
+talkpage|Diskutir la hoja
+talkpagelinktext|Messaje
+specialpage|Hoja Especial
+personaltools|Aparates personales
+postcomment|Capítůlo muevo
+articlepage|Ver el artícůlo de contenido
+talk|Diskusyón
+views|Vistas
+toolbox|Cuadro de aparates
+userpage|Ver la hoja del usador
+projectpage|Ver la hoja del projeto
+imagepage|Ver la hoja de la dosya
+mediawikipage|Ver la hoja de messaje
+templatepage|Ver la hoja del xablón
+viewhelppage|Ver la hoja de ayudo
+categorypage|Ver la hoja de la katēggoría
+viewtalkpage|Ver la diskusyón
+redirectpagesub|Hoja redirigida
+protectedpage|Hoja guardada
+jumpto|Salta a:
+jumptonavigation|navigación
+jumptosearch|búsquida
+aboutsite|Encima de la {{SITENAME}}
+aboutpage|Project:Encima de
+copyright|El contenido se puede topar debaxo de la <i>~{0}</i>
+copyrightpage|{{ns:project}}:Derechos de autor
+currentevents|Novedades
+currentevents-url|Project:Novedades
+disclaimers|Refuso de responsabilitá
+disclaimerpage|Project:Refuso de responsabilitá jeneral
+edithelp|¿Cómo se la troca?
+helppage|Help:Contènidos
+mainpage|La Primera Hoja
+mainpage-description|La Primera Hoja
+policy-url|Project:Politikas
+portal|Portal de la komunitá
+portal-url|Project:Portal de la komunitá
+privacy|Principio de particòlaridad
+privacypage|Project:Principio de particòlaridad
+badaccess|Yerro de permissión
+ok|DE ACORDDO
+retrievedfrom|Acòjido del adhresso "~{0}"
+youhavenewmessages|Tienes ~{0} (~{1}).
+newmessageslink|mesajes nuevos
+newmessagesdifflink|el trocamiento de alcabo
+youhavenewmessagesmulti|Tienes messajes nuevos en ~{0}
+editsection|troca
+editold|troca
+viewsourceold|Ver su manadero
+editlink|trocar
+viewsourcelink|ver su manadero
+editsectionhint|Troca el kapítolo: ~{0}
+showtoc|Amostrar
+hidetoc|esconder
+thisisdeleted|Ver o restorar ~{0}?
+viewdeleted|Desea ver ~{0}?
+site-rss-feed|Fuente de RSS de ~{0}
+site-atom-feed|Alimentela de Atom de ~{0}
+page-rss-feed|"~{0}" Fuente RSS
+page-atom-feed|"~{0}" Subscripción Atom
+red-link-title|~{0} (esta hoja no egziste)
+nstab-main|Hoja
+nstab-user|Hoja de empleador
+nstab-media|Hoja de Meddia
+nstab-special|Hoja especial
+nstab-project|Hoja del proyecto
+nstab-image|Dosya
+nstab-mediawiki|Messaj
+nstab-template|Xablón
+nstab-help|Ayudo
+nstab-category|Kateggoría
+nosuchspecialpage|No ay tala hoja especial
+error|Yerro
+databaseerror|Yerro de la Databasa
+missing-article|La basa de dados no topó el teksto de la hoja llamada "~{0}" ~{1}.\n\nEn lo mas muncho, esto se cavsa de un "dif" anakróniko ou de un atamiento a la istoria de una hoja que se efaçó.\n\nSi esto no es el cavso, puede ser que topates una chincha en el lojikal.\nSi puede ser mete un [[Special:ListUsers/sysop\u007Cadministrador]] en corriente y también anota la URL.
+missingarticle-rev|(nº. de revisión: ~{0})
+missingarticle-diff|(Dif.: ~{0}, ~{1})
+filecopyerror|No se pudo copiar el arxiv "~{0}" a "~{1}".
+badtitle|Titolo malo
+badtitletext|El título de la hoja demandada está vazío, no es valible, o es un link interlingua o interwiki incorrecto.\nPuede ser que contiene uno o más caracteres que no se pueden usar en los títulos.
+viewsource|Ver su manadero
+yourname|Su nombre de usuario
+yourpassword|Parola
+yourpasswordagain|Entra de muevo la parola
+remembermypassword|Acórdate de mi entrada de usador en este bilgisayar/orddênador (por un maksimum de {{PLURAL:~{0}\u007Cdía\u007Cdías}})
+login|Entrar
+nav-login-createaccount|Entrar / Criar un cuento
+loginprompt|Kale tener "cookies" aktivadas enel navegador para enrejistrarse en {{SITENAME}}
+userlogin|Entrar / Registrarse
+logout|Salir
+userlogout|Salir
+nologin|¿No tienes un cuento? '''~{0}'''.
+nologinlink|Crea un cuento
+createaccount|Crea un nuevo cuento
+gotaccount|¿Ya tienes un cuento? '''~{0}'''.
+gotaccountlink|Entrar
+userlogin-resetlink|Olvidates tus detalyos de akseso?
+createaccountmail|por una letra electrónica
+userexists|El nombre que entrates ya se usa.\nSi puede ser, escoge un otro nombre.
+createaccounterror|No se pudo crear el cuento: ~{0}
+mailmypassword|Embiar una nueva koddiche por e-mail
+emailconfirmlink|Confirma su adderesso de letra electrónica
+accountcreated|Cuento creado
+accountcreatedtext|El cuento del usuario para ~{0} fue creado.
+loginlanguagelabel|Lingua: ~{0}
+oldpassword|Kóddiche viejo:
+newpassword|Kóddiche muevo:
+resetpass-submit-cancel|Anular
+passwordreset-username|Nombre de usador:
+passwordreset-domain|Dominio:
+passwordreset-email|Adresso de letral:
+changeemail-submit|Trocar letral
+changeemail-cancel|Anular
+extlink_sample|http://www.example.com Título del link
+extlink_tip|Link eksterno (acόrdate de ajustar el prefiks http://)
+nowiki_sample|Escribid aquí texto sin formato
+nowiki_tip|Iñorar el formato wiki
+image_tip|Imagen incorporada
+media_tip|Link al arxivo multimedia
+sig_tip|Firma, data i ora
+hr_tip|Liña orizontala (úsala de vez en cuando)
+summary|Resumido:
+subject|Tema/título:
+minoredit|Esta es una edición chiquitica
+watchthis|Cudia esta hoja
+savearticle|Enrejistra la hoja
+preview|Previsualizar
+showpreview|Mostrar la previsualización
+showlivepreview|Previsteo bivo
+showdiff|Amostrar los trocamientos
+anoneditwarning|'''Noticia:''' La sesyón no empeçó con un cuento de usuario.\nTu adresso de IP va ser enrejjistrado en la istoria de la hoja.
+summary-preview|Previsualización del resumen:
+blockedtitle|El usador está blokeado
+blockednoreason|La razόn no se diό
+whitelistedittext|Tienes que ~{0} para pueder trocar artículos.
+loginreqtitle|Entrar es menester
+loginreqlink|entrar
+loginreqpagetext|Tienes que ~{0} para pueder ver otras hojas.
+accmailtitle|La kontrasenya ha sido embiada.
+accmailtext|La kontrasenya para "~{0}" se ha embiado a ~{1}.
+newarticle|(Nuevo)
+newarticletext|Arrivates a una hoja que daínda no egziste.\nPara crear esta hoja, empeça a escribir en la caxa de abaxo. Mira [[{{MediaWiki:Helppage}}\u007Cla hoja de ayudo]] para saber más.\nSi venites aquí por yerro, torna a la hoja de antes.
+noarticletext|En este momento no ay teksto en esta hoja.\nPuedes [[Special:Search/{{PAGENAME}}\u007Cbuscar el títolo de esta hoja]] en otras hojas,\n<span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} buscar en los rejistros relatados],\nou [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} trocar esta hoja]</span>.
+noarticletext-nopermission|No ay teksto en esta oja.\nPuedes [[Special:Search/{{PAGENAME}}\u007Cbushkar este titolo de oja]] en otras pajinas,\no <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} bushkar en los rejistros relasyonados]</span>.
+userpage-userdoesnotexist-view|El cuento del usador ~{0} no está enrejistrado.
+note|'''Nota:'''
+previewnote|¡Akórdate ke esto es sólo una previsualizasion i aínda no se enrejistró!'''\nLos tus trokamientos no se tienen guadrados!
+editing|Trocando ~{0}
+editingsection|Trocando ~{0} (sección)
+editingcomment|Trocando ~{0} (kapítůlo)
+yourtext|Tu teksto
+yourdiff|Diferencias
+copyrightwarning|Si puede ser, observa que todas las contribuciones a {{SITENAME}} se consideran hechas públicas abaxo la ~{1} (ver detalyos en ~{0}). Si no queres que la gente endereche tus tekstos escritos sin piadad i los esparta libberamente, alora no los metas aquí. También nos estás asegurando ansí que escribites este teksto tu mismo i sos el dueño de los derechos de autor, o lo copiates desde el dominio público u otra fuente libbero.'''¡QUE N0 USES TEKSTOS ESCRITOS CON COPYRIGHT SIN PERMISSIÓN!'''<br />
+templatesused|{{PLURAL:~{0}\u007CEl xabblón usado\u007CLos xabblones usados}} en esta hoja:
+templatesusedpreview|{{PLURAL:~{0}\u007CEl xabblón usado\u007CLos xabblones usados}} en esta vista:
+template-protected|(guardada)
+template-semiprotected|(media guardada)
+hiddencategories|Esta hoja es un miembro de {{PLURAL:~{0}\u007C1 kateggoría escondida\u007C~{0} kateggorías escondidas}}:
+nocreate-loggedin|No tienes el permisso de creas hojas nuevas.
+permissionserrorstext-withaction|No tienes el permiso para ~{1}, por las {{PLURAL:~{0}\u007Crazón\u007Crazones}} venideras:
+recreate-moveddeleted-warn|'''Aviso: Estas kriando una oja la kuala fue efassada antes.'''\nKale ke penses si es menesterozo editar esta oja.\nEl enrejistro de efassado i taxireado para esta oja puede ser meldado aki:
+moveddeleted-notice|Esta ója fue efassada.\nEl ''log'' de efassado i taxireado de la ója es amostrado abasho para dar referensia.
+post-expand-template-inclusion-warning|'''Avizo:''' La contenencia de xablon está muy grande.\nAlgunos xablones no van á ser comprendidos.
+post-expand-template-inclusion-category|Hojas ande la contenencia de xablones está sovrepassada
+post-expand-template-argument-warning|'''Aviso:''' Esta oja tiene kuanto menos un kampo enel xablon muy lungo.\nEste o estos kampos no van ser amostrados
+post-expand-template-argument-category|Ojas ke tienen xablones kon parametros no uzados
+viewpagelogs|Ver los registros de esta hoja
+currentrev|Enderechamiento d'al cavo
+currentrev-asof|Enderechamiento de alcavo á las ~{0}
+revisionasof|Enderechamiento a las ~{0}
+revision-info|Revision en data ~{0} por ~{1}
+previousrevision|← Enderechamiento de antes
+nextrevision|Rêvisión venidera →
+currentrevisionlink|Revisión actual
+cur|act
+next|venidero
+last|de alcabo
+page_first|primeras
+page_last|de alcabo
+histlegend|Selección de diferencias: marca los selectores de las versiones a comparar y pulsa ''enter'' o el botón de abajo.<br />\nLeyenda: (act) = diferencias con la versión actual,\n(prev) = diferencias con la versión previa, M = edición menor
+history-fieldset-title|Buscar en la istoria
+history-show-deleted|Sólamente efassado
+histfirst|Primeras
+histlast|De alcabo
+historysize|({{PLURAL:~{0}\u007C1 byte\u007C~{0} bytes}})
+historyempty|(vazío)
+history-feed-title|Îstoria de nderechamientos
+history-feed-item-nocomment|~{0} en ~{1}
+rev-delundel|mostra/esconde
+rev-showdeleted|mostra
+revdelete-show-file-submit|Sí
+revdelete-radio-same|(no troques)
+revdelete-radio-set|Sí
+revdelete-radio-unset|No
+revdelete-log|Razón:
+revdel-restore|troca la visibilitá
+revdel-restore-deleted|enderechamientos efaçados
+revdel-restore-visible|enderechamientos visivles
+pagehist|La storia de la hoja
+revdelete-reasonotherlist|Otra razón
+mergehistory-reason|Razón:
+revertmerge|Apartar
+history-title|Istorya de trokamientos para «~{0}»
+lineno|Liña ~{0}:
+compareselectedversions|Comparar versiones escogidas
+editundo|des-haze
+diff-multi|(No {{PLURAL:~{0}\u007Ces amostrado un trokamiento intermedio echo\u007Cson amostrados ~{0} trokamientos intermedios echos}} por {{PLURAL:~{1}\u007Cun usador\u007C~{1} usadores}})
+searchresults|Resultados de la búsquida
+searchresults-title|Resultados de la búsquida de «~{0}»
+searchresulttext|Para saber más encima de buscar en {{SITENAME}}, mira la [[{{MediaWiki:Helppage}}\u007C{{int:help}}]].
+searchsubtitle|Buscates '''[[:~{0}]]''' ([[Special:Prefixindex/~{0}\u007Ctodas las hojas que empeçan con "~{0}"]] {{int:pipe-separator}} [[Special:WhatLinksHere/~{0}\u007Ctodas las hojas que dan link a «~{0}»]])
+searchsubtitleinvalid|Buscates '''~{0}'''
+notitlematches|No se pudo topar en dingún título.
+notextmatches|No se pudo topar en dinguna hoja.
+prevn-title|~{0} {{PLURAL:~{0}\u007Cresultado\u007Cresultados}} de antes
+nextn-title|~{0} {{PLURAL:~{0}\u007Cresultado\u007Cresultados}} venideros
+shown-title|Amostrar ~{0} {{PLURAL:~{0}\u007Cresultado\u007Cresultados}} por hoja
+viewprevnext|Ver (~{0} {{int:pipe-separator}} ~{1}) (~{2}).
+searchmenu-exists|Egziste una oja yamada "[[:~{0}]]" en esta viki
+searchmenu-new|'''Crîar la hoja «[[:~{0}]]» en esta viki!'''
+searchprofile-articles|Hojas de contènido
+searchprofile-project|Hojas de ayudo y hojas de projeto
+searchprofile-images|Multimedya
+searchprofile-everything|Todo
+searchprofile-advanced|Adelantado
+searchprofile-articles-tooltip|Buscar en ~{0}
+searchprofile-project-tooltip|Buscar en ~{0}
+searchprofile-images-tooltip|Buscar las dosyas
+searchprofile-everything-tooltip|Buscar en todo el contènido (y también hojas de diskusyón)
+searchprofile-advanced-tooltip|Buscar en espacios de nombres particůlares
+search-result-size|~{0} ({{PLURAL:~{1}\u007C1 biervo\u007C~{1} biervos}})
+search-result-category-size|{{PLURAL:~{0}\u007C1 miembro\u007C~{0} miembros}} ({{PLURAL:~{1}\u007C1 basho-kateggoria\u007C~{1} basho-kateggoria}}, {{PLURAL:~{2}\u007C1 dossia\u007C~{2} dossias}})
+search-redirect|(direksión desde ~{0})
+search-section|(kapítolo ~{0})
+search-suggest|Quijites dezir: ~{0}
+search-interwiki-caption|Proyectos hermanos
+search-interwiki-default|Los resultados de ~{0}:
+search-interwiki-more|(más)
+searchrelated|lisionado
+searchall|todos
+nonefound|'''Nota''': Por defecto sólo se busca en algunos espacios de nombre.\nProba a usar el prefixo ''all:'' para buscar en todo el contenido (incluyendo las hojas de diskussión, xabblones, etc.) o usa el espacio de nombre que queres como prefixo. También puedes usar el formulario de búsqueda adelantada que aparece abaxo.\n\nLas búsquedas producen más o munco a buscar biervos comunes como «la» o «de», que no están en el índice, o por especificar más de una palabra a buscar (sólo las hojas que contienen todos los términos de búsqueda van aparecer en el resultado).
+search-nonefound|No ay resultados que acumplan los criterios de la búsqueda.
+powersearch|Búsqueda adelantada
+powersearch-legend|Búsqueda adelantada
+powersearch-ns|Busca en los espacios de nombres:
+powersearch-redir|Mostra las redirecciones
+powersearch-field|Busca por
+powersearch-toggleall|Todos
+search-external|Búsqueda eksterna
+preferences|Preferencias
+mypreferences|Las mis preferensias
+changepassword|Trocar el kóddiche
+prefs-skin|Vista
+skin-preview|Previstear
+prefs-rc|Los Trocamientos de Alcabo
+prefs-watchlist|Lista de los Trocamientos Preferidos
+prefs-watchlist-days|El número de los días a mostrar en la lista de los trocamientos preferidos:
+prefs-watchlist-days-max|~{0} {{PLURAL:~{0}\u007Cdías\u007Cdías}} a lo más muncho
+prefs-resetpass|Trocar la parola
+prefs-rendering|Vista
+saveprefs|Enrejistrar
+timezoneregion-africa|África
+timezoneregion-america|América
+timezoneregion-antarctica|Antárctica
+timezoneregion-asia|Asia
+timezoneregion-australia|Ostralia
+timezoneregion-europe|Europa
+prefs-files|Dosyas
+youremail|El adderesso de tu letra electrόnica:
+username|Nombre de usuario:
+yourrealname|Nombre verdadero:
+yourlanguage|Lingua:
+yournick|Firma mueva:
+email|Letral
+prefs-help-email|El adreso de e-posta es menester para alimpiar la tu parola, si la olvidates
+prefs-help-email-others|Endemas puedes eskojer si keres dar pueder a otros usadores de azer kontakto kon ti por modre de e-posta, a  traverso de un atamiento en tus ojas de usador i de diskusyon.
+prefs-signature|Firma
+group-user|Usadorers
+group-sysop|Administradores
+group-all|(todos)
+grouppage-sysop|{{ns:project}}:Administradores
+right-edit|Trocar las hojas
+right-minoredit|Marcar trocamientos como "chiquiticos"
+right-delete|Efassar hojas
+newuserlogpage|Registro de creación de usuarios
+rightslog|Trocamientos de profil de usuario
+action-read|meldar esta hoja
+action-edit|trocar esta hoja
+action-createpage|crear hojas
+action-delete|efassar esta hoja
+nchanges|~{0} {{PLURAL:~{0}\u007Ctrocamiento\u007Ctrocamientos}}
+recentchanges|Trocamientos freskos
+recentchanges-legend|Opciones encima de los trocamientos frescos
+recentchanges-summary|Perseguid en esta hoja, los trocamientos de alcabo realizados en la Viki.
+recentchanges-feed-description|Perseguir los trocamientos más nuevos en el viki en este feed.
+recentchanges-label-newpage|Este trokamiento krio una mueva ója
+recentchanges-label-minor|Esta es un trocamiento chiquitico
+recentchanges-label-bot|Este trokamiento fue echo por un bot
+recentchanges-label-unpatrolled|Estre trokamiento no esta akavidado
+rcnote|Debaxo {{PLURAL:~{0}\u007Cay '''1''' trocamiento realizado\u007Cestán los dal cabo '''~{0}''' trocamientos realizados}} en  {{PLURAL:~{1}\u007Cel dal cabo día\u007Clos dal cabo '''~{1}''' días}}, hasta el ~{3}, ~{4}.
+rcnotefrom|Debasho se amostran los trokamientos desde '''~{1}''' (amostrados fina <b>~{0}</b>)
+rclistfrom|Mostra los trocamientos nuevos empeçando desde ~{0}
+rcshowhideminor|~{0} trocamientos chiquiticos
+rcshowhidebots|~{0} bots
+rcshowhideliu|~{0} empleadores enrējjistrados
+rcshowhideanons|~{0} empleadores anonimes
+rcshowhidepatr|~{0} trokamientos akavidados
+rcshowhidemine|~{0} mis ediciones
+rclinks|Ver los dal cabo ~{0} trocamientos en los dal cabo ~{1} días.<br />~{2}
+diff|dif
+hist|ist
+hide|Esconder
+show|Àmostrar
+minoreditletter|ch
+newpageletter|N
+boteditletter|b
+rc-enhanced-expand|Mostra los detalyos (cale JavaScript)
+rc-enhanced-hide|Guarda los detalyos
+recentchangeslinked|Trocamientos conectados
+recentchangeslinked-feed|Trocamientos conectados
+recentchangeslinked-toolbox|Trocamientos relatados
+recentchangeslinked-title|Los trocamientos relacionados con "~{0}"
+recentchangeslinked-noresult|Sin trokamientos en las ójas atadas en la data demandada
+recentchangeslinked-summary|Esto es la lista de los trocamientos de alcavo de las hojas que relatan á una hoja spēcifik (ou de los miembros de la katēggoría spēcifikada).\nLas hojas en tu [[Special:Watchlist\u007Clista de akavidamiento]] son escritas '''con letras grexas'''.
+recentchangeslinked-page|Nombre de la hoja
+recentchangeslinked-to|Mostra los trocamientos freskos en lugar de la hoja indicada
+upload|Suvir una dosya
+uploadlogpage|Subidas de arxivos
+filedesc|Somario
+uploadedimage|subió «[[~{0}]]»
+license|Lesensia:
+license-header|Lesensiamyénto
+listfiles_name|Nombre
+listfiles_user|Usuario
+listfiles_size|Boy
+file-anchor-link|Archivo
+filehist|La istoria de la dosya
+filehist-help|Klika encima de una data/ora para vel el arxivo de esta data.
+filehist-revert|aboltar
+filehist-current|actual
+filehist-datetime|Data/Ora
+filehist-thumb|Minyatura
+filehist-thumbtext|Minyatura de la versión á las ~{0}
+filehist-user|Usador
+filehist-dimensions|Dimensiones
+filehist-filesize|El boy de la dosya
+filehist-comment|Comentario
+imagelinks|El uso del dosya
+linkstoimage|{{PLURAL:~{0}\u007CLa hoja venidera da link\u007CLas hojas venideras dan link}} a este arxivo:
+nolinkstoimage|Dinguna ója tiene atamientos a esta imej
+sharedupload|Este arxivo es de ~{0} i puede ser usado por otros proyectos.
+sharedupload-desc-here|Esta hoja es de ~{0} y puede ser usado por otros projetos.\nLa descripción en su [~{1} hoja de descripción del arxivo] está amostrada debaxo.
+uploadnewversion-linktext|Subir una nueva versión de este arxivo
+randompage|Hoja por asardo
+disambiguationspage|Template:Aklarasion
+nbytes|~{0} {{PLURAL:~{0}\u007Cbayt\u007Cbaytes}}
+nmembers|~{0} {{PLURAL:~{0}\u007Cmiembro\u007Cmiembros}}
+prefixindex|Todas las hojas con prefixo
+usercreated|{{GENDER:~{2}\u007CEnrejistrado\u007CEnrejistrada}} el ~{0} a las ~{1}
+newpages|Hojas muevas
+ancientpages|Artikolos mas viejos
+move|taxirea
+movethispage|Tashirea esta hoja
+pager-newer-n|{{PLURAL:~{0}\u007C1 venidero\u007C~{0} venideros}}
+pager-older-n|{{PLURAL:~{0}\u007C1 de antes\u007C~{0} de antes}}
+booksources|Fuentes de libros
+booksources-search-legend|Buscar fuentes de libros
+booksources-go|Yir
+log|Registros
+alphaindexline|~{0} a ~{1}
+allpagesfrom|Mostrar hojas que empecen por:
+allpagesto|Mostrar hojas escapadas con:
+allarticles|Todos los artikolos
+allinnamespace|Todas las pajinas (espasio ~{0})
+allpagesnext|Siguiente
+allpagessubmit|Àmostrar la lista
+special-categories-sort-count|ordenar por número
+special-categories-sort-abc|ordenar alefbeticamente
+linksearch|Linkes eksternos
+linksearch-line|Atamiento para ~{0} en la ója ~{1}
+listgrouprights-members|(ver los miembros de este grupo)
+emailuser|Embia e-mail a este usuario
+watchlist|Lista de akavidamiento
+mywatchlist|La mi lista de akavidamientos
+watchlistfor2|Para ~{0} ~{1}
+addedwatchtext|La hoja «[[:~{0}]]» fue ajustada a tu [[Special:Watchlist\u007Clista de escogidas]]. Los trocamientos venideros en esta hoja i en tu hoja de diskussión associada se van indicar aí, i la hoja va aparecer '''gordo''' en la hoja de [[Special:RecentChanges\u007Ctrocamientos freskos]] para hazerla más kolay de detektar.\n\nCuando queres eliminar la hoja de tu lista de escogidas, piza «Dexar de cudiar» en el menú.
+removedwatchtext|La hoja «[[:~{0}]]» fue eliminada de tu [[Special:Watchlist\u007Clista de escogidas]].
+watch|cudia
+watchthispage|Cudia esta hoja
+unwatch|dexa de cudiar
+watchlist-details|{{PLURAL:~{0}\u007C~{0} hoja\u007C~{0} hojas}} en tu lista de escogidas, sin contar las de la diskussión.
+wlshowlast|Ver los trocamientos de las últimas ~{0} oras, ~{1} días  ~{2}
+watchlist-options|Opciones de la lista de escogidas
+watching|Cudiando...
+unwatching|Dexando de cudiar...
+deletepage|Efassar esta hoja
+confirmdeletetext|Estás al punto de efassar una hoja\nen forma turable, ansí como todo su istoria.\nSi puede ser, confirma que de verdad queres hazer esto, que estás entendiendo las\nresultados, i que lo estás haziendo de acorddo con las [[{{MediaWiki:Policy-url}}\u007CPolíticas]].
+actioncomplete|Aksion kompleta
+actionfailed|Aksiyon sin reushitá
+deletedtext|"~{0}" fue efassado.\nMira ~{1} para un registro de los efassados nuevos.
+dellogpage|Registro de efassados
+deletecomment|Razón:
+deleteotherreason|Otra razón:
+deletereasonotherlist|Otra razón
+deletereason-dropdown|* Motivos generales de efassamientos\n** La demanda del criador de la hoja\n** Violación de copyright\n** Vandalismo
+rollbacklink|abolta
+protectlogpage|Protecciones de las hojas
+protectedarticle|guardó «[[~{0}]]»
+modifiedarticleprotection|trocó el nivel de protección de «[[~{0}]]»
+prot_1movedto2|[[~{0}]] trasladado a [[~{1}]]
+protectcomment|Razón:
+protectexpiry|Escapa:
+protect_expiry_invalid|Tiempo de escapación yerrado.
+protect_expiry_old|El tiempo de escapación está en el passado.
+protect-text|Puedes ver i trocar el nivel de protección de la hoja '''~{0}'''.
+protect-locked-access|Tu cuento no tiene permissión para trocar los niveles de protección de una hoja.\nA continuación se mostran las opciones actuales de la hoja '''~{0}''':
+protect-cascadeon|Esta hoja está guardada en momento porque está incluida en {{PLURAL:~{0}\u007Cla hoja venidera\u007Clas hojas venideras}}, que tienen activada la opción de protección en grados. Puedes trocar el nivel de protección de esta hoja, ma no va afectar a la protección en grados.
+protect-default|Permitir todos los usuarios
+protect-fallback|Tiene menester del permiso «~{0}»
+protect-level-autoconfirmed|Bloquear usuarios nuevos y no registrados
+protect-level-sysop|Sólo administradores
+protect-summary-cascade|con grados
+protect-expiring|caduca el ~{0} (UTC)
+protect-cascade|Protección en cascada - guardar todas las hojas incluidas en ésta.
+protect-cantedit|No puedes trocar el nivel de protección porque no tienes permissión para hazer ediciones.
+restriction-type|Permiso:
+restriction-level|Nivel de restricción:
+undeletelink|ve/trae atrás
+undeleteviewlink|ve
+namespace|Espacio de nombres:
+invert|Invertir selección
+contributions|Ajustamientos {{GENDER:~{0}\u007Cdel usador\u007Cde la usadora}}
+contributions-title|Ajustamientos {{GENDER:~{0}\u007Cdel usuario\u007Cde la usuaria}} ~{0}
+mycontris|Mis dados
+contribsub2|~{0} (~{1})
+uctop|(última modificación)
+month|Desde el mes (i antes):
+year|Desde el año (i antes):
+sp-contributions-newbies|Mostrar solo las ajustamientos de los usuarios nuevos
+sp-contributions-blocklog|registro de bloqueos
+sp-contributions-uploads|suvidas
+sp-contributions-logs|enrejistros
+sp-contributions-talk|Diskusyón
+sp-contributions-search|Buscar ajustamientos
+sp-contributions-username|Dirección IP o nombre de usuario:
+sp-contributions-toponly|Amostrar solo revisiones d'alkavo
+sp-contributions-submit|Buscar
+whatlinkshere|Atamientos a esta hoja
+whatlinkshere-title|Hojas que dan link a "~{0}"
+whatlinkshere-page|Hoja:
+linkshere|Las hojas venideras dan link a '''[[:~{0}]]''':
+nolinkshere|Dinguna ója tiene atamientos kon '''[[:~{0}]]'''
+isredirect|Hoja redirigida
+istemplate|inclusión
+isimage|Atamiento de la dossia
+whatlinkshere-prev|{{PLURAL:~{0}\u007Cde antes\u007Cde antes ~{0}}}
+whatlinkshere-next|{{PLURAL:~{0}\u007Cvenidera\u007Cvenideras ~{0}}}
+whatlinkshere-links|← linkes
+whatlinkshere-hideredirs|~{0} redirecciones
+whatlinkshere-hidetrans|~{0} inclusiones
+whatlinkshere-hidelinks|~{0} linkes
+whatlinkshere-hideimages|~{0} atamientos a imejes
+whatlinkshere-filters|Filtres
+blockip|Bloquear usuario
+ipboptions|2 oras:2 hours,1 día:1 day,3 días:3 days,1 semana:1 week,2 semanas:2 weeks,1 mes:1 month,3 meses:3 months,6 meses:6 months,1 año:1 year,para siempre:infinite
+ipblocklist|Usadores bloqueados
+blocklink|bloka
+unblocklink|quita el bloko
+change-blocklink|troca el bloko
+contribslink|donos
+blocklogpage|Bloqueos de usuarios
+blocklogentry|bloqueó a [[~{0}]] ~{2} durante un tiempo de ~{1}
+unblocklogentry|desbloqueó a "~{0}"
+block-log-flags-nocreate|desactivada la creación de cuentos
+movepagetext|Usando el formulario venidero se va renombrar una hoja, quitando todo su istoria a su nuevo nombre.\nEl título de antes se va convertir en una redirección al nuevo título.\nLos linkes al antiguo título de la hoja no se van trocar.\nAsegúrate de no dexar [[Special:DoubleRedirects\u007Credirecciones dobles]] o [[Special:BrokenRedirects\u007Crotas]].\nTú sos responsable de aranjjar los linkes de manera menesterosa.\n\nAcórdate que la hoja '''no''' va ser renombrada si ya egziste una hoja con esta nuevo título, a no ser que sea una hoja vazía o una redirección sin istoria.\nEsto siñifica que vas pueder renombrar una hoja a su título original si hazes un yerro, ma que no vas pueder sobrescribir una hoja que ya existe.\n\n'''¡Atansión!'''\nEste puede ser un trocamiento muy muy emportante e inesperado para una hoja popular;\nsi puede ser, asegúrate de entender las resultados del lo que hazes antes de yir endelantre.
+movepagetalktext|La hoja de diskussión associada, si egziste, va ser renombrada otomáticamente '''a menos que:'''\n*Esté renombrando la hoja entre espacios de nombres diferentes,\n*Una hoja de diskussión no vazía ya egziste con el nombre nuevo, o\n*Desactivara la opción "Renombrar la hoja de diskussión también".\n\nEn estos casos, va deber trasladar manualmente el contenido de la hoja de diskussión.
+movearticle|Renombra la hoja
+newtitle|A título nuevo
+move-watch|Cudiar este artículo
+movepagebtn|Renombra la hoja
+pagemovedsub|Renombrado realizado con reuxitá
+movepage-moved|'''"~{0}" fue renombrado a "~{1}".'''
+articleexists|Una hoja con este nombre ya egziste, o el nombre que escogites no es valable.\nSi puede ser, escoge otro nombre.
+talkexists|La hoja fue renombrada con reuxito, ma la diskussión no se pudo renombrar porque ya egziste una en el título nuevo. Si puede ser, házelo manualmente.
+movedto|renombrado a
+movetalk|Renombrar la hoja de diskussión también, si es possible.
+movelogpage|Registro de traslados
+movereason|Razón:
+revertmove|abolta
+export|Eksportar las hojas
+allmessages|Mesajes del sistema
+allmessagesname|Nombre
+allmessagesdefault|Teksto por defekto
+allmessagescurrent|Teksto aktual
+thumbnail_error|Yerro kriando la imej chika: ~{0}
+tooltip-pt-userpage|Tu hoja de usador
+tooltip-pt-mytalk|Tu hoja de diskusyón
+tooltip-pt-preferences|Mis preferencias
+tooltip-pt-watchlist|La lista de los trocamientos acontècidos en las hojas akavidadas.
+tooltip-pt-mycontris|La lista de tus àjustamientos
+tooltip-pt-login|Te encorajamos de entrar ma no estás obligado
+tooltip-pt-logout|Salir
+tooltip-ca-talk|Diskusyón encima del artíkolo
+tooltip-ca-edit|Puedes trocar esta hoja. Te rogamos, antes de enrejistrarla, echa una ojada en kullaneando el botón de previsteo
+tooltip-ca-addsection|Empeça una nueva sección
+tooltip-ca-viewsource|Esta hoja está guardada.\nPuedes ver su manadero
+tooltip-ca-history|Enderechamientos passados de esta hoja
+tooltip-ca-protect|Guardar esta hoja
+tooltip-ca-delete|Efassar esta hoja
+tooltip-ca-move|Taxirea (renombra) esta hoja
+tooltip-ca-watch|Ajustar esta hoja a tu lista de akavidamientos
+tooltip-ca-unwatch|Quita esta hoja de tu lista de escogidos
+tooltip-search|Busca en {{SITENAME}}
+tooltip-search-go|Si ay una hoja con este nombre egzakto, vate allá.
+tooltip-search-fulltext|Busca este teksto en las hojas
+tooltip-p-logo|Vate a la primera hoja
+tooltip-n-mainpage|Vate a la primera hoja
+tooltip-n-mainpage-description|Vate a la primera hoja
+tooltip-n-portal|Encima del projeto, lo que puedes hazer y ánde topar todo
+tooltip-n-currentevents|Jhaberes y acontècimientos de oy día
+tooltip-n-recentchanges|Lista de los trocamientos muevos en el viki
+tooltip-n-randompage|Carga una hoja por asardo
+tooltip-n-help|Para saver mas
+tooltip-t-whatlinkshere|La lista de todas las hojas del viki que se atan con esta hoja
+tooltip-t-recentchangeslinked|Los trocamientos muevos en las hojas atadas con esta hoja
+tooltip-feed-rss|Sindicación RSS de esta hoja
+tooltip-feed-atom|Fuente de Atom d'esta hoja
+tooltip-t-contributions|Ver la lista de ajustamientos de este usuario
+tooltip-t-emailuser|A este usuario, mándale una letra electrόnica (ímey)
+tooltip-t-upload|Suve las dosyas por aquí
+tooltip-t-specialpages|Lista de todas las hojas especiales
+tooltip-t-print|Forma apropiada para imprimir esta hoja
+tooltip-t-permalink|Atamiento permanente a este enderechamiento de la hoja
+tooltip-ca-nstab-main|Ve el artíkolo de contènido
+tooltip-ca-nstab-user|Ve la hoja de usuario
+tooltip-ca-nstab-special|Esta es una hoja especial, la hoja ya no se puede trocar
+tooltip-ca-nstab-project|Ver la hoja del prodjekto
+tooltip-ca-nstab-image|Ver la hoja de la dosya
+tooltip-ca-nstab-template|Ver el xabblón
+tooltip-ca-nstab-category|Ve la hoja de categoría
+tooltip-minoredit|Márcalo como un trocamiento chiquitico
+tooltip-save|Guardar los trocamientos
+tooltip-preview|Que previzualize sus trocamientos, ¡si puede ser, que use esto antes de enregistrar!
+tooltip-diff|Mostra los trocamientos que él/ella hizo en el texhto.
+tooltip-compareselectedversions|Ve las diferencias entre las dos versiones escogidas de esta hoja.
+tooltip-watch|Ajusta esta hoja a tu lista de escogidas
+tooltip-rollback|«Abolta» abolta todas los trocamientos del usador de alcavo, sólo en klikando una vez.
+tooltip-undo|«Deshaze» abolta este trocamiento y la avre en el modo de previsteo. Permete ajustar una razón en el somario.
+tooltip-summary|Entrar un somaryo kurto
+anonymous|{{PLURAL:~{0}\u007CUzuario anonimo\u007CUzuarios anonimos}} de {{SITENAME}}
+previousdiff|← Trocamiento más antiguo
+nextdiff|Edición más nueva →
+file-info-size|~{0} × ~{1} píkseles; boy del arxivo: ~{2}; tipo MIME: ~{3}
+file-nohires|No disponible a mayor resolución.
+svg-long-desc|arxivo SVG, nominalmente ~{0} × ~{1} píkseles, boy del arxivo: ~{2}
+show-big-image|Resolución original
+bad_image_list|El formato es ansina:\n\nSólo elementos de lista (liñas empeçando con *) se toman en konsidherasyón.\nEl primer atamiento de cada liña deve de atarse con una dosya negra (la dosya que se quere blokar).\nLos atamientos venideros que están en la misma liña se konsidheran como eksepsiones (yaani hojas ande la dosya puede aparecer encaxada en la liña)
+metadata|Metadatos
+metadata-help|Este arxivo contiene enformación adicional (metadatos), probablemente ajustada por la cámara digital, el escáner o el programa usado para crearlo o digitalizarlo. Si el arxivo fue modificado desde su estado original, puede aver perdido algunos detalyos.
+metadata-expand|Mostra los detalyos ekstendidos
+metadata-collapse|Esconder los detalyos ekstendidos
+metadata-fields|Los campos de metadatos que se listan en este messaje se van a amostrar en la hoja de la deskripsión de la foto daínda cuando la tabla de metadatos está cerrada.\nLos otros campos se van a guardar por defecto.\n* make\n* model\n* datetimeoriginal\n* exposuretime\n* fnumber\n* isospeedratings\n* focallength\n* artist\n* copyright\n* imagedescription\n* gpslatitude\n* gpslongitude\n* gpsaltitude
+exif-filesource|Manadéro de archivo
+exif-gpstimestamp|Tiémpo GPS (óra atómica)
+exif-gpsdatestamp|Dáta GPS
+exif-meteringmode-255|Otro
+exif-lightsource-9|Bueno tiémpo
+exif-lightsource-10|Tiémpo nuvlozo
+exif-saturation-0|Normal
+exif-gpsspeed-k|Kilometros por óra
+exif-gpsdestdistance-k|Kilometros
+exif-dc-rights|Derechos
+exif-iimcategory-hth|Salud
+exif-iimcategory-lab|Lavoro
+edit-externally|Trocar esto arxivo usando una aplicación eksterna
+edit-externally-help|(Melda las [//www.mediawiki.org/wiki/Manual:External_editors enstruksiones de configuración] -en inglés- para saber más)
+watchlistall2|todos
+namespacesall|todos
+monthsall|(todos)
+confirmemail|Konfirmar direksion e-pósta
+confirmemail_send|Embiar el kodigo de konfirmasion.
+confirmemail_sent|Konfirmasion de pósta embiada.
+confirmemail_success|Su direksion de pósta a sido konfirmada. Agóra puedes registrarse e kolaborar en el wiki.
+recreate|Krear de muevo
+confirm_purge_button|Akseptár
+imgmultipageprev|← pajina anterior
+imgmultipagenext|siguiente pajina →
+imgmultigo|Ir!
+table_pager_next|Pajina siguiente
+table_pager_prev|Pajina anterior
+table_pager_first|Primera pajina
+table_pager_last|Ultima pajina
+table_pager_limit_submit|Ir
+table_pager_empty|No hay resultados
+autoredircomment|Redireksionado a [[~{0}]]
+autosumm-new|Pajina mueva: ~{0}
+livepreview-loading|Cargando...
+livepreview-ready|Cargando… ¡Pronto!
+watchlisttools-view|Ver los trocamientos
+watchlisttools-edit|Ver i trocar tu lista de escogidas
+watchlisttools-raw|Troca tu lista de escogidas en crudo
+duplicate-defaultsort|'''Aviso:''' la klave primaria para ordenamiento "~{1}" anula la primera "~{0}"
+version|Versión
+version-specialpages|Pajinas espesiales
+version-other|Otros
+version-version|(Versión ~{0})
+version-poweredby-others|otros
+version-software-version|Versión
+fileduplicatesearch-submit|Buscar
+specialpages|Hojas especiales
+specialpages-group-users|Usadores y derechos
+external_image_whitelist| #Desha esta linea ansina komo esta<pre>\n#Mete partes de frasas (solo la parte ke va entre los //) enbasho\n#Eyas van ser komparadas kon las URLs de las dossias ekternas (hotlinked)\n#Akeyos iguales van ser amostrados komo una imej; si no, solo el su atamientoque \n#Las lineas ke empiezan kor «#» son konsideradas komentarios\n#Esta no aze diferente el senso se la letra\n\n#Mete todas las partes de frasas regex enriva de esta linea. Desha esta ansina komo se topa</pre>
+tag-filter|Filtro de [[Special:Tags\u007Cetiquetas]]:
+tag-filter-submit|Filtro
+tags-edit|trocar
+compare-page1|Hoja 1
+compare-page2|Hoja 2
+compare-rev1|Enderechamiento 1
+compare-rev2|Enderechamiento 2
+compare-submit|Comparar
+htmlform-selectorother-other|Otro
+logentry-newusers-autocreate|El cuento ~{0} fue crîado otomatika mente
+feedback-subject|Sujeto
+feedback-message|Messaje
+feedback-cancel|Anular
+categorytree|Árvole de katēggorías
+categorytree-portlet|Katēggorías
+categorytree-legend|Amostrar el árvole de katēggorías
+categorytree-category|Kategoría:
+categorytree-go|Amostrar el árvole
+categorytree-parents|Parientes
+categorytree-mode-categories|sólo katēggorías
+categorytree-mode-pages|ojas, egzepto dossias
+categorytree-mode-all|todas las hojas
+categorytree-collapse|eskonder
+categorytree-expand|amostrar
+categorytree-num-empty|vazia
+categorytree-load|cargar
+categorytree-loading|cargando...
+categorytree-nothing-found|Eskuza, no ankontramos nada
+categorytree-no-subcategories|si basho-kateggorias
+categorytree-no-parent-categories|sin kateggorias de enriva
+categorytree-no-pages|sin ojas ni basho-kateggorias
+sitesupport|Donaciones
+']:>
+).lang
+;

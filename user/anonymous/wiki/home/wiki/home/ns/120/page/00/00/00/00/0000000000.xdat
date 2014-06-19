@@ -1,0 +1,156 @@
+!!!@9|
+!!!!!	#8BlX	P0	{ "label":
+  { "en":"Earth"
+  , "fr":"Terre"
+  , "de":"Erde"
+  }
+, "description":
+  { "en":"third planet in the Solar System"
+  , "fr":"plan\u00e8te du syst\u00e8me solaire"
+  , "de":"dritter Planet unseres Sonnensystems, einziger bekannter belebter Himmelsk\u00f6rper"
+  }
+, "aliases":
+  { "en":
+    [ "Terra"
+    , "Gaia"
+    , "Sol-3"
+    , "the Blue Planet"
+    , "\u2641"
+    , "\u2295"
+    , "World"
+    , "Local Planet"
+    , "Third Planet"
+    , "Tellus"
+    ]
+  , "fr":
+    [ "Plan\u00e8te bleue"
+    ]
+  , "de":
+    [ "Blauer Planet"
+    , "Erdk\u00f6rper"
+    , "Sol III"
+    , "\u2641"
+    , "\u2295"
+    , "Soll 3"
+    ]
+  }
+, "links":
+  { "enwiki":"Earth"
+  , "dewiki":"Erde"
+  , "frwiki":"Terre"
+  }
+, "entity":"q2"
+, "claims":
+  [ 
+    { "m":
+      [ "value"
+      , 96
+      , "wikibase-entityid"
+      , 
+        { "entity-type":"item"
+        , "numeric-id":405
+        }
+      ]
+    , "q":[]
+    , "g":"q2$59EF21F4-0FCC-4343-A10C-FC6361C55CFA"
+    , "rank":1
+    , "refs":[]
+    }
+  , 
+    { "m":
+      [ "value"
+      , 60
+      , "wikibase-entityid"
+      , 
+        { "entity-type":"item"
+        , "numeric-id":634
+        }
+      ]
+    , "q":[]
+    , "g":"q2$9BD200E4-A1BE-4825-8D50-028D5A087B21"
+    , "rank":1
+    , "refs":[]
+    }
+  , 
+    { "m":
+      [ "value"
+      , 116
+      , "wikibase-entityid"
+      , 
+        { "entity-type":"item"
+        , "numeric-id":321
+        }
+      ]
+    , "q":[]
+    , "g":"q2$07DBB102-DB6E-4B5F-9D9F-73A901D74636"
+    , "rank":1
+    , "refs":[]
+    }
+  , 
+    { "m":
+      [ "value"
+      , 31
+      , "wikibase-entityid"
+      , 
+        { "entity-type":"item"
+        , "numeric-id":634
+        }
+      ]
+    , "q":[]
+    , "g":"q2$D755B7C7-5347-4350-AB82-12D2C71E95F4"
+    , "rank":1
+    , "refs":[]
+    }
+  , 
+    { "m":
+      [ "value"
+      , 107
+      , "wikibase-entityid"
+      , 
+        { "entity-type":"item"
+        , "numeric-id":1969448
+        }
+      ]
+    , "q":[]
+    , "g":"q2$BA188617-777F-4055-919D-45F85C4844AE"
+    , "rank":1
+    , "refs":[]
+    }
+  , 
+    { "m":
+      [ "value"
+      , 227
+      , "string"
+      , "4015139-6"
+      ]
+    , "q":[]
+    , "g":"q2$B43AE569-AB2C-4E4F-BA90-DC56CD6DD24B"
+    , "rank":1
+    , "refs":[]
+    }
+  , 
+    { "m":
+      [ "value"
+      , 367
+      , "string"
+      , "Earth symbol.svg"
+      ]
+    , "q":[]
+    , "g":"q2$6AA0B3FA-5A4C-4C2C-BF45-86542CF7285B"
+    , "rank":1
+    , "refs":
+      [ 
+        [ 
+          [ "value"
+          , 143
+          , "wikibase-entityid"
+          , 
+            { "entity-type":"item"
+            , "numeric-id":328
+            }
+          ]
+        ]
+      ]
+    }
+  ]
+}	

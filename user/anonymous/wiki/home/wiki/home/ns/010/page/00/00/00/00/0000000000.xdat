@@ -1,0 +1,448 @@
+!!!!F|!!!!E|!!!!K|!!!!2|!!!!4|!!!!4|!!!!6|!!!#m|!!!!u|!!!!A|!!!%8|!!!%`|!!!*2|!!!$$|!!!#<|!!!$L|!!!3M|!!!;j|!!"5%|!!!!`|!!!"s|!!!",|!!!"M|!!!.r|!!!";|!!!"?|!!!!_|
+!!!!!	#84^s	Fsys_name	'''{{{1}}}'''	
+!!!!!	#88Yr	Fsysname	'''{{{1}}}'''	
+!!!!!	#89`=	Names_latex	LaT<sub>E</sub>X	
+!!!!!	#8T9'	!	|	
+!!!!"	#8T9(	((	{{	
+!!!!#	#8T9(	))	}}	
+!!!!$	#8T9)	Colon	:	
+!!!!%	#8T9'	Diagnostics_row	<includeonly>{{!}}-
+{{!}} {{{4|}}}
+{{!}} {{{1}}}
+{{!}} {{{2}}}
+{{!}} {{#ifeq:{{{2}}}|{{{3}}}|<span style='color: green;'>pass</span>|<span style='color: red;'>fail:<br/>'{{{2}}}'<br/>'{{{3}}}'</span>}}</includeonly>
+	
+!!!!!	#8:Xi	Diagnostics/Examples/ExpandTemplate	arg_1 is {{{1}}}; arg_2 is {{{2}}}	
+!!!!#	#8=$e	Literalize	{{{1}}}	
+!!!!"	#9pS$	Options/Apps/Row	<includeonly>{{!}}-
+{{!}} class='options_row_label' | {{{1|}}}{{#tag:ref|{{{3}}}. Recommended: {{{4}}}}}
+{{!}} <input xowa_prop="{{{2}}}.cmd"  class="options_textbox" style="width: 380px; margin-bottom:2px;" type="xowa_io"></input>
+<input xowa_prop="{{{2}}}.args" class="options_textbox" style="width: 380px;"></input></includeonly>	
+!!!!!	#:=;7	Js/Io_select	<xowa_html>
+  <script type='text/javascript'>
+    function xowa_io_select(io_type, elem_id, msg) {
+      var cmd = 'app.gui.kit.ask_file("' + msg + '");';
+      var file_path = xowa_exec('scripts_exec', cmd);
+      if (file_path == null || file_path == '') return;
+      var elem = document.getElementById(elem_id);
+      elem.value = file_path;
+    }
+  </script>
+</xowa_html>	
+!!!!!	#:=;0	Options/Css	<xowa_html>
+  <style type="text/css">
+    .options_row_label {font-weight:bold; vertical-align:text-top; text-align:right; width:150px;}
+    .options_table     {border: 1px solid #AAAAAA; border-collapse: collapse; color: black; margin: 1em 0; background-color: #F9F9F9;}
+    .options_table td  {border: 1px solid #AAAAAA; padding: 0.2em;}
+    .options_textbox   {padding: 2px; border: 1px solid black;}
+    .options_textarea  {padding: 2px; border: 1px solid black;}
+    .options_select    {padding: 2px; border: 1px solid black;}
+    .options_button    {padding: 2px; border: 1px solid black; background: white; height: 22px; margin-left: 1px; vertical-align: top;}
+    .options_checkbox  {padding: 2px; border: 1px solid black; }
+  </style>
+</xowa_html>	
+!!!!"	#8fS.	Options/Header	<div>
+<a href="xowa-cmd:app.user.prefs.save();" accesskey='s'><img width=16 height=16 src='~{<>app.user.fsys.root_dir.to_http_file;<>}/app/img/window/chrome/save.png'/>Save</a>
+&nbsp;
+[[Help:Options|Back to Options]]
+</div>
+<br/>	
+!!!!!	#8T2X	Font_color	{{{{{|safesubst:}}}#if:{{{3|}}}|<span style="background-color:{{{2|inherit}}};color:{{{1|inherit}}};">{{{3|}}}</span>|<span style="color:{{{1|inherit}}};">{{{2|}}}</span>}}	
+!!!!!	#8mt<	SWT_prefs	: On Linux, the folder would be /home/your_user_name/.mozilla/eclipse
+: On Windows XP, the folder would be C:\Documents and Settings\your_user_name\Application Data\Mozilla\eclipse
+: On Windows 7, the folder would be C:\Users\your_user_name\Application Data\Mozilla\eclipse
+	
+!!!!!	#:=;4	Options/Tabs	<xowa_html>
+  <style type="text/css">
+    .link-cell      {border: 1px solid #ccc; padding:4px 10px; width:100px; text-align: center;}
+    .empty-cell     {border: none; padding:4px 10px; width:100px;}
+  </style>
+</xowa_html>
+{|style='border-collapse:collapse;border-spacing: 0;'
+|-
+!Application:
+|class='link-cell'|[[Help:Options/Window|Window]]
+|class='link-cell'|[[Help:Options/Language|Language]]
+|class='link-cell'|[[Help:Options/Tabs|Tabs]]
+|class='link-cell'|[[Help:Options/Shortcuts|Shortcuts]]
+!External apps:
+|class='link-cell'|[[Help:Options/Apps|Content Apps]]
+|class='link-cell'|[[Help:Options/XOWA_viewer|Firefox Add-on]]
+|class='link-cell'|[[Help:Options/HTTP_Server|HTTP Server]]
+|class='empty-cell'|
+|-
+!Wiki:
+|class='link-cell'|[[Help:Options/Import|Import]]
+|class='link-cell'|[[Help:Options/Files|Files]]
+|class='link-cell'|[[Help:Options/Category|Category]]
+|class='link-cell'|[[Help:Options/Search_suggest|Search suggest]]
+!Extensions:
+|class='link-cell'|[[Help:Options/Math|Math]]
+|class='link-cell'|[[Help:Options/Scribunto|Scribunto]]
+|class='link-cell'|[[Help:Options/Score|Score]]
+|class='link-cell'|[[Help:Options/Wikibase|Wikibase]]
+|-
+!HTML:
+|class='link-cell'|[[Help:Options/HTML|Appearance]]
+|class='link-cell'|[[Help:Options/Wiki/HTML|Wiki]]
+|class='link-cell'|[[Help:Options/HTML_Tidy|Tidy]]
+|class='empty-cell'|
+!Advanced:
+|class='link-cell'|[[Help:Options/Security|Security]]
+|class='link-cell'|[[Help:Options/Menus|Menus]]
+|class='link-cell'|[[Help:Options/Config_script|Config script]]
+|class='empty-cell'|
+|}	
+!!!!#	#:=;<	Options/TargetJs	<xowa_html>
+<script type='text/javascript'>
+  window.onload = function() {
+    var url = parse_url(xowa_exec('get_current_url'));
+    var trg_types_elem = document.getElementById('trg_types_list');
+    trg_types_elem.value = url.args["type"];
+    trg_types_changed();
+    var trg_vals_lang_elem = document.getElementById('trg_vals_lang');
+    trg_vals_lang_elem.value = url.args["val"];
+  }
+  function parse_url(url) {
+    var rv = {};
+    var url_len = url.Length;
+    var search_txt = "";
+    var search_bgn = url.indexOf("?");
+    if (search_bgn != -1) // search string found
+      search_txt = url.substring(search_bgn + 1, url_len); // +1 to skip ?
+    else
+      search_bgn = url_len; // set search_bgn to end of string
+  
+    rv.path = url.substring(0, search_bgn);
+  
+    rv.args = {};
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) {return decodeURIComponent(s.replace(pl, " "));},
+        query  = search_txt;
+  
+    while (match = search.exec(query))
+      rv.args[decode(match[1])] = decode(match[2]);
+    return rv;
+  }
+  function trg_types_changed() {
+    var trg_type = cbo_selected_value('trg_types_list');
+    if      (trg_type === 'all') {
+      document.getElementById('trg_vals_lang').style.display = "none";
+    }
+    else if (trg_type === 'lang') {
+      document.getElementById('trg_vals_lang').style.display = "";
+    }
+  }
+  function trg_vals_changed(page) {
+    nav_to(page, cbo_selected_value('trg_types_list'), cbo_selected_value('trg_vals_lang'));
+  }
+  function nav_to(page, type, val) {
+    var url = '/wiki/' + page + "?type=" + type + "&val=" + val;
+    window.location.href = url;
+  }
+  function cbo_selected_value (cbo_id) {
+    var cbo = document.getElementById(cbo_id);
+    return cbo.options[cbo.selectedIndex].value;
+  }
+</script>
+</xowa_html>
+<select id='trg_types_list' class='options_select' onchange="trg_types_changed();">
+  <option value="all">all</option>
+  <option value="lang">lang</option>
+  <option value="wiki">wiki</option>
+</select>
+<select id='trg_vals_lang' class='options_select' style='display:none;' onchange="return trg_vals_changed('{{PAGENAMEE}}');">
+{{Lang_options}}
+</select>	
+!!!!$	#94)d	Lang_options	<option value="simple">Simple English</option>
+<option value="ab">Abkhaz</option>
+<option value="ace">Aceh</option>
+<option value="aa">Afar</option>
+<option value="af">Afrikaans</option>
+<option value="ak">Akan</option>
+<option value="sq">Albanian</option>
+<option value="als">Alemannic</option>
+<option value="am">Amharic</option>
+<option value="ar">Arabic</option>
+<option value="an">Aragonese</option>
+<option value="arc">Aramaic</option>
+<option value="hy">Armenian</option>
+<option value="roa-rup">Aromanian</option>
+<option value="frp">Arpitan</option>
+<option value="as">Assamese</option>
+<option value="ast">Asturian</option>
+<option value="av">Avar</option>
+<option value="ay">Aymara</option>
+<option value="az">Azerbaijani</option>
+<option value="bm">Bambara</option>
+<option value="map-bms">Banyumasan</option>
+<option value="ba">Bashkir</option>
+<option value="eu">Basque</option>
+<option value="bar">Bavarian</option>
+<option value="be">Belarusian (norm...)</option>
+<option value="be-x-old">Belarusian (Tara orth...)</option>
+<option value="bn">Bengali</option>
+<option value="bh">Bhojpuri</option>
+<option value="dz">Bhutani</option>
+<option value="bcl">Bikol</option>
+<option value="bpy">Bishnupriya Manipuri</option>
+<option value="bi">Bislama</option>
+<option value="bs">Bosnian</option>
+<option value="br">Breton</option>
+<option value="bug">Bugis</option>
+<option value="bg">Bulgarian</option>
+<option value="my">Burmese</option>
+<option value="bxr">Buryat</option>
+<option value="csb">Cassubian</option>
+<option value="ca">Catalan</option>
+<option value="ceb">Cebuano</option>
+<option value="ch">Chamorro</option>
+<option value="ce">Chechen</option>
+<option value="chr">Cherokee</option>
+<option value="chy">Cheyenne</option>
+<option value="ny">Chichewa</option>
+<option value="zh">Chinese (Zhōng Wén)</option>
+<option value="zh-classical">Chinese (Classical)</option>
+<option value="zh-min-nan">Chinese (Min Nan)</option>
+<option value="cv">Chuvash</option>
+<option value="kw">Cornish</option>
+<option value="co">Corsican</option>
+<option value="cr">Cree</option>
+<option value="hr">Croatian</option>
+<option value="cs">Czech</option>
+<option value="da">Danish</option>
+<option value="dv">Dhivehi</option>
+<option value="nl">Dutch</option>
+<option value="pa">Eastern Punjabi</option>
+<option value="en">English</option>
+<option value="eo">Esperanto</option>
+<option value="et">Estonian</option>
+<option value="ext">Extremaduran</option>
+<option value="fo">Faroese</option>
+<option value="fj">Fijian</option>
+<option value="fi">Finnish</option>
+<option value="fr">French</option>
+<option value="fy">Frisian</option>
+<option value="fur">Friulian</option>
+<option value="ff">Fulfulde</option>
+<option value="gl">Galician</option>
+<option value="lg">Ganda</option>
+<option value="ka">Georgian</option>
+<option value="de">German</option>
+<option value="ki">Gikuyu</option>
+<option value="got">Gothic</option>
+<option value="el">Greek</option>
+<option value="gn">Guaraní</option>
+<option value="gu">Gujarati</option>
+<option value="ht">Haitian Creole</option>
+<option value="hak">Hakka</option>
+<option value="mn">Halh Mongolian (Cyrillic)</option>
+<option value="ha">Hausa</option>
+<option value="haw">Hawaiian</option>
+<option value="he">Hebrew</option>
+<option value="hi">Hindi</option>
+<option value="hu">Hungarian</option>
+<option value="is">Icelandic</option>
+<option value="io">Ido</option>
+<option value="ig">Igbo</option>
+<option value="ilo">Ilokano</option>
+<option value="id">Indonesian</option>
+<option value="ia">Interlingua (IALA)</option>
+<option value="ie">Interlingue (Occidental)</option>
+<option value="kl">Inuktitut, Greenlandic</option>
+<option value="iu">Inuktitut</option>
+<option value="ik">Inupiak</option>
+<option value="ga">Irish</option>
+<option value="it">Italian</option>
+<option value="ja">Japanese</option>
+<option value="jv">Javanese</option>
+<option value="xal">Kalmyk-Oirat</option>
+<option value="kn">Kannada</option>
+<option value="ks">Kashmiri</option>
+<option value="kk">Kazakh</option>
+<option value="km">Khmer, Central</option>
+<option value="rw">Kinyarwanda</option>
+<option value="ky">Kirghiz</option>
+<option value="rn">Kirundi</option>
+<option value="kv">Komi-Zyrian (Cyrillic)</option>
+<option value="kg">Kongo</option>
+<option value="ko">Korean</option>
+<option value="ku">Kurdish</option>
+<option value="lad">Ladino</option>
+<option value="lo">Laotian</option>
+<option value="la">Latin</option>
+<option value="lv">Latvian</option>
+<option value="lij">Ligurian</option>
+<option value="li">Limburgian</option>
+<option value="ln">Lingala</option>
+<option value="lt">Lithuanian</option>
+<option value="jbo">Lojban</option>
+<option value="lmo">Lombard</option>
+<option value="nds">Low German</option>
+<option value="lb">Luxemburguish</option>
+<option value="mk">Macedonian</option>
+<option value="mg">Malagasy</option>
+<option value="ms">Malay</option>
+<option value="ml">Malayalam</option>
+<option value="mt">Maltese</option>
+<option value="gv">Manx</option>
+<option value="mi">Maori</option>
+<option value="mr">Marathi</option>
+<option value="mh">Marshallese</option>
+<option value="cdo">Min Dong</option>
+<option value="mo">Moldovan</option>
+<option value="nah">Nahuatl</option>
+<option value="na">Nauruan</option>
+<option value="nv">Navajo</option>
+<option value="nap">Neapolitan</option>
+<option value="ne">Nepali</option>
+<option value="new">Newar / Nepal Bhasa</option>
+<option value="pih">Norfuk/Pitcairn</option>
+<option value="nrm">Norman</option>
+<option value="frr">North Frisian</option>
+<option value="se">Northern Sami</option>
+<option value="nn">Norwegian (Nynorsk)</option>
+<option value="no">Norwegian</option>
+<option value="oc">Occitan</option>
+<option value="cu">Old Church Slavonic</option>
+<option value="ang">Old English</option>
+<option value="or">Oriya</option>
+<option value="om">Oromo</option>
+<option value="os">Ossetic</option>
+<option value="pi">Pali</option>
+<option value="pam">Pampanga</option>
+<option value="pag">Pangasinan</option>
+<option value="pap">Papiamentu</option>
+<option value="ps">Pashto</option>
+<option value="pdc">Pennsylvania German</option>
+<option value="fa">Persian</option>
+<option value="pms">Piedmontese</option>
+<option value="pl">Polish</option>
+<option value="pt">Portuguese</option>
+<option value="qu">Quechua</option>
+<option value="rm">Raeto-Romance</option>
+<option value="ksh">Ripuarian</option>
+<option value="ro">Romanian</option>
+<option value="ru">Russian</option>
+<option value="sm">Samoan</option>
+<option value="bat-smg">Samogitian</option>
+<option value="sg">Sango/Sangho</option>
+<option value="sa">Sanskrit</option>
+<option value="sc">Sardinian</option>
+<option value="gd">Scots Gaelic</option>
+<option value="sco">Scots</option>
+<option value="sr">Serbian</option>
+<option value="sh">Serbocroatian</option>
+<option value="tn">Setswana</option>
+<option value="sn">Shona</option>
+<option value="scn">Sicilian</option>
+<option value="sd">Sindhi</option>
+<option value="si">Sinhalese</option>
+<option value="sk">Slovak</option>
+<option value="sl">Slovenian</option>
+<option value="so">Somali</option>
+<option value="st">Southern Sotho</option>
+<option value="es">Spanish</option>
+<option value="su">Sundanese</option>
+<option value="sw">Swahili</option>
+<option value="ss">Swati</option>
+<option value="sv">Swedish</option>
+<option value="tl">Tagalog</option>
+<option value="ty">Tahitian</option>
+<option value="tg">Tajiki</option>
+<option value="ta">Tamil</option>
+<option value="tt">Tatar</option>
+<option value="te">Telugu</option>
+<option value="tet">Tetun</option>
+<option value="th">Thai</option>
+<option value="bo">Tibetan</option>
+<option value="ti">Tigrinya</option>
+<option value="tpi">Tok Pisin</option>
+<option value="to">Tonga</option>
+<option value="ts">Tsonga</option>
+<option value="tum">Tumbuka</option>
+<option value="tr">Turkish</option>
+<option value="tk">Turkmen</option>
+<option value="tw">Twi</option>
+<option value="udm">Udmurt</option>
+<option value="uk">Ukrainian</option>
+<option value="hsb">Upper Sorbian</option>
+<option value="ur">Urdu</option>
+<option value="ug">Uyghur</option>
+<option value="uz">Uzbek</option>
+<option value="ve">Venda</option>
+<option value="vec">Venetian</option>
+<option value="vi">Vietnamese</option>
+<option value="rmy">Vlax Romany</option>
+<option value="vo">Volapük</option>
+<option value="fiu-vro">Võro</option>
+<option value="wa">Walloon</option>
+<option value="war">Waray-Waray</option>
+<option value="cy">Welsh</option>
+<option value="vls">West Flemish</option>
+<option value="wo">Wolof</option>
+<option value="wuu">Wu Chinese</option>
+<option value="xh">Xhosan</option>
+<option value="yi">Yiddish</option>
+<option value="yo">Yoruba</option>
+<option value="cbk-zam">Zamboanga Chavacano</option>
+<option value="zea">Zeeuws/Zeaws</option>
+<option value="za">Zhuang</option>
+<option value="zu">Zulu</option>
+	
+!!!!!	#8g[7	Option_default	(default is <code>{{{1}}}</code>)
+	
+!!!!!	#:=;=	System/fsys_root	<xowa_html>
+  <script type='text/javascript'>
+    xowa_exec('scripts_exec', 'app.fsys.root_dir.to_http_file;');
+  </script>
+</xowa_html>	
+!!!!!	#99#!	Xowa_path	<code>{{#xowa|app.fsys.root_dir.gen_sub_path_for_os('{{{1}}}');}}</code>	
+!!!!!	#9ai8	Diagnostics/Examples/ExpandTemplate_bool	bool_true is '{{{bool_true}}}'; bool_false is '{{{bool_false|missing}}}';
+	
+!!!!!	#:=;>	Options/Script	<xowa_html>
+  <script type='text/javascript'>
+document.addEventListener('DOMContentLoaded', function () {
+  var saveButton = document.querySelectorAll('a[href="xowa-cmd:app.user.prefs.save();"]'),
+      inputs = document.querySelectorAll('.options_table input, .options_table select, .options_table textarea'),
+      unsaved = false,
+      i;
+
+  if (!saveButton.length) {
+    return;
+  }
+
+  function onChange () {
+    unsaved = true;
+  }
+
+  function onSave () {
+    unsaved = false;
+  }
+
+  function onUnload () {
+    var active = document.activeElement;
+    if (active != null) active.blur();  // force blur to fire onChange event for active_elem
+    if (unsaved) {
+      var rslt = confirm('Changes have not been saved. Press Ok to save and Cancel to leave the page.');
+      if (rslt)
+        xowa_exec('scripts_exec', 'app.user.prefs.save();');        
+    }
+  }
+
+  for (i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener('change', onChange, false);
+  }
+
+  saveButton[0].addEventListener('click', onSave, false);
+  window.onbeforeunload = onUnload; //we can't use addEventListener (though I don't know why)	
+}, false);
+</script>
+</xowa_html>	
+!!!!!	#:#ei	Diagnostics/LuaCommon/getFrameTitle_parent	{{#invoke:Diagnostics/LuaCommon|getFrameTitle_parent}}	
+!!!!!	#:7/E	Diagnostics/LuaCommon/preprocess_args_parent	{{#invoke:Diagnostics/LuaCommon|preprocess_args_parent}}	
+!!!!!	#:;%)	Test	{{#if:{{{title|}}} | 
+==={{{title}}}===
+|}}	

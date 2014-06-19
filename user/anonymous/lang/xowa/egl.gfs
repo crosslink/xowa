@@ -1,0 +1,520 @@
+this
+.fallback_load('it')
+.messages
+  .load_text(
+<:['
+sun|Dum
+mon|Lün
+tue|Mär
+wed|Mer
+thu|Giu
+fri|Van
+sat|Sab
+january|Znär
+february|Farvär
+march|März
+april|April
+may_long|Magg'
+june|Giügn
+july|Lüi
+august|Agust
+september|Steimbar
+october|Uttubar
+november|Nueimbar
+december|Dzeimbar
+january-gen|Znär
+february-gen|Farvär
+march-gen|März
+april-gen|April
+may-gen|Magg'
+june-gen|Giügn
+july-gen|Lüi
+august-gen|Agust
+september-gen|Steimbar
+october-gen|Uttubar
+november-gen|Nueimbar
+december-gen|Dzeimbar
+jan|Znä
+feb|Far
+mar|Mär
+apr|Apr
+may|Mag
+jun|Giü
+jul|Lüi
+aug|Agu
+sep|Ste
+oct|Utt
+nov|Nue
+dec|Dze
+toc|Indez
+redirectedfrom|(Reindirizzameint da <b>~{0}</b>)
+collapsible-collapse|Comprim
+collapsible-expand|Espand
+sort-descending|Ordinamient decrescent
+sort-ascending|Ordinamient cresceint
+lastmodifiedat|Ültim mudifich d'la pàgina: ~{1}, ~{0}.
+thumbnail-more|Allargä
+otherlanguages|Ätar leingav
+blanknamespace|(Principäl)
+categorytree-num-categories|~{0} C
+categorytree-num-pages|~{0} P
+categorytree-num-files|~{0} F
+bold_sample|Grassètt
+italic_sample|Cursìv
+ago|~{0} fa
+hidden-categories|{{PLURAL:~{0}\u007CCateguria nascost\u007CCateguri nascost}}
+about|Informaziun
+cancel| \nCancellä
+mytalk|Le mé discüssion
+navigation|Navigazion
+and| e
+qbfind|Trov
+qbedit|Mudifich
+qbpageoptions|Opzion d'la pàgina
+qbmyoptions|Le mé pàgin
+qbspecialpages|Pàgin speciäl
+faq|Dumand frequeint
+vector-action-delete|Cancellä
+vector-action-move|Spusta
+vector-action-protect|Prutegg'
+vector-view-create|Creä
+vector-view-edit|Mudifich
+vector-view-history|Väda la storia
+vector-view-view|Legg'
+vector-view-viewsource|Vadä la surgìnt
+actions|Azion
+namespaces|Namespace
+variants|Variänt
+errorpagetitle|Errur
+tagline|Da {{SITENAME}}
+help|Aiüt
+search|Cercä
+searchbutton|Cercä
+go|Vé
+searcharticle|Vé
+history|Storia d'la pàgina
+history_short|Storia
+permalink|Link permaneint
+print|Stampa
+view|Vada
+edit|Mudifich
+create|Creä
+delete|Cancellä
+deletethispage|Cancellä custa pàgina ché
+undelete_short|Recuperä {{PLURAL:~{0}\u007Cuna revision\u007C~{0} revision}}
+viewdeleted_short|Vadä {{PLURAL:~{0}\u007Cuna mudfich cancellät\u007C~{0} mudfich cancellät}}
+protect|Prutegg'
+protect_change|Cambia
+protectthispage|Prutegg' custa pàgina ché
+unprotect|Cambiä la prutezion
+unprotectthispage|Cambiä la prutezion par custa pàgina ché
+newpage|Pàgina növa
+talkpage|Pàgina ad discüssion
+talkpagelinktext|Discüssion
+specialpage|Pàgina speciäl
+personaltools|Strümeint parsunäl
+postcomment|Sezion növa
+articlepage|Vadä la pàgina ad contenüt
+talk|Discüssion
+views|Visit
+toolbox|Strümeint
+userpage|Vadä la pàgina ad l'uteint
+projectpage|Vadä la pàgina dal prugett
+imagepage|Vadä la pàgina dal file
+mediawikipage|Vadä al messagg'
+templatepage|Vadä al template
+viewhelppage|Vadä la pàgina d'aiüt
+categorypage|Vadä la categoria
+viewtalkpage|Vadä la discüssion
+redirectpagesub|Pàgina ad reindirizzameint
+viewcount|Custa pàgina ché l'è stata letta {{PLURAL:~{0}\u007Cvüna volta\u007C~{0} volte}}.
+protectedpage|Pàgina bluccä
+jumpto|Andä a
+jumptonavigation|navigazion
+jumptosearch|cercä
+pool-queuefull|La cua dal pool l'è piena
+pool-errorunknown|Errur mia cugnussü
+aboutsite|Infurmazion su {{SITENAME}}
+aboutpage|Project:Infurmäzion
+copyright|Contenüt suggètt a licinza d'üs ~{0}.
+copyrightpage|{{ns:project}}:Copyright
+currentevents|Eveint curreint
+currentevents-url|Project:Eveint curreint
+disclaimers|Informazion legäl
+disclaimerpage|Project:Avvartenza generäl
+edithelp|Libar di spiegazión
+edithelppage|Help:Mudifich
+helppage|Help:Tütt l'argumeint
+mainpage|Prima pàgina
+mainpage-description|Pàgina principäl
+policy-url|Project:Policy
+portal|Purtäda d'la cumünitä
+portal-url|Project:Purtäda d'la cumünitä
+privacy|Legg' l'informazion parsunäl
+ok|OK
+newmessageslink|növ messagg'
+editsection|cambi
+editold|mudifich
+viewsourceold|vadä la surgìnt
+editlink|mudifich
+viewsourcelink|vadä la surgìnt
+editsectionhint|Mudifich la seziòn: ~{0}
+showtoc|mustra
+hidetoc|nascond
+thisisdeleted|Vadä o ripristinä ~{0}?
+viewdeleted|Vadä ~{0}?
+restorelink|{{PLURAL:~{0}\u007Cvüna mudfich cancellät\u007C~{0} mudfich cancellät}}
+feedlinks|Feed:
+feed-invalid|La mudalitä ad sottoscrizion dal feed l'è mia valid.
+feed-unavailable|I feed al son mia dispunibil
+site-rss-feed|Emissiòn RSS ad ~{0}
+site-atom-feed|Emission Atom ad ~{0}
+page-rss-feed|Emissiòn RSS par ~{0}
+page-atom-feed|Emission Atom par ~{0}
+red-link-title|~{0} (la pàgina a l'esist mia)
+nstab-main|Pàgina
+nstab-user|Pàgina uteint
+nstab-media|File multimediäl
+nstab-special|Pàgina speciäl
+nstab-project|Pàgina ad sërvizi
+nstab-image|Immàgin
+nstab-mediawiki|Messagg'
+nstab-template|Mudell
+nstab-help|Aiüt
+nstab-category|Categuria
+error|Errur
+databaseerror|Errur dal database
+readonly|Database bluccä
+missingarticle-rev|(revision n°: ~{0})
+missingarticle-diff|(Diff: ~{0}, ~{1})
+internalerror|Errur interiur
+internalerror_info|Errur interiur: ~{0}
+viewsource|Vadä la surgìnt
+viewsource-title|Vadä la surgìnt ad ~{0}
+yourname|Nom uteint:
+yourpassword|Password:
+yourpasswordagain|Ripett la password:
+login|Enträ
+nav-login-createaccount|Enträ / Creä un account
+userlogin|Enträ / Creä un account
+userloginnocreate|Enträ
+logout|Üscì
+userlogout|Üscì
+notloggedin|Si mia enträ
+nologinlink|Creä un cunt
+createaccount|Creä cunt
+gotaccountlink|Enträ
+createaccountmail|Via e-mail
+createaccountreason|Mutiv:
+loginerror|Errur ad enträ
+accountcreated|Account creä
+loginlanguagelabel|Leingua: ~{0}
+resetpass|Cambiä la password
+oldpassword|Vecc' password:
+newpassword|Növa password:
+resetpass-submit-loggedin|Cambiä la password
+resetpass-submit-cancel|Cancellä
+resetpass-temp-password|Password tempural:
+passwordreset|Cambiä la password
+passwordreset-legend|Cambiä la password
+passwordreset-username|Nom uteint:
+passwordreset-domain|Dumini:
+media_tip|Cullegameint al file
+summary|Summari:
+savearticle|Sälv la pàgina
+preview|Vadä prima
+showpreview|Vadä l'antepeima
+showdiff|Vadä li cambiameint
+blockedtitle|Uteint bluccä
+newarticle|(Növ)
+note|'''Nota:'''
+editing|Mudifich ad ~{0}
+editingsection|Mudifich ad ~{0} (sezion)
+editingcomment|Mudifich ad ~{0} (növ sezion)
+editconflict|Conflitt ad mudifich: ~{0}
+yourtext|Al tò test
+yourdiff|Differeinz
+template-protected|(prutett)
+template-semiprotected|(mézz-prutett)
+log-fulllog|Vadä al log cumplet
+edit-conflict|Conflitt ad mudifich.
+viewpagelogs|Vadä li log ad custa pàgina ché
+currentrev|Ültima version
+currentrev-asof|Ültima version dle ~{0}
+revisionasof|Version dle ~{0}
+revision-info|Version dle ~{0}, avtur: ~{1}
+previousrevision|← Version piö vecc'
+nextrevision|Versiòn piö növ →
+currentrevisionlink|Ültima version
+cur|curr
+next|succ
+last|prec
+page_first|prima
+page_last|ültim
+history-feed-item-nocomment|~{0} al ~{1}
+rev-delundel|vadä/anscönd
+revdelete-radio-set|Sì
+revdelete-radio-unset|No
+revdelete-reasonotherlist|Ätar ragion
+revertmerge|Annullä l'ünion
+lineno|Riga ~{0}:
+editundo|cancellä
+searchresults|Risultät d'la ricerch
+searchresults-title|Risultät d'la ricerch ad "~{0}"
+viewprevnext|Väda (~{0} {{int:pipe-separator}} ~{1}) (~{2}).
+searchprofile-articles|Pàgin ad cuntinüt
+searchprofile-images|Multimëdi
+searchprofile-everything|Tütt
+searchprofile-advanced|Avanzät
+searchprofile-articles-tooltip|Cercä in ~{0}
+searchprofile-project-tooltip|Cercä in ~{0}
+searchprofile-images-tooltip|Cercä immàgin
+search-result-size|~{0} ({{PLURAL:~{1}\u007C1 parola\u007C~{1} paroli}})
+search-redirect|(redirect ~{0})
+search-section|(sezion ~{0})
+search-interwiki-caption|Prugett fradel
+search-interwiki-default|Risültä da ~{0}:
+search-interwiki-more|(ätar)
+searchall|tütt
+powersearch-toggleall|Tütt
+powersearch-togglenone|Ansöin
+preferences|Prefereinz
+mypreferences|Al me prefereinz
+prefs-edits|Nümar ad mudifich:
+prefsnologin|Si mia enträ
+changepassword|Cambiä la password
+prefs-skin|Skin
+skin-preview|Vadä prima
+datedefault|Ansiön prefereinz
+prefs-beta|Funzionalitä beta
+saveprefs|Salvä
+prefs-editing|Mudificä
+rows|Righe
+searchresultshead|Cercä
+timezoneregion-africa|Africa
+timezoneregion-america|América
+timezoneregion-antarctica|Antartide
+timezoneregion-arctic|Artide
+timezoneregion-asia|Asia
+timezoneregion-atlantic|Ucean Atlantich
+timezoneregion-australia|Australia
+timezoneregion-europe|Europa
+timezoneregion-indian|Ucean Indian
+timezoneregion-pacific|Ucean Pacifich
+youremail|E-mail:
+username|Nom uteint
+uid|ID uteint
+prefs-memberingroups|Membar {{PLURAL:~{0}\u007Cdal grüpp\u007Cdei grüpp}}:
+yourrealname|Nom ver:
+yourlanguage|Leingua
+email|E-mail
+group|Grüpp:
+group-user|Uteint
+group-autoconfirmed|Uteint autoconvalidät
+group-bot|Bot
+group-sysop|Amministradór
+group-bureaucrat|Bürocrat
+group-suppress|Oversight
+group-all|(tütt)
+group-user-member|{{GENDER:~{0}\u007Cuteint}}
+group-autoconfirmed-member|{{GENDER:~{0}\u007Cuteint autoconvalidät}}
+group-bot-member|{{GENDER:~{0}\u007Cbot}}
+group-sysop-member|{{GENDER:~{0}\u007Camministradór}}
+group-bureaucrat-member|{{GENDER:~{0}\u007Cbürocrat}}
+group-suppress-member|{{GENDER:~{0}\u007Coversight}}
+grouppage-user|{{ns:project}}:Uteint
+grouppage-autoconfirmed|{{ns:project}}:Uteint autoconvalidät
+grouppage-bot|{{ns:project}}:Bot
+grouppage-sysop|{{ns:project}}:Amministradór
+grouppage-bureaucrat|{{ns:project}}:Bürocrat
+grouppage-suppress|{{ns:project}}:Oversight
+right-read|Legg' pàgin
+right-edit|Mudifich pàgin
+action-read|legg' custa pàgina ché
+action-edit|mudifch custa pàgina ché
+action-createpage|creä pàgin
+action-move|spustä custa pàgina ché
+action-movefile|spustä cust file ché
+action-upload|caricä cust file ché
+action-delete|cancellä custa pàgina ché
+recentchanges|Ültim cambiameint
+rcshowhidebots|~{0} i bot
+rcshowhidemine|~{0} le mé mudifich
+diff|diff
+hist|cron
+hide|Nascond
+show|mustra
+minoreditletter|m
+newpageletter|N
+boteditletter|b
+number_of_watching_users_pageview|[usservä da {{PLURAL:~{0}\u007Cvün uteint\u007C~{0} uteint}}]
+rc_categories_any|Qualsía
+upload|Cärga un file
+license|Licinza:
+license-header|Licinza
+nolicense|Ansöna licinza seleziunä
+listfiles_date|Data
+listfiles_name|Nom
+listfiles_user|Uteint
+file-anchor-link|Immàgin
+filehist|Storia dal file
+filehist-current|curreint
+filehist-datetime|Data/Ura
+filehist-thumb|Miniadüra
+filehist-user|Uteint
+filehist-dimensions|Dimension
+filehist-comment|Uggett
+imagelinks|Cullegameint al file
+filedelete-submit|Cancellä
+randompage|Una pàgina a cäs
+brokenredirects-edit|cambi
+nbytes|~{0} {{PLURAL:~{0}\u007Cbyte\u007Cbyte}}
+newpages|Pàgin növ
+move|Spusta
+booksources-go|Vé
+alphaindexline|da ~{0} a ~{1}
+allpagessubmit|Vé
+listusers-submit|Mustra
+listgrouprights-group|Grüpp
+emailfrom|Da:
+emailto|A:
+emailsubject|Uggett:
+emailmessage|Messagg'
+mywatchlist|Le mé üsservat speciäl
+watchlistfor2|Dall'uteint ~{0} ~{1}
+watchnologin|Si mia enträ
+watch|Vadä
+watchthispage|Vadä custa pàgina ché
+unwatch|N'la vadär piö
+created|creät
+changed|mudifegat
+delete-confirm|Cancellä "~{0}"
+delete-legend|Cancellä
+rollback_short|Turne indré
+rollbacklink|Avé indré la mudifech ad prima
+rollbackfailed|Si mia riussì a turnä indré
+pagesize|(byte)
+restriction-edit|Mudifich
+restriction-move|Spusta
+restriction-create|Creä
+restriction-upload|Caricä
+undeletelink|vada/turna indré
+undeleteviewlink|vada
+undelete-show-file-submit|Sì
+namespace|Namespace:
+contributions|Contribüdi de l'uteint
+contributions-title|Contribüdi ed ~{0}
+mycontris|Le mé contribüdi
+contribsub2|Par ~{0} (~{1})
+uctop|(ültim par la pàgin)
+sp-contributions-submit|Cercä
+whatlinkshere-page|Pàgina:
+whatlinkshere-links|← cullegameint
+block|Bluccä l'uteint
+unblock|Sbluccä l'uteint
+blockip|Bluccä l'uteint
+blockip-title|Bluccä l'uteint
+blockip-legend|Bluccä l'uteint
+ipbotheroption|ätar
+ipb-unblock-addr|Sbluccä ~{0}
+unblockip|Sbluccä l'uteint
+blocklist|Uteint bluccä
+ipblocklist-submit|Cercä
+ipblocklist-otherblocks|Ätar {{PLURAL:~{0}\u007Cblocc\u007Cblocc}}
+blocklink|blocc
+unblocklink|sblocc
+change-blocklink|cambiä al blocc
+contribslink|cuntribüti
+unblocklogentry|l'à sbluccä ~{0}
+move-page|Spustameint ad ~{0}
+move-page-legend|Spustä la pàgina
+movearticle|Spustä la pàgina:
+movenologin|Si mia enträ
+movepagebtn|Spustä la pàgina
+movelogpage|Spustameint
+revertmove|Turné indré
+export-submit|Esporta
+allmessages-filter-all|Tütt
+allmessages-language|Leingua:
+allmessages-filter-submit|Vé
+import-upload-filename|Nom dal file:
+import-comment|Uggett:
+import-upload|Caricä dat XML
+tooltip-pt-logout|Üscì
+tooltip-ca-move|Spustä custa pàgina ché
+tooltip-search|Cercä deintar ad {{SITENAME}}
+tooltip-p-logo|Väda la pàgina principäl
+tooltip-n-mainpage|Väda la pàgina principäl
+tooltip-n-mainpage-description|Väda la pàgina principäl
+tooltip-n-randompage|Fa vëd una pàgina a cäs
+tooltip-n-help|Pàgin di aiüt
+tooltip-t-upload|Cärag file multimediäl
+tooltip-ca-nstab-project|Vadä la pàgina dal prugett
+tooltip-ca-nstab-image| \nVadä la pàgina dal file
+tooltip-ca-nstab-template|Väda la template
+tooltip-ca-nstab-help|Vadä la pàgina d'aiüt
+tooltip-ca-nstab-category|Vadä la pàgina d'la categoria
+tooltip-save|Salvä li tò cambiameint
+others|ätar
+pageinfo-header-edits|Mudifich
+pageinfo-views|Nümar ad visit
+pageinfo-watchers|Numar ad visitador
+pageinfo-edits|Nümar ad mudifich
+pageinfo-authors|Nümar ad devers autor
+previousdiff|← Mudifich piö vecc'
+nextdiff|Mudifich piö növa →
+file-info-gif-looped|ciclich
+file-info-png-looped|ciclich
+newimages-legend|Nom dal file
+showhidebots|(~{0} i bot)
+ilsubmit|Cercä
+bydate|par data
+metadata|Metadat
+exif-exposuretime-format|~{0} s (~{1})
+exif-gpsareainformation|Nom d'la zona GPS
+exif-gpsdatestamp|Data GPS
+exif-source|Font
+exif-languagecode|Leingva
+exif-iimcategory|Categuria
+exif-identifier|Identificativ
+watchlistall2|tütt
+namespacesall|tütt
+monthsall|tütt
+limitall|tütt
+recreate|Creä ad növ
+confirm_purge_button|OK
+confirm-watch-button|OK
+confirm-unwatch-button|OK
+imgmultigo|Vé!
+imgmultigoto|Vé in s'la pàgina ~{0}
+ascending_abbrev|cresc
+descending_abbrev|decresc
+table_pager_first|Prima pàgina
+table_pager_last|Ültima pàgina
+table_pager_limit_submit|Vé
+watchlistedit-raw-titles|Titul:
+version|Version
+version-specialpages|Pàgin speciäl
+version-other|Ätar
+version-version|(Version ~{0})
+version-license|Licinza
+version-poweredby-others|ätar
+fileduplicatesearch-filename|Nom dal file:
+fileduplicatesearch-submit|Cercä
+specialpages|Pàgin speciäl
+tags-edit|mudifich
+compare-page1|Pàgina 1
+compare-page2|Pàgina 2
+compare-rev1|Revisiòn 1
+compare-rev2|Revisiòn 2
+htmlform-reset|Turna indré cul la mudifich
+htmlform-selectorother-other|Ätar
+rightsnone|(ansöin)
+feedback-subject|Uggett:
+feedback-message|Messagg':
+feedback-cancel|Cancellä
+categorytree-portlet|Categorie
+categorytree-category|Categorie:
+']:>
+).lang
+;

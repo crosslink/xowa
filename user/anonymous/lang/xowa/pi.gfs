@@ -1,0 +1,92 @@
+numbers {
+  digits {
+    clear;
+    set('0', '०');
+    set('1', '१');
+    set('2', '२');
+    set('3', '३');
+    set('4', '४');
+    set('5', '५');
+    set('6', '६');
+    set('7', '७');
+    set('8', '८');
+    set('9', '९');
+  }
+}
+this
+.ns_names
+  .load_text(
+<:['
+-2|मीडिया
+-1|विसेस
+1|सम्भासित
+2|अवयव
+3|अवयव सम्भासित
+5|$1 सम्भासित
+6|पटिमा
+7|पटिमा सम्भासित
+8|मीडियाविकि
+9|मीडियाविकि सम्भासित
+10|पटिरूप
+11|पटिरूप सम्भासित
+12|अवस्सय
+13|अवस्सय सम्भासित
+14|विभाग
+15|विभाग सम्भासित
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+january|ज्यानुवरी
+february|फ़रवरी
+march|मार्च
+april|अप्रैल
+may_long|मई
+june|जून
+july|जुलाई
+august|अगस्त
+september|सेप्टेम्बर
+october|ओक्टोबर
+november|नवम्बर
+december|दिसम्बर
+article|लेख पत्त
+searchbutton|खोज
+searcharticle|गच्छामि
+mainpage|पमुख पत्त
+mainpage-description|पमुख पत्त
+booksources-go|गच्छामि
+allarticles|सब्ब लेखा
+allpagessubmit|गच्छामि
+allmessagesname|नाम
+exif-gpslatitude|अक्षांश
+exif-gpslongitude|देशान्तर
+exif-sensingmethod-1|अपरिभाषित
+']:>
+).lang
+;

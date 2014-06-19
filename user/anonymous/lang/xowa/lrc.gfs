@@ -1,0 +1,161 @@
+this
+.messages
+  .load_text(
+<:['
+cite_error|خطا جاگه:~{0}
+cite_references_link_accessibility_label|بالا پرسن
+cite_references_link_many_accessibility_label|پرستن د
+indexpages|سيائه بلگيا اصلی
+pageswithoutscans|بلگيا بی وارسی
+proofreadpage_desc|اجازه بيه سی قياس كردنه متن وا وارسی اصلی
+proofreadpage_image|عسگ
+proofreadpage_index|سيائه
+proofreadpage_index_expected|خطا:
+proofreadpage_nosuch_index|خطا:چنو نی يش
+proofreadpage_nosuch_file|خطا:چنو فايلی نی يش
+proofreadpage_badpage|قالو اشتوايی
+proofreadpage_badpagetext|حالت بلگه ای كه شما ميهايت ذخيرش بكيد درست نئ
+proofreadpage_indexdupe|چسب ون تكرار بيه
+proofreadpage_indexdupetext|بلگيا نتونن بيشتر د يكی د بلگه اصلی ليست بوئن
+proofreadpage_nologin|نبوئه وارد بوئيد
+proofreadpage_nologintext|شما واس [[Special:UserLogin\u007Cمُسجلًا الدخول]]بويئت سی آلشت كردن شلك غلط گئری ای بلگه.
+proofreadpage_notallowed|تغيير اجازه ناره
+proofreadpage_notallowedtext|شما اجازه ناريت شلك غلط گئری ای بلگه نه آلشت بكيد
+proofreadpage_dataconfig_badformatted|اشتوا د راست كرن دونسمنيا
+proofreadpage_dataconfig_badformattedtext|بلگه [[Mediawiki:Proofreadpage index data config]] دJSON قالودار نئ .
+proofreadpage_number_expected|خطا:اندازه يا رقمدار پذيرش بوئه
+proofreadpage_interval_too_large|خطا:ورودی فره گپه
+proofreadpage_invalid_interval|خطا:جيابيئن نادرست
+proofreadpage_nextpage|بلگه نيايی
+proofreadpage_prevpage|بلگه وادمايی
+proofreadpage_header|عنوان (شامل نبيه):
+proofreadpage_body|لش بلگه(بايد تضمين بوئه):
+proofreadpage_footer|هار بلگه (تضمين نبيه):
+proofreadpage_toggleheaders|آلشت كردن قاوليت ديئن بخشيا noinclude
+proofreadpage_quality0_category|بی متن
+proofreadpage_quality1_category|غلط گئری نبيه
+proofreadpage_quality2_category|مشگل دار
+proofreadpage_quality3_category|غلط گئری
+proofreadpage_quality4_category|معتور بيه
+proofreadpage_quality0_message|ای بلگه اصلا غلط گئری نبيه
+proofreadpage_quality1_message|ای بلگه اصلا غلط گئری نبيه
+proofreadpage_quality2_message|د وخت غلط گئری ای بلگه يه قری مشگل بيه
+proofreadpage_quality3_message|ای بلگه اصلا غلط گئری نبيه
+proofreadpage_quality4_message|ای بلگه معتور بيه
+proofreadpage_index_status|شلگ سيائه
+proofreadpage_index_size|شماره بلگيا
+proofreadpage_specialpage_label_orderby|منظم بيه وا
+proofreadpage_specialpage_label_key|پی جوری
+proofreadpage_specialpage_label_sortascending|كم بيئن منظم
+proofreadpage_alphabeticalorder|نطم الفبايی
+proofreadpage_index_listofpages|سيائه بلگيا
+proofreadpage_image_message|وصل بيه د بلگه سيائه
+proofreadpage_page_status|حالت بلگه
+proofreadpage_js_attributes|موضو نويسنه سال چاپ بين
+proofreadpage_index_attributes|المؤلف\nالعنوان\nسال\u007Cسال چاپ بيين\nناشر\nسرچشمه\nعسگ\u007Cپوششت عسگ\nبلگيا\u007C\u007C20\nتوضيحيا\u007C\u007C10
+proofreadpage_pages|~{1} {{PLURAL:~{0}\u007Cبلگه\u007Cبلگيا}}
+proofreadpage_specialpage_legend|مئن بلگيا سيائه نه بگرد
+proofreadpage_specialpage_searcherror|خطا د موتور پی جوری
+proofreadpage_specialpage_searcherrortext|موتور پی جوری كار نمی كه. متاسفيم سی ناراحت بی ينتو
+proofreadpage_source|سرچشمه
+proofreadpage_source_message|ويرايشت وارسی بيه سی نهائن ای متن استفاده بوئه
+right-pagequality|كيفيت بيرق بلگه نه عوض بكيد
+proofreadpage-section-tools|اوزاريا غلط گئری
+proofreadpage-group-zoom|زؤل زئن
+proofreadpage-group-other|كسونا تر
+proofreadpage-button-toggle-visibility-label|نشو بيه/قام كو سربلگ و ديندابلگ ای بلگه نه
+proofreadpage-button-zoom-out-label|كؤچك كردن
+proofreadpage-button-reset-zoom-label|انازه اصلی
+proofreadpage-button-zoom-in-label|گپ كردن
+proofreadpage-button-toggle-layout-label|چينشت سر وه هار،يا سر وه بالا
+proofreadpage-preferences-showheaders-label|نشون بيه سربلگ و ديندابلگ وختی كه د ويرايشت بوئه {{ns:page}}
+proofreadpage-preferences-horizontal-layout-label|د چينشت هار ون وختی كه د{{ns:page}} ويرايشت ميكيد استفاده بوئه
+proofreadpage-indexoai-repositoryName|گپ دونسمنديا كتاو د{{SITENAME}}
+proofreadpage-indexoai-eprint-content-text|گپ دونسمنيا كتاويا وا بلگيا غلط گئری مديريت بيه
+proofreadpage-indexoai-error-schemanotfound|طرح ون پيدا نبی
+proofreadpage-indexoai-error-schemanotfound-text|طرح ون ~{0} اصلا پيدا نبی .
+proofreadpage-disambiguationspage|پيش قالو:disambig
+cite_article_link|جاگه ای بلگه
+cite|جاگه
+cite_page|بلگه
+cite_submit|جاگه
+wikieditor|كاروری پيشرفته ويراشتگر ويكی متن
+wikieditor-wikitext-tab|ويكی متن
+wikieditor-loading|د حالت سوار كرد
+wikieditor-preview-tab|پيش زمينه
+wikieditor-preview-changes-tab|آلشتيا
+wikieditor-preview-loading|د حالت سوار كرد
+wikieditor-previewDialog-tab|پيش زمينه
+wikieditor-previewDialog-loading|د حالت سوار كرد
+wikieditor-publish-preference|توانايی پا وه پا سی انتشار
+wikieditor-publish-button-publish|منتشر كردن
+wikieditor-publish-button-cancel|رد كردن
+wikieditor-publish-dialog-title|انتشار سی{{نوم مالگه}}
+wikieditor-publish-dialog-minor|ويرايشت كؤچك
+wikieditor-publish-dialog-watch|ديئن ای بلگه
+wikieditor-publish-dialog-publish|منتشر كردن
+wikieditor-publish-dialog-goback|ورئرد
+wikieditor-template-editor-dialog-title|قالو ويرايشت
+wikieditor-template-editor-dialog-submit|روزآمد كردن
+wikieditor-template-editor-dialog-cancel|رد كردن
+wikieditor-toc-show|نشون ديئن محتوايا
+wikieditor-toc-hide|قام كردن محتوايا
+wikieditor-toolbar|اوزارگه ويرايشت
+wikieditor-toolbar-loading|د حالت سوار كرد
+wikieditor-toolbar-tool-bold|توپر
+wikieditor-toolbar-tool-bold-example|متن توپر بيه
+wikieditor-toolbar-tool-italic|كج كوله
+wikieditor-toolbar-tool-italic-example|نوشته كج كوله
+wikieditor-toolbar-tool-ilink|لینک مئن ون
+wikieditor-toolbar-tool-ilink-example|عنوان لينك
+wikieditor-toolbar-tool-xlink-example|http://www.example.com نوم ديس ون
+wikieditor-toolbar-tool-link|ديس ون
+wikieditor-toolbar-tool-link-int|سی ويكی بلگه
+wikieditor-toolbar-tool-link-cancel|رد كردن
+wikieditor-toolbar-file-size|انازه
+wikieditor-toolbar-file-float|د راست چيين
+wikieditor-toolbar-file-default|پيش فرض
+wikieditor-toolbar-file-format|قالو
+wikieditor-toolbar-file-format-none|هيش كوم
+wikieditor-toolbar-tool-file-insert|دائن
+wikieditor-toolbar-tool-file-cancel|رد كردن
+wikieditor-toolbar-tool-reference|سرچشمه
+wikieditor-toolbar-tool-reference-cancel|رد كردن
+wikieditor-toolbar-tool-reference-title|دائن سرچشمه
+wikieditor-toolbar-tool-reference-insert|دائن
+wikieditor-toolbar-section-advanced|پيشرفته
+wikieditor-toolbar-tool-heading|سربلگه
+wikieditor-toolbar-tool-small|كؤچك
+wikieditor-toolbar-tool-small-example|متن كؤچك
+wikieditor-toolbar-group-insert|دائن
+wikieditor-toolbar-tool-newline|خط تازه
+wikieditor-toolbar-tool-table|جعوه
+wikieditor-toolbar-tool-replace-close|بسن
+wikieditor-toolbar-characters-page-latin|لاتين
+wikieditor-toolbar-characters-page-symbols|نماديا
+wikieditor-toolbar-characters-page-greek|هلنی
+wikieditor-toolbar-characters-page-cyrillic|سريليك
+wikieditor-toolbar-characters-page-arabic|عروی
+wikieditor-toolbar-characters-page-persian|فارسی
+wikieditor-toolbar-characters-page-hebrew|عبری
+wikieditor-toolbar-characters-page-bangla|بانگلا
+wikieditor-toolbar-characters-page-tamil|تاميل
+wikieditor-toolbar-characters-page-telugu|تلوگو
+wikieditor-toolbar-characters-page-sinhala|سين هالا
+wikieditor-toolbar-characters-page-gujarati|گجرات
+wikieditor-toolbar-characters-page-devanagari|دوانگاری
+wikieditor-toolbar-characters-page-thai|تايی
+wikieditor-toolbar-characters-page-lao|لائو
+wikieditor-toolbar-characters-page-khmer|خمر
+wikieditor-toolbar-section-help|هومياری
+wikieditor-toolbar-help-page-discussion|گپ
+wikieditor-toolbar-help-content-indent-description|مئن رئته
+wm-license-book-editor|ويرايشتگر
+wm-license-book-translator|والريار
+wm-license-book-volume|حجم
+wm-license-information-source|سرچشمه
+wm-license-information-date|تاريخ
+sitesupport|هومياری پيلی
+']:>
+).lang
+;

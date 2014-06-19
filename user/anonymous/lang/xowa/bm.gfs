@@ -1,0 +1,112 @@
+this
+.fallback_load('fr')
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|karidon
+monday|ntɛnɛdon
+tuesday|taratadon
+wednesday|arabadon
+thursday|alamisadon
+friday|jumadon
+saturday|sibiridon
+august|uti
+aug|uti
+allpages|Nyɛw bɛɛ
+categories|Nyɛ ka cogoyaw
+otherlanguages|Kanw wɛrɛ
+category_header|Nyɛw cogoya kɔnɔ: "~{0}"
+tog-hideminor|Yɛlɛmaliw kura fitini dogo
+article|Nyɛ
+mypage|N'ka nyɛ
+mytalk|N'ka baronyɛ
+and| ani
+qbfind|Nyini
+qbedit|Yɛlɛma
+qbspecialpages|Nyɛw kɛrɛnkɛrɛnnen
+help|Dɛmɛ
+search|Nyini
+searchbutton|Nyini
+go|Taa
+searcharticle|Taa
+history|Nyɛka tariku
+history_short|Tariku
+edit|yɛlɛma
+editthispage|Nyɛ nin yɛlɛma
+newpage|Nyɛ kura
+specialpage|Nyɛ kɛrɛnkɛrɛnnen
+talk|Sɔsɔli
+toolbox|Minanw
+userpage|Utilisateur ka nyɛ
+imagepage|Janin ka nyɛ
+jumptosearch|Nyini
+currentevents|Kunnafoni
+currentevents-url|Project:Kunnafoni
+disclaimers|Kangari
+edithelp|Dɛmɛ
+mainpage|Nyɛ fɔlɔ
+mainpage-description|Nyɛ fɔlɔ
+portal|Jamaje
+editsection|yɛlɛma
+hidetoc|dogo
+nstab-main|Nyɛ
+nstab-image|Janin
+nstab-help|Dɛmɛ
+nstab-category|Cogoya
+minoredit|Yɛlɛma fitini.
+watchthis|Nyɛ tulomajɔ
+newarticle|(Kura)
+editing|~{0} ka yɛlɛmali
+editingsection|~{0} ka yɛlɛmali (section)
+editingcomment|~{0} ka yɛlɛmali (baro)
+powersearch|Nyini
+preferences|Fisayali
+prefs-skin|Apparence
+hide|dogo
+file-anchor-link|Janin
+randompage|Nyɛ min man ni ja
+popularpages|Nyɛw les plus consultées
+newpages|Nyɛw kura
+ancientpages|Nyɛw les plus anciens
+move|telun
+movethispage|Nyɛ telun
+linksearch-ok|Nyini
+watch|Tulomajɔ
+watchthispage|Nyɛ tulomajɔ
+mycontris|N'ka contributions
+lockconfirm|Awɔ, je confirme que je souhaite verrouiller la base de données.
+move-page-legend|Nyɛ telun
+movearticle|Nyɛ telun
+movepagebtn|Nyɛ telun
+others|wɛrɛ
+ilsubmit|Nyini
+specialpages|Nyɛw kɛrɛnkɛrɛnnen
+sitesupport|Banumanke
+']:>
+).lang
+;

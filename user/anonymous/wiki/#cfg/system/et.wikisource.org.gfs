@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Lehekülg', 'Lehekülje_arutelu', 'Register', 'Registri_arutelu');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Lehekülg', 'Lehekülje_arutelu', 'Register', 'Registri_arutelu');
+// wiki.xtns.pages.end

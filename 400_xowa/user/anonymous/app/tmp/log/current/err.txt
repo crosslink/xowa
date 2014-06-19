@@ -1,0 +1,262 @@
+20130902_005258.859 run_failed: init_desktop 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:22)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:25)
+	gplx.xowa.Xoa_app_.Run_args
+		(Xoa_app_.java:126)
+	gplx.xowa.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:83)
+	gplx.xowa.Xoa_app_.Run_ui
+		(Xoa_app_.java:172)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062414.827 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062427.229 run_failed: 20140619_062414.692 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062714.306 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062714.716 run_failed: 20140619_062714.301 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062811.149 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062811.899 run_failed: 20140619_062811.142 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062942.978 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_062943.342 run_failed: 20140619_062942.972 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_063000.514 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_063000.867 run_failed: 20140619_063000.508 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_063250.942 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_063251.366 run_failed: 20140619_063250.936 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+

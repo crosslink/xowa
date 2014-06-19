@@ -1,0 +1,121 @@
+this
+.messages
+  .load_text(
+<:['
+cite_reference_link_prefix|cite_ref-
+cite_references_link_many_sep| 
+cite_references_link_many_and| 
+indexpages|ⵓⵎⵓⵖ ⵏ ⵜⴰⵙⵏⵉⵡⵉⵏ ⵏ ⵓⵙⴳⴱⴰⵔ
+proofreadpage_image|ⵜⴰⵡⵍⴰⴼⵜ
+proofreadpage_nologin|ⵓⵔ ⵜⴽⵛⵎⴷ
+proofreadpage_notallowed|ⴰⴱⴷⴷⴻⵍ ⵓⵔ ⵢⴻⵍⵍⴰ
+proofreadpage_dataconfig_badformatted|Bug in data configuration
+proofreadpage_invalid_interval|ⴰⵣⴳⴰⵍ: Invalid interval
+proofreadpage_nextpage|ⵜⴰⵙⵏⴰ ⵜⴰⵏⴹⴼⴰⵔⵜ
+proofreadpage_prevpage|ⵜⴰⵙⵏⴰ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ
+proofreadpage_header|ⴰⵣⵡⵉⵍ (ⵓⵔ ⵢⴻⵍⵍⴰ):
+proofreadpage_footer|ⴰⵣⵡⵉⵍ (ⵓⵔ ⵢⴻⵍⵍⴰ):
+proofreadpage_quality0_category|ⵡⴰⵔ ⴰⴹⵔⵉⵙ
+proofreadpage_quality1_category|ⵓⵔ ⵜⵓⵙⴷⴰⴷ
+proofreadpage_quality2_category|ⴷⵉⵙ ⵉⵎⵓⴽⵔⵉⵙⵏ
+proofreadpage_specialpage_label_key|ⴰⵔⵣⵣⵓ:
+proofreadpage_index_listofpages|ⵓⵎⵓⵖ ⵏ ⵜⴰⵙⵏⵉⵡⵉⵏ
+proofreadpage_image_message|ⴰⵣⴷⴰⵢ ⵖⵔ ⵜⴰⵙⵏⴰ ⵏ ⵓⵎⵓⵖ
+proofreadpage_page_status|ⴰⴷⴷⴰⴷ ⵏ ⵜⴰⵙⵏⴰ
+proofreadpage_index_attributes|ⴰⵎⵙⴽⴰⵔ\nⴰⵣⵡⵉⵍ\nⴰⵙⴳⴳⵯⴰⵙ\u007Cⴰⵙⴳⴳⵯⴰⵙ ⵏ ⵓⴼⵙⵙⴰⵔ\nⴰⵎⴼⵙⴰⵔ\nⴰⵖⴱⴰⵍⵓ\nⵜⴰⵙⵏⴰ\u007CCover image\nPages\u007C\u007C20\nⵜⴰⵏⵏⴰⵢⵉⵏ\u007C\u007C10
+proofreadpage_source|ⴰⵖⴱⴰⵍⵓ
+proofreadpage-section-tools|ⵉⵎⴰⵙⵙⵏ ⵓⵙⵉⵙⴷⵉⴷ
+proofreadpage-group-zoom|ⴰⵙⵎⵖⵔ ⴷ ⵓⵙⵎⵥⵉⵢ
+proofreadpage-group-other|ⵏⵉⴹⵏ
+proofreadpage-button-zoom-out-label|ⴰⵙⵎⵥⵉⵢ
+proofreadpage-button-zoom-in-label|ⴰⵙⵎⵖⵔ
+proofreadpage-button-toggle-layout-label|Vertical/horizontal layout
+proofreadpage-preferences-horizontal-layout-label|Use horizontal layout when editing in the {{ns:page}} namespace
+proofreadpage-indexoai-repositoryName|Metadata of books from {{SITENAME}}
+proofreadpage-indexoai-eprint-content-text|Metadata of books managed by ProofreadPage.
+proofreadpage-indexoai-error-schemanotfound|Schema not found
+proofreadpage-indexoai-error-schemanotfound-text|The ~{0} schema have not been found.
+proofreadpage-disambiguationspage|Template:disambig
+cite_page|ⵜⴰⵙⵏⴰ:
+wikieditor-wikitext-tab|ⵡⵉⴽⵉⴰⴹⵔⵉⵙ
+wikieditor-publish-button-publish|ⴼⵙⴻⵔ
+wikieditor-toolbar-tool-bold|Bold
+wikieditor-toolbar-tool-link|ⴰⵣⴷⴰⵢ
+wikieditor-toolbar-tool-link-int|ⵖⵔ ⵜⴰⵙⵏⴰ ⵏ ⵡⵉⴽⵉ
+wikieditor-toolbar-file-target|ⴰⵙⵙⴰⵖ ⵓⵙⴷⴰⵡ:
+wikieditor-toolbar-file-size|ⵜⵉⵖⵣⵉ:
+wikieditor-toolbar-tool-heading-1|ⴰⵙⵡⵉⵔ 1
+wikieditor-toolbar-tool-heading-4|ⴰⵙⵡⵉⵔ 4
+wikieditor-toolbar-tool-big|ⴰⵎⵇⵇⵔⴰⵏ
+wikieditor-toolbar-tool-big-example|ⴰⴹⵔⵉⵙ ⴰⵎⵇⵇⵔⴰⵏ
+wikieditor-toolbar-tool-small|ⴰⵎⵥⵢⴰⵏ
+wikieditor-toolbar-tool-small-example|ⴰⴹⵔⵉⵙ ⴰⵎⵥⵢⴰⵏ
+wikieditor-toolbar-tool-replace-search|ⴰⵔⵣⵣⵓ ⵅⴼ:
+wikieditor-toolbar-characters-page-latin|ⵜⴰⵍⴰⵜⵉⵏⵉⵜ
+wikieditor-toolbar-characters-page-ipa|IPA
+wikieditor-toolbar-characters-page-greek|ⵜⴰⵢⵓⵏⴰⵏⵉⵜ
+wikieditor-toolbar-characters-page-arabic|ⵜⴰⵄⵔⴰⴱⵜ
+wikieditor-toolbar-characters-page-persian|ⵜⴰⴼⴰⵔⵉⵙⵉⵜ
+wikieditor-toolbar-characters-page-hebrew|ⵜⴰⵄⵉⴱⵔⵉⵜ
+wikieditor-toolbar-characters-page-bangla|ⵜⴰⴱⵏⴳⴰⵍⵉⵜ
+wikieditor-toolbar-characters-page-tamil|ⵜⴰⵎⵉⵍ
+wikieditor-toolbar-characters-page-telugu|ⵜⴻⵍⵓⴳⵓ
+wikieditor-toolbar-characters-page-sinhala|ⵜⴰⵙⵏⵀⴰⵍⵉⵜ
+wikieditor-toolbar-characters-page-thai|ⵜⴰⵟⴰⵢⵍⴰⵏⴷⵉⵜ
+wikieditor-toolbar-characters-page-lao|ⵜⵍⴰⵡⵉⵜ
+wikieditor-toolbar-characters-page-khmer|ⵅⴰⵎⵉⵔ
+wikieditor-toolbar-section-help|ⵜⵉⵡⵉⵙⵉ
+wikieditor-toolbar-help-page-list|ⵓⵎⵓⵖⵏ
+wikieditor-toolbar-help-page-file|ⵉⵙⴷⴰⵡⵏ
+wikibase-save|ⵣⵎⵎⴻⵎ
+wikibase-cancel|ⵓⴽⵓⵙ
+wikibase-add|ⵔⵏⵉ
+wikibase-remove-inprogress|ⵓⴽⵓⵙ...
+wikibase-sitelink-site-edit-placeholder|ⴰⵣⴷⴰⵢ
+wikibase-sitelink-page-edit-placeholder|ⴰⵎⴳⵔⴰⴷ
+wikibase-entitieswithoutlabel-label-language|ⵜⵓⵜⵍⴰⵢⵜ:
+wikibase-entitieswithoutlabel-submit|ⴰⴼ
+wm-license-cc-attribution|ⵓⵟⵟⵓⵏ
+wm-license-artwork-artist|ⴰⵏⴰⵥⵓⵔ
+wm-license-artwork-title|ⴰⵣⵡⵉⵍ
+wm-license-artwork-medium|ⴰⵏⴰⵎⵎⴰⵙ
+wm-license-artwork-current-location|ⴰⵣⴷⴰⵢ
+wm-license-artwork-notes|ⵜⴰⵏⵏⴰⵢⵉⵏ
+wm-license-artwork-id|ⵓⵟⵟⵓⵏ ⵏ ⵜⴰⴳⴳⴰⵢⵜ
+wm-license-book-editor|ⴰⵎⵙⴷⵔⴼ
+wm-license-book-illustrator|ⴰⵎⵙⵓⵍⴼ
+wm-license-book-language|ⵜⵓⵜⵍⴰⵢⵜ
+wm-license-book-place-of-publication|ⴰⵏⵙⴰ ⵓⴼⵙⵔ
+wm-license-book-printer|ⴰⵎⵙⵙⵉⴳⵣ
+wm-license-book-publisher|ⴰⵎⴼⵙⵔ
+wm-license-book-start-this-book|ⵙⵙⵏⵜⴰ ⴰⴷⵍⵉⵙ ⴰⴳⵉ
+wm-license-book-title|ⴰⵣⵡⵉⵍ
+wm-license-book-translator|ⴰⵎⵙⵓⵖⵍ
+wm-license-book-year-of-publication|ⴰⵙⴳⴳⵯⴰⵙ ⵓⴼⵙⵔ
+wm-license-creator-alternative-names|ⴰⵙⵙⴰⵖⵏ ⵏⵏⵉⴹⵏ (ⵢⴰⴹⵏ)
+wm-license-creator-date-of-birth|ⴰⴽⵓⴷ ⵏ ⵜⵍⴰⵍⵉⵜ
+wm-license-creator-date-of-birth-and-death|ⴰⴽⵓⴷ ⵏ ⵜⵍⴰⵍⵉⵜ/ⵜⴰⵎⵜⵜⴰⵏⵜ
+wm-license-creator-location-of-birth|ⴰⴷⵖⴰⵔ ⵏ ⵜⵍⴰⵍⵉⵜ
+wm-license-creator-location-of-birth-and-death|ⴰⴷⵖⴰⵔ ⵏ ⵜⵍⴰⵍⵉⵜ/ⵜⴰⵎⵜⵜⴰⵏⵜ
+wm-license-creator-work-period|ⵜⵉⵣⵉ ⵏ ⵜⵡⵓⵔⵉ
+wm-license-creator-work-location|ⴰⴷⵖⴰⵔ ⵏ ⵜⵡⵓⵔⵉ
+wm-license-information-date|ⴰⴽⵓⴷ
+wm-license-information-author|ⴰⵎⵙⴽⴰⵔ
+wm-license-pd-wiki-link|w:tzm:public domain
+sitesupport|ⴰⵡⵙ ⵙ ⵉⴷⵔⵉⵎⵏ
+nstab-institution|ⵜⴰⵎⵙⴷⵓⵙⵜ
+group-OTRS-member|ⵉⴳⵎⴰⵎⵏ OTRS
+group-OTRS-member-member|{{GENDER:~{0}\u007COTRS ⴰⴳⵎⴰⵎ}}
+grouppage-OTRS-member|{{ns:project}}:ⵉⴳⵎⴰⵎⵏ ⵏ OTRS
+group-eliminator|ⵉⵎⵙⴷⵔⴼⴰⵏ
+group-founder-member|{{GENDER:~{0}\u007Cⵜⴰⵎⵙⴷⵓⵙⵜ}}
+group-researcher-member|{{GENDER:~{0}\u007Cⴰⵎⵔⵣⵓ\u007Cⵜⴰⵎⵔⵣⵓⵜ}}
+grouppage-researcher|{{ns:project}}:ⵉⵎⵔⵣⵓⵜⵏ
+group-Indic_Bots|Indic bots
+group-translationadmin|ⵉⵏⵎⵎⵀⴰⵍⵏ ⵏ ⵜⵙⵓⵖⵍⵜ
+group-translationadmin-member|{{GENDER:~{0}\u007Cⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵜⵙⵓⵖⵍⵜ}}
+grouppage-translationadmin|{{ns:project}}:ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵜⵙⵓⵖⵍⵜ
+shared-repo-name-shared|ⵡⵉⴽⵉⵎⵉⴷⵢⴰ ⴽⵓⵎⵓⵏⵣ
+']:>
+).lang
+;

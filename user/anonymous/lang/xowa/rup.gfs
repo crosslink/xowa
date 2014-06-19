@@ -1,0 +1,149 @@
+this
+.messages
+  .load_text(
+<:['
+sunday|Dumãnicã
+monday|Lune
+tuesday|Martsã
+wednesday|Njercure
+thursday|Gioia
+friday|Vinirã
+saturday|Sãmbãtã
+january|Yinar
+february|Shcurtu
+march|Martsu
+april|Aprir
+may_long|Mailu
+june|Cirishar
+july|Alunar
+august|Avgustu
+september|Yizmaciunjle
+october|Xumedru
+november|Brumar
+december|Andreulu
+january-gen|Yinar
+february-gen|Shcurtu
+march-gen|Martsu
+april-gen|Aprir
+may-gen|Mailu
+june-gen|Cirishar
+july-gen|Alunar
+august-gen|Avgustu
+september-gen|Yizmaciunjle
+october-gen|Xumedru
+november-gen|Brumar
+december-gen|Andreulu
+otherlanguages|Pi alte limbe
+article|Articlu
+cancel|Alasã
+mytalk|Zburare-a mea
+navigation|Navigatsia
+qbedit|Alãxiri
+qbspecialpages|Frãndzã spetsiale
+help|Agiutor
+search|Caftã
+searchbutton|Caftã
+go|Du-vã
+searcharticle|Du-vã
+history_short|Istoria
+printableversion|Verzia ti tipuseare
+permalink|Ligãtura permanentã
+edit|Alãxiri
+delete|Ashcirdzire
+protect|Apurã
+talk|Discusiur
+toolbox|Cutia di hãlate
+jumptonavigation|Navigatsia
+jumptosearch|Caftã
+currentevents|Evenimente di tora
+disclaimers|Nipricunuschire
+edithelp|Agiutor ti alãxire
+mainpage|Prota frãndzã
+mainpage-description|Prota frãndzã
+portal|Portal-a comunitatiljei
+newmessageslink|dimãndare nao
+youhavenewmessagesmulti|Avets nãi dimãndãri pi ~{0}
+editsection|Alãxiri
+editold|Alãxiri
+nstab-main|Articlu
+nstab-user|Frãndza-a ufilizitirolui
+nstab-template|Shablon
+viewsource|Videts-u fãntãnã
+welcomecreation|== Ghine vinish, ~{0} ==\n\nIsape a vostrã ira adratã. Nu agãrshits s-le alãxits alidzerle-a vostre ti {{SITENAME}}.
+yourname|Numa di ufilizitor:
+yourpassword|Cljao:
+yourpasswordagain|Bãgats-u cljao iara:
+remembermypassword|Apurã-u ligãtura-a mea pi compiuterlu aistu (for a maximum of ~{0} {{PLURAL:~{0}\u007Cday\u007Cdays}})
+login|Ligats-vã
+userlogin|Ligats-vã / Fãtsets Isape
+logout|Disligats-vã
+userlogout|Disligats-vã
+notloggedin|Nu hits ligats
+createaccount|Fãtsets Isape
+gotaccountlink|Ligats-vã
+summary|Rezime:
+minoredit|Aistã easte alãxire njicã
+watchthis|Mutrits-u frãndzã aistã
+savearticle|Avigljats-u frãndzã
+showpreview|Spuni u-privideare
+showdiff|Spuni le-alãxirle
+loginreqlink|Ligats-vã
+powersearch|Caftã
+preferences|Alidzerle-a meale
+mypreferences|Alidzerle-a meale
+prefsnologin|Nu hits ligats
+searchresultshead|Caftã
+youremail|E-mail:
+username|Numa di ufilizitor:
+recentchanges|Alãxiri
+recentchangeslinked|Alãxiri ligate
+recentchangeslinked-feed|Alãxiri ligate
+recentchangeslinked-toolbox|Alãxiri ligate
+upload|Pitritsets file
+uploadbtn|Pitritsets file
+uploadnologin|Nu hits ligats
+filedesc|Rezime
+watchthisupload|Mutrits-u frãndzã aistã
+randompage|Frãndzã di nipandicã
+brokenredirects-edit|Alãxiri
+brokenredirects-delete|Ashcirdzire
+newpages-username|Numa di ufilizitor:
+move|Tradzets
+movethispage|Tradzets-u frãndza aistã
+booksources-go|Du-vã
+allpagessubmit|Du-vã
+watchlist|Lista-a mea di videare
+mywatchlist|Lista-a mea di videare
+watchnologin|Nu hits ligats
+watch|Videts
+watchthispage|Mutrits-u frãndzã aistã
+unwatch|Azãptãsits videare
+prot_1movedto2|[[~{0}]] s-trãdzi tu [[~{1}]]
+restriction-edit|Alãxiri
+restriction-move|Tradzets
+undelete-search-submit|Caftã
+contributions|Ufilizitor:Contributsiur
+mycontris|Contributsiile-a meale
+sp-contributions-submit|Caftã
+whatlinkshere|Tsi s-leadze cu aistu
+ipbreason|Itia:
+ipblocklist-submit|Caftã
+move-page-legend|Tradzets-u frãndzã
+movearticle|Tradzets-u frãndzã:
+move-watch|Mutrits-u frãndzã aistã
+movepagebtn|Tradzets-u frãndzã
+movedto|tradzitã tu
+movereason|Itia:
+allmessages|Dimãndãri systemitse
+tooltip-pt-preferences|Alidzerle-a meale
+tooltip-pt-logout|Disligats-vã
+tooltip-p-logo|Prota frãndzã
+ilsubmit|Caftã
+imgmultigo|Du-vã!
+table_pager_limit_submit|Du-vã
+specialpages|Frãndzã spetsiale
+cite_article_link|Bagã articlu aistu ca tsitat
+sitesupport|Donatsiur
+']:>
+).lang
+;

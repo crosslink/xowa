@@ -1,0 +1,2108 @@
+numbers {
+  digit_grouping_pattern = '##,##,###';
+  digits {
+    clear;
+    set('0', '੦');
+    set('1', '੧');
+    set('2', '੨');
+    set('3', '੩');
+    set('4', '੪');
+    set('5', '੫');
+    set('6', '੬');
+    set('7', '੭');
+    set('8', '੮');
+    set('9', '੯');
+  }
+}
+this
+.ns_names
+  .load_text(
+<:['
+-2|ਮੀਡੀਆ
+-1|ਖ਼ਾਸ
+1|ਗੱਲ-ਬਾਤ
+2|ਵਰਤੌਂਕਾਰ
+3|ਵਰਤੌਂਕਾਰ ਗੱਲ-ਬਾਤ
+5|$1 ਗੱਲ-ਬਾਤ
+6|ਤਸਵੀਰ
+7|ਤਸਵੀਰ ਗੱਲ-ਬਾਤ
+8|ਮੀਡੀਆਵਿਕੀ
+9|ਮੀਡੀਆਵਿਕੀ ਗੱਲ-ਬਾਤ
+10|ਫਰਮਾ
+11|ਫਰਮਾ ਗੱਲ-ਬਾਤ
+12|ਮਦਦ
+13|ਮਦਦ ਗੱਲ-ਬਾਤ
+14|ਸ਼੍ਰੇਣੀ
+15|ਸ਼੍ਰੇਣੀ ਗੱਲ-ਬਾਤ
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+-1|ਖਾਸ
+1|ਚਰਚਾ
+2|ਮੈਂਬਰ
+3|ਮੈਂਬਰ ਚਰਚਾ
+5|$1 ਚਰਚਾ
+7|ਤਸਵੀਰ ਚਰਚਾ
+8|ਮੀਡੀਆਵਿਕਿ
+9|ਮੀਡੀਆਵਿਕਿ ਚਰਚਾ
+10|ਨਮੂਨਾ
+11|ਨਮੂਨਾ ਚਰਚਾ
+13|ਮਦਦ ਚਰਚਾ
+15|ਸ਼੍ਰੇਣੀ ਚਰਚਾ
+']:>
+).lang
+.specials
+  .clear
+  .load_text(
+<:['
+Activeusers|ਸਰਗਰਮ_ਮੈਂਬਰ
+Allmessages|ਸਾਰੇ_ਸਨੇਹੇ
+Allpages|ਸਾਰੇ_ਪੰਨੇ
+Ancientpages|ਪੁਰਾਣੇ_ਪੰਨੇ
+Badtitle|ਖਰਾਬ_ਸਿਰਲੇਖ
+Blankpage|ਖਾਲੀ_ਪੰਨਾ
+Block|ਪਾਬੰਦੀ_ਲਾਓ~IP_’ਤੇ_ਪਾਬੰਦੀ_ਲਾਓ~ਮੈਂਬਰ_’ਤੇ_ਪਾਬੰਦੀ_ਲਾਓ
+Blockme|ਮੇਰੇ_’ਤੇ_ਪਾਬੰਦੀ_ਲਾਓ
+Booksources|ਕਿਤਾਬ_ਸਰੋਤ
+BrokenRedirects|ਟੁੱਟੇ_ਰੀਡਿਰੈਕਟ
+Categories|ਸ਼੍ਰੇਣੀਆਂ
+ChangeEmail|ਈ-ਮੇਲ_ਬਦਲੋ
+ChangePassword|ਪਾਸਵਰਡ_ਬਦਲੋ~ਪਾਸਵਰਡ_ਰੀਸੈੱਟ_ਕਰੋ
+ComparePages|ਪੰਨਿਆਂ_ਦੀ_ਤੁਲਨਾ_ਕਰੋ
+Confirmemail|ਈ-ਮੇਲ_ਤਸਦੀਕ_ਕਰੋ
+Contributions|ਯੋਗਦਾਨ
+CreateAccount|ਖਾਤਾ_ਬਣਾਓ
+Deadendpages|ਬੰਦ_ਪੰਨੇ
+DeletedContributions|ਮਿਟਾਏ_ਯੋਗਦਾਨ
+Disambiguations|ਗੁੰਝਲਖੋਲ੍ਹ
+DoubleRedirects|ਦੂਹਰੇ_ਰੀਡਿਰੈਕਟ
+EditWatchlist|ਨਿਗਰਾਨੀ-ਲਿਸਟ_ਸੋਧੋ
+Emailuser|ਮੈਂਬਰ_ਨੂੰ_ਈ-ਮੇਲ_ਕਰੋ
+Export|ਨਿਰਯਾਤ
+Fewestrevisions|ਸਭ_ਤੋਂ_ਘੱਟ_ਰੀਵਿਜ਼ਨਾਂ
+FileDuplicateSearch|ਨਕਲੀ_ਫ਼ਾਈਲ_ਖੋਜੋ
+Filepath|ਫ਼ਾਈਲ_ਪਥ
+Import|ਆਯਾਤ
+Invalidateemail|ਗਲਤ_ਈ-ਮੇਲ_ਪਤਾ
+JavaScriptTest|ਜਾਵਾਸਕ੍ਰਿਪਟ_ਪਰਖ
+BlockList|ਪਾਬੰਦੀਆਂ_ਦੀ_ਸੂਚੀ
+LinkSearch|ਲਿੰਕ_ਖੋਜੋ
+Listadmins|ਪ੍ਰਬੰਧਕਾਂ_ਦੀ_ਸੂਚੀ
+Listbots|ਬੋਟਾਂ_ਦੀ_ਸੂਚੀ
+Listfiles|ਫ਼ਾਈਲਾਂ_ਦੀ_ਸੂਚੀ
+Listgrouprights|ਵਰਤੋਂਕਾਰ_ਹੱਕ_ਸੂਚੀ
+Listredirects|ਰੀਡਿਰੈਕਟਾਂ_ਦੀ_ਸੂਚੀ
+Listusers|ਵਰਤੋਂਕਾਰਾਂ_ਦੀ_ਸੂਚੀ
+Lockdb|ਡੈਟਾਬੇਸ_’ਤੇ_ਤਾਲਾ_ਲਗਾਓ
+Log|ਚਿੱਠਾ~ਚਿੱਠੇ
+Lonelypages|ਇਕੱਲੇ_ਪੰਨੇ
+Longpages|ਲੰਬੇ_ਪੰਨੇ
+MergeHistory|ਰਲਾਉਣ_ਦਾ_ਅਤੀਤ
+MIMEsearch|MIME_ਖੋਜੋ
+Mostcategories|ਸਭ_ਤੋਂ_ਵੱਧ_ਸ਼੍ਰੇਣੀਆਂ
+Mostimages|ਸਭ_ਤੋਂ_ਵੱਧ_ਜੁੜੀਆਂ_ਫ਼ਾਈਲਾਂ
+Mostinterwikis|ਸਭ_ਤੋਂ_ਵੱਧ_ਇੰਟਰਵਿਕੀ
+Mostlinked|ਸਭ_ਤੋਂ_ਵੱਧ_ਜੁੜੇ_ਪੰਨੇ
+Mostlinkedcategories|ਸਭ_ਤੋਂ_ਵੱਧ_ਜੁੜੀਆਂ_ਸ਼੍ਰੇਣੀਆਂ
+Mostlinkedtemplates|ਸਭ_ਤੋਂ_ਵੱਧ_ਜੁੜੇ_ਫਰਮੇ
+Mostrevisions|ਸਭ_ਤੋਂ_ਵੱਧ_ਰੀਵਿਜ਼ਨ
+Movepage|ਸਿਰਲੇਖ_ਬਦਲੋ
+Mycontributions|ਮੇਰੇ_ਯੋਗਦਾਨ
+Mypage|ਮੇਰਾ_ਪੰਨਾ
+Mytalk|ਮੇਰੀ_ਚਰਚਾ
+Myuploads|ਮੇਰੇ_ਅੱਪਲੋਡ
+Newimages|ਨਵੀਆਂ_ਫ਼ਾਈਲਾਂ
+Newpages|ਨਵੇਂ_ਪੰਨੇ
+PasswordReset|ਪਾਸਵਰਡ_ਰੀਸੈੱਟ
+PermanentLink|ਪੱਕਾ_ਲਿੰਕ
+Popularpages|ਮਸ਼ਹੂਰ_ਪੰਨੇ
+Preferences|ਪਸੰਦਾਂ
+Prefixindex|ਅਗੇਤਰ_ਤਤਕਰਾ
+Protectedpages|ਸੁਰੱਖਿਅਤ_ਪੰਨੇ
+Protectedtitles|ਸੁਰੱਖਿਅਤ_ਸਿਰਲੇਖ
+Randompage|ਰਲਵਾਂ_ਪੰਨਾ
+Randomredirect|ਸੁਰੱਖਿਅਤ_ਰੀਡਿਰੈਕਟ
+Recentchanges|ਹਾਲ_\\'ਚ_ਹੋਈਆਂ_ਤਬਦੀਲੀਆਂ
+Recentchangeslinked|ਜੁੜੀਆਂ_ਤਾਜ਼ਾ_ਤਬਦੀਲੀਆਂ
+Revisiondelete|ਰੀਵਿਜਨ_ਮਿਟਾਓ
+Search|ਖੋਜੋ
+Shortpages|ਛੋਟੇ_ਪੰਨੇ
+Specialpages|ਖਾਸ_ਪੰਨੇ
+Statistics|ਅੰਕੜੇ
+Tags|ਟੈਗ
+Unblock|ਪਾਬੰਦੀ_ਹਟਾਓ
+Uncategorizedcategories|ਸ਼੍ਰੇਣੀਹੀਣ_ਸ਼੍ਰੇਣੀਆਂ
+Uncategorizedimages|ਸ਼੍ਰੇਣੀਹੀਣ_ਫ਼ਾਈਲਾਂ
+Uncategorizedpages|ਸ਼੍ਰੇਣੀਹੀਣ_ਪੰਨੇ
+Uncategorizedtemplates|ਸ਼੍ਰੇਣੀਹੀਣ_ਸਾਂਚੇ
+Undelete|ਅਣ-ਹਟਾਓਣ
+Unlockdb|ਡੈਟਾਬੇਸ_ਖੋਲ੍ਹੋ
+Unusedcategories|ਅਣਵਰਤੀਆਂ_ਸ਼੍ਰੇਣੀਆਂ
+Unusedimages|ਅਣਵਰਤੀਆਂ_ਫ਼ਾਈਲਾਂ
+Unusedtemplates|ਅਣਵਰਤੇ_ਫਰਮੇ
+Unwatchedpages|ਬੇ-ਨਿਗਰਾਨ_ਪੰਨੇ
+Upload|ਅੱਪਲੋਡ
+Userlogin|ਮੈਂਬਰ_ਲਾਗਇਨ
+Userlogout|ਮੈਂਬਰ_ਲਾਗਆਊਟ
+Userrights|ਮੈਂਬਰ_ਹੱਕ~ਪ੍ਰਬੰਧਕ_ਬਣਾਓ~ਬੋਟ_ਬਣਾਓ
+Version|ਰੂਪ
+Wantedcategories|ਚਾਹੀਦੀਆਂ_ਸ਼੍ਰੇਣੀਆਂ
+Wantedfiles|ਚਾਹੀਦੀਆਂ_ਫ਼ਾਈਲਾਂ
+Wantedpages|ਚਾਹੀਦੇ_ਪੰਨੇ~ਟੁੱਟੇ_ਜੋੜ
+Wantedtemplates|ਚਾਹੀਦੇ_ਫਰਮੇ
+Watchlist|ਨਿਗਰਾਨੀ-ਲਿਸਟ
+Whatlinkshere|ਕਿਹੜੇ_ਪੰਨੇ_ਇੱਥੇ_ਜੋੜਦੇ_ਹਨ
+Withoutinterwiki|ਬਿਨਾਂ_ਇੰਟਰਵਿਕੀਆਂ_ਵਾਲੇ
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+redirect|0|#ਰੀਡਿਰੈਕਟ~#REDIRECT~
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+url_wiki|0|ਵਿਕੀ~WIKI~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#ਸਮੇ~#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|ਐਤਵਾਰ
+monday|ਸੋਮਵਾਰ
+tuesday|ਮੰਗਲਵਾਰ
+wednesday|ਬੁੱਧਵਾਰ
+thursday|ਵੀਰਵਾਰ
+friday|ਸ਼ੁੱਕਰਵਾਰ
+saturday|ਸ਼ਨਿੱਚਰਵਾਰ
+sun|ਐਤ
+mon|ਸੋਮ
+tue|ਮੰਗਲ
+wed|ਬੁੱਧ
+thu|ਵੀਰ
+fri|ਸ਼ੁੱਕਰ
+sat|ਸ਼ਨਿੱਚਰ
+january|ਜਨਵਰੀ
+february|ਫਰਵਰੀ
+march|ਮਾਰਚ
+april|ਅਪ੍ਰੈਲ
+may_long|ਮਈ
+june|ਜੂਨ
+july|ਜੁਲਾਈ
+august|ਅਗਸਤ
+september|ਸਤੰਬਰ
+october|ਅਕਤੂਬਰ
+november|ਨਵੰਬਰ
+december|ਦਸੰਬਰ
+january-gen|ਜਨਵਰੀ
+february-gen|ਫ਼ਰਵਰੀ
+march-gen|ਮਾਰਚ
+april-gen|ਅਪ੍ਰੈਲ
+may-gen|ਮਈ
+june-gen|ਜੂਨ
+july-gen|ਜੁਲਾਈ
+august-gen|ਅਗਸਤ
+september-gen|ਸਤੰਬਰ
+october-gen|ਅਕਤੂਬਰ
+november-gen|ਨਵੰਬਰ
+december-gen|ਦਸੰਬਰ
+jan|ਜਨ
+feb|ਫ਼ਰ
+mar|ਮਾਰ
+apr|ਅਪ
+may|ਮਈ
+jun|ਜੂਨ
+jul|ਜੁਲਾ
+aug|ਅਗ
+sep|ਸਤੰ
+oct|ਅਕਤੂ
+nov|ਨਵੰ
+dec|ਦਸੰ
+toc|ਵਿਸ਼ਾ ਸੂਚੀ
+redirectedfrom|(~{0} ਤੋਂ ਰੀਡਿਰੈਕਟ)
+allpages|ਸਭ ਸਫ਼ੇ
+prevpage|ਪਿੱਛੇ ਸਫ਼ਾ (~{0})
+nextpage|ਅੱਗੇ ਸਫ਼ਾ (~{0})
+collapsible-collapse|ਸਮੇਟੋ
+collapsible-expand|ਫੈਲਾਓ
+sort-descending|ਘੱਟਦਾ ਕ੍ਰਮ
+sort-ascending|ਵੱਧਦਾ ਕ੍ਰਮ
+categories|ਸ਼੍ਰੇਣੀਆਂ
+lastmodifiedat|ਇਸ ਸਫ਼ੇ ਵਿੱਚ ਆਖ਼ਰੀ ਸੋਧ ~{0} ਨੂੰ ~{1} ਵਜੇ ਹੋਈ।
+thumbnail-more|ਵਧਾਓ
+otherlanguages|ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ
+blanknamespace|(ਮੁੱਖ)
+pagecategories|{{PLURAL:~{0}\u007Cਸ਼੍ਰੇਣੀ\u007Cਸ਼੍ਰੇਣੀਆਂ}}
+category_header|ਸ਼੍ਰੇਣੀ "~{0}" ਵਿੱਚ ਲੇਖ
+subcategories|ਉਪਸ਼੍ਰੇਣੀਆਂ
+category-media-header|ਸ਼੍ਰੇਣੀ "~{0}" ਵਿੱਚ ਮੀਡੀਆ
+category-empty|''ਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ ਇਸ ਵੇਲੇ ਕੋਈ ਵੀ ਪੰਨਾ ਜਾਂ ਮੀਡੀਆ ਨਹੀਂ ਹੈ।''
+category-subcat-count|ਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ, ਕੁੱਲ ~{1} ਵਿੱਚੋਂ, {{PLURAL:~{1}\u007Cਕੇਵਲ ਇਹ ਉਪਸ਼੍ਰੇਣੀ ਹੈ\u007Cਇਹ {{PLURAL:~{0}\u007Cਉਪਸ਼੍ਰੇਣੀ ਹੈ\u007C~{0} ਉਪਸ਼੍ਰੇਣੀਆਂ ਹਨ}}}}।
+category-subcat-count-limited|ਇਸ ਕੈਟੇਗਰੀ ਵਿਚ {{PLURAL:~{0}\u007Cਸਬ-ਕੈਟੇਗਰੀ ਹੈ\u007C~{0} ਸਬ-ਕੈਟੇਗਰੀਆਂ ਹਨ}}।
+category-article-count|{{PLURAL:~{1}\u007Cਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ ਕੇਵਲ ਇਹ ਪੰਨਾ ਹੈ।\u007C ਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ, ਕੁੱਲ ~{1} ਵਿੱਚੋਂ, ਇਹ {{PLURAL:~{0}\u007Cਪੰਨਾ ਹੈ\u007C~{0} ਪੰਨੇ ਹਨ}}}}।
+category-article-count-limited|ਮੌਜੂਦਾ ਕੈਟੇਗਰੀ ਵਿਚ ਇਹ {{PLURAL:~{0}\u007Cਸਫ਼ਾ ਹੈ\u007C~{0} ਸਫ਼ੇ ਹਨ}}।
+category-file-count|{{PLURAL:~{1}\u007Cਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ ਕੇਵਲ ਇਹ ਫ਼ਾਈਲ ਹੈ\u007Cਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ {{PLURAL:~{0}\u007Cਫ਼ਾਈਲ ਹੈ\u007C~{0} ਫ਼ਾਈਲਾਂ ਹਨ}}}}।
+category-file-count-limited|ਮੌਜੂਦਾ ਕੈਟੇਗਰੀ ਵਿਚ ਇਹ {{PLURAL:~{0}\u007Cਫ਼ਾਈਲ ਹੈ\u007C~{0} ਫ਼ਾਈਲਾਂ ਹਨ}}।
+categorytree-num-categories|~{0} C
+categorytree-num-pages|~{0} P
+categorytree-num-files|~{0} F
+nextn|ਅੱਗੇ {{PLURAL:~{0}\u007C~{0}}}
+prevn|ਪਿੱਛੇ {{PLURAL:~{0}\u007C~{0}}}
+listingcontinuesabbrev|ਜਾਰੀ
+showingresultsheader|'''~{3}''' ਵਾਸਤੇ {{PLURAL:~{4}\u007C'''~{2}''' ਵਿੱਚੋਂ '''~{0}''' ਨਤੀਜੇ\u007C'''~{2}''' ਵਿੱਚੋਂ '''~{0} - ~{1}''' ਨਤੀਜੇ}}
+bold_sample|ਗੂੜ੍ਹੇ ਅੱਖਰ
+bold_tip|ਗੂੜ੍ਹੇ ਅੱਖਰ
+italic_sample|ਟੇਡੇ ਅੱਖਰ
+italic_tip|ਟੇਢੀ ਅੱਖਰ
+link_sample|ਲਿੰਕ ਨਾਂ
+link_tip|ਅੰਦਰੂਨੀ ਲਿੰਕ
+headline_sample|ਸਿਰਲੇਖ ਸ਼ਬਦ
+headline_tip|ਦੂਜੇ ਦਰਜੇ ਦਾ ਸਿਰਲੇਖ
+wikieditor-toolbar-tool-ulist|ਨਿਸ਼ਾਨਦਾਇਕ ਸੂਚੀ
+wikieditor-toolbar-tool-ulist-example|ਨਿਸ਼ਾਨਦਾਇਕ ਸੂਚੀ ਦੀ ਵਸਤੂ
+wikieditor-toolbar-tool-olist|ਗਿਣਤੀਦਾਇਕ ਸੂਚੀ
+wikieditor-toolbar-tool-olist-example|ਗਿਣਤੀਦਾਇਕ ਸੂਚੀ ਦੀ ਵਸਤੂ
+hidden-category-category|ਲੁਕਵੀਆਂ ਕੈਟੇਗਰੀਆਂ
+statistics|ਅੰਕੜੇ
+statistics-header-pages|ਸਫ਼ਾ ਅੰਕੜੇ
+statistics-articles|ਸਮੱਗਰੀ ਸਫ਼ੇ
+statistics-pages|ਸਫ਼ੇ
+statistics-pages-desc|ਇਸ ਵਿਕੀ ਦੇ ਸਾਰੇ ਸਫ਼ੇ, ਗੱਲ-ਬਾਤ ਸਫ਼ਿਆਂ, ਰੀਡਾਇਰੈਕਟਾਂ ਇਤਿਆਦਿ ਨੂੰ ਸ਼ਾਮਲ ਕਰਦੇ ਹੋਏ
+tog-underline|ਲਿੰਕ ਹੇਠ-ਲਾਈਨ:
+tog-justify|ਪੈਰਾਗਰਾਫ਼ ਇਕਸਾਰ
+tog-hideminor|ਤਾਜ਼ਾ ਤਬਦੀਲੀਆਂ ਵਿੱਚੋਂ ਛੋਟੀਆਂ ਸੋਧਾਂ ਲੁਕਾਓ
+tog-hidepatrolled|ਤਾਜ਼ਾ ਤਬਦੀਲੀਆਂ ਵਿੱਚੋਂ ਜਾਂਚੀਆਂ ਸੋਧਾਂ ਲੁਕਾਓ
+tog-newpageshidepatrolled|ਨਵੀਂ ਸਫ਼ਾ ਸੂਚੀ ਵਿੱਚੋਂ ਨਿਗਰਾਨੀ ਸਫ਼ੇ ਓਹਲੇ ਕਰੋ
+tog-extendwatchlist|ਸਿਰਫ਼ ਤਾਜ਼ਾ ਹੀ ਨਹੀਂ, ਸਗੋਂ ਸਾਰੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਵਖਾਉਣ ਲਈ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਨੂੰ ਵਧਾਓ
+tog-usenewrc|ਹਾਲ ’ਚ ਹੋਈਆਂ ਤਬਦੀਲੀਆਂ ਅਤੇ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿੱਚ ਪੰਨੇ ਮੁਤਾਬਕ ਤਬਦੀਲੀਆਂ ਦੇ ਗਰੁੱਪ ਬਣਾਓ (ਜਾਵਾਸਕ੍ਰਿਪਟ ਲੋੜੀਂਦੀ ਹੈ)
+tog-numberheadings|ਆਟੋ-ਨੰਬਰ ਹੈਡਿੰਗ
+tog-showtoolbar|ਸੋਧ ਟੂਲਬਾਰ ਵੇਖੋ (JavaScript ਚਾਹੀਦੀ ਹੈ)
+tog-editondblclick|ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰਨ ਨਾਲ ਸਫ਼ੇ ਸੋਧੋ (ਜਾਵਾਸਕ੍ਰਿਪਟ ਚਾਹੀਦੀ ਹੈ)
+tog-editsection|[ਸੋਧੋ] ਲਿੰਕਾਂ ਦੁਆਰਾ ਸੈਕਸ਼ਨ ਸੋਧਣਾ ਚਾਲੂ ਕਰੋ
+tog-editsectiononrightclick|ਭਾਗ ਸਿਰਲੇਖਾਂ ਤੇ ਸੱਜੀ ਕਲਿੱਕ ਦੁਆਰਾ ਸੋਧ ਯੋਗ ਕਰੋ (ਜਾਵਾ ਸਕ੍ਰਿਪਟ ਲੋੜੀਂਦੀ ਹੈ)
+tog-showtoc|ਤਤਕਰਾ ਵਖਾਓ (3 ਤੋਂ ਵੱਧ ਸਿਰਲੇਖਾਂ ਵਾਲੇ ਪੰਨਿਆਂ ਲਈ)
+tog-rememberpassword|ਇਸ ਬਰਾਊਜ਼ਰ ਉੱਤੇ ਮੇਰਾ ਲਾਗਇਨ ਯਾਦ ਰੱਖੋ (~{0} {{PLURAL:~{0}\u007Cਦਿਨ\u007Cਦਿਨਾਂ}} ਲਈ ਵੱਧ ਤੋਂ ਵੱਧ)
+tog-watchcreations|ਮੇਰੇ ਵਲੋਂ ਬਣਾਏ ਗਏ ਪੰਨੇ ਅਤੇ ਅੱਪਲੋਡ ਕੀਤੀਆਂ ਫਾਈਲਾਂ ਮੇਰੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿੱਚ ਪਾਓ
+tog-watchdefault|ਮੇਰੇ ਵੱਲੋਂ ਸੋਧੇ ਗਏ ਪੰਨੇ ਅਤੇ ਫ਼ਾਈਲਾਂ ਮੇਰੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿੱਚ ਪਾਓ
+tog-watchmoves|ਮੇਰੇ ਵੱਲੋਂ ਬਦਲੇ ਸਿਰਲੇਖਾਂ ਵਾਲ਼ੇ ਪੰਨੇ ਅਤੇ ਫ਼ਾਈਲਾਂ ਮੇਰੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿੱਚ ਪਾਓ
+tog-watchdeletion|ਮੇਰੇ ਵਲੋਂ ਮਿਟਾਏ ਗਏ ਪੰਨੇ ਅਤੇ ਫ਼ਾਈਲਾਂ ਮੇਰੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿੱਚ ਪਾਓ
+tog-minordefault|ਸਾਰੇ ਫੇਰ-ਬਦਲਾਂ ’ਤੇ ਮੂਲ ਰੂਪ ਵਿਚ ਛੋਟੇ ਹੋਣ ਦਾ ਨਿਸ਼ਾਨ ਲਾਓ
+tog-previewontop|ਸੋਧ ਬਾਕਸ ਤੋਂ ਪਹਿਲਾਂ ਝਲਕ ਵੇਖਾਓ
+tog-previewonfirst|ਪਹਿਲੀ ਸੋਧ ਉੱਤੇ ਝਲਕ ਵੇਖਾਓ
+tog-nocache|ਬਰਾਊਜ਼ਰ ਸਫ਼ਾ ਕੈਸ਼ ਕਰਨਾ ਬੰਦ ਕਰੋ
+tog-enotifwatchlistpages|ਜਦੋਂ ਮੇਰੀ ਨਿਗਰਾਨ-ਸੂਚੀ ਵਿਚ ਦਰਜ ਕੋਈ ਸਫ਼ਾ ਬਦਲਿਆ ਜਾਵੇ ਜਾਂ ਫਾਇਲ ਬਦਲੀ ਜਾਵੇ ਤਾਂ ਮੈਨੂੰ ਈਮੇਲ ਭੇਜੋ
+tog-enotifusertalkpages|ਜਦੋਂ ਮੇਰਾ ਗੱਲ-ਬਾਤ ਸਫ਼ਾ ਬਦਲਿਆ ਜਾਵੇ ਤਾਂ ਮੈਨੂੰ ਈ-ਮੇਲ ਭੇਜੋ
+tog-enotifminoredits|ਸਫ਼ਿਆਂ ਅਤੇ ਫਾਇਲਾਂ ਦੀਆਂ ਛੋਟੀਆਂ ਤਬਦੀਲੀਆਂ ਲਈ ਵੀ ਮੈਨੂੰ ਈ-ਮੇਲ ਭੇਜੋ
+tog-enotifrevealaddr|ਇਤਲਾਹ ਦੇਣ ਵਾਲੀਆਂ ਈ-ਮੇਲਾਂ ਵਿਚ ਮੇਰਾ ਈ-ਮੇਲ ਪਤਾ ਜ਼ਾਹਰ ਕਰੋ
+tog-shownumberswatching|ਨਜ਼ਰ ਰੱਖ ਰਹੇ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ ਵੇਖਾਓ
+tog-oldsig|ਮੌਜੂਦਾ ਦਸਤਖਤ:
+tog-fancysig|ਦਸਤਖ਼ਤ ਨੂੰ ਬਤੌਰ ਵਿਕਿਲਿਖਤ ਵਰਤੋਂ (ਬਿਨਾਂ ਆਟੋਮੈਟਿਕ ਲਿੰਕ)
+tog-showjumplinks|"ਇਸ ਤੇ ਜਾਓ" ਅਸੈਸਬਿਲਟੀ ਲਿੰਕ ਚਾਲੂ ਕਰੋ
+tog-uselivepreview|ਸਿੱਧੀ ਝਲਕ ਵਰਤੋਂ (ਜਾਵਾਸਕ੍ਰਿਪਟ ਲੋੜੀਂਦੀ ਹੈ) (ਤਜਰਬੇ-ਅਧੀਨ)
+tog-forceeditsummary|ਜਦੋਂ ਮੈਂ ਖ਼ਾਲੀ ਸੋਧ ਸਾਰ ਦੇਵਾਂ ਤਾਂ ਮੈਨੂੰ ਪੁੱਛੋ
+tog-watchlisthideown|ਨਿਗਰਾਨ-ਸੂਚੀ ਵਿੱਚੋਂ ਮੇਰੇ ਸੋਧ ਓਹਲੇ ਕਰੋ
+tog-watchlisthidebots|ਨਿਗਰਾਨ-ਸੂਚੀ ਵਿੱਚੋਂ ਬੋਟ ਸੋਧਾਂ ਓਹਲੇ ਕਰੋ
+tog-watchlisthideminor|ਨਿਗਰਾਨ-ਸੂਚੀ ਵਿੱਚੋਂ ਛੋਟੀਆਂ ਸੋਧਾਂ ਓਹਲੇ ਕਰੋ
+tog-watchlisthideliu|ਨਿਗਰਾਨੀ-ਸੂਚੀ ਵਿਚੋਂ ਲਾਗ ਇਨ ਮੈਂਬਰਾਂ ਦੀਆਂ ਸੋਧਾਂ ਓਹਲੇ ਕਰੋ
+tog-watchlisthideanons|ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚੋਂ ਗੁਮਨਾਮ ਮੈਂਬਰਾਂ ਦੇ ਕੀਤੇ ਫੇਰ-ਬਦਲ ਲੁਕਾਓ
+tog-watchlisthidepatrolled|ਵੇਖੀਆਂ ਜਾ ਚੁੱਕੀਆਂ ਸੋਧਾਂ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚੋਂ ਲੁਕਾਓ
+tog-ccmeonemails|ਜੋ ਈ-ਮੇਲਾਂ ਮੈਂ ਦੂਜੇ ਮੈਂਬਰਾਂ ਨੂੰ ਭੇਜਦਾ ਹਾਂ ਓਹਨਾਂ ਦੀਆਂ ਨਕਲਾਂ ਮੈਨੂੰ ਭੇਜੋ
+tog-diffonly|ਫ਼ਰਕ ਤੋਂ ਹੇਠ ਸਫ਼ੇ ਦੀ ਸਮੱਗਰੀ ਨਾ ਵੇਖਾਓ
+tog-showhiddencats|ਲੁਕਵੀਆਂ ਸ਼੍ਰੇਣੀਆਂ ਵੇਖਾਓ
+tog-norollbackdiff|"ਵਾਪਸ ਮੋੜੌ"ਅਮਲ ਵਿਚ ਲਿਆਣ ਬਾਦ ਫ਼ਰਕ ਨਾ ਦਿਖਾਓ
+underline-always|ਹਮੇਸ਼ਾਂ
+underline-never|ਕਦੇ ਨਹੀਂ
+underline-default|ਸਕਿਨ ਜਾਂ ਬਰਾਊਜ਼ਰ ਮੂਲ
+editfont-style|ਸੋਧ ਖੇਤਰ ਫੋਂਟ ਸਟਾਇਲ:
+editfont-default|ਬਰਾਊਜ਼ਰ ਮੂਲ
+editfont-monospace|ਮੋਨੋਸਪੇਸ ਫੋਂਟ
+editfont-sansserif|Sans-serif ਫੋਂਟ
+editfont-serif|ਨੋਕਦਾਰ ਫੋਂਟ
+hidden-categories|{{PLURAL:~{0}\u007Cਲੁਕਵੀਂ ਸ਼੍ਰੇਣੀ\u007Cਲੁਕਵੀਂਆਂ ਸ਼੍ਰੇਣੀਆਂ}}
+index-category|ਤਤਕਰਾ ਸਫ਼ੇ
+noindex-category|ਬਿਨਾਂ ਤਤਕਰੇ ਵਾਲੇ ਪੰਨੇ
+broken-file-category|ਟੁੱਟੇ ਹੋਏ ਫ਼ਾਈਲ ਜੋੜਾਂ ਵਾਲ਼ੇ ਸਫ਼ੇ
+about|ਇਸ ਬਾਰੇ
+article|ਸਮੱਗਰੀ ਸਫ਼ਾ
+newwindow|(ਨਵੀਂ ਵਿੰਡੋ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ)
+cancel|ਰੱਦ ਕਰੋ
+moredotdotdot|...ਹੋਰ
+morenotlisted|....ਹੋਰ ਸੂਚੀਬੱਧ ਨਹੀਂ
+mypage|ਸਫ਼ਾ
+mytalk|ਚਰਚਾ
+anontalk|ਇਸ IP ਲਈ ਗੱਲ-ਬਾਤ
+navigation|ਨੇਵੀਗੇਸ਼ਨ
+and| ਅਤੇ
+qbfind|ਖੋਜ
+qbbrowse|ਝਲਕ
+qbedit|ਸੋਧ
+qbpageoptions|ਇਹ ਸਫ਼ਾ
+qbmyoptions|ਮੇਰੇ ਸਫ਼ੇ
+qbspecialpages|ਖ਼ਾਸ ਸਫ਼ੇ
+faq|ਸਵਾਲ-ਜਵਾਬ
+faqpage|Project:ਸਵਾਲ-ਜਵਾਬ
+vector-action-addsection|ਵਿਸ਼ਾ ਜੋੜੋ
+vector-action-delete|ਹਟਾਓ
+vector-action-move|ਭੇਜੋ
+vector-action-protect|ਸੁਰੱਖਿਆ
+vector-action-undelete|ਹਟਾਉਣਾ-ਵਾਪਸ
+vector-action-unprotect|ਸੁਰੱਖਿਆ ਬਦਲੋ
+vector-simplesearch-preference|ਸਧਾਰਨ ਖੋਜ ਸਲਾਹ ਪੱਟੀ ਯੋਗ ਕਰੋ (ਸਿਰਫ਼ ਵਿਕਟਰ ਸਕਿੰਨ ਵਿਚ)
+vector-view-create|ਬਣਾਓ
+vector-view-edit|ਸੋਧ
+vector-view-history|ਅਤੀਤ ਵੇਖੋ
+vector-view-view|ਪੜ੍ਹੋ
+vector-view-viewsource|ਸਰੋਤ ਵੇਖੋ
+actions|ਕਾਰਵਾਈਆਂ
+namespaces|ਨਾਮਸਥਾਨ
+variants|ਬਦਲ
+navigation-heading|ਨੇਵੀਗੇਸ਼ਨ ਮੇਨੂ
+errorpagetitle|ਗਲਤੀ
+returnto|~{0} ’ਤੇ ਵਾਪਸ ਜਾਓ।
+tagline|{{SITENAME}} ਤੋਂ
+help|ਮਦਦ
+search|ਖੋਜ
+searchbutton|ਖੋਜ
+go|ਜਾਓ
+searcharticle|ਜਾਓ
+history|ਸਫ਼ੇ ਦਾ ਅਤੀਤ
+history_short|ਅਤੀਤ
+updatedmarker|ਮੇਰੀ ਆਖਰੀ ਫੇਰੀ ਤੋਂ ਬਾਅਦ ਦੇ ਅੱਪਡੇਟ
+printableversion|ਛਪਣਯੋਗ ਵਰਜਨ
+permalink|ਪੱਕਾ ਲਿੰਕ
+print|ਛਾਪੋ
+view|ਵੇਖੋ
+edit|ਸੋਧੋ
+create|ਬਣਾਓ
+editthispage|ਇਹ ਸਫ਼ਾ ਸੋਧੋ
+create-this-page|ਇਹ ਸਫ਼ਾ ਬਣਾਓ
+delete|ਹਟਾਓ
+deletethispage|ਇਹ ਸਫ਼ਾ ਹਟਾਓ
+undelete_short|{{PLURAL:~{0}\u007Cਇੱਕ ਸੋਧ\u007C~{0} ਸੋਧਾਂ}} ਹਟਾਉਣਾ-ਵਾਪਸ
+viewdeleted_short|{{PLURAL:~{0}\u007Cਹਟਾਈ ਸੋਧ\u007C~{0} ਹਟਾਈਆਂ ਸੋਧਾਂ}} ਵੇਖੋ
+protect|ਸੁਰੱਖਿਆ
+protect_change|ਬਦਲੋ
+protectthispage|ਇਹ ਸਫ਼ਾ ਸੁਰੱਖਿਅਤ ਕਰੋ
+unprotect|ਸੁਰੱਖਿਆ ਬਦਲੋ
+unprotectthispage|ਇਹ ਸਫ਼ੇ ਦੀ ਸੁਰੱਖਿਆ ਬਦਲੋ
+newpage|ਨਵਾਂ ਸਫ਼ਾ
+talkpage|ਇਸ ਸਫ਼ੇ ਬਾਰੇ ਚਰਚਾ ਕਰੋ
+talkpagelinktext|ਚਰਚਾ
+specialpage|ਖ਼ਾਸ ਸਫ਼ਾ
+personaltools|ਨਿੱਜੀ ਸੰਦ
+postcomment|ਨਵਾਂ ਭਾਗ
+articlepage|ਸਮੱਗਰੀ ਸਫ਼ਾ ਵੇਖੋ
+talk|ਚਰਚਾ
+views|ਵੇਖੋ
+toolbox|ਸੰਦ ਬਕਸਾ
+userpage|ਵਰਤੋਂਕਾਰ ਪੰਨਾ ਵੇਖੋ
+projectpage|ਪ੍ਰੋਜੈਕਟ ਸਫ਼ਾ ਵੇਖੋ
+imagepage|ਫਾਇਲ ਸਫ਼ਾ ਵੇਖੋ
+mediawikipage|ਸੁਨੇਹਾ ਪੇਜ ਵੇਖੋ
+templatepage|ਫਰਮਾ ਪੰਨਾ ਵੇਖੋ
+viewhelppage|ਮੱਦਦ ਸਫ਼ਾ ਵੇਖੋ
+categorypage|ਕੈਟੈਗਰੀ ਸਫ਼ਾ ਵੇਖੋ
+viewtalkpage|ਚਰਚਾ ਵੇਖੋ
+redirectpagesub|ਰੀਡਿਰੈਕਟ ਸਫ਼ਾ
+viewcount|ਇਹ ਸਫ਼ਾ {{PLURAL:~{0}\u007Cਇੱਕ ਵਾਰ\u007C~{0} ਵਾਰ}} ਵੇਖਿਆ ਗਿਆ।
+protectedpage|ਸੁਰੱਖਿਅਤ ਪੇਜ
+jumpto|ਇਸ ’ਤੇ ਜਾਓ:
+jumptonavigation|ਨੇਵੀਗੇਸ਼ਨ
+jumptosearch|ਖੋਜ
+view-pool-error|ਅਫ਼ਸੋਸ, ਸਰਵਰ ਇਸ ਵੇਲੇ ਓਵਰਲੋਡ ਹੈ।\nਬਹੁਤ ਸਾਰੇ ਮੈਂਬਰ ਇਸ ਸਫ਼ੇ ਨੂੰ ਵੇਖਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹਨ।\nਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਥੋੜੀ ਉਡੀਕ ਕਰੋ ਜੀ।\n~{0}
+pool-timeout|ਲਾਕ ਲਈ ਉਡੀਕ ਦਾ ਵਕਤ ਖ਼ਤਮ ਹੋ ਗਿਆ ਹੈ
+pool-queuefull|ਪੂਲ ਕਤਾਰ ਭਰੀ ਹੈ
+pool-errorunknown|ਅਣਜਾਣ ਗਲਤੀ
+aboutsite|{{SITENAME}} ਬਾਰੇ
+aboutpage|Project:ਬਾਰੇ
+copyright|ਸਮੱਗਰੀ ~{0} ਹੇਠ ਉਪਲੱਬਧ ਹੈ।
+copyrightpage|{{ns:project}}:ਕਾਪੀਰਾਈਟ
+currentevents|ਹਾਲ ਦੀਆਂ ਘਟਨਾਵਾਂ
+currentevents-url|Project:ਹਾਲ ਦੀਆਂ ਘਟਨਾਵਾਂ
+disclaimers|ਦਾਅਵੇ
+disclaimerpage|Project:ਆਮ ਦਾਅਵੇ
+edithelp|ਸੋਧ ਮੱਦਦ
+helppage|Help:ਸਮੱਗਰੀ
+mainpage|ਮੁੱਖ ਸਫ਼ਾ
+mainpage-description|ਮੁੱਖ ਸਫ਼ਾ
+policy-url|Project:ਨੀਤੀ
+portal|ਭਾਈਚਾਰਕ ਸੱਥ
+portal-url|Project:ਸਮਾਜ ਸੱਥ
+privacy|ਪਰਾਈਵੇਸੀ ਨੀਤੀ
+privacypage|Project:ਪਰਾਈਵੇਸੀ ਨੀਤੀ
+badaccess|ਅਧਿਕਾਰ ਗਲਤੀ
+badaccess-group0|ਤੁਹਾਨੂੰ ਉਹ ਐਕਸ਼ਨ ਕਰਨ ਦੀ ਮਨਜ਼ੂਰੀ ਨਹੀਂ, ਜਿਸ ਦੀ ਤੁਸੀਂ ਮੰਗ ਕੀਤੀ ਹੈ।
+badaccess-groups|ਜੋ ਕੰਮ ਤੁਸੀਂ ਕਰਨਾ ਚਾਹਿਆ ਹੈ ਓਹ {{PLURAL:~{1}\u007Cਇਸ ਗਰੁੱਪ\u007Cਇਹਨਾਂ ਗਰੁੱਪਾਂ}} ਦੇ ਮੈਂਬਰ ਹੀ ਕਰ ਸਕਦੇ ਹਨ: ~{0}
+versionrequired|ਮੀਡੀਆਵਿਕੀ ਦੇ ~{0} ਵਰਜਨ ਦੀ ਲੋੜ ਹੈ
+versionrequiredtext|ਇਸ ਸਫ਼ੇ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਮੀਡੀਆਵਿਕੀ ਦੇ ~{0} ਵਰਜਨ ਦੀ ਲੋੜ ਹੈ।\nਵੇਖੋ [[Special:Version\u007Cਵਰਜਨ ਸਫ਼ੇ]]।
+ok|ਠੀਕ ਹੈ
+retrievedfrom|"~{0}" ਤੋਂ ਲਿਆ
+youhavenewmessages|ਤੁਹਾਡੇ ਲਈ ~{0}। (~{1})
+newmessageslink|ਨਵੇਂ ਸੁਨੇਹੇ
+newmessagesdifflink|ਆਖ਼ਰੀ ਤਬਦੀਲੀ
+youhavenewmessagesfromusers|{{PLURAL:~{2}\u007Cਇੱਕ ਵਰਤੋਂਕਾਰ\u007C~{2} ਵਰਤੋਂਕਾਰਾਂ}} ਵੱਲੋਂ ਤੁਹਾਨੂੰ ~{0} (~{1})।
+youhavenewmessagesmanyusers|ਕਈ ਯੂਜ਼ਰ ਵੱਲੋਂ ਤੁਹਾਨੂੰ ~{0} (~{1})।
+newmessageslinkplural|{{PLURAL:~{0}\u007Cਇੱਕ ਨਵਾਂ ਸੁਨੇਹਾ\u007Cਨਵੇਂ ਸੁਨੇਹੇ}} {{PLURAL:~{0}\u007Cਹੈ\u007Cਹਨ}}
+newmessagesdifflinkplural|ਆਖ਼ਰੀ {{PLURAL:~{0}\u007Cਤਬਦੀਲੀ\u007Cਤਬਦੀਲੀਆਂ}}
+youhavenewmessagesmulti|~{0} ’ਤੇ ਤੁਹਾਡੇ ਲਈ ਨਵੇਂ ਸੁਨੇਹੇ ਹਨ
+editsection|ਸੋਧ
+editold|ਸੋਧ
+viewsourceold|ਸਰੋਤ ਵੇਖੋ
+editlink|ਸੋਧ
+viewsourcelink|ਸਰੋਤ ਵੇਖੋ
+editsectionhint|ਭਾਗ ਸੋਧ: ~{0}
+showtoc|ਵੇਖਾਓ
+hidetoc|ਓਹਲੇ
+thisisdeleted|~{0} ਵੇਖੋ ਜਾਂ ਮੁੜ ਸਟੋਰ ਕਰੋ
+viewdeleted|~{0} ਵੇਖਣੀਆਂ ਹਨ?
+restorelink|{{PLURAL:~{0}\u007Cਇਕ ਮਿਟਾਈ ਹੋਈ ਸੋਧ\u007C~{0} ਮਿਟਾਈਆਂ ਹੋਈਆਂ ਸੋਧਾਂ}}
+feedlinks|ਫੀਡ:
+feed-invalid|ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਫ਼ੀਡ ਦੀ ਗ਼ਲਤ ਕਿਸਮ
+feed-unavailable|ਸੰਸਥਾਵਾਂ  ਸਮੱਗਰੀ ਦਾ ਆਧੁਨਕੀਕਰਣ ਉਪਲਬਧ ਨਹੀਂ
+site-rss-feed|~{0} RSS ਫੀਡ
+site-atom-feed|~{0} ਐਟਮ ਫੀਡ
+page-rss-feed|"~{0}" RSS ਫੀਡ
+page-atom-feed|"~{0}" ਐਟਮ ਫੀਡ
+red-link-title|~{0} (ਸਫ਼ਾ ਮੌਜੂਦ ਨਹੀਂ ਹੈ)
+nstab-main|ਸਫ਼ਾ
+nstab-user|ਯੂਜ਼ਰ ਸਫ਼ਾ
+nstab-media|ਮੀਡਿਆ ਸਫ਼ਾ
+nstab-special|ਖਾਸ ਸਫ਼ਾ
+nstab-project|ਪਰੋਜੈਕਟ ਸਫ਼ਾ
+nstab-image|ਫਾਇਲ
+nstab-mediawiki|ਸੁਨੇਹਾ
+nstab-template|ਟੈਪਲੇਟ
+nstab-help|ਮੱਦਦ ਸਫ਼ਾ
+nstab-category|ਸ਼੍ਰੇਣੀ
+nosuchaction|ਐਸਾ ਕੋਈ ਐਕਸ਼ਨ ਨਹੀਂ ਹੈ
+nosuchactiontext|URL ਦੁਆਰਾ ਦੱਸਿਆ ਕੰਮ ਗ਼ਲਤ ਹੈ।\nਸ਼ਾਇਦ ਤੁਸੀਂ URL ਸਹੀ ਨਹੀਂ ਲਿਖਿਆ ਜਾਂ ਕਿਸੇ ਗ਼ਲਤ ਲਿੰਕ ਤੇ ਆਏ ਹੋ।\nਇਹ ਵੀ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਇਹ {{SITENAME}} ਦੁਆਰੇ ਵਰਤੇ ਜਾਂਦੇ ਸਾਫ਼ਟਵੇਅਰ ਵਿਚਲੀ ਗ਼ਲਤੀ ਵੱਲ ਇਸ਼ਾਰਾ ਹੋਵੇ।
+nosuchspecialpage|ਐਸਾ ਕੋਈ ਖ਼ਾਸ ਸਫ਼ਾ ਨਹੀਂ ਹੈ
+nospecialpagetext|<strong>ਤੁਸੀਂ ਇੱਕ ਗ਼ਲਤ ਖ਼ਾਸ ਸਫ਼ੇ ਲਈ ਬੇਨਤੀ ਕੀਤੀ ਹੈ।</strong>\nਸਹੀ ਖ਼ਾਸ ਸਫ਼ਿਆਂ ਦੀ ਲਿਸਟ [[Special:SpecialPages\u007C{{int:specialpages}}]] ’ਤੇ ਵੇਖੀ ਜਾ ਸਕਦੀ ਹੈ।
+error|ਗ਼ਲਤੀ
+databaseerror|ਡਾਟਾਬੇਸ ਗਲਤੀ
+dberrortext|ਡੈਟਾਬੇਸ ਪੁ੍ਛ ਗਿੱਛ ਵਿਚ ਹਿਦਾਇਤਾਂ ਦੀ ਤਰੁੱਟੀ ਮਿਲੀ ਹੈ।\nਹੋ ਸਕਦਾ ਹੈ ਇਹ ਤਰੁ੍ੱਟੀ ਸਾਫ਼ਟਵੇਅਰ ਦੀ ਹੋਵੇ।\nਇਸ ਗਣਿਤਫ਼ਲ "<tt>~{1}</tt>" ਵਿਚੌਂ ਪਿਛਲੀ ਡੈਟਬਾਸ ਪੁੱਛ ਗਿੱਛ ਸੀ: <blockquote><tt>~{0}</tt></blockquote.\nਡੈਟਾਬੇਸ ਨੇ ਇਹ ਤਰੁੱਟੀ "<tt>~{2}: ~{3}</tt>"ਜਵਾਬ ਵਿਚ ਦਿੱਤੀ।
+dberrortextcl|ਡੈਟਾਬੇਸ ਪੁੱਛਗਿੱਛ ਵਿਚ ਹਿਦਾਇਤ ਗਲਤੀ ਮਿਲੀ ਹੈ।\nਫੰਕਸ਼ਨ "~{1}" ਤੋਂ ਪਿਛਲੀ ਡਾਟਬਾਸ ਪੁੱਛ ਗਿੱਛ ਸੀ: "~{0}".\nਡੈਟਾਬੇਸ ਨੇ ਇਹ ਗਲਤੀ "~{2}:~{3}" ਦਿੱਤੀ
+laggedslavemode|'''ਖ਼ਬਰਦਾਰ:''' ਹੋ ਸਕਦਾ ਹੈ ਸਫ਼ੇ ਵਿਚ ਤਾਜ਼ਾ ਤਬਦੀਲੀਆਂ ਸ਼ਾਮਲ ਨਾ ਹੋਣ।
+readonly|ਡਾਟਾਬੇਸ ਲਾਕ ਹੈ
+enterlockreason|ਤਾਲਾ-ਬੰਦੀ ਲਈ ਕਾਰਨ ਦਾਖ਼ਲ ਕਰੋ, ਨਾਲ਼ ਹੀ ਤਾਲਾ-ਬੰਦੀ ਦੇ ਰਿਲੀਜ਼ ਹੋਣ ਦਾ ਅੰਦਾਜ਼ਨ ਵਕਤ
+readonlytext|ਡੈਟਾਬੇਸ ਨੂੰ ਇਸ ਵੇਲ਼ੇ ਤਾਲਾ ਲੱਗਾ ਹੋਇਆ ਹੈ, ਸ਼ਾਇਦ ਆਮ ਰੱਖ-ਰਖਾਵ ਲਈ, ਇਸਤੋਂ ਬਾਅਦ ਇਹ ਆਮ ਵਾਂਗ ਉਪਲੱਬਧ ਹੋਵੇਗਾ।\nਜਿਸ ਪ੍ਰਬੰਧਕ ਨੇ ਇਸਨੂੰ ਤਾਲਾ ਲਾਇਆ ਹੈ ਉਸਦਾ ਕਹਿਣਾ ਹੈ ਕਿ: ~{0}
+missing-article|ਡਾਟਾਬੇਸ ਨੂੰ ''~{0}'' ~{1} ਨਾਮ ਦਾ ਕੋਈ ਪੰਨਾ ਨਹੀਂ ਮਿਲਿਆ।\nਆਮ ਤੌਰ ਤੇ ਹਟਾਈ ਜਾ ਚੁੱਕੇ ਪੰਨੇ ਦਾ ਇਤਿਹਾਸ ਕੜੀ ਦੀ ਵਰਤੋਂ ਕਰਨ ਨਾਲ ਇੰਝ ਹੁੰਦਾ ਹੈ।\nਜੇ ਇਹ ਗੱਲ ਨਹੀਂ ਤਾਂ ਹੋ ਸਕਦਾ ਹੈ ਤੁਹਾਨੂੰ ਸਾਫ਼ਟਵੇਅਰ ਵਿਚ ਖਾਮੀ ਮਿਲ ਗਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪੰਨੇ ਦੇ ਪਤੇ ਸਮੇਤ [[Special:ListUsers/sysop\u007Cadministrator]] ਨੂੰ ਇਤਲਾਹ ਦਿਓ।
+missingarticle-rev|(ਰੀਵਿਜ਼ਨ#: ~{0})
+missingarticle-diff|(ਅੰਤਰ: ~{0}, ~{1})
+readonly_lag|ਜਦੌਂ ਤਕ ਅਧੀਨ ਡੇਟਾਬੇਸ ਸਰਵਰ ਸੁਤੰਤਰ ਡੈਟਾਬੇਸ ਸਰਵਰ ਦੀ ਪਕੜ ਵਿਚ ਨਹੀਂ ਆ ਜਾਂਦੇ ਡੈਟਾਬੇਸ ਸਵੈ ਜਕੜਿਆ ਗਿਆ ਹੈ।
+internalerror|ਅੰਦਰੂਨੀ ਗ਼ਲਤੀ
+internalerror_info|ਅੰਦਰੂਨੀ ਗ਼ਲਤੀ: ~{0}
+fileappenderrorread|ਅੰਤਕਾ ਜੋੜਨ ਲਗਿਆਂ "~{0}"ਪੜ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+fileappenderror|''~{0}'' ''~{1}'' ਨਾਲ਼ ਜੋੜਿਆ ਨਹੀ ਜਾ ਸਕਦਾ
+filecopyerror|ਫਾਇਲ '''~{0}'' '~{1}''' ਵਿੱਚ ਕਾਪੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।
+filerenameerror|ਫਾਇਲ ''~{0}'' ਦਾ ਨਾਂ ''~{1}'' ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+filedeleteerror|''~{0}'' ਫਾਇਲ ਹਟਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।
+directorycreateerror|ਡਾਇਰੈਕਟਰੀ ''~{0}'' ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।
+filenotfound|ਫਾਇਲ ''~{0}'' ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।
+fileexistserror|ਫਾਇਲ "~{0}" ਉੱਤੇ ਲਿਖ ਨਹੀਂ ਸਕਦੇ: ਫਾਇਲ ਮੌਜੂਦ ਹੈ।
+unexpected|ਅਣਉਮੀਦਿਆ ਮੁੱਲ: "~{0}"="~{1}"।
+formerror|ਗ਼ਲਤੀ: ਫ਼ਾਰਮ ਪੇਸ਼ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ
+badarticleerror|ਇਹ ਕਾਰਵਾਈ ਇਸ ਸਫ਼ੇ ਤੇ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।
+cannotdelete|ਫ਼ਾਈਲ ਜਾਂ ਸਫ਼ਾ ''~{0}'' ਨੂੰ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।\nਸ਼ਾਇਦ ਕੋਈ ਪਹਿਲਾਂ ਹੀ ਇਸਨੂੰ ਮਿਟਾ ਚੁੱਕਾ ਹੈ।
+cannotdelete-title|ਸਫ਼ਾ ''~{0}'' ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ
+delete-hook-aborted|ਹੁੱਕ ਨੇ ਮਿਟਾਉਣਾ ਨਾਕਾਮ ਕੀਤਾ।\nਇਸਨੇ ਕੋਈ ਕਾਰਨ ਨਹੀਂ ਦੱਸਿਆ।
+badtitle|ਗਲਤ ਸਿਰਲੇਖ
+badtitletext|ਤੁਹਾਡਾ ਦਰਖਾਸਤਸ਼ੁਦਾ ਸਿਰਲੇਖ ਨਾਕਾਬਿਲ, ਖਾਲੀ ਜਾਂ ਗਲਤ ਜੁੜਿਆ ਹੋਇਆ inter-languagd ਜਾਂ inter-wiki ਸਿਰਲੇਖ ਹੈ। ਇਹ ਵੀ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਇਸ ਵਿੱਚ ਇਕ-ਦੋ ਅੱਖਰ ਐਸੇ ਹੋਣ ਜੋ ਸਿਰਲੇਖ ਵਿੱਚ ਵਰਤੇ ਨਹੀਂ ਜਾ ਸਕਦੇ।
+querypage-no-updates|ਇਸ ਪੇਜ  ਦਾ ਆਧੁਨੀਕਰਣ ਵਰਜਿਤ ਹੈ।\nਆਂਕੜੇ ਹੱਲੇ ਤਾਜ਼ੇ ਨਹੀ ਹੋ ਸਕਦੇ ।
+wrong_wfQuery_params| wfQuery()<br /> ਨੂ ਲਤ ਰਾਸ਼ੀ ਮਿਲੇ ਹੋਯੇ ਨੇ\n ਫੁਨ੍ਕ੍ਤਿਓਂ:~{0}<br />\n ਪ੍ਰਸ਼ਨ: ~{1}
+viewsource|ਸਰੋਤ ਵੇਖੋ
+viewsource-title|~{0} ਲਈ ਸਰੋਤ ਵੇਖੋ
+actionthrottled|ਕਾਰਵਾਈ ਬੰਦ ਕੀਤੀ ਗਈ।
+actionthrottledtext|ਸਪੈਮ ਦੀ ਰੋਕਥਾਮ ਲਈ, ਇਹ ਕਰੀਆ ਇਨ੍ਹੇ ਘੱਟ ਸਮੇਂ ਵਿੱਚ ਇੱਕ ਸੀਮਾ ਤੋਂ ਜਿਆਦਾ ਵਾਰ ਕਰਨ ਤੋਂ ਮਨਾਹੀ ਹੈ, ਅਤੇ ਤੁਸੀਂ ਇਸ ਸੀਮਾ ਨੂੰ ਪਾਰ ਕਰ ਚੁੱਕੇ ਹੋ।\nਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਪੁੰਨ: ਜਤਨ ਕਰੋ।
+protectedpagetext|ਇਹ ਪੰਨੇ ਸੰਪਾਦਨ ਅਤੇ ਹੋਰ ਕੰਮ ਤੋਂ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਹੋਇਆ ਹੈ।
+viewsourcetext|ਤੁਸੀਂ ਇਸ ਸਫ਼ੇ ਦਾ ਸਰੋਤ ਵੇਖ ਅਤੇ ਕਾਪੀ ਕਰ ਸਕਦੇ ਹੋ:
+viewyourtext|ਤੁਸੀਂ ਇਸ ਸਫ਼ੇ ’ਤੇ ਕੀਤੀਆਂ "ਆਪਣੀਆਂ ਸੋਧਾਂ" ਦਾ ਸਰੋਤ ਵੇਖ ਅਤੇ ਨਕਲ ਕਰ ਸਕਦੇ ਹੋ:
+protectedinterface|ਇਹ ਪੰਨਾ ਸਾਫ਼ਟਵੇਅਰ ਇੰਟਰਫ਼ੇਸ ਦਾ ਮੂਲ ਪਾਠ ਹੈ ,ਅਤੇ ਦੁਰਵਰਤੌਂ ਤੌਂ ਬਚਾਅ ਲਈ ਰਾਖਵਾਂ ਕੀਤਾ ਗਿਆ ਹੈ।
+editinginterface|'''ਚਿਤਾਵਨੀ''' ਤੁਸੀਂ ਐਸੇ ਪੰਨੇ ਨੂੰ ਬਦਲ ਰਹੇ ਹੋ ਜੋ ਸਾਫ਼ਟਵੇਅਰ ਇੰਟਰਫ਼ੇਸ ਦੇ ਮੂਲ ਪਾਠ ਲਈ ਵਰਤਿਆ ਗਿਆ ਹੈ।\nਇਸ ਪੰਨੇ ਦੇ ਬਦਲਾਅ ਦੁਸਰੇ ਵਰਤੋਂ ਕਰਣ ਵਾਲਿਆਂ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਇੰਟਰਫਲੇਸ ਦੀ ਸ਼ਕਲ ਤੇ ਅਸਰ ਪਾ ਦੇਣਗੇ।ਅਨੁਵਾਦ ਕਰਣ ਲਈ ,ਕਿਰਪਾ ਕਰਕੇ [//translatewiki.net/wiki/Main_Page?setlang=pa ਟ੍ਰਾਂਸਲੇਟਵਿਕੀ.ਨੈਟ] ਦੀ ਵਰਤੌਂ ਕਰੋ,ਇਹ ਮੀਡੀਆਵਿਕੀ ਦੀ ਸਥਾਨਕੀਕਰਣ ਯੋਜਨਾ ਹੈ।
+sqlhidden|(SQL ਪ੍ਰਸ਼ਨ ਚੁਪ੍ਪੇ ਹੁਏ ਨੇ)
+cascadeprotected|ਇਹ ਪੰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ, ਕਿਉਂਕਿ ਇਹ ਨਿੱਚੇ ਲਿਖੇ {{PLURAL:~{0}\u007Cਪੰਨਾ\u007Cਪੰਨੇ}} ਦੀ ਸੁਰੱਖਿਆ-ਸੀੜੀ ਵਿੱਚ ਸ਼ਾਮਲ ਹੈ:\n~{1}
+namespaceprotected|ਤੁਹਾਨੂੰ '''~{0}''' ਥਾਂ-ਨਾਮ ਵਾਲ਼ੇ ਸਫ਼ਿਆਂ ਵਿਚ ਫੇਰ-ਬਦਲ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+customcssprotected|ਤੁਹਾਨੂੰ ਇਸ CSS ਸਫ਼ੇ ਵਿਚ ਸੋਧ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਇਸ ਵਿਚ ਕਿਸੇ ਹੋਰ ਮੈਂਬਰ ਦੀਆਂ ਨਿੱਜੀ ਸੈਟਿੰਗਾਂ ਹਨ।
+customjsprotected|ਤੁਹਾਨੂੰ ਇਸ CSS ਸਫ਼ੇ ਵਿਚ ਸੋਧ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਇਸ ਵਿਚ ਕਿਸੇ ਹੋਰ ਮੈਂਬਰ ਦੀਆਂ ਨਿੱਜੀ ਸੈਟਿੰਗਾਂ ਹਨ।
+ns-specialprotected|ਖ਼ਾਸ ਸਫ਼ਿਆਂ ’ਚ ਫੇਰ-ਬਦਲ ਨਹੀਂ ਹੋ ਸਕਦੇ।
+titleprotected|ਇਹ ਸਿਰਲੇਖ [[User:~{0}\u007C~{0}]] ਵੱਲੋਂ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ ਹੈ ਅਤੇ ਵਰਤਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਦਿੱਤਾ ਹੋਇਆ ਕਾਰਨ ਹੈ, "''~{1}''"।
+invalidtitle-knownnamespace|ਥਾਂ-ਨਾਮ "~{1}" ਅਤੇ ਲਿਖਤ "~{2}" ਵਾਲ਼ਾ ਗ਼ਲਤ ਸਿਰਲੇਖ
+exception-nologin|ਲਾਗਇਨ ਨਹੀਂ ਕੀਤਾ
+exception-nologin-text|ਇਹ ਸਫ਼ਾ ਜਾਂ ਕਾਰਵਾਈ ਤੁਹਾਡਾ ਇਸ ਵਿਕੀ ’ਤੇ ਲਾਗਇਨ ਕੀਤਾ ਹੋਣਾ ਲੋੜਦੀ ਹੈ।
+virus-scanfailed|ਸਕੈਨ ਫੇਲ੍ਹ ਹੈ (ਕੋਡ ~{0})
+virus-unknownscanner|ਅਣਪਛਾਤਾ ਐਂਟੀਵਾਇਰਸ:
+logouttext|'''ਹੁਣ ਤੁਸੀਂ ਲਾਗਆਉਟ ਹੋ ਗਏ ਹੋ।'''\n\nYou can continue to use {{SITENAME}} anonymously, or you can log in again as the same or as a different user.\nNote that some pages may continue to be displayed as if you were still logged in, until you clear your browser cache.
+welcomeuser|~{0} ਜੀ ਆਇਆਂ ਨੂੰ!
+welcomecreation-msg|ਤੁਹਾਡਾ ਖਾਤਾ ਬਣ ਚੁੱਕਾ ਹੈ। ਆਪਣੀਆਂ [[Special:Preferences\u007C{{SITENAME}} ਪਸੰਦ]] ਬਦਲਣੀ ਨਾ ਭੁੱਲੋ।
+yourname|ਯੂਜ਼ਰ-ਨਾਂ:
+userlogin-yourname|ਯੂਜ਼ਰ ਨਾਂ
+userlogin-yourname-ph|ਆਪਣਾ ਯੂਜਰ-ਨਾਂ ਦਿਉ
+yourpassword|ਪਾਸਵਰਡ:
+userlogin-yourpassword|ਪਾਸਵਰਡ
+userlogin-yourpassword-ph|ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਉ
+createacct-yourpassword-ph|ਪਾਸਵਰਡ ਦਿਉ
+yourpasswordagain|ਪਾਸਵਰਡ ਮੁੜ ਲਿਖੋ:
+createacct-yourpasswordagain|ਪਾਸਵਰਡ ਪੁਸ਼ਟੀ
+createacct-yourpasswordagain-ph|ਪਾਸਵਰਡ ਫੇਰ ਦਿਉ
+remembermypassword|ਇਸ ਕੰਪਿਊਟਰ ’ਤੇ ਮੇਰਾ ਲਾਗਇਨ ਯਾਦ ਰੱਖੋ (ਵੱਧ ਤੋਂ ਵੱਧ ~{0} {{PLURAL:~{0}\u007Cਦਿਨ\u007Cਦਿਨਾਂ}} ਲਈ)
+userlogin-remembermypassword|ਮੈਨੂੰ ਯਾਦ ਰੱਖੋ
+userlogin-signwithsecure|ਸੁਰੱਖਿਅਤ ਸਰਵਰ ਨਾਲ ਸਾਇਨ ਕਰੋ
+securelogin-stick-https|ਲਾਗਇਨ ਕਰਨ ਦੇ ਬਾਅਦ HTTPS ਨਾਲ ਕੁਨੈਕਟ ਰਹੋ
+yourdomainname|ਤੁਹਾਡੀ ਡੋਮੇਨ:
+password-change-forbidden|ਇਸ ਵਿਕੀ ਤੇ ਤੁਸੀਂ ਪਾਸਵਰਡ ਨਹੀਂ ਬਦਲ ਸਕਦੇ।
+login|ਲਾਗ ਇਨ
+nav-login-createaccount|ਲਾਗ ਇਨ/ਖਾਤਾ ਬਣਾਓ
+loginprompt|ਤੁਹਾਨੂੰ {{SITENAME}} ’ਤੇ ਲਾਗਇਨ ਕਰਨ ਲਈ ਕੂਕੀਸ ਯੋਗ ਕਰਨੇ ਜ਼ਰੂਰੀ ਹਨ।
+userlogin|ਲਾਗ ਇਨ/ਖਾਤਾ ਬਣਾਓ
+userloginnocreate|ਲਾਗ ਇਨ
+logout|ਲਾਗ ਆਉਟ
+userlogout|ਲਾਗ ਆਉਟ
+notloggedin|ਲਾਗਇਨ ਨਹੀਂ
+userlogin-noaccount|ਖਾਤਾ ਨਹੀਂ ਹੈ?
+userlogin-joinproject|{{SITENAME}} ਦਾ ਹਿੱਸਾ ਬਣੋ
+nologin|ਖਾਤਾ ਨਹੀਂ ਹੈ? ~{0}।
+nologinlink|ਖਾਤਾ ਬਣਾਓ
+createaccount|ਖਾਤਾ ਬਣਾਓ
+gotaccount|ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਹੈ? ~{0}
+gotaccountlink|ਲਾਗ ਇਨ
+userlogin-resetlink|ਆਪਣੀ ਲਾਗਇਨ ਜਾਣਕਾਰੀ ਭੁੱਲ ਗਏ ਹੋ?
+helplogin-url|Help: ਲਾਗਇਨ ਕਰਨਾ
+userlogin-helplink|[[{{MediaWiki:helplogin-url}}\u007Cਲਾਗਇਨ ਕਰਨ ਬਾਰੇ ਮੱਦਦ]]
+createacct-join|ਆਪਣੀ ਜਾਣਕਾਰੀ ਹੇਠਾਂ ਦਿਉ।
+createacct-emailrequired|ਈਮੇਲ ਐਡਰੈਸ
+createacct-emailoptional|ਈਮੇਲ ਐਡਰੈਸ (ਚੋਣਵਾਂ)
+createacct-email-ph|ਆਪਣਾ ਈਮੇਲ ਐਡਰੈਸ ਦਿਉ
+createaccountmail|ਆਰਜ਼ੀ ਰਲਵਾਂ ਪਾਸਵਰਡ ਵਰਤੋਂ ਅਤੇ ਇਸ ਨੂੰ ਹੇਠ ਦਿੱਤੇ ਈਮੇਲ ਸਿਰਨਾਵੇਂ ਉੱਤੇ ਭੇਜ ਦਿਉ
+createacct-realname|ਅਸਲੀ ਨਾਂ (ਚੋਣਵਾਂ)
+createaccountreason|ਕਾਰਨ:
+createacct-reason|ਕਾਰਨ
+createacct-captcha|ਸੁਰੱਖਿਆ ਜਾਂਚ
+createacct-imgcaptcha-ph|ਉੱਤੇ ਵੇਖਾਈ ਦੇ ਰਿਹਾ ਸ਼ਬਦ ਦਿਉ
+createacct-benefit-heading|{{SITENAME}} ਨੂੰ ਤੁਹਾਡੇ ਵਰਗੇ ਲੋਕਾਂ ਵਲੋਂ ਹੀ ਬਣਾਇਆ ਗਿਆ ਹੈ।
+createacct-benefit-body1|ਸੋਧਾਂ
+createacct-benefit-body2|ਸਫ਼ੇ
+createacct-benefit-body3|ਇਹ ਮਹੀਨੇ ਲਈ ਯੋਗਦਾਨ
+badretype|ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ।
+userexists|ਯੂਜ਼ਰ-ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਵੱਖਰਾ ਨਾਂ ਚੁਣੋ ਜੀ।
+loginerror|ਲਾਗਇਨ ਗ਼ਲਤੀ
+createacct-error|ਖਾਤਾ ਬਣਾਉਣ ਗਲਤੀ
+createaccounterror|ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: ~{0}
+nocookiesnew|ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਬਣਾਇਆ ਗਿਆ ਹੈ, ਪਰ ਤੁਸੀਂ ਲਾਗਇਨ ਨਹੀਂ ਕੀਤਾ ਹੈ।{{SITENAME}} uses cookies to log in users. You have cookies disabled. Please enable them, then log in with your new username and password.
+nocookieslogin|{{SITENAME}} ਯੂਜ਼ਰਾਂ ਨੂੰ ਲਾਗਇਨ ਕਰਨ ਲਈ ਕੂਕੀਜ਼ ਵਰਤਦੀ ਹੈ। ਤੁਹਾਡੇ ਕੂਕੀਜ਼ ਆਯੋਗ ਕੀਤੇ ਹੋਏ ਹਨ। ਉਨ੍ਹਾਂ ਨੂੰ ਯੋਗ ਕਰਕੇ ਮੁੜ ਟਰਾਈ ਕਰੋ।
+noname|ਤੁਸੀਂ ਇੱਕ ਸਹੀ ਯੂਜ਼ਰ-ਨਾਂ ਨਹੀਂ ਦਿੱਤਾ ਹੈ।
+loginsuccesstitle|ਲਾਗਇਨ ਸਫ਼ਲ
+loginsuccess|'''ਤੁਸੀਂ {{SITENAME}} ਉੱਤੇ "$1" ਵਜੋਂ ਲਾਗਇਨ ਕਰ ਚੁੱਕੇ ਹੋ।'''
+nosuchuser|!"~{0}" ਨਾਂ ਨਾਲ ਕੋਈ ਯੂਜ਼ਰ ਨਹੀਂ ਹੈ। ਆਪਣੇ ਸ਼ਬਦ ਜੋੜ ਧਿਆਨ ਨਾਲ ਚੈਕ ਕਰੋ ਉਪਰ ਹੇਠਾਂ ਦਾ ਕੇਸ ਵਰਤਣ ਨਾਲ ਫ਼ਰਕ ਪੈਂਦਾ ਹੈ ਜਾਂ [[Special:UserLogin/signup\u007Cਨਵਾਂ ਖਾਤਾ ਬਣਾਓ]]
+nosuchusershort|"~{0}" ਨਾਂ ਨਾਲ ਕੋਈ ਵੀ ਯੂਜ਼ਰ ਨਹੀਂ ਹੈ। ਆਪਣੇ ਸ਼ਬਦ ਧਿਆਨ ਨਾਲ ਚੈੱਕ ਕਰੋ।
+nouserspecified|ਤੁਹਾਨੂੰ ਇੱਕ ਯੂਜ਼ਰ-ਨਾਂ ਦੇਣਾ ਪਵੇਗਾ।
+login-userblocked|ਇਹ ਯੂਜ਼ਰ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੈ। ਲਾਗਇਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+wrongpassword|ਗਲਤ ਪਾਸਵਰਡ ਦਿੱਤਾ ਹੈ। ਮੁੜ-ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।
+wrongpasswordempty|ਖਾਲੀ ਪਾਸਵਰਡ ਦਿੱਤਾ ਹੈ। ਮੁੜ-ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।
+passwordtooshort|ਪਾਸਵਰਡ {{PLURAL:~{0}\u007C1 ਅੱਖਰ\u007C~{0} ਅੱਖਰਾਂ}} ਦਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ।
+password-name-match|ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਤੁਹਾਡੇ ਯੂਜ਼ਰ ਨਾਂ ਤੋਂ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+password-login-forbidden|ਇਹ ਯੂਜ਼ਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਵਰਤਣ ਦੀ ਮਨਾਹੀ ਹੈ।
+mailmypassword|ਨਵਾਂ ਪਾਸਵਰਡ ਈ-ਮੇਲ ਕਰੋ
+passwordremindertitle|{{SITENAME}} ਲਈ ਪਾਸਵਰਡ ਯਾਦ ਰੱਖੋ
+passwordremindertext|ਕਿਸੇ ਨੇ (ਸ਼ਾਇਦ ਤੁਸੀਂ, IP ਪਤਾ ~{0} ਤੋਂ) {{SITENAME}} ਲਈ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਕੀਤੀ ਹੈ (~{3})।\nਮੈਂਬਰ "~{1}" ਲਈ ਆਰਜ਼ੀ ਪਾਸਵਰਡ ਬਣਾ ਕੇ "~{2}" ਤੇ ਭੇਜ ਦਿੱਤਾ ਗਿਆ ਹੈ।\nਜੇ ਤੁਹਾਡਾ ਇਹੀ ਇਰਾਦਾ ਸੀ ਤਾਂ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ ਹੁਣੇ ਲਾਗਇਨ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਲਓ।\nਤੁਹਾਡਾ ਆਰਜ਼ੀ ਪਾਸਵਰਡ {{PLURAL:~{4}\u007Cਇਕ ਦਿਨ\u007C~{4} ਦਿਨਾਂ}} ਵਿਚ ਖ਼ਤਮ ਹੋ ਜਾਵੇਗਾ।\n\nਜੇ ਕਿਸੇ ਹੋਰ ਨੇ ਇਹ ਬੇਨਤੀ ਕੀਤੀ ਸੀ ਜਾਂ ਜੇ ਤੁਹਾਨੂੰ ਆਪਣਾ ਪਾਸਵਰਡ ਯਾਦ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇਸਨੂੰ ਬਦਲਣਾ ਨਹੀਂ ਚਾਹੁੰਦੇ ਤਾਂ ਤੁਸੀਂ ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰ ਕੇ ਆਪਣਾ ਪੁਰਾਣਾ ਪਾਸਵਰਡ ਵਰਤਣਾ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹੋ।
+noemail|ਯੂਜ਼ਰ "~{0}" ਲਈ ਰਿਕਾਰਡ ਵਿੱਚ ਕੋਈ ਈਮੇਲ ਐਡਰੈੱਸ ਨਹੀਂ ਹੈ।
+noemailcreate|ਤੁਹਾਨੂੰ ਠੀਕ ਈਮੇਲ ਐਡਰੈੱਸ ਦੇਣਾ ਪਵੇਗਾ
+passwordsent|"~{0}" ਨਾਲ ਰਜਿਸਟਰ ਕੀਤੇ ਈਮੇਲ ਐਡਰੈੱਸ ਉੱਤੇ ਈਮੇਲ ਭੇਜੀ ਗਈ ਹੈ।\nਇਹ ਮਿਲ ਦੇ ਬਾਅਦ ਮੁੜ ਲਾਗਇਨ ਕਰੋ ਜੀ।
+blocked-mailpassword|ਤੁਹਾਡੇ IP ਪਤੇ ਤੇ ਸੋਧ ਕਰਨ ਤੇ ਪਾਬੰਦੀ ਹੈ ਅਤੇ ਇਸੇ ਕਰਕੇ, ਗ਼ਲਤ ਵਰਤੋਂ ਤੋਂ ਬਚਣ ਲਈ, ਪਾਸਵਰਡ ਹਾਸਲ ਕਰਨ ਵਾਲ਼ੀ ਸਹੂਲਤ ਦੀ ਵਰਤੋਂ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+eauthentsent|ਇਕ ਤਸਦੀਕੀ ਈ-ਮੇਲ ਨਾਮਜ਼ਦ ਕੀਤੇ ਈ-ਮੇਲ ਪਤੇ ਤੇ ਭੇਜੀ ਜਾ ਚੁੱਕੀ ਹੈ।\nਤੁਹਾਡੇ ਪਤੇ ਤੇ ਕੋਈ ਹੋਰ ਈ-ਮੇਲ ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ, ਇਹ ਤਸਦੀਕ ਕਰਨ ਲਈ ਕਿ ਖਾਤਾ ਅਸਲ ਵਿਚ ਤੁਹਾਡਾ ਹੀ ਹੈ, ਤੁਹਾਨੂੰ ਉਸ ਈ-ਮੇਲ ਵਿਚਲੀਆਂ ਹਦਾਇਤਾਂ ਤੇ ਅਮਲ ਕਰਨਾ ਹੋਵੇਗਾ।
+throttled-mailpassword|ਆਖ਼ਰੀ {{PLURAL:~{0}\u007Cਇੱਕ ਘੰਟੇ\u007C~{0} ਘੰਟਿਆਂ}} ਵਿਚ ਇੱਕ ਪਾਸਵਰਡ ਯਾਦ-ਦਹਾਨੀ ਪਹਿਲਾਂ ਹੀ ਭੇਜੀ ਜਾ ਚੁੱਕੀ ਹੈ।\nਗ਼ਲਤ ਵਰਤੋਂ ਤੋਂ ਬਚਣ ਲਈ, {{PLURAL:~{0}\u007Cਇੱਕ ਘੰਟੇ\u007C~{0} ਘੰਟਿਆਂ}} ਵਿੱਚ ਸਿਰਫ਼ ਇੱਕ ਹੀ ਪਾਸਵਰਡ ਯਾਦ-ਦਹਾਨੀ ਭੇਜੀ ਜਾਂਦੀ ਹੈ।
+mailerror|ਈਮੇਲ ਭੇਜਣ ਦੌਰਾਨ ਗਲਤੀ: ~{0}
+acct_creation_throttle_hit|ਤੁਹਾਡਾ IP ਪਤਾ ਵਰਤ ਕੇ ਆਉਣ ਵਾਲ਼ਿਆਂ ਨੇ ਆਖ਼ਰੀ ਦਿਨਾਂ ਵਿਚ ਇਸ ਵਿਕੀ ’ਤੇ {{PLURAL:~{0}\u007C੧ ਖਾਤਾ ਬਣਾਇਆ ਹੈ\u007C~{0} ਖਾਤੇ ਬਣਾਏ ਹਨ}} ਜੋ ਕਿ, ਹਾਲ ਦੀ ਘੜੀ, ਖਾਤੇ ਬਣਾਉਣ ਦੀ ਆਖ਼ਰੀ ਹੱਦ ਹੈ।\nਨਤੀਜੇ ਵਜੋਂ ਇਸ IP ਪਤੇ ਨੂੰ ਵਰਤਣ ਵਾਲ਼ੇ ਫ਼ਿਲਹਾਲ ਹੋਰ ਖਾਤੇ ਨਹੀਂ ਬਣਾ ਸਕਦੇ।
+emailauthenticated|ਤੁਹਾਡਾ ਈ-ਮੇਲ ਪਤਾ ~{1} ਨੂੰ ~{0} ’ਤੇ ਤਸਦੀਕ ਕੀਤਾ ਗਿਆ।
+emailnotauthenticated|ਤੁਹਾਡਾ ਈਮੇਲ ਐਡਰੈੱਸ ਹਾਲੇ ਪਰਮਾਣਿਤ ਨਹੀਂ ਹੈ। ਹੇਠ ਦਿੱਤੇ ਫੀਚਰਾਂ ਲਈ ਕੋਈ ਵੀ ਈਮੇਲ ਨਹੀਂ ਭੇਜੀ ਜਾਵੇਗੀ।
+noemailprefs|ਇਹਨਾਂ ਸਹੂਲਤਾਂ ਦੀ ਵਰਤੋਂ ਲਈ ਆਪਣੀਆਂ ਪਸੰਦਾਂ ਵਿਚ ਇਕ ਈ-ਮੇਲ ਪਤਾ ਦਿਓ।
+emailconfirmlink|ਆਪਣੇ ਈਮੇਲ ਐਡਰੈਸ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ
+invalidemailaddress|ਈ-ਮੇਲ ਪਤਾ ਕਬੂਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ ਕਿਉਂਕਿ ਇਹ ਸਹੀ ਅੰਦਾਜ਼ ਵਿਚ ਲਿਖਿਆ ਨਹੀਂ ਜਾਪਦਾ ਹੈ।\nਸਹੀ ਅੰਦਾਜ਼ ਵਿਚ ਦਿਓ ਜਾਂ ਇਹ ਖ਼ਾਨਾ ਖ਼ਾਲੀ ਛੱਡ ਦਿਓ।
+cannotchangeemail|ਇਸ ਵਿਕੀ ਤੇ ਈ-ਮੇਲ ਪਤੇ ਬਦਲੇ ਨਹੀਂ ਜਾ ਸਕਦੇ।
+emaildisabled|ਇਹ ਸਾਈਟ ਈ-ਮੇਲਾਂ ਨਹੀਂ ਭੇਜ ਸਕਦੀ।
+accountcreated|ਖਾਤਾ ਬਣਾਇਆ
+accountcreatedtext|~{0} ਲਈ ਯੂਜ਼ਰ ਖਾਤਾ ਬਣਾਇਆ ਗਿਆ।
+createaccount-title|{{SITENAME}} ਲਈ ਅਕਾਊਂਟ ਬਣਾਉਣਾ
+createaccount-text|ਕਿਸੇ ਨੇ "~{1}" ਮੈਂਬਰ-ਨਾਮ ਅਤੇ "~{2}" ਪਾਸਵਰਡ ਨਾਲ਼ {{SITENAME}} (~{3}) ਤੇ, ਤੁਹਾਡਾ ਈ-ਮੇਲ ਪਤਾ ਵਰਤਦੇ ਹੋਏ, ਖਾਤਾ ਬਣਾਇਆ ਹੈ।\nਤੁਹਾਨੂੰ ਹੁਣੇ ਲਾਗਇਨ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।\n\nਜੇ ਇਹ ਖਾਤਾ ਗ਼ਲਤੀ ਨਾਲ਼ ਬਣ ਗਿਆ ਹੈ ਤਾਂ ਤੁਸੀਂ ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰ ਸਕਦੇ ਹੋ।
+usernamehasherror|ਮੈਂਬਰ-ਨਾਮ ਵਿਚ ਹੈਸ਼ ਅੱਖਰ ਨਹੀਂ ਹੋ ਸਕਦੇ
+login-throttled|ਤੁਸੀਂ ਬਹੁਤ ਸਾਰੀਆਂ ਤਾਜ਼ਾ ਲਾਗਇਨ ਕੋਸ਼ਿਸ਼ਾਂ ਕੀਤੀਆਂ ਹਨ।\nਮਿਹਰਬਾਨੀ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਥੋੜੀ ਉਡੀਕ ਕਰੋ।
+login-abort-generic|ਤੁਹਾਡੀ ਲਾਗਇਨ ਨਾਕਾਮ ਸੀ - ਅਧੂਰਾ ਛੱਡਿਆ
+loginlanguagelabel|ਭਾਸ਼ਾ: ~{0}
+user-mail-no-addy|ਬਿਨਾਂ ਈ-ਮੇਲ ਪਤਾ ਦਿੱਤੇ ਈ-ਮੇਲ ਭੇਜਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ।
+resetpass|ਪਾਸਵਰਡ ਬਦਲੋ
+resetpass_announce|ਤੁਸੀਂ ਇੱਕ ਆਰਜ਼ੀ ਈ-ਮੇਲ ਕੀਤੇ ਕੋਡ ਨਾਲ ਲਾਗਇਨ ਕੀਤਾ ਹੈ। ਲਾਗਇਨ ਪੂਰਾ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਇੱਥੇ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇਣਾ ਪਵੇਗਾ:
+resetpass_header|ਅਕਾਊਂਟ ਪਾਸਵਰਡ ਬਦਲੋ
+oldpassword|ਪੁਰਾਣਾ ਪਾਸਵਰਡ:
+newpassword|ਨਵਾਂ ਪਾਸਵਰਡ:
+retypenew|ਨਵਾਂ ਪਾਸਵਰਡ ਮੁੜ-ਲਿਖੋ:
+resetpass_submit|ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ ਅਤੇ ਲਾਗਇਨ ਕਰੋ
+resetpass_success|ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਠੀਕ ਤਰਾਂ ਬਦਲਿਆ ਗਿਆ ਹੈ! ਹੁਣ ਤੁਸੀਂ ਲਾਗਇਨ ਕਰ ਸਕਦੇ ਹੋ...
+resetpass_forbidden|ਪਾਸਵਰਡ ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
+resetpass-no-info|ਇਸ ਸਫ਼ੇ ਨੂੰ ਸਿੱਧੇ ਹੀ ਵੇਖਣ ਲਈ ਤੁਹਾਨੂੰ ਲਾਗਇਨ ਕਰਨਾ ਪਵੇਗਾ।
+resetpass-submit-loggedin|ਪਾਸਵਰਡ ਬਦਲੋ
+resetpass-submit-cancel|ਰੱਦ ਕਰੋ
+resetpass-wrong-oldpass|ਗ਼ਲਤ ਆਰਜ਼ੀ ਜਾਂ ਚਾਲੂ ਪਾਸਵਰਡ।\nਸ਼ਾਇਦ ਤੁਸੀਂ ਕਾਮਯਾਬੀ ਨਾਲ਼ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲ ਚੁੱਕੇ ਹੋ ਜਾਂ ਆਰਜ਼ੀ ਪਾਸਵਰਡ ਲਈ ਬੇਨਤੀ ਕੀਤੀ ਸੀ।
+resetpass-temp-password|ਆਰਜ਼ੀ ਪਾਸਵਰਡ:
+passwordreset|ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+passwordreset-legend|ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+passwordreset-disabled|ਇਸ ਵਿਕੀ ਤੇ ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਬੰਦ ਕੀਤੇ ਗਏ ਹਨ।
+passwordreset-emaildisabled|ਇਹ ਵਿਕਿ ਉੱਤੇ ਈਮੇਲ ਫੀਚਰ ਬੰਦ ਕੀਤਾ ਹੋਇਆ ਹੈ।
+passwordreset-username|ਯੂਜ਼ਰ-ਨਾਂ:
+passwordreset-domain|ਡੋਮੇਨ:
+passwordreset-email|ਈ-ਮੇਲ ਸਿਰਨਾਵਾਂ:
+passwordreset-emailtitle|{{SITENAME}} ਤੇ ਖਾਤੇ ਦੀ ਜਾਣਕਾਰੀ
+passwordreset-emailtext-ip|ਕਿਸੇ ਨੇ (ਸ਼ਾਇਦ ਤੁਸੀਂ, IP ਪਤਾ ~{0} ਤੋਂ) {{SITENAME}}\n(~{3}) ਲਈ ਖਾਤਾ ਤਫ਼ਸੀਲ ਯਾਦ-ਦਹਾਨੀ ਦੀ ਬੇਨਤੀ ਕੀਤੀ ਹੈ। ਇਹ {{PLURAL:\n~{2}\u007Cਖਾਤਾ ਇਸ ਈ-ਮੇਲ ਪਤੇ ਨਾਲ਼ ਜੁੜਿਆ ਹੈ\u007Cਖਾਤੇ ਇਸ ਈ-ਮੇਲ ਪਤੇ ਨਾਲ਼ ਜੁੜੇ ਹਨ}}:\n~{1}\n\nਇਹ ਆਰਜ਼ੀ ਪਾਸਵਰਡ\n{{PLURAL:~{4}\u007Cਇੱਕ ਦਿਨ\u007C~{4} ਦਿਨਾਂ}} ਵਿਚ ਖ਼ਤਮ ਹੋ {{PLURAL:~{2}\u007Cਜਾਵੇਗਾ\u007Cਜਾਣਗੇ}}।\nਤੁਹਾਨੂੰ ਹੁਣੇ ਲਾਗਇਨ ਕਰਕੇ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣਾ ਚਾਹੀਦਾ ਹੈ। ਜੇ ਕਿਸੇ ਹੋਰ ਨੇ ਇਹ ਬੇਨਤੀ ਕੀਤੀ ਸੀ ਜਾਂ ਜੇ ਤੁਹਾਨੂੰ ਆਪਣਾ ਪਾਸਵਰਡ ਯਾਦ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇਸਨੂੰ ਬਦਲਣਾ ਨਹੀਂ ਚਾਹੁੰਦੇ ਤਾਂ ਤੁਸੀਂ ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰ ਕੇ ਆਪਣਾ ਪੁਰਾਣਾ ਪਾਸਵਰਡ ਵਰਤਣਾ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹੋ।
+passwordreset-emailelement|ਯੂਜ਼ਰ-ਨਾਂ: ~{0}\nਆਰਜ਼ੀ ਪਾਸਵਰਡ: ~{1}
+passwordreset-emailsent|ਇੱਕ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਈ-ਮੇਲ ਭੇਜੀ ਜਾ ਚੁੱਕੀ ਹੈ।
+passwordreset-emailsent-capture|ਇੱਕ ਯਾਦ-ਦਹਾਨੀ ਈ-ਮੇਲ, ਜਿਹੜੀ ਕਿ ਹੇਠਾਂ ਦਿੱਸ ਰਹੀ ਹੈ, ਭੇਜੀ ਜਾ ਚੁੱਕੀ ਹੈ।
+changeemail|ਈ-ਮੇਲ ਸਿਰਨਾਵਾਂ ਬਦਲੋ
+changeemail-header|ਖਾਤੇ ਵਾਲਾ ਈ-ਮੇਲ ਸਿਰਨਾਵਾਂ ਬਦਲੋ
+changeemail-text|ਆਪਣਾ ਈ-ਮੇਲ ਪਤਾ ਬਦਲਣ ਲਈ ਇਹ ਫ਼ਾਰਮ ਮੁਕੰਮਲ ਕਰੋ। ਇਸ ਤਬਦੀਲੀ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣਾ ਪਾਸਵਰਡ ਦਾਖ਼ਲ ਕਰਨਾ ਪਵੇਗਾ।
+changeemail-no-info|ਇਸ ਸਫ਼ੇ ਨੂੰ ਸਿੱਧੇ ਹੀ ਵੇਖਣ ਲਈ ਤੁਹਾਨੂੰ ਲਾਗਇਨ ਕਰਨਾ ਪਵੇਗਾ।
+changeemail-oldemail|ਮੌਜੂਦਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ:
+changeemail-newemail|ਨਵਾਂ ਈ-ਮੇਲ ਸਿਰਨਾਵਾਂ:
+changeemail-none|(ਕੋਈ ਨਹੀਂ)
+changeemail-password|ਤੁਹਾਡਾ {{SITENAME}} ਪਾਸਵਰਡ:
+changeemail-submit|ਈ-ਮੇਲ ਬਦਲੋ
+changeemail-cancel|ਰੱਦ ਕਰੋ
+extlink_sample|http://www.example.com ਲਿੰਕ ਨਾਂ
+extlink_tip|ਬਾਹਰੀ ਲਿੰਕ (ਅਗੇਤਰ http:// ਯਾਦ ਰੱਖੋ)
+nowiki_sample|ਅਸੰਗਠਿਤ ਪਾਠ (NON -FORMATTED) ਇੱਥੇ ਰਖੋ।
+nowiki_tip|ਵਿਕੀ ਫਾਰਮੈਟਿੰਗ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ
+image_tip|ਇੰਬੈੱਡ ਫਾਇਲ
+media_tip|ਫਾਇਲ ਲਿੰਕ
+sig_tip|ਤੁਹਾਡੇ ਦਸਤਖਤ ਸਮੇਂ ਸਮੇਤ
+hr_tip|ਲੇਟਵੀਂ ਲਾਈਨ (use sparingly)
+summary|ਸਾਰ:
+subject|ਵਿਸ਼ਾ/ਹੈੱਡਲਾਈਨ:
+minoredit|ਇਹ ਇੱਕ ਛੋਟੀ ਸੋਧ ਹੈ
+watchthis|ਇਸ ਸਫ਼ੇ ਤੇ ਨਜ਼ਰ ਰੱਖੋ
+savearticle|ਸਫ਼ਾ ਸੰਭਾਲੋ
+preview|ਝਲਕ
+showpreview|ਝਲਕ ਵੇਖਾਓ
+showlivepreview|ਲਾਈਵ ਝਲਕ
+showdiff|ਬਦਲਾਅ ਵੇਖੋ
+anoneditwarning|'''ਚੇਤਾਵਨੀ:''' ਤੁਸੀਂ ਲਾਗਇਨ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਤੁਹਾਡਾ IP ਐਡਰੈੱਸ ਇਸ ਸਫ਼ੇ ਦੇ ਅਤੀਤ ਵਿੱਚ ਰਿਕਾਰਡ ਕੀਤਾ ਜਾਵੇਗਾ।
+anonpreviewwarning|''ਤੁਸੀਂ ਲਾਗਇਨ ਨਹੀਂ ਕੀਤਾ। ਤਬਦੀਲੀ ਸਾਂਭਣ ਨਾਲ਼ ਤੁਹਾਡਾ IP ਪਤਾ ਸਫ਼ੇ ਦੇ ਸੋਧ ਅਤੀਤ ਵਿਚ ਰਿਕਾਰਡ ਹੋ ਜਾਵੇਗਾ।''
+missingsummary|'''ਯਾਦ-ਦਹਾਨੀ:''' ਤੁਸੀਂ ਸੋਧ ਸਾਰ ਮੁਹੱਈਆ ਨਹੀਂ ਕਰਵਾਇਆ। ਜੇ ਤੁਸੀਂ "{{int:savearticle}}" ਤੇ ਦੁਬਾਰਾ ਕਲਿੱਕ ਕੀਤਾ ਤਾਂ ਤੁਹਾਡਾ ਸਫ਼ਾ ਇਸਦੇ ਬਿਨਾਂ ਹੀ ਸਾਂਭਿਆ ਜਾਵੇਗਾ।
+missingcommenttext|ਹੇਠਾਂ ਇੱਕ ਟਿੱਪਣੀ ਦਿਓ।
+summary-preview|ਸੋਧ ਸਾਰ ਦੀ ਝਲਕ:
+subject-preview|ਵਿਸ਼ਾ/ਹੈੱਡਲਾਈਨ ਝਲਕ:
+blockedtitle|ਯੂਜ਼ਰ ਉੱਤੇ ਪਾਬੰਦੀ ਲਗਾਈ
+blockedtext|'''ਤੁਹਾਡੇ ਮੌਮਬਰ ਨਾਮ ਜਾਂ IP ਪਤੇ ’ਤੇ ਪਾਬੰਦੀ ਲੱਗ ਚੁੱਕੀ ਹੈ।'''\n\nਪਾਬੰਦੀ ~{0} ਨੇ ਲਾਈ ਹੈ।\nਦਿੱਤਾ ਗਿਆ ਕਾਰਨ ਇਹ ਹੈ, ''~{1}''।\n\n* ਪਾਬੰਦੀ ਸ਼ੁਰੂ: ~{7}\n* ਪਾਬੰਦੀ ਖਤਮ: ~{5}\n* ਪਾਬੰਦੀ ਲਾਉਣ ਵਾਲੇ ਦਾ ਇਰਾਦਾ: ~{6}\n\nਪਾਬੰਦੀ ਬਾਰੇ ਚਰਚਾ ਕਰਨ ਲਈ ਤੁਸੀਂ ~{0} ਜਾਂ ਕਿਸੇ ਹੋਰ\n[[{{MediaWiki:Grouppage-\nsysop}}\u007Cadministrator]] ਨਾਲ ਰਾਬਤਾ ਕਰ ਸਕਦੇ ਹੋ।\nਤੁਸੀਂ 'ਇਸ ਮੈਂਬਰ ਨੂੰ ਈ-ਮੇਲ ਭੇਜੋ' ਸਹੂਲਤ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰ ਸਕਦੇ ਜੇ ਤੁਹਾਡੀਆਂ [[Special:Preferences\u007Cਖਾਤਾ ਪਸੰਦਾਂ]] ਵਿੱਚ ਇੱਕ ਸਹੀ ਈ-ਮੇਲ ਪਤਾ ਨਹੀਂ ਦਿੱਤਾ ਗਿਆ ਜਾਂ ਜੇ ਤੁਹਾਡੇ ਇਸਨੂੰ ਵਰਤਣ ਤੇ ਪਾਬੰਦੀ ਹੈ।\nਤੁਹਾਡਾ ਚਾਲੂ IP ਪਤਾ ~{2} ਹੈ,\nਅਤੇ ਪਾਬੰਦੀ ਪਤਾ #~{4} ਹੈ।\nਮਿਹਰਬਾਨੀ ਕਰਕੇ ਆਪਣੇ ਕਿਸੇ ਵੀ ਸਵਾਲ ਜਾਂ ਪੁੱਛ-ਗਿੱਛ ਵਿਚ ਇਹ ਉੱਪਰਲੀ ਤਫ਼ਸੀਲ ਜ਼ਰੂਰ ਸ਼ਾਮਲ ਕਰੋ।
+blockednoreason|ਕੋਈ ਕਾਰਨ ਨਹੀਂ ਦੱਸਿਆ ਗਿਆ
+whitelistedittext|ਪੇਜ ਸੋਧਣ ਲਈ ਤੁਹਾਨੂੰ ~{0} ਕਰਨਾ ਪਵੇਗਾ।
+confirmedittext|ਸਫ਼ਿਆਂ ਨੂੰ ਸੋਧਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣਾ ਈ-ਮੇਲ ਪਤਾ ਤਸਦੀਕ ਕਰਨਾ ਪਵੇਗਾ।\nਮਿਹਰਬਾਨੀ ਕਰਕੇ ਆਪਣੀਆਂ [[Special:Preferences\u007Cਖਾਤਾ ਪਸੰਦਾ]] ਜ਼ਰੀਏ ਸਹੀ ਈ-ਮੇਲ ਪਤਾ ਦਿਓ ਅਤੇ ਤਸਦੀਕ ਕਰੋ।
+nosuchsectiontitle|ਸੈਕਸ਼ਨ ਲੱਭਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
+nosuchsectiontext|ਤੁਸੀਂ ਨਾ-ਮੌਜੂਦ ਸੈਕਸ਼ਨ ਨੂੰ ਸੋਧਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ।\nਸ਼ਾਇਦ ਤੁਹਾਡੇ ਸਫ਼ੇ ਨੂੰ ਵੇਖਣ ਦੇ ਦੌਰਾਨ ਇਹ ਮਿਟਾਇਆ ਜਾਂ ਇਸਦਾ ਸਿਰਲੇਖ ਬਦਲਿਆ ਜਾ ਚੁੱਕਾ ਹੈ।
+loginreqtitle|ਲਾਗਇਨ ਚਾਹੀਦਾ ਹੈ
+loginreqlink|ਲਾਗਇਨ
+loginreqpagetext|ਹੋਰ ਪੇਜ ਵੇਖਣ ਲਈ ਤੁਹਾਨੂੰ ~{0} ਕਰਨਾ ਪਵੇਗਾ।
+accmailtitle|ਪਾਸਵਰਡ ਭੇਜਿਆ।
+accmailtext|[[User talk:~{0}\u007C~{0}]] ਲਈ ਰਲ਼ਵੇਂ ਤੌਰ ’ਤੇ ਬਣਿਆ ਪਾਸਵਰਡ ~{1} ਨੂੰ ਭੇਜਿਆ ਜਾ ਚੁੱਕਾ ਹੈ।\nਇਸ ਨਵੇਂ ਖਾਤੇ ਲਈ ਲਾਗਇਨ ਕਰਨ ਤੋਂ ਬਾਅਦ ''[[Special:ChangePassword\u007Cਪਾਸਵਰਡ ਬਦਲੋ]]'' ’ਤੇ ਜਾ ਕੇ ਪਾਸਵਰਡ ਬਦਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+newarticle|(ਨਵਾਂ)
+newarticletext|ਤੁਸੀਂ ਕਿਸੇ ਐਸੇ ਪੰਨੇ ਦੇ ਕੜੀ ’ਤੇ ਹੋ ਜੋ ਹਾਲੇ ਬਣਾਇਆ ਨਹੀਂ ਗਿਆ।\nਸਫ਼ਾ ਬਣਾਉਣ ਲਈ ਹੇਠ ਦਿੱਤੇ ਖਾਨੇ ਵਿੱਚ ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ। (ਹੋਰ ਮਦਦ ਲਈ [[{{MediaWiki:Helppage}}\u007Cਮਦਦ ਪੰਨਾ]] ਵੇਖੋ।)\nਜੇ ਤੁਸੀਂ ਗਲਤੀ ਨਾਲ ਇੱਥੇ ਆਏ ਹੋ ਤਾਂ ਆਪਣੇ ਬ੍ਰਾਊਜ਼ਰ ਦੇ '''ਪਿੱਛੇ''' ਬਟਨ ’ਤੇ ਕਲਿੱਕ ਕਰੋ।
+anontalkpagetext|----''ਇਹ ਇਕ ਗੁਮਨਾਮ ਮੈਂਬਰ ਲਈ ਇਕ ਚਰਚਾ ਸਫ਼ਾ ਹੈ ਜਿਸਨੇ ਹਾਲੇ ਖਾਤਾ ਨਹੀ ਬਣਾਇਆ ਜਾਂ ਉਸਨੂੰ ਵਰਤ ਨਹੀਂ ਰਿਹਾ।\nਇਸ ਵਾਸਤੇ ਸਾਡੇ ਕੋਲ ਉਸਨੂੰ ਪਛਾਨਣ ਲਈ IP ਪਤਾ ਹੈ।\nਇਕ IP ਪਤਾ ਕਈ ਵਰਤਣ ਵਾਲ਼ਿਆਂ ਦੁਆਰਾ ਸਾਂਝਾ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।\nਜੇ ਤੁਸੀਂ ਇੱਕ ਗੁਮਨਾਮ ਮੈਂਬਰ ਹੋ ਅਤੇ ਸਮਝਦੇ ਹੋ ਕਿ ਇਹ ਟਿੱਪਣੀਆਂ ਤੁਹਾਡੇ ਲਈ ਹਨ ਤਾਂ ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਹੋਰਾਂ ਗੁਮਨਾਮ ਮੈਂਬਰਾਂ ਨਾਲ਼ ਪੈਦਾ ਹੋਣ ਵਾਲ਼ੀ ਉਲਝਣ ਤੋਂ ਬਚਣ ਲਈ [[Special:UserLogin/signup\u007Cਖਾਤਾ ਬਣਾਓ]] ਜਾਂ [[Special:UserLogin\u007Cਲਾਗਇਨ ਕਰੋ]]।''
+noarticletext|ਫ਼ਿਲਹਾਲ ਇਸ ਪੰਨੇ ’ਤੇ ਕੋਈ ਲਿਖਤ ਨਹੀਂ ਹੈ। ਤੁਸੀਂ ਦੂਜੇ ਪੰਨਿਆਂ ’ਤੇ [[Special:Search/{{PAGENAME}}\u007Cਇਸ ਸਿਰਲੇਖ ਦੀ ਖੋਜ]] ਕਰ ਸਕਦੇ ਹੋ, <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} ਸਬੰਧਿਤ ਚਿੱਠੇ ਖੋਜ] ਸਕਦੇ ਹੋ ਜਾਂ ਇਸ [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} ਪੰਨੇ ਵਿੱਚ ਲਿਖ] ਸਕਦੇ ਹੋ</span>।
+noarticletext-nopermission|ਫ਼ਿਲਹਾਲ ਇਸ ਪੰਨੇ ’ਤੇ ਕੋਈ ਲਿਖਤ ਨਹੀਂ ਹੈ। ਤੁਸੀਂ ਦੂਸਰੇ ਪੰਨਿਆਂ ’ਤੇ [[Special:Search/{{PAGENAME}}\u007Cਇਸ ਸਿਰਲੇਖ ਦੀ ਖੋਜ]] ਕਰ ਸਕਦੇ ਹੋ, ਸਬੰਧਤ <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} ਚਿੱਠੇ] ਖੋਜ ਸਕਦੇ ਹੋ ਜਾਂ [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} ਇਸ ਪੰਨੇ ਵਿੱਚ ਲਿਖ] ਸਕਦੇ ਹੋ।</span>
+userpage-userdoesnotexist|ਮੈਂਬਰ ਖਾਤਾ "~{0}" ਰਜਿਸਟਰ ਨਹੀਂ ਹੈ।\nਜੇ ਤੁਸੀਂ ਇਸਨੂੰ ਬਣਾਉਣਾ/ਸੋਧਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਮਿਰਬਾਨੀ ਕਰਕੇ ਜਾਂਚ ਕਰ ਲਓ।
+userpage-userdoesnotexist-view|ਯੂਜ਼ਰ ਖਾਤਾ "~{0}" ਰਜਿਸਟਰ ਨਹੀਂ ਹੈ।
+blocked-notice-logextract|ਇਹ ਮੈਂਬਰ ਇਸ ਵੇਲ਼ੇ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੈ।\nਹਵਾਲੇ ਲਈ ਪਾਬੰਦੀ ਚਿੱਠੇ ਦਾ ਨਵਾਂ ਦਾਖ਼ਲਾ ਹੇਠ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+usercssyoucanpreview|'''ਟੋਟਕਾ:''' ਆਪਣੇ ਨਵੇਂ CSS ਸਫ਼ੇ ਨੂੰ ਸਾਂਭਣ ਤੋਂ ਪਹਿਲਾਂ ਪਰਖ ਕਰਨ ਲਈ "{{int:showpreview}}" ਬਟਨ ਵਰਤੋ।
+userjsyoucanpreview|'''ਟੋਟਕਾ:''' ਆਪਣੀ ਜਾਵਾਸਕ੍ਰਿਪਟ ਨੂੰ ਸਾਂਭਣ ਤੋਂ ਪਹਿਲਾਂ ਪਰਖ ਕਰਨ ਲਈ "{{int:showpreview}}" ਬਟਨ ਵਰਤੋ।
+usercsspreview|'''ਯਾਦ ਰੱਖੋ ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰ CSS ਦੀ ਸਿਰਫ਼ ਇਕ ਝਲਕ ਵੇਖ ਰਹੇ ਹੋ।'''\n'''ਇਹ ਹਾਲੇ ਸਾਂਭੀ ਨਹੀਂ ਗਈ ਹੈ!'''
+userjspreview|'''ਯਾਦ ਰੱਖੋ ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰ ਜਾਵਾਸਕ੍ਰਿਪਟ ਦੀ ਸਿਰਫ਼ ਇਕ ਪਰਖ/ਝਲਕ ਵੇਖ ਰਹੇ ਹੋ।'''\n'''ਇਹ ਹਾਲੇ ਸਾਂਭੀ ਨਹੀਂ ਗਈ ਹੈ!'''
+sitecsspreview|'''ਯਾਦ ਰੱਖੋ ਤੁਸੀਂ ਇਸ CSS ਦੀ ਸਿਰਫ਼ ਇਕ ਝਲਕ ਵੇਖ ਰਹੇ ਹੋ।'''\n'''ਇਹ ਹਾਲੇ ਸਾਂਭੀ ਨਹੀਂ ਗਈ ਹੈ!'''
+sitejspreview|'''ਯਾਦ ਰੱਖੋ ਤੁਸੀਂ ਇਸ ਜਾਵਾਸਕ੍ਰਿਪਟ ਕੋਡ ਦੀ ਸਿਰਫ਼ ਇਕ ਝਲਕ ਵੇਖ ਰਹੇ ਹੋ।'''\n'''ਇਹ ਹਾਲੇ ਸਾਂਭੀ ਨਹੀਂ ਗਈ ਹੈ!'''
+updated|(ਅੱਪਡੇਟ)
+note|'''ਨੋਟ:'''
+previewnote|'''ਯਾਦ ਰੱਖੋ ਇਹ ਸਿਰਫ਼ ਇੱਕ ਝਲਕ ਹੈ।'''\nਤੁਹਾਡੀਆਂ ਤਬਦੀਲੀਆਂ ਹਾਲੇ ਸਾਂਭੀਆਂ ਨਹੀਂ ਗਈਆਂ!
+continue-editing|ਸੋਧ ਖੇਤਰ ਤੇ ਜਾਓ
+previewconflict|ਇਹ ਝਲਕ ਲਿਖਤ ਦਾ ਓਹ ਅਕਸ ਪੇਸ਼ ਕਰਦੀ ਹੈ ਜਿਵੇਂ ਓਹ ਤੁਹਾਡੇ ਸਾਂਭੇ ਜਾਣ ਤੋਂ ਬਾਅਦ ਦਿੱਸੇਗਾ।
+editing|~{0} ਸੋਧ ਜਾਰੀ
+creating|~{0} ਬਣਾਇਆ ਜਾ ਰਿਹਾ ਹੈ
+editingsection|~{0} (ਭਾਗ) ਸੋਧ ਜਾਰੀ
+editingcomment|~{0} (ਨਵਾਂ ਭਾਗ) ਸੋਧ ਜਾਰੀ
+editconflict|ਅਪਵਾਦ ਟਿੱਪਣੀ: ~{0}
+yourtext|ਤੁਹਾਡਾ ਟੈਕਸਟ
+storedversion|ਸੰਭਾਲਿਆ ਵਰਜਨ
+yourdiff|ਅੰਤਰ
+longpageerror|'''ਗ਼ਲਤੀ: ਤੁਹਾਡੀ ਪੇਸ਼ ਕੀਤੀ ਲਿਖਤ {{PLURAL:~{0}\u007Cਇੱਕ ਕਿਲੋਬਾਈਟ\u007C~{0} ਕਿਲੋਬਾਈਟ}} ਦੀ ਹੈ ਜੋ ਕਿ {{PLURAL:~{1}\u007Cਇੱਕ ਕਿਲੋਬਾਈਟ\u007C~{1} ਕਿਲੋਬਾਈਟ}} ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ ਅਕਾਰ ਤੋਂ ਜ਼ਿਆਦਾ ਹੈ।'''\nਇਹ ਸਾਂਭੀ ਨਹੀਂ ਜਾ ਸਕਦੀ।
+readonlywarning|'''ਖ਼ਬਰਦਾਰ: ਡੈਟਾਬੇਸ ਰੱਖ-ਰਖਾਵ ਦੇ ਕਰਕੇ ਤਾਲਾ-ਬੱਧ ਹੈ ਇਸ ਕਰਕੇ ਤੁਸੀਂ ਹੁਣੇ ਆਪਣੀ ਤਬਦੀਲੀ ਨਹੀਂ ਸਾਂਭ ਸਕਦੇ।'''\nਸ਼ਾਇਦ ਤੁਸੀਂ ਇਸ ਲਿਖਤ ਨੂੰ ਕੱਟ ਅਤੇ ਪੇਸਟ ਕਰ ਕੇ ਇਕ ਫ਼ਾਈਲ ਵਜੋਂ ਬਾਅਦ ਵਿਚ ਵਰਤਣ ਲਈ ਸਾਂਭਣਾ ਚਾਹੋਗੇ।\n\nਜਿਹੜੇ ਪ੍ਰਬੰਧਕ ਨੇ ਇਸਨੂੰ ਤਾਲਾ ਲਾਇਆ ਹੈ ਉਸਦਾ ਕਹਿਣਾ ਹੈ ਕਿ: ~{0}
+protectedpagewarning|'''ਖ਼ਬਰਦਾਰ: ਇਹ ਸਫ਼ਾ ਸੁਰੱਖਿਅਤ ਹੈ ਜਿਸ ਕਰਕੇ ਸਿਰਫ਼ ਐਡਮਨਿਸਟ੍ਰੇਟਰ ਹੱਕ ਵਾਲ਼ੇ ਮੈਂਬਰ ਹੀ ਇਸ ਨੂੰ ਸੋਧ ਸਕਦੇ ਹਨ।'''\nਚਿੱਠੇ ਦਾ ਨਵਾਂ ਦਾਖ਼ਲਾ ਹਵਾਲੇ ਲਈ ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+semiprotectedpagewarning|'''ਨੋਟ:''' ਇਹ ਸਫ਼ਾ ਸੁਰੱਖਿਅਤ ਹੈ ਤਾਂ ਕਿ ਸਿਰਫ਼ ਰਜਿਸਟਰ ਹੋਏ ਮੈਂਬਰ ਹੀ ਇਸ ਨੂੰ ਸੋਧ ਸਕਣ।\nਚਿੱਠੇ ਵਿਚਲਾ ਨਵਾਂ ਦਾਖ਼ਲਾ ਹਵਾਲੇ ਲਈ ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+titleprotectedwarning|'''ਖ਼ਬਰਦਾਰ: ਇਹ ਸਫ਼ਾ ਸੁਰੱਖਿਅਤ ਹੈ ਸੋ ਇਸਨੂੰ ਬਣਾਉਣ ਲਈ [[Special:ListGroupRights\u007Cਖ਼ਾਸ ਹੱਕਾਂ]] ਦੀ ਲੋੜ ਹੈ।'''\nਚਿੱਠੇ ਦਾ ਨਵਾਂ ਦਾਖ਼ਲਾ ਹਵਾਲੇ ਲਈ ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+templatesused|ਇਸ ਪੰਨੇ ’ਤੇ {{PLURAL:~{0}\u007Cਵਰਤਿਆ ਸਾਂਚਾ\u007Cਵਰਤੇ ਸਾਂਚੇ}}:
+templatesusedpreview|{{PLURAL:~{0}\u007Cਟੈਪਲੇਟ\u007Cਟੈਪਲੇਟ}} ਇਹ ਝਲਕ 'ਚ ਵਰਤੇ ਜਾਂਦੇ ਹਨ:
+templatesusedsection|ਇਹ ਭਾਗ ਵਿੱਚ {{PLURAL:~{0}\u007Cਸਾਂਚਾ\u007Cਸਾਂਚੇ}} ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ:
+template-protected|(ਸੁਰੱਖਿਅਤ)
+template-semiprotected|(ਨੀਮ-ਸੁਰੱਖਿਅਤ)
+hiddencategories|ਇਹ ਪੰਨਾ {{PLURAL:~{0}\u007C੧ ਲੁਕਵੀਂ ਸ਼੍ਰੇਣੀ\u007C\n~{0} ਲੁਕਵੀਆਂ ਸ਼੍ਰੇਣੀਆਂ}} ਦਾ ਮੈਂਬਰ ਹੈ:
+nocreatetext|{{SITENAME}} ਨੇ ਨਵੇਂ ਸਫ਼ੇ ਬਣਾਉਣ ਤੇ ਰੋਕ ਲਾਈ ਹੋਈ ਹੈ।\nਤੁਸੀਂ ਵਾਪਸ ਜਾ ਕੇ ਮੌਜੂਦਾ ਸਫ਼ੇ ਸੋਧ ਸਕਦੇ ਹੋ ਜਾਂ [[Special:UserLogin\u007Cਲਾਗਇਨ ਜਾਂ ਖਾਤਾ ਬਣਾ]] ਸਕਦੇ ਹੋ।
+nocreate-loggedin|ਤੁਹਾਨੂੰ ਨਵੇਂ ਸਫ਼ੇ ਬਣਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+permissionserrors|ਅਧਿਕਾਰ ਗਲਤੀਆਂ
+permissionserrorstext|ਤੁਹਾਨੂੰ ਇੰਝ ਕਰਨ ਦੇ ਅਧਿਕਾਰ ਨਹੀਂ ਹਨ। ਹੇਠ ਦਿੱਤੇ {{PLURAL:~{0}\u007Cਕਾਰਨ\u007Cਕਾਰਨ}} ਨੇ:
+permissionserrorstext-withaction|ਅੱਗੇ ਦਿੱਤੇ {{PLURAL:~{0}\u007Cਕਾਰਨ\u007Cਕਾਰਨਾਂ}} ਕਰਕੇ ਤੁਹਾਡੇ ਕੋਲ ~{1} ਲਈ ਹੱਕ ਨਹੀਂ ਹਨ:
+recreate-moveddeleted-warn|'''ਚਿਤਾਵਣੀ:\nਤੁਸੀਂ ਐਸਾ ਪੰਨਾ ਬਣਾ ਰਹੇ ਹੋ ਜੋ ਪਹਿਲਾਂ ਹਟਾਇਆ ਜਾ ਚੁੱਕਾ ਹੈ।'''\n\nਖਿਆਲ ਕਰੋ ਕਿ ਕੀ ਇਸ ਪੰਨੇ ਦਾ ਕਾਇਮ ਰਹਿਣਾ ਠੀਕ ਹੈ।\nਇਸਨੂੰ ਮਿਟਾਉਣ ਜਾਂ ਸਿਰਲੇਖ ਬਦਲੀ ਦਾ ਚਿੱਠਾ ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ।
+moveddeleted-notice|ਇਹ ਪੰਨਾ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।\nਇਸਦੇ ਹਟਾਉਣ ਜਾਂ ਸਿਰਲੇਖ ਬਦਲੀ ਦਾ ਚਿੱਠਾ ਹਵਾਲੇ ਲਈ ਹੇਠ ਦਿੱਤਾ ਗਿਆ ਹੈ।
+log-fulllog|ਪੂਰਾ ਲਾਗ ਵੇਖਾਓ
+edit-gone-missing|ਇਹ ਸਫ਼ਾ ਅੱਪਡੇਟ ਨਹੀਂ ਹੋ ਸਕਿਆ।\nਜਾਪਦਾ ਹੈ ਕਿ ਇਹ ਹਟਾਇਆ ਜਾ ਚੁੱਕਾ ਹੈ।
+edit-no-change|ਤੁਹਾਡੀ ਸੋਧ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ ਕਿਉਂਕਿ ਲਿਖਤ ਵਿਚ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਕੀਤੀ ਗਈ।
+edit-already-exists|ਨਵਾਂ ਸਫ਼ਾ ਨਹੀਂ ਬਣਾਇਆ ਜਾ ਸਕਿਆ।\nਇਹ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।
+content-model-wikitext|ਵਿਕਿਟੈਕਸਟ
+content-model-text|ਆਮ ਟੈਕਸਟ
+content-model-javascript|ਜਾਵਾਸਕ੍ਰਿਪਟ
+content-model-css|ਸੀਐਸਐਸ
+post-expand-template-inclusion-warning|'''ਖਬਰਦਾਰ:''' ਸਾਂਚਾ ਦਾ ਅਕਾਰ ਬਹੁਤ ਵੱਡਾ ਹੈ। ਕੁਝ ਟੈਂਪਲੇਟ ਸ਼ਾਮਲ ਨਹੀਂ ਹੋਣਗੇ।
+post-expand-template-inclusion-category|ਓਹ ਪੰਨੇ ਜਿੱਥੇ ਟੈਂਪਲੇਟਾਂ ਦੇ ਸ਼ਾਮਲ ਕਰਨ ਦਾ ਅਕਾਰ ਹੱਦੋਂ ਵਧ ਗਿਆ ਹੈ
+post-expand-template-argument-warning|'''ਚੇਤਾਵਨੀ:'''\nਇਸ ਪੰਨੇ ਤੇ ਘੱਟੋ ਘੱਟ ਇੱਕ ਐਸੀ ਸਾਂਚਾ ਬਹਿਸ ਹੈ ਜਿਸ ਦਾ ਅਕਾਰ ਬਹੁਤ ਵੱਡਾ ਹੈ। ਅਜਿਹੀਆਂ ਬਹਿਸਾਂ ਨੂੰ ਛੱਡ ਦਿੱਤਾ ਗਿਆ ਹੈ।
+post-expand-template-argument-category|ਐਸੇ ਪੰਨੇ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਸਾਂਚੇ ਦੇ ਸਁਘਟਕ ਛੁੱਟ ਗਏ ਹਨ ।
+parser-template-loop-warning|ਸਾਂਚੇ ਦਾ ਲੂਪ ਲੱਭਿਆ: [[~{0}]]
+undo-success|ਇਹ ਸੋਧ ਨਕਾਰੀ ਜਾ ਸਕਦੀ ਹੈ।\nਮਿਹਰਬਾਨੀ ਕਰਕੇ ਇਹ ਤਸਦੀਕ ਕਰਨ ਲਈ ਹੇਠਲੀ ਤੁਲਨਾ ਜਾਂਚੋ ਕਿ ਇਹ ਓਹੀ ਹੈ ਜੋ ਤੁਸੀਂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਫਿਰ ਸੋਧ ਨਕਾਰਨ ਲਈ ਤਬਦੀਲੀਆਂ ਸਾਂਭ ਦਿਓ।
+undo-norev|ਸੋਧ ਨਕਾਰੀ ਨਹੀਂ ਜਾ ਸਕਦੀ ਕਿਉਂਕਿ ਇਹ ਮੌਜੂਦ ਨਹੀਂ ਜਾਂ ਮਿਟਾ ਦਿੱਤੀ ਗਈ ਹੈ।
+undo-summary|[[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Cਗੱਲ-ਬਾਤ]]) ਦੀ ਸੋਧ ~{0} ਨਕਾਰੀ
+cantcreateaccounttitle|ਖਾਤਾ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
+cantcreateaccount-text|[[User:~{2}\u007C~{2}]] ਨੇ ਇਸ IP ਪਤੇ ('''~{0}''') ਤੋਂ ਖਾਤਾ ਬਣਾਉਣ ਤੇ ਪਾਬੰਦੀ ਲਾਈ ਹੈ।\n\n~{2} ਨੇ ਕਾਰਨ ਇਹ ਦੱਸਿਆ ਹੈ, ''~{1}''
+viewpagelogs|ਇਹ ਸਫ਼ੇ ਲਈ ਲਾਗ ਵੇਖੋ
+nohistory|ਇਸ ਸਫ਼ੇ ਦਾ ਕੋਈ ਸੋਧ ਅਤੀਤ ਨਹੀਂ ਹੈ।
+currentrev|ਮੌਜੂਦਾ ਰੀਵਿਜ਼ਨ
+currentrev-asof|~{0} ਮੁਤਾਬਕ ਸਭ ਤੋਂ ਨਵਾਂ ਰੀਵਿਜਨ
+revisionasof|~{0} ਦਾ ਰੀਵਿਜਨ
+revision-info|~{1} ਦਾ ਬਣਾਇਆ ~{0} ਦਾ ਰੀਵਿਜਨ
+previousrevision|←ਪੁਰਾਣਾ ਰੀਵਿਜਨ
+nextrevision|ਨਵਾਂ ਰੀਵਿਜਨ →
+currentrevisionlink|ਸਭ ਤੋ ਨਵਾਂ ਰੀਵਿਜਨ
+cur|ਮੌਜੂਦਾ
+next|ਅੱਗੇ
+last|ਪਿੱਛੇ
+page_first|ਪਹਿਲਾਂ
+page_last|ਆਖਰੀ
+histlegend|ਫ਼ਰਕ ਵੇਖੋ:\nਮੁਕਾਬਲਾ ਕਰਨ ਲਈ ਰੀਵਿਜਨਾਂ ਦੇ ਰੇਡੀਓ ਬਟਨਾਂ ਵਿੱਚ ਨਿਸ਼ਾਨ ਲਾਓ ਅਤੇ "ਜਾਓ" ਜਾਂ ਸਭ ਤੋਂ ਥੱਲੇ ਵਾਲੇ ਬਟਨ ਤੇ ਕਲਿੱਕ ਕਰੋ। <br />\nਲੈਜਅੰਡ:\n'''({{int:cur}})''' = ਨਵੇਂ ਰੀਵਿਜਨ ਨਾਲੋਂ ਫ਼ਰਕ, '''({{int:last}})''' = ਪਿਛਲੇ ਰੀਵਿਜਨ ਨਾਲੋਂ ਫ਼ਰਕ, '''({{int:minoreditletter}})''' = ਛੋਟੀ ਤਬਦੀਲੀ।
+history-fieldset-title|ਬਰਾਊਜ਼ਰ ਅਤੀਤ
+history-show-deleted|ਕੇਵਲ ਹਟਾਏ ਗਏ
+histfirst|ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਦੇ
+histlast|ਸਭ ਤੋਂ ਨਵਾਂ
+historysize|({{PLURAL:~{0}\u007C1 ਬਾਈਟ\u007C~{0} ਬਾਈਟ}})
+historyempty|(ਖਾਲੀ)
+history-feed-title|ਰੀਵਿਜ਼ਨ ਅਤੀਤ
+history-feed-description|ਵਿਕੀ ’ਤੇ ਇਸ ਸਫ਼ੇ ਦਾ ਰੀਵਿਜ਼ਨ ਅਤੀਤ
+history-feed-item-nocomment|~{0} ਤੋਂ ~{1} ’ਤੇ
+history-feed-empty|ਦਰਖ਼ਾਸਤਸ਼ੁਦਾ ਸਫ਼ਾ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।\nਸ਼ਾਇਦ ਇਸਨੂੰ ਵਿਕੀ ਤੋਂ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ ਜਾਂ ਨਾਮ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ।\nਵਿਕੀ ਦੇ ਨਵੇਂ ਮੁਨਾਸਿਬ ਸਫ਼ਿਆਂ ਵਿਚ [[Special:Search\u007Cਲੱਭਣ]] ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+rev-deleted-comment|(ਸੋਧ ਸਾਰ ਹਟਾਇਆ)
+rev-deleted-user|(ਯੂਜ਼ਰ ਨਾਂ ਹਟਾਇਆ)
+rev-deleted-event|(ਲਾਗ ਕਾਰਵਾਈ ਹਟਾਈ ਗਈ)
+rev-deleted-user-contribs|[ਮੈਂਬਰ-ਨਾਂ ਜਾਂ IP ਪਤਾ ਹਟਾਇਆ - ਸੋਧ ਯੋਗਦਾਨਾਂ ਵਿਚੋਂ ਓਹਲੇ ਕੀਤੀ]
+rev-deleted-text-permission|ਸਫ਼ੇ ਦੀ ਇਹ ਰੀਵਿਜ਼ਨ '''ਮਿਟਾਈ''' ਜਾ ਚੁੱਕੀ ਹੈ।\nਤਫ਼ਸੀਲ [{{fullurl:{{#Special:Log}}/delete\u007C\npage={{FULLPAGENAMEE}}}} ਮਿਟਾਉਣ ਦੇ ਚਿੱਠੇ] ਵਿਚ ਵੇਖੀ ਜਾ ਸਕਦੀ ਹੈ।
+rev-deleted-text-unhide|ਸਫ਼ੇ ਦੀ ਇਹ ਰੀਵਿਜ਼ਨ '''ਮਿਟਾਈ''' ਜਾ ਚੁੱਕੀ ਹੈ।\nਤਫ਼ਸੀਲ [{{fullurl:{{#Special:Log}}/delete\u007C\npage={{FULLPAGENAMEE}}}} ਮਿਟਾਉਣ ਦੇ ਚਿੱਠੇ] ਵਿਚ ਵੇਖੀ ਜਾ ਸਕਦੀ ਹੈ।\nਜੇ ਤੁਸੀਂ ਅੱਗੇ ਵਧਣਾ ਚਾਹੋ ਤਾਂ ਹਾਲੇ ਵੀ [~{0} ਇਹ ਰੀਵਿਜ਼ਨ ਵੇਖ] ਸਕਦੇ ਹੋ।
+rev-deleted-no-diff|ਤੁਸੀਂ ਇਹ ਫ਼ਰਕ ਨਹੀਂ ਵੇਖ ਸਕਦੇ ਕਿਉਂਕਿ ਇਹਨਾਂ ਵਿੱਚੋਂ ਇੱਕ ਰੀਵਿਜ਼ਨ '''ਮਿਟਾਈ''' ਜਾ ਚੁੱਕੀ ਹੈ।\nਤਫ਼ਸੀਲ [{{fullurl:{{#Special:Log}}/delete\u007C\npage={{FULLPAGENAMEE}}}} ਮਿਟਾਉਣ ਦੇ ਚਿੱਠੇ] ਵਿਚ ਵੇਖੀ ਜਾ ਸਕਦੀ ਹੈ।
+rev-suppressed-no-diff|ਤੁਸੀਂ ਇਹ ਫ਼ਰਕ ਨਹੀਂ ਵੇਖ ਸਕਦੇ ਕਿਉਂਕਿ ਇਹਨਾਂ ਵਿੱਚੋਂ ਇੱਕ ਰੀਵਿਜ਼ਨ '''ਮਿਟਾਈ''' ਜਾ ਚੁੱਕੀ ਹੈ।
+rev-deleted-unhide-diff|ਇਸ ਫ਼ਰਕ ਵਿੱਚੋਂ ਇੱਕ ਰੀਵਿਜ਼ਨ '''ਮਿਟਾਈ''' ਜਾ ਚੁੱਕੀ ਹੈ।\nਤਫ਼ਸੀਲ [{{fullurl:{{#Special:Log}}/delete\u007C\npage={{FULLPAGENAMEE}}}} ਮਿਟਾਉਣ ਦੇ ਚਿੱਠੇ] ਵਿਚ ਵੇਖੀ ਜਾ ਸਕਦੀ ਹੈ।\nਜੇ ਤੁਸੀਂ ਅੱਗੇ ਵਧਣਾ ਚਾਹੋ ਤਾਂ ਹਾਲੇ ਵੀ [~{0} ਇਹ ਰੀਵਿਜ਼ਨ ਵੇਖ] ਸਕਦੇ ਹੋ।
+rev-suppressed-diff-view|ਇਸ ਫ਼ਰਕ ਵਿੱਚੋਂ ਇੱਕ ਰੀਵਿਜ਼ਨ '''ਜ਼ਬਤ''' ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ।\nਤਫ਼ਸੀਲ [{{fullurl:{{#Special:Log}}/delete\u007C\npage={{FULLPAGENAMEE}}}} ਜ਼ਬਤੀ ਦੇ ਚਿੱਠੇ] ਵਿਚ ਵੇਖੀ ਜਾ ਸਕਦੀ ਹੈ।
+rev-delundel|ਵੇਖਾਓ/ਓਹਲੇ
+rev-showdeleted|ਵੇਖਾਓ
+revisiondelete|ਰੀਵਿਜ਼ਨ ਹਟਾਓ/ਹਟਾਇਆ-ਵਾਪਸ
+revdelete-nooldid-title|ਕੋਈ ਟਾਰਗੇਟ ਰੀਵਿਜ਼ਨ ਨਹੀਂ
+revdelete-nologtype-title|ਚਿੱਠੇ ਦੀ ਕਿਸਮ ਨਹੀਂ ਦੱਸੀ ਗਈ
+revdelete-nologtype-text|ਇਹ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਤੁਸੀਂ ਚਿੱਠੇ ਦੀ ਕਿਸਮ ਨਹੀਂ ਦੱਸੀ।
+revdelete-no-file|ਦਿੱਤੀ ਗਈ ਫਾਇਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+revdelete-show-file-confirm|ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ ਤੁਸੀਂ ~{1} ਨੂੰ ~{2} ਦੀ ਫ਼ਾਈਲ "<nowiki>~{0}</nowiki>" ਦੀ ਮਿਟਾਈ ਗਈ ਰੀਵਿਜ਼ਨ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+revdelete-show-file-submit|ਹਾਂ
+revdelete-selected|'''[[:~{0}]] {{PLURAL:~{1}\u007Cਦੀ ਚੁਣੀ ਹੋਈ ਰੀਵਿਜ਼ਨ\u007Cਦੀਆਂ ਚੁਣੀਆਂ ਹੋਈਆਂ ਰੀਵਿਜ਼ਨਾਂ}}:'''
+revdelete-legend|ਵੇਖਣ ਪਾਬੰਦੀਆਂ ਸੈੱਟ ਕਰੋ:
+revdelete-hide-text|ਰੀਵਿਜ਼ਨ ਟੈਕਸਟ ਓਹਲੇ
+revdelete-hide-image|ਫਾਇਲ ਸਮੱਗਰੀ ਓਹਲੇ
+revdelete-hide-name|ਕਾਰਵਾਈ ਅਤੇ ਟਾਰਗੇਟ ਓਹਲੇ
+revdelete-hide-comment|ਸੋਧ ਸਾਰ ਓਹਲੇ
+revdelete-hide-user|ਸੋਧਣ ਵਾਲ਼ੇ ਦਾ ਮੈਂਬਰ-ਨਾਂ/IP ਪਤਾ ਲੁਕਾਓ
+revdelete-radio-same|(ਨਾ ਬਦਲੋ)
+revdelete-radio-set|ਹਾਂ
+revdelete-radio-unset|ਨਹੀਂ
+revdelete-unsuppress|ਮੁੜ ਬਹਾਲ ਕੀਤੀਆਂ ਰੀਵਿਜ਼ਨਾਂ ਤੋਂ ਰੋਕਾਂ ਹਟਾਓ
+revdelete-log|ਕਾਰਨ:
+revdelete-submit|ਚੁਣੇ ਰੀਵਿਜਨ ਉੱਤੇ ਲਾਗੂ ਕਰੋ
+logdelete-success|'''ਚਿੱਠੇ ਦੀ ਦਿੱਖ ਕਾਮਯਾਬੀ ਨਾਲ਼ ਸੈੱਟ ਕੀਤੀ।'''
+logdelete-failure|'''ਚਿੱਠੇ ਦੀ ਦਿੱਖ ਸੈੱਟ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ:''' ~{0}
+revdel-restore|ਦਿੱਖ ਬਦਲੋ
+revdel-restore-deleted|ਹਟਾਏ ਗਏ ਰੀਵੀਜਨ
+revdel-restore-visible|ਦਿਸਣਯੋਗ ਰੀਵੀਜਨ
+pagehist|ਸਫ਼ਾ ਅਤੀਤ
+deletedhist|ਹਟਾਇਆ ਗਿਆ ਅਤੀਤ
+revdelete-hide-current|ਤਾਰੀਖ &2, ~{0} ਦੀ ਚੀਜ਼ ਲੁਕਾਉਣ ਵਿਚ ਗਲਤੀ: ਇਹ ਮੌਜੂਦਾ ਰੀਵਿਜ਼ਨ ਹੈ।\nਇਹ ਲੁਕਾਈ ਨਹੀਂ ਜਾ ਸਕਦੀ।
+revdelete-otherreason|ਹੋਰ/ਵਾਧੂ ਕਾਰਨ:
+revdelete-reasonotherlist|ਹੋਰ ਕਾਰਨ
+revdelete-edit-reasonlist|ਮਿਟਾਏ ਜਾਣ ਦੇ ਕਾਰਨ ਸੋਧੋ
+revdelete-offender|ਰੀਵਿਜ਼ਨ ਲੇਖਕ:
+mergehistory|ਸਫ਼ਿਆਂ ਦੇ ਅਤੀਤ ਰਲ਼ਾਓ
+mergehistory-from|ਸਰੋਤ ਸਫ਼ਾ:
+mergehistory-list|ਰਲ਼ਾਉਣਯੋਗ ਸੋਧ ਅਤੀਤ
+mergehistory-go|ਰਲ਼ਾਉਣਯੋਗ ਸੋਧਾਂ ਵਖਾਓ
+mergehistory-submit|ਰੀਵਿਜ਼ਨਾਂ ਰਲ਼ਾਓ
+mergehistory-empty|ਕੋਈ ਰੀਵਿਜ਼ਨ ਰਲ਼ਾਈ ਨਹੀ ਜਾ ਸਕਦੀ।
+mergehistory-success|[[:~{0}]] {{PLURAL:\u007Cਦੀ\u007Cਦੀਆਂ}} ~{2} {{PLURAL:~{2}\u007Cਰੀਵਿਜ਼ਨ\u007Cਰੀਵਿਜ਼ਨਾਂ}} ਕਾਮਯਾਬੀ ਨਾਲ਼ [[:~{1}]] ਵਿਚ {{PLURAL:~{2}\u007Cਰਲ਼ਾਈ\u007Cਰਲ਼ਾਈਆਂ}}।
+mergehistory-no-source|ਸਰੋਤ ਸਫ਼ਾ ~{0} ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+mergehistory-autocomment|[[:~{0}]] ਨੂੰ [[:~{1}]] ਵਿੱਚ ਰਲ਼ਾਇਆ
+mergehistory-comment|[[:~{0}]] ਨੂੰ [[:~{1}]] ਵਿੱਚ ਰਲ਼ਾਇਆ: ~{2}
+mergehistory-same-destination|ਸਰੋਤ ਸਫ਼ਾ ਅਤੇ ਮੰਜ਼ਿਲ ਸਫ਼ਾ ਇੱਕੋ ਜਿਹੇ ਨਹੀਂ ਹੋ ਸਕਦੇ
+mergehistory-reason|ਕਾਰਨ:
+mergelog|ਰਲ਼ਾਉਣ ਦਾ ਚਿੱਠਾ
+pagemerge-logentry|[[~{0}]] ਨੂੰ [[~{1}]] ਵਿੱਚ ਰਲ਼ਾਇਆ (~{2} ਤੱਕ ਦੀਆ ਰੀਵਿਜ਼ਨਾਂ)
+revertmerge|ਅਨ-ਮਰਜ
+mergelogpagetext|ਹੇਠਾਂ ਇੱਕ ਸਫ਼ੇ ਦੇ ਅਤੀਤ ਨੂੰ ਦੂਜੇ ਦੇ ਅਤੀਤ ਵਿਚ ਰਲ਼ਾਉਣ ਦੀ ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਲਿਸਟ ਹੈ।
+history-title|"~{0}" ਦੇ ਰੀਵਿਜਨ ਦਾ ਅਤੀਤ
+difference-title|"~{0}" ਦੇ ਰੀਵਿਜ਼ਨਾਂ ਵਿਚ ਫ਼ਰਕ
+difference-title-multipage|ਸਫ਼ਿਆਂ "~{0}" ਅਤੇ "~{1}" ਵਿਚ ਫ਼ਰਕ
+difference-multipage|(ਦੋ ਸਫ਼ਿਆਂ ਵਿਚਕਾਰ ਫ਼ਰਕ)
+lineno|ਲਾਈਨ ~{0}:
+compareselectedversions|ਚੁਣੇ ਵਰਜਨਾਂ ਦੀ ਤੁਲਨਾ
+showhideselectedversions|ਚੁਣੇ ਰੀਵਿਜ਼ਨ ਵਖਾਓ/ਲੁਕਾਓ
+editundo|ਵਾਪਸ
+diff-multi|({{PLURAL:~{1}\u007Cਵਰਤੋਂਕਾਰ ਦੀ\u007C~{1} ਵਰਤੋਂਕਾਰਾਂ ਦੀਆਂ}} {{PLURAL:~{0}\u007Cਵਿਚਕਾਰਲੀ ਰੀਵਿਜਨ ਨਹੀਂ ਦਿਖਾਈ ਜਾ ਰਹੀ\u007Cਵਿਚਕਾਰਲੀਆਂ ~{0} ਰੀਵਿਜਨਾਂ ਨਹੀਂ ਦਿਖਾਈਆਂ ਜਾ ਰਹੀਆਂ}})
+searchresults|ਖੋਜ ਨਤੀਜੇ
+searchresults-title|"~{0}" ਲਈ ਖੋਜ ਨਤੀਜੇ
+searchresulttext|{{SITENAME}} ਖੋਜ ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਵੋ, ਵੇਖੋ [[{{MediaWiki:Helppage}}\u007C{{int:help}}]].
+searchsubtitle|ਤੁਸੀਂ '''[[:~{0}]]''' ਲਈ ਖੋਜ ਕੀਤੀ ([[Special:Prefixindex/~{0}\u007C"~{0}" ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੇ ਸਭ ਸਫ਼ੇ]]{{int:pipe-separator}}[[Special:WhatLinksHere/~{0}\u007C"~{0}" ਨਾਲ ਲਿੰਕ ਹੋਏ ਸਭ ਸਫ਼ੇ]])
+searchsubtitleinvalid|ਤੁਸੀਂ'''~{0}''' ਲਈ ਖੋਜ ਕੀਤੀ।
+titlematches|ਆਰਟੀਕਲ ਟੈਕਸਟ ਮਿਲਦਾ
+notitlematches|ਕੋਈ ਪੇਜ ਟਾਇਟਲ ਨਹੀਂ ਮਿਲਦਾ
+textmatches|ਸਫ਼ਾ ਟੈਕਸਟ ਮਿਲਦਾ
+notextmatches|ਕੋਈ ਪੇਜ ਟੈਕਸਟ ਨਹੀਂ ਮਿਲਦਾ
+prevn-title|ਪਿਛਲੇ ~{0} {{PLURAL:~{0}\u007Cਨਤੀਜਾ\u007Cਨਤੀਜੇ}}
+nextn-title|ਅਗਲੇ ~{0} {{PLURAL:~{0}\u007Cਨਤੀਜਾ\u007Cਨਤੀਜੇ}}
+shown-title|ਪ੍ਰਤੀ ਪੰਨਾ ~{0} {{PLURAL:~{0}\u007Cਨਤੀਜਾ\u007Cਨਤੀਜੇ}} ਵਖਾਓ
+viewprevnext|ਵੇਖੋ (~{0} {{int:pipe-separator}} ~{1}) (~{2})
+searchmenu-legend|ਖੋਜ ਚੋਣਾਂ
+searchmenu-exists|'''ਇਸ ਵਿਕੀ ’ਤੇ "[[:$1]]" ਨਾਮ ਦਾ ਸਫਾ ਹੈ।'''
+searchmenu-new|'''ਇਸ ਵਿਕੀ ’ਤੇ "[[:$1]]" ਪੰਨਾ ਬਣਾਓ!'''
+searchmenu-prefix|[[Special:PrefixIndex/~{0}\u007Cਇਸ ਅਗੇਤਰ ਵਾਲ਼ੇ ਸਫ਼ੇ ਵੇਖੋ]]
+searchprofile-articles|ਸਮੱਗਰੀ ਪੰਨੇ
+searchprofile-project|ਮੱਦਦ ਤੇ ਪਰੋਜੈਕਟ ਸਫ਼ੇ
+searchprofile-images|ਮਲਟੀਮੀਡੀਆ
+searchprofile-everything|ਸਭ ਕੁਝ
+searchprofile-advanced|ਤਕਨੀਕੀ
+searchprofile-articles-tooltip|~{0} ਵਿੱਚ ਖੋਜ
+searchprofile-project-tooltip|~{0} ਵਿੱਚ ਖੋਜ
+searchprofile-images-tooltip|ਫਾਇਲ ਦੀ ਖੋਜ
+searchprofile-everything-tooltip|ਸਭ ਚੀਜ਼ਾਂ ਖੋਜੋ (ਚਰਚਾ ਪੰਨਿਆਂ ਸਮੇਤ)
+searchprofile-advanced-tooltip|ਆਪਣੇ ਬਣਾਏ ਨਾਮ-ਥਾਂਵਾਂ ਵਿੱਚ ਖੋਜੋ
+search-result-size|~{0} ({{PLURAL:~{1}\u007C1 ਸ਼ਬਦ\u007C~{1} ਸ਼ਬਦ}})
+search-result-category-size|{{PLURAL:~{0}\u007C1 ਮੈਂਬਰ\u007C~{0} ਮੈਂਬਰ}} ({{PLURAL:~{1}\u007C1 ਉਪਸ਼੍ਰੇਣੀ\u007C~{1} ਉਪਸ਼੍ਰੇਣੀਆਂ}}, {{PLURAL:~{2}\u007C1 ਫ਼ਾਈਲ\u007C~{2} ਫ਼ਾਈਲਾਂ}})
+search-result-score|ਸਹੀ: ~{0}%
+search-redirect|(~{0} ਰੀਡਿਰੈਕਟ)
+search-section|(ਭਾਗ ~{0})
+search-suggest|ਕੀ ਤੁਹਾਡਾ ਮਤਲਬ ਸੀ: ~{0}
+search-interwiki-caption|ਸਾਥੀ ਪ੍ਰੋਜੈਕਟ
+search-interwiki-default|~{0} ਨਤੀਜੇ:
+search-interwiki-more|(ਹੋਰ)
+search-relatedarticle|ਸਬੰਧਿਤ
+mwsuggest-disable|AJAX ਸਲਾਹਾਂ ਬੰਦ ਕਰੋ
+searcheverything-enable|ਸਾਰੇ ਥਾਂ-ਨਾਂਵਾਂ ਵਿਚ ਖੋਜੋ
+searchrelated|ਸਬੰਧਿਤ
+searchall|ਸਭ
+showingresults|ਹੇਠਾਂ #'''~{1}''' ਨਾਲ਼ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੇ {{PLURAL:\n~{0}\u007C'''1''' ਨਤੀਜਾ\u007C'''~{0}''' ਤੱਕ ਨਤੀਜੇ}} ਵਖਾਓ।
+showingresultsnum|ਹੇਠਾਂ #'''~{1}''' ਨਾਲ਼ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੇ {{PLURAL:\n~{2}\u007C'''1''' ਨਤੀਜਾ\u007C'''~{2}''' ਨਤੀਜੇ}} ਵਖਾਓ।
+search-nonefound|ਤੁਹਾਡੀ ਖੋਜ ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ।
+powersearch|ਤਕਨੀਕੀ ਖੋਜ
+powersearch-legend|ਤਕਨੀਕੀ ਖੋਜ
+powersearch-ns|ਨੇਮ-ਸਪੇਸ ਵਿੱਚ ਖੋਜ:
+powersearch-redir|ਰੀ-ਡਿਰੈਕਟ ਲਿਸਟ
+powersearch-field|ਇਸ ਲਈ ਖੋਜ
+powersearch-togglelabel|ਜਾਂਚੋ:
+powersearch-toggleall|ਸਭ
+powersearch-togglenone|ਕੋਈ ਨਹੀਂ
+search-external|ਬਾਹਰੀ ਖੋਜ
+preferences|ਮੇਰੀ ਪਸੰਦ
+mypreferences|ਪਸੰਦ
+prefs-edits|ਸੋਧਾਂ ਦੀ ਗਿਣਤੀ:
+prefsnologin|ਲਾਗਇਨ ਨਹੀਂ
+prefsnologintext|ਵਰਤੋਂਕਾਰ ਪਸੰਦਾਂ ਸੈੱਟ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ <span class="plainlinks">[{{fullurl:{{#Special:UserLogin}}\u007Creturnto=~{0}}} ਲਾਗਇਨ]</span> ਕਰਨਾ ਪਵੇਗਾ।
+changepassword|ਪਾਸਵਰਡ ਬਦਲੋ
+prefs-skin|ਸਕਿਨ
+skin-preview|ਝਲਕ
+datedefault|ਕੋਈ ਪਸੰਦ ਨਹੀਂ
+prefs-beta|ਬੀਟਾ ਫੀਚਰ
+prefs-datetime|ਮਿਤੀ ਅਤੇ ਸਮਾਂ
+prefs-labs|ਲੈਬ ਫੀਚਰ
+prefs-user-pages|ਯੂਜ਼ਰ ਸਫ਼ੇ
+prefs-personal|ਯੂਜ਼ਰ ਪਰੋਫਾਇਲ
+prefs-rc|ਤਾਜ਼ਾ ਬਦਲਾਅ
+prefs-watchlist|ਨਿਗਰਾਨ-ਸੂਚੀ
+prefs-watchlist-days|ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚ ਦਿਖਾਉਣ ਲਈ ਦਿਨ:
+prefs-watchlist-days-max|ਵੱਧ ਤੋਂ ਵੱਧ ~{0} {{PLURAL:~{0}\u007Cਦਿਨ\u007Cਦਿਨ}}
+prefs-watchlist-edits|ਵਧਾਈ ਹੋਈ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚ ਦਿਖਾਉਣ ਲਈ ਵੱਧ ਤੋਂ ਵੱਧ ਤਬਦੀਲੀਆਂ:
+prefs-watchlist-edits-max|ਵੱਧ ਤੋਂ ਵੱਧ ਨੰਬਰ: ੧੦੦੦
+prefs-watchlist-token|ਨਿਗਰਾਨੀ-ਲਿਸਟ ਟੋਕਨ:
+prefs-misc|ਫੁਟਕਲ
+prefs-resetpass|ਪਾਸਵਰਡ ਬਦਲੋ
+prefs-changeemail|ਈ-ਮੇਲ ਪਤਾ ਬਦਲੋ
+prefs-setemail|ਈ-ਮੇਲ ਪਤਾ ਸੈੱਟ ਕਰੋ
+prefs-email|ਈਮੇਲ ਚੋਣਾਂ
+prefs-rendering|ਦਿੱਖ
+saveprefs|ਸੰਭਾਲੋ
+resetprefs|ਰੀ-ਸੈੱਟ
+restoreprefs|ਸਭ ਮੂਲ ਸੈਟਿੰਗ ਮੁੜ-ਸਟੋਰ ਕਰੋ
+prefs-editing|ਸੋਧ ਜਾਰੀ
+rows|ਕਤਾਰਾਂ:
+columns|ਕਾਲਮ:
+searchresultshead|ਖੋਜ
+resultsperpage|ਪ੍ਰਤੀ ਪੇਜ ਹਿੱਟ:
+stub-threshold-disabled|ਬੰਦ ਹੈ
+recentchangesdays|ਤਾਜ਼ਾ ਤਬਦੀਲੀਆਂ ਵਿਚ ਦਿਖਾਉਣ ਲਈ ਦਿਨ:
+recentchangesdays-max|ਵੱਧ ਤੋਂ ਵੱਧ ~{0} {{PLURAL:~{0}\u007Cਦਿਨ\u007Cਦਿਨ}}
+prefs-help-recentchangescount|ਇਸ ਵਿਚ ਤਾਜ਼ਾ ਤਬਦੀਲੀਆਂ, ਸਫ਼ਿਆਂ ਦੇ ਅਤੀਤ ਅਤੇ ਚਿੱਠੇ ਸ਼ਾਮਲ ਹਨ।
+savedprefs|ਤੁਹਾਡੀ ਪਸੰਦ ਸੰਭਾਲੀ ਗਈ ਹੈ।
+timezonelegend|ਸਮਾਂ ਖੇਤਰ:
+localtime|ਲੋਕਲ ਸਮਾਂ:
+timezoneuseserverdefault|ਸਰਵਰ ਡਿਫਾਲਟ ਵਰਤੋਂ
+servertime|ਸਰਵਰ ਦਾ ਟਾਈਮ:
+guesstimezone|ਬਰਾਊਜ਼ਰ ਤੋਂ ਭਰੋ
+timezoneregion-africa|ਅਫ਼ਰੀਕਾ
+timezoneregion-america|ਅਮਰੀਕਾ
+timezoneregion-antarctica|ਅੰਟਾਰਕਟਿਕਾ
+timezoneregion-arctic|ਆਰਕਟਿਕ
+timezoneregion-asia|ਏਸ਼ੀਆ
+timezoneregion-atlantic|ਅੰਧ ਮਹਾਂਸਾਗਰ
+timezoneregion-australia|ਆਸਟਰੇਲੀਆ
+timezoneregion-europe|ਯੂਰਪ
+timezoneregion-indian|ਹਿੰਦ ਮਹਾਂਸਾਗਰ
+timezoneregion-pacific|ਪ੍ਰਸ਼ਾਂਤ ਮਹਾਂਸਾਗਰ
+allowemail|ਹੋਰ ਯੂਜ਼ਰਾਂ ਤੋਂ ਈਮੇਲ ਯੋਗ ਕਰੋ
+prefs-searchoptions|ਖੋਜ
+prefs-namespaces|ਥਾਂ-ਨਾਮ
+defaultns|ਨਹੀਂ ਤਾਂ ਇਹਨਾਂ ਥਾਂ-ਨਾਂਵਾਂ ਵਿਚ ਖੋਜੋ:
+default|ਮੂਲ
+prefs-files|ਫਾਇਲਾਂ
+prefs-emailconfirm-label|ਈ-ਮੇਲ ਪੁਸ਼ਟੀ:
+youremail|ਈ-ਮੇਲ:
+username|{{GENDER:~{0}\u007Cਯੂਜ਼ਰਨਾਂ}}:
+uid|{{GENDER:~{0}\u007CUser}} ਆਈਡੀ:
+prefs-memberingroups|{{PLURAL:~{0}\u007Cਗਰੁੱਪ\u007Cਗਰੁੱਪਾਂ}} ਦਾ ਮੈਂਬਰ:
+prefs-registration|ਰਜਿਸਟਰੇਸ਼ਨ ਸਮਾਂ:
+yourrealname|ਅਸਲੀ ਨਾਮ:
+yourlanguage|ਭਾਸ਼ਾ:
+yourvariant|ਸਮੱਗਰੀ ਭਾਸ਼ਾ ਰੂਪ:
+yournick|ਨਵੇਂ ਦਸਤਖ਼ਤ:
+prefs-help-signature|ਗੱਲ-ਬਾਤ ਸਫ਼ਿਆਂ ਉੱਤੇ ਟਿੱਪਣੀਆਂ ਦੇ ਆਖ਼ਰ ਵਿਚ "<nowiki>~~~~</nowiki>" ਲਾਓ ਜੋ ਤੁਹਾਡੇ ਦਸਤਖ਼ਤ ਅਤੇ ਵਕਤ ਦੀ ਮੋਹਰ ਵਿਚ ਤਬਦੀਲ ਹੋ ਜਾਵੇਗਾ।
+badsiglength|ਦਸਤਖ਼ਤ ਬਹੁਤ ਲੰਬਾ ਹੋ ਗਿਆ ਹੈ। ਇਹ {{PLURAL:~{0}\u007Cਅੱਖਰ\u007Cਅੱਖਰਾਂ}} ਤੋਂ ਲੰਬਾ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ।
+yourgender|ਲਿੰਗ:
+gender-unknown|ਜ਼ਾਹਿਰ ਨਹੀਂ ਕੀਤਾ
+gender-male|ਮਰਦ
+gender-female|ਔਰਤ
+email|ਈਮੇਲ
+prefs-help-realname|ਅਸਲੀ ਨਾਂ ਚੋਣਵਾਂ ਹੈ, ਅਤੇ ਜੇ ਤੁਸੀਂ ਇਹ ਦਿੱਤਾ ਹੈ ਤਾਂ ਤੁਹਾਡੇ ਕੰਮ ਵਾਸਤੇ ਗੁਣ ਦੇ ਤੌਰ ਉੱਤੇ ਵਰਤਿਆ ਜਾਵੇਗਾ।
+prefs-help-email|ਤੁਹਾਡੀ ਮਰਜੀ ਹੈ ਈਮੇਲ ਪਤਾ ਦਿਓ ਜਾਂ ਨਾ ਦਿਓ ਪਰ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਣ ਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਹਾਸਲ ਕਰਨ ਲਈ ਇਹ ਜਰੂਰੀ ਹੈ।
+prefs-help-email-others|ਤੁਸੀਂ ਇਹ ਵੀ ਚੁਣ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡੇ ਵਰਤੋਂਕਾਰ ਜਾਂ ਚਰਚਾ ਪੰਨੇ ਤੋਂ ਹੋਰ ਵਰਤੋਂਕਾਰ ਤੁਹਾਨੂੰ ਈ-ਮੇਲ ਭੇਜ ਸਕਣ?\nਜਦੋਂ ਹੋਰ ਵਰਤੋਂਕਾਰ ਤੁਹਾਨੂੰ ਈ-ਮੇਲ ਭੇਜਦੇ ਹਨ ਤਾਂ ਤੁਹਾਡਾ ਈ-ਮੇਲ ਪਤਾ ਜ਼ਾਹਰ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ।
+prefs-help-email-required|ਈ-ਮੇਲ ਪਤਾ ਚਾਹੀਦਾ ਹੈ।
+prefs-info|ਮੁੱਢਲੀ ਜਾਣਕਾਰੀ
+prefs-i18n|ਅੰਤਰਰਾਸ਼ਟਰੀਕਰਨ
+prefs-signature|ਦਸਤਖ਼ਤ
+prefs-dateformat|ਮਿਤੀ ਦਾ ਅੰਦਾਜ਼
+prefs-advancedediting|ਤਕਨੀਕੀ ਚੋਣਾਂ
+prefs-advancedrc|ਤਕਨੀਕੀ ਚੋਣਾਂ
+prefs-advancedrendering|ਤਕਨੀਕੀ ਚੋਣਾਂ
+prefs-advancedsearchoptions|ਤਕਨੀਕੀ ਚੋਣਾਂ
+prefs-advancedwatchlist|ਤਕਨੀਕੀ ਚੋਣਾਂ
+prefs-displayrc|ਵੇਖਾਉਣ ਚੋਣਾਂ
+prefs-displaysearchoptions|ਵੇਖਾਉਣ ਚੋਣਾਂ
+prefs-displaywatchlist|ਵੇਖਾਉਣ ਚੋਣਾਂ
+prefs-diffs|ਫ਼ਰਕ
+email-address-validity-valid|ਈ-ਮੇਲ ਪਤਾ ਸਹੀ ਲਗਦਾ ਹੈ
+email-address-validity-invalid|ਸਹੀ ਈ-ਮੇਲ ਪਤਾ ਦਾਖ਼ਲ ਕਰੋ
+userrights|ਵਰਤੋਂਕਾਰ ਦੇ ਅਧਿਕਾਰਾਂ ਦਾ ਰੱਖ-ਰਖਾਓ
+userrights-lookup-user|ਯੂਜ਼ਰ ਗਰੁੱਪ ਦੇਖਭਾਲ
+userrights-user-editname|ਇੱਕ ਯੂਜ਼ਰ ਨਾਂ ਦਿਓ:
+editusergroup|ਯੂਜ਼ਰ ਗਰੁੱਪ ਸੋਧ
+editinguser|'''[[User:~{0}\u007C~{0}]]''' ~{1} ਯੂਜ਼ਰ ਦੇ ਯੂਜ਼ਰ ਹੱਕ ਬਦਲੇ ਜਾ ਰਹੇ ਹਨ
+userrights-editusergroup|ਯੂਜ਼ਰ ਗਰੁੱਪ ਸੋਧ
+saveusergroups|ਯੂਜ਼ਰ ਗਰੁੱਪ ਸੰਭਾਲੋ
+userrights-groupsmember|ਇਸ ਦਾ ਮੈਂਬਰ:
+userrights-reason|ਕਾਰਨ:
+userrights-no-interwiki|ਤੁਹਾਨੂੰ ਦੂਜੇ ਵਿਕੀਆਂ ਤੇ ਮੈਂਬਰਾਂ ਦੇ ਹੱਕਾਂ ਵਿਚ ਤਬਦੀਲੀ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+userrights-nodatabase|ਡੈਟਾਬੇਸ ~{0} ਮੌਜੂਦ ਨਹੀਂ ਜਾਂ ਮਕਾਮੀ ਨਹੀਂ ਹੈ।
+userrights-notallowed|ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਮੈਂਬਰ ਨੂੰ ਹੱਕ ਦੇਣ ਜਾਂ ਖੋਹਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+group|ਗਰੁੱਪ:
+group-user|ਵਰਤੋਂਕਾਰ
+group-autoconfirmed|ਖ਼ੁਦ-ਤਸਦੀਕਸ਼ੁਦਾ ਮੈਂਬਰ
+group-bot|ਬੋਟ
+group-sysop|ਪਰਸ਼ਾਸ਼ਕ
+group-all|(ਸਭ)
+group-user-member|{{GENDER:~{0}\u007Cਵਰਤੋਂਕਾਰ}}
+group-bot-member|ਬੋਟ
+grouppage-user|{{ns:project}}:ਵਰਤੋਂਕਾਰ
+right-read|ਸਫ਼ੇ ਪੜ੍ਹਨਾ
+right-edit|ਸਫ਼ੇ ਸੋਧ
+right-createpage|ਸਫ਼ੇ ਬਣਾਉਣਾ (ਜੋ ਚਰਚਾ ਸਫ਼ੇ ਨਾ ਹੋਣ)
+right-createtalk|ਚਰਚਾ ਸਫ਼ੇ ਬਣਾਉਣਾ
+right-createaccount|ਨਵੇਂ ਖਾਤੇ ਬਣਾਉਣਾ
+right-minoredit|ਸੋਧਾਂ ਦੇ ਛੋਟਾ ਹੋਣ ਲਈ ਨਿਸ਼ਾਨ ਲਾਉਣਾ
+right-move|ਸਫ਼ੇ ਭੇਜਣਾ
+right-movefile|ਫਾਇਲਾਂ ਭੇਜਣੀਆਂ
+right-upload|ਫਾਇਲਾਂ ਅੱਪਲੋਡ
+right-upload_by_url|URL ਤੋਂ ਫਾਇਲਾਂ ਅੱਪਲੋਡ ਕਰੋ
+right-autoconfirmed|ਨੀਮ-ਸੁਰੱਖਿਅਤ ਸਫ਼ਿਆਂ ਨੂੰ ਸੋਧਣਾ
+right-delete|ਸਫ਼ੇ ਹਟਾਓ
+right-bigdelete|ਵੱਡੇ ਅਤੀਤ ਵਾਲੇ ਪੰਨੇ ਮਿਟਾਉਣੇ
+right-browsearchive|ਮਿਟਾਏ ਹੋਏ ਸਫ਼ੇ ਖੋਜੋ
+right-undelete|ਸਫ਼ੇ ਨੂੰ ਅਣ-ਮਿਟਾਇਆ ਕਰਨਾ
+right-suppressionlog|ਪ੍ਰਾਈਵੇਟ ਚਿੱਠੇ ਵੇਖਣਾ
+right-block|ਦੂਜੇ ਮੈਂਬਰਾਂ ਦੇ ਸੋਧ ਕਰਨ ਤੇ ਪਾਬੰਦੀ ਲਾਉਣੀ
+right-blockemail|ਮੈਂਬਰ ਦੇ ਈ-ਮੇਲ ਭੇਜਣ ਤੇ ਪਾਬੰਦੀ ਲਾਉਣੀ
+right-hideuser|ਮੈਂਬਰ-ਨਾਂ ਤੇ ਪਾਬੰਦੀ ਲਾਉਣੀ ਅਤੇ ਇਸਨੂੰ ਲੋਕਾਂ ਤੋਂ ਲੁਕਾਉਣਾ
+right-unwatchedpages|ਨਜ਼ਰ ਨਾ ਰੱਖੇ ਜਾ ਰਹੇ ਸਫ਼ਿਆਂ ਦੀ ਲਿਸਟ ਵੇਖਣੀ
+right-mergehistory|ਸਫ਼ਿਆਂ ਦੇ ਅਤੀਤਾਂ ਨੂੰ ਰਲ਼ਾਉਣਾ
+right-userrights|ਸਾਰੇ ਮੈਂਬਰ ਹੱਕਾਂ ਵਿਚ ਸੋਧ ਕਰਨਾ
+right-userrights-interwiki|ਦੂਜੇ ਵਿਕੀਆਂ ਤੇ ਮੈਂਬਰਾਂ ਦੇ ਮੈਂਬਰ ਹੱਕਾਂ ਵਿਚ ਸੋਧ ਕਰਨਾ
+right-siteadmin|ਡੈਟਾਬੇਸ ਨੂੰ ਤਾਲਾ ਲਾਉਣਾ ਤੇ ਖੋਲ੍ਹਣਾ
+right-sendemail|ਦੂਜੇ ਮੈਂਬਰਾਂ ਨੂੰ ਈ-ਮੇਲ ਭੇਜਣਾ
+right-passwordreset|ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਈਮੇਲ ਵੇਖੋ
+newuserlogpage|ਬਣਾਏ ਖਾਤਿਆਂ ਦਾ ਚਿੱਠਾ
+newuserlogpagetext|ਇਹ ਬਣੇ ਮੈਂਬਰਾਂ ਦਾ ਚਿੱਠਾ ਹੈ।
+rightslog|ਮੈਂਬਰ ਹੱਕਾਂ ਦਾ ਚਿੱਠਾ
+rightslogtext|ਇਹ ਮੈਂਬਰ ਹੱਕਾਂ ਵਿਚ ਹੋਈਆਂ ਤਬਦੀਲੀਆਂ ਦਾ ਚਿੱਠਾ ਹੈ।
+action-read|ਇਹ ਸਫ਼ਾ ਪੜ੍ਹੋ
+action-edit|ਇਹ ਪੰਨੇ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰਨ
+action-createpage|ਸਫ਼ੇ ਬਣਾਓ
+action-createtalk|ਚਰਚਾ ਸਫ਼ੇ ਬਣਾਉਣ
+action-createaccount|ਇਹ ਵਰਤੋਂਕਾਰ ਖਾਤਾ ਬਣਾਓ
+action-minoredit|ਇਹ ਸੋਧ ਨੂੰ ਛੋਟੀ ਤੌਰ ਉੱਤੇ ਮੰਨੋ
+action-move|ਇਹ ਸਫ਼ਾ ਭੇਜੋ
+action-move-subpages|ਇਹ ਸਫ਼ਾ ਤੇ ਇਸ ਦੇ ਅਧੀਨ-ਸਫ਼ਿਆਂ ਨੂੰ ਭੇਜੋ
+action-movefile|ਇਹ ਫਾਇਲ ਭੇਜੋ
+action-upload|ਇਹ ਫਾਇਲ ਅੱਪਲੋਡ
+action-reupload|ਇਹ ਮੌਜੂਦਾ ਫਾਇਲ ਉੱਤੇ ਲਿਖੋ
+action-reupload-shared|ਇਹ ਫਾਇਲ ਨੂੰ ਸਾਂਝੀ ਕੀਤੀ ਰਿਪੋਜ਼ਟਰੀ ਉੱਤੇ ਲਿਖੋ
+action-upload_by_url|ਇਹ ਫਾਇਲ ਨੂੰ URL ਤੋਂ ਅੱਪਲੋਡ ਕਰੋ
+action-writeapi|ਲਿਖਣ API ਵਰਤੋਂ
+action-delete|ਇਹ ਪੰਨਾ ਮਿਟਾਓ
+action-deleterevision|ਇਹ ਰੀਵਿਜਨ ਮਿਟਾਓ
+action-deletedhistory|ਇਸ ਸਫ਼ੇ ਦਾ ਮਿਟਾਇਆ ਅਤੀਤ ਵੇਖਣ
+action-browsearchive|ਮਿਟਾਏ ਸਫ਼ੇ ਖੋਜਣ
+action-undelete|ਇਹ ਸਫ਼ਾ ਅਣ-ਮਿਟਿਆ ਕਰਨ
+action-suppressrevision|ਇਹ ਲੁਕਵਾਂ ਰੀਵਿਜ਼ਨ ਜਾਂਚੋ ਅਤੇ ਮੁੜ-ਸਟੋਰ ਕਰੋ
+action-suppressionlog|ਇਹ ਪ੍ਰਾਈਵੇਟ ਲਾਗ ਵੇਖੋ
+action-block|ਇਸ ਮੈਂਬਰ ਦੇ ਸੋਧ ਕਰਨ ਤੇ ਪਾਬੰਦੀ ਲਾਉਣ
+action-protect|ਇਸ ਸਫ਼ੇ ਦੀ ਸੁਰੱਖਿਆ ਬਦਲਣ
+action-import|ਹੋਰ ਵਿਕਿ ਤੋਂ ਇਹ ਸਫ਼ਾ ਇੰਪੋਰਟ ਕਰੋ
+action-importupload|ਫਾਇਲ ਅੱਪਲੋਡ ਤੋਂ ਇਹ ਸਫ਼ਾ ਇੰਪੋਰਟ ਕਰੋ
+action-unwatchedpages|ਨਜ਼ਰ ਨਾ ਰੱਖੇ ਜਾ ਰਹੇ ਸਫ਼ਿਆਂ ਦੀ ਲਿਸਟ ਵੇਖਣ
+action-mergehistory|ਇਸ ਸਫ਼ੇ ਦੇ ਅਤੀਤ ਨੂੰ ਰਲ਼ਾਉਣ
+action-userrights|ਸਾਰੇ ਮੈਂਬਰ ਹੱਕ ਸੋਧਣ
+action-userrights-interwiki|ਦੂਜੇ ਵਿਕੀਆਂ ਤੇ ਮੈਂਬਰਾਂ ਦੇ ਮੈਂਬਰ ਹੱਕ ਸੋਧਣ
+action-siteadmin|ਡੈਟਾਬੇਸ ਨੂੰ ਤਾਲਾ ਲਾਉਣ ਜਾਂ ਖੋਲ੍ਹਣ
+action-sendemail|ਈ-ਮੇਲਾਂ ਭੇਜੋ
+nchanges|~{0} {{PLURAL:~{0}\u007Cਤਬਦੀਲੀ\u007Cਤਬਦੀਲੀਆਂ}}
+recentchanges|ਹਾਲ ’ਚ ਹੋਈਆਂ ਤਬਦੀਲੀਆਂ
+recentchanges-legend|ਹਾਲ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸਬੰਧੀ ਚੋਣਾਂ
+recentchanges-summary|ਇਸ ਵਿਕੀ ’ਤੇ ਹੋਈਆਂ ਸਭ ਤੋਂ ਨਵੀਆਂ ਤਬਦੀਲੀਆਂ ਇਸ ਸਫ਼ੇ ’ਤੇ ਵੇਖੋ।
+recentchanges-feed-description|ਇਸ ਵਿਕੀ ’ਤੇ ਹਾਲ ‘ਚ ਹੋਈਆਂ ਤਬਦੀਲੀਆਂ ਇਸ ਫ਼ੀਡ ’ਚ ਵੇਖੀਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ।
+recentchanges-label-newpage|ਇਸ ਸੋਧ ਨੇ ਨਵਾਂ ਪੰਨਾ ਬਣਾਇਆ ਹੈ
+recentchanges-label-minor|ਇਹ ਇੱਕ ਛੋਟੀ ਸੋਧ ਹੈ
+recentchanges-label-bot|ਇਹ ਸੋਧ ਇੱਕ ਬੋਟ ਦੁਆਰਾ ਕੀਤੀ ਗਈ ਸੀ
+recentchanges-label-unpatrolled|ਇਹ ਫੇਰ-ਬਦਲ ਹਾਲੇ ਵੇਖਿਆ ਨਹੀਂ ਗਿਆ
+rcnote|~{3}, ~{4} ਤੱਕ ਆਖਰੀ {{PLURAL:~{1}\u007Cਦਿਨ\u007C'''~{1}''' ਦਿਨਾਂ}} ਵਿੱਚ {{PLURAL:~{0}\u007C'''1''' ਬਦਲੀ ਹੋਈ ਹੈ।\u007C'''~{0}''' ਬਦਲੀਆਂ ਹੋਈਆਂ ਹਨ।}}
+rcnotefrom|'''~{1}''' ਤੱਕ ('''~{0}''' ਤੱਕ ਦਿੱਸਦੇ) ਬਦਲਾਵ ਹੇਠ ਦਿੱਤੀਆਂ ਹਨ।
+rclistfrom|~{0} ਤੋਂ ਸ਼ੁਰੂ ਕਰਕੇ ਨਵੀਆਂ ਸੋਧਾਂ ਵਖਾਓ
+rcshowhideminor|ਛੋਟੀਆਂ ਤਬਦੀਲੀਆਂ ~{0}
+rcshowhidebots|~{0} ਬੋਟ
+rcshowhideliu|~{0} ਲਾਗਇਨ ਹੋਏ ਵਰਤੋਂਕਾਰ
+rcshowhideanons|ਅਣਜਾਣ ਵਰਤੋਂਕਾਰ ~{0}
+rcshowhidepatr|ਜਾਂਚੀਆਂ ਹੋਈਆਂ ਤਬਦੀਲੀਆਂ ~{0}
+rcshowhidemine|ਮੇਰੀਆਂ ਤਬਦੀਲੀਆਂ  ~{0}
+rclinks|ਪਿਛਲੇ ~{1} ਦਿਨਾਂ ਵਿੱਚ ਹੋਈਆਂ ~{0} ਤਬਦੀਲੀਆਂ ਵਖਾਓ<br /> ~{2}
+diff|ਫ਼ਰਕ
+hist|ਅਤੀਤ
+hide|ਲੁਕਾਓ
+show|ਵੇਖਾਓ
+minoreditletter|ਛੋ
+newpageletter|ਨ
+boteditletter|ਬੋ
+number_of_watching_users_pageview|[~{0} ਵੇਖ ਰਹੇ ਹਨ {{PLURAL:~{0}\u007Cਯੂਜ਼ਰ}}]
+rc_categories_any|ਕੋਈ ਵੀ
+newsectionsummary|/* ~{0} */ ਨਵਾਂ ਭਾਗ
+rc-enhanced-expand|ਵੇਰਵਾ ਵੇਖਾਓ (ਜਾਵਾਸਕ੍ਰਿਪਟ ਲੋੜੀਂਦੀ ਹੈ)
+rc-enhanced-hide|ਵੇਰਵਾ ਲੁਕਾਓ
+rc-old-title|ਅਸਲ ਵਿੱਚ "~{0}" ਵਜੋਂ ਬਣਾਇਆ
+recentchangeslinked|ਸਬੰਧਤ ਬਦਲਾਅ
+recentchangeslinked-feed|ਸਬੰਧਤ ਤਬਦੀਲੀਆਂ
+recentchangeslinked-toolbox|ਸਬੰਧਤ ਬਦਲਾਅ
+recentchangeslinked-title|"~{0}" ਨਾਲ ਸਬੰਧਿਤ ਬਦਲਾਵ
+recentchangeslinked-summary|ਇਹ ਸੂਚੀ ਇੱਕ ਵਿਸ਼ੇਸ਼ ਪੰਨੇ ਨਾਲ ਸਬੰਧਿਤ ਪੰਨਿਆਂ ਜਾਂ ਕਿਸੇ ਵਿਸ਼ੇਸ਼ ਸ਼੍ਰੇਣੀ ਦੇ ਮੈਂਬਰਾਂ ਦੇ ਹਾਲ ‘ਚ ਹੋਏ ਬਦਲਾਵਾਂ ਨੂੰ ਦਰਸਾਂਉਦੀ ਹੈ। [[Special:Watchlist\u007Cਤੁਹਾਡੀ ਧਿਆਨਸੂਚੀ]] ਵਿੱਚ ਮੌਜੂਦ ਪੰਨੇ ਮੋਟੇ ਅੱਖਰਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣਗੇ।
+recentchangeslinked-page|ਪੰਨੇ ਦਾ ਨਾਮ:
+recentchangeslinked-to|ਇਸਦੇ ਬਦਲੇ ਇਸ ਪੰਨੇ ਨਾਲ ਜੁੜੇ ਪੰਨਿਆਂ ਵਿੱਚ ਹੋਏ ਬਦਲਾਅ ਵਿਖਾਓ
+upload|ਫ਼ਾਈਲ ਅਪਲੋਡ ਕਰੋ
+uploadbtn|ਫਾਇਲ ਅੱਪਲੋਡ ਕਰੋ
+reuploaddesc|ਅੱਪਲੋਡ ਫਾਰਮ ਉੱਤੇ ਜਾਓ।
+uploadnologin|ਲਾਗਇਨ ਨਹੀਂ ਹੋ
+uploadnologintext|ਤੁਹਾਨੂੰ[[Special:UserLogin\u007Clogged in] ਕਰਨਾ ਪਵੇਗਾ]\nto upload files.
+uploaderror|ਅੱਪਲੋਡ ਗਲਤੀ
+upload-recreate-warning|'''ਖ਼ਬਰਦਾਰ: ਇਸ ਨਾਮ ਦੀ ਫ਼ਾਈਲ ਮਿਟਾਈ ਜਾਂ ਹੋਰ ਨਾਮ ਤੇ ਭੇਜੀ ਜਾ ਚੁੱਕੀ ਹੈ।'''\nਮਿਟਾਉਣ ਅਤੇ ਭੇਜੇ ਜਾਣ ਦਾ ਚਿੱਠਾ ਸਹੂਲਤ ਲਈ ਇੱਥੇ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+uploadlog|ਅੱਪਲੋਡ ਲਾਗ
+uploadlogpage|ਅਪਲੋਡਾਂ ਦਾ ਚਿੱਠਾ
+filename|ਫਾਇਲ ਨਾਂ
+filedesc|ਸਾਰ
+fileuploadsummary|ਸੰਖੇਪ:
+filereuploadsummary|ਫਾਇਲ ਬਦਲਾਅ
+filestatus|ਕਾਪੀਰਾਈਟ ਹਾਲਤ:
+filesource|ਸੋਰਸ:
+uploadedfiles|ਅੱਪਲੋਡ ਕੀਤੀਆਂ ਫਾਇਲਾਂ
+ignorewarning|ਚੇਤਾਵਨੀ ਅਣਡਿੱਠੀ ਕਰਕੇ ਕਿਵੇਂ ਵੀ ਫਾਇਲ ਸੰਭਾਲੋ।
+ignorewarnings|ਕੋਈ ਚੇਤਾਵਨੀ ਹੋਈ ਤਾਂ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ
+minlength1|ਫਾਇਲ ਨਾਂ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਅੱਖਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+badfilename|ਫਾਇਲ ਨਾਂ "~{0}" ਬਦਲਿਆ ਗਿਆ ਹੈ।
+filetype-missing|ਫਾਇਲ ਦੀ ਕੋਈ ਐਕਸ਼ਟੇਸ਼ਨ ਨਹੀਂ ਹੈ (ਜਿਵੇਂ ".jpg").
+empty-file|ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੀ ਫਾਇਲ ਖਾਲੀ ਸੀ।
+file-too-large|ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੀ ਫਾਇਲ ਬਹੁਤ ਵੱਡੀ ਸੀ।
+filename-tooshort|ਫ਼ਾਈਲ ਦਾ ਨਾਂ ਬਹੁਤ ਛੋਟਾ ਹੈ।
+filetype-banned|ਇਸ ਕਿਸਮ ਦੀ ਫਾਈਲ ਦੀ ਮਨਾਹੀ ਹੈ।
+verification-error|ਇਹ ਫਾਇਲ ਫਾਇਲ ਜਾਂਚ ਪੂਰੀ ਨਹੀਂ ਕਰਦੀ ਹੈ।
+illegal-filename|ਇਸ ਫਾਈਲ-ਨਾਮ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+unknown-error|ਅਣਜਾਣ ਗਲਤੀ ਆਈ ਹੈ।
+tmp-create-error|ਆਰਜ਼ੀ ਫਾਇਲ ਬਣਾਉਣ ਲਈ ਅਸਮਰੱਥ ਹੈ।
+tmp-write-error|ਆਰਜ਼ੀ ਫਾਇਲ ਲਿਖਣ ਲਈ ਗਲਤੀ ਹੈ।
+fileexists|ਇਹ ਫਾਇਲ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਜੇ ਤੁਸੀਂ ਇਹ ਬਦਲਣ ਬਾਰੇ ਦ੍ਰਿੜ ਨਹੀਂ ਹੋ ਤਾਂ  <strong>[[:~{0}]]</strong> ਵੇਖੋ ਜੀ। [[~{0}\u007Cthumb]]
+fileexists-extension|ਇਸ ਨਾਂ ਨਾਲ ਰਲਦੀ ਫਾਇਲ ਮੌਜੂਦ ਹੈ: [[~{1}\u007Cthumb]]\n* ਅੱਪਲੋਡ ਕੀਤੀ ਜਾਂਦੀ ਫਾਇਲ ਦਾ ਨਾਂ: <strong>[[:~{0}]]</strong>\n* ਮੌਜੂਦ ਫਾਇਲ ਦਾ ਨਾਂ: <strong>[[:~{1}]]</strong>\nਇੱਕ ਵੱਖਰਾ ਨਾਂ ਚੁਣੋ ਜੀ
+file-exists-duplicate|ਇਹ ਫ਼ਾਈਲ {{PLURAL:~{0}\u007Cਇਸ ਫ਼ਾਈਲ\u007Cਇਹਨਾਂ ਫ਼ਾਈਲਾਂ}} ਦੀ ਨਕਲ ਹੈ:
+uploadwarning|ਅੱਪਲੋਡ ਚੇਤਾਵਨੀ
+savefile|ਫਾਇਲ ਸੰਭਾਲੋ
+uploadedimage|"[[~{0}]]" ਅੱਪਲੋਡ ਕੀਤੀ
+overwroteimage|"[[~{0}]]" ਦਾ ਨਵਾਂ ਰੂਪ ਅੱਪਲੋਡ ਕਰੋ
+uploaddisabled|ਅੱਪਲੋਡ ਆਯੋਗ ਹੈ
+uploadvirus|ਇਹ ਫਾਇਲ ਵਿੱਚ ਵਾਇਰਸ ਹੈ! ਵੇਰਵੇ ਲਈ ਵੇਖੋ: ~{0}
+upload-source|ਸਰੋਤ ਫਾਇਲ
+sourcefilename|ਸੋਰਸ ਫਾਇਲ ਨਾਂ:
+sourceurl|ਸਰੋਤ URL:
+destfilename|ਟਿਕਾਣਾ ਫਾਇਲ-ਨਾਂ:
+upload-maxfilesize|ਫਾਈਲ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਅਕਾਰ: ~{0}
+upload-description|ਫਾਈਲ ਵੇਰਵਾ
+upload-options|ਅੱਪਲੋਡ ਚੋਣਾਂ
+watchthisupload|ਇਸ ਫ਼ਾਈਲ ’ਤੇ ਨਜ਼ਰ ਰੱਖੋ
+upload-success-subj|ਠੀਕ ਤਰ੍ਹਾਂ ਅੱਪਲੋਡ
+upload-failure-subj|ਅੱਪਲੋਡ ਸਮੱਸਿਆ
+upload-warning-subj|ਅੱਪਲੋਡ ਚੇਤਾਵਨੀ
+upload-proto-error|ਗਲਤ ਪਰੋਟੋਕਾਲ
+upload-file-error|ਅੰਦਰੂਨੀ ਗਲਤੀ
+upload-misc-error|ਅਣਜਾਣ ਅੱਪਲੋਡ ਗਲਤੀ
+upload-unknown-size|ਅਣਜਾਣ ਆਕਾਰ
+backend-fail-notexists|ਫ਼ਾਈਲ ~{0} ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+backend-fail-delete|ਫ਼ਾਈਲ "~{0}" ਮਿਟਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।
+backend-fail-alreadyexists|ਫ਼ਾਈਲ "~{0}" ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।
+backend-fail-store|ਫ਼ਾਈਲ "~{0}", "~{1}" ਵਿਚ ਸਾਂਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।
+backend-fail-copy|ਫ਼ਾਈਲ "~{0}", "~{1}" ਵਿਚ ਨਕਲ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।
+backend-fail-move|ਫ਼ਾਈਲ "~{0}", "~{1}" ਤੇ ਭੇਜੀ ਨਹੀਂ ਜਾ ਸਕੀ।
+backend-fail-opentemp|ਆਰਜ਼ੀ ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ।
+uploadstash-refresh|ਫ਼ਾਈਲਾਂ ਦੀ ਲਿਸਟ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ
+img-auth-nofile|ਫ਼ਾਈਲ "~{0}" ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+upload-curl-error6|URL ’ਤੇ ਪਹੁੰਚਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+upload-curl-error6-text|ਦਿੱਤੇ ਹੋਏ URL ’ਤੇ ਪਹੁੰਚਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।\nਮਿਹਰਬਾਨੀ ਕਰਕੇ ਦੁਬਾਰਾ ਜਾਂਚ ਕਰੋ ਕਿ URL ਸਹੀ ਹੈ ਅਤੇ ਸਾਈਟ ਉਪਲੱਬਧ ਹੈ।
+upload-curl-error28|ਅੱਪਲੋਡ ਟਾਈਮ-ਆਉਟ
+license|ਲਾਈਸੈਂਸ:
+license-header|ਲਾਈਸੈਂਸ
+nolicense|ਕੁਝ ਵੀ ਚੁਣਿਆ
+license-nopreview|(ਝਲਕ ਉਪਲੱਬਧ ਨਹੀਂ)
+upload_source_file| (ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਉੱਤੇ ਇੱਕ ਫਾਇਲ)
+listfiles_search_for|ਇਸ ਮੀਡੀਆ ਨਾਮ ਨੂੰ ਖੋਜੋ:
+imgfile|ਫਾਇਲ
+listfiles|ਫਾਇਲ ਲਿਸਟ
+listfiles_thumb|ਨਮੂਨਾ-ਤਸਵੀਰ
+listfiles_date|ਮਿਤੀ
+listfiles_name|ਨਾਂ
+listfiles_user|ਯੂਜ਼ਰ
+listfiles_size|ਆਕਾਰ
+listfiles_description|ਵੇਰਵਾ
+listfiles_count|ਵਰਜਨ
+file-anchor-link|ਫਾਈਲ
+filehist|ਫ਼ਾਈਲ ਦਾ ਅਤੀਤ
+filehist-help|ਤਾਰੀਖ/ਸਮੇਂ ’ਤੇ ਕਲਿੱਕ ਕਰੋ ਤਾਂ ਉਸ ਸਮੇਂ ਦੀ ਫਾਈਲ ਪੇਸ਼ ਹੋ ਜਾਵੇਗੀ।
+filehist-deleteall|ਸਭ ਹਟਾਓ
+filehist-deleteone|ਇਹ ਹਟਾਓ
+filehist-revert|ਉਲਟਾਓ
+filehist-current|ਮੌਜੂਦਾ
+filehist-datetime|ਮਿਤੀ/ਸਮਾਂ
+filehist-thumb|ਨਮੂਨਾ
+filehist-thumbtext|~{0} ਦੇ ਸਮੇਂ ਦੇ ਸੰਸਕਰਨ ਦਾ ਅੰਗੂਠਾਕਾਰ ਪ੍ਰਤੀਰੂਪ
+filehist-nothumb|ਕੋਈ ਨਮੂਨਾ-ਤਸਵੀਰ ਨਹੀਂ
+filehist-user|ਵਰਤੋਂਕਾਰ
+filehist-dimensions|ਨਾਪ
+filehist-filesize|ਫਾਇਲ ਆਕਾਰ
+filehist-comment|ਟਿੱਪਣੀ
+filehist-missing|ਫਾਈਲ ਗੁੰਮ
+imagelinks|ਫਾਈਲ ਵਰਤੋਂ
+linkstoimage|ਇਹ {{PLURAL:~{0}\u007Cਪੰਨੇ ਦੇ ਲਿੰਕ\u007C~{0} ਪੰਨੇ}} ਇਸ ਫ਼ਾਈਲ ਨਾਲ ਜੋੜਦੇ ਹਨੇ:
+nolinkstoimage|ਕੋਈ ਵੀ ਪੰਨਾ ਇਸ ਫ਼ਾਈਲ ਨਾਲ ਨਹੀਂ ਜੋੜਦਾ।
+morelinkstoimage|ਇਸ ਫ਼ਾਈਲ ਨਾਲ਼ ਜੋੜਦੇ [[Special:WhatLinksHere/~{0}\u007Cਹੋਰ ਲਿੰਕ]] ਵੇਖੋ।
+sharedupload|ਇਹ ਫ਼ਾਈਲ ~{0} ਤੋਂ ਹੈ ਅਤੇ ਸ਼ਾਇਦ ਦੂਜੇ ਪ੍ਰੋਜੈਕਟਾਂ ਤੇ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ।
+sharedupload-desc-there|ਇਹ ਫ਼ਾਈਲ ~{0} ਤੋਂ ਹੈ ਅਤੇ ਸ਼ਾਇਦ ਦੂਜੇ ਪ੍ਰੋਜੈਕਟਾਂ ਦੁਆਰਾ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ।\nਜ਼ਿਆਦਾ ਜਾਣਕਾਰੀ ਲਈ ਮਿਹਰਬਾਨੀ ਕਰਕੇ [~{1} ਫ਼ਾਈਲ ਦਾ ਵੇਰਵਾ ਸਫ਼ਾ] ਵੇਖੋ।
+sharedupload-desc-here|ਇਹ ਫ਼ਾਈਲ ~{0} ਦੀ ਹੈ ਅਤੇ ਹੋਰ ਪਰਿਯੋਜਨਾਵਾਂ ਵਿੱਚ ਵੀ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ । ਇਸ [~{1} ਫ਼ਾਈਲ ਦੇ ਵੇਰਵਾ ਪੰਨੇ] ਵਿੱਚ ਮੌਜੂਦ ਵੇਰਵਾ ਹੇਠ ਦਿਸ ਰਿਹਾ ਹੈ।
+sharedupload-desc-edit|ਇਹ ਫ਼ਾਈਲ ~{0} ਤੋਂ ਹੈ ਅਤੇ ਸ਼ਾਇਦ ਦੂਜੇ ਪ੍ਰੋਜੈਕਟਾਂ ਦੁਆਰਾ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ।\nਸ਼ਾਇਦ ਤੁਸੀਂ [~{1} ਫ਼ਾਈਲ ਦੇ ਵੇਰਵੇ ਸਫ਼ੇ] ਤੇ ਇਸਦਾ ਵੇਰਵਾ ਬਦਲਣਾ ਚਾਹੋ।
+sharedupload-desc-create|ਇਹ ਫ਼ਾਈਲ ~{0} ਤੋਂ ਹੈ ਅਤੇ ਸ਼ਾਇਦ ਦੂਜੇ ਪ੍ਰੋਜੈਕਟਾਂ ਦੁਆਰਾ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ।\nਸ਼ਾਇਦ ਤੁਸੀਂ [~{1} ਫ਼ਾਈਲ ਦੇ ਵੇਰਵੇ ਸਫ਼ੇ] ਤੇ ਇਸਦਾ ਵੇਰਵਾ ਬਦਲਣਾ ਚਾਹੋ।
+filepage-nofile|ਇਸ ਨਾਮ ਦੀ ਕੋਈ ਫ਼ਾਈਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+filepage-nofile-link|ਇਸ ਨਾਮ ਦੀ ਕੋਈ ਫ਼ਾਈਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ ਪਰ ਤੁਸੀਂ [~{0} ਇਸਨੂੰ ਅੱਪਲੋਡ ਕਰ] ਸਕਦੇ ਹੋ।
+uploadnewversion-linktext|ਇਸ ਫਾਇਲ ਦਾ ਇੱਕ ਨਵਾਂ ਵਰਜਨ ਅੱਪਲੋਡ ਕਰੋ
+shared-repo-from|~{0} ਤੋਂ
+filerevert|~{0} ਰੀਵਰਟ
+filerevert-legend|ਫਾਇਲ ਰੀਵਰਟ
+filerevert-comment|ਕਾਰਨ:
+filerevert-submit|ਰੀਵਰਟ
+filedelete|~{0} ਹਟਾਓ
+filedelete-legend|ਫਾਇਲ ਹਟਾਓ
+filedelete-intro|ਤੁਸੀਂ ਸਾਰੇ ਅਤੀਤ ਸਮੇਤ ਫ਼ਾਈਲ '''[[Media:~{0}\u007C~{0}]]''' ਨੂੰ ਮਿਟਾਉਣ ਵਾਲ਼ੇ ਹੋ।
+filedelete-intro-old|ਤੁਸੀਂ ਫ਼ਾਈਲ '''[[Media:~{0}\u007C~{0}]]''' ਦਾ [~{3} ~{1}, ~{2}] ਵਾਲ਼ਾ ਰੂਪ ਮਿਟਾ ਰਹੇ ਹੋ।
+filedelete-comment|ਕਾਰਨ:
+filedelete-submit|ਹਟਾਓ
+filedelete-success|'''~{0}''' ਨੂੰ ਹਟਾਇਆ ਗਿਆ।
+filedelete-success-old|ਫ਼ਾਈਲ '''[[Media:~{0}\u007C~{0}]]''' ਦਾ ~{1}, ~{2} ਵਾਲ਼ਾ ਰੂਪ ਮਿਟਾਇਆ ਜਾ ਚੁੱਕਾ ਹੈ।
+filedelete-nofile|'''~{0}''' ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+filedelete-otherreason|ਹੋਰ/ਵਾਧੂ ਕਾਰਨ:
+filedelete-reason-otherlist|ਹੋਰ ਕਾਰਨ
+filedelete-reason-dropdown|* ਮਿਟਾਉਣ ਦੇ ਆਮ ਕਾਰਨ\n** ਡੁਪਲੀਕੇਟ ਫ਼ਾਈਲ\n** ਕਾਪੀਰਾਈਟ ਦੀ ਉਲੰਘਣਾ
+filedelete-edit-reasonlist|ਮਿਟਾਉਣ ਦੇ ਕਾਰਨ ਸੋਧੋ
+filedelete-maintenance-title|ਫ਼ਾਈਲ ਮਿਟਾ ਨਹੀਂ ਸਕਦੇ
+mimesearch|MIME ਖੋਜ
+mimetype|MIME ਕਿਸਮ:
+download|ਡਾਊਨਲੋਡ
+unwatchedpages|ਨਜ਼ਰ ਹੇਠ ਨਾ ਰੱਖੇ ਗਏ ਸਫ਼ੇ
+listredirects|ਰੀਡਾਇਰੈਕਟਾਂ ਦੀ ਲਿਸਟ
+unusedtemplates|ਅਣ-ਵਰਤੇ ਗਏ ਸਾਂਚੇ
+unusedtemplateswlh|ਹੋਰ ਲਿੰਕ
+randompage|ਰਲਵਾਂ ਪੰਨਾ
+randompage-nopages|{{PLURAL:~{1}\u007Cਇਸ ਥਾਂ-ਨਾਮ\u007Cਇਹਨਾਂ ਥਾਂ-ਨਾਂਵਾ}} ਵਿਚ ਕੋਈ ਸਫ਼ਾ ਨਹੀਂ ਹੈ: ~{0}।
+statistics-header-edits|ਸੋਧ ਅੰਕੜੇ
+statistics-header-views|ਵੇਖਣ ਅੰਕੜੇ
+statistics-header-users|ਯੂਜ਼ਰ ਅੰਕੜੇ
+statistics-header-hooks|ਹੋਰ ਅੰਕੜੇ
+statistics-files|ਅਪਲੋਡ ਕੀਤੀਆਂ ਗਈਆਂ ਫਾਈਲਾਂ
+statistics-edits-average|ਪ੍ਰਤੀ ਸਫ਼ਾ ਔਸਤਨ ਸੋਧਾਂ
+statistics-users|ਰਜਿਸਟ੍ਰਡ [[Special:ListUsers\u007Cਵਰਤੋਂਕਾਰ]]
+statistics-users-active|ਸਰਗਰਮ ਯੂਜ਼ਰ
+statistics-users-active-desc|ਮੈਂਬਰ, ਜਿੰਨ੍ਹਾ ਨੇ ਆਖ਼ਰੀ {{PLURAL:~{0}\u007Cਦਿਨ\u007C~{0} ਦਿਨਾਂ}} ਵਿਚ ਕੋਈ ਕੰਮ ਕੀਤਾ ਹੈ।
+statistics-mostpopular|ਸਭ ਤੋਂ ਵੱਧ ਵੇਖੇ ਸਫ਼ੇ
+disambiguationspage|Template:ਗੁੰਝਲ ਖੋਲ੍ਹ
+pageswithprop-submit|ਜਾਉ
+doubleredirects|ਦੋਹਰੇ ਰੀਡਿਰੈਕਟ
+brokenredirectstext|ਇਹ ਰਿਡਿਰੈਕਟ ਨਾ-ਮੌਜੂਦ ਸਫ਼ਿਆਂ ’ਤੇ ਜੋੜਦੇ ਹਨ:
+brokenredirects-edit|ਸੋਧ
+brokenredirects-delete|ਹਟਾਓ
+withoutinterwiki|ਬਿਨਾਂ ਬੋਲੀ ਲਿੰਕਾਂ ਦੇ ਸਫ਼ੇ
+withoutinterwiki-summary|ਇਹ ਸਫ਼ੇ ਹੋਰ ਬੋਲੀਆਂ ਵਾਲ਼ੇ ਵਰਜਨਾਂ ਨਾਲ਼ ਨਹੀਂ ਜੁੜਦੇ।
+withoutinterwiki-legend|ਅਗੇਤਰ
+withoutinterwiki-submit|ਵੇਖਾਓ
+fewestrevisions|ਸਭ ਤੋਂ ਘੱਟ ਰੀਵਿਜ਼ਨਾਂ ਵਾਲ਼ੇ ਸਫ਼ੇ
+nbytes|~{0} {{PLURAL:~{0}\u007Cਬਾਈਟ\u007Cਬਾਈਟ}}
+ncategories|~{0} {{PLURAL:~{0}\u007Cਕੈਟੇਗਰੀ\u007Cਕੈਟੇਗਰੀਆਂ}}
+nlinks|~{0} {{PLURAL:~{0}\u007Cਲਿੰਕ\u007Cਲਿੰਕ}}
+nmembers|~{0} {{PLURAL:~{0}\u007Cਮੈਂਬਰ\u007Cਮੈਂਬਰਾਂ}}
+nrevisions|~{0} {{PLURAL:~{0}\u007Cਰੀਵਿਜ਼ਨ\u007Cਰੀਵਿਜ਼ਨਾਂ}}
+nviews|~{0} {{PLURAL:~{0}\u007Cਝਲਕ\u007Cਝਲਕ}}
+nimagelinks|~{0} {{PLURAL:~{0}\u007Cਸਫ਼ੇ\u007Cਸਫ਼ਿਆਂ}} ’ਤੇ ਵਰਤਿਆ ਹੋਇਆ
+ntransclusions|~{0} {{PLURAL:~{0}\u007Cਸਫ਼ੇ\u007Cਸਫ਼ਿਆਂ}} ’ਤੇ ਵਰਤਿਆ ਹੋਇਆ
+specialpage-empty|ਇਸ ਰਿਪੋਟ ਦਾ ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਹੈ।
+lonelypages|ਯਤੀਮ ਸਫ਼ੇ
+uncategorizedpages|ਬਗ਼ੈਰ ਕੈਟੇਗਰੀਆਂ ਵਾਲ਼ੇ ਸਫ਼ੇ
+uncategorizedcategories|ਬਗ਼ੈਰ ਕੈਟੇਗਰੀਆਂ ਵਾਲ਼ੀਆਂ ਕੈਟੇਗਰੀਆਂ
+uncategorizedimages|ਬਗ਼ੈਰ ਕੈਟੇਗਰੀਆਂ ਵਾਲ਼ੀਆਂ ਫ਼ਾਈਲਾਂ
+uncategorizedtemplates|ਬਗ਼ੈਰ ਕੈਟੇਗਰੀਆਂ ਵਾਲ਼ੇ ਸਾਂਚੇ
+unusedcategories|ਅਣਵਰਤੀਆਂ ਕੈਟਾਗਰੀਆਂ
+unusedimages|ਅਣਵਰਤੀਆਂ ਫਾਇਲਾਂ
+popularpages|ਹਰਮਨਪਿਆਰੇ ਸਫ਼ੇ
+wantedcategories|ਚਾਹੀਦੀਆਂ ਕੈਟੇਗਰੀਆਂ
+wantedpages|ਚਾਹੀਦੇ ਸਫ਼ੇ
+wantedfiles|ਚਾਹੀਦੀਆਂ ਫਾਇਲਾਂ
+wantedtemplates|ਚਾਹੀਦੇ ਟੈਪਲੇਟ
+mostcategories|ਸਭ ਤੋਂ ਵੱਧ ਕੈਟੇਗਰੀਆਂ ਵਾਲ਼ੇ ਸਫ਼ੇ
+prefixindex|ਇਸ ਅਗੇਤਰ ਵਾਲੇ ਸਾਰੇ ਪੰਨੇ
+shortpages|ਛੋਟੇ ਸਫ਼ੇ
+listusers|ਯੂਜ਼ਰ ਲਿਸਟ
+usercreated|~{0} ਨੂੰ ~{1} ’ਤੇ {{GENDER:~{2}\u007Cਬਣਾਇਆ}}
+newpages|ਨਵੇਂ ਸਫ਼ੇ
+newpages-username|ਯੂਜ਼ਰ-ਨਾਂ:
+ancientpages|ਸਭ ਤੋਂ ਪੁਰਾਣੇ ਪੇਜ
+move|ਸਿਰਲੇਖ ਬਦਲੋ
+movethispage|ਇਹ ਸਫ਼ਾ ਭੇਜੋ
+unusedcategoriestext|ਇਹ ਕੈਟੇਗਰੀ ਸਫ਼ੇ ਮੌਜੂਦ ਹਨ ਹਾਲਾਂਕਿ ਕਿਸੇ ਵੀ ਸਫ਼ੇ ਜਾਂ ਕੈਟੇਗਰੀ ਨੇ ਇਹਨਾਂ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕੀਤੀ।
+notargettitle|ਟਾਰਗੇਟ ਨਹੀਂ
+pager-newer-n|{{PLURAL:~{0}\u007C1 ਨਵਾਂ\u007C~{0} ਨਵੇਂ}}
+pager-older-n|{{PLURAL:~{0}\u007C1 ਪੁਰਾਣਾ\u007C~{0} ਪੁਰਾਣੇ}}
+booksources|ਪੁਸਤਕਾਂ ਦੇ ਸਰੋਤ
+booksources-search-legend|ਪੁਸਤਕਾਂ ਦੇ ਸਰੋਤ ਖੋਜੋ
+booksources-go|ਜਾਓ
+booksources-invalid-isbn|ਦਿੱਤਾ ਗਿਆ ISBN ਸਹੀ ਨਹੀਂ ਲਗਦਾ, ਅਸਲੀ ਸਰੋਤ ਤੋਂ ਨਕਲ ਕਰਦੇ ਵਕਤ ਹੋਈਆਂ ਗ਼ਲਤੀਆਂ ਜਾਂਚੋ।
+specialloguserlabel|ਕਰਤਾ:
+speciallogtitlelabel|ਸਿਰਲੇਖ:
+log|ਚਿੱਠੇ
+all-logs-page|ਸਾਰੇ ਆਮ ਚਿੱਠੇ
+logempty|ਚਿੱਠੇ ’ਚ ਮੇਲ ਖਾਂਦੀ ਕੋਈ ਚੀਜ਼ ਨਹੀਂ ਹੈ।
+log-title-wildcard|ਇਸ ਲਿਖਤ ਨਾਲ਼ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੇ ਸਿਰਲੇਖ ਖੋਜੋ
+showhideselectedlogentries|ਚਿੱਠੇ ਦੇ ਚੁਣੇ ਹੋਏ ਦਾਖ਼ਲੇ ਵਖਾਓ/ਲੁਕਾਓ
+alphaindexline|~{0} ਤੋਂ ~{1}
+allpagesfrom|ਇਸਤੋਂ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੇ ਸਫ਼ੇ ਵਖਾਓ:
+allpagesto|ਇਸਤੇ ਖ਼ਤਮ ਹੋਣ ਵਾਲ਼ੇ ਸਫ਼ੇ ਵਖਾਓ:
+allarticles|ਸਭ ਸਫ਼ੇ
+allinnamespace|ਸਭ ਪੇਜ (~{0} ਨੇਮਸਪੇਸ)
+allnotinnamespace|ਸਭ ਪੇਜ (~{0} ਨੇਮਸਪੇਸ ਵਿੱਚ ਨਹੀਂ)
+allpagesprev|ਪਿੱਛੇ
+allpagesnext|ਅੱਗੇ
+allpagessubmit|ਜਾਓ
+allpagesprefix|ਇਸ ਅਗੇਤਰ ਵਾਲ਼ੇ ਸਫ਼ੇ ਵਖਾਓ:
+allpages-bad-ns|{{SITENAME}} ’ਤੇ "~{0}" ਥਾਂ-ਨਾਮ ਨਹੀਂ ਹੈ।
+allpages-hide-redirects|ਰੀਡਿਰੈਕਟ ਲੁਕਾਓ
+cachedspecial-refresh-now|ਸਭ ਤੋਂ ਨਵਾਂ ਵੇਖੋ।
+categoriesfrom|ਇਸਤੋਂ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੀਆਂ ਕੈਟੇਗਰੀਆਂ ਵਖਾਓ:
+special-categories-sort-count|ਗਿਣਤੀ ਮੁਤਾਬਕ ਤਰਤੀਬ ਦੇਵੋ
+special-categories-sort-abc|ਅੱਖਰਾਂ ਮੁਤਾਬਕ ਤਰਤੀਬ ਦੇਵੋ
+deletedcontributions|ਮਿਟਾਏ ਹੋਏ ਮੈਂਬਰ ਯੋਗਦਾਨ
+deletedcontributions-title|ਮਿਟਾਏ ਹੋਏ ਮੈਂਬਰ ਯੋਗਦਾਨ
+sp-deletedcontributions-contribs|ਯੋਗਦਾਨ
+linksearch|ਬਾਹਰੀ ਲਿੰਕ ਖੋਜ
+linksearch-ns|ਥਾਂ-ਨਾਮ:
+linksearch-ok|ਖੋਜ
+linksearch-line|~{1} ਵਿੱਚ ~{0} ਬਾਹਰੀ ਸਿਰਨਾਵਾਂ ਹੈ
+listusersfrom|ਇਸਤੋਂ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੇ ਮੈਂਬਰ ਵਖਾਓ:
+listusers-submit|ਵੇਖਾਓ
+listusers-noresult|ਕੋਈ ਯੂਜ਼ਰ ਨਹੀਂ ਲੱਭਿਆ।
+listusers-blocked|(ਪਾਬੰਦੀਸ਼ੁਦਾ)
+activeusers|ਚੁਸਤ ਮੈਂਬਰਾਂ ਦੀ ਲਿਸਟ
+activeusers-intro|ਇਹ ਓਹਨਾਂ ਮੈਂਬਰਾਂ ਦੀ ਲਿਸਟ ਹੈ ਜਿੰਨ੍ਹਾਂ ਨੇ ਆਖ਼ਰੀ ~{0} {{PLURAL:~{0}\u007Cਦਿਨ\u007Cਦਿਨਾਂ}} ਵਿਚ ਕਿਸੇ ਤਰ੍ਹਾਂ ਦਾ ਕੋਈ ਕੰਮ ਕੀਤਾ ਹੈ।
+activeusers-count|ਆਖ਼ਰੀ {{PLURAL:~{2}\u007Cਦਿਨ\u007C~{2} ਦਿਨਾਂ}} ਵਿਚ ~{0} {{PLURAL:~{0}\u007Cਸੋਧ\u007Cਸੋਧਾਂ}}
+activeusers-from|ਇਸਤੋਂ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੇ ਮੈਂਬਰ ਵਖਾਓ:
+activeusers-hidebots|ਬੋਟਾਂ ਨੂੰ ਲੁਕਾਓ
+activeusers-hidesysops|ਐਡਮਨਿਸਟ੍ਰੇਟਰ ਲੁਕਾਓ
+activeusers-noresult|ਕੋਈ ਮੈਂਬਰ ਨਹੀਂ ਲੱਭਿਆ।
+listgrouprights-group|ਗਰੁੱਪ
+listgrouprights-rights|ਹੱਕ
+listgrouprights-helppage|Help:ਗਰੁੱਪ ਹੱਕ
+listgrouprights-members|(ਮੈਂਬਰਾਂ ਦੀ ਸੂਚੀ)
+listgrouprights-addgroup-all|ਸਾਰੇ ਗਰੁੱਪ ਜੋੜੋ
+listgrouprights-removegroup-all|ਸਾਰੇ ਗਰੁੱਪ ਹਟਾਓ
+mailnologin|ਕੋਈ ਭੇਜਣ ਐਡਰੈੱਸ ਨਹੀਂ
+mailnologintext|ਦੂਜੇ ਮੈਂਬਰਾਂ ਨੂੰ ਈ-ਮੇਲ ਭੇਜਣ ਲਈ ਤੁਹਾਨੂੰ [[Special:UserLogin\u007Cਲਾਗਇਨ]] ਹੋਣਾ ਅਤੇ ਆਪਣੀਆਂ [[Special:Preferences\u007Cਪਸੰਦਾਂ]] ਵਿਚ ਇਕ ਸਹੀ ਈ-ਮੇਲ ਪਤਾ ਦੇਣਾ ਪਵੇਗਾ।
+emailuser|ਇਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਈ-ਮੇਲ ਭੇਜੋ
+emailuser-title-target|ਇਹ {{GENDER:~{0}\u007Cਯੂਜ਼ਰ}} ਨੂੰ ਈਮੇਲ ਭੇਜੋ
+emailuser-title-notarget|ਯੂਜ਼ਰ ਨੂੰ ਈਮੇਲ
+emailpage|ਯੂਜ਼ਰ ਨੂੰ ਈਮੇਲ ਕਰੋ
+defemailsubject|{{SITENAME}} ਈਮੇਲ
+usermaildisabled|ਮੈਂਬਰ ਈ-ਮੇਲ ਬੰਦ ਹੈ
+usermaildisabledtext|ਇਸ ਵਿਕੀ ’ਤੇ ਤੁਸੀਂ ਦੂਜੇ ਮੈਂਬਰਾਂ ਨੂੰ ਈ-ਮੇਲ ਨਹੀਂ ਭੇਜ ਸਕਦੇ
+noemailtitle|ਕੋਈ ਈਮੇਲ ਐਡਰੈੱਸ ਨਹੀਂ
+noemailtext|ਇਸ ਮੈਂਬਰ ਨੇ ਸਹੀ ਈ-ਮੇਲ ਪਤਾ ਨਹੀਂ ਦਿੱਤਾ ਹੋਇਆ।
+nowikiemailtitle|ਈ-ਮੇਲ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ
+nowikiemailtext|ਇਸ ਮੈਂਬਰ ਨੇ ਦੂਜੇ ਮੈਂਬਰਾਂ ਤੋਂ ਈ-ਮੇਲ ਨਾ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚੁਣ ਰੱਖਿਆ ਹੈ।
+emailnotarget|ਪ੍ਰਾਪਤ ਕਰਤਾ ਦਾ ਨਾ-ਮੌਜੂਦ ਜਾਂ ਗ਼ਲਤ ਮੈਂਬਰ-ਨਾਂ।
+emailtarget|ਪ੍ਰਾਪਤ ਕਰਤਾ ਦਾ ਮੈਂਬਰ-ਨਾਂ ਦਾਖ਼ਲ ਕਰੋ
+emailusername|ਯੂਜ਼ਰ-ਨਾਂ:
+emailusernamesubmit|ਭੇਜੋ
+email-legend|ਕਿਸੇ ਦੂਜੇ {{SITENAME}} ਮੈਂਬਰ ਨੂੰ ਈ-ਮੇਲ ਭੇਜੋ
+emailfrom|ਵਲੋਂ:
+emailto|ਵੱਲ:
+emailsubject|ਵਿਸ਼ਾ:
+emailmessage|ਸੁਨੇਹਾ:
+emailsend|ਭੇਜੋ
+emailccme|ਸੁਨੇਹੇ ਦੀ ਇੱਕ ਕਾਪੀ ਮੈਨੂੰ ਵੀ ਭੇਜੋ।
+emailccsubject|~{0} ਨੂੰ ਭੇਜੇ ਤੁਹਾਡੇ ਸੁਨੇਹੇ ਦੀ ਨਕਲ: ~{1}
+emailsent|ਈਮੇਲ ਭੇਜੀ ਗਈ
+emailsenttext|ਤੁਹਾਡੀ ਈਮੇਲ ਭੇਜੀ ਗਈ ਹੈ।
+emailuserfooter|ਇਹ ਈ-ਮੇਲ ~{0} ਨੇ {{SITENAME}} ’ਤੇ "ਇਸ ਮੈਂਬਰ ਨੂੰ ਈ-ਮੇਲ ਭੇਜੋ" ਸਹੂਲਤ ਜ਼ਰੀਏ ~{1} ਨੂੰ ਭੇਜੀ ਸੀ।
+watchlist|ਨਿਗਰਾਨ-ਸੂਚੀ
+mywatchlist|ਨਿਗਰਾਨੀ-ਲਿਸਟ
+watchlistfor2|~{0} ~{1} ਲਈ
+nowatchlist|ਤੁਹਾਡੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚ ਕੋਈ ਚੀਜ਼ ਨਹੀਂ ਹੈ।
+watchlistanontext|ਆਪਣੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚਲੀਆਂ ਚੀਜ਼ਾਂ ਵੇਖਣ ਜਾਂ ਸੋਧਣ ਲਈ ਮਿਹਰਬਾਨੀ ਕਰਕੇ ~{0}।
+watchnologin|ਲਾਗਇਨ ਨਹੀਂ
+watchnologintext|ਆਪਣੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚ ਫੇਰ-ਬਦਲ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ [[Special:UserLogin\u007Cਲਾਗਇਨ]] ਕਰਨਾ ਪਵੇਗਾ।
+addwatch|ਨਿਗਰਾਨੀ-ਲਿਸਟ ’ਚ ਜੋੜੋ
+addedwatchtext|ਪੰਨਾ "[[:$1]]" ਤੁਹਾਡੀ [[Special:Watchlist\u007Cਧਿਆਨਸੂਚੀ]] ’ਚ ਜੁੜ ਚੁੱਕਾ ਹੈ।\nਇਸ ਅਤੇ ਇਸਦੇ ਚਰਚਾ ਪੰਨੇ ’ਚ ਹੋਈਆਂ ਬਦਲੀਆਂ ਓਥੇ ਵਖਾਈ ਦੇਣਗੀਆਂ ਅਤੇ ਵੇਖਣ ਦੀ ਸੌਖ ਲਈ [[Special:RecentChanges\u007Cਹਾਲ ਹੀ ’ਚ ਹੋਈਆਂ ਬਦਲੀਆਂ]] ਵਿੱਚ ਇਹ ਪੰਨਾ '''ਗੂੜ੍ਹਾ''' ਦਿਖਾਈ ਦੇਵੇਗਾ।
+removewatch|ਨਿਗਰਾਨੀ-ਲਿਸਟ ’ਚੋਂ ਹਟਾਓ
+removedwatchtext|ਸਫ਼ਾ "[[:~{0}]]" [[Special:Watchlist\u007Cਤੁਹਾਡੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ]] ’ਚੋਂ ਹਟ ਚੁੱਕਾ ਹੈ।
+watch|ਧਿਆਨ ਰੱਖੋ
+watchthispage|ਇਹ ਪੇਜ ਵਾਚ ਕਰੋ
+unwatch|ਧਿਆਨ ਹਟਾਓ
+unwatchthispage|ਨਜ਼ਰ ਰੱਖਣੀ ਬੰਦ ਕਰੋ
+notanarticle|ਕੋਈ ਸਮੱਗਰੀ ਸਫ਼ਾ ਨਹੀਂ ਹੈ
+notvisiblerev|ਇੱਕ ਵੱਖਰੇ ਮੈਂਬਰ ਦੀ ਬਣਾਈ ਆਖ਼ਰੀ ਰੀਵਿਜ਼ਨ ਮਿਟਾਈ ਜਾ ਚੁੱਕੀ ਹੈ
+watchlist-details|ਚਰਚਾ ਪੰਨੇ ਨਾ ਗਿਣਦੇ ਹੋਏ, ਤੁਹਾਡੀ ਧਿਆਨਸੂਚੀ ਵਿੱਚ{{PLURAL:~{0}\u007C~{0} ਪੰਨਾ ਹੈ\u007C~{0} ਪੰਨੇ ਹਨ}}।
+watchlistcontains|ਤੁਹਾਡੀ ਨਿਗਰਾਨੀ-ਲਿਸਟ ਵਿਚ ~{0} {{PLURAL:~{0}\u007Cਸਫ਼ਾ ਹੈ\u007Cਸਫ਼ੇ ਹਨ}}।
+wlnote|~{2}, ~{3} ਮੁਤਾਬਕ ਆਖ਼ਰੀ {{PLURAL:~{1}\u007Cਘੰਟੇ\u007C'''~{1}''' ਘੰਟਿਆਂ}} ਵਿਚ {{PLURAL:\n~{0}\u007Cਤਬਦੀਲੀ ਹੋਈ\u007C'''~{0}''' ਤਬਦੀਲੀਆਂ ਹੋਈਆਂ}}, ਹੇਠਾਂ ਵੇਖੋ।
+wlshowlast|ਪਿਛਲੇ ~{0} ਘੰਟੇ ~{1} ਦਿਨ ~{2} ਵਖਾਓ
+watchlist-options|ਨਿਗਰਾਨੀ-ਲਿਸਟ ਚੋਣਾਂ
+watching|ਨਿਗ੍ਹਾ (ਵਾਚ) ਰੱਖੀ ਜਾ ਰਹੀ ਹੈ...
+unwatching|ਨਿਗ੍ਹਾ ਰੱਖਣੀ (ਵਾਚ) ਬੰਦ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ..
+enotif_impersonal_salutation|{{SITENAME}} ਯੂਜ਼ਰ
+enotif_lastvisited|ਤੁਹਾਡੀ ਆਖ਼ਰੀ ਆਮਦ ਤੋਂ ਲੈ ਕੇ ਹੋਈਆਂ ਤਬਦੀਲੀਆਂ ਵੇਖਣ ਲਈ ~{0} ਵੇਖੋ।
+enotif_lastdiff|ਇਸ ਤਬਦੀਲੀ ਨੂੰ ਵੇਖਣ ਲਈ ~{0} ਵੇਖੋ।
+enotif_anon_editor|ਅਗਿਆਤ ਯੂਜ਼ਰ ~{0}
+created|ਬਣਾਇਆ
+changed|ਬਦਲਿਆ
+deletepage|ਸਫ਼ਾ ਹਟਾਓ
+confirm|ਪੁਸ਼ਟੀ
+excontent|ਸਮੱਗਰੀ ਸੀ: '~{0}'
+exbeforeblank|ਖ਼ਾਲੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਮੱਗਰੀ ਸੀ: "~{0}"
+exblank|ਪੇਜ ਖਾਲੀ ਹੈ
+delete-confirm|"~{0}" ਹਟਾਓ
+delete-legend|ਹਟਾਓ
+historywarning|'''ਖ਼ਬਰਦਾਰ:''' ਜੋ ਸਫ਼ਾ ਤੁਸੀਂ ਮਿਟਾਉਣ ਜਾ ਰਹੇ ਹੋ ਉਸਦਾ ਅਤੀਤ ਤਕਰੀਬਨ ~{0} {{PLURAL:~{0}\u007Cਰੀਵਿਜ਼ਨ\u007Cਰੀਵਿਜ਼ਨਾਂ}} ਦਾ ਹੈ:
+actioncomplete|ਕਾਰਵਾਈ ਪੂਰੀ ਹੋਈ
+actionfailed|ਕਾਰਵਾਈ ਨਾਕਾਮ
+deletedtext|"~{0}" ਮਿਟਾਇਆ ਜਾ ਚੁੱਕਾ ਹੈ।\nਤਾਜ਼ੀਆਂ ਮਿਟਾਉਣਾਂ ਦੇ ਰਿਕਾਰਡ ਲਈ ~{1} ਵੇਖੋ।
+dellogpage|ਹਟਾਉਣ ਦਾ ਚਿੱਠਾ
+dellogpagetext|ਹੇਠਾਂ ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਮਿਟਾਉਣਾਂ ਦੀ ਲਿਸਟ ਹੈ।
+deletionlog|ਮਿਟਾਉਣਾਂ ਦਾ ਚਿੱਠਾ
+deletecomment|ਕਾਰਨ:
+deleteotherreason|ਹੋਰ/ਵਾਧੂ ਕਾਰਨ:
+deletereasonotherlist|ਹੋਰ ਕਾਰਨ
+deletereason-dropdown|*ਮਿਟਾਉਣ ਦੇ ਆਮ ਕਾਰਨ\n**ਲੇਖਕ ਦੇ ਕਹਿਣ ’ਤੇ\n**ਕਾਪੀਰਾਈਟ ਦੀ ਉਲੰਘਣਾ\n**ਵੰਦਾਲਿਜ਼ਮ
+delete-edit-reasonlist|ਮਿਟਾਉਣ ਦੇ ਕਾਰਨ ਸੋਧੋ
+rollback|ਸੋਧਾਂ ਵਾਪਸ ਮੋੜੋ
+rollback_short|ਰੋਲਬੈਕ
+rollbacklink|ਵਾਪਸ ਮੋੜੋ
+rollbacklinkcount|~{0} {{PLURAL:~{0}\u007Cਸੋਧ\u007Cਸੋਧਾਂ}} ਵਾਪਸ ਮੋੜੋ
+rollbacklinkcount-morethan|~{0} ਤੋਂ ਜ਼ਿਆਦਾ {{PLURAL:~{0}\u007Cਸੋਧ\u007Cਸੋਧਾਂ}} ਵਾਪਸ ਮੋੜੋ
+rollbackfailed|ਰੋਲਬੈਕ ਫੇਲ੍ਹ
+editcomment|ਸੋਧ ਸਾਰ ਸੀ: "''$1''"
+protectlogpage|ਸੁਰੱਖਿਆ ਚਿੱਠਾ
+protectedarticle|"[[~{0}]]" ਸੁਰੱਖਿਅਤ ਕੀਤਾ
+modifiedarticleprotection|"[[~{0}]]" ਦੀ ਸੁਰੱਖਿਆ ਬਦਲੀ
+unprotectedarticle|"[[~{0}]]" ਤੋਂ ਸੁਰੱਖਿਆ ਹਟਾਈ
+protect-title|"~{0}" ਦੀ ਸੁਰੱਖਿਆ ਬਦਲੋ
+protect-title-notallowed|"~{0}" ਦਾ ਸੁਰੱਖਿਆ ਦਰਜਾ ਵੇਖੋ
+prot_1movedto2|[[~{0}]] ਨੂੰ [[~{1}]] ’ਤੇ ਭੇਜਿਆ
+protect-badnamespace-title|ਨਾ-ਸੁਰੱਖਿਆਯੋਗ ਥਾਂ-ਨਾਮ
+protect-badnamespace-text|ਇਸ ਥਾਂ-ਨਾਮ ਵਿਚਲੇ ਸਫ਼ੇ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ।
+protect-legend|ਸੁਰੱਖਿਆ ਪੁਸ਼ਟੀ
+protectcomment|ਕਾਰਨ:
+protectexpiry|ਮਿਆਦ:
+protect_expiry_invalid|ਖ਼ਤਮ ਹੋਣ ਦਾ ਸਮਾਂ ਗ਼ਲਤ ਹੈ।
+protect_expiry_old|ਖ਼ਤਮ ਹੋਣ ਦਾ ਸਮਾਂ ਗੁਜ਼ਰਿਆ ਹੋਇਆ ਹੈ।
+protect-text|ਇੱਥੇ ਸ਼ਾਇਦ ਤੁਸੀਂ ਸਫ਼ਾ '''~{0}''' ਦਾ ਸੁਰੱਖਿਆ ਦਰਜਾ ਵੇਖ ਅਤੇ ਬਦਲ ਸਕਦੇ ਹੋ।
+protect-default|ਸਭ ਯੂਜ਼ਰ ਮਨਜ਼ੂਰ
+protect-fallback|"~{0}" ਅਧਿਕਾਰ ਲੋੜੀਦਾ ਹੈ
+protect-level-autoconfirmed|ਨਵੇਂ ਤੇ ਗੈਰ-ਰਜਿਸਟਰ ਵਰਤੋਂਕਾਰਾਂ ਉੱਤੇ ਪਾਬੰਦੀ
+protect-level-sysop|ਕੇਵਲ ਪਰਸ਼ਾਸ਼ਕ ਹੀ ਮਨਜ਼ੂਰ
+protect-summary-cascade|ਕਾਸਕੇਡਿੰਗ
+protect-cascade|ਇਸ ਸਫ਼ੇ ਵਿਚ ਸ਼ਾਮਲ ਸਫ਼ੇ ਸੁਰੱਖਿਅਤ ਕਰੋ (ਕਾਸਕੇਡਿੰਗ ਸੁਰੱਖਿਆ)
+protect-cantedit|ਤੁਸੀਂ ਇਸ ਸਫ਼ੇ ਦਾ ਸੁਰੱਖਿਆ ਦਰਜਾ ਨਹੀਂ ਬਦਲ ਸਕਦੇ ਕਿਉਂਕਿ ਤੁਹਾਨੂੰ ਇਸਨੂੰ ਸੋਧਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।
+protect-othertime|ਹੋਰ ਸਮਾਂ:
+protect-othertime-op|ਹੋਰ ਸਮਾਂ
+protect-existing-expiry|ਖ਼ਤਮ ਹੋਣ ਦਾ ਮੌਜੂਦਾ ਸਮਾਂ: ~{1}, ~{2}
+protect-otherreason|ਹੋਰ/ਵਾਧੂ ਕਾਰਨ:
+protect-otherreason-op|ਹੋਰ ਕਾਰਨ
+protect-edit-reasonlist|ਸੁਰੱਖਿਆ ਦੇ ਕਾਰਨ ਸੋਧੋ
+protect-expiry-options|੧ ਘੰਟਾ:1 hour,੧ ਦਿਨ:1 day,੧ ਹਫ਼ਤਾ:1 week,੨ ਹਫ਼ਤੇ:2 weeks,੧ ਮਹੀਨਾ:1 month,੩ ਮਹੀਨੇ:3 months,੬ ਮਹੀਨੇ:6 months,੧ ਸਾਲ:1 year,ਬੇਹੱਦ:infinite
+restriction-type|ਅਧਿਕਾਰ:
+restriction-level|ਪਾਬੰਦੀ ਪੱਧਰ:
+minimum-size|ਘੱਟੋ-ਘੱਟ ਆਕਾਰ
+maximum-size|ਵੱਧੋ-ਵੱਧ ਆਕਾਰ:
+pagesize|(ਬਾਈਟ)
+restriction-edit|ਸੋਧ
+restriction-move|ਭੇਜੋ
+restriction-create|ਬਣਾਓ
+restriction-upload|ਅੱਪਲੋਡ
+restriction-level-sysop|ਪੂਰਾ ਸੁਰੱਖਿਅਤ
+restriction-level-autoconfirmed|ਅਰਧ-ਸੁਰੱਖਿਅਤ
+restriction-level-all|ਕੋਈ ਲੈਵਲ
+undelete|ਮਿਟਾਏ ਹੋਏ ਸਫ਼ੇ ਵੇਖੋ
+undeletepage|ਮਿਟਾਏ ਹੋਏ ਸਫ਼ੇ ਵੇਖੋ ਅਤੇ ਮੁੜ ਬਹਾਲ ਕਰੋ
+viewdeletedpage|ਮਿਟਾਏ ਹੋਏ ਸਫ਼ੇ ਵੇਖੋ
+undelete-fieldset-title|ਰੀਵਿਜ਼ਨਾਂ ਮੁੜ ਬਹਾਲ ਕਰੋ
+undelete-nodiff|ਕੋਈ ਪਿਛਲੀ ਰੀਵਿਜ਼ਨ ਨਹੀਂ ਲੱਭੀ
+undeletebtn|ਮੁੜ-ਸਟੋਰ
+undeletelink|ਵੇਖੋ/ਮੁੜ ਬਹਾਲ ਕਰੋ
+undeleteviewlink|ਵੇਖੋ
+undeletereset|ਮੁੜ-ਸੈੱਟ
+undeletecomment|ਕਾਰਨ:
+undelete-header|ਤਾਜ਼ੇ ਹਟਾਏ ਗਏ ਪੰਨਿਆਂ ਲਈ [[Special:Log/\ndelete\u007Cਹਟਾਉਣ ਦਾ ਚਿੱਠਾ]] ਵੇਖੋ।
+undelete-search-title|ਮਿਟਾਏ ਹੋਏ ਸਫ਼ੇ ਖੋਜੋ
+undelete-search-box|ਮਿਟਾਏ ਹੋਏ ਸਫ਼ੇ ਖੋਜੋ
+undelete-search-submit|ਖੋਜ
+undelete-show-file-submit|ਹਾਂ
+namespace|ਥਾਂ-ਨਾਮ:
+invert|ਉਲਟ ਚੋਣ
+contributions|{{GENDER:~{0}\u007Cਮੈਂਬਰ}} ਯੋਗਦਾਨ
+contributions-title|~{0} ਦੇ ਯੋਗਦਾਨ
+mycontris|ਯੋਗਦਾਨ
+contribsub2|~{0} (~{1}) ਲਈ
+uctop|(ਟੀਸੀ)
+month|ਇਸ (ਅਤੇ ਪਿਛਲੇ) ਮਹੀਨੇ ਤੋਂ :
+year|ਇਸ (ਅਤੇ ਪਿਛਲੇ) ਸਾਲ ਤੋਂ :
+sp-contributions-newbies|ਸਿਰਫ਼ ਨਵੇਂ ਵਰਤੋਂਕਾਰਾਂ ਦੇ ਯੋਗਦਾਨ ਵਖਾਓ
+sp-contributions-newbies-sub|ਨਵੇਂ ਖਾਤਿਆਂ ਲਈ
+sp-contributions-blocklog|ਪਾਬੰਦੀ ਚਿੱਠਾ
+sp-contributions-uploads|ਅੱਪਲੋਡ
+sp-contributions-logs|ਲਾਗ
+sp-contributions-talk|ਚਰਚਾ
+sp-contributions-blocked-notice|ਇਹ ਮੈਂਬਰ ਇਸ ਵੇਲ਼ੇ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੈ।\nਪਾਬੰਦੀ ਚਿੱਠੇ ਦਾ ਤਾਜ਼ਾ ਦਾਖ਼ਲਾ ਹਵਾਲੇ ਲਈ ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+sp-contributions-blocked-notice-anon|ਇਹ IP ਪਤਾ ਇਸ ਵੇਲ਼ੇ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੈ।\nਪਾਬੰਦੀ ਚਿੱਠੇ ਦਾ ਤਾਜ਼ਾ ਦਾਖ਼ਲਾ ਹਵਾਲੇ ਲਈ ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+sp-contributions-search|ਯੋਗਦਾਨ ਖੋਜੋ
+sp-contributions-username|IP ਪਤਾ ਜਾਂ ਵਰਤੋਂਕਾਰਨਾਮ:
+sp-contributions-toponly|ਕੇਵਲ ਉਨ੍ਹਾਂ ਸੰਪਾਦਨਾਂ ਨੂੰ ਵਖਾਓ ਜੋ ਨਵੀਨਤਮ ਸੰਸ਼ੋਧਨ ਹਨ
+sp-contributions-submit|ਖੋਜ
+whatlinkshere|ਕਿਹੜੇ (ਪੰਨੇ) ਇੱਥੇ ਜੋੜਦੇ ਹਨ
+whatlinkshere-title|~{0} ਨਾਲ ਜੋੜਨ ਵਾਲੇ ਪੰਨੇ
+whatlinkshere-page|ਪੰਨਾ:
+linkshere|ਇਹ ਪੰਨੇ '''[[:~{0}]]''' ਨਾਲ ਜੋੜਦੇ ਹਨ:
+nolinkshere|ਕੋਈ ਵੀ ਪੰਨਾ '''[[:~{0}]]''' ਨਾਲ ਨਹੀਂ ਜੋੜਦਾ।
+isredirect|ਰੀਡਿਰੈਕਟ ਪੰਨਾ
+istemplate|ਟਾਕਰਾ ਕਰੋ
+isimage|ਫਾਈਲ ਲਿੰਕ
+whatlinkshere-prev|{{PLURAL:~{0}\u007Cਪਿਛਲਾ\u007Cਪਿਛਲੇ ~{0}}}
+whatlinkshere-next|{{PLURAL:~{0}\u007Cਅਗਲਾ\u007Cਅਗਲੇ ~{0}}}
+whatlinkshere-links|← ਲਿੰਕ
+whatlinkshere-hideredirs|ਅਸਿੱਧੇ ਰਾਹ ~{0}
+whatlinkshere-hidetrans|~{0} ਇੱਥੇ ਕੀ ਕੀ ਜੁੜਦਾ ਹੈ।
+whatlinkshere-hidelinks|~{0} ਲਿੰਕ
+whatlinkshere-hideimages|ਫ਼ਾਈਲ ਲਿੰਕ ~{0}
+whatlinkshere-filters|ਫਿਲਟਰ
+blockip|ਪਾਬੰਦੀਸ਼ੁਦਾ ਵਰਤੋਂਕਾਰ
+ipadressorusername|IP ਐਡਰੈਸ ਜਾਂ ਯੂਜ਼ਰ ਨਾਂ:
+ipbexpiry|ਮਿਆਦ:
+ipbreason|ਕਾਰਨ:
+ipbreasonotherlist|ਹੋਰ ਕਾਰਨ
+ipbsubmit|ਇਹ ਯੂਜ਼ਰ ਲਈ ਪਾਬੰਦੀ
+ipbother|ਹੋਰ ਟਾਈਮ:
+ipboptions|2 ਘੰਟੇ:2 hours, 1 ਦਿਨ:1 day, 3 ਦਿਨ:3 days, 1 ਹਫ਼ਤਾ:1 week, 2 ਹਫ਼ਤੇ:2 weeks, 2 ਮਹੀਨਾ:1 month, 3 ਮਹੀਨੇ:3 months, 6 ਮਹੀਨੇ:6 months, 1 ਸਾਲ:1 year, ਹਮੇਸ਼ਾ ਲਈ:infinite
+ipbotheroption|ਹੋਰ
+ipbotherreason|ਹੋਰ/ਆਮ ਕਾਰਨ:
+ipbwatchuser|ਇਸ ਮੈਂਬਰ ਦੇ ਮੈਂਬਰ ਅਤੇ ਗੱਲ-ਬਾਤ ਸਫ਼ਿਆਂ ਤੇ ਨਜ਼ਰ ਰੱਖੋ
+ipb-confirm|ਪਾਬੰਦੀ ਤਸਦੀਕ ਕਰੋ
+badipaddress|ਗਲਤ IP ਐਡਰੈੱਸ
+blockipsuccesssub|ਪਾਬੰਦੀ ਕਾਮਯਾਬ
+ipb-edit-dropdown|ਪਾਬੰਦੀ ਲਾਉਣ ਦੇ ਕਾਰਨ ਸੋਧੋ
+ipb-unblock-addr|~{0} ਤੋਂ ਪਾਬੰਦੀ ਹਟਾਓ
+ipb-unblock|ਇੱਕ ਯੂਜ਼ਰ ਨਾਂ ਜਾਂ IP ਐਡਰੈੱਸ ਅਣ-ਬਲਾਕ ਕਰੋ
+ipb-blocklist|ਮੌਜੂਦਾ ਪਾਬੰਦੀਆਂ ਵੇਖੋ
+ipb-blocklist-contribs|~{0} ਦੇ ਯੋਗਦਾਨ
+unblockip|ਯੂਜ਼ਰ ਅਣ-ਬਲਾਕ ਕਰੋ
+ipusubmit|ਇਹ ਪਾਬੰਦੀ ਹਟਾਓ
+unblocked|[[User:~{0}\u007C~{0}]] ਪਾਬੰਦੀ ਮੁਕਤ ਹੋ ਚੁੱਕਾ ਹੈ
+unblocked-range|~{0} ਪਾਬੰਦੀ ਮੁਕਤ ਹੋ ਚੁੱਕੀ ਹੈ
+unblocked-id|ਪਾਬੰਦੀ ~{0} ਹਟ ਚੁੱਕੀ ਹੈ
+blocklist|ਪਾਬੰਦੀਸ਼ੁਦਾ ਮੈਂਬਰ
+ipblocklist|ਪਾਬੰਦੀਸ਼ੁਦਾ ਵਰਤੋਂਕਾਰ
+ipblocklist-legend|ਪਾਬੰਦੀਸ਼ੁਦਾ ਮੈਂਬਰ ਲੱਭੋ
+blocklist-userblocks|ਖਾਤਾ ਪਾਬੰਦੀਆਂ ਲੁਕਾਓ
+blocklist-tempblocks|ਆਰਜ਼ੀ ਪਾਬੰਦੀਆਂ ਲੁਕਾਓ
+blocklist-timestamp|ਵਕਤ ਦੀ ਮੋਹਰ
+blocklist-target|ਨਿਸ਼ਾਨਾ
+blocklist-by|ਪਾਬੰਦੀ ਲਾਉਣ ਵਾਲ਼ਾ ਐਡਮਿਨ
+blocklist-reason|ਕਾਰਨ
+ipblocklist-submit|ਖੋਜ
+ipblocklist-otherblocks|ਹੋਰ {{PLURAL:~{0}\u007Cਪਾਬੰਦੀ\u007Cਪਾਬੰਦੀਆਂ}}
+infiniteblock|ਬੇਅੰਤ
+expiringblock|ਮਿਆਦ ਖ਼ਤਮ ~{0} ਨੂੰ ~{1} ’ਤੇ
+anononlyblock|anon. ਹੀ
+createaccountblock|ਖਾਤਾ ਬਣਾਉਣਾ ’ਤੇ ਪਾਬੰਦੀ ਹੈ
+emailblock|ਈਮੇਲ ਬਲਾਕ ਹੈ
+blocklist-nousertalk|ਆਪਣਾ ਗੱਲ-ਬਾਤ ਸਫ਼ਾ ਨਹੀਂ ਸੋਧ ਸਕਦਾ
+ipblocklist-empty|ਪਾਬੰਦੀ ਲਿਸਟ ਖ਼ਾਲੀ ਹੈ।
+ipblocklist-no-results|ਦਿੱਤੇ ਗਏ IP ਪਤੇ ਜਾਂ ਮੈਂਬਰ-ਨਾਂ ’ਤੇ ਪਾਬੰਦੀ ਨਹੀਂ ਹੈ।
+blocklink|ਪਾਬੰਦੀ ਲਾਓ
+unblocklink|ਪਾਬੰਦੀ ਰੱਦ ਕਰੋ
+change-blocklink|ਪਾਬੰਦੀ ਬਦਲੋ
+contribslink|ਯੋਗਦਾਨ
+emaillink|ਈ-ਮੇਲ ਭੇਜੋ
+blocklogpage|ਪਾਬੰਦੀ ਚਿੱਠਾ
+blocklog-showlog|ਇਸ ਮੈਂਬਰ ’ਤੇ ਪਹਿਲਾਂ ਪਾਬੰਦੀ ਲਾਈ ਗਈ ਸੀ।\nਪਾਬੰਦੀ ਦਾ ਚਿੱਠਾ ਹਵਾਲੇ ਲਈ ਹੇਠਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ:
+blocklogentry|[[~{0}]] ’ਤੇ ~{1} ਲਈ ਪਾਬੰਦੀ ਲਾਈ। ~{2}
+unblocklogentry|~{0} ਤੋਂ ਪਾਬੰਦੀ ਹਟਾਈ
+block-log-flags-anononly|ਸਿਰਫ਼ ਗੁੰਮਨਾਮ ਮੈਂਬਰ
+block-log-flags-nocreate|ਖਾਤਾ ਬਣਾਉਣ ’ਤੇ ਪਾਬੰਦੀ ਹੈ
+block-log-flags-nousertalk|ਆਪਣਾ ਗੱਲ-ਬਾਤ ਸਫ਼ਾ ਨਹੀਂ ਸੋਧ ਸਕਦਾ
+block-log-flags-hiddenname|ਮੈਂਬਰ-ਨਾਂ ਲੁਕਾਇਆ
+ipb_expiry_invalid|ਖ਼ਤਮ ਹੋਣ ਦਾ ਸਮਾਂ ਗ਼ਲਤ।
+ipb_already_blocked|"~{0}" ਪਹਿਲਾਂ ਹੀ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੈ
+ipb-needreblock|~{0} ਪਹਿਲਾਂ ਹੀ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੈ। ਕੀ ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਬਦਲਣੀਆਂ ਚਾਹੁੰਦੇ ਹੋ?
+ipb-otherblocks-header|ਹੋਰ {{PLURAL:~{0}\u007Cਪਾਬੰਦੀ\u007Cਪਾਬੰਦੀਆਂ}}
+unblock-hideuser|ਤੁਸੀਂ ਇਸ ਮੈਂਬਰ ’ਤੇ ਪਾਬੰਦੀ ਨਹੀਂ ਲਾ ਸਕਦੇ ਕਿਉਂਕਿ ਇਸਦਾ ਮੈਂਬਰ-ਨਾਂ ਲੁਕਾਇਆ ਹੋਇਆ ਹੈ।
+ipb_cant_unblock|ਗ਼ਲਤੀ: ਪਾਬੰਦੀ ਪਤਾ ~{0} ਨਹੀਂ ਲੱਭਿਆ। ਸ਼ਾਇਦ ਇਹ ਪਹਿਲਾਂ ਹੀ ਪਾਬੰਦੀ-ਮੁਕਤ ਹੋ ਚੁੱਕਾ ਹੈ।
+blockme|ਮੇਰੇ ’ਤੇ ਪਾਬੰਦੀ ਲਾਓ
+proxyblocksuccess|ਪੂਰਾ ਹੋਇਆ
+cant-block-while-blocked|ਤੁਸੀਂ ਦੂਜੇ ਮੈਂਬਰਾਂ ’ਤੇ ਪਾਬੰਦੀ ਨਹੀਂ ਲਾ ਸਕਦੇ ਜਦੋਂ ਤੁਸੀਂ ਖ਼ੁਦ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੋ।
+ipbblocked|ਤੁਸੀਂ ਦੂਜੇ ਮੈਂਬਰਾਂ ਨੂੰ ਪਾਬੰਦੀਸ਼ੁਦਾ ਜਾਂ ਪਾਬੰਦੀ-ਮੁਕਤ ਨਹੀਂ ਕਰ ਸਕਦੇ ਕਿਉਂਕਿ ਤੁਸੀਂ ਖ਼ੁਦ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹੋ
+ipbnounblockself|ਤੁਹਾਨੂੰ ਖ਼ੁਦ ਨੂੰ ਪਾਬੰਦੀ-ਮੁਕਤ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ
+lockdb|ਡਾਟਾਬੇਸ ਲਾਕ
+move-page-legend|ਸਫ਼ਾ ਭੇਜੋ
+movearticle|ਸਫ਼ਾ ਭੇਜੋ:
+movenologin|ਲਾਗਇਨ ਨਹੀਂ ਹੋ
+movenologintext|ਇਕ ਸਫ਼ੇ ਦਾ ਸਿਰਲੇਖ ਬਦਲਣ ਲਈ ਤੁਸੀਂ ਰਜਿਸਟਰਡ ਮੈਂਬਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹੋ ਅਤੇ [[Special:UserLogin\u007Cਲਾਗਇਨ]] ਕੀਤਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+newtitle|ਨਵੇਂ ਟਾਈਟਲ ਲਈ:
+move-watch|ਸਰੋਤ ਤੇ ਟਾਰਗੇਟ ਸਫ਼ੇ ਉੱਤੇ ਨਿਗਰਾਨੀ ਰੱਖੋ
+movepagebtn|ਸਫ਼ਾ ਭੇਜੋ
+pagemovedsub|ਭੇਜਣਾ ਸਫ਼ਲ ਰਿਹਾ
+movepage-moved|'''"~{0}" ਨੂੰ  "~{1}"''' ਉੱਤੇ ਭੇਜਿਆ
+movepage-moved-redirect|ਇੱਕ ਰੀਡਿਰੈਕਟ ਬਣਾ ਦਿੱਤਾ ਗਿਆ।
+articleexists|ਇਸ ਨਾਮ ਦਾ ਸਫ਼ਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ ਜਾਂ ਤੁਹਾਡਾ ਚੁਣਿਆ ਹੋਇਆ ਨਾਮ ਸਹੀ ਨਹੀਂ ਹੈ।\nਮਿਹਰਬਾਨੀ ਕਰਕੇ ਕੋਈ ਹੋਰ ਨਾਮ ਚੁਣੋ।
+movedto|ਭੇਜਿਆ
+movepage-page-moved|ਸਫ਼ਾ ~{0} ਨੂੰ ~{1} ’ਤੇ ਭੇਜਿਆ ਜਾ ਚੁੱਕਾ ਹੈ।
+movelogpage|ਸਿਰਲੇਖ ਬਦਲੀ ਦਾ ਚਿੱਠਾ
+movereason|ਕਾਰਨ:
+revertmove|ਉਲਟਾਓ
+delete_and_move|ਹਟਾਓ ਅਤੇ ਮੂਵ ਕਰੋ
+delete_and_move_confirm|ਹਾਂ, ਸਫ਼ਾ ਮਿਟਾ ਦੇਵੋ
+move-leave-redirect|ਪਿੱਛੇ ਇਕ ਰੀਡਿਰੈਕਟ ਛੱਡੋ
+export|ਪੰਨੇ ਐਕਸਪੋਰਟ ਕਰੋ
+exportcuronly|ਸਿਰਫ਼ ਮੌਜੂਦਾ ਰੀਵਿਜ਼ਨ ਸ਼ਾਮਲ ਕਰੋ, ਸਾਰਾ ਅਤੀਤ ਨਹੀਂ
+export-submit|ਐਕਸਪੋਰਟ
+export-addcat|ਸ਼ਾਮਲ
+export-addns|ਸ਼ਾਮਲ
+export-download|ਫਾਇਲ ਵਜੋਂ ਸੰਭਾਲੋ
+export-templates|ਸਾਂਚੇ ਸ਼ਾਮਲ ਕਰੋ
+allmessages|ਸਿਸਟਮ ਸੁਨੇਹੇ
+allmessagesname|ਨਾਮ
+allmessagesdefault|ਡਿਫਾਲਟ ਪਾਠ
+allmessagescurrent|ਮੌਜੂਦਾ ਟੈਕਸਟ
+allmessages-filter-legend|ਫਿਲਟਰ
+allmessages-filter-all|ਸਭ
+allmessages-language|ਭਾਸ਼ਾ:
+allmessages-filter-submit|ਜਾਓ
+filemissing|ਫਾਇਲ ਗੁੰਮ ਹੈ
+thumbnail_error|ਨਮੂਨਾ ਬਣਾਉਣ ਵਿੱਚ ਗਲਤੀ ਹੋਈ ਹੈ: ~{0}
+import|ਪੇਜ ਇੰਪੋਰਟ ਕਰੋ
+import-interwiki-submit|ਇੰਪੋਰਟ
+import-comment|ਟਿੱਪਣੀ:
+importstart|ਪੇਜ ਇੰਪੋਰਟ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ...
+import-revision-count|~{0} {{PLURAL:~{0}\u007Cਰੀਵਿਜ਼ਨ\u007Cਰੀਵਿਜ਼ਨਾਂ}}
+importfailed|ਇੰਪੋਰਟ ਫੇਲ੍ਹ: ~{0}
+importnotext|ਖਾਲੀ ਜਾਂ ਕੋਈ ਟੈਕਸਟ ਨਹੀਂ
+importsuccess|ਇੰਪੋਰਟ ਸਫ਼ਲ!
+importnofile|ਕੋਈ ਇੰਪੋਰਟ ਫਾਇਲ ਅੱਪਲੋਡ ਨਹੀਂ ਕੀਤੀ।
+importlogpage|ਇੰਪੋਰਟ ਲਾਗ
+import-logentry-upload-detail|~{0} ਰੀਵਿਜਨ
+tooltip-pt-userpage|ਤੁਹਾਡਾ ਵਰਤੋਂਕਾਰ ਪੰਨਾ
+tooltip-pt-mytalk|ਤੁਹਾਡਾ ਚਰਚਾ ਪੰਨਾ
+tooltip-pt-preferences|ਤੁਹਾਡੀਆਂ ਪਸੰਦਾਂ
+tooltip-pt-watchlist|ਓਹਨਾਂ ਪੰਨਿਆਂ ਦੀ ਸੂਚੀ ਜੋ ਤੁਸੀਂ ਤਬਦੀਲੀਆਂ ਲਈ ਵੇਖ ਰਹੇ ਹੋ
+tooltip-pt-mycontris|ਤੁਹਾਡੇ ਯੋਗਦਾਨਾਂ ਦੀ ਲਿਸਟ
+tooltip-pt-login|ਤੁਹਾਨੂੰ ਲਾਗਇਨ ਕਰਨ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ; ਪਰ ਇਹ ਕੋਈ ਲਾਜ਼ਮੀ ਨਹੀਂ
+tooltip-pt-anonlogin|ਤੁਹਾਨੂੰ ਲਾਗਇਨ ਕਰਨ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ; ਪਰ ਇਹ ਕੋਈ ਲਾਜ਼ਮੀ ਨਹੀਂ ਹੈ
+tooltip-pt-logout|ਲਾਗ ਆਉਟ
+tooltip-ca-talk|ਸਮਗੱਰੀ ਪੰਨੇ ਬਾਰੇ ਚਰਚਾ
+tooltip-ca-edit|ਤੁਸੀ ਇਹ ਪੰਨਾ ਬਦਲ ਸਕਦੇ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਤਬਦੀਲੀ ਸੰਜੋਣ ਤੋਂ ਪਹਿਲਾਂ ਝਲਕ ਵੇਖੋ।
+tooltip-ca-addsection|ਨਵਾਂ ਭਾਗ ਸ਼ੁਰੂ ਕਰੋ
+tooltip-ca-viewsource|ਇਹ ਪੰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ।\nਤੁਸੀਂ ਇਸਦਾ ਸਰੋਤ ਵੇਖ ਸਕਦੇ ਹੋ।
+tooltip-ca-history|ਇਸ ਪੰਨੇ ਦੇ ਪਿਛਲੇ ਰੀਵਿਜਨ
+tooltip-ca-protect|ਇਹ ਪੰਨਾ ਸੁਰੱਖਿਅਤ ਕਰੋ
+tooltip-ca-unprotect|ਇਸ ਸਫ਼ੇ ਦੀ ਸੁਰੱਖਿਆ ਬਦਲੋ
+tooltip-ca-delete|ਇਹ ਪੰਨਾ ਨੂੰ ਹਟਾਓ
+tooltip-ca-move|ਇਹ ਪੰਨਾ ਮੁੰਤਕਿਲ ਕਰੋ
+tooltip-ca-watch|ਇਹ ਪੰਨਾ ਆਪਣੀ ਧਿਆਨਸੂਚੀ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ
+tooltip-ca-unwatch|ਇਹ ਪੰਨਾ ਆਪਣੀ ਧਿਆਨਸੂਚੀ ’ਚੋਂ ਹਟਾਓ
+tooltip-search|{{SITENAME}} ’ਤੇ ਖੋਜੋ
+tooltip-search-go|ਠੀਕ ਇਸ ਨਾਮ ਵਾਲੇ ਪੰਨੇ ’ਤੇ ਜਾਉ, ਜੇ ਮੌਜੂਦ ਹੈ ਤਾਂ
+tooltip-search-fulltext|ਇਸ ਲਿਖਤ ਲਈ ਪੰਨੇ ਲੱਭੋ
+tooltip-p-logo|ਮੁੱਖ ਪੰਨੇ ’ਤੇ ਜਾਓ
+tooltip-n-mainpage|ਮੁੱਖ ਪੰਨੇ ’ਤੇ ਜਾਓ
+tooltip-n-mainpage-description|ਮੁੱਖ ਪੰਨੇ ’ਤੇ ਜਾਓ
+tooltip-n-portal|ਪ੍ਰੋਜੈਕਟ ਬਾਰੇ, ਤੁਸੀਂ ਕੀ ਕਰ ਸਕਦੇ ਹੋ, ਕਿੱਥੇ ਕੁਝ ਲੱਭਣਾ ਹੈ
+tooltip-n-currentevents|ਮੌਜੂਦਾ ਸਮਾਗਮ ਬਾਰੇ ਪਿਛਲੀ ਜਾਣਕਾਰੀ ਲੱਭੋ
+tooltip-n-recentchanges|ਵਿਕੀ ਵਿੱਚ ਹਾਲ ’ਚ ਹੋਈਆਂ ਬਦਲੀਆਂ ਦੀ ਸੂਚੀ
+tooltip-n-randompage|ਇੱਕ ਰਲਵਾਂ ਪੰਨਾ ਲੋਡ ਕਰੋ
+tooltip-n-help|ਖੋਜਣ ਲਈ ਥਾਂ
+tooltip-t-whatlinkshere|ਵਿਕੀ ਦੇ ਸਾਰੇ ਪੰਨਿਆਂ ਦੀ ਸੂਚੀ, ਜੋ ਇੱਥੇ ਜੋੜਦੇ ਹਨ
+tooltip-t-recentchangeslinked|ਇਸ ਪੰਨੇ ਤੋਂ ਲਿੰਕ ਕੀਤੇ ਪੰਨਿਆਂ ਵਿੱਚ ਤਾਜ਼ਾ ਤਬਦੀਲੀਆਂ
+tooltip-feed-atom|ਇਸ ਪੰਨੇ ਦੀ ਐਟਮ ਫ਼ੀਡ
+tooltip-t-contributions|ਇਸ ਵਰਤੋਂਕਾਰ ਦੇ ਯੋਗਦਾਨ ਦੀ ਸੂਚੀ
+tooltip-t-emailuser|ਇਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਈ-ਮੇਲ ਭੇਜੋ
+tooltip-t-upload|ਤਸਵੀਰ ਜਾਂ ਮੀਡੀਆ ਫ਼ਾਈਲਾਂ ਅਪਲੋਡ ਕਰੋ
+tooltip-t-specialpages|ਸਾਰੇ ਖ਼ਾਸ ਪੰਨਿਆਂ ਦੀ ਲਿਸਟ
+tooltip-t-print|ਇਹ ਪੰਨੇ ਦਾ ਛਪਣਯੋਗ ਵਰਜਨ
+tooltip-t-permalink|ਪੰਨੇ ਦੇ ਇਸ ਰੀਵਿਜਨ ਲਈ ਪੱਕਾ ਲਿੰਕ
+tooltip-ca-nstab-main|ਸਮੱਗਰੀ ਪੰਨਾ ਵੇਖੋ
+tooltip-ca-nstab-user|ਵਰਤੋਂਕਾਰ ਪੰਨਾ ਵੇਖੋ
+tooltip-ca-nstab-media|ਮੀਡਿਆ ਪੇਜ ਵੇਖੋ
+tooltip-ca-nstab-special|ਇਹ ਵਿਸ਼ੇਸ਼ ਪੰਨਾ ਹੈ, ਤੁਸੀਂ ਇਸ ਪੰਨੇ ਨੂੰ ਬਦਲ ਨਹੀਂ ਸਕਦੇ।
+tooltip-ca-nstab-project|ਪ੍ਰੋਜੈਕਟ ਪੰਨਾ ਵੇਖੋ
+tooltip-ca-nstab-image|ਫਾਈਲ ਪੰਨਾ ਵੇਖੋ
+tooltip-ca-nstab-mediawiki|ਸਿਸਟਮ ਸੁਨੇਹੇ ਵੇਖੋ
+tooltip-ca-nstab-template|ਸਾਂਚਾ ਵੇਖੋ
+tooltip-ca-nstab-help|ਮਦਦ ਪੰਨਾ ਵੇਖੋ
+tooltip-ca-nstab-category|ਸ਼੍ਰੇਣੀ ਪੰਨਾ ਵੇਖੋ
+tooltip-minoredit|ਇਸ ’ਤੇ ਬਤੌਰ ਛੋਟਾ ਬਦਲਾਵ ਨਿਸ਼ਾਨ ਲਾਓ
+tooltip-save|ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਸਾਂਭੋ
+tooltip-preview|ਆਪਣੇ ਬਦਲਾਵ ਦੀ ਝਲਕ ਵੇਖੋ, ਸਾਂਭਣ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਵਰਤੋਂ!
+tooltip-diff|ਤੁਹਾਡੇ ਦੁਆਰਾ ਲਿਖਤ ਵਿੱਚ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਵਖਾਉਂਦਾ ਹੈ
+tooltip-compareselectedversions|ਇਸ ਪੰਨੇ ਦੇ ਦੋ ਚੁਣੇ ਹੋਏ ਸੋਧਾਂ ਵਿੱਚ ਫ਼ਰਕ ਵੇਖੋ
+tooltip-watch|ਇਸ ਪੰਨੇ ਨੂੰ ਆਪਣੀ ਧਿਆਨਸੂਚੀ ਵਿੱਚ ਪਾਓ
+tooltip-watchlistedit-normal-submit|ਸਿਰਲੇਖ ਹਟਾਓ
+tooltip-watchlistedit-raw-submit|ਨਿਗਰਾਨੀ-ਲਿਸਟ ਤਾਜ਼ਾ ਕਰੋ
+tooltip-upload|ਅਪਲੋਡ ਸ਼ੁਰੂ ਕਰੋ
+tooltip-rollback|''ਵਾਪਸ ਮੋੜੋ'' ਇੱਕ ਹੀ ਕਲਿੱਕ ਨਾਲ ਆਖਰੀ ਯੋਗਦਾਨ ਨੂੰ ਰੱਦ ਕਰ ਦਿੰਦਾ ਹੈ
+tooltip-undo|"ਉਧੇੜਨਾ" ਇਸ ਬਦਲਾਵ ਨੂੰ ਰੱਦ ਕਰਕੇ ਸੋਧ ਫ਼ਾਰਮ ਨੂੰ ਝਲਕ ਦੇ ਸ਼ੈਲੀ ਵਿੱਚ ਦਿਖਾਉਂਦਾ ਹੈ।\nਇੰਝ "ਸਾਰ" ਵਿੱਚ ਬਦਲਾਵ ਨਕਾਰਨ ਦਾ ਕਾਰਨ ਲਿਖਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+tooltip-preferences-save|ਪਸੰਦ ਸੰਭਾਲੋ
+tooltip-summary|ਸੰਖੇਪ ਸਾਰ ਦਰਜ ਕਰੋ
+lastmodifiedatby|ਇਹ ਸਫ਼ਾ ਆਖ਼ਰੀ ਵਾਰ ~{0} ਨੂੰ ~{1} ’ਤੇ ~{2} ਨੇ ਸੋਧਿਆ ਸੀ।
+others|ਹੋਰ
+siteusers|{{SITENAME}} {{PLURAL:~{1}\u007Cਵਰਤੋਂਕਾਰ\u007Cਵਰਤੋਂਕਾਰਾਂ}} ~{0}
+creditspage|ਪੰਨਾ ਮਾਣ
+spamprotectiontitle|Spam ਸੁਰੱਖਿਆ ਫਿਲਟਰ
+pageinfo-header-edits|ਸੋਧਾਂ ਦਾ ਅਤੀਤ
+pageinfo-article-id|ਪੰਨਾ ਆਈ.ਡੀ
+pageinfo-watchers|ਸਫ਼ੇ ’ਤੇ ਨਜ਼ਰ ਰੱਖਣ ਵਾਲਿਆਂ ਦੀ ਗਿਣਤੀ
+pageinfo-edits|ਕੁੱਲ ਸੋਧਾਂ
+skinname-monobook|ਮੋਨੋਬੁੱਕ
+previousdiff|← ਪੁਰਾਣੀ ਤਬਦੀਲੀ
+nextdiff|ਨਵੀਂ ਤਬਦੀਲੀ →
+thumbsize|ਥੰਮਨੇਲ ਆਕਾਰ:
+widthheightpage|~{0} × ~{1}, ~{2} {{PLURAL:~{2}\u007Cਪੰਨਾ\u007Cਪੰਨੇ}}
+file-info|ਫਾਇਲ ਆਕਾਰ: ~{0}, MIME ਕਿਸਮ: ~{1}
+file-info-size|~{0} × ~{1} ਪਿਕਸਲ, ਫ਼ਾਈਲ ਆਕਾਰ: ~{2}, MIME ਕਿਸਮ: ~{3}
+file-nohires|ਇਸ ਤੋਂ ਵੱਡੀ ਚਿੱਤਰ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+svg-long-desc|SVG ਫ਼ਾਈਲ, ਆਮ ਤੌਰ ’ਤੇ ~{0} × ~{1} ਪਿਕਸਲ, ਫ਼ਾਈਲ ਦਾ ਅਕਾਰ: ~{2}
+show-big-image|ਪੂਰਾ ਰੈਜੋਲੇਸ਼ਨ
+newimages|ਨਵੀਆਂ ਫ਼ਾਈਲਾਂ ਦੀ ਗੈਲਰੀ
+noimages|ਵੇਖਣ ਲਈ ਕੁਝ ਨਹੀਂ
+ilsubmit|ਖੋਜ
+bydate|ਮਿਤੀ ਨਾਲ
+bad_image_list|ਤਰਤੀਬ ਇਸ ਤਰਾਂ ਹੈ:\nਸਿਰਫ਼ ਸੂਚੀ ਵਿਚਲੀਆਂ ਚੀਜ਼ਾਂ (* ਨਾਲ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲੀਆਂ ਕਤਾਰਾਂ) ’ਤੇ ਹੀ ਗ਼ੌਰ ਕੀਤਾ ਜਾਵੇਗਾ।\nਲਾਈਨ ਵਿਚ ਪਹਿਲੀ ਕੜੀ ਗ਼ਲਤ ਫ਼ਾਈਲ ਦੀ ਕੜੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਉਸ ਲਾਈਨ ’ਚ ਅੱਗੇ ਦਿਤੀਆਂ ਕੜੀਆਂ ਨੂੰ ਇਤਰਾਜ਼ਯੋਗ ਮੰਨਿਆ ਜਾਵੇਗਾ, ਭਾਵ ਉਹ ਪੰਨੇ ਜਿਨ੍ਹਾਂ ਵਿਚ ਫ਼ਾਈਲ ਕਿਸੇ ਲਾਈਨ ਵਿਚ ਸਥਿਤ ਹੋ ਸਕਦੀ ਹੈ।
+metadata|ਮੀਟਾਡੈਟਾ
+metadata-help|ਇਸ ਫ਼ਾਈਲ ਵਿੱਚ ਵਾਧੂ ਜਾਣਕਾਰੀਆਂ ਹਨ, ਜੋ ਸ਼ਾਇਦ ਉਸ ਕੈਮਰੇ ਜਾਂ ਸਕੈਨਰ ਦੀ ਦੇਣ ਹਨ ਜੋ ਇਸਨੂੰ ਬਣਾਉਣ ਲਈ ਵਰਤਿਆ ਗਿਆ। ਜੇ ਇਸ ਫ਼ਾਈਲ ਵਿੱਚ ਕੋਈ ਤਬਦੀਲੀ ਕੀਤੀ ਗਈ ਹੈ ਤਾਂ ਹੋ ਸਕਦਾ ਹੈ ਕੁਝ ਵੇਰਵੇ ਬਦਲੀ ਫ਼ਾਈਲ ਦਾ ਸਹੀ ਰੂਪਮਾਨ ਨਾ ਹੋਣ।
+metadata-fields|ਇਸ ਸੁਨੇਹੇ ਵਿੱਚ ਸੂਚੀਬੱਧ ਖੇਤਰ ਚਿੱਤਰ ਪੰਨੇ ’ਚ ਸ਼ਾਮਲ ਕੀਤੇ ਜਾਣਗੇ ਜੋ ਉਦੋਂ ਦਿੱਸਦੇ ਹਨ ਜਦੋ ਮੈਟਾਡੈਟਾ ਖਾਕਾ ਬੰਦ ਹੋਵੇ। ਬਾਕੀ ਉਂਞ ਹੀ ਲੁਕੇ ਹੋਣਗੇ।
+exif-imagewidth|ਚੌੜਾਈ
+exif-imagelength|ਉਚਾਈ
+exif-samplesperpixel|ਭਾਗਾਂ ਦੀ ਗਿਣਤੀ
+exif-imagedescription|ਚਿੱਤਰ ਟਾਇਟਲ
+exif-make|ਕੈਮਰਾ ਨਿਰਮਾਤਾ
+exif-model|ਕੈਮਰਾ ਮਾਡਲ
+exif-software|ਵਰਤਿਆ ਸਾਫਟਵੇਅਰ
+exif-artist|ਲੇਖਕ
+exif-copyright|ਕਾਪੀਰਾਈਟ ਟਾਇਟਲ
+exif-subjectarea|ਵਿਸ਼ਾ ਖੇਤਰ
+exif-gpsdatestamp|GPS ਮਿਤੀ
+exif-unknowndate|ਅਣਜਾਣ ਮਿਤੀ
+exif-exposureprogram-2|ਸਧਾਰਨ ਪਰੋਗਰਾਮ
+exif-meteringmode-0|ਅਣਜਾਣ
+exif-meteringmode-1|ਔਸਤ
+exif-meteringmode-5|ਪੈਟਰਨ
+exif-meteringmode-255|ਹੋਰ
+exif-lightsource-0|ਅਣਜਾਣ
+exif-lightsource-9|ਵਧੀਆ ਮੌਸਮ
+exif-lightsource-10|ਬੱਦਲ ਵਾਲਾ ਮੌਸਮ
+exif-focalplaneresolutionunit-2|ਇੰਚ
+exif-scenecapturetype-0|ਸਟੈਂਡਰਡ
+exif-scenecapturetype-1|ਲੈਂਡਸਕੇਪ
+exif-scenecapturetype-2|ਪੋਰਟਰੇਟ
+exif-subjectdistancerange-0|ਅਣਜਾਣ
+exif-subjectdistancerange-1|ਮਾਈਕਰੋ
+exif-subjectdistancerange-2|ਝਲਕ ਬੰਦ ਕਰੋ
+exif-gpsspeed-k|ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ
+exif-gpsspeed-m|ਮੀਲ ਪ੍ਰਤੀ ਘੰਟਾ
+exif-iimcategory-war|ਯੁੱਧ, ਸੰਘਰਸ਼ ਅਤੇ ਅਸ਼ਾਂਤੀ
+exif-iimcategory-wea|ਮੌਸਮ
+exif-urgency-normal|ਸਧਾਰਨ (~{0})
+edit-externally|ਬਾਹਰੀ ਐਪਲੀਕੇਸ਼ਨ ਵਰਤਦੇ ਹੋਏ ਇਸ ਫਾਈਲ ਨੂੰ ਸੋਧੋ
+edit-externally-help|(ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ [//www.mediawiki.org/wiki/Manual:External_editors setup instructions] ਵੇਖੋ)
+watchlistall2|ਸਭ
+namespacesall|ਸਭ
+monthsall|ਸਭ
+limitall|ਸਭ
+confirmemail|ਈ-ਮੇਲ ਪਤਾ ਤਸਦੀਕ ਕਰੋ
+confirmemail_send|ਇੱਕ ਪੁਸ਼ਟੀ ਕੋਡ ਭੇਜੋ
+confirmemail_sent|ਪੁਸ਼ਟੀ ਈਮੇਲ ਭੇਜੀ ਗਈ।
+confirmemail_invalid|ਗਲਤ ਪੁਸ਼ਟੀ ਕੋਡ ਹੈ। ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਹੋ ਸਕਦੀ ਹੈ।
+confirmemail_loggedin|ਤੁਹਾਡਾ ਈ-ਮੇਲ ਪਤਾ ਹੁਣ ਤਸਦੀਕ ਹੋ ਚੁੱਕਾ ਹੈ।
+confirmemail_subject|{{SITENAME}} ਈ-ਮੇਲ ਪਤਾ ਤਸਦੀਕ
+scarytranscludetoolong|[URL ਬਹੁਤ ਲੰਬਾ ਹੈ]
+recreate|ਮੁੜ-ਬਣਾਓ
+confirm_purge_button|ਠੀਕ ਹੈ
+imgmultipageprev|← ਪਿਛਲਾ ਪੰਨਾ
+imgmultipagenext|ਅਗਲਾ ਪੰਨਾ →
+imgmultigo|ਜਾਓ!
+imgmultigoto|~{0} ਸਫ਼ੇ ਉੱਤੇ ਜਾਓ
+table_pager_next|ਅਗਲਾ ਪੰਨਾ
+table_pager_prev|ਪਿਛਲਾ ਪੰਨਾ
+table_pager_first|ਪਹਿਲਾ ਪੰਨਾ
+table_pager_last|ਆਖ਼ਰੀ ਪੰਨਾ
+table_pager_limit|ਹਰੇਕ ਪੇਜ ਲਈ ~{0} ਆਈਟਮਾਂ
+table_pager_limit_label|ਪ੍ਰਤੀ ਸਫ਼ਾ ਆਈਟਮਾਂ:
+table_pager_limit_submit|ਜਾਓ
+table_pager_empty|ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ
+autosumm-blank|ਸਫ਼ੇ ਨੂੰ ਖ਼ਾਲੀ ਕੀਤਾ
+autosumm-new|"~{0}" ਨਾਲ਼ ਸਫ਼ਾ ਬਣਾਇਆ
+livepreview-loading|…ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
+livepreview-ready|…ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ। ਤਿਆਰ!
+watchlistedit-normal-title|ਨਿਗਰਾਨੀ-ਲਿਸਟ ਸੋਧੋ
+watchlistedit-raw-titles|ਟਾਇਟਲ:
+watchlistedit-raw-submit|ਨਿਗਰਾਨੀ-ਲਿਸਟ ਤਾਜ਼ੀ ਕਰੋ
+watchlistedit-raw-added|{{PLURAL:~{0}\u007C1 title was\u007C~{0} titles were}} ਸ਼ਾਮਲ:
+watchlistedit-raw-removed|{{PLURAL:~{0}\u007C1 title was\u007C~{0} titles were}} ਹਟਾਓ:
+watchlisttools-view|ਸਬੰਧਤ ਤਬਦਲੀਆਂ ਵੇਖੋ
+watchlisttools-edit|ਧਿਆਨਸੂਚੀ ਵੇਖੋ ’ਤੇ ਸੰਪਾਦਨ ਕਰੋ
+watchlisttools-raw|ਕੱਚੀ ਧਿਆਨਸੂਚੀ ਸੰਪਾਦਨ ਕਰੋ
+duplicate-defaultsort|ਪੁਰਾਣੀ ਮੂਲ ਕਰਮਾਂਕਨ ਕੁੰਜੀ ~{0} ਦੇ ਬਜਾਏ ਹੁਣ ਮੂਲ ਕਰਮਾਂਕਨ ਕੁੰਜੀ ~{1} ਹੋਵੇਗੀ।
+version|ਵਰਜਨ
+version-other|ਹੋਰ
+specialpages|ਖ਼ਾਸ ਪੰਨੇ
+specialpages-group-login|ਲਾਗਇਨ / ਖਾਤਾ ਬਣਾਓ
+specialpages-group-users|ਵਰਤੋਂਕਾਰ ਅਤੇ ਹੱਕ
+blankpage|ਖ਼ਾਲੀ ਸਫ਼ਾ
+external_image_whitelist| #ਇਸ ਲਾਈਨ ਨੂੰ ਇੰਝ ਹੀ ਰਹਿਣ ਦਿਓ <pre>\n#ਹੇਠਾਂ ਓਹੀ ਐਕਸਪ੍ਰੈਸ਼ਨ ਪਾਓ (ਜਿਹੜਾ ਹਿੱਸਾ // ਦੇ ਵਿਚਾਲੇ ਹੈ)\n#ਇਹ ਬਾਹਰੀ ਤਸਵੀਰਾਂ ਦੇ URLs (ਹੌਟਲਿੰਕਡ) ਨਾਲ ਮਿਲਣਗੀਆਂ\n#ਜਿਹੜੀਆਂ ਮਿਲਣਗੀਆਂ ਓਹ ਬਤੌਰ ਤਸਵੀਰਾਂ ਦਿੱਸਣਗੀਆਂ ਨਹੀਂ ਤਾਂ ਤਸਵੀਰ ਦਾ ਸਿਰਫ਼ ਲਿੰਕ ਨਜ਼ਰ ਆਵੇਗਾ\n#'#' ਨਾਲ਼ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲ਼ੀਆਂ ਲਾਈਨਾਂ ਟਿੱਪਣੀਆਂ ਵਾਂਗ ਲਈਆਂ ਜਾਂਦੀਆਂ ਹਨ\n#ਇਹ ਕੇਸ-ਇਨਸੈਂਸਟਿਵ ਹੈ\n\n#ਸਾਰੇ ਰੈਜੈਕਸ ਫ਼ਰੈਗਮੈਂਟ ਇਸ ਲਾਈਨ ਤੋਂ ਉੱਪਰ ਪਾਓ। ਇਸ ਲਾਈਨ ਨੂੰ ਇੰਝ ਹੀ ਰਹਿਣ ਦਿਓ </pre>
+tag-filter|[[Special:Tags\u007Cਟੈਗ]] ਫਿਲਟਰ:
+tags-tag|ਟੈਗ ਦਾ ਨਾਮ
+tags-edit|ਸੋਧੋ
+htmlform-submit|ਭੇਜੋ
+htmlform-reset|ਬਦਲਾਅ ਵਾਪਸ ਲਵੋ
+htmlform-selectorother-other|ਹੋਰ
+logentry-move-move|~{0} ਨੇ ਸਫ਼ਾ ~{2} ਨੂੰ ~{3} ’ਤੇ ਭੇਜਿਆ
+logentry-newusers-newusers|ਮੈਂਬਰ ਖਾਤਾ ~{0} ਬਣਾਇਆ ਗਿਆ
+logentry-newusers-create|ਵਰਤੋਂਕਾਰ ਖਾਤਾ ~{0} ਬਣਾਇਆ ਗਿਆ
+logentry-newusers-create2|ਵਰਤੋਂਕਾਰ ਖਾਤਾ ~{2} ~{0} ਦੁਆਰਾ ਬਣਾਇਆ ਗਿਆ ਸੀ
+rightsnone|(ਕੋਈ ਨਹੀਂ)
+feedback-subject|ਵਿਸ਼ਾ:
+feedback-message|ਸੁਨੇਹਾ:
+feedback-cancel|ਰੱਦ ਕਰੋ
+searchsuggest-search|ਖੋਜ
+duration-seconds|~{0} {{PLURAL:~{0}\u007Cਸਕਿੰਟ\u007Cਸਕਿੰਟ}}
+duration-minutes|~{0} {{PLURAL:~{0}\u007Cਮਿੰਟ \u007Cਮਿੰਟ }}
+duration-hours|~{0} {{PLURAL:~{0}\u007Cਘੰਟਾ \u007Cਘੰਟੇ }}
+duration-days|~{0} {{PLURAL:~{0}\u007Cਦਿਨ \u007Cਦਿਨ }}
+duration-weeks|~{0} {{PLURAL:~{0}\u007Cਹਫ਼ਤਾ \u007Cਹਫ਼ਤੇ }}
+duration-years|~{0} {{PLURAL:~{0}\u007Cਸਾਲ \u007Cਸਾਲ }}
+duration-decades|~{0} {{PLURAL:~{0}\u007Cਦਹਾਕਾ  \u007Cਦਹਾਕੇ }}
+duration-centuries|~{0} {{PLURAL:~{0}\u007Cਸੌ \u007Cਸੌ }}
+duration-millennia|~{0} {{PLURAL:~{0}\u007Cਸਾਹਸ਼ਤਾਬਦੀ  \u007Cਵਧੇਰੇ ਸਾਹਸ਼ਤਾਬਦੀ  }}
+categorytree|ਕੈਟਾਗਰੀ ਲੜੀ
+categorytree-portlet|ਕੈਟਾਗਰੀਆਂ
+categorytree-legend|ਕੈਟਾਗਰੀ ਲੜੀ ਵੇਖੋ
+categorytree-category|ਸ਼੍ਰੇਣੀ:
+categorytree-go|ਲੜੀ ਵੇਖੋ
+categorytree-parents|ਮੁੱਢਲਾ
+categorytree-mode-categories|ਕੇਵਲ ਕੈਟਾਗਰੀ
+categorytree-mode-pages|ਫ਼ਾਈਲਾਂ ਤੋਂ ਇਲਾਵਾ ਸਫ਼ੇ
+categorytree-mode-all|ਸਭ ਸਫ਼ੇ
+categorytree-collapse|ਸਮੇਟੋ
+categorytree-expand|ਫੈਲਾਓ
+categorytree-num-empty|ਖਾਲੀ
+categorytree-load|ਲੋਡ ਕਰੋ
+categorytree-loading|ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
+categorytree-nothing-found|ਕੁਝ ਨਹੀਂ ਲੱਭਾ
+categorytree-no-subcategories|ਕੋਈ ਸਬ-ਕੈਟਾਗਰੀ ਨਹੀਂ
+categorytree-no-parent-categories|ਕੋਈ ਮੁੱਢਲੀ ਕੈਟਾਗਰੀ ਨਹੀਂ
+categorytree-error|ਡਾਟਾ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ।
+categorytree-retry|ਕੁਝ ਪਲ ਉਡੀਕੋ ਅਤੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+proofreadpage_badpage|ਗਲਤ ਫਾਰਮੈਟ
+proofreadpage_nologin|ਲਾਗਇਨ ਨਹੀਂ ਹੋ
+proofreadpage_specialpage_label_key|ਖੋਜ:
+proofreadpage_specialpage_label_sortascending|ਵਧਦਾ ਕ੍ਰਮ
+proofreadpage_index_listofpages|ਸਫ਼ਿਆਂ ਦੀ ਸੂਚੀ
+proofreadpage_source|ਸਰੋਤ
+proofreadpage-group-zoom|ਜ਼ੂਮ ਕਰੋ
+proofreadpage-button-zoom-out-label|ਬਾਹਰ ਨੂੰ ਜ਼ੂਮ ਕਰੋ
+proofreadpage-button-zoom-in-label|ਅੰਦਰ ਨੂੰ ਜ਼ੂਮ ਕਰੋ
+wikieditor-wikitext-tab|ਵਿਕੀਲਿਖਤ
+wikieditor-loading|ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
+wikieditor-preview-tab|ਝਲਕ
+wikieditor-preview-changes-tab|ਤਬਦੀਲੀਆਂ
+wikieditor-preview-loading|ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
+wikieditor-previewDialog-preference|ਝਲਕ ਡੱਬਾ ਚਾਲੂ ਕਰੋ
+wikieditor-previewDialog-tab|ਝਲਕ
+wikieditor-previewDialog-loading|ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
+wikieditor-publish-preference|ਕਦਮ ਦਰ ਕਦਮ ਛਾਪਾ ਚਾਲੂ ਕਰੋ
+wikieditor-publish-button-publish|ਛਾਪੋ
+wikieditor-publish-button-cancel|ਰੱਦ ਕਰੋ
+wikieditor-publish-dialog-title|{{SITENAME}} 'ਤੇ ਛਾਪੋ
+wikieditor-publish-dialog-summary|ਸੋਧ ਸਾਰ (ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਦੀ ਸੰਖੇਪ ਸਾਰ ਦਿਓ):
+wikieditor-publish-dialog-minor|ਛੋਟੀ ਸੋਧ
+wikieditor-publish-dialog-watch|ਇਹ ਸਫ਼ਾ ਵਾਚੋ
+wikieditor-publish-dialog-publish|ਛਾਪੋ
+wikieditor-publish-dialog-goback|ਪਿੱਛੇ ਜਾਓ
+wikieditor-template-editor-preference|ਵਿਕੀ ਫਰਮਿਆਂ ਦੀ ਫ਼ਾਰਮ-ਅਧਾਰਤ ਸੋਧ ਚਾਲੂ ਕਰੋ
+wikieditor-template-editor-dialog-title|ਫਰਮਾ ਸੋਧੋ
+wikieditor-template-editor-dialog-submit|ਅੱਪਡੇਟ
+wikieditor-template-editor-dialog-cancel|ਰੱਦ ਕਰੋ
+wikieditor-templates-preference|ਫਰਮੇ ਦਾ ਸਮੇਟਨਾ ਚਾਲੂ ਕਰੋ
+wikieditor-toc-preference|ਫੇਰੀਯੋਗ ਸਮੱਗਰੀ ਸਾਰਨੀ ਚਾਲੂ ਕਰੋ
+wikieditor-toc-show|ਸਮੱਗਰੀ ਵਿਖਾਓ
+wikieditor-toc-hide|ਸਮੱਗਰੀ ਲੁਕਾਓ
+wikieditor-toolbar|ਸੰਦਬਕਸਾ ਸੋਧਿਆ ਜਾ ਰਿਹਾ ਹੈ
+wikieditor-toolbar-loading|ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
+wikieditor-toolbar-tool-bold|ਮੋਟੇ ਅੱਖਰਾਂ ਵਿਚ
+wikieditor-toolbar-tool-bold-example|ਮੋਟੀ ਲਿਖਤ
+wikieditor-toolbar-tool-italic|ਟੇਢਾ
+wikieditor-toolbar-tool-italic-example|ਟੇਢੀ ਲਿਖਤ
+wikieditor-toolbar-tool-ilink|ਅੰਦਰੂਨੀ ਕੜੀ
+wikieditor-toolbar-tool-ilink-example|ਕੜੀ ਦਾ ਸਿਰਲੇਖ
+wikieditor-toolbar-tool-xlink|ਬਾਹਰੀ ਕੜੀ (ਯਾਦ ਰੱਖੋ http:// prefix)
+wikieditor-toolbar-tool-xlink-example|http://www.example.com ਕੜੀ ਦਾ ਸਿਰਲੇਖ
+wikieditor-toolbar-tool-link|ਕੜੀ
+wikieditor-toolbar-tool-link-title|ਕੜੀ ਜੋੜੋ
+wikieditor-toolbar-tool-link-int|ਵਿਕੀ ਸਫ਼ੇ ਨਾਲ਼
+wikieditor-toolbar-tool-link-int-target|ਨਿਸ਼ਾਨਾਨੁਮਾ ਸਫ਼ਾ ਜਾਂ URL:
+wikieditor-toolbar-tool-link-int-target-tooltip|ਸਫ਼ੇ ਦਾ ਸਿਰਲੇਖ ਜਾਂ URL
+wikieditor-toolbar-tool-link-int-text|ਵਿਖਾਉਣ ਲਈ ਲਿਖਤ:
+wikieditor-toolbar-tool-link-int-text-tooltip|ਵਿਖਾਉਣ ਲਈ ਲਿਖਤ
+wikieditor-toolbar-tool-link-ext|ਬਾਹਰੀ ਵੈੱਬ ਸਫ਼ੇ ਵੱਲ
+wikieditor-toolbar-tool-link-ext-target|ਕੜੀ ਦਾ URL:
+wikieditor-toolbar-tool-link-ext-text|ਕੜੀ ਦੀ ਲਿਖਤ:
+wikieditor-toolbar-tool-link-insert|ਕੜੀ ਜੋੜੋ
+wikieditor-toolbar-tool-link-cancel|ਰੱਦ ਕਰੋ
+wikieditor-toolbar-tool-link-int-target-status-exists|ਸਫ਼ਾ ਮੌਜੂਦ ਹੈ
+wikieditor-toolbar-tool-link-int-target-status-notexists|ਸਫ਼ਾ ਮੌਜੂਦ ਨਹੀਂ ਹੈ
+wikieditor-toolbar-tool-link-int-target-status-invalid|ਗ਼ਲਤ ਸਿਰਲੇਖ
+wikieditor-toolbar-tool-link-int-target-status-external|ਬਾਹਰੀ ਕੜੀ
+wikieditor-toolbar-tool-link-int-target-status-loading|ਸਫ਼ੇ ਦੀ ਮੌਜੂਦਗੀ ਚੈੱਕ ਹੋ ਰਹੀ ਹੈ...
+wikieditor-toolbar-tool-link-int-invalid|ਤੁਹਾਡਾ ਦੱਸਿਆ ਹੋਇਆ ਸਿਰਲੇਖ ਗ਼ਲਤ ਹੈ।
+wikieditor-toolbar-tool-link-lookslikeinternal-int|ਅੰਦਰੂਨੀ ਕੜੀ
+wikieditor-toolbar-tool-link-lookslikeinternal-ext|ਬਾਹਰੀ ਕੜੀ
+wikieditor-toolbar-tool-link-empty|ਤੁਸੀਂ ਕੁਝ ਜੋੜਨ ਲਈ ਭਰਿਆ ਹੀ ਨਹੀਂ।
+wikieditor-toolbar-tool-file-example|ਮਿਸਾਲ.jpg
+wikieditor-toolbar-tool-file-title|ਫ਼ਾਈਲ ਜੋੜੋ
+wikieditor-toolbar-file-target|ਫ਼ਾਈਲ ਦਾ ਨਾਂ:
+wikieditor-toolbar-file-caption|ਸਿਰਲੇਖ:
+wikieditor-toolbar-file-size|ਅਕਾਰ:
+wikieditor-toolbar-file-float|ਪੰਗਤ:
+wikieditor-toolbar-file-default|(ਮੂਲ)
+wikieditor-toolbar-file-format|ਰੂਪ:
+wikieditor-toolbar-file-format-none|ਕੋਈ ਨਹੀਂ
+wikieditor-toolbar-tool-file-insert|ਜੋੜੋ
+wikieditor-toolbar-tool-file-cancel|ਰੱਦ ਕਰੋ
+wikieditor-toolbar-tool-reference|ਹਵਾਲਾ
+wikieditor-toolbar-tool-reference-example|ਪਗਨੋਟ ਦੀ ਲਿਖਤ ਇੱਥੇ ਭਰੋ
+wikieditor-toolbar-tool-reference-cancel|ਰੱਦ ਕਰੋ
+wikieditor-toolbar-tool-reference-title|ਹਵਾਲਾ ਜੋੜੋ
+wikieditor-toolbar-tool-reference-insert|ਜੋੜੋ
+wikieditor-toolbar-tool-reference-text|ਹਵਾਲੇ ਦੀ ਲਿਖਤ
+wikieditor-toolbar-tool-signature|ਦਸਤਖ਼ਤ ਅਤੇ ਸਮੇਂ ਦੀ ਮੋਹਰ
+wikieditor-toolbar-section-advanced|ਉੱਨਤ
+wikieditor-toolbar-tool-heading|ਸਿਰਨਾਵਾਂ
+wikieditor-toolbar-tool-heading-1|ਪੱਧਰ ੧
+wikieditor-toolbar-tool-heading-2|ਪੱਧਰ ੨
+wikieditor-toolbar-tool-heading-3|ਪੱਧਰ ੩
+wikieditor-toolbar-tool-heading-4|ਪੱਧਰ ੪
+wikieditor-toolbar-tool-heading-5|ਪੱਧਰ ੫
+wikieditor-toolbar-tool-heading-example|ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ
+wikieditor-toolbar-group-format|ਰੂਪ
+wikieditor-toolbar-tool-indent|ਹਾਸ਼ੀਆ
+wikieditor-toolbar-tool-indent-example|ਹਾਸ਼ੀਆਈ ਰੇਖਾ
+wikieditor-toolbar-tool-nowiki|ਕੋਈ ਵਿਕੀ ਰੂਪਕਰਨ ਨਹੀਂ
+wikieditor-toolbar-tool-nowiki-example|ਇੱਥੇ ਗ਼ੈਰ-ਰੂਪਕਿਰਤ ਲਿਖਤ ਭਰੋ
+wikieditor-toolbar-tool-redirect|ਮੁੜ-ਦਿਸ਼ਾ
+wikieditor-toolbar-tool-redirect-example|ਨਿਸ਼ਾਨਾਨੁਮਾ ਸਫ਼ੇ ਦਾ ਨਾਂ
+wikieditor-toolbar-tool-big|ਵੱਡਾ
+wikieditor-toolbar-tool-big-example|ਵੱਡੀ ਲਿਖਤ
+wikieditor-toolbar-tool-small|ਛੋਟਾ
+wikieditor-toolbar-tool-small-example|ਛੋਟੀ ਲਿਖਤ
+wikieditor-toolbar-tool-superscript|ਉਤਲੀ ਲਿਖਤ
+wikieditor-toolbar-tool-superscript-example|ਉਤਲੀ ਲਿਖਤ
+wikieditor-toolbar-tool-subscript|ਹੇਠਲੀ ਲਿਖਤ
+wikieditor-toolbar-tool-subscript-example|ਹੇਠਲੀ ਲਿਖਤ
+wikieditor-toolbar-group-insert|ਜੋੜੋ
+wikieditor-toolbar-tool-gallery|ਤਸਵੀਰਾਂ ਦੀ ਗੈਲਰੀ
+wikieditor-toolbar-tool-gallery-example|~{0}:ਮਿਸਾਲ.jpg\u007Cਸਿਰਲੇਖ੧\n~{0}:ਮਿਸਾਲ.jpg\u007Cਸਿਰਲੇਖ੨
+wikieditor-toolbar-tool-newline|ਨਵੀਂ ਲਾਈਨ
+wikieditor-toolbar-tool-table|ਸਾਰਨੀ
+wikieditor-toolbar-tool-table-example-header|ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ
+wikieditor-toolbar-tool-table-title|ਸਾਰਨੀ ਜੋੜੋ
+wikieditor-toolbar-tool-table-dimensions-rows|ਕਤਾਰਾਂ
+wikieditor-toolbar-tool-table-dimensions-columns|ਕਾਲਮ
+wikieditor-toolbar-tool-table-dimensions-header|ਸਿਰਨਾਵੇਂ ਦੀ ਕਤਾਰ ਜੋੜੋ
+wikieditor-toolbar-tool-table-example|ਮਿਸਾਲ
+wikieditor-toolbar-tool-table-preview|ਝਲਕ
+wikieditor-toolbar-tool-table-insert|ਜੋੜੋ
+wikieditor-toolbar-tool-table-cancel|ਰੱਦ ਕਰੋ
+wikieditor-toolbar-tool-table-invalidnumber|ਤੁਸੀਂ ਕਤਾਰਾਂ ਜਾਂ ਕਾਲਮਾਂ ਦੀ ਸਹੀ ਗਿਣਤੀ ਨਹੀਂ ਭਰੀ ਹੈ।
+wikieditor-toolbar-tool-table-zero|ਤੁਸੀਂ ਸਿਫ਼ਰ ਕਤਾਰਾਂ ਜਾਂ ਕਾਲਮਾਂ ਵਾਲੀ ਸਾਰਨੀ ਨਹੀਂ ਬਣਾ ਸਕਦੇ।
+wikieditor-toolbar-tool-replace|ਖੋਜੋ ਅਤੇ ਵਾਪਸ ਰੱਖੋ
+wikieditor-toolbar-tool-replace-title|ਖੋਜੋ ਅਤੇ ਵਾਪਸ ਰੱਖੋ
+wikieditor-toolbar-tool-replace-search|ਖੋਜੋ:
+wikieditor-toolbar-tool-replace-button-findnext|ਅਗਲਾ ਲੱਭੋ
+wikieditor-toolbar-tool-replace-close|ਬੰਦ ਕਰੋ
+wikieditor-toolbar-tool-replace-nomatch|ਤੁਹਾਡੀ ਖੋਜ ਨੇ ਕਿਸੇ ਨਾਲ਼ ਮੇਲ ਨਹੀਂ ਖਾਧਾ।
+wikieditor-toolbar-tool-replace-emptysearch|ਤੁਸੀਂ ਲੱਭਣ ਲਈ ਕੁਝ ਨਹੀਂ ਭਰਿਆ।
+wikieditor-toolbar-section-characters|ਖ਼ਾਸ ਚਿੰਨ੍ਹ
+wikieditor-toolbar-characters-page-latin|ਲਾਤੀਨੀ
+wikieditor-toolbar-characters-page-latinextended|ਲਾਤੀਨੀ ਤੋਂ ਛੁੱਟ
+wikieditor-toolbar-characters-page-ipa|ਆਈ੦ਪੀ੦ਏ
+wikieditor-toolbar-characters-page-symbols|ਨਿਸ਼ਾਨ
+wikieditor-toolbar-characters-page-greek|ਯੂਨਾਨੀ
+wikieditor-toolbar-characters-page-cyrillic|ਸਿਰੀਲਿਕ
+wikieditor-toolbar-characters-page-arabic|ਅਰਬੀ
+wikieditor-toolbar-characters-page-arabicextended|ਅਰਬੀ ਵਿਸਥਾਰੀ
+wikieditor-toolbar-characters-page-persian|ਫ਼ਾਰਸੀ
+wikieditor-toolbar-characters-page-hebrew|ਹਿਬਰੂ
+wikieditor-toolbar-characters-page-bangla|ਬਾਂਗਲਾ
+wikieditor-toolbar-characters-page-tamil|ਤਾਮਿਲ
+wikieditor-toolbar-characters-page-telugu|ਤੇਲਗੂ
+wikieditor-toolbar-characters-page-sinhala|ਸਿਨਹਾਲਾ
+wikieditor-toolbar-characters-page-gujarati|ਗੁਜਰਾਤੀ
+wikieditor-toolbar-characters-page-devanagari|ਦੇਵਨਾਗਰੀ
+wikieditor-toolbar-characters-page-thai|ਥਾਈ
+wikieditor-toolbar-characters-page-lao|ਲਾਓ
+wikieditor-toolbar-characters-page-khmer|ਖ਼ਮੇਰ
+wikieditor-toolbar-characters-endash|ਅੰਗਰੇਜ਼ੀ ਡੈਸ਼
+wikieditor-toolbar-characters-emdash|em ਡੈਸ਼
+wikieditor-toolbar-characters-minus|ਘਟਾਓ ਦਾ ਨਿਸ਼ਾਨ
+wikieditor-toolbar-section-help|ਮਦਦ
+wikieditor-toolbar-help-heading-description|ਵੇਰਵਾ
+wikieditor-toolbar-help-heading-syntax|ਜੋ ਤੁਸੀਂ ਟਾਈਪ ਕਰਦੇ ਹੋ
+wikieditor-toolbar-help-heading-result|ਜੋ ਤੁਹਾਨੂੰ ਮਿਲਦਾ ਹੈ
+wikieditor-toolbar-help-page-link|ਕੜੀਆਂ
+wikieditor-toolbar-help-page-heading|ਸਿਰਨਾਵੇਂ
+wikieditor-toolbar-help-page-list|ਸੂਚੀਆਂ
+wikieditor-toolbar-help-page-file|ਫ਼ਾਈਲਾਂ
+wikieditor-toolbar-help-page-reference|ਹਵਾਲੇ
+wikieditor-toolbar-help-page-discussion|ਚਰਚਾ
+wikieditor-toolbar-help-content-italic-description|ਟੇਢਾ
+wikieditor-toolbar-help-content-italic-syntax|''ਟੇਢੀ ਲਿਖਤ''
+wikieditor-toolbar-help-content-italic-result|<em>ਟੇਢੀ ਲਿਖਤ</em>
+wikieditor-toolbar-help-content-bold-description|ਮੋਟਾ
+wikieditor-toolbar-help-content-bold-syntax|'''ਮੋਟੀ ਲਿਖਤ'''
+wikieditor-toolbar-help-content-bold-result|<strong>ਮੋਟੀ ਲਿਖਤ</strong>
+wikieditor-toolbar-help-content-bolditalic-description|ਮੋਟਾ &amp; ਟੇਢਾ
+wikieditor-toolbar-help-content-bolditalic-syntax|'''''ਮੋਟੀ &amp; ਟੇਢੀ ਲਿਖਤ'''''
+wikieditor-toolbar-help-content-bolditalic-result|<strong><em>ਮੋਟੀ &amp; ਟੇਢੀ ਲਿਖਤ</em></strong>
+wikieditor-toolbar-help-content-ilink-description|ਅੰਦਰੂਨੀ ਕੜੀ
+wikieditor-toolbar-help-content-ilink-syntax|[[ਸਫ਼ਾ ਸਿਰਲੇਖ\u007Cਕੜੀ ਲੇਬਲ]]<br />[[ਸਫ਼ਾ ਸਿਰਲੇਖ]]
+wikieditor-toolbar-help-content-ilink-result|<a href='#'>ਕੜੀ ਲੇਬਲ</a><br /><a href='#'>ਸਫ਼ਾ ਸਿਰਲੇਖ</a>
+wikieditor-toolbar-help-content-xlink-description|ਬਾਹਰੀ ਕੜੀ
+wikieditor-toolbar-help-content-xlink-syntax|[http://www.example.org ਕੜੀ ਲੇਬਲ]<br />[http://www.example.org]<br />http://www.example.org
+wikieditor-toolbar-help-content-heading2-description|ਦੂਜੇ ਪੱਧਰ ਦਾ ਸਿਰਨਾਵਾਂ
+wikieditor-toolbar-help-content-heading2-syntax|== ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ ==
+wikieditor-toolbar-help-content-heading2-result|<h2>ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ</h2>
+wikieditor-toolbar-help-content-heading3-description|ਤੀਜੇ ਪੱਧਰ ਦਾ ਸਿਰਨਾਵਾਂ
+wikieditor-toolbar-help-content-heading3-syntax|=== ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ ===
+wikieditor-toolbar-help-content-heading3-result|<h3>ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ</h3>
+wikieditor-toolbar-help-content-heading4-description|ਚੌਥੇ ਪੱਧਰ ਦਾ ਸਿਰਨਾਵਾਂ
+wikieditor-toolbar-help-content-heading4-syntax|==== ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ ====
+wikieditor-toolbar-help-content-heading4-result|<h4>ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ</h4>
+wikieditor-toolbar-help-content-heading5-description|੫ਵੇਂ ਪੱਧਰ ਦਾ ਸਿਰਨਾਵਾਂ
+wikieditor-toolbar-help-content-heading5-syntax|===== ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ =====
+wikieditor-toolbar-help-content-heading5-result|<h5>ਸਿਰਨਾਵੇਂ ਦੀ ਲਿਖਤ</h5>
+wikieditor-toolbar-help-content-ulist-description|ਨਿਸ਼ਾਨਦਾਇਕ ਸੂਚੀ
+wikieditor-toolbar-help-content-ulist-syntax|* ਸੂਚੀ ਦੀ ਵਸਤੂ<br />* ਸੂਚੀ ਦੀ ਵਸਤੂ
+wikieditor-toolbar-help-content-ulist-result|<ul><li>ਸੂਚੀ ਦੀ ਵਸਤੂ</li><li>ਸੂਚੀ ਦੀ ਵਸਤੂ</li></ul>
+wikieditor-toolbar-help-content-olist-description|ਗਿਣਤੀਦਾਇਕ ਸੂਚੀ
+wikieditor-toolbar-help-content-olist-syntax|# ਸੂਚੀ ਦੀ ਵਸਤੂ<br /># ਸੂਚੀ ਦੀ ਵਸਤੂ
+wikieditor-toolbar-help-content-olist-result|<ol><li>ਸੂਚੀ ਦੀ ਵਸਤੂ</li><li>ਸੂਚੀ ਦੀ ਵਸਤੂ</li></ol>
+wikieditor-toolbar-help-content-reference-description|ਹਵਾਲਾ
+wikieditor-toolbar-help-content-reference-syntax|ਸਫ਼ਾ ਲਿਖਤ।&lt;ref name="test"&gt;[http://www.example.org ਕੜੀ ਲਿਖਤ], ਵਧੀਕ ਲਿਖਤ।&lt;/ref&gt;
+wikieditor-toolbar-help-content-reference-result|ਸਫ਼ਾ ਲਿਖਤ।<sup><a href='#'>[੧]</a></sup>
+wikieditor-toolbar-help-content-rereference-description|ਉਸੇ ਹਵਾਲੇ ਦੀ ਵਧੀਕ ਵਰਤੋਂ
+wikieditor-toolbar-help-content-rereference-result|ਸਫ਼ੇ ਦੀ ਲਿਖਤ।<sup><a href='#'>[1]</a></sup>
+wikieditor-toolbar-help-content-showreferences-description|ਹਵਾਲੇ ਵਿਖਾਓ
+wikieditor-toolbar-help-content-showreferences-result|<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>ਕੜੀ ਲਿਖਤ</a>, ਵਧੀਕ ਲਿਖਤ।</li></ol>
+wikieditor-toolbar-help-content-signaturetimestamp-description|ਸਮੇਂ ਦੀ ਮੋਹਰ ਸਮੇਤ ਦਸਤਖ਼ਤ
+wikieditor-toolbar-help-content-signaturetimestamp-result|<a href='#' title='{{#special:mypage}}'>ਵਰਤੋਂਕਾਰ ਨਾਂ</a> (<a href='#' title='{{#special:mytalk}}'>talk</a>) ੧੫:੫੪, ੧੦ ਜੂਨ ੨੦੦੯ (ਯੂਟੀਸੀ)
+wikieditor-toolbar-help-content-signature-description|ਦਸਤਖ਼ਤ
+wikieditor-toolbar-help-content-signature-result|<a href='#' title='{{#special:mypage}}'>ਵਰਤੋਂਕਾਰ ਨਾਂ</a> (<a href='#' title='{{#special:mytalk}}'>ਗੱਲਬਾਤ</a>)
+wikieditor-toolbar-help-content-indent-description|ਹਾਸ਼ੀਏ ਤੋਂ ਦੂਰ
+wm-license-information-description|ਵੇਰਵਾ
+wm-license-information-source|ਸੋਰਸ
+sitesupport|ਦਾਨ
+createacct-captcha-help-url|{{ns:Project}}:ਖਾਤੇ ਲਈ ਮੰਗ ਕਰੋ
+']:>
+).lang
+;

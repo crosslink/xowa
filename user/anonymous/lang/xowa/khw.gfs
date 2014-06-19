@@ -1,0 +1,886 @@
+this
+.fallback_load('ur')
+.dir_rtl_('y')
+.messages
+  .load_text(
+<:['
+sunday|یک شمبے
+monday|دو شمبے
+tuesday|سہ شمبے
+wednesday|چار شمبے
+thursday|پنج شمبے
+friday|آدینہ
+saturday|شمبے
+sun|یک شمبے
+mon|دو شمبے
+tue|سے شمبے
+wed|چار شمبے
+thu|پنچ شمبے
+fri|آدینہ
+sat|شمبے
+january|جنوری
+february|فروری
+march|مارچ
+april|اپريل
+may_long|مئی
+june|جون
+july|جولائی
+august|اگست
+september|ستمبر
+october|اکتوبر
+november|نومبر
+december|دسمبر
+january-gen|جنوری
+february-gen|فروری
+march-gen|مارچ
+april-gen|اپریل
+may-gen|مئی
+june-gen|جون
+july-gen|جولائی
+august-gen|اگست
+september-gen|ستمبار
+october-gen|اکتوبار
+november-gen|نومبار
+december-gen|دسمبار
+jan|جنوری
+feb|فروری
+mar|مارچ
+apr|اپریل
+may|مئی
+jun|جون
+jul|جولائی
+aug|اگست
+sep|ستمبر
+oct|اکتوبر
+nov|نومبر
+dec|دسمبر
+toc|فہرست
+redirectedfrom|'(~{0} خور ژاغار گنونو ھوی)',
+allpages|سف صفحات
+prevpage|آچھو صفحہ (~{0})
+collapsible-collapse|خاتمہ/Collapse
+collapsible-expand|فراخ کورے
+categories|زمرہ جات
+lastmodifiedat|آخری بار تدوین ~{1}, ~{0} کورونو ھوی
+thumbnail-more|فراخ کورے
+otherlanguages|خور زبانا
+blanknamespace|(مرکز)
+pagecategories|{{PLURAL:~{0}\u007Cزمرہ\u007Cزمرہ جات}}
+category_header|زمرہ "~{0}" مضمون'
+subcategories|ذیلی ذمرہ جات
+category-media-header|زمرا "~{0}" میڈیا
+category-empty|‘‘ھیہ زمرا ھنیسے کیہ صفحہ یا میڈیا موجود نیکی.’’
+category-subcat-count|{{PLURAL:~{1}\u007Cاِس زمرہ میں صرف درج ذیل ذیلی زمرہ ہے.\u007Cاِس زمرہ میں درج ذیل {{PLURAL:~{0}\u007Cذیلی زمرہ\u007C~{0} ذیلی زمرہ جات}}, کل ~{1} میں سے.}}
+category-subcat-count-limited|ھیہ زمرا درج ذیل {{PLURAL:~{0}\u007Cذیلی زمرہ ہے\u007C~{0} ذیلی زمرہ جات شینی}}.
+category-article-count|{{Plural:~{1}\u007Cمضمون شینی\u007C{{Plural:~{0}\u007Cصفحا\u007Cصفحا}} ~{1} ھیہ زمرا مضمون شینی}}
+category-article-count-limited|The following {{PLURAL:~{0}\u007Cصفحا\u007C~{0} صفحات}} in the current category.
+category-file-count|{{Plural:~{1}\u007Cمضمون شینی\u007C{{Plural:~{0}\u007Cصفحا\u007Cصفحا}} ~{1} ھیہ زمرا مضمون شینی}}
+category-file-count-limited|The following {{PLURAL:~{0}\u007Cfile is\u007C~{0} files are}} in the current category.
+nextn|پروشٹیو{{PLURAL:~{0}\u007C~{0}}}
+prevn|آچھو{{PLURAL:~{0}\u007C~{0}}}
+listingcontinuesabbrev|جاری
+showingresultsheader|{{PLURAL:~{4}\u007Cنتیجہ'''~{0}''' of '''~{2}'''\u007Cنتیجہ'''~{0} - ~{1}''' of '''~{2}'''}} بچے'''~{3}'''
+bold_sample|بوسک متن
+bold_tip|بولڈ ٹیکسٹ
+italic_sample|کولی/اٹالک نیویشیرو
+italic_tip|کولی نیویشیرو
+link_sample|ربطو عنوان
+link_tip|اندرینو لنک
+headline_sample|شہ سرخی
+headline_tip|شہ سرخی درجہ دوم
+hidden-category-category|کھوشت زمرہ جات
+statistics|اعداد و شمار
+tog-underline|ربطو خط کشیدگی
+tog-justify|خطان  برابری
+tog-hideminor|موجودہ وختہ بیرو تبدیلیان موژار معمولی ترمیماتن کھوشتاؤے
+tog-hidepatrolled|موجودہ وختہ بیرو تبدیلیان موژار گشتی ترمیماتن کھوشتاؤے
+tog-newpageshidepatrolled|جدید صفحاتی فہرستہ گشتی صفحاتن کھوشاوے
+tog-extendwatchlist|زیرِنظرفہرستو پھیلاؤ  کورے تاکہ ھیارا تھمامو ترمیمات غیچھی گیانی، نہ کہ صرفی تازہ ترین
+tog-usenewrc|افزودہ حالیہ تبدیلیان استعمال کورے (JavaScript ضرورت بوی)
+tog-numberheadings|سرخیانتے تان لمبار دیت
+tog-showtoolbar|تدوینی اوزاردانن پشاؤے ( JavaScript ضرورت بوی)
+tog-editondblclick|کلکہ صفحاتن  ترمیم (JavaScript ضرورت بوی)
+tog-editsection|[ترمیم] روابطان ذریعا سطری ترمیم کاریو فعال کورے
+tog-editsectiononrightclick|سطری عنواناتا فروسکی کلکو ذریعا سطری ترمیم کاریو فعال ساؤزاوے
+tog-showtoc|فہرستِ مندرجات پشاؤے (3 زیات سرخی والا صفحاتن بچے)
+tog-rememberpassword|ھیہ کمپیوٹرا مہ داخل کاردو معلوماتن یاد لاکھے(کم از کم ~{0} {{PLURAL:~{0}\u007Cبس\u007Cبس}})
+tog-watchcreations|مہ مرتب کاردو صفحاتن مہ  زیرِنظرفہرستہ شامل کورے
+tog-watchdefault|مہ ترمیم کاردو صفحاتن مہ  زیرِنظرفہرستہ شامل کورے
+tog-watchmoves|آوا کیہ صفحاتن کہ منتقل کومان ھتیتان مہ زیرِنظرفہرستہ شامل کورے
+tog-watchdeletion|آوا کیہ صفحاتن کہ حذف آریتام، ھتیتان مہ زیرِنظرفہرستہ شامل کورے
+tog-minordefault|تھمامو ترمیماتن ہمیشہ بطورِ معمولی ترمیم نشانزد کورے
+tog-previewontop|تدوینی خاناری پروشٹی نمائش پشاؤے
+tog-previewonfirst|آویلو ترمیما نمائش پشاؤے
+tog-nocache|بطن کاری صفحہو غیر فعال ساؤزاوے
+tog-enotifwatchlistpages|کیاوتکہ مہ  زیرِنظرفہرستہو کیہ صفحہا تبدیلی واقع کہ ہوی تھے متے بشلی کغاز انزاوے
+tog-enotifusertalkpages|کیاوتکہ مہ تبادلۂ خیالو صفحہ تبدیلی واقع کہ ہویی تھے متے بشلی کغاز(ای میل) انځاوے جما
+tog-enotifminoredits|صفحاتہ معمولی ترمیماتن بارا دی متے بشلی کغاز انزاوے
+tog-enotifrevealaddr|خبرداری بشلی کغازا مہ ای میل پتو ظاہر کورے
+tog-shownumberswatching|لوڑاک ممبرانن تعدادان پشاؤے
+tog-oldsig|موجودہ دستخطو نمائش:
+tog-fancysig|(سادہ دسخط بلا خودکار ربط)
+tog-showjumplinks|ھیہ ووشکی څروٹھاوے
+tog-uselivepreview|براہِ راست نمائش استعمال کورے (JavaScript ضرورت بوی)
+tog-forceeditsummary|کیاوتکی آوا ترمیمی خلاصو خالی پیڅھیتام تھے متے لو دیت
+tog-watchlisthideown|زیرِنظرفہرستہ مہ ترمیماتن کھوشاوے
+tog-watchlisthidebots|زیرِنظرفہرستہ مہ روبالی ترمیماتن کھوشتاوے
+tog-watchlisthideminor|زیرِنظرفہرستاری معمولی ترمیماتن کھوشتاوے
+tog-watchlisthideliu|زیرِنظرفہرستاری داخلِ نوشتہ شدہ صارفینان ترمیماتن کھوشتاوے
+tog-watchlisthideanons|زیرِنظرفہرستاری نامعلوم صارفینان ترمیماتن کھوشتاوے
+tog-watchlisthidepatrolled|زیرِنظرفہرستاری گشت شدہ ترمیماتن کھوشتاوے
+tog-ccmeonemails|دیگر ممبراننتے ارسال کاردو بشلی کغازان نقلان متے انزاوے
+tog-diffonly|مختلفاتن موڑا صفحو مشمولاتن مو پشاوے
+tog-showhiddencats|پوشیدہ(کھوشت) زمرہ جاتن پشاوے
+underline-always|ہمیش
+underline-never|کیاوت دی نو
+underline-default|براوزرو طے شدہ
+editfont-style|خانۂ تدوینو اندازِ تحریر:
+editfont-default|ڈیفالٹ براوزر
+editfont-monospace|یکفضائی نویسہ
+editfont-sansserif|بےحلیہ فونٹ
+editfont-serif|حلیہ فونٹ
+hidden-categories|{{PLURAL:~{0}\u007Cکھوشت زمرہ\u007Cکھوشت زمرہ جات}}
+index-category|نو انڈیکس صفحات
+noindex-category|نو انڈیکس صفحات
+broken-file-category|نس پھت صفحات
+categoryviewer-pagedlinks|(~{0}) (~{1})
+about|تعارف
+article|صفحۂ مشمول
+newwindow|نوغ کھیڑکیا
+cancel|کھینسل
+moredotdotdot|وا...
+mypage|مہ صفحہ
+mytalk|مہ مشقولگی
+anontalk|بچے لو IP ھیہ
+navigation|رہنمائی
+and| وا
+qbfind|تلاش کورے
+qbbrowse|Browse/تصفّح
+qbedit|ترمیم
+qbpageoptions|ھیہ صفحہ
+qbmyoptions|مہ صفحات
+qbspecialpages|خاص صفحات
+faq|عام معلومات
+faqpage|Project:معلوماتِ عامہ
+vector-action-addsection|نوغ موضوع
+vector-action-delete|بوغاوے
+vector-action-move|منتقل کورے
+vector-action-protect|محفوظ کورے
+vector-action-undelete|اچی انگیے
+vector-action-unprotect|غیر محفوظ
+vector-view-create|ساوزاوے
+vector-view-edit|ایڈٹ کورے
+vector-view-history|تاریخچہ
+vector-view-view|راوے
+vector-view-viewsource|مسودہ
+actions|ایکشنز
+namespaces|نامان ژاغہ
+variants|الگ
+errorpagetitle|خطاء
+returnto|آچی ~{0}۔
+tagline|{{SITENAME}}ری
+help|مدد
+search|تلاش
+searchbutton|تلاش کورے
+go|Go/بوغے
+searcharticle|Go/بوغے
+history|تاریخچہ ء صفحہ
+history_short|تاریخچہ
+printableversion|قابل طبع نسخہ
+permalink|مستقل لنک
+print|طباعت
+view|لوڑے
+edit|ترمیم
+create|ساوزاوے
+editthispage|ھی صفحہا ترمیم کورے
+create-this-page|ھیہ صفحو ساوزاوے
+delete|بوغاوے
+deletethispage|ھیہ صفحہو بوغاوے
+undelete_short|بحال {{PLURAL:~{0}\u007Cای ترمیم\u007C~{0} ترامیم}}
+protect|محفوظ
+protect_change|تبدیل کورے
+protectthispage|ھیہ صفحو محفوظ کورے
+unprotect|غیر محفوظ
+unprotectthispage|ھیہ صفحہو غیر محفوظ کورے
+newpage|نوغ صفحہ
+talkpage|ھیہ صفحہا تبادلۂ خیال کورے
+talkpagelinktext|مشقولگی
+specialpage|خصوصی صفحہ
+personaltools|ذاتی سماند
+postcomment|پروشٹیو حصّہ
+articlepage|مندرجاتی صفحہو لوڑے
+talk|تبادلہٴ خیال
+views|خیالات
+toolbox|ٹول بکس
+userpage|یوزرو صفحو لوڑے
+projectpage|کھوار منصوبو صفحہو لوڑے
+imagepage|ھوٹوو صفحو لوڑے
+mediawikipage|پیغامو صفحہو لوڑے
+templatepage|سانچو صفحہو لوڑے
+viewhelppage|مددو صفحہو لوڑے
+categorypage|زمرہ‌جاتی صفحہو لوڑے
+viewtalkpage|تبادلۂ خیالو صفحہو لوڑے
+redirectpagesub|ھیہ صفحو خور ژاغا آلونو بیتی شیر
+viewcount|ھیہ صفحہ گیونو ھوی {{PLURAL:~{0}\u007Cای‌بار\u007C~{0} مرتبہ}}
+protectedpage|محفوظ شدہ صفحہ
+jumpto|ھیہ ووشکی څروٹھاوے
+jumptonavigation|رہنمائی
+jumptosearch|تلاش
+view-pool-error|معذرت: تمام سرورا موجودہ وختہ اِضافی بوجھ شیر.\nبو زیادہ صارفین موجودہ وختہ ھیہ صفحو لاڑینیان \nبرائے مہربانی! صفحو لوڑیکو بچے دوبارہ کوشش کوریکاری پروشٹی پھوکرو انتظار کورے.\n\n~{0}
+pool-errorunknown|نامعلوم خطا
+aboutsite|تعارف {{SITENAME}}
+aboutpage|Project:کھوار ویکیپیڈیو تعارف
+copyright|تمام مواد ~{0} تحتہ میانسار شیر
+copyrightpage|{{ns:project}}:حقوق تصانیف
+currentevents|ھنونو واقعات
+currentevents-url|Project:ھنونو واقعات
+disclaimers|اعلانات
+disclaimerpage|Project:عام کھوار اعلان
+edithelp|مدد براۓ ترمیم
+helppage|Help:فھرست
+mainpage|آویلو صفحہ
+mainpage-description|سرورق
+policy-url|Project:حکمتِ عملی
+portal|مھراکہ
+portal-url|Project:مھراکہ
+privacy|رازان فاش نو کوریکو بچے اصول
+privacypage|Project:رازان فاش نو کوریکو بچے اصول
+badaccess|خطائے اجازت
+badaccess-group0|تو ھیہ کورمو کوریکو مُجاز نو
+badaccess-groups|تہ درخاس کاردو عمل {{PLURAL:~{1}\u007Cگروہ\u007Cگروہان موژار ای}}: ~{0} ممبارا پت محدود شیر
+versionrequired|میڈیا ویکیو ~{0} نسخہو لازمی ضرورت شیر
+versionrequiredtext|ھیہ صفحہو استعمال کوریکو بچے میڈیاویکیو ~{0} نسخہو ضرورت شیر.\n\n[[Special:Version\u007Cversion page]]
+ok|ٹھیک شیر
+pagetitle|~{0} - {{SITENAME}}
+pagetitle-view-mainpage|{{SITENAME}}
+retrievedfrom|‘‘~{0}’’ نقل کاردو
+youhavenewmessages|تہ بچے ای ~{0} شیر۔ (~{1})
+newmessageslink|نوغ پیغامات
+newmessagesdifflink|تـجـدیـد مـاقـبل آخـراری فـرق
+youhavenewmessagesmulti|ء~{0} تہ بچے نوغ نوغ پیغامات شینی
+editsection|ترمیم
+editsection-brackets|[~{0}]
+editold|ترمیم
+viewsourceold|مآخذو لوڑے
+editlink|تدوین کورے
+viewsourcelink|مآخذو لوڑے
+editsectionhint|تدوینِو حصّہ: ~{0}
+showtoc|پشاوے
+hidetoc|کھوشتاوے
+thisisdeleted|لوڑے  یا بحال کورے ~{0}
+viewdeleted|لوڑے ~{0}؟
+restorelink|{{PLURAL:~{0}\u007Cای ترمیم حذف ہوی\u007C~{0} ترامیم حذف ہونی}}
+site-rss-feed|~{0} آر.ایس.ایس فیڈ
+site-atom-feed|~{0} اٹوم فیڈ
+page-rss-feed|~{0} آر ایس ایس فیڈ
+page-atom-feed|~{0} آٹوم فیڈ
+feed-atom|اٹوم
+feed-rss|آر ایس ایس
+red-link-title|\n~{0} (صفحہ موجود نیکی)
+nstab-main|صفحہ
+nstab-user|یوزرو صفحہ
+nstab-media|صفحۂ میڈیا
+nstab-special|خاص صفحہ
+nstab-project|صفحۂ کھوار منصوبہ
+nstab-image|مسل
+nstab-mediawiki|پیغام
+nstab-template|سانچہ
+nstab-help|مدد
+nstab-category|زمرہ
+nosuchaction|کیہ دی عمل نیکی
+nosuchactiontext|URL ووشکیاری مختص کاردو عمل درست نو.\nتہ URL غلط نیویشیتاو، یا کیہ غیر صحیح ربطو پیرویو کوری آسوس.\n{{ھموش نامہ SITENAME زیرِ استعمال مصنع لطیفا چاریو نشاندہیو دی اندیشہ شیر}}.
+nosuchspecialpage|کیہ ہش خاص صفحہ نیکی
+nospecialpagetext|"<big>'''تو ای ناقص خاص صفحہو بچے درخاس کوری آسوس.'''</big>\n\n{{درست خاص صفحاتن ای فھرست  [[Special:SpecialPages\u007C{{int:specialpages}}]]  لوڑیکو بوس}}."
+error|Error/خطاء
+databaseerror|خطائے ڈیٹابیس
+dberrortext|ڈیٹابیسہ ای خطائے نحوی واقع بیتی شیر. \nھمو وجھین مصنع‌لطیفا چاریو نشاندہیو اندیشہ شیر. \nآچھو سعی‌شدہ ڈیٹابیسی استفسارہ ھیہ اوشوی:\n<blockquote><tt>~{0}</tt></blockquote>\nفعلیتو موژار "<tt>~{1}</tt>".\nMySQL خطائی جواب پرائے "<tt>~{2}: ~{3}</tt>".
+dberrortextcl|ڈیٹابیسو استفسارہ ای خطائے نحوی واقع بیتی شیر. \nآچھو سعی‌شدہ ڈیٹابیسی استفسارہ ھیہ اوشوی:\n"~{0}"\n"~{1}" فعلیتو موژار.\nMySQL جوابِ خطاء پرائے "~{2}: ~{3}"
+laggedslavemode|Warning: Page may not contain recent updates.\nخبردار: منکھن شیر کہ صفحہا موجودہ بتاریخہ جات شامل نو بونی
+readonly|ڈیٹابیسا قلف لیگی شیر
+enterlockreason|قلفو بچے کیہ وجہ درج کورے، بشمولِ تخمینہ کہ قلفو کیاوت کھولاو کورونو بوئے
+readonlytext|ڈیٹابیس  شاید معمولو اصلاحو بچے نوغ اندراجاتن اوچے خور ترمیماتن بچے قلف کورونو بیتی شیر ھیغار آچی ھیہ عام حالتہ گوی.\nمنتظم، کا کہ قلف لیگیے آسور، ھیہ تفصیلو فراہم کوری آسور: ~{0}
+missing-article|'ڈیٹابیس کیہ صفحہو متنو بنام "~{0}" ~{1}  نو لیتائے کھیو کہ ھو لیلک اوشوئے.\n\nھیہ عموماً کیہ صفحہو تاریخی یا پرانو حذف شدہ ربطو وجہو سورا دی بوئے. \n\nاگر ھیہ وجہ نو، تھے تہ مصنع‌لطیفا چاری داخل بیتی آسور.\nبرائے مہربانی، URL ھو نشان دیتی کیہ  \n[[Special:ListUsers/sysop\u007Cمنتظمو]] سوم ھے بارا کھوارا کغاز نیویشے.',
+missingarticle-rev|(نظرثانی#: ~{0})
+missingarticle-diff|(مختلفات: ~{0}, ~{1})
+readonly_lag|ڈیٹابیس خودکار طورا قلف کورونو بیتی شیر تاکہ ماتحت ڈیٹابیسی معیلاتن درجہ آقو بوئے
+internalerror|خطائے اندرونی
+internalerror_info|خطائے اندرونی: ~{0}
+filecopyerror|"~{0}" مسلو "~{1}" نقل کورونو نو ھوی
+filerenameerror|مسلو "~{0}" و "~{1}" خور نم دیونو نو ھوی
+filedeleteerror|مسلو "~{0}" حذف کورونو نو ھوی
+directorycreateerror|رہنامچہ "~{0}" تخلیق کورونو نو ھوی
+filenotfound|مسلو "~{0}" تلاش کورونو نو ھوی
+fileexistserror|مسلو "~{0}" نیویشکا قاصر، مسل موجود
+unexpected|غیرمتوقع قدر: "~{0}"="~{1}"
+formerror|خطا: کغاز انځینو نو ھوی
+badarticleerror|ھیہ صفحہا ھیہ عمل انجام دیونو نو ھوی۔
+cannotdelete|صفحہو ~{0} ڈیلیٹ کورونو نو ھوی۔ (ھیہ منکھن شیر کہ ھمو پروشٹی تان کا ڈیلیٹ کوری آسور۔)
+badtitle|خراب عنوان
+badtitletext|'درخاس شدہ صفحہو عنوان ناقص، خالی، یا کیہ غلط ربط شدہ بین لسانی یا بین ویکی عنوان شیر.\nشاید ھیارا ای یا زیات ھش حروف موجود شینی کہ ھیت عنوانا استعمال نو بونیان.',
+perfcached|ذیلی ڈیٹا ابطن شدہ شیر وا ھمو بیکا امکان شیر A maximum of {{PLURAL:~{0}\u007Cone result is\u007C~{0} results are}} available in the cache.
+perfcachedts|ذیلی ڈیٹا ابطن شدہ شیر وا آخری بار ھمو بتاریخیت ~{0} کورونو ہوئے. A maximum of {{PLURAL:~{3}\u007Cone result is\u007C~{3} results are}} available in the cache.
+querypage-no-updates|ھیہ صفحہو بچے بتاریخات فی الحال ناقابل ساوزینو بیتی شینی. \nھمو ڈیٹا ھنیسے تازہ کورونو نو بوئے
+viewsource|مسودو لوڑے
+actionthrottledtext|بطورِ ای ضدسپم تدبیر، تہ مختصار وختہ کئی دفعہ ھیہ کورومو کوریکو وجھین محدود کورونو ہوئے، وا تو ھیہ حدو پار کوری آسوس.\nبراہِ کرم، ای کما میلیٹ آچہ کھوشش کورے
+protectedpagetext|ھیہ صفحہو تدویناری محفوظ لاکھیکو بچے قلف لیگینو بیتی شیر
+viewsourcetext|تو صرف مضمونو لوڑیکو بوس وا ھو نقل کوریکو بوس:
+protectedinterface|ھیہ صفحہ مصنع‌لطیفو بچے سطح‌البینی متن فراہم کورویان، وا  ناجائزاستعمالو سدِبابو بچے ھمو قلف لیگینو بیتی شیر
+editinginterface|"'''خبردار:''' تو ای ھش صفحہو تدوینو کوروسان کہ ھیہ مصنع‌لطیفو بچے سطح‌البینی متن فراہم کورویان۔ ھیہ صفحہا کاردو ترمیم، دیگر ممبارانن بچے سطح‌البینو تبدیل کوروی۔\nبراہِ کرم، ترجمہ کوریکو بچے  [//translatewiki.net/wiki/Main_Page?setlang=en '''بیٹاویکی'''] (میڈیاویکی مقامیانی منصوبو) استعمال کورے.",
+sqlhidden|(SQL استفسارہ کھوشت)
+namespaceprotected|"تتے '''$1''' فضائے نامہ صفحاتن تدوینو کوریکو اِجازت نیکی.",
+ns-specialprotected|خاص صفحاتن تدوین کوریکو اجازت نیکی
+titleprotected|ھیہ عنوانو [[User:~{0}\u007C~{0}]] تخلیق کوریکاری محفوظ کوری آسور.\nوجہ ھیہ شیر: "''~{1}''"
+virus-badscanner|"خراب وضعیت: نوژان وائرسی مفراس: ''$1''",
+virus-scanfailed|تفریس ناکام (رمز ~{0})
+virus-unknownscanner|نوژان ضد وائرس:
+logouttext|'''ھنیسے تو خارج بیتی آسوس'''<br />\nتو خفی الاسم {{SITENAME}}  استعمال جاری لاکھیکو بوس، یا دوبارہ ھیہ نامو یا مختلف نامان سورا داخل دی بیکو بوس۔  ھیہ یاد آوری کورے کہ ای کما صفحات ھش <span class='plainlinks'>[$1 دوباری لاگن بوس]</span> غیچھی گونی کہ تو ھنیسے خارج نو بیتی آسوس، کلہ پت کہ تو تان تفصحہ (براؤزرو) ابطن (cache) صاف نوکوروس۔",
+yourname|اسمِ رکنیت
+yourpassword|کلمۂ شناخت(پاسورڈ)
+yourpasswordagain|کلمۂ شناخت(پاسورڈو)دوبارہ نیویشے
+remembermypassword|ھیہ براوزیرا مہ داخلِ نوشتگی معلوماتن یاد لاکھے (زیاتاری زیات ~{0} {{PLURAL:~{0}\u007Cبس\u007Cبسان}} بچے)
+yourdomainname|تہ ڈومین
+externaldberror|یا تھے توثیقی ڈیٹابیسا خطا واقع بیتی شیر یا تتے بیریو کھاتو بتاریخ کوریکو اِجازت نیکی
+login|داخل بوس
+nav-login-createaccount|کھاتہ کھولاو کورے یا اندراج کورے
+loginprompt|{{SITENAME}} کھوار ویکیپیڈیا داخلو بچے تہ سوم پاسورڈ بیک ضروری شیر
+userlogin|کھاتہ ساوزاوے یا اندراج کورے
+userloginnocreate|داخل نوشتہ بوس
+logout|لاگ آوٹ
+userlogout|لاگ آوٹ
+notloggedin|داخلہ نو ہوی
+nologin|تو کھاتہ نو ساوزے آسوسا؟ ~{0}
+nologinlink|کھاتہ ساوزاوے
+createaccount|کھاتہ کھولاو کورے
+gotaccount|پروشٹی تان کھاتا ساوزینو بیتی شیر؟'''~{0}'''.
+gotaccountlink|لاگن بوس
+userlogin-resetlink|آوا داخل بیکو بچے تان تفصیلاتن روخڅی اسوم
+createaccountmail|بذریعۂ بشلی ڈاک
+createaccountreason|وجہ:
+badretype|درج شدہ کلمۂ شناخت اصلو مطابقت نو لاکھویان
+userexists|تو کہ نامو کہ درج کوری آسوس ھیس پروشٹیاری استعمالہ شیر۔ مختلف نام استعمال کورے
+loginerror|داخلا غلطی
+createaccounterror|کھاتہ ~{0} ساوزینو نو بویان
+noname|تو تان صحیح اسم صارفو داخل نو آرو
+loginsuccesstitle|داخلہ کامیاب
+loginsuccess|'''ھانیسے تو {{SITENAME}} بنام "$1" داخل بیتی آسوس'''
+nosuchuser|"~{0}" نامو سورا کیہ صارف موجود نیکی.\nبرائے مہربانی! ہجان درست اندراجان تصدیقو کورے.\nاگر تو کہ مناسب جوشیتاو تھے [[Special:UserLogin/signup\u007Cنوغ کھاتہ دی ساوزیکو بوس]].
+nouserspecified|تہ ای اسمِ صارفو مخصوص کوریلک
+login-userblocked|ھیہ صارفو سورا پاوبندی شیر. داخلِ نوشتہ بیکو اجازت نیکی
+wrongpassword|تو غلط کلمۂ شناخت درج کوری آسوس دوبارہ کو شش کورے
+wrongpasswordempty|کلمۂ شناخت ندارد۔ دوبارہ کوشش کورے
+passwordtooshort|تہ منتخب کردہ پارلوظ(پاسورڈ) مختصار شیر. پارلوظ کم از کم {{PLURAL:~{0}\u007C1 حرف\u007C~{0} حروف}} بیلک.
+password-name-match|تہ پارلوظ(پاسورڈ) تہ اسمِ صارفو ساری مختلف بیلک.
+mailmypassword|نوغ پاسورڈ بشلی کغازو زریعا انځاوے
+passwordremindertitle|نوغ عارضی کلمۂ شناخت برائے {{SITENAME}}
+passwordremindertext|(IP پتاری ~{0}) کا (یا البت تو) {{SITENAME}} (~{3}) \nبچے نوغ کلمۂ شناختو بچے درخاس آریر. ای عارضی کلمۂ شناخت "~{2}" \nبرائے ممبار(صارف) "~{1}" تخلیق کورونو بیتی شیر. اگر ھیہ تہ ارادہ کہ اوشوی تھے تو داخلِ نوشتہ بیکار آچی نوغ کلمۂ شناختو انتخابو کورے.\nتہ کلمۂ شناخت {{PLURAL:~{4}\u007Cای بس\u007C~{4} بسار}} آچی ناکارہ بوی.\n\nاگر خور کا ھیہ درخاسو کوری آسور، یا تتے تہ پرانو کلمۂ شناخت یادی گیتی شیر،\nوا تو ھو تبدیل کوریک نو مشکیسان ،تھے تو ھیہ پیغامو نظر انداز کوریکو بوس وا تان پرانو کلمۂ شناختو استعمالو جاری لاکھیکو بوس.',
+noemail|ممبارو "~{0}" بچے کیہ بشلی کغازو  پتہ درج کورونو نو بیتی شیر
+noemailcreate|صحیح برقی پتہ مہیّا کورے
+passwordsent|ای نوغ کلمۂ شناخت "~{0}" نامو سورا ساوز بیرو  بشلی کغازو پتہوتے انزینو بیتی شیر۔ \nکیاوتکہ ھسے توریتای تھے مہربانی کوری ھو ذریعا دوبارہ داخل بوس۔
+blocked-mailpassword|تہ  آئی.پی پتہو تدوین کوریکار  روکاو کورونو بیتی شیر، تھے، ناجائز استعمالو روکاو کوریکو بچے ، تہ آئی.پی پتہو کلمۂ شناختو بحالیو فعل استعمال کوریکو اِجازت نیکی
+eauthentsent|ای تصدیقی برقی خط نامزد کورونو بیرو برقی پتا کوری انځینو بیتی شیر.\nتہ سوم توریرو برقی خطہ دیرو ہدایاتن سورا عمل کوری تو ھیہ لوو توثیق/تصدیقو کورے کہ مذکورہ برقی پتہ تہ زاتی پتہ شیر.
+throttled-mailpassword|گزشتہ {{PLURAL:~{0}\u007Cگھنٹہ\u007C~{0} گھنٹہ}}ان اندرینی پروشٹیار یری تان پارلوظو(پاسورڈو)ای یادآوری انځینو بیتی شیر.\nناجائز استعمالو سدّبابو بچے، {{PLURAL:~{0}\u007Cگھنٹہ\u007C~{0} گھنٹہ}}ان دورانی صرف ای پارلفظی یادآواری انځینو بوی
+mailerror|کغاز انزیکو دورانی مسلہ:~{0}
+acct_creation_throttle_hit|تہ آئی.پی پتو ذریعا ھیہ ویکیا گیاک صارفین شوخڅیرو ای بسہ{{PLURAL:~{0}\u007C1 کھاتہ ساوزے آسور\u007C~{0} کھاتے ساوزے آسونی}}، وا ھیس مذکورہ وختہ کافی شیر.\nلہٰذا، تہ آئی.پی پتو استعمال کوراک صارفین موجودہ وختہ مزید کھاتہ ساوزیکو نو بونی.
+emailauthenticated|تہ بشلی کغازو پتو تصدیق تاریخ ~{1} بوقت ~{2} بجا کورونو ھوی۔
+emailnotauthenticated|تہ برقی پتو ھنیسے  تصدیق نو بیتی شیر.\nدرج ذیل وجھو سورا کیہ دی اشناریو بچے تہ برقی پتہ کوری برقی ڈاک ارسال کورونو نو بوی.
+noemailprefs|ھمی خصائص یعنی فیچران کورما انگیکو بچے تان ترجیحاتہ برقی ڈاکو پتو متعین کورے.
+emailconfirmlink|تان برقی پتو تصدیقو کورے
+accountcreated|تخلیقِ کھاتہ
+accountcreatedtext|تخیلقِ کھاتۂ ممبار براۓ ~{0}۔
+createaccount-title|کھاتہ سازی برائے {{SITENAME}}
+usernamehasherror|اسمِ صارفہ قیٹ پیٹ حروف استعمال کوریکو اجازت نیکی
+login-throttled|تو داخلِ نوشتہ بیکو بچے بو زیادہ کوششیں آرو.\nدوبارہ کوشش کوریکو بچے پھوک مدا انتظار کورے.
+loginlanguagelabel|زبان: ~{0}
+resetpass|پاسورڈو چینج کورے
+resetpass_announce|تو ای برقی ارسال کردہ عارضی کوڈ ورڈو سوم جستہ داخل بیتی آسوس.\nداخلِ نوشتہ بیکو عملو مکمل کوریکو بچے تہ ھیارا نوغ پاسورڈ متعین کوریلک بوی:
+resetpass_header|کھاتو پاسورڈو تبدیل کورے
+oldpassword|پرانو کلمۂ شناخت:
+newpassword|نوغ کلمۂ شناخت
+retypenew|نوغ کلمۂ شناخت دوبارہ درج کورے:
+resetpass_submit|پاسورڈ ساوزاوے وا داخل بوس
+resetpass_forbidden|تتے پاسورڈو چینج کوریکو اجازت نیکی
+resetpass-no-info|ھیہ صفحا براہِ راست رسائیو بچے تہ داخلِ نوشتہ بیک ضروری شیر.
+resetpass-submit-loggedin|پاسورڈو تبدیلی
+resetpass-submit-cancel|کھینسل
+resetpass-wrong-oldpass|عارضی یا موجودہ پاسورڈ ناقص شیر.\nتو تان پاسورڈو کامیابیو سورا تبدیل کوری آسوس  یا تو نوغ عارضی پاسورڈو بچے درخواست کوری آسوس.
+resetpass-temp-password|عارضی پاسورڈ:
+passwordreset|پاسورڈو ری سیٹ کورے
+passwordreset-username|ممبارو نم
+changeemail-none|(نو)
+changeemail-cancel|کھینسل
+extlink_sample|http://groups.yahoo.com/group/khowaracademy ربطو عنوان
+extlink_tip|بیریو ربطو (یاد لکھے  http:// prefix)
+nowiki_sample|غیرشکلبندشدہ متنو ھیارا درج کورور
+nowiki_tip|ویکی شکلبندی نظرانداز کورے
+image_tip|پیوستہ مسل
+media_tip|مسلو لنک
+sig_tip|تہ دستخط بمع مہرِ وخت
+hr_tip|تھروسکی لکیر (زیادہ استعمال مو کورے)
+summary|خلاصہ:
+subject|مضمون/شہ سرخی:
+minoredit|معمولی ترمیم
+watchthis|ھیہ صفحو لوڑے
+savearticle|محفوظ
+preview|نمائش
+showpreview|نمائش
+showlivepreview|براہِ راست پیش منظر
+showdiff|تبدیلیان پشاوے
+anoneditwarning|تو{{SITENAME}} داخل نو بیتی اسوس لہذا تہIP پتہ ھیہ صفحو تاریخچہ ء ترمیما محفوظ بوی
+missingcommenttext|براہِ کرم! تبصرہ موڑا درج کورے.
+missingcommentheader|'''خبردار:''' تو ھیہ تبصرو بچے عنوان یا شہ سرخی مہیّا نو آرو.\nاگر تو محفوظو بٹنو کہ دوبارہ کلک آرو تھے تہ تبصرہ بغیر عنوانا محفوظ بوی.
+summary-preview|نمائش خلاصہ:
+subject-preview|عنوان/شہ سرخیو پیش منظر:
+blockedtitle|صارفو بلاک کورونو بیتی شیر
+blockednoreason|کیہ وجہ دیونو نو ھوی
+whitelistedittext|ترمیم کوریکو بچے ~{0} ضروری شیر.
+nosuchsectiontitle|قطعہ ملاو نو ھوی
+loginreqtitle|داخلہ / اندراج لازم
+loginreqlink|داخلہ
+loginreqpagetext|خور صفحاتن لوڑیکو بچے تہ ~{0} ضروری شیر.
+accmailtitle|کلمہ شناخت(پاسورڈ) انځینو ھوی
+newarticle|(نوغ)
+newarticletext|↓تو ای ھس صفحو ربطو پیرویو کوری اسوس کہ ھسے ھنیسے موجود نیکی.\nھیہ صفحہو تخلیق کوریکو بچے درج ذیل خانا متنو درج کورے (مزید معلوماتو بچے [[{{MediaWiki:Helppage}}\u007Cصفحۂ معاونت]] ملاحظہ کورے).\nاگر تو ھیا غلطیو سورا کہ گیتی اسوس تھے اچھو صفحا آچی بیکو بچے تان کمپیوٹرا '''back''' بٹنو ٹک کورے.
+noarticletext| ھیہ صفحہا فی الحال کیہ متن موجود نیکی.\nتو دیگر صفحاتا [[Special:Search/{{PAGENAME}}\u007Cھیہ صفحہو عنوانو بچے تلاش کوریکو بوس]]، <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} متعلقہ نوشتہ جات تلاش کوریکو بوس],\nیا [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} تو ھیہ صفحہا ترمیم کوریکو بوس]</span>
+noarticletext-nopermission|ھیہ صفحہا فی الحال کیہ متن موجود نیکی.\nتو دیگر صفحاتا [[Special:Search/{{PAGENAME}}\u007Cھیہ صفحہو عنوانو بچے تلاش کوریکو بوس]]، <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} متعلقہ نوشتہ جات تلاش کوریکو بوس],\nیا [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} تو ھیہ صفحہا ترمیم کوریکو بوس]</span>
+updated|(اپ ڈیٹڈ)
+note|'''نوٹ:'''
+previewnote|'''یاد لاکھے، ھیہ صرفی نمائش شیر، تہ کاردو ترامیم ھنیسے محفوظ کورونو نو بیتی شینی۔'''
+editing|تو "~{0}" ترمیم کوروسان۔
+editingsection|~{0} قطعو تدوین
+editingcomment|زیرترمیم ~{0} (تبصرہ)
+editconflict|تنازعہ ترمیم:~{0}
+yourtext|تہ تحریر
+storedversion|ذخیرہ شدہ نظرثانی
+yourdiff|تضادات
+templatesused|ھیہ صفحا استعمال باک  {{PLURAL:~{0}\u007Cسانچہ\u007Cسانچے}}:
+templatesusedpreview| ھیہ پیش منظرا مستعمل {{PLURAL:~{0}\u007Cسانچہ\u007Cسانچے}}:
+template-protected|(محفوظ شدہ)
+template-semiprotected|(نیم محفوظ)
+hiddencategories|ھیہ صفحہ {{PLURAL:~{0}\u007C1 کھوشت زمرے\u007C~{0} کھوشت زمرہ جات}}ا شامل شیر:
+permissionserrorstext-withaction|درج ذیل {{PLURAL:~{0}\u007Cوجہ\u007Cوجوہاتن}} پرنیکا تاتے ~{1} کوریکو اجازت نیکی:
+recreate-moveddeleted-warn|↓''' خبردار: تو ای گزشتہ حذف شدہ صفحو دوبارہ تخلیق کوروسان. '''\n\nتاتے جم پتہ کہ ھیہ صفحو تدوینو جاری لاکھک موزوں نو .\nصفحو نوشتۂ حذف شدگی و منتقلی ھیارا تہ سہولتو خاطرا دیونو بویان:
+moveddeleted-notice|ھیہ ای حذف شدہ صفحہ شیر.\nصفحو نوشتۂ حذف شدگی و منتقلی ذیلا بطورِ حوالہ دیونو بویان.
+content-model-javascript|جاوا اسکرپٹ
+post-expand-template-inclusion-warning|'''خبردار:''' سانچو سایز بو لوٹ شیر.\nبعضی سانچہ شامل نو بونی.
+post-expand-template-inclusion-category|ھش صفحات کہ ھتیرا ٹمپلیٹ یعنی سانچو ناپ لوٹ بیتی شیر۔
+post-expand-template-argument-warning|'''خبردار:''' ھیہ صفحا ای سانچہ(ٹمپلیٹ) مشقولگی دیونو بیتی شیر وا ھمو سایز بولوٹ شیر۔\nھمی لوان نیزونو بیتی شیر
+post-expand-template-argument-category|ھش صفحات کہ ھتیرا بوغینو بیرو سانچان یعنی(ٹمپلیٹان) لو شینی۔
+viewpagelogs|ھیہ صفحہو بچے نوشتہ جاتن لوڑے
+currentrev-asof|حالیہ نظرثانی بمطابق ~{0}
+revisionasof|تـجدید بـمطابق ~{0}
+revision-info|~{1} ~{0} ھموش نیویشیتای
+previousrevision|←پرانو تدوین
+nextrevision|→پروشٹیو اعادہ
+currentrevisionlink|حالیہ نظرثانی
+cur|رائج
+next|پروشٹیو
+last|سابقہ
+histlegend|انتخاب: مختلف نسخان موازنہ کوریکو بچے ، پیامی خانان نشان زد کوری موڑا دیرو بٹنا کلک کورے۔\n\n'''علامات:'''\n\n(رائج) = موجودہ متنو ساری اخـتلاف، (سابقہ) = گزشتہ متنو ساری اختلاف ، م = معمولی ترمیم۔
+history-fieldset-title|تاریخو لوڑے
+history-show-deleted|صرفی حذف شدہ
+histfirst|قدیم ترین
+histlast|تازہ ترین
+historyempty|(خالی)
+history-feed-item-nocomment|~{0} تا ~{1}
+rev-delundel|پشاوے/کھوشتاوے
+rev-showdeleted|پشاوے
+revdelete-radio-set|Yes/دی
+revdelete-radio-unset|نو
+revdel-restore|ظاہریتو تبدیل کورے
+revdel-restore-deleted|حذف شدہ رویژنز
+revdel-restore-visible|ویزیبل رویژنز
+mergehistory-revisionrow|~{0} (~{1}) ~{2} . . ~{3} ~{4} ~{5}
+revertmerge|غیر ضم
+history-title|تاریخچہ "~{0}"
+lineno|لکیر ~{0}:
+compareselectedversions|منتخب متـنو موازنہ
+editundo|استرجع
+diff-multi|({{PLURAL:~{0}\u007COne intermediate revision\u007C~{0} intermediate revisions}} by {{PLURAL:~{1}\u007Cone user\u007C~{1} users}} not shown)
+searchresults|تلاشو نتیجہ
+searchresults-title|نتائجِ تلاش برائے "~{0}"
+searchresulttext|ویکیپیڈیا تلاشو باریا مزید معلوماتو بچے، ویکیپیڈیا تلاشو صفحہو لوڑے۔{{SITENAME}}, [[{{MediaWiki:Helppage}}\u007C{{int:help}}]].\n{{SITENAME}}, [[{{MediaWiki:Helppage}}\u007C{{int:help}}]].
+searchsubtitle|تہ تلاش برائے '''[[:~{0}]]''' ([[Special:Prefixindex/~{0}\u007C"~{0}" شروع باک تمام صفحات]]{{int:pipe-separator}}[[Special:WhatLinksHere/~{0}\u007C"~{0}" مربوط تمام صفحات]])
+searchsubtitleinvalid|تہ تلاش براۓ '''~{0}'''
+notitlematches|کیہ دی مماثل عنوان صفحہ ملاو نو ھوی
+notextmatches|ھیہ عنوانو سورا کیہ دی صفحہ موجود نیکی
+prevn-title|سابقہ ~{0} {{PLURAL:~{0}\u007Cنتیچہ\u007Cنتیجہ}}
+nextn-title|سابقہ ~{0} {{PLURAL:~{0}\u007Cنتیچہ\u007Cنتیجہ}}
+shown-title|فی صفحہ ~{0} {{PLURAL:~{0}\u007Cنتیجہ\u007Cنتائج}} پشاوے
+viewprevnext|لوڑے(~{0} {{int:pipe-separator}} ~{1}) (~{2})۔
+searchmenu-exists|'''ھیہ کھوار ویکیپیڈیا "[[:$1]]" نامی ای صفحہ موجود شیر'''
+searchmenu-new|↓'''ھیہ کھوار ویکیپیڈیا صفحہ "[[:$1]]" تخلیق کورے!'''
+searchprofile-articles|مشمولاتی صفحات
+searchprofile-project|مدد اوچے منصوبو صفحات
+searchprofile-images|ملٹی میڈیا
+searchprofile-everything|سف اشناری
+searchprofile-advanced|ایڈوانس
+searchprofile-articles-tooltip|~{0} ھیہ صفحا تلاش
+searchprofile-project-tooltip|~{0} ھیارا تلاش
+searchprofile-images-tooltip|تلاش برائے فایل
+searchprofile-everything-tooltip|ہر ژاغا تلاش کورے
+searchprofile-advanced-tooltip|کسٹم نیم اسپیسا تلاش کورے
+search-result-size|~{0} ({{PLURAL:~{1}\u007C1 لوظ\u007C~{1} الفاظ}})
+search-result-category-size|{{PLURAL:~{0}\u007C1 رُکن\u007C~{0} اراکین}} ({{PLURAL:~{1}\u007C1 ذیلی زمرہ\u007C~{1} ذیلی زمرہ جات}}, {{PLURAL:~{2}\u007C1 ملف\u007C~{2} ملفات}})
+search-redirect|(رجوع مکرر ~{0})
+search-section|(حصہ ~{0})
+search-suggest|تہ مطلب ھیہ تھے نو اوشوی: ~{0}
+search-interwiki-caption|ملگیری منصوبہ
+search-interwiki-default|~{0} نتائج:
+search-interwiki-more|(مزید)
+searchrelated|متعلقہ
+searchall|کھل
+nonefound|'''یاددہانی''': عموماً صرف ای کما نامان تلاش کورونو بونیان۔\nتمام مواد (بشمول تبادلۂ خیال صفحات، سانچہ جات وغیران) تلاش کوریکو بچے تان استفساراری پروشٹی ''all:'' لیگاوے، یا تان پسندو نامو بطور سابقہ استعمال کورے
+search-nonefound|استفسارو مطابقا نتائج ملاو نو ھونی.
+powersearch|ایڈوانس تلاش
+powersearch-legend|ایڈوانس سرچ
+powersearch-ns|جائے ناما تلاش:
+powersearch-redir|فہرستِ رجوع مکرر
+powersearch-field|تلاش برائے
+powersearch-toggleall|سف
+preferences|ترجیحات
+mypreferences|مہ ترجیہات
+skin-preview|نمائش
+youremail|بشلی کغاز
+username|ممبارو نم
+uid|ممبارو لمبار:
+prefs-memberingroups|{{PLURAL:~{0}\u007Cگروہ\u007Cگروہاں}} رُکن:
+prefs-registration-date-time|~{0}
+yourrealname|* اصلی نم
+yournick|دسخط
+badsig|ناقص خام دسخط.\nHTML tags لوڑے.',
+badsiglength|تہ دسخط کافی درونگار شیر.\nھیہ ~{0} {{PLURAL:~{0}\u007Cحرف\u007Cحروفاری}} زیات نو بیلک.
+prefs-help-email|برقی ڈاکو پتہ اختیاری شیر لیکن ھیہ ھتے وختہ مفید ثابت بوی کیاوتکی تو تان پاسورڈو کی روخڅیتاو
+prefs-help-email-others|تو ھمو دی منتخب کوریکو بوس  کہ خور صارفین تہ تبادلۂ خیالو صفحا ای ربطو ذریعا تتے بشلی کغاز یعنی برقی ڈاک انځینی.\nکیاوتکہ دیگر صارفین تہ سوم رابطہ  کورونیان تھے تہ برقی ڈاکو پتہ افشا کورونو نو بوی
+group-sysop|کھوار ویکیپیڈیو منتظمین
+grouppage-sysop|{{ns:project}}:کھوار ویکیپیڈیو منتظمین
+right-movefile|منتقل کورے
+right-upload|فائل انځاوے
+right-delete|صفحان ضائع کورے
+newuserlogpage|نوشتۂ آمد صارف
+rightslog|یوزروت مختص شدہ حقوق
+action-edit|ھیہ صفحا ایڈیٹنگ کورے
+nchanges|~{0} {{PLURAL:~{0}\u007Cتبدیلی\u007Cتبدیلیاں}}
+recentchanges|حالیہ تبدیلی
+recentchanges-legend|حالیہ تبدیلیان اختیارات
+recentchanges-summary|ھیہ صفحا کھوار ویکیپیڈیا باک تازہ تریں تبدیلیان مشاہدہ کورے
+recentchanges-feed-description|کھوارا ترجمہ
+recentchanges-label-newpage|ھیہ ترمیم نوغ صفحہ تخلیق آریر
+recentchanges-label-minor|ھیہ ای معمولی ترمیم شیر
+recentchanges-label-bot|ھیہ ایڈیٹو خود کار بوٹو زریعا انجام دیونو ہوی
+recentchanges-label-unpatrolled|ھیہ ترمیمو ھمونیہ پت مراجعت(Patrolled) کورونو نو بیتی شیر
+rcnote|درج ذیل گزشتہ {{PLURAL:~{1}\u007Cبس\u007C'''~{1}''' انوسا}} باک {{PLURAL:~{0}\u007C'''ای''' تبدیلی شیر\u007Cآخری '''~{0}''' تبدیلی شینی}}، ~{4}، ~{3}.
+rcnotefrom|ھیہ موڑا '''~{1}''' کورونو بیرو تبدیلیان تفصیلات شینی ('''~{0}''' تبدیلیان پشینو بونیان)۔
+rclistfrom|~{0} نوغ تبدیلیاں پشیک شروع کورے
+rcshowhideminor| معمولی ترامیم ~{0}
+rcshowhidebots|خودکار صارف ~{0}
+rcshowhideliu|داخل بیرو صارف ~{0}
+rcshowhideanons|گمنام صارف ~{0}
+rcshowhidepatr|~{0} لوڑونو بیرو لکھائی
+rcshowhidemine|ذاتی ترامیم ~{0}
+rclinks|آخری ~{1} آنوسو بیرو ~{0} تبدیلیان مشاہدہ کورے<br />~{2}
+diff|فرق
+hist|تاریخچہ
+hide|مو پشاوے
+show|ویریغ کورے
+minoreditletter|م
+newpageletter|نوغ
+boteditletter|خودکار
+rc-enhanced-expand|تفصیلاتن پشاوے (JavaScript ضرورت بوی)
+rc-enhanced-hide|تفصیلاتن کھوشتاوے
+recentchangeslinked|متعلقہ تبدیلی
+recentchangeslinked-toolbox|موقعی تبدیلی
+recentchangeslinked-title|متعلقہ تبدیلی "~{0}"
+recentchangeslinked-noresult|ھمی صفحا موجودہ وختہ کیہ تبدیلی نیکی۔
+recentchangeslinked-summary|ھیہ ھتے تبدیلیان لسٹ شیر کہ ھیتان پھوک مدا پروشٹی ساوزینو بیتی شینی وا ھے صفحان سوم جستہ خور کیہ صفحہ چوکی شینی یا کیہ خاص زمرہ جاتو ممبرانن سوم چوکی شینی<br />\nساوزیرو [[Special:Watchlist\u007Cموڑا صفحہ]] '''بولڈ''' شینی
+recentchangeslinked-page|کھوار ویکیپیڈیو منصوبو صفحو لوڑے
+recentchangeslinked-to|کھولاو بیرو صفحو بجایا ھمو سوم چوکیرو صفحو نوغ تبدیلیان پشاوے
+upload|فائل انځاوے
+uploadlogpage|نوشتۂ زبراثقال (اپ لوڈ لاگ)
+filename|فایلو نام
+filedesc|خلاصہ
+uploadedimage|زبراثقال (اپ لوڈ) براۓ "[[~{0}]]"
+license|لایسنس
+license-header|لایسنسنگ
+file-anchor-link|فایل
+filehist|مسلو تاریخ
+filehist-help|ھیہ لوڑیکو بچے  کہ کیہ خاص وختہ فایل کیہ قسمہ ظاہر باو اوشتای ھتے  تاریخ یا وختہ طق(کلک) کورے
+filehist-revert|آچی
+filehist-current|حالیہ
+filehist-datetime|تاریخ/وخت
+filehist-thumb|اظفورہ
+filehist-thumbtext|~{0} صارفو څیق ھوٹو
+filehist-user|صارف
+filehist-dimensions|ابعاد
+filehist-comment|تبصرہ
+imagelinks|مسلو روابط
+linkstoimage|ھیہ مسلو سوم درج ذیل {{PLURAL:~{0}\u007Cصفحہ مربوط شیر\u007C~{0} صفحات مربوط شینی}}
+nolinkstoimage|ھیہ کھوار ویکیپیڈیا ھش کیہ صفحات نیکی کہ ھتیت ھیہ مسل (فائلو) متعلقہ شینی
+sharedupload-desc-here|ھیہ فائل ~{0} موژاری شیر وا ھیہ خور پرجیکٹہ استعمال بویان۔\nمزید معلومات ھمو [~{1} فائل مشقولگی صفحہا]  دیونو بیتی شیر
+uploadnewversion-linktext|ھیہ مسلو نوغ ورژنو اپلوڈ کورے
+randompage|بےترتیب صفحہ
+disambiguationspage|سانچہ: ڈسایمبگ
+nbytes|~{0} {{PLURAL:~{0}\u007Cبایٹ\u007Cبایٹس}}
+nmembers|~{0} {{PLURAL:~{0}\u007Cممبار\u007Cممباران}}
+lonelypages|څھوعو صفحات
+unusedcategories|غیر استعمال شدہ زمرہ جات
+unusedimages|غیر استعمال شدہ فائل
+popularpages|مقبول صفحات
+wantedcategories|طلب شدہ زمرہ جات
+wantedpages|درخواست شدہ مضامین
+wantedfiles|درخواست شدہ مضامین
+wantedtemplates|درخواست شدہ سانچہ
+mostlinked|سفو ساری زیات ربط(لنک) والا مضمون
+mostlinkedcategories|سفو ساری زیات ربط(لنک) والا زمرہ جات
+mostlinkedtemplates|سفو ساری زیات ربط(لنک) والا سانچہ
+mostcategories|سفو ساری زیات زمرہ جات والا مضمون
+mostimages|سفو ساری زیادہ استعمال کاردو ھوٹو
+mostrevisions|زیادہ تجدید نظر کورونو بیرو صفحات
+prefixindex|کھلی صفحات پریفکسان سوم جستہ
+shortpages|څیق صفحات
+longpages|درونگار ترین صفحات
+deadendpages|بیردو صفحات
+protectedpages|محفوظ شدہ صفحہ
+protectedtitles|محفوظ شدہ صفحہ
+listusers|فہرست ارکان
+usercreated|\n{{GENDER:~{2}\u007Cتخلیق شدہ}}  بتاریخ ~{0} بوقت ~{1}
+newpages|نوغ صفحات
+newpages-username|اسمِ رکنیت
+move|منتقل
+movethispage|ھیہ صفحو خور ژاغا  منتقل کورے
+pager-newer-n|{{PLURAL:~{0}\u007Cنوغ1\u007Cنوغ ~{0}}}
+pager-older-n|{{PLURAL:~{0}\u007Cقدیم1\u007Cقدیم ترین ~{0}}}
+booksources|کتابی وسائل
+booksources-search-legend|کتابی وسایلان تلاش
+booksources-go|Go/بوغے
+specialloguserlabel|یوزر
+speciallogtitlelabel|عنوان:
+log|نوشتہ جات
+alphaindexline|~{0} تا ~{1}
+allpagesfrom|مطلوبہ حرفاری شروع باک صفحاتن نمائش:
+allpagesto|مطلوبہ حرفاری ختم باک صفحاتن نمائش:
+allarticles|تمام مقالات
+allpagesprev|آچھو
+allpagesnext|پروشٹیو
+allpagessubmit|بوغے لا
+sp-deletedcontributions-contribs|حصہ
+linksearch|بیریو لنک
+linksearch-ns|نامو ژاغہ:
+linksearch-ok|Search/تلاش
+linksearch-line|~{0} مربوط شیر ~{1} ری
+listgrouprights-members|ممبارانن فھرست
+emailuser|ممباروت بشلی کغاز انڅاوے
+watchlist|مہ واچ لسٹ
+mywatchlist|مہ زیرنظرفہرست
+watchlistfor2|براۓ ~{0} (~{1})
+removedwatchtext|ھیہ صفحہ "[[:~{0}]]" خارج کورونو ھوی[[Special:Watchlist\u007Cتہ زیر نظر فہرستاری]].
+watch|زیرنظر
+watchthispage|ھیہ صفحو تان نظرا لاکھے
+unwatch|زیرنظرمنسوخ
+watchlist-details| تہ زیرِنظرفہرستا {{PLURAL:~{0}\u007C~{0} صفحہ شیر\u007C~{0} صفحات شینی}}، ھیارا تبادلۂ خیالو صفحاتن تعداد شامل نیکی.
+wlshowlast|پشاوے آخری ~{0} گھنٹو ~{1} آنوسو ~{2}
+watchlist-options|واچ لسٹ آپشن
+watching|زیر نظر
+unwatching|منسوخ
+deletepage|صفحہو ضائع کورے
+confirmdeletetext|تو ھیہ صفحو ھمو سوم ملحقہ تاریخچو سوم جستہ حذف کوریکو ارادہ کوری آسوس ۔ براۓ مہربانی تصدیق کورے کہ تو ھیہ عملو نتائجان ساری بخوبی آگاہ آسوس، وا ھیہ یقینو دی کورے کہ تو ھش [[{{MediaWiki:Policy-url}}\u007Cویکیپیڈیو حکمت عملیو]] دائرا حال بتی کوروسان۔
+actioncomplete|اقدام تکمیلوتے تورتای
+actionfailed|تہ ایکشن ناکام ہوی
+deletedtext|"~{0}" حذف کورونو بیتی شیر ۔\nحالیہ حذف شدگیو تاریخ نامو بچے  ~{1}  لوڑے
+dellogpage|نوشتۂ حذف شدگی
+deletecomment|وجہ
+deleteotherreason|جوو/اِضافی وجہ
+deletereasonotherlist|جوو وجہ
+rollbacklink|آچی سابقہ حالتہ
+protectlogpage|نوشتۂ محفوظ شدگی
+protectedarticle|"[[~{0}]]" محفوظ کورونو ھوی
+modifiedarticleprotection|تبدیل کاردو پروٹیکشن لیول "[[~{0}]]"
+protectcomment|وجہ:
+protectexpiry|ختم بویان:
+protect_expiry_invalid|Expiry ٹیم غلط شیر.
+protect_expiry_old|ایکسپایری ٹیم مسقبلا
+protect-text|You may view and change the protection level here for the page '''~{0}'''.\nتو ھیارا پروٹیکشن لیولو لوڑیکو اوچے چینج کوریکو بوس '''~{0}'''.
+protect-default|تمام صارفینانتے اجازت دیت
+protect-fallback|ضرورت شیر"~{0}" اجازتو
+protect-level-autoconfirmed|نوغ اوچے غیر رجسٹیر شدہ یوزران بلاک کورے
+protect-level-sysop|صرفی منتظمینان بچے
+protect-expiring|ختم بویان ~{0} (UTC)
+protect-cantedit|تو ھیہ صفحو پروٹیکشن لیولو چینج کوریکو نوبوس، کوریکو کہ تاتے ھش کوریکو اجازت نیکی
+restriction-type|اجازت
+restriction-level|ممنوغ لیول
+undelete|ضائع کاردو صفحاتن لوڑے
+undeletelink|لوڑے/بحال کورے
+undeleteviewlink|لوڑے
+namespace|نامو ژاغہ:
+invert|انتخاب بالعکس
+contributions| ~{0} صارفو حصہ
+contributions-title|~{0} صارفو حصہ
+mycontris|مہ حصہ
+contribsub2|براۓ ~{0} (~{1})
+uctop|(ٹیکہ)
+month|مس (وا ھیغاری پروشٹی):
+year|سال (وا ھیغاری پروشٹی):
+sp-contributions-newbies|صرفی نوغ اکاونٹو مضمونن پشاوے
+sp-contributions-newbies-sub|نوغ اکاونٹو بچے
+sp-contributions-blocklog|پاوبندی لیگیکو چٹ
+sp-contributions-uploads|اپلوڈ کاردو فایل
+sp-contributions-logs|لاگز
+sp-contributions-talk|تبادلہ خیال
+sp-contributions-search|تان نیویشیرو مضمونن تلاش کورے
+sp-contributions-username|آئی.پی پتہ یا اسمِ صارف:
+sp-contributions-toponly|صرف حالیہ ترین نظرثانی ترمیماتن پشاؤے
+sp-contributions-submit|Search/تلاش
+whatlinkshere|ھیارا کیہ کیہ لنک شینی
+whatlinkshere-title|لنک شدہ صفحات "~{0}"
+whatlinkshere-page| صفحہ:
+linkshere| '''[[:~{0}]]''' درج ذیل صفحات لنک کوری شینی:
+nolinkshere|'''[[:~{0}]]''' کیہ روابط نیکی
+isredirect|خور ژاغا آلدو صفحہ
+istemplate|ٹرانسکلوژن
+isimage|ھوٹوان لنک
+whatlinkshere-prev|{{Plural:~{0}\u007Cسابقہ\u007Cسابقہ ~{0}}}
+whatlinkshere-next|{{PLURAL:~{0}\u007Cپروشٹیو\u007Cپروشٹیو~{0}}}
+whatlinkshere-links|← لنکس
+whatlinkshere-hideredirs|~{0} رجوع مکرر
+whatlinkshere-hidetrans|ٹرانسکلوژن ~{0}
+whatlinkshere-hidelinks|~{0} لنکس
+whatlinkshere-hideimages|ھوٹوان لنک ~{0}
+whatlinkshere-filters|فلٹر
+blockip|داخلہ ممنوع براۓ صارف
+ipboptions|2 گھنٹہ:2 hours,1 آنوس:1 day,3 بس:3 days,1 ہفتہ:1 week,2 ہفتہ:2 weeks,1 مس:1 month,3 مس:3 months,6 مس:6 months,1 سال:1 year,لامحدود:infinite
+ipblocklist|داخلہ ممنوع براۓ صارف
+blocklink|پاوبندی لیگاوے
+unblocklink|پاوبندی ختم
+change-blocklink|پاوبندیا تبدیلی
+contribslink|حصہ داری
+blocklogpage|نوشتۂ پاوبندی
+blocklogentry|بلاک[[~{0}]] وختہ پت ~{1} ~{2}
+unblocklogentry|بلاک نو کاردو ~{0}
+block-log-flags-nocreate|کھاتہ کھولاو کوریکو سورا پاوپندی شیر
+movearticle|مـنـتـقـل کـورے
+newtitle|نوغ عنوان
+move-watch|صفحہ زیر نظر
+movepagebtn|منتقل
+pagemovedsub|انتقال کامیاب
+movepage-moved|'''"~{0}" ھیہ ووشکی منتقل کورونو ھوی "~{1}"'''
+articleexists|ھیہ عنوانو سورا کیہ صفحہ پروشٹیاری موجودشیر یا تہ درخواست کاردو  نام مستعمل نیکی براۓ مہربانی خور نامو منتخب کورے۔
+movedto|آلونو ھوی
+movelogpage|نوشتۂ منتقلی
+movereason|واجھہ
+revertmove|رجوغ
+export|برآمد صفحات
+allmessagesname|نم
+allmessagesdefault|طے شدہ متن
+thumbnail_error|~{0} څیق سایزو ھوٹو ساوزیکا مسئلہ
+tooltip-pt-userpage|تہ صارفی صفحہ
+tooltip-pt-mytalk|تہ صفحۂ مشقولگی
+tooltip-pt-preferences| تہ ترجیحات
+tooltip-pt-watchlist|ھتے صفحاتن فہرست کہ ھتیتان تبدیلی تہ زیرِنظر شینی
+tooltip-pt-mycontris|تہ کاردو کورمان فہرست
+tooltip-pt-login|تہ بچے داخلِ نوشتہ بیک جم شیر، لیکن ھیہ ضروری نو
+tooltip-pt-logout|خارج بوس
+tooltip-ca-talk|مضمونو بارا تبادلۂ خیال
+tooltip-ca-edit|تو ھیہ صفحہا ترمیم کوریکو بوس\nبرائے مہربانی! تان ترمیماتن محفوظ کوریکار پروشٹی  نمائشو بٹنا کلک کورے
+tooltip-ca-addsection|نوغ قطعہ شروع کورے
+tooltip-ca-viewsource|ھیہ ای محفوظ شدہ صفحہ شیر\nتو صرف ھمو مآخذو لوڑیکو بوس
+tooltip-ca-history|ھیہ صفحو سابقہ نظرثانی
+tooltip-ca-protect|ھیہ صفحہو محفوظ کورے
+tooltip-ca-delete|ھیہ صفحہو بوغاوے
+tooltip-ca-move|ھیہ صفحو منتقل کورے
+tooltip-ca-watch|ھیہ صفحہو تان زیرِنظرفہرستہ شامل کورے
+tooltip-ca-unwatch|ھیہ صفحہو تان زیرِنظرفہرستاری نیزے
+tooltip-search|تلاش {{SITENAME}}
+tooltip-search-go|اگر بالکل ھیہ نامو سورا صفحہ کہ موجود شیر تھے ھتے صفحہا بوغے
+tooltip-search-fulltext|ھیہ متنو بچے صفحاتن تلاش کورے
+tooltip-p-logo|سرورقا بوغے
+tooltip-n-mainpage|اصلی صفحہا بوغے
+tooltip-n-mainpage-description|اصلی صفحہ
+tooltip-n-portal|کھوار ویکیپیڈیو منصوبو متعلقہ، تو کیاغ کوریکو بوس، اشناریان کورا تلاش کوریلک
+tooltip-n-currentevents|حالیہ واقعاتہ بیرو پس منظری معلوماتن لوڑے
+tooltip-n-recentchanges|کھوار ویکیپیڈیا حالیہ تبدیلیان فہرست
+tooltip-n-randompage|ای بے ترتیب صفحہ لوڈ کورے
+tooltip-n-help|تلاش کوریکو ژاغہ
+tooltip-t-whatlinkshere|ھتے سف ویکی صفحاتن فہرست کہ ھتیتان ھیارا لنک شیر
+tooltip-t-recentchangeslinked|ھیہ صفحہو سوم مربوط صفحاتہ بیرو حالیہ تبدیلی
+tooltip-feed-rss|ھیہ صفحو بچے اسس خورد
+tooltip-feed-atom|ھیہ صفحو بچے آٹوم فیڈ
+tooltip-t-contributions|نوغ تدوین
+tooltip-t-emailuser|ھیہ ممباروت بشلی کغاز(ای میل) انڅاوے
+tooltip-t-upload|اپلوڈ فایل
+tooltip-t-specialpages|سف خاص صفحاتن فہرست
+tooltip-t-print|ھیہ صفحو قابل طبع نسخہ
+tooltip-t-permalink|صفحہعو موجودہ نظرثانیو مستقل لنک
+tooltip-ca-nstab-main|مضمونو صفحو لوڑے
+tooltip-ca-nstab-user|ممبارو صفحو لوڑے
+tooltip-ca-nstab-special|ھیہ ای خاص صفحہ شیر، تو ھیارا ترمیم کوریکو نو بوس
+tooltip-ca-nstab-project|پروجیکٹو صفحو لوڑے
+tooltip-ca-nstab-image|مسلو صفحو لوڑے
+tooltip-ca-nstab-template|سانچو لوڑے
+tooltip-ca-nstab-category|زمرہ جاتی صفحو لوڑے
+tooltip-minoredit|ھیہ تدوینو بطورِ معمولی ترمیم نشانزد کورے
+tooltip-save|تبدیلیان محفوظ کورے
+tooltip-preview|برائے مہربانی! محفوظ کوریکار پروشٹی تبدیلیان پیشمنظرو لوڑے
+tooltip-diff|لوڑے کہ تو تان مضمونو متنہ کیہ کیہ تبدیلی آرو
+tooltip-compareselectedversions|منتخب متـنو موازنہ
+tooltip-watch|ھیہ صفحہو تان زیرِنظرفہرستہ شامل کورے
+tooltip-rollback|"رول بیک" ای کلکا صفحو واپس سابقہ حالتہ گنی آلوی
+tooltip-undo|"واپس" یا لوظ آچیا کلک کوریکو سوم جستہ تہ صفحہ کچا تہ پشینو بوی ھے سوم جستہ تو واپس کوریکو وجہ نیویشیکو بوس
+tooltip-summary|ای مختصار سمری ساوزاوے
+previousdiff| ← پرانو تدوین
+nextdiff|صفحہو نم:
+file-info-size|~{0} × ~{1} پکسلز, فل سایز: ~{2}, MIME ٹایپ: ~{3}
+file-nohires|ھموغاری لوٹ ریزولیوشن دستیاب نیکی.
+svg-long-desc|SVG فایل, nominally ~{0} × ~{1} پکسلز, فایل سایز: ~{2}
+show-big-image|لوٹ کوری پشاوے
+bad_image_list|شکلبند درج ذیل شیر:\n\nصرف فہرستی عناصرار (* شروع باک لکیر) شامل کورونو بونیان\nکیہ لکیرا آویلو ربط کیہ خراب فایلو بیلیک۔\nھتے لکیرا باقی گیاک ربطو مستثنیٰ قرار دیونو بویان، مثلاً صفحات کورا کہ فایل لکیرو موژا گویان۔
+metadata|میٹا ڈیٹا
+metadata-help|ھیہ فائلا خور دی معلومات شینی، شاید ھتیت ڈیجیٹل کیمرو یا سکینران زریعا کمپیوٹرو درینو بیتی شینی وا ھیتان زریعا ھمیتان ڈیجیٹل ساوزینو بیتی شیر\n\nاگر فائلو ھمو اصلی حالتہ  تبدیل کہ کورونو ھوی تھے ای کما تفصیلات تبدیل بیرو فائلو باریا موجود نیکی
+metadata-expand|تفصیلان پشاوے
+metadata-collapse|درونگار تفصیلان کھوشتاوے
+metadata-fields|ایگزف میٹاڈیٹا ھیارا دیونو بیرو ھوٹوان صفحا دیونو بونی وا کیاوتکہ میٹاڈیٹا ٹیبل کھولاو ھوی باقی اشناری بائی ڈیفالٹ کھوشت تان بہچونی\n* make\n* model\n* datetimeoriginal\n* exposuretime\n* fnumber\n* isospeedratings\n* focallength\n* artist\n* copyright\n* imagedescription\n* gpslatitude\n* gpslongitude\n* gpsaltitude
+exif-dc-date|تاریخ
+edit-externally|ھیہ مسلو ایڈیٹ کورے
+edit-externally-help|(See the [//www.mediawiki.org/wiki/Manual:External_editors setup instructions] for more information)\n(مزید معلوماتو بچے ھیہ لنکہ بوغے [//www.mediawiki.org/wiki/Manual:External_editors setup instructions] )
+watchlistall2|سف
+namespacesall|تھمامو
+monthsall|سف
+confirm_purge_button|OK/ٹھیک شیر
+table_pager_first|آویلو صفحہ
+watchlisttools-view|موقعی تبدیلیان لوڑے
+watchlisttools-edit|لوڑے یا واچ لسٹہ ترمیم کورے
+watchlisttools-raw|نوغ واچ لسٹان ایڈیٹ کورے
+duplicate-defaultsort|'''خبردار:''' ڈیفالٹ تاڑٰ(نغڑی) "~{1}" پروشٹیو ڈیفالٹ تاڑا "~{0}" لیگی شیر۔
+specialpages|اسپیشل صفحہ
+external_image_whitelist| #ھیہ لاینو ھموش تان شیکو لاکے کیچہ کہ ھیہ شیر<pre>\n#موڑا ریگولر لوان دیور((صرف ھتیتان کیاغ ھمیتان موژی شینی //) //) \n#بیریو ھوٹوان آر ایلان سوم ھمیتان میچ کورنو بوی\n# کیاغ کہ میچ ھونی ھیتان ھوٹوان سوم پشینو بوی بصورت دیگر ھیتان لنک کیاغ کی شینی ھتیتان پشینو بوی\n#لاین کیاغ کی شروع بویان  # کومنٹ جوشونو بوی۔\n#ھیہ کیس سینسیٹو شیر۔\n\n#لینو سورا ریجیکس فریگمنٹو لاکھے. ھیہ لاینو ھموش تان شیکو لاکے کیچہ کہ ھیہ شیر۔</pre>
+tag-filter|[[Special:Tags\u007CTag]] filter:
+tag-filter-submit|فلٹر
+tags-title|Tags/ٹیگز
+compare-page1|صفحہ 1
+rightsnone|(نو)
+feedback-message|پیغام
+searchsuggest-search|Search/تلاش
+categorytree-portlet|زمرہ جات
+categorytree-category|زمرہ
+indexpages|صفحاتن لسٹ
+pageswithoutscans|اسکین نو کاردو صفحات
+proofreadpage_image|ھوٹو
+proofreadpage_index|فھرست
+proofreadpage_badpage|غلطو شکل
+proofreadpage_indexdupe|ڈپلیکیٹ لنک
+proofreadpage_nologin|لاگ ان نو
+proofreadpage_nextpage|نوغ صفحہ
+proofreadpage_prevpage|سابقہ صفحہ
+proofreadpage_quality0_category|ٹیکسٹو سار غیر
+proofreadpage_quality1_category|پروف ریڈنگ نو کاردو
+proofreadpage_quality3_category|پروف خوانی
+proofreadpage_index_size|فی صفحہ لمبار:
+proofreadpage_specialpage_label_key|Search/تلاش
+proofreadpage_specialpage_legend|فھرست صفحات تلاش کورے
+proofreadpage-group-zoom|زووم
+proofreadpage-group-other|دیگر/خور
+proofreadpage-button-zoom-out-label|زوم آوٹ/Zoom out
+proofreadpage-button-reset-zoom-label|اصل سایز
+proofreadpage-button-zoom-in-label|زوم ان/Zoom in
+proofreadpage-button-toggle-layout-label|تھروسکی لے آوٹ
+']:>
+).lang
+;

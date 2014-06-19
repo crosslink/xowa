@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('ಪುಟ', 'ಪುಟ_ಚರ್ಚೆ', 'ಪರಿವಿಡಿ', 'ಪರಿವಿಡಿ_ಚರ್ಚೆ');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('ಪುಟ', 'ಪುಟ_ಚರ್ಚೆ', 'ಪರಿವಿಡಿ', 'ಪರಿವಿಡಿ_ಚರ್ಚೆ');
+// wiki.xtns.pages.end

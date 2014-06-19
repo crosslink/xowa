@@ -1,0 +1,3 @@
+// wiki.xtns.listings.bgn
+xtns.get('listings').enabled = y;
+// wiki.xtns.listings.end

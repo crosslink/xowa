@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Oldal', 'Oldal_vita', 'Index', 'Index_vita');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Oldal', 'Oldal_vita', 'Index', 'Index_vita');
+// wiki.xtns.pages.end

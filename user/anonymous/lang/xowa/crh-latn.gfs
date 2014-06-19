@@ -1,0 +1,1612 @@
+numbers {
+  separators {
+    clear;
+    set(',', '.');
+    set('.', ',');
+  }
+}
+this
+.ns_names
+  .load_text(
+<:['
+-2|Media
+-1|Mahsus
+1|Muzakere
+2|Qullanıcı
+3|Qullanıcı muzakeresi
+5|$1 muzakeresi
+6|Fayl
+7|Fayl muzakeresi
+8|MediaViki
+9|MediaViki muzakeresi
+10|Şablon
+11|Şablon muzakeresi
+12|Yardım
+13|Yardım muzakeresi
+14|Kategoriya
+15|Kategoriya muzakeresi
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+-2|Медиа
+-1|Махсус
+1|Музакере
+2|Къулланыджы
+3|Къулланыджы музакереси
+5|$1 музакереси
+6|Ресим
+7|Ресим музакереси
+6|Resim
+7|Resim muzakeresi
+8|МедиаВики
+9|МедиаВики музакереси
+10|Шаблон
+11|Шаблон музакереси
+12|Ярдым
+13|Разговор о помоћи
+14|Категория
+15|Категория музакереси
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|Bazar
+monday|Bazarertesi
+tuesday|Salı
+wednesday|Çarşenbe
+thursday|Cumaaqşamı
+friday|Cuma
+saturday|Cumaertesi
+sun|Bazar
+mon|Bazarertesi
+tue|Salı
+wed|Çarşenbe
+thu|Cumaaqşamı
+fri|Cuma
+sat|Cumaertesi
+january|yanvar
+february|fevral
+march|mart
+april|aprel
+may_long|mayıs
+june|iyün
+july|iyül
+august|avgust
+september|sentâbr
+october|oktâbr
+november|noyabr
+december|dekabr
+january-gen|yanvarniñ
+february-gen|fevralniñ
+march-gen|martnıñ
+april-gen|aprelniñ
+may-gen|mayısnıñ
+june-gen|iyünniñ
+july-gen|iyülniñ
+august-gen|avgustnıñ
+september-gen|sentâbrniñ
+october-gen|oktâbrniñ
+november-gen|noyabrniñ
+december-gen|dekabrniñ
+jan|yan
+feb|fev
+mar|mar
+apr|apr
+may|may
+jun|iyün
+jul|iyül
+aug|avg
+sep|sen
+oct|okt
+nov|noy
+dec|dek
+toc|Münderice
+redirectedfrom|(~{0} saifesinden yollandı)
+allpages|Bütün saifeler
+prevpage|Evelki saife (~{0})
+nextpage|Soñraki saife (~{0})
+collapsible-collapse|Tarlat
+collapsible-expand|Kenişlet
+sort-descending|Eksilmesi sayın sırala
+sort-ascending|Artması sayın sırala
+categories|Saife kategoriyaları
+lastmodifiedat|Bu saife soñki olaraq ~{0}, ~{1} tarihında yañardı.
+thumbnail-more|Büyüt
+otherlanguages|Diger tillerde
+blanknamespace|(Esas)
+pagecategories|{{PLURAL:~{0}\u007CSaifeniñ kategoriyası\u007CSaifeniñ kategoriyaları}}
+category_header|"~{0}" kategoriyasındaki saifeler
+subcategories|Alt kategoriyalar
+category-media-header|"~{0}" kategoriyasındaki media faylları
+category-empty|''İşbu kategoriyada iç bir saife ya da media fayl yoq.''
+category-subcat-count|{{PLURAL:~{1}\u007CBu kategoriyada tek bir aşağıdaki alt kategoriya bar.\u007CBu kategoriyada toplam ~{1} kategoriyadan aşağıdaki ~{0} alt kategoriya bar.}}
+category-subcat-count-limited|Bu kategoriyada aşağıdaki {{PLURAL:~{0}\u007C1\u007C~{0}}} alt kategoriya bar.
+category-article-count|{{PLURAL:~{1}\u007CBu kategoriyada tek bir aşağıdaki saife bar.\u007CBu kategoriyadaki toplam ~{1} saifeden aşağıdaki ~{0} saife kösterilgen.}}
+category-article-count-limited|Bu kategoriyada aşağıdaki {{PLURAL:~{0}\u007C1\u007C~{0}}} saife bar.
+category-file-count|{{PLURAL:~{1}\u007CBu kategoriyada tek bir aşağıdaki fayl bar.\u007CBu kategoriyadaki toplam ~{1} fayldan aşağıdaki ~{0} fayl kösterilgen.}}
+category-file-count-limited|Bu kategoriyada aşağıdaki {{PLURAL:~{0}\u007C1\u007C~{0}}} fayl bar.
+nextn|soñraki {{PLURAL:~{0}\u007C~{0}}}
+prevn|evelki {{PLURAL:~{0}\u007C~{0}}}
+listingcontinuesabbrev| (devam)
+bold_sample|Qalın yazılış
+bold_tip|Qalın yazılış
+italic_sample|İtalik (kursiv) yazılış
+italic_tip|İtalik (kursiv) yazılış
+link_sample|Saifeniñ serlevası
+link_tip|İçki bağlantı
+headline_sample|Serleva yazısı
+headline_tip|2-nci seviye serleva
+hidden-category-category|Gizli kategoriyalar
+statistics|Statistika
+statistics-header-pages|Saife statistikası
+tog-underline|Bağlantılarnıñ tübüni sızuv:
+tog-justify|Metinni eki yanğa tegizle
+tog-hideminor|"Soñki deñiştirmeler" saifesinde kiçik deñiştirmelerni gizle
+tog-hidepatrolled|Soñki deñiştirmeler köstergende teşkerilgen deñiştirmelerni gizle
+tog-newpageshidepatrolled|Yañı saifeler köstergende teşkerilgen saifelerni gizle
+tog-extendwatchlist|Közetüv cedvelini, tek soñki degil, bütün deñiştirmelerni körmek içün kenişlet
+tog-usenewrc|Soñki deñiştirmeler saifesindeki ve közetüv cedvelindeki deñiştirmelerni gruppalandıruv (JavaScript kerek)
+tog-numberheadings|Serlevalarnı avtomatik nomeralandır
+tog-showtoolbar|Saifeni deñiştirgen vaqıtta yardımcı dögmelerni köster. (JavaScript)
+tog-editondblclick|Saifeni çift basıp deñiştirmege başla (JavaScript)
+tog-editsection|Bölüklerni [deñiştir] bağlantısı vastasınen deñiştirmege ruhset ber
+tog-editsectiononrightclick|Bölük serlevasına oñ basqanda deñiştirüv penceresini aç. (JavaScript)
+tog-showtoc|Münderice cedveli köster (3 daneden ziyade serlevası olğan saifeler içün)
+tog-rememberpassword|Kirişimni bu brauzerde hatırla (eñ çoq ~{0} {{PLURAL:~{0}\u007Ckün\u007Ckün}} içün)
+tog-watchcreations|Yaratqan saifelerimni ve yüklegen fayllarımnı közetüv cedvelime kirset
+tog-watchdefault|Deñiştirgen saife ve fayllarımnı közetüv cedvelime kirset
+tog-watchmoves|Adını men deñiştirgen saife ve fayllarnı közetüv cedvelime kirset
+tog-watchdeletion|Yoq etken saife ve fayllarımnı közetüv cedvelime kirset
+tog-minordefault|Yapqan deñiştirmelerimni kiçik deñiştirmedir dep işaretle
+tog-previewontop|Baqıp çıquvnı yazuv pencereniñ üstünde köster
+tog-previewonfirst|Deñiştirme saifesine keçkende baqıp çıquvnı köster
+tog-nocache|Brauzer saifelerni afızasında tutmasın
+tog-enotifwatchlistpages|Közetüv cedvelimdeki bir saife ya da fayl deñiştirilgende maña e-mail yolla
+tog-enotifusertalkpages|Qullanıcı saifem deñiştirilgende maña e-mail yolla
+tog-enotifminoredits|Saife ya da faylda kiçik deñiştirilme olğanda da de maña e-mail yolla
+tog-enotifrevealaddr|Bildirüv mektüplerinde e-mail adresimni köster
+tog-shownumberswatching|Közetken qullanıcı sayısını köster
+tog-oldsig|Şimdiki imza:
+tog-fancysig|İmza vikimetin kibi olsun (avtomatik bağlantı olmaz)
+tog-showjumplinks|"Bar" bağlantısını faalleştir
+tog-uselivepreview|Canlı baqıp çıquv hususiyetini qullan (JavaScript) (daa deñeme alında)
+tog-forceeditsummary|Deñiştirmeniñ qısqa tarifini boş taşlasam meni tenbile
+tog-watchlisthideown|Közetüv cedvelimden menim deñiştirmelerimni gizle
+tog-watchlisthidebots|Közetüv cedvelimden bot deñiştirmelerini gizle
+tog-watchlisthideminor|Közetüv cedvelimden kiçik deñiştirmelerni gizle
+tog-watchlisthideliu|Közetüv cedvelimde qaydlı qullanıcılar tarafından yapılğan deñiştirmelerni kösterme
+tog-watchlisthideanons|Közetüv cedvelimde qaydsız (anonim) qullanıcılar tarafından yapılğan deñiştirmelerni kösterme
+tog-watchlisthidepatrolled|Közetüv cedvelinde teşkerilgen deñiştirmelerni gizle
+tog-ccmeonemails|Diger qullanıcılarğa yollağan mektüplerimniñ kopiyalarını maña da yolla
+tog-diffonly|Teñeştirme saifelerinde saifeniñ esas mündericesini kösterme
+tog-showhiddencats|Gizli kategoriyalarnı köster
+tog-norollbackdiff|Keri qaytaruv yapılğan soñ versiyalar arasındaki farqnı kösterme
+underline-always|Daima
+underline-never|Asla
+underline-default|Brauzer sazlamaları qullanılsın
+editfont-style|Yazuv penceresinde urufat (şrift) türü:
+editfont-default|Brauzerge köre
+editfont-monospace|Bir keñlikli urufat
+editfont-sansserif|Kertiksiz urufat
+editfont-serif|Kertikli urufat
+hidden-categories|Gizli {{PLURAL:~{0}\u007Ckategoriya\u007Ckategoriyalar}}
+index-category|İndeksli saifeler
+noindex-category|İndekssiz saifeler
+broken-file-category|İçinde bozuq fayl bağlantıları olğan saifeler
+linkprefix|/^(.*?)([a-zâçğıñöşüA-ZÂÇĞİÑÖŞÜa-яёА-ЯЁ«„]+)$/sDu
+about|Aqqında
+article|Saife
+newwindow|(yañı bir pencerede açılır)
+cancel|Lâğu
+moredotdotdot|Daa...
+morenotlisted|Başqa bir şey yoq...
+mypage|Saife
+mytalk|Muzakere
+anontalk|Bu IP-niñ muzakeresi
+navigation|Saytta yol tapuv
+and| ve
+qbfind|Tap
+qbbrowse|Baqıp çıq
+qbedit|Deñiştir
+qbpageoptions|Bu saife
+qbmyoptions|Saifelerim
+qbspecialpages|Mahsus saifeler
+faq|Sıq berilgen sualler
+faqpage|Project:Sıq berilgen sualler
+vector-action-addsection|Mevzu qoş
+vector-action-delete|Yoq et
+vector-action-move|Adını deñiştir
+vector-action-protect|Qorçala
+vector-action-undelete|Yañıdan yarat
+vector-action-unprotect|Qorçalavnı deñiştir
+vector-simplesearch-preference|Sadeleştirilgen qıdıruv satırını işlet (tek Vektor körünişi içün)
+vector-view-create|Yarat
+vector-view-edit|Deñiştir
+vector-view-history|Keçmişini köster
+vector-view-view|Oqu
+vector-view-viewsource|Menba kodunı köster
+actions|Areketler
+namespaces|İsim fezaları
+variants|Variantlar
+navigation-heading|Dolaşuv menüsi
+errorpagetitle|Hata
+returnto|~{0}.
+tagline|{{GRAMMAR:ablative\u007C{{SITENAME}}}}
+help|Yardım
+search|Qıdıruv
+searchbutton|Qıdır
+go|Bar
+searcharticle|Bar
+history|Saifeniñ keçmişi
+history_short|Keçmiş
+updatedmarker|soñki ziyaretimden soñ yañarğan
+printableversion|Basılmağa uyğun körüniş
+permalink|Soñki alına bağlantı
+print|Bastır
+view|Köster
+edit|Deñiştir
+create|Yarat
+editthispage|Saifeni deñiştir
+create-this-page|Bu saifeni yarat
+delete|Yoq et
+deletethispage|Saifeni yoq et
+undelete_short|{{PLURAL:~{0}\u007C1\u007C~{0}}} deñiştirmeni keri ketir
+viewdeleted_short|{{PLURAL:~{0}\u007Cbir yoq etilgen deñiştirmeni\u007C~{0} yoq etilgen deñiştirmeni}} köster.
+protect|Qorçala
+protect_change|deñiştir
+protectthispage|Saifeni qorçalav altına al
+unprotect|Qorçalavnı deñiştir
+unprotectthispage|Saife qorçalanuvını deñiştir
+newpage|Yañı saife
+talkpage|Saifeni muzakere et
+talkpagelinktext|Muzakere
+specialpage|Mahsus Saife
+personaltools|Şahsiy aletler
+postcomment|Yañı bölük
+articlepage|Saifege bar
+talk|Muzakere
+views|Körünişler
+toolbox|Aletler
+userpage|Qullanıcı saifesini köster
+projectpage|Leyha saifesini köster
+imagepage|Fayl saifesini köster
+mediawikipage|Beyanat saifesisni köster
+templatepage|Şablon saifesini köster
+viewhelppage|Yardım saifesini köster
+categorypage|Kategoriya saifesini köster
+viewtalkpage|Muzakere saifesini köster
+redirectpagesub|Yollama saifesi
+viewcount|Bu saife {{PLURAL:~{0}\u007C1\u007C~{0}}} defa irişilgen.
+protectedpage|Qorçalanğan saife
+jumpto|Buña bar:
+jumptonavigation|qullan
+jumptosearch|qıdır
+view-pool-error|Afu etiñiz, server şimdi adden-aşır yüklendi. Pek çoq qullanıcı bu saifeni açmağa tırışa. Lütfen, bu saifeni bir daa açmaqtan evel biraz bekleñiz.\n\n~{0}
+pool-timeout|Kilit içün vaqıt bitişi beklene
+pool-queuefull|Soratma toplayıcısı tolu
+pool-errorunknown|Bilinmegen hata
+aboutsite|{{SITENAME}} aqqında
+aboutpage|Project:Aqqında
+copyright|Malümat ~{0} binaen keçilip ola.
+copyrightpage|{{ns:project}}:Müelliflik aqları
+currentevents|Şimdiki vaqialar
+currentevents-url|Project:Ağımdaki vaqialar
+disclaimers|Cevapkârlıq redi
+disclaimerpage|Project:Umumiy Malümat Muqavelesi
+edithelp|Saifeler nasıl deñiştirilir?
+helppage|Help:Münderice
+mainpage|Baş Saife
+mainpage-description|Baş Saife
+policy-url|Project:Qaideler
+portal|Cemaat portalı
+portal-url|Project:Cemaat portalı
+privacy|Gizlilik esası
+privacypage|Project:Gizlilik esası
+badaccess|İzin hatası
+badaccess-group0|Yapacaq olğan areketiñizni yapmağa aqqıñız yoq.
+badaccess-groups|Yapacaq olğan areketiñizni tek aşağıdaki {{PLURAL:~{1}\u007C1\u007C~{1}}} gruppağa aza оlğan qullanıcıları yapıp olalar: ~{0}.
+versionrequired|MediaWikiniñ ~{0} versiyası kerek
+versionrequiredtext|Bu saifeni qullanmaq içün MediaWikiniñ ~{0} versiyası kerek. [[Special:Version\u007CVersiya]] saifesine baq.
+ok|Ok
+retrievedfrom|Menba – "~{0}"
+youhavenewmessages|Yañı ~{0} bar (~{1}).
+newmessageslink|beyanatıñız
+newmessagesdifflink|muzakere saifeñizniñ soñki deñiştirilmesi
+youhavenewmessagesfromusers|{{PLURAL:~{2}\u007CBaşqa bir qullanıcıdan\u007C~{2} qullanıcıdan}} ~{0} bar. (~{1})
+youhavenewmessagesmanyusers|Bir qaç qullanıcıdan ~{0} bar. (~{1})
+newmessageslinkplural|{{PLURAL:~{0}\u007Cyañı beyanatıñız\u007Cyañı beyanatlarıñız}}
+newmessagesdifflinkplural|muzakere saifeñizniñ soñki {{PLURAL:~{0}\u007Cdeñiştirilmesi\u007Cdeñiştirilmeleri}}
+youhavenewmessagesmulti|~{0} saifesinde yañı beyanatıñız bar.
+editsection|deñiştir
+editold|deñiştir
+viewsourceold|menba kоdunı köster
+editlink|deñiştir
+viewsourcelink|menba kоdunı köster
+editsectionhint|Deñiştirilgen bölük: ~{0}
+showtoc|köster
+hidetoc|gizle
+thisisdeleted|~{0} körmege ya da keri ketirmege isteysiñizmi?
+viewdeleted|~{0} kör?
+restorelink|yoq etilgen {{PLURAL:~{0}\u007C1\u007C~{0}}} deñiştirmesi
+feedlinks|Bu şekilde:
+feed-invalid|Abune kanalınıñ çeşiti yañlıştır.
+feed-unavailable|Sindikatsiya lentaları qullanılıp оlamay.
+site-rss-feed|~{0} RSS lentası
+site-atom-feed|~{0} Atom lentası
+page-rss-feed|"~{0}" - RSS lentası
+page-atom-feed|"~{0}" - Atom lentası
+red-link-title|~{0} (böyle saife yоq)
+nstab-main|Saife
+nstab-user|Qullanıcı saifesi
+nstab-media|Media
+nstab-special|Mahsus saife
+nstab-project|Leyha saifesi
+nstab-image|Fayl
+nstab-mediawiki|Beyanat
+nstab-template|Şablon
+nstab-help|Yardım
+nstab-category|Kategoriya
+nosuchaction|Böyle bir areket yoq
+nosuchactiontext|URL-de bildirilgen areket ruhsetsiz.\nBelki de URL-ni yañlış yazğandırsız, ya da doğru olmağan bir bağlantını qullanğandırsız.\nBu, {{SITENAME}} saytındaki bir hatanı da kösterip оla.
+nosuchspecialpage|Bu isimde bir mahsus saife yoq
+nospecialpagetext|<strong>Tapılmağan bir mahsus saifege kirdiñiz.</strong>\n\nBar olğan bütün mahsus saifelerni [[Special:SpecialPages\u007C{{int:specialpages}}]] saifesinde körip olursıñız.
+error|Hata
+databaseerror|Malümat bazasınıñ hatası
+dberrortext|Malümat bazasından soratqanda sintaksis hatası oldı.\nBu programmadaki bir hata ola bile.\n"<tt>~{1}</tt>" funktsiyasından olğan malümat bazasından soñki soratma:\n<blockquote><tt>~{0}</tt></blockquote>.\nMalümat bazasınıñ bildirgen hatası "<tt>~{2}: ~{3}</tt>".
+dberrortextcl|Malümat bazasından soratqanda sintaksis hatası oldı.\nMalümat bazasından soñki soratma:\n"~{0}"\nQullanılğan funktsiya "~{1}".\nMalümat bazasınıñ bildirgen hatası "~{2}: ~{3}".
+laggedslavemode|Diqqat! Bu saifede soñki yañaruv olmay bile.
+readonly|Malümat bazası kilitlendi
+enterlockreason|Blok etüvniñ sebebini ve devamını kirsetiñiz.
+readonlytext|Plan işlemelerinden sebep malümat bazası vaqtınca blok etildi. İşlemeler tamamlanğan soñ normal alına qaytacaq.\n\nMalümat bazasını kilitlegen idareciniñ añlatması: ~{0}
+missing-article|Malümat bazasında tapılması kerek olğan saifeniñ metni tapılmadı, "~{0}" ~{1}.\n\nAdetince yoq etilgen saifeniñ keçmiş saifesine eskirgen bağlantınen keçip baqqanda bu şey olıp çıqa.\n\nMesele bunda olmasa, ihtimalı bar ki, programmada bir hata tapqandırsıñız.\nLütfen, URL yazıp bundan [[Special:ListUsers/sysop\u007Cidarecige]] haber beriñiz.
+missingarticle-rev|(versiya No. ~{0})
+missingarticle-diff|(Farq: ~{0}, ~{1})
+readonly_lag|Malümat bazasınıñ ekilemci serveri birlemci serverinen zamandaşlaştırılğance malümat bazası deñiştirilmemesi içün avtomatik olaraq blok etildi.
+internalerror|İçki hata
+internalerror_info|İçki hata: ~{0}
+fileappenderrorread|Qoşma yapılğanda "~{0}" oqulamadı.
+fileappenderror|"~{0}" faylı "~{1}" faylına qoşulıp olamay.
+filecopyerror|"~{0}" faylı "~{1}" faylına kopiyalanıp olamay.
+filerenameerror|faylnıñ "~{0}" degen adı "~{1}" olaraq deñiştirilip olamay.
+filedeleteerror|"~{0}" faylı yoq etilip olamay.
+directorycreateerror|"~{0}" direktoriyası yaratılıp olamay.
+filenotfound|"~{0}" faylı tapılıp olamay.
+fileexistserror|"~{0}" faylı saqlanıp olamay, fayl endi bar.
+unexpected|beklenmegen deger: "~{0}"="~{1}".
+formerror|Hata: formanıñ malümatını yollamaqnıñ iç çaresi yoq
+badarticleerror|Siz yapmağa istegen işlev bu saifede yapılıp оlamay.
+cannotdelete|"~{0}" saife ya da faylı yoq etilip olamadı. Başqa bir qullanıcı tarafından yoq etilgen ola bile.
+cannotdelete-title|"~{0}" saifesini yoq etmege olmaz
+delete-hook-aborted|Yoq etüv çengel protsedurasınen toqtatıldı.\nİç bir izaat berilmedi.
+badtitle|Ruhsetsiz serleva
+badtitletext|İstenilgen saife adı doğru degil, o boştır, yahut tillerara bağlantı ya da vikilerara bağlantı doğru yazılmağan. Belki saife adında yasaqlanğan işaretler bar.
+perfcached|Aşağıdaki malümat keşten alındı ve eskirgen ola bilir! Keşte eñ çoq {{PLURAL:~{0}\u007Cbir netice\u007C~{0} netice}} saqlanıp tura.
+perfcachedts|Aşağıdaki malümat keşten alındı, keşniñ soñki yañartılğan vaqtı: ~{0}. Keşte eñ çoq {{PLURAL:~{0}\u007Cbir netice\u007C~{0} netice}} saqlanıp tura.
+querypage-no-updates|Bu saifeni deñiştirmege şimdi izin yoq. Bu malümat aman yañartılmaycaq.
+wrong_wfQuery_params|wrong_wfQuery_params - wfQuery() funktsiyası içün izinsiz parametrler<br />\nFunktsiya: ~{0}<br />\nSoratma: ~{1}
+viewsource|menba kodunı köster
+viewsource-title|~{0} saifesiniñ menba kodu
+actionthrottled|Areket toqtaldı
+actionthrottledtext|Spamğa qarşı küreş sebebinden bu areketni az vaqıt içinde çoq kere tekrarlap olamaysıñız. Mümkün olğan qarardan ziyade areket yaptıñız. Bir qaç daqqadan soñ tekrarlap baqıñız.
+protectedpagetext|Bu saifede deñiştirme ya da başqa bir areket yapılmasın dep o blok etildi.
+viewsourcetext|Saifeniñ kodunı közden keçirip kopiyalay bilesiñiz:
+protectedinterface|Bu saifede viki interfeysiniñ metni bar. Onıñ içün mında bir hata çıqmasın dep onı deñiştirmek yasaq.
+editinginterface|'''Tenbi''': MediaWiki sistemasınıñ interfeys saifesini deñiştireyatasız. Bu saifedeki deñiştirmeler interfeysniñ körünişini bu vikiniñ başqa qullanıcıları içün de deñiştirecek. Lütfen, viki interfeysini tercime etmek içün [//translatewiki.net/wiki/Main_Page?setlang=crh translatewiki.net] saytını (MediaWiki resmiy lokalizatsiya leyhası) qullanıñız.
+sqlhidden|(SQL istintağı saqlı)
+cascadeprotected|Bu saifeni deñiştirip olamazsıñız, çünki kaskad qorçalav altında bulunğan {{PLURAL:~{0}\u007Csaifege\u007Csaifelerge}} mensüptir:\n~{1}
+namespaceprotected|'''~{0}''' isim fezasında saifeler deñiştirmege aqqıñız yoq.
+ns-specialprotected|{{ns:special}} isim fezasındaki saifelerni deñiştirmek yasaq.
+titleprotected|Böyle serlevanen saife yaratmaq yasaqtır. Yasaqlağan: [[User:~{0}\u007C~{0}]].\nSebep: ''~{1}''.
+virus-badscanner|Yañlış sazlama. Bilinmegen virus skaneri: ''~{0}''
+virus-scanfailed|skan etüv muvafaqiyetsiz (kod ~{0})
+virus-unknownscanner|bilinmegen antivirus:
+logouttext|'''Oturımnı qapattıñız.'''\n\nŞimdi {{SITENAME}} saytını anonim olaraq qullanıp olasıñız, ya da yañıdan <span class='plainlinks'>[~{0} oturım açıp]</span> olasıñız (ister aynı qullanıcı adınen, ister başqa bir qullanıcı adınen). Web brauzeriñiz keşini temizlegence bazı saifeler sanki alâ daa oturımıñız açıq eken kibi körünip olur.
+yourname|Qullanıcı adıñız
+yourpassword|Paroliñiz
+yourpasswordagain|Parolni bir daa yazıñız:
+remembermypassword|Kirişimni bu kompyuterde hatırla (eñ çoq ~{0} {{PLURAL:~{0}\u007Ckün\u007Ckün}} içün)
+securelogin-stick-https|Kirgen soñ HTTPS-ge bağlanıp tur
+yourdomainname|Domen adıñız
+externaldberror|Saytqa kirgende bir hata oldı. Bu tış esabıñıznı deñiştirmek aqqıñız olmağanından sebep meydanğa kelip ola.
+login|Kiriş
+nav-login-createaccount|Kiriş / Qayd oluv
+loginprompt|Oturım açmaq içün "cookies"ge izin bermelisiñiz.
+userlogin|Kiriş / Qayd oluv
+userloginnocreate|Kiriş
+logout|Çıqış
+userlogout|Çıqış
+notloggedin|Oturım açmadıñız.
+nologin|Daa esap açmadıñızmı? '''~{0}'''.
+nologinlink|Qayd ol
+createaccount|Yañı esap aç
+gotaccount|Daa evel esap açqan ediñizmi? '''~{0}'''.
+gotaccountlink|Oturım açıñız
+userlogin-resetlink|Kiriş malümatını unuttıñızmı?
+createaccountmail|e-mail vastasınen
+createaccountreason|Sebep:
+badretype|Kirsetken parolleriñiz aynı degil.
+userexists|Kirsetken qullanıcı adıñız endi qullanıla.\nLütfen, başqa bir qullanıcı adı saylañız.
+loginerror|Oturım açma hatası
+createaccounterror|Esap yaratılıp olamay: ~{0}
+nocookiesnew|Qullanıcı esabı açılğan, faqat tanıtılmağan. {{SITENAME}} qullanıcılarnı tanıtmaq içün "cookies"ni qullana. Sizde bu funktsiya qapalı vaziyettedir. "Cookies" funktsiyasını işletip tekrar yañı adıñız ve paroliñiznen tırışıp baqınız.
+nocookieslogin|{{SITENAME}} "cookies"ni qullana. Sizde bu funktsiya qapalı vaziyettedir. "Cookies" funktsiyasını işletip tekrar tırışıp baqıñız.
+noname|Doğru qullanıcı adını kirsetmediñiz.
+loginsuccesstitle|Kiriş yapıldı
+loginsuccess|'''~{0} adınen {{SITENAME}} saytında çalışıp olasıñız.'''
+nosuchuser|"~{0}" adlı qullanıcı yoq.\nQullanıcı adlarında büyük ve kiçik arifler arasında farq bar.\nDoğru yazğanıñıznı teşkeriñiz ya da [[Special:UserLogin/signup\u007Cyañı qullanıcı esabını açıñız]].
+nosuchusershort|"~{0}" adlı qullanıcı tapılamadı. Adıñıznı doğru yazğanıñızdan emin oluñız.
+nouserspecified|Qullanıcı adını kirsetmek kereksiñiz.
+login-userblocked|Bu qullanıcı blok etilgen. Kirmege ruhset etilmey.
+wrongpassword|Kirsetken paroliñiz yañlıştır. Lütfen, tekrar etiñiz.
+wrongpasswordempty|Kirsetken parоliñiz bоştır.\nLütfen, tekrar etiñiz.
+passwordtooshort|Paroliñizde eñ az {{PLURAL:~{0}\u007C1\u007C~{0}}} işaret olmalı.
+password-name-match|Paroliñiz qullanıcı adıñızdan farqlı olmalı.
+password-login-forbidden|Bu qullanıcı adı ve parolni qullanmaq yasaqtır.
+mailmypassword|Yañı parol yiber
+passwordremindertitle|{{grammar:genitive\u007C{{SITENAME}}}} qullanıcınıñ parol hatırlatuvı
+passwordremindertext|Birev (belki de bu sizsiñiz, ~{0} IP adresinden) {{SITENAME}} saytı içün (~{3}) yañı qullanıcı parolini istedi.\n~{1} qullanıcısına vaqtınca <code>~{2}</code> paroli yaratıldı. Eger bu kerçekten de siziñ istegiñiz olğan olsa, oturım açıp yañı bir parol yaratmañız kerektir. Muvaqqat paroliñizniñ müddeti {{PLURAL:~{4}\u007C1 kün\u007C~{4} kün}} içinde dolacaq.\n\nEger de yañı parol talap etmegen olsañız ya da eski paroliñizni hatırlap endi onı deñiştirmege istemeseñiz, bu mektüpni diqqatqa almayıp eski paroliñizni qullanmağa devam etip olasıñız.
+noemail|~{0} adlı qullanıcı içün e-mail bildirilmedi.
+noemailcreate|Doğru bir e-mail adresi bildirmek kereksiñiz
+passwordsent|Yañı parol e-mail yolunen qullanıcınıñ bildirgen ~{0} adresine yiberildi. Parolni alğan soñ tekrar kiriş yapıñız.
+blocked-mailpassword|IP adresiñizden saifeler deñiştirüv yasaqlı, parol hatırlatuv funktsiyası da blok etildi.
+eauthentsent|Bildirilgen e-mail adresine içinde tasdıq kodu olğan bir mektüp yollandı. Siz şu mektüpte yazılğan areketlerni yapıp bu e-mail adresiniñ saibi kerçekten de siz olğanıñıznı tasdıqlağan soñ başqa mektüp yollanıp olur.
+throttled-mailpassword|Parol hatırlatuv funktsiyası endi soñki ~{0} saat devamında işletilgen edi.\n{{PLURAL:~{0}\u007C1\u007C~{0}}} saat içinde tek bir hatırlatuv işletmek mümkün.
+mailerror|Poçta yiberilgende bir hata meydanğa keldi: ~{0}
+acct_creation_throttle_hit|Siziñ IP adresiñizni qullanıp bu vikini ziyaret etkenler soñki künde {{PLURAL:~{0}\u007C1 esap\u007C~{0} esap}} yarattı. Bu vaqıt aralığında bir IP-den daa çoq esap yaratmaq mümkün degil.\nNeticede, bu IP adresini qullanğan ziyaretçiler şimdi daa ziyade esap açıp olamazlar.
+emailauthenticated|E-mail adresiñiz ~{1} ~{2} tarihında tasdıqlandı.
+emailnotauthenticated|E-mail adresiñiz tasdıqlanmadı, vikiniñ e-mail ile bağlı funktsiyaları çalışmaycaq.
+noemailprefs|Bu funktsiyalarnıñ çalışması içün sazlamalarıñızda bir e-mail adresi bildiriñiz.
+emailconfirmlink|E-mail adresiñizni tasdıqlañız
+invalidemailaddress|Yazğan adresiñiz e-mail standartlarında olmağanı içün qabul etilmedi. Lütfen, doğru adresni yazıñız ya da qutunı boş qaldırıñız.
+accountcreated|Esap açıldı
+accountcreatedtext|~{0} içün bir qullanıcı esabı açıldı.
+createaccount-title|{{SITENAME}} saytında yañı bir esap yaratıluvı
+createaccount-text|Birev siziñ e-mail adresini bildirip {{SITENAME}} saytında (~{3}) "~{1}" adlı bir esap yarattı.\nŞu esap içün parol budır: "~{2}".\nSiz şimdi oturım açıp paroliñizni deñiştirmek kereksiñiz.\n\nŞu esap hata olaraq yaratılğan olsa bu mektüpke qulaq asmayıp olasıñız.
+usernamehasherror|Qullanıcı adında # işareti olamaz
+login-throttled|Yaqın zamanda pek çoq kere kirmege tırıştıñız.\nLütfen, qayta kirmezden evel biraz bekleñiz.
+loginlanguagelabel|Til: ~{0}
+suspicious-userlogout|Çıqış istegeniñiz red etildi, çünki bozuq bir brauzer ya da keşleyici proksi tarafından yollanğan kibi körüne.
+resetpass|Parolni deñiştir
+resetpass_announce|Muvaqqat kod vastasınen kirdiñiz. Kirişni tamamlamaq içün yañı parolni mında qoyuñız:
+resetpass_header|Esapnıñ parolini deñiştir
+oldpassword|Eski parol
+newpassword|Yañı parol
+retypenew|Yañı parolni tekrar yazıñız
+resetpass_submit|Parol qoyıp kir
+resetpass_success|Paroliñiz muvafaqiyetnen deñiştirildi! Oturımıñız açılmaqta...
+resetpass_forbidden|Parol deñiştirmek yasaq
+resetpass-no-info|Bu saifege doğrudan irişmek içün oturım açmaq kereksiñiz.
+resetpass-submit-loggedin|Parolni deñiştir
+resetpass-submit-cancel|Lâğu
+resetpass-wrong-oldpass|Ruhsetsiz muvaqqat ya da şimdiki parоl.\nParоliñizni endi muvafaqiyetnen deñiştirdiñiz ya da yañı bir muvaqqat parоl istediñiz.
+resetpass-temp-password|Muvaqqat parol:
+extlink_sample|http://www.example.com saifeniñ serlevası
+extlink_tip|Tış bağlantı (Adres ögüne http:// qoymağa unutmañız)
+nowiki_sample|Serbest format metiniñizni mında yazıñız.
+nowiki_tip|viki format etüvini ignor et
+image_sample|Resim.jpg
+image_tip|Endirilgen fayl
+media_sample|Ses.ogg
+media_tip|Media faylına bağlantı
+sig_tip|İmzañız ve tarih
+hr_tip|Gorizontal sızıq (pek sıq qullanmañız)
+summary|Deñiştirmeniñ qısqa tarifi:
+subject|Mevzu/serleva:
+minoredit|Bu, kiçik deñiştirmedir
+watchthis|Saifeni közet
+savearticle|Saifeni saqla
+preview|Baqıp çıquv
+showpreview|Baqıp çıq
+showlivepreview|Tez baqıp çıquv
+showdiff|Deñiştirmelerni köster
+anoneditwarning|'''Diqqat''': Saytqa kirmegeniñizden sebep deñiştirmeler tarihına siziñ IP adresiñiz yazılır.
+anonpreviewwarning|Saytqa kirmediñiz. Saifeni saqlasañız deñiştirmeler tarihına siziñ IP adresiñiz yazılır.
+missingsummary|'''Hatırlatma.''' Deñiştirmeleriñizni qısqadan tarif etmediñiz. "Saifeni saqla" dögmesine tekrar basuv ile deñiştirmeleriñiz tefsirsiz saqlanacaqlar.
+missingcommenttext|Lütfen, aşağıda tefsir yazıñız.
+missingcommentheader|'''Hatırlatma:''' Tefsir mevzusını/serlevasını yazmadıñız. "{{int:savearticle}}" dögmesine tekrar basqan soñ tefsiriñiz serlevasız saqlanır.
+summary-preview|Baqıp çıquv tasviri:
+subject-preview|Baqıp çıquv serlevası:
+blockedtitle|Qullanıcı blok etildi.
+blockedtext|'''Esabıñız ya da IP adresiñiz blok etildi.'''\n\nBlok yapqan idareci: ~{0}.\nBlok sebebi: ''"~{1}"''.\n\n* Bloknıñ başı: ~{7}\n* Bloknıñ soñu: ~{5}\n* Blok etilgen: ~{6}\n\nBlok etüvni muzakere etmek içün ~{0} qullanıcısına ya da başqa er angi [[{{MediaWiki:Grouppage-sysop}}\u007Cidarecige]] mektüp yollap olasıñız.\nDiqqat etiñiz ki, qayd olunmağan ve e-mail adresiñizni [[Special:Preferences\u007Cşahsiy sazlamalarda]] tasdıqlamağan alda, em de blok etilgende sizge mektüp yollamaq yasaq etilgen olsa, idarecige mektüp yollap olamazsıñız.\nIP adresiñiz — ~{2}, blok etüv identifikatorı — #~{4}. Lütfen, idarecilerge mektüpleriñizde bu malümatnı bildiriñiz.
+autoblockedtext|IP adresiñiz evelde blok etilgen qullanıcılardan biri tarafından qullanılğanı içün avtomatik olaraq blok etildi. Onı blok etken idareci (~{0}) böyle sebepni bildirdi:\n\n:"~{1}"\n\n* Bloknıñ başı: ~{7}\n* Bloknıñ soñu: ~{5}\n* Blok etilgen: ~{6}\n\nBlok etüvni muzakere etmek içün ~{0} qullanıcısına ya da başqa er angi [[{{MediaWiki:Grouppage-sysop}}\u007Cidarecige]] mektüp yollap olasıñız.\nDiqqat etiñiz ki, qayd olunmağan ve e-mail adresiñizni [[Special:Preferences\u007Cşahsiy sazlamalarda]] tasdıqlamağan alda, em de blok etilgende sizge mektüp yollamaq yasaq etilgen olsa, idarecige mektüp yollap olamazsıñız.\nIP adresiñiz — ~{2}, blok etüv identifikatorı — #~{4}. Lütfen, idarecilerge mektüpleriñizde onı bildiriñiz.
+blockednoreason|sebep bildirilmedi
+whitelistedittext|Saifeni deñiştirmek içün ~{0} kereksiñiz.
+confirmedittext|Saifeni deñiştirmeden evel e-mail adresiñizni tasdıqlamalısıñız. Lütfen, [[Special:Preferences\u007Csazlamalar saifesinde]] e-mail adresiñizni kirsetiñiz ve tasdıqlañız.
+nosuchsectiontitle|Bölük tapılamadı
+nosuchsectiontext|Bar olmağan bölükni deñiştirip baqtıñız.\nSiz saifeni oquğanda o avuştırılğan ya da yoq etilgen ola bile.
+loginreqtitle|Oturım açmalısıñız
+loginreqlink|kiriş
+loginreqpagetext|Başqa saifelerni baqmaq içün ~{0} borclusıñız.
+accmailtitle|Parol yollandı
+accmailtext|[[User talk:~{0}\u007C~{0}]] içün tesadufiy işaretlerden yaratılğan parol ~{1} adresine yollandı.\n\nBu yañı esap içün parol, kiriş yapqandan soñ ''[[Special:ChangePassword\u007Cparolni deñiştir]]'' bölüginde deñiştirilip olur.
+newarticle|(Yañı)
+newarticletext|Siz bu bağlantınen şimdilik yoq olğan saifege avuştıñız. Yañı bir saife yaratmaq içün aşağıda bulunğan pencerege metin yazıñız (tafsilâtlı malümat almaq içün [[{{MediaWiki:Helppage}}\u007Cyardım saifesine]] baqıñız). Bu saifege tesadüfen avuşqan olsañız, brauzeriñizdeki '''keri''' dögmesine basıñız.
+anontalkpagetext|----''Bu muzakere saifesi şimdilik qayd olunmağan ya da oturımını açmağan adsız (anonim) qullanıcığa mensüptir. İdentifikatsiya içün IP adres işletile.\nBir IP adresinden bir qaç qullanıcı faydalanıp ola.\nEger siz anonim qullanıcı olsañız ve sizge kelgen beyanatlarnı yañlıştan kelgenini belleseñiz, lütfen, artıq bunıñ kibi qarışıqlıq olmasın dep [[Special:UserLogin/signup\u007Cqayd oluñız]] ya da [[Special:UserLogin\u007Coturım açıñız]].''
+noarticletext|Bu saife şimdi boştır. Bu serlevanı başqa saifelerde [[Special:Search/{{PAGENAME}}\u007Cqıdırıp olasıñız]], <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} bağlı jurnal qaydlarını qıdırıp olasıñız] ya da bu saifeni özüñiz [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} yazıp olasıñız]</span>.
+noarticletext-nopermission|Bu saife şimdi boştır. Bu serlevanı başqa saifelerde [[Special:Search/{{PAGENAME}}\u007Cqıdıra bile]] ya da <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} bağlı jurnallarnı közden keçire bilesiñiz]</span>.
+userpage-userdoesnotexist|"<nowiki>~{0}</nowiki>" adlı qullanıcı yoqtır. Tamam bu saifeni deñiştirmege istegeniñizni teşkeriñiz.
+userpage-userdoesnotexist-view|"~{0}" adlı qullanıcı esabı yoq.
+blocked-notice-logextract|Bu qullanıcı şimdi blok etilgen.\nBlok etüv jurnalınıñ soñki yazısı aşağıda kösterilgen:
+clearyourcache|'''İhtar:''' Belki sazlamalarıñıznı saqlağandan soñ deñişmelerni körmek içün brauzeriñizniñ keşini temizlemek kerek olursıñız. Keş temizlemek içün şunı yapmaq kerek:\n* '''Firefox / Safari:''' ''Shift'' basıp saifeni yañıdan yüklemek ya da ''Ctrl-F5'' ya da ''Ctrl-R'' basmaq (Mac içün ''⌘-R'')\n* '''Google Chrome:''' ''Ctrl-Shift-R'' basmaq (Mac içün ''⌘-Shift-R'')\n* '''Internet Explorer:''' ''Ctrl'' basıp saifeni yañıdan yüklemek ya da ''Ctrl-F5'' basmaq\n* '''Opera:''' ''Tools → Preferences'' menüsinde keşni temizlemek
+usercssyoucanpreview|'''Tevsiye:''' Yañı CSS faylını teşkermek içün saifeni saqlamazdan evel "{{int:showpreview}}" dögmesine basıñız.
+userjsyoucanpreview|'''Tevsiye:''' Yañı JavaScript-iñizni teşkermek içün saifeni saqlamazdan evel "{{int:showpreview}}" dögmesine basıñız.
+usercsspreview|'''Unutmañız, bu tek baqıp çıquv - qullanıcı CSS faylıñız alâ daa saqlanmadı!'''
+userjspreview|'''Unutmañız, siz şimdi tek test etesiñiz ya da baqıp çıquv köresiñiz - qullanıcı JavaScript'i şimdilik saqlanmadı.'''
+userinvalidcssjstitle|'''İhtar:''' "$1" adınen bir tema yoqtır. tema-adı.css ve .js fayllarınıñ adları kiçik afir ile yazmaq kerek, yani {{ns:user}}:Temel/'''V'''ector.css degil, {{ns:user}}:Temel/'''v'''ector.css.
+updated|(Yañardı)
+note|'''İhtar:'''
+previewnote|'''Bu tek baqıp çıquv, metin alâ daa saqlanmağan!'''
+previewconflict|Bu baqıp çıquv yuqarı tarir penceresindeki metinniñ saqlanuvdan soñ olacaq körünişini aks ete.
+session_fail_preview|''' Server siz yapqan deñiştirmelerni sessiya identifikatorı\ncoyulğanı sebebinden saqlap olamadı. Bu vaqtınca problemadır. Lütfen, tekrar saqlap baqıñız.\nBundan da soñ olıp çıqmasa, malümat lokal faylğa saqlañız da brauzeriñizni bir qapatıp\naçıñız.'''
+session_fail_preview_html|'''Afu etiñiz! HTML sessiyanıñ malümatları ğayıp olğanı sebebinden siziñ deñiştirmeleriñizni qabul etmege imkân yoqtır.'''
+token_suffix_mismatch|'''Siziñ programmañıznıñ öz türlendirüv penceresinde punktuatsiya işaretlerini doğru işlemegeni içün yapqan deñiştirmeleriñiz qabul olunmadı. Deñiştirmeler saife metniniñ körünişi bozulmasın dep lâğu etildi.\nBunıñ kibi problemalar hatalı anonim web-proksiler qullanuvdan çıqıp ola.'''
+editing|"~{0}" saifesini deñiştireyatasız
+editingsection|"~{0}" saifesinde bölük deñiştireyatasız
+editingcomment|~{0} saifesini deñiştireyatasız (yañı bölük)
+editconflict|Deñiştirmeler çatışması: ~{0}
+explainconflict|Siz saifeni deñiştirgende başqa biri de deñiştirme yaptı.\nYuqarıdaki yazı saifeniñ şimdiki alını köstere.\nSiziñ deñiştirmeleriñiz astında kösterildi. Şimdi yapqan deñiştirmeleriñizni aşağı pencereden yuqarı pencerege avuştırmaq kereksiñiz.\n"{{int:savearticle}}"ğa basqanda '''tek''' yuqarıdaki yazı saqlanacaq.
+yourtext|Siziñ metniñiz
+storedversion|Saqlanğan metin
+nonunicodebrowser|'''TENBİ: Brauzeriñizde Unicode kodlaması tanılmaz. Saifeler deñiştirgende bütün ASCII olmağan işaretlerniñ yerine olarnıñ onaltılıq kodu yazılır.'''
+editingold|'''DİQQAT: Saifeniñ eski bir versiyasını deñiştireyatasız.\nSaifeni saqlağanıñızdan soñ bu tarihlı versiyadan künümizge qadar olğan deñiştirmeler yoq olacaq.'''
+yourdiff|Farqlar
+copyrightwarning|'''Lütfen, diqqat:''' {{SITENAME}} saytına qoşulğan bütün isseler ~{1} muqavelesi dairesindedir (tafsilât içün ~{0} saifesine baqıñız).\nQoşqan isseñizniñ başqa insanlar tarafından acımasızca deñiştirilmesini ya da azat tarzda ve sıñırsızca başqa yerlerge dağıtılmasını istemeseñiz, isse qoşmañız.<br />\nAyrıca, mında isse qoşıp, bu isseniñ özüñiz tarafından yazılğanına, ya da cemaatqa açıq bir menbadan ya da başqa bir azat menbadan kopiyalanğanına garantiya bergen olasıñız.<br />\n'''MÜELLİFLİK AQQINEN QORÇALANĞAN İÇ BİR METİNNİ MINDA RUHSETSİZ QOŞMAÑIZ!'''
+copyrightwarning2|'''Lütfen, diqqat:''' {{SITENAME}} saytına siz qoşqan bütün isseler başqa bir qullanıcı tarafından deñiştirilip ya da yoq etilip olur. Qoşqan isseñizniñ başqa insanlar tarafından acımasızca deñiştirilmesini ya da azat tarzda ve sıñırsızca başqa yerlerge dağıtılmasını istemeseñiz, isse qoşmañız.<br />\nAyrıca, mında isse qoşıp, bu isseniñ özüñiz tarafından yazılğanına, ya da cemaatqa açıq bir menbadan ya da başqa bir azat menbadan kopiyalanğanına garantiya bergen olasıñız (~{0} baqıñız).<br />\n'''MÜELLİFLİK AQQINEN QORÇALANĞAN İÇ BİR METİNNİ MINDA RUHSETSİZ QOŞMAÑIZ!'''
+longpageerror|'''TENBİ: Bu saife ~{0} kilobayt büyükligindedir. Azamiy (maksimal) izinli büyüklik ise ~{1} kilobayt. Bu saife saqlanıp olamaz.'''
+readonlywarning|'''TENBİ: Baqım sebebi ile malümat bazası şimdi kilitlidir. Bu sebepten yapqan deñiştirmeleriñizni şimdi saqlap olamasıñız. Yazğanlarıñıznı vaqtınca bir tekst faylında saqlap ve daa soñra bir daa mında ketirip saqlap olursıñız'''\n\nMalümat bazasını kilitlegen idareci öz areketini şöyle añlattı: ~{0}
+protectedpagewarning|'''Tenbi: Bu saife qorçalanğan ve tek idareciler tarafından deñiştirilip olur.'''\nJurnalnıñ soñki yazısı aşağıda berilgen:
+semiprotectedpagewarning|'''Tenbi''': Bu saife tek qaydlı qullanıcılar tarafından deñiştirilip olur.\nJurnalnıñ soñki yazısı aşağıda berilgen:
+cascadeprotectedwarning|'''Tenbi:''' Bu saifeni tek "İdareciler" gruppasına kirgen qullanıcılar deñiştirip olalar, çünki o kaskad qorçalav altında bulunğan {{PLURAL:$1\u007Csaifege\u007Csaifelerge}} mensüptir:
+titleprotectedwarning|'''Tenbi: Bu saife qorçalav altındadır, tek [[Special:ListGroupRights\u007Cmahsus aqlarğa]] saip qullanıcılar onı yaratıp ola.'''\nJurnalnıñ soñki yazısı aşağıda berilgen:
+templatesused|Bu saifede qullanılğan {{PLURAL:~{0}\u007Cşablon\u007Cşablonlar}}:
+templatesusedpreview|Siz baqıp çıqqan saifeñizde qullanılğan {{PLURAL:~{0}\u007Cşablon\u007Cşablonlar}}:
+templatesusedsection|Bu bölükte qullanılğan {{PLURAL:~{0}\u007Cşablon\u007Cşablonlar}}:
+template-protected|(qorçalav altında)
+template-semiprotected|(qısmen qorçalav altında)
+hiddencategories|Bu saife {{PLURAL:~{0}\u007C1\u007C~{0}}} gizli kategoriyağa mensüptir:
+nocreatetext|{{SITENAME}} saytında yañı saife yaratuv sıñırlıdır.\nKeri qaytıp mevcut olğan saifeni deñiştire, [[Special:UserLogin\u007Coturım aça ya da yañı bir esap yaratıp olasıñız]].
+nocreate-loggedin|Yañı saifeler yaratmağa iziniñiz yoqtır.
+sectioneditnotsupported-title|Bölüklerni deñiştirmek mümkün degil.
+sectioneditnotsupported-text|Bu saifede bölüklerni deñiştirmek mümkün degil.
+permissionserrors|İrişim aqlarınıñ hataları
+permissionserrorstext|Bunı yapmağa iziniñiz yoqtır. {{PLURAL:~{0}\u007CSebep\u007CSebepler}}:
+permissionserrorstext-withaction|Aşağıdaki {{PLURAL:~{0}\u007Csebepten\u007Csebeplerden}} ~{1} ruhsetiñiz yoq:
+recreate-moveddeleted-warn|'''Tenbi: Evelce yoq etilgen saifeni yañıdan yaratasıñız.'''\n\nSaifeni deñiştirmege devam etkeni uyğun olıp olmağanını tüşünmelisiñiz.\nSaifeniñ yoq etilüv ve avuştırıluv qaydları mında berilgen:
+moveddeleted-notice|Bu saife yoq etilgen.\nSaifeniñ yoq etilüv ve avuştırıluv qaydları aşağıda berilgen.
+log-fulllog|Jurnalnı tolusınca köster
+edit-hook-aborted|Deñiştirme çengel protsedurasınen toqtatıldı.\nİç bir izaat berilmedi.
+edit-gone-missing|Saife yañartılıp olamay.\nBelki o yoq etilgendir.
+edit-conflict|Deñiştirmeler çatışması.
+edit-no-change|Yapqan deñiştirmeñiz saqlanmağan, çünki metinde bir türlü deñiştirilme yapılmadı.
+edit-already-exists|Yañı saifeni yaratmaq mümkün degil.\nO endi bar.
+undo-success|Deñiştirme lâğu etile bile. Lütfen, mına bu deñiştirmelerni yapmağa istegeniñizden emin olmaq içün versiyalar teñeştirilüvini közden keçirip deñiştirmelerni saqlamaq içün "Saifeni saqla" dögmesine basıñız.
+undo-failure|Aradaki deñiştirmeler bir-birine kelişikli olmağanı içün deñiştirme lâğu etilip olamay.
+undo-norev|Deñiştirme lâğu etilip olamaz, çünki o ya da yoq, ya da bar edi, amma yoq etilgen.
+undo-summary|[[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Cmuzakere]]) qullanıcısınıñ ~{0} nomeralı deñiştirmesini lâğu etüv.
+cantcreateaccounttitle|Esap yaratmaqnıñ iç çaresi yoq.
+cantcreateaccount-text|Bu IP adresinden ('''~{0}''') esap yaratuv [[User:~{2}\u007C~{2}]] tarafından blok etildi.\n\n~{2} mına bu sebepni bildirdi: ''~{1}''
+viewpagelogs|Bu saifeniñ jurnallarını köster
+nohistory|Bu saifeniñ keçmiş versiyası yoq.
+currentrev|Şimdiki versiya
+currentrev-asof|~{0} tarihında sоñki kere deñiştirilgen saifeniñ şimdiki alı
+revisionasof|Saifeniñ ~{0} tarihındaki alı
+revision-info|Saifeniñ ~{1} tarafından yazılğan ~{0} tarihındaki alı
+previousrevision|← Evelki alı
+nextrevision|Soñraki alı →
+currentrevisionlink|eñ yañı alını köster
+cur|farq
+next|soñraki
+last|soñki
+page_first|ilk
+page_last|soñki
+histlegend|Farq saylanuvı: Teñeştirmege istegen eki versiyañıznı saylap '''{{int:compare-submit}}''' dögmesine basıñız.<br />\nAñlatmalar: '''({{int:cur}})''' = şimdiki versiyanen arasındaki farq, '''({{int:last}})''' = evelki versiyanen arasındaki farq, '''{{int:minoreditletter}}''' = kiçik deñiştirme.
+history-fieldset-title|Keçmişke baquv
+history-show-deleted|Tek yoq etilgenler
+histfirst|Eñ eski
+histlast|Eñ yañı
+historysize|({{PLURAL:~{0}\u007C1 bayt\u007C~{0} bayt}})
+historyempty|(boş)
+history-feed-title|Deñiştirmeler tarihı
+history-feed-description|Vikide bu saifeniñ deñiştirmeler tarihı
+history-feed-item-nocomment|~{1} üstünde ~{0}
+history-feed-empty|İstenilgen saife yoq.\nO yoq eilgen ya da adı deñiştirilgen ola bile.\nVikide bu saifege oşağan saifelerni [[Special:Search\u007Ctapıp baqıñız]].
+rev-deleted-comment|(deñiştirmeniñ tarifi yoq etildi)
+rev-deleted-user|(qullanıcı adı yoq etildi)
+rev-deleted-event|(qayd yoq etildi)
+rev-delundel|köster/gizle
+rev-showdeleted|köster
+revisiondelete|Versiyalarnı yoq et/keri ketir
+revdelete-hide-comment|Qısqa tarifni kösterme
+revdelete-hide-user|Deñiştirmeni yapqannıñ qullanıcı adını/IP-ni gizle
+revdelete-hide-restricted|Malümatnı adiy qullanıcılardan kibi idarecilerden de gizle
+revdelete-submit|Saylanğan {{PLURAL:~{0}\u007Cversiyağa\u007Cversiyalarğa}} işlet
+revdel-restore|körünüvni deñiştir
+revertmerge|Ayır
+mergelogpagetext|Saifelerniñ keçmiş versiyalarınıñ bir-birlerinen eñ soñki birleştirilmeleri aşağıdaki cedvelde kösterilgen.
+history-title|"~{0}" saifesiniñ deñiştirmeler tarihı
+difference-multipage|(Saifeler arasındaki farq)
+lineno|~{0} satır:
+compareselectedversions|Saylanğan versiyalarnı teñeştir
+showhideselectedversions|Saylanğan versiyalarnı köster/gizle
+editundo|lâğu et
+diff-multi|({{PLURAL:~{1}\u007CBir qullanıcı\u007C~{1} qullanıcı}}nıñ yapqan {{PLURAL:~{0}\u007Cbir ara versiyası\u007C~{0} ara versiyası}} kösterilmey)
+diff-multi-manyusers|(~{1}-den ziyade {{PLURAL:~{1}\u007Cqullanıcı\u007Cqullanıcı}}nıñ yapqan {{PLURAL:~{0}\u007Cbir ara versiyası\u007C~{0} ara versiyası}} kösterilmey)
+searchresults|Qıdıruv neticeleri
+searchresults-title|"~{0}" içün qıdıruv neticeleri
+searchresulttext|{{SITENAME}} içinde qıdıruv yapmaq hususında malümat almaq içün [[{{MediaWiki:Helppage}}\u007C{{int:help}}]] saifesine baqıp olasıñız.
+searchsubtitle|Qıdırılğan: '''[[:~{0}]]''' ([[Special:Prefixindex/~{0}\u007C"~{0}" ile başlanğan bütün saifeler]]{{int:pipe-separator}}[[Special:WhatLinksHere/~{0}\u007C"~{0}" saifesine bağlantı olğan bütün saifeler]])
+searchsubtitleinvalid|Siz bunı qıdırdıñız '''~{0}'''
+toomanymatches|Pek çoq eşleşme çıqtı, lütfen, başqa bir soratma saylañız
+titlematches|Saife adı bir kele
+notitlematches|İç bir serlevada tapılamadı
+textmatches|Saife metni bir kele
+notextmatches|İç bir saifede tapılamadı
+prevn-title|Evelki ~{0} {{PLURAL:~{0}\u007Cnetice\u007Cnetice}}
+nextn-title|Soñraki ~{0} {{PLURAL:~{0}\u007Cnetice\u007Cnetice}}
+shown-title|Saife başına ~{0} {{PLURAL:~{0}\u007Cnetice\u007Cnetice}} köster
+viewprevnext|(~{0} {{int:pipe-separator}} ~{1}) (~{2}).
+searchmenu-legend|Qıdıruv sazlamaları
+searchmenu-exists|'''Bu vikide "[[:$1]]" adlı bir saife bar'''
+searchmenu-new|'''Bu vikide "[[:$1]]" saifesini yarat!'''
+searchmenu-prefix|[[Special:PrefixIndex/~{0}\u007CBu prefiksli saifelerni köster]]
+searchprofile-articles|Malümat saifeleri
+searchprofile-project|Yardım ve leyha saifeleri
+searchprofile-images|Multimedia
+searchprofile-everything|Er şey
+searchprofile-advanced|Tafsilâtlı
+searchprofile-articles-tooltip|~{0} içinde qıdır
+searchprofile-project-tooltip|~{0} içinde qıdır
+searchprofile-images-tooltip|Fayllarnı qıdır
+searchprofile-everything-tooltip|Bütün saifelerde (muzakere saifelerinde de) qıdır
+searchprofile-advanced-tooltip|Belgilengen isim fezalarında qıdır
+search-result-size|~{0} ({{PLURAL:~{1}\u007C1\u007C~{1}}} söz)
+search-result-score|Uyğunlıq: ~{0}%
+search-redirect|(yollama ~{0})
+search-section|(bölük ~{0})
+search-suggest|Bunımı demege istediñiz: ~{0}
+search-interwiki-caption|Qardaş leyhalar
+search-interwiki-default|~{0} netice:
+search-interwiki-more|(daa çоq)
+search-relatedarticle|Bağlı
+mwsuggest-disable|AJAX tevsiyelerini işletme
+searcheverything-enable|Bütün isim fezalarında qıdır
+searchrelated|bağlı
+searchall|episi
+showingresults|Aşağıda №��<strong>~{1}</strong>den başlap {{PLURAL:~{0}\u007C'''1''' netice\u007C'''~{0}''' netice}} buluna.
+showingresultsnum|Aşağıda №��'''~{1}'''den başlap {{PLURAL:~{2}\u007C'''1''' netice\u007C'''~{2}''' netice}} buluna.
+nonefound|'''İhtar.''' Adiycesine qıdıruv bütün isim fezalarında yapılmay. Bütün isim fezalarında (bu cümleden qullanıcılar subetleri, şablonlar ve ilâhre) qıdırmaq içün ''all:'' yazını qullanıñız, muayyen bir isim fezasında qıdırmaq içün ise ''ad:'' formatında onıñ adını yazıñız.
+search-nonefound|Soratmanen eşleşken bir netice yoq.
+powersearch|Qıdır
+powersearch-legend|Tafsilâtlı qıdıruv
+powersearch-ns|Bu isim fezalarında qıdır:
+powersearch-redir|Yollama saifelerini de köster
+powersearch-field|Qıdır:
+powersearch-togglelabel|Sayla:
+powersearch-toggleall|Episi
+powersearch-togglenone|İç biri
+search-external|Tış qıdıruv
+searchdisabled|{{SITENAME}} saytında qıdıruv yapma vaqtınca toqtatıldı. Bu arada Google qullanıp {{SITENAME}} içinde qıdıruv yapıp olasıñız. Qıdıruv saytlarında indekslemeleriniñ biraz eski qalğan ola bilecegini köz ögüne alıñız.
+preferences|Sazlamalar
+mypreferences|Sazlamalar
+prefs-edits|Deñiştirmeler sayısı:
+prefsnologin|Oturım açmadıñız
+prefsnologintext|Şahsiy sazlamalarıñıznı deñiştirmek içün <span class="plainlinks">[{{fullurl:{{#Special:UserLogin}}\u007Creturnto=~{0}}} oturım açmaq]</span> kereksiñiz.
+changepassword|Parol deñiştir
+prefs-skin|Resimleme
+skin-preview|Baqıp çıquv
+datedefault|Standart
+prefs-datetime|Tarih ve saat
+prefs-personal|Qullanıcı malümatı
+prefs-rc|Soñki deñiştirmeler
+prefs-watchlist|Közetüv cedveli
+prefs-watchlist-days|Közetüv cedvelinde kösterilecek kün sayısı:
+prefs-watchlist-days-max|Eñ çoq ~{0} {{PLURAL:~{0}\u007Ckün\u007Ckün}}
+prefs-watchlist-edits|Kenişletilgen közetüv cedvelinde kösterilecek deñiştirmeler sayısı:
+prefs-watchlist-edits-max|Eñ çoq 1000
+prefs-watchlist-token|Közetüv cedveli işareti:
+prefs-misc|Diger sazlamalar
+prefs-resetpass|Parolni deñiştir
+prefs-email|E-mail sazlamaları
+prefs-rendering|Körüniş
+saveprefs|Saqla
+resetprefs|Saqlanmağan sazlamalarnı ilk alına ketir
+restoreprefs|Bütün ög belgilengen sazlamalarnı qaytar
+prefs-editing|Saifelerni deñiştirüv
+rows|Satır
+columns|Sutun
+searchresultshead|Qıdıruv
+resultsperpage|Saifede kösterilecek tapılğan saife sayısı
+recentchangesdays|Soñki deñiştirmeler saifesinde kösterilecek kün sayısı:
+recentchangesdays-max|(eñ çoq ~{0} {{PLURAL:~{0}\u007Ckün\u007Ckün}})
+recentchangescount|Ög belgilengen kösterilecek deñiştirmeler sayısı:
+prefs-help-recentchangescount|Bu, soñki deñiştirmeler, saife keçmişi ve jurnal saifelerinde qullanıla.
+savedprefs|Sazlamalarıñız saqlandı.
+timezonelegend|Saat quşağı:
+localtime|Yerli vaqıt:
+timezoneuseserverdefault|Serverniñ sazlamaları qullanılsın (~{0})
+timezoneuseoffset|Başqa (farqnı kirsetiñiz)
+timezoneoffset|Saat farqı¹:
+servertime|Serverniñ saatı:
+guesstimezone|Brauzeriñiz siziñ yeriñizge köre toldursın
+timezoneregion-africa|Afrika
+timezoneregion-america|Amerika
+timezoneregion-antarctica|Antarktika
+timezoneregion-arctic|Arktika
+timezoneregion-asia|Asiya
+timezoneregion-atlantic|Atlantik okean
+timezoneregion-australia|Avstraliya
+timezoneregion-europe|Avropa
+timezoneregion-indian|İnd okeanı
+timezoneregion-pacific|Tınç okean
+allowemail|Diger qullanıcılar maña e-mail mektüpleri yollap olsun
+prefs-searchoptions|Qıdıruv sazlamaları
+prefs-namespaces|İsim fezaları
+defaultns|Akis alda bu isim fezalarında qıdır:
+default|original
+prefs-files|Fayllar
+prefs-reset-intro|Bu saifeni sazlamalarıñıznı sayt ög belgilengenine qaytarmaq içün qullana bilesiñiz. Bu lâğu etilip olamaz.
+prefs-emailconfirm-label|E-mail tasdıqlanması:
+youremail|E-mail adresiñiz:
+username|Qullanıcı adı:
+uid|Qayd nomeri:
+prefs-memberingroups|Azası olğan {{PLURAL:~{0}\u007Cgruppa\u007Cgruppalar}}:
+prefs-registration|Qayd tarihı:
+yourrealname|Kerçek adıñız:
+yourlanguage|İnterfeys tili:
+yourvariant|Münderice tiliniñ variantı:
+yournick|Yañı imzañız:
+prefs-help-signature|Muzakere saifelerindeki tefsirlerni "<nowiki>~~~~</nowiki>" ile imzalamaq kerek, bu dört tilda yerine imzañız ve vaqıt kösterilir.
+badsig|Yañlış imza. HTML tegleriniñ doğrulığını baqıñız.
+badsiglength|Qarardan ziyade uzun imzadır, {{PLURAL:~{0}\u007C1\u007C~{0}}} ziyade işaretten ibaret olması mümkün degil.
+yourgender|Cınsıñız:
+gender-unknown|Bildirilmegen
+gender-male|Erkek
+gender-female|Qadın
+prefs-help-gender|Mecburiy degil: wiki tarafından doğru cınıs adreslevi içün qullanıla. Bu malümat umumiy olacaq.
+email|E-mail
+prefs-help-realname|Kerçek adıñız (mecburiy degildir).\nEger bildirseñiz, saifelerdeki deñiştirmelerni kimniñ yapqanını köstermek içün qullanılacaq.
+prefs-help-email|E-mail (mecburiy degildir). E-mail adresi bildirilgen olsa, paroliñizni unutsañız, sizge yañı bir parol yollamaq içün qullanılır.
+prefs-help-email-required|E-mail adresi lâzim.
+prefs-info|Esas malümat
+prefs-i18n|Halqlararasılaştıruv
+prefs-signature|İmza
+prefs-dateformat|Tarih formatı
+prefs-timeoffset|Zaman farqı
+prefs-advancedediting|İlâve sazlamalar
+prefs-advancedrc|İlâve sazlamalar
+prefs-advancedrendering|İlâve sazlamalar
+prefs-advancedsearchoptions|İlâve sazlamalar
+prefs-advancedwatchlist|İlâve sazlamalar
+prefs-displayrc|Kösterilüv sazlamaları
+prefs-displaysearchoptions|Kösterilüv sazlamaları
+prefs-displaywatchlist|Kösterilüv sazlamaları
+prefs-diffs|Farqlar
+userrights|Qullanıcı aqlarını idare etüv
+userrights-lookup-user|Qullanıcı gruppalarını idare et
+userrights-user-editname|Öz qullanıcı adıñıznı yazıñız:
+editusergroup|Qullanıcı gruppaları nizamla
+editinguser|'''[[User:~{0}\u007C~{0}]]''' ~{1} qullanıcısınıñ izinlerini deñiştireyatasız
+userrights-editusergroup|Qullanıcı gruppaları nizamla
+saveusergroups|Qullanıcı gruppalarını saqla
+userrights-groupsmember|Azası оlğan gruppalarıñız:
+group|Gruppa:
+group-user|Qullanıcılar
+group-autoconfirmed|Avtomatik tasdıqlanğan qullanıcılar
+group-bot|Botlar
+group-sysop|İdareciler
+group-bureaucrat|Bürokratlar
+group-suppress|Teftişçiler
+group-all|(episi)
+group-user-member|{{GENDER:~{0}\u007Cqullanıcı}}
+group-autoconfirmed-member|{{GENDER:~{0}\u007Cavtomatik tasdıqlanğan qullanıcı}}
+group-bot-member|{{GENDER:~{0}\u007Cbot}}
+group-sysop-member|{{GENDER:~{0}\u007Cidareci}}
+group-bureaucrat-member|{{GENDER:~{0}\u007Cbürokrat}}
+group-suppress-member|{{GENDER:~{0}\u007Cteftişçi}}
+grouppage-user|{{ns:project}}:Qullanıcılar
+grouppage-autoconfirmed|{{ns:project}}:Avtomatik tasdıqlanğan qullanıcılar
+grouppage-bot|{{ns:project}}:Botlar
+grouppage-sysop|{{ns:project}}:İdareciler
+grouppage-bureaucrat|{{ns:project}}:Bürokratlar
+grouppage-suppress|{{ns:project}}:Teftişçiler
+newuserlogpage|Yañı qullanıcı jurnalı
+newuserlogpagetext|Eñ sоñki qayd оlğan qullanıcı jurnalı.
+rightslog|Qullanıcınıñ aqları jurnalı
+action-edit|bu saifeni deñiştirmege
+nchanges|~{0} {{PLURAL:~{0}\u007Cdeñiştirme}}
+recentchanges|Soñki deñiştirmeler
+recentchanges-legend|Soñki deñiştirmeler sazlamaları
+recentchanges-summary|Yapılğan eñ soñki deñişitirmelerni bu saifede körip olasıñız.
+recentchanges-feed-description|Bu lenta vastasınen vikide soñki deñiştirmelerni közet.
+recentchanges-label-newpage|Bu deñiştirme yañı bir saife yarattı
+recentchanges-label-minor|Bu, kiçik bir deñiştirme
+recentchanges-label-bot|Bu bir botnıñ yapqan deñiştirmesi
+recentchanges-label-unpatrolled|Bu deñiştirme alâ daa teşkerilmegen
+rcnote|~{3} ~{4} tarihında soñki {{PLURAL:~{1}\u007Ckünde\u007C'''~{1}''' künde}} yapılğan '''{{PLURAL:~{0}\u007C1\u007C~{0}}}''' deñiştirme:
+rcnotefrom|'''~{1}''' tarihından itibaren yapılğan deñiştirmeler aşağıdadır (eñ çоq '''~{0}''' dane saife kösterile).
+rclistfrom|~{0} tarihından berli yapılğan deñiştirmelerni köster
+rcshowhideminor|kiçik deñiştirmelerni ~{0}
+rcshowhidebots|botlarnı ~{0}
+rcshowhideliu|qaydlı qullanıcılarnı ~{0}
+rcshowhideanons|anonim qullanıcılarnı ~{0}
+rcshowhidepatr|közetilgen deñiştirmelerni ~{0}
+rcshowhidemine|menim yapqan deñiştirmelerimni ~{0}
+rclinks|Soñki ~{1} künde yapılğan soñki ~{0} deñiştirmeni köster;<br /> ~{2}
+diff|farq
+hist|keçmiş
+hide|gizle
+show|köster
+minoreditletter|k
+newpageletter|Y
+boteditletter|b
+number_of_watching_users_pageview|[~{0} {{PLURAL:~{0}\u007Cqullanıcı\u007Cqullanıcı}} közete]
+rc_categories|Tek kategoriyalardan ("\u007C" ile ayırıla)
+rc_categories_any|Er angi
+newsectionsummary|/* ~{0} */ yañı bölük
+rc-enhanced-expand|Tafsilâtını köster (JavaScript kerek)
+rc-enhanced-hide|Tafsilâtını gizle
+recentchangeslinked|Bağlı deñiştirmeler
+recentchangeslinked-feed|Bağlı deñiştirmeler
+recentchangeslinked-toolbox|Bağlı deñiştirmeler
+recentchangeslinked-title|"~{0}" ile bağlı deñiştirmeler
+recentchangeslinked-summary|Bu mahsus saifede bağlı saifelerde soñki yapılğan deñiştirmeler cedveli bar. [[Special:Watchlist\u007CKözetüv cedveliñiz]]deki saifeler '''qalın''' olaraq kösterile.
+recentchangeslinked-page|Saife adı:
+recentchangeslinked-to|Berilgen saife yerine berilgen saifege bağlantı bergen olğan saifelerni köster
+upload|Fayl yükle
+uploadbtn|Fayl yükle
+reuploaddesc|Yükleme formasına keri qayt.
+upload-tryagain|Deñiştirilgen fayl tarifini yolla
+uploadnologin|Oturım açmadıñız
+uploadnologintext|Fayl yüklep olmaq içün [[Special:UserLogin\u007Coturım açmaq]] kereksiñiz.
+upload_directory_missing|Yüklemeler içün direktoriya (~{0}) mevcut degil ve veb-server tarafından yapılıp olamay.
+upload_directory_read_only|Web serverniñ (~{0}) cüzdanına fayllar saqlamağa aqları yoqtır.
+uploaderror|Yükleme hatası
+uploadtext|Fayllar yüklemek içün aşağıdaki formanı qullanıñız.\nEvelce yüklengen resim tapmaq ya da baqmaq içün [[Special:FileList\u007Cyüklengen fayllar cedveline]] keçiñiz, bundan ğayrı fayl yüklenüv ve yoq etilüv qaydlarını [[Special:Log/upload\u007Cyüklenüv jurnalında]] ve [[Special:Log/delete\u007Cyoq etilüv jurnalında]] tapıp olasıñız.\n\nSaifede resim qullanmaq içün böyle şekilli bağlantılar qullanıñız:\n* '''<code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code>''' faylnıñ tam versiyasını qullanmaq içün,\n* '''<code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png\u007C200px\u007Cthumb\u007Cleft\u007Ctarif]]</nowiki></code>''' bir tarif ile 200 piksel bir resim qullanmaq içün,\n* '''<code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code>''' faylğa vastasız bağlantı içün.
+upload-permitted|İzinli fayl çeşitleri: ~{0}.
+upload-preferred|İstenilgen fayl çeşitleri: ~{0}.
+upload-prohibited|Yasaqlı fayl çeşitleri: ~{0}.
+uploadlog|yükleme jurnalı
+uploadlogpage|Fayl yükleme jurnalı
+uploadlogpagetext|Aşağıda eñ soñki qоşulğan fayllarnıñ cedveli buluna.\nDaa körgezmeli körüniş içün [[Special:NewFiles\u007Cyañı fayllar galereyasına]] baqıñız.
+filename|Fayl
+filedesc|Faylğa ait qısqa tarif
+fileuploadsummary|Qısqa tarif:
+filereuploadsummary|Faylnıñ deñiştirilmeleri:
+filestatus|Tarqatuv şartları:
+filesource|Menba:
+uploadedfiles|Yüklengen fayllar
+ignorewarning|Tenbige qulaq asmayıp faylnı yükle.
+ignorewarnings|Tenbilerge qulaq asma
+minlength1|Faylnıñ adı eñ azdan bir ariften ibaret olmalı.
+illegalfilename|"~{0}" faylınıñ adında serleva içün yasaqlı işaretler bar. Lütfen, fayl adını deñiştirip yañıdan yüklep baqıñız.
+badfilename|Fayl adı ~{0} olaraq deñiştirildi.
+filetype-badmime|"~{0}" MIME çeşitindeki fayllar yükleme yasaqlıdır.
+filetype-bad-ie-mime|Bu fayl yüklenip olamaz, çünki Internet Explorer onı "~{0}" yani ruhset berilmegen ve zararlı ola bilgen fayl dep belleycek.
+filetype-unwanted-type|'''".$1"''' — istenilmegen fayl çeşiti.\nİstenilgen {{PLURAL:$3\u007Cfayl çeşiti\u007Cfayl çeşitleri}}: $2.
+filetype-banned-type|'''".$1"''' — yasaqlı fayl çeşiti.\nİstenilgen {{PLURAL:$3\u007Cfayl çeşiti\u007Cfayl çeşitleri}}: $2.
+filetype-missing|Faylnıñ iç bir uzantısı yoq (meselâ ".jpg", ".gif" ve ilh.).
+large-file|Büyükligi ~{0} bayttan ziyade ibaret olmağan resimler qullanuv tevsiye etile (bu faylnıñ büyükligi ~{1} bayt).
+largefileserver|Bu faylnıñ uzunlığı serverde izin berilgenden büyükçedir.
+emptyfile|İhtimal ki, yüklengen fayl boş. İhtimallı sebep - fayl adlandıruv\nhatasıdır. Lütfen, tamam bu faylnı yüklemege isteycek ekeniñizni teşkeriñiz.
+fileexists|Bu isimde bir fayl endi bar.\nLütfen, eger siz deñiştirmekten emin olmasañız başta <strong>[[:~{0}]]</strong> faylına köz taşlañız.\n[[~{0}\u007Cthumb]]
+filepageexists|Bu fayl içün tasvir saifesi endi yapılğan (<strong>[[:~{0}]]</strong>), lâkin bu adda bir fayl yoqtır.\nYazılğan tasviriñiz fayl saifesinde kösterilmeycek.\nTasviriñiz anda kösterilecegi içün, bunı qolnen deñiştirmek kereksiñiz.\n[[~{0}\u007Cthumb]]
+fileexists-extension|Buña oşağan adda bir fayl bar: [[~{1}\u007Cthumb]]\n* Yüklengen faylnıñ adı: <strong>[[:~{0}]]</strong>\n* Mevcut olğan faylnıñ adı: <strong>[[:~{1}]]</strong>\nLütfen, başqa bir ad saylap yazıñız.
+fileexists-thumbnail-yes|Belki de bu fayl bir ufaqlaştırılğan kopiyadır (thumbnail). [[~{0}\u007Cthumb]]\nLütfen, <strong>[[:~{0}]]</strong> faylını teşkeriñiz.\nEger şu fayl aynı şu resim olsa, onıñ ufaqlaştırılğan kopiyasını ayrı olaraq yüklemek aceti yoqtır.
+file-thumbnail-no|Faylnıñ adı <strong>~{0}</strong>nen başlana. Belki de bu resimniñ ufaqlaştırılğan bir kopiyasıdır ''(thumbnail)''.\nEger sizde bu resim tam büyükliginde bar olsa, lütfen, onı yükleñiñiz ya da faylnıñ adını deñiştiriñiz.
+fileexists-forbidden|Bu isimde bir fayl endi bar, ve üzerine yazılamay.\nFaylıñıznı yañıdan yüklemege isteseñiz, lütfen, keri qaytıp yañı bir isim qullanıñız.\n[[File:~{0}\u007Cthumb\u007Ccenter\u007C~{0}]]
+fileexists-shared-forbidden|Fayllar umumiy tutulğan yerinde bu isimde bir fayl endi bar.\nEger bu faylnı ep bir yüklemege isteseñiz, keri qaytıñız ve fayl ismini deñiştirip yañıdan yükleñiz.\n[[File:~{0}\u007Cthumb\u007Ccenter\u007C~{0}]]
+file-exists-duplicate|Bu fayl aşağıdaki {{PLURAL:~{0}\u007Cfaylnıñ\u007Cfayllarnıñ}} dublikatı ola:
+uploadwarning|Tenbi
+savefile|Faylnı saqla
+uploadedimage|Yüklengen: "[[~{0}]]"
+overwroteimage|"[[~{0}]]" yañı versiyası yüklendi
+uploaddisabled|Yükleme yasaqlıdır.
+uploaddisabledtext|Fayl yükleme yasaqlıdır.
+uploadscripted|Bu faylda brauzer tarafından yañlışnen işlenip olur HTML kodu ya da skript bar.
+uploadvirus|Bu fayl viruslıdır! ~{0} baqıñız
+sourcefilename|Yüklemege istegen faylıñız:
+destfilename|Faylnıñ istenilgen adı:
+upload-maxfilesize|Azamiy (maksimal) fayl büyükligi: ~{0}
+watchthisupload|Bu faylnı közet
+filewasdeleted|Bu isimde bir fayl bar edi, amma yoq etilgen edi. Lütfen, tekrar yüklemeden evel ~{0} teşkeriñiz.
+filename-bad-prefix|Siz yüklegen faylnıñ adı '''"$1"'''-nen başlana. Bu, adetince, raqamlı fotoapparatlardan fayl adına yazılğan manasız işaretlerdir. Lütfen, bu fayl içün añlıca bir ad saylap yazıñız.
+upload-success-subj|Yüklenüv becerildi
+upload-proto-error|Yañlış protokol
+upload-proto-error-text|İnternetten bir resim faylı yüklemege isteseñiz adres <code>http://</code> ya da <code>ftp://</code>nen başlamalı.
+upload-file-error|İçki hata
+upload-file-error-text|Serverde muvaqqat fayl yaratılğan vaqıtta içki hata çıqtı. Lütfen, [[Special:ListUsers/sysop\u007Cidarecige]] muracaat etiñiz.
+upload-misc-error|Belgisiz yüklenüv hatası
+upload-misc-error-text|Belgisiz yüklenüv hatası. Lütfen, adresniñ doğru olğanını teşkerip tekrarlañız. Problema devam etse, [[Special:ListUsers/sysop\u007Cidarecige]] muracaat etiñiz.
+upload-curl-error6|URL adresine irişilip olamadı.
+upload-curl-error6-text|Bildirilgen URL adresine irişilip olamadı. Lütfen, adresniñ doğru olğanı ve saytqa irişmekniñ çaresi olğanını teşkeriñiz.
+upload-curl-error28|Yüklenüv vaqtı toldı
+upload-curl-error28-text|Sayt çoqtan cevap qaytarmay. Lütfen, saytnıñ doğru çalışqanını teşkerip birazdan soñ tekrarlañız. Belki de istegen areketiñizni soñ, sayt boşça olğanda, etmek kerektir.
+license|Litsenziyalama:
+license-header|Litsenziyalama
+nolicense|Yoq
+license-nopreview|(Baqıp çıquv irişilmez)
+upload_source_url| (doğru, püblik tarzda kirmege musaadeli internet adres)
+upload_source_file| (kompyuteriñizdeki fayl)
+listfiles-summary|Bu mahsus saife bütün yüklengen fayllarnı köstere.\nYaqınlarda yüklengen fayllar cedvelniñ yuqarısında kösterile.\nSutun serlevasına bir basuv sortirlemeniñ tertibini deñiştirir.
+listfiles_search_for|Fayl adını qıdıruv:
+imgfile|fayl
+listfiles|Resim cedveli
+listfiles_date|Tarih
+listfiles_name|Fayl adı
+listfiles_user|Qullanıcı
+listfiles_size|Büyüklik
+listfiles_description|Tasvir
+listfiles_count|Versiyalar
+file-anchor-link|Fayl
+filehist|Faylnıñ keçmişi
+filehist-help|Faylnıñ kerekli anki alını körmek içün tarihqa/saatqa basıñız.
+filehist-deleteall|episini yoq et
+filehist-deleteone|yoq et
+filehist-revert|keri al
+filehist-current|şimdiki
+filehist-datetime|Tarih ve saat
+filehist-thumb|Kiçik resim
+filehist-thumbtext|~{0} tarihındaki versiyanıñ ufaqlaştırılğan alı
+filehist-nothumb|Ufaqlaştırılğan resim yoq
+filehist-user|Qullanıcı
+filehist-dimensions|En × boy
+filehist-filesize|Fayl büyükligi
+filehist-comment|İzaat
+filehist-missing|Fayl yoq
+imagelinks|Fayl bağlantıları
+linkstoimage|Bu faylğa bağlantı olğan {{PLURAL:~{0}\u007C1\u007C~{0}}} saife:
+nolinkstoimage|Bu faylğa bağlanğan saife yoq.
+sharedupload|Bu fayl ~{0} saytından ve diger leyhalarda da qullanılıp оla.
+uploadnewversion-linktext|Faylnıñ yañısını yükleñiz
+shared-repo-from|~{0}nden
+shared-repo|ortaq tutulğan yeri
+filerevert|~{0} faylını eski alına qaytar
+filerevert-legend|Faylnı eski alına qaytar
+filerevert-intro|'''[[Media:~{0}\u007C~{0}]]''' faylınıñ [~{3} ~{1}, ~{2} tarihındaki versiyası]nı keri ketirmektesiñiz.
+filerevert-comment|Sebep:
+filerevert-defaultcomment|~{0}, ~{1} tarihındaki versiyağa keri qaytarıldı
+mimesearch|MIME qıdıruvı
+mimetype|MIME çeşiti:
+download|yükle
+unwatchedpages|Közetilmegen saifeler
+listredirects|Yollamalarnı cedvelge çek
+unusedtemplates|Qullanılmağan şablonlar
+unusedtemplatestext|Bu saife {{ns:template}} isim fezasında bulunğan ve diger saifelerge kirsetilmegen şablonlarnı köstere. Şablonlarğa olğan diger bağlantılarnı da teşkermeden yoq etmeñiz.
+unusedtemplateswlh|diger bağlantılar
+randompage|Tesadüfiy saife
+randompage-nopages|"~{0}" {{PLURAL:~{1}\u007Cisim fezasında\u007Cisim fezalarında}} iç bir saife yoq.
+randomredirect|Tesadüfiy yollama saifesi
+randomredirect-nopages|"~{0}" isim fezasında iç bir yollama saifesi yoq.
+statistics-header-edits|Deñiştirüv statistikası
+statistics-header-views|Közden keçirme statistikası
+statistics-header-users|Qullanıcı statistikası
+statistics-header-hooks|Diger statistika
+statistics-mostpopular|Eñ sıq baqılğan saifeler
+disambiguations|Çoq manalı terminler saifeleri
+disambiguationspage|{{ns:template}}:disambig
+disambiguations-text|Aşağıdıki saifeler '''çoq manalı saifeler'''ge bağlantı ola.\nBelki de olar bir konkret saifege bağlantı olmalı.<br />\nEger saifede, [[MediaWiki:Disambiguationspage]] saifesinde adı keçken şablon yerleştirilgen olsa, o saife çoq manalıdır.
+doubleredirects|Yollamağa olğan yollamalar
+doubleredirectstext|Bu saifede diger yollama saifelerine yollanma olğan saifeleri kösterile.\nEr satırda birinci ve ekinci yollamağa bağlantılar da, ekinci yollamanıñ maqsat saifesi (adetince o birinci yollamanıñ kerekli maqsadı ola) da bar.\n<del>Üstü sızılğan</del> meseleler endi çezilgen.
+double-redirect-fixed-move|[[~{0}]] avuştırıldı, şimdi [[~{1}]] saifesine yollap tura.
+brokenredirects|Bar olmağan saifege yapılğan yollamalar
+brokenredirectstext|Aşağıdaki yollamalar bar olmağan saifelerge bağlantı bereler:
+brokenredirects-edit|deñiştir
+brokenredirects-delete|yoq et
+withoutinterwiki|Diger tillerdeki versiyalarğa bağlantıları olmağan saifeler
+withoutinterwiki-summary|Bu saifelerde diger tillerdeki versiyalarğa bağlantılar yoq:
+withoutinterwiki-submit|Köster
+fewestrevisions|Eñ az deñiştirme yapılğan saifeler
+nbytes|{{PLURAL:~{0}\u007C1 bayt\u007C~{0} bayt}}
+ncategories|{{PLURAL:~{0}\u007C1 kategoriya\u007C~{0} kategoriya}}
+nlinks|{{PLURAL:~{0}\u007C1 bağlantı\u007C~{0} bağlantı}}
+nmembers|{{PLURAL:~{0}\u007C1 aza\u007C~{0} aza}}
+nrevisions|{{PLURAL:~{0}\u007C1 versiya\u007C~{0} versiya}}
+nviews|{{PLURAL:~{0}\u007C1 körünüv\u007C~{0} körünüv}}
+specialpage-empty|Bu soratma içün iç netice yoq.
+lonelypages|Özüne iç bağlantı olmağan saifeler
+lonelypagestext|Aşağıdaki saifelerge {{SITENAME}} saytındaki diger saifelerden bağlantı berilmegen, ondan da ğayrı mezkür saifeler diger saiferlrge kirsetilmegen.
+uncategorizedpages|Er angi bir kategoriyada olmağan saifeler
+uncategorizedcategories|Er angi bir kategoriyada olmağan kategoriyalar
+uncategorizedimages|Er angi bir kategoriyada olmağan resimler
+uncategorizedtemplates|Er angi bir kategoriyada olmağan şablonlar
+unusedcategories|Qullanılmağan kategoriyalar
+unusedimages|Qullanılmağan resimler
+popularpages|Populâr saifeler
+wantedcategories|İstenilgen kategoriyalar
+wantedpages|İstenilgen saifeler
+wantedfiles|İstenilgen fayllar
+wantedtemplates|İstenilgen şablоnlar
+mostlinked|Özüne eñ ziyade bağlantı berilgen saifeler
+mostlinkedcategories|Eñ çoq saifege saip kategoriyalar
+mostlinkedtemplates|Özüne eñ ziyade bağlantı berilgen şablonlar
+mostcategories|Eñ ziyade kategoriyağa bağlanğan saifeler
+mostimages|Eñ çoq qullanılğan resimler
+mostrevisions|Eñ çoq deñiştirilgen saifeler
+prefixindex|Prefiksnen bütün saifeler
+shortpages|Qısqa saifeler
+longpages|Uzun saifeler
+deadendpages|Başqa saifelerge bağlantısı olmağan saifeler
+deadendpagestext|Bu {{SITENAME}} başqa saifelerine bağlantısı olmağan saifelerdir.
+protectedpages|Qorçalanğan saifeler
+protectedpagestext|Bu saifelerniñ deñiştirüvge qarşı qorçalavı bar
+protectedtitles|Yasaqlanğan serlevalar
+listusers|Qullanıcılar cedveli
+listusers-editsonly|Tek eñ azından bir deñiştirme yapqan qullanıcılarnı köster
+newpages|Yañı saifeler
+newpages-username|Qullanıcı adı:
+ancientpages|Eñ eski saifeler
+move|Adını deñiştir
+movethispage|Saifeniñ adını deñiştir
+pager-newer-n|{{PLURAL:~{0}\u007Cdaa yañı 1\u007Cdaa yañı ~{0}}}
+pager-older-n|{{PLURAL:~{0}\u007Cdaa eski 1\u007Cdaa eski ~{0}}}
+booksources|Kitaplar menbası
+booksources-search-legend|Kitaplar menbasını qıdıruv
+booksources-go|Qıdır
+specialloguserlabel|Qullanıcı:
+speciallogtitlelabel|Serleva:
+log|Jurnallar
+all-logs-page|Bütün umumiy jurnallar
+logempty|Jurnalda bir kelgen malümat yoq.
+log-title-wildcard|Bu işaretlerden başlanğan serlevalarnı qıdır
+alphaindexline|~{0} saifesinden ~{1} saifesinece
+allpagesfrom|Cedvelge çekmege başlanılacaq arifler:
+allpagesto|Şunıñnen bitken saifelerni köster:
+allarticles|Bütün saifeler
+allinnamespace|Bütün saifeler (~{0} saifeleri)
+allnotinnamespace|Bütün saifeler (~{0} isim fezasında olmağanlar)
+allpagesprev|Evelki
+allpagesnext|Soñraki
+allpagessubmit|Köster
+allpagesprefix|Yazğan ariflernen başlağan saifelerni köster:
+allpagesbadtitle|Saifeniñ adı ruhsetsizdir. Serlevada tiller arası prefiksi ya da vikiler arası bağlantı ya da başqa qullanıluvı yasaq olğan işaretler bar.
+allpages-bad-ns|{{SITENAME}} saytında "~{0}" isim fezası yoqtır.
+categoriespagetext|Aşağıdaki {{PLURAL:~{0}\u007Ckategoriyada\u007Ckategoriyalarda}} saife ya da media fayllar bar.\n[[Special:UnusedCategories\u007CQullanılmağan kategoriyalar]] mında kösterilmegen.\nAyrıca [[Special:WantedCategories\u007Ctalap etilgen kategoriyalarnıñ cedveline]] de baqıñız.
+special-categories-sort-count|sayılarına köre sırala
+special-categories-sort-abc|elifbe sırasınen sırala
+linksearch|Tış bağlantılar
+linksearch-pat|Qıdıruv içün şablon:
+linksearch-ns|İsim fezası:
+linksearch-ok|Qıdır
+listusers-submit|Köster
+listusers-noresult|İç bir qullanıcı tapılmadı.
+listgrouprights-members|(azalar cedveli)
+mailnologin|Mektüp yollanacaq adresi yoqtır
+mailnologintext|Diger qullanıcılarğa elektron mektüpler yollap olmaq içün [[Special:UserLogin\u007Coturım açmalısıñız]] ve [[Special:Preferences\u007Csazlamalarıñızda]] mevcut olğan e-mail adresiniñ saibi olmalısıñız.
+emailuser|Qullanıcığa mektüp
+emailpage|Qullanıcığa elektron mektüp yolla
+emailpagetext|Aşağıdaki formanı toldurıp bu qullanıcığa mektüp yollap olursıñız.\n[[Special:Preferences\u007CÖz sazlamalarıñızda]] yazğan elektron adresiñiz mektüpniñ "Kimden" satırında yazılacaq, bunıñ içün mektüp alıcı doğrudan-doğru siziñ adresiñizge cevap yollap olur.
+usermailererror|E-mail beyanatı yollanğan vaqıtta hata olıp çıqtı
+defemailsubject|{{SITENAME}} e-mail
+noemailtitle|E-mail adresi yoqtır
+noemailtext|Bu qullanıcı uyğun elektron poçta adresini bildirmegen.
+emailfrom|Kimden:
+emailto|Kimge:
+emailsubject|Mektüp mevzusı:
+emailmessage|Mektüp:
+emailsend|Yolla
+emailccme|Mektübimniñ bir kopiyasını maña da yolla.
+emailccsubject|~{0} qullanıcısına yollanğan mektübiñizniñ kopiyası: ~{1}
+emailsent|Mektüp yollandı
+emailsenttext|Siziñ e-mail beyanatıñız yollandı
+emailuserfooter|Bu mektüp ~{0} tarafından ~{1} qullanıcısına, {{SITENAME}} saytındaki "Qullanıcığa e-mail yolla" funktsiyasınen yollanğan.
+watchlist|Közetüv cedveli
+mywatchlist|Közetüv cedvelim
+nowatchlist|Siziñ közetüv cedveliñiz boştır.
+watchlistanontext|Közetüv cedvelini baqmaq ya da deñiştirmek içün ~{0} borclusıñız.
+watchnologin|Oturım açmaq kerek
+watchnologintext|Öz közetüv cedveliñizni deñiştirmek içün [[Special:UserLogin\u007Coturım açıñız]]
+addedwatchtext|"[[:~{0}]]" saifesi [[Special:Watchlist\u007Cközetüv cevdeliñizge]] kirsetildi.\nBundan soñ, bu saifede ve onıñ muzakere saifesinde yapılacaq deñiştirmeler anda kösterilecek.
+removedwatchtext|"[[:~{0}]]" saifesi [[Special:Watchlist\u007Cközetüv cedveliñizden]] yoq etildi.
+watch|Közet
+watchthispage|Bu saifeni közet
+unwatch|Közetme
+unwatchthispage|Bu saifeni közetme
+notanarticle|Malümat saifesi degil
+watchlist-details|Muzakere saifelerini esapqa almayıp, közetüv cedveliñizde {{PLURAL:~{0}\u007C1\u007C~{0}}} saife bar.
+wlheader-enotif|E-mail ile haber berüv açıldı.
+wlheader-showupdated|Soñki ziyaretiñizden soñ deñiştirilgen saifeler '''qalın ariflernen''' kösterildi.
+watchmethod-recent|soñki deñiştirmeler arasında közetken saifeleriñiz qıdırıla
+watchmethod-list|közetüv cedvelindeki saifeler teşkerile
+watchlistcontains|Siziñ közetüv cedveliñizde {{PLURAL:~{0}\u007C1\u007C~{0}}} saife bar.
+iteminvalidname|"~{0}" saifesi munasebetinen problema olıp çıqtı, elverişli olmağan isimdir…
+wlnote|Aşağıda saat ~{2}, ~{3} içün soñki {{PLURAL:~{1}\u007Csaat\u007C'''~{1}''' saat}} içinde yapılğan soñki {{PLURAL:~{0}\u007Cdeñiştirme\u007C'''~{0}''' deñiştirme}} kösterile.
+wlshowlast|Soñki ~{0} saat içün, ~{1} kün içün ya da ~{2} köster
+watchlist-options|Közetüv cedveli sazlamaları
+watching|Közetüv cedveline kirsetilmekte...
+unwatching|Közetüv cedvelinden yoq etilmekte...
+enotif_mailer|{{SITENAME}} poçta vastasınen haber bergen hızmet
+enotif_reset|Cümle saifelerni baqılğan olaraq işaretle
+enotif_impersonal_salutation|{{SITENAME}} qullanıcısı
+enotif_lastvisited|Soñki ziyaretiñizden berli yapılğan deñiştirmelerni körmek içün ~{0} baqıñız.
+enotif_anon_editor|adsız (anonim) qullanıcı ~{0}
+enotif_body|Sayğılı $WATCHINGUSERNAME,\n\n$PAGEINTRO $NEWPAGE\n\nDeñiştirmeniñ qısqa tarifi: $PAGESUMMARY $PAGEMINOREDIT\n\nSaifeni deñiştirgen qullanıcınen bağlanmaq içün:\ne-mail adresi: $PAGEEDITOR_EMAIL\nviki saifesi: $PAGEEDITOR_WIKI\n\nBu saifeni ziyaret etmeseñiz, birev onı bir daa deñiştirse de, iç bir tenbi beyanatı yollanmaycaq. Közetüv cedveliñizdeki bütün saifeler içün tenbi sazlamalarını deñiştire bilesiñiz.\n\n{{SITENAME}} bildirüv sisteması\n\n--\n\nBildirüv sazlamalarını deñiştirmek içün:\n{{canonicalurl:{{#special:Preferences}}}}\n\nKözetüv cedveli sazlamalarını deñiştirmek içün:\n{{canonicalurl:{{#special:EditWatchlist}}}}\n\nSaifeni közetüv cedvelinden çıqarmaq içün:\n$UNWATCHURL\n\nYardım ve teklifler içün:\n{{canonicalurl:{{MediaWiki:Helppage}}}}
+created|yaratıldı
+changed|deñiştirildi
+deletepage|Saifeni yoq et
+confirm|Tasdıqla
+excontent|eski metin: '~{0}'
+excontentauthor|eski metin: '~{0}' ('~{1}' isse qoşqan tek bir qullanıcı)
+exbeforeblank|Yoq etilmegen evelki metin: '~{0}'
+exblank|saife metini boş
+delete-confirm|"~{0}" saifesini yoq etmektesiñiz
+delete-legend|Yoq etüv
+historywarning|'''Tenbi:''' Siz yoq etmege istegen saifeñizniñ qararnen ~{0} {{PLURAL:~{0}\u007Cversiyalı\u007Cversiyalı}} keçmişi bardır:
+confirmdeletetext|Bir saifeni ya da resimni bütün keçmişi ile birlikte malümat bazasından qalıcı olaraq yoq etmek üzresiñiz.\nLütfen, neticelerini añlağanıñıznı ve [[{{MediaWiki:Policy-url}}\u007Cyoq etüv politikasına]] uyğunlığını diqqatqa alıp, bunı yapmağa istegeniñizni tasdıqlañız.
+actioncomplete|Areket tamamlandı
+actionfailed|Areket yapılamadı
+deletedtext|"~{0}" yoq etildi.\nyaqın zamanda yoq etilgenlerni körmek içün: ~{1}.
+dellogpage|Yoq etüv jurnalı
+dellogpagetext|Aşağıdaki cedvel soñki yoq etüv jurnalıdır.
+deletionlog|yoq etüv jurnalı
+reverted|Evelki versiya keri ketirildi
+deletecomment|Sebep:
+deleteotherreason|Diger/ilâveli sebep:
+deletereasonotherlist|Diger sebep
+rollback|Deñiştirmelerni keri al
+rollback_short|keri al
+rollbacklink|eski alına ketir
+rollbackfailed|keri aluv muvafaqiyetsiz
+cantrollback|Deñiştirmeler keri alınamay, saifeni soñki deñiştirgen kişi onıñ tek bir müellifidir
+editcomment|Deñiştirme izaatı: "''$1''" edi.
+revertpage|[[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Cmuzakere]]) tarafından yapılğan deñiştirmeler keri alınıp, [[User:~{0}\u007C~{0}]] tarafından deñiştirilgen evelki versiya keri ketirildi.
+protectlogpage|Qorçalav jurnalı
+protectlogtext|Aşağıdaki, saifeni qorçalavğa aluv/qorçalavdan çıqaruv ile bağlı deñişmeler jurnalıdır.\nQorçalanğan saifeler [[Special:ProtectedPages\u007Ctam cedvelini]] de köre bilesiñiz.
+protectedarticle|"[[~{0}]]" qorçalav altına alındı
+modifiedarticleprotection|"[[~{0}]]" içün qorçalav seviyesi deñiştirildi
+unprotectedarticle|"[[~{0}]]" saifesinden qorçalav çıqarlıdı
+prot_1movedto2|"[[~{0}]]" saifesiniñ adı "[[~{1}]]" olaraq deñiştirildi
+protect-legend|Qorçalavnı tasdıqla
+protectcomment|Sebep:
+protectexpiry|Bitiş tarihı:
+protect_expiry_invalid|Bitiş tarihı yañlış.
+protect_expiry_old|Bitiş zamanı keçmiştedir.
+protect-text|'''[[~{0}]]''' saifesiniñ qorçalav seviyesini mından körip olur ve deñiştirip olasıñız.
+protect-locked-access|Qullanıcı esabıñız saifeniñ qorçalav seviyelerini deñiştirme yetkisine saip degil. '''~{0}''' saifesiniñ şimdiki sazlamaları şularıdır:
+protect-cascadeon|Bu saife şimdi qorçalav altındadır, çünki aşağıda cedvellengen ve kaskadlı qorçalav altındaki {{PLURAL:~{0}\u007C1\u007C~{0}}} saifede qullanıla.\nBu saifeniñ qorçalav seviyesini deñiştirip olasıñız, amma kaskadlı qorçalav tesir etilmeycek.
+protect-default|Bütün qullanıcılarğa ruhset ber
+protect-fallback|Tek "~{0}" ruhseti olğan qullanıcılar içün
+protect-level-autoconfirmed|Tek avtomatik tasdıqlanğan qullanıcılarğa ruhset berile
+protect-level-sysop|Tek idarecilerge ruhset berile
+protect-summary-cascade|kaskadlı
+protect-expiring|bite: ~{0} (UTC)
+protect-cascade|Bu saifede qullanılğan bütün saifelerni qorçalavğa al (kaskadlı qorçalav)
+protect-cantedit|Bu saifeniñ qorçalav seviyesini deñiştirip olamazsıñız, çünki bunı yapmağa yetkiñiz yoq.
+protect-expiry-options|1 saat:1 hour,1 kün:1 day,1 afta:1 week,2 afta:2 weeks,1 ay:1 month,3 ay:3 months,6 ay:6 months,1 yıl:1 year,müddetsiz:infinite
+restriction-type|Ruhseti:
+restriction-level|Ruhset seviyesi:
+minimum-size|Asğariy (minimal) büyüklik
+maximum-size|Azamiy (maksimal) büyüklik:
+pagesize|(bayt)
+restriction-edit|Deñiştir
+restriction-move|Adını deñiştir
+restriction-level-sysop|qorçalav altında
+restriction-level-autoconfirmed|qısmen qorçalav altında
+undelete|Yoq etilgen saifelerni köster
+undeletepage|Saifeniñ yoq etilgen versiyalarına köz at ve keri ketir.
+viewdeletedpage|Yoq etilgen saifelerge baq
+undeletebtn|Keri ketir!
+undeletelink|köster/keri ketir
+undeletereset|Vazgeç
+undeletecomment|Sebep:
+undeletedrevisions|Toplam {{PLURAL:~{0}\u007C1 qayd\u007C~{0} qayd}} keri ketirildi.
+undelete-header|Keçenlerde yоq etilgen saifelerni körmek içün [[Special:Log/delete\u007Cyоq etüv jurnalına]] baqıñız.
+namespace|İsim fezası:
+invert|Saylanğan tışındakilerni sayla
+contributions|{{GENDER:~{0}\u007CQullanıcınıñ}} isseleri
+contributions-title|~{0} qullanıcısınıñ isseleri
+mycontris|İsseler
+contribsub2|~{0} (~{1})
+nocontribs|Bu kriteriylerge uyğan deñiştirme tapılamadı
+uctop|(soñki)
+month|Bu ay (ve ondan erte):
+year|Bu sene (ve ondan erte):
+sp-contributions-newbies|Tek yañı qullanıcılarnıñ isselerini köster
+sp-contributions-newbies-sub|Yañı qullanıcılar içün
+sp-contributions-blocklog|Blok etüv jurnalı
+sp-contributions-talk|muzakere
+sp-contributions-userrights|qullanıcı aqlarını idare etüv
+sp-contributions-search|İsselerni qıdıruv
+sp-contributions-username|IP adresi ya da qullanıcı adı:
+sp-contributions-submit|Qıdır
+whatlinkshere|Bu saifege bağlantılar
+whatlinkshere-title|~{0} saifesine bağlantı bergen saifeler
+whatlinkshere-page|Saife:
+linkshere|'''[[:~{0}]]''' saifesine bağlantı bergen saifeler:
+nolinkshere|'''[[:~{0}]]''' saifesine bağlantı bergen saife yoq.
+nolinkshere-ns|Saylanğan isim fezasında '''[[:~{0}]]''' saifesine bağlanğan saife yoqtır.
+isredirect|Yollama saifesi
+istemplate|kirsetilme
+isimage|fayl bağlantısı
+whatlinkshere-prev|{{PLURAL:~{0}\u007Cevelki\u007Cevelki ~{0}}}
+whatlinkshere-next|{{PLURAL:~{0}\u007Csoñraki\u007Csoñraki ~{0}}}
+whatlinkshere-links|← bağlantılar
+whatlinkshere-hideredirs|yollamalarnı ~{0}
+whatlinkshere-hidetrans|çapraz qoşmalarnı ~{0}
+whatlinkshere-hidelinks|bağlantılarnı ~{0}
+whatlinkshere-filters|Süzgüçler
+blockip|Bu IP adresinden irişimni blok et
+blockip-legend|Qullanıcını blok et
+blockiptext|Aşağıdaki formanı qullanıp belli bir IP adresiniñ ya da qullanıcınıñ irişimini blok etip olasıñız. Bu tek vandalizmni blok etmek içün ve [[{{MediaWiki:Policy-url}}\u007Cqaidelerge]] uyğun olaraq yapılmalı. Aşağığa mıtlaqa blok etüv ile bağlı bir izaat yazıñız. (meselâ: Şu saifelerde vandalizm yaptı).
+ipadressorusername|IP adresi ya da qullanıcı adı
+ipbexpiry|Bitiş müddeti
+ipbreason|Sebep
+ipbsubmit|Bu qullanıcını blok et
+ipbother|Farqlı zaman
+ipboptions|2 saat:2 hours,1 kün:1 day,3 kün:3 days,1 afta:1 week,2 afta:2 weeks,1 ay:1 month,3 ay:3 months,6 ay:6 months,1 yıl:1 year,müddetsiz:infinite
+ipbotheroption|farqlı
+ipbotherreason|Diger/ilâveli sebep:
+badipaddress|Yañlış IP adresi
+blockipsuccesssub|Blok etme muvafaqiyetnen yapıldı
+blockipsuccesstext|[[Special:Contributions/~{0}\u007C~{0}]] blok etildi.<br />\nBlok etmelerni közden keçirmek içün [[Special:BlockList\u007CIP adresi blok etilgenler]] cedveline baqıñız.
+unblockip|Qullanıcınıñ blok etmesini çıqar
+ipusubmit|Bu blok etmeni çıqar
+ipblocklist|Blok etilgen qullanıcılar ve IP adresleri
+infiniteblock|müddetsiz
+expiringblock|~{0} ~{1} tarihında bitecek
+blocklink|blok et
+unblocklink|blok etmesini çıqar
+change-blocklink|blok etüvni deñiştir
+contribslink|İsseler
+autoblocker|Avtomatik olaraq blok etildiñiz çünki keçenlerde IP adresiñiz "[[User:~{0}\u007C~{0}]]" qullanıcısı tarafından qullanıldı. ~{0} adlı qullanıcınıñ blok etilüvi içün bildirilgen sebep: "'''~{1}'''"
+blocklogpage|Blok etüv jurnalı
+blocklogentry|"[[~{0}]]" irişimi ~{1} ~{2} toqtatıldı. Sebep
+blocklogtext|Mında qullanıcı irişimine yönelik blok etüv ve blok çıqaruv qaydları kösterile. Avtomatik IP adresi blok etüvleri cedvelge kirsetilmedi. Şimdi irişimi toqtatılğan qullanıcılarnı [[Special:BlockList\u007CIP blok etüv cedveli]] saifesinden körip olasıñız.
+unblocklogentry|~{0} qullanıcısınıñ blok etmesi çıqarıldı
+block-log-flags-nocreate|yañı esap açmaq yasaq etildi
+block-log-flags-noemail|e-mail blok etildi
+ipb_expiry_invalid|Yañlış bitiş zamanı.
+ipb_already_blocked|"~{0}" endi blok etildi
+ip_range_invalid|Ruhsetsiz IP aralığı.
+lockdb|Malümat bazası kilitli
+lockbtn|Malümat bazası kilitli
+move-page|~{0} saifesiniñ adını deñiştireyatasız
+move-page-legend|Saifeniñ adını deñiştirüv
+movepagetext|Aşağıdaki forma qullanılıp saifeniñ adı deñiştirilir. Bunıñnen beraber deñiştirmeler jurnalı da yañı adğa avuştırılır.\nEski adı yañı adına yollama olur. Eski serlevağa yollama saifelerni avtomatik olaraq yañartıp olasıñız. Bu areketni avtomatik yapmağa istemeseñiz, bütün [[Special:DoubleRedirects\u007Cçift]] ve [[Special:BrokenRedirects\u007Cyırtıq]] yollama saifelerini özüñiz tüzetmege mecbur olursıñız. Bağlantılar endiden berli doğru çalışmasından emin olmalısıñız.\n\nYañı adda bir saife endi bar olsa, ad deñiştirilüvi '''yapılmaycaq''', ancaq bar olğan saife yollama ya da boş olsa ad deñiştirilüvi mümkün olacaq. Bu demek ki, saifeniñ adını yañlıştan deñiştirgen olsañız deminki adını keri qaytarıp olasıñız, amma bar olğan saifeni tesadüfen yoq etamaysıñız.\n\n'''TENBİ!'''\nAd deñiştirilüvi populâr saifeler içün büyük ve beklenmegen deñişmelerge sebep ola bilir. Lütfen, deñiştirme yapmazdan evel ola bileceklerni köz ögüne alıñız.
+movepagetalktext|Qoşulğan muzakere saifesiniñ de (bar olsa) adı avtomatik tarzda deñiştirilecek. '''Müstesnalar:'''\n\n*Aynı bu isimde boş olmağan bir muzakere saifesi endi bar;\n*Aşağıdaki boşluqqa işaret qoymadıñız.\n\nBöyle allarda, kerek olsa, saifelerni qolnen taşımağa ya da birleştirmege mecbur olursıñız.
+movearticle|Eski ad
+movenologin|Oturım açmadıñız
+movenologintext|Saifeniñ adını deñiştirip olmaq içün [[Special:UserLogin\u007Coturım açıñız]].
+movenotallowed|Saifeler adlarını deñiştirmege iziniñiz yoq.
+newtitle|Yañı ad
+move-watch|Bu saifeni közet
+movepagebtn|Adını deñiştir
+pagemovedsub|Saifeniñ adı deñiştirildi
+movepage-moved|'''"~{0}" saifesiniñ adı "~{1}" olaraq deñiştirildi'''
+movepage-moved-redirect|Bir yollama yaratıldı.
+movepage-moved-noredirect|Yollama yaratıluvı bastırıldı.
+articleexists|Bu adda bir saife endi bar ya da siz yazğan ad yasaqlı.\nLütfen, başqa bir ad saylap yazıñız.
+cantmove-titleprotected|Siz yazğan yañı ad yasaqlıdır, bunıñ içün saife adını deñiştirmekniñ çaresi yoq.
+talkexists|'''Saifeniñ adı deñiştirildi, amma muzakere saifesiniñ adını deñiştirmege mümkünlik yoqtır, çünki aynı bu adda bir saife endi bar. Lütfen, bularnı qolnen birleştiriñiz.'''
+movedto|adı deñiştirildi:
+movetalk|Muzakere saifesiniñ adını deñiştir.
+move-subpages|Alt saifelerniñ adlarını da deñiştir (~{0} saifege qadar)
+move-talk-subpages|Muzakere saifesi alt saifeleriniñ adlarını da deñiştir (~{0} saifege qadar)
+movepage-page-exists|~{0} saifesi endi bar, ve avtomatik olaraq yañıdan yazılıp olamaz.
+movepage-page-moved|~{0} saifesiniñ adı ~{1} olaraq deñiştirildi.
+movepage-page-unmoved|~{0} saifesiniñ adı ~{1} olaraq deñiştirilip olamay.
+movelogpage|Ad deñiştirilmeleri jurnalı
+movelogpagetext|Aşağıda bulunğan cedvel adı deñiştirilgen saifelerni köstere
+movesubpage|{{PLURAL:~{0}\u007CAlt saife\u007CAlt saifeler}}
+movesubpagetext|Bu saifeniñ aşağıda kösterilgen ~{0} {{PLURAL:~{0}\u007Calt saifesi\u007Calt saifesi}} bar.
+movenosubpage|Bu saifeniñ alt saifesi yoq.
+movereason|Sebep
+revertmove|Kerige al
+delete_and_move|Yoq et ve adını deñiştir
+delete_and_move_text|== Yoq etmek lâzimdir ==\n\n"[[:~{0}]]" saifesi endi bar. Adını deñiştirip olmaq içün onı yoq etmege isteysiñizmi?
+delete_and_move_confirm|Ebet, bu saifeni yoq et
+delete_and_move_reason|İsim deñiştirip olmaq içün yoq etildi
+selfmove|Bu saifeniñ adını deñiştirmege imkân yoqtır, çünki asıl ile yañı adları bir kele.
+move-leave-redirect|Arqada bir yollama taşla
+protectedpagemovewarning|'''Tenbi:''' Bu saife kilitlengen, adını tek idareciler deñiştirip ola.\nJurnalnıñ soñki yazısı aşağıda berilgen:
+semiprotectedpagemovewarning|'''İhtar:''' Bu saife kilitlengen, adını tek qaydlı qullanıcılar deñiştirip ola.\nJurnalnıñ soñki yazısı aşağıda berilgen:
+export|Saifelerni eksport et
+allmessages|Sistema beyanatları
+allmessagesname|İsim
+allmessagesdefault|Original metin
+allmessagescurrent|Şimdi qullanılğan metin
+allmessagestext|İşbu cedvel MediaWikide mevcut olğan bütün sistema beyanatlarınıñ cedvelidir.\nMediaWiki interfeysiniñ çeşit tillerge tercime etüvde iştirak etmege isteseñiz [//www.mediawiki.org/wiki/Localisation MediaWiki Localisation] ve [//translatewiki.net translatewiki.net] saifelerine ziyaret etiñiz.
+filemissing|Fayl tapılmadı
+thumbnail_error|Kiçik resim (thumbnail) yaratılğanda bir hata çıqtı: ~{0}
+thumbnail_invalid_params|Yañlış kiçik resim parametrleri
+thumbnail_dest_directory|İstenilgen direktoriyanı yaratmaqnıñ iç çaresi yoq
+import-comment|İzaat:
+importlogpage|İmport jurnalı
+tooltip-pt-userpage|Siziñ qullanıcı saifeñiz
+tooltip-pt-anonuserpage|IP adresim içün qullanıcı saifesi
+tooltip-pt-mytalk|Siziñ muzakere saifeñiz
+tooltip-pt-anontalk|Bu IP adresinden yapılğan deñişikliklerni muzakere etüv
+tooltip-pt-preferences|Sazlamalarıñız (nastroykalarıñız)
+tooltip-pt-watchlist|Közetüvge alğan saifeleriñiz
+tooltip-pt-mycontris|Qoşqan isseleriñizniñ cedveli
+tooltip-pt-login|Oturım açmañız tevsiye olunır amma mecbur degilsiñiz.
+tooltip-pt-anonlogin|Oturım açmañız tevsiye olunır amma mecbur degilsiñiz.
+tooltip-pt-logout|Sistemadan çıquv
+tooltip-ca-talk|Saifedeki malümatnen bağlı muzakere
+tooltip-ca-edit|Bu saifeni deñiştirip olasıñız. Saqlamazdan evel baqıp çıqmağa unutmañız.
+tooltip-ca-addsection|Yañı bölükni açuv
+tooltip-ca-viewsource|Bu saife qorçalav altında. Menba kodunı tek körip olasıñız, deñiştirip olamaysıñız.
+tooltip-ca-history|Bu saifeniñ keçmiş versiyaları.
+tooltip-ca-protect|Bu saifeni qorçalav
+tooltip-ca-unprotect|Bu saifeniñ qorçalavını çıqaruv
+tooltip-ca-delete|Bu saifeni yoq etüv
+tooltip-ca-undelete|Saifeni yoq etilmezden evelki alına keri ketiriñiz
+tooltip-ca-move|Saifeniñ adını deñiştirüv
+tooltip-ca-watch|Bu saifeni közetüv cedveline aluv
+tooltip-ca-unwatch|Bu saifeni közetüvni taşlav
+tooltip-search|{{SITENAME}} saytında qıdıruv
+tooltip-search-go|Bu adda saife mevcut olsa, oña bar
+tooltip-search-fulltext|Bu metini olğan saifeler qıdır
+tooltip-p-logo|Baş saife
+tooltip-n-mainpage|Baş saifege baruv
+tooltip-n-mainpage-description|Baş saifege bar
+tooltip-n-portal|Leyha üzerine, ne qaydadır, neni yapıp olasıñız
+tooltip-n-currentevents|Ağımdaki vaqialarnen bağlı soñki malümat
+tooltip-n-recentchanges|Vikide yapılğan soñki deñiştirmelerniñ cedveli.
+tooltip-n-randompage|Tesadüfiy bir saifeni kösterüv
+tooltip-n-help|Yardım bölügi
+tooltip-t-whatlinkshere|Bu saifege bağlantı bergen diger viki saifeleriniñ cedveli
+tooltip-t-recentchangeslinked|Bu saifege bağlantı bergen saifelerdeki soñki deñiştirmeler
+tooltip-feed-rss|Bu saife içün RSS translâtsiyası
+tooltip-feed-atom|Bu saife içün atom translâtsiyası
+tooltip-t-contributions|Qullanıcınıñ isse cedveline baquv
+tooltip-t-emailuser|Qullanıcığa e-mail mektübini yolla
+tooltip-t-upload|Sistemağa resim ya da media fayllarnı yükleñiz
+tooltip-t-specialpages|Bütün mahsus saifelerniñ cedvelini köster
+tooltip-t-print|Bu saifeniñ basılmağa uyğun körünişi
+tooltip-t-permalink|Bu saifeniñ versiyasına daimiy bağlantı
+tooltip-ca-nstab-main|Saifeni köster
+tooltip-ca-nstab-user|Qullanıcı saifesini köster
+tooltip-ca-nstab-media|Media saifesini köster
+tooltip-ca-nstab-special|Bu, mahsus saife olğanı içün deñiştirme yapamazsıñız.
+tooltip-ca-nstab-project|Leyha saifesini köster
+tooltip-ca-nstab-image|Resim saifesini köster
+tooltip-ca-nstab-mediawiki|Sistema beyanatını köster
+tooltip-ca-nstab-template|Şablonnı köster
+tooltip-ca-nstab-help|Yardım saifesini köster
+tooltip-ca-nstab-category|Kategoriya saifesini köster
+tooltip-minoredit|Bu, kiçik bir deñiştirmedir dep belgile
+tooltip-save|Yapqan deñiştirmeleriñizni saqlay
+tooltip-preview|Baqıp çıquv. Saqlamazdan evel bu funktsiyanı qullanıp yapqan deñiştirmeleriñizni baqıp çıqıñız!
+tooltip-diff|Metinge siz yapqan deñişikliklerni kösterir.
+tooltip-compareselectedversions|Saylanğan eki versiya arasındaki farqlarnı köster.
+tooltip-watch|Saifeni közetüv cedveline kirset
+tooltip-recreate|Yoq etilgen olmasına baqmadan saifeni yañıdan yañart
+tooltip-upload|Yüklenip başla
+tooltip-rollback|"Keri qaytuv" sıçannen bir basuv vastasınen bu saifeni soñki deñiştirgenniñ deñişikliklerini keri ala
+tooltip-undo|"Keri al" bu deñişiklikni keri ala ve deñişiklik penceresini baqıp çıquv rejiminde aça. Keri aluvnıñ sebebini bildirmege izin bere.
+monobook.css|/* monobook temasınıñ ayarlarını (nastroykalarını) deñiştirmek içün bu yerini deñiştiriñiz. Bütün saytta tesirli olur. */
+notacceptable|Viki-server brauzeriñiz oqup olacaq formatında malümat beralmay.
+anonymous|{{SITENAME}} saytınıñ {{PLURAL:~{0}\u007C1\u007C~{0}}} qaydsız (anonim) qullanıcıları
+siteuser|{{SITENAME}} saytınıñ qullanıcısı ~{0}
+anonuser|{{SITENAME}} saytınıñ qaydsız (anonim) qullanıcısı ~{0}
+lastmodifiedatby|Saife eñ soñki ~{2} tarafından ~{0}, ~{1} tarihında deñiştirildi.
+othercontribs|Bu saifeni yaratqanda iştirak etken: ~{0}.
+others|digerleri
+siteusers|{{SITENAME}} saytınıñ {{PLURAL:~{1}\u007C1\u007C~{1}}} qullanıcısı ~{0}
+anonusers|{{SITENAME}} saytınıñ qaydsız (anonim) {{PLURAL:~{1}\u007Cqullanıcısı\u007Cqullanıcıları}} ~{0}
+creditspage|Teşekkürler
+nocredits|Bu saife içün qullanıcılar cedveli yoq.
+spamprotectiontitle|Spam qarşı qorçalav süzgüçi
+spamprotectiontext|Saqlamağa istegen saifeñiz spam süzgüçi tarafından blok etildi. Büyük ihtimallı ki, saifede qara cedveldeki bir tış saytqa bağlantı bar.
+spamprotectionmatch|Spam süzgüçinden bu beyanat keldi: ~{0}
+spambot_username|Spamdan temizlev
+spam_reverting|~{0} saytına bağlantısı olmağan soñki versiyağa keri ketirüv
+spam_blanking|Bar olğan versiyalarda ~{0} saytına bağlantılar bar, temizlev
+skinname-cologneblue|Köln asretligi
+skinname-monobook|MonoBook
+patrol-log-page|Teşkerüv jurnalı
+log-show-hide-patrol|Teşkerüv jurnalını ~{0}
+deletedrevision|~{0} sayılı eski versiya yoq etildi.
+filedeleteerror-short|Fayl yoq etkende hata çıqtı: ~{0}
+filedelete-missing|"~{0}" adlı fayl yoq etilip olamay, çünki öyle bir fayl yoq.
+filedelete-old-unregistered|Malümat bazasında saylanğan "~{0}" fayl versiyası yoq.
+filedelete-current-unregistered|Malümat bazasında saylanğan "~{0}" adlı fayl yoq.
+previousdiff|← Evelki deñişiklik
+nextdiff|Soñraki deñişiklik →
+mediawarning|'''İhtar''': Bu fayl türüniñ içinde yaman niyetli kod ola bile.\nFaylnı işletip işletim sistemañızğa zarar ketirip olursıñız.
+imagemaxsize|Resim ölçüsi sıñırı:<br />''(fayl malümat saifeleri içün)''
+thumbsize|Kiçik ölçü:
+widthheightpage|~{0} × ~{1}, {{PLURAL:~{2}\u007C1\u007C~{2}}} saife
+file-info|fayl büyükligi: ~{0}, MIME çeşiti: ~{1}
+file-info-size|~{0} × ~{1} piksel, fayl büyükligi: ~{2}, MIME çeşiti: ~{3}
+file-nohires|Daa yüksek ayırımlılıqqa saip versiya yoq.
+svg-long-desc|SVG faylı, nominal ~{0} × ~{1} piksel, fayl büyükligi: ~{2}
+show-big-image|Tam ayırımlılıq
+newimages|Yañı resimler
+imagelisttext|Aşağıdaki cedvelde ~{1} köre tizilgen {{PLURAL:~{0}\u007C'''1''' fayldır\u007C'''~{0}''' fayldır}}.
+newimages-summary|Bu mahsus saife soñki yüklengen fayllarnı köstere.
+newimages-legend|Süzgüç
+newimages-label|Fayl adı (ya da onıñ bir parçası):
+showhidebots|(botlarnı ~{0})
+noimages|Resim yoq.
+ilsubmit|Qıdır
+bydate|hronologik sıranen
+sp-newimages-showfrom|~{0}, ~{1} tarihından başlap yañı fayllar köster
+video-dims|~{0}, ~{1} × ~{2}
+seconds-abbrev|~{0}san.
+minutes-abbrev|~{0}daq.
+hours-abbrev|~{0}saat
+bad_image_list|Format böyle olmalı:\n\nEr satır * işaretinen başlamalı. Satırnıñ birinci bağlantısı qоşmağa yasaqlanğan faylğa bağlanmalı.\nŞu satırda ilerideki bağlantılar istisna olurlar, yani şu saifelerde işbu fayl qullanmaq mümkün.
+metadata|Resim detalleri
+metadata-help|Faylda (adetince raqamlı kamera ve skanerlernen qоşulğan) ilâve malümatı bar. Eger bu fayl yaratılğandan soñ deñiştirilse edi, belki de bazı parametrler eskirdi.
+metadata-expand|Tafsilâtnı köster
+metadata-collapse|Tafsilâtnı kösterme
+metadata-fields|Bu cedveldeki EXIF meta malümatı resim saifesinde kösterilecek, başqaları ise gizlenecek.\n* make\n* model\n* datetimeoriginal\n* exposuretime\n* fnumber\n* isospeedratings\n* focallength\n* artist\n* copyright\n* imagedescription\n* gpslatitude\n* gpslongitude\n* gpsaltitude
+exif-make|Kamera markası
+exif-model|Kamera modeli
+exif-artist|Yaratıcısı
+exif-colorspace|Renk aralığı
+exif-datetimeoriginal|Original saat ve tarih
+exif-exposuretime|Ekspozitsiya müddeti
+exif-exposuretime-format|~{0} saniye (~{1})
+exif-fnumber|Diafragma nomerası
+exif-spectralsensitivity|Spektral duyğulılıq
+exif-aperturevalue|Diafragma
+exif-brightnessvalue|parlaqlıq
+exif-lightsource|Yarıq menbası
+exif-exposureindex|Ekspozitsiya indeksi
+exif-scenetype|Stsena çeşiti
+exif-digitalzoomratio|Yaqınlaştıruv koeffitsiyenti
+exif-contrast|Kontrastlıq
+exif-saturation|Toyğunlıq
+exif-sharpness|Açıqlıq
+exif-gpslatitude|Enlik
+exif-gpslongitude|Boyluq
+exif-gpsaltitude|Yükseklik
+exif-gpstimestamp|GPS saatı (atom saatı)
+exif-gpssatellites|Ölçemek içün qullanğanı sputnikler
+exif-compression-1|Sıqıştırılmağan
+exif-orientation-3|180° aylandırılğan
+exif-exposureprogram-1|Elnen
+exif-subjectdistance-value|~{0} metr
+exif-meteringmode-0|Bilinmey
+exif-meteringmode-1|Orta
+exif-meteringmode-255|Diger
+exif-lightsource-0|Bilinmey
+exif-lightsource-2|Fluorestsent
+exif-lightsource-9|Açıq
+exif-lightsource-10|Qapalı
+exif-lightsource-11|Kölge
+exif-lightsource-15|Beyaz fluorestsent (WW 3200 – 3700K)
+exif-sensingmethod-1|Tanıtuvsız
+exif-scenecapturetype-0|Standart
+exif-scenecapturetype-2|Portret
+exif-scenecapturetype-3|Gece syomkası
+exif-subjectdistancerange-0|Bilinmey
+exif-subjectdistancerange-1|Makro
+edit-externally|Fayl üzerinde kompyuteriñizde bulunğan programmalar ile deñişiklikler yapıñız
+edit-externally-help|(Daa ziyade malümat içün [//www.mediawiki.org/wiki/Manual:External_editors bu saifege] (İnglizce)  baqıp olasıñız.)
+watchlistall2|episini
+namespacesall|Episi
+monthsall|Episi
+limitall|bütüni
+confirmemail|E-mail adresini tasdıqla
+confirmemail_noemail|[[Special:Preferences\u007CQullanıcı sazlamalarıñızda]] dоğru bir e-mail adresiñiz yoq.
+confirmemail_text|{{SITENAME}} saytınıñ e-mail funktsiyalarını qullanmazdan evel e-mail adresiñizniñ tasdıqlanması kerek. Adresiñizge tasdıq e-mail mektübini yollamaq içün aşağıdaki dögmeni basıñız. Yollanacaq beyanatta adresiñizni tasdıqlamaq içün brauzeriñiznen irişip olacaq, tasdıq kodu olğan bir bağlantı olacaq.
+confirmemail_pending|Tasdıq kodu endi sizge yollandı.\nEger esabıñıznı keçenleri açsa ediñiz, belki de yañnı kodnı bir daa sorağanıñızda, biraz beklemek kerek olur.
+confirmemail_send|Tasdıq kodunı yolla
+confirmemail_sent|Tasdıq e-mail mektübini yollandı.
+confirmemail_oncreate|Bildirgen e-mail adresiñizge tasdıq kodunen bir mektüp yollandı.\nŞu kod oturım açmaq içün lâzim degil, amma bu saytta elektron poçtasınıñ çarelerini qullanmaq içün ruhset berilmezden evel onı kirsetmelisiñiz.
+confirmemail_sendfailed|{{SITENAME}} tasdıq kodunı yollap olamay. Lütfen, adreste ruhsetsiz arif ya da işaret olmağanını teşkeriñiz.\n\nServerniñ cevabı: ~{0}
+confirmemail_invalid|Yañlış tasdıq kodu. Tasdıq kodunıñ soñki qullanma tarihı keçken ola bilir.
+confirmemail_needlogin|~{0} yapmaq içün başta e-mail adresiñizni tasdıqlamalısıñız.
+confirmemail_success|E-mail adresiñiz tasdıqlandı.
+confirmemail_loggedin|E-mail adresiñiz tasdıqlandı.
+confirmemail_error|Tasdıqıñız bilinmegen bir hata sebebinden qayd etilmedi.
+confirmemail_subject|{{SITENAME}} e-mail adres tasdıqı.
+confirmemail_body|~{0} IP adresinden yapılğan irişim ile {{SITENAME}} saytında\nbu e-mail adresinen bağlanğan ~{1} qullanıcı esabı\naçıldı.\n\nBu e-mail adresiniñ bahsı keçken qullanıcı esabına ait olğanını\ntasdıqlamaq ve {{SITENAME}} saytındaki e-mail funktsiyalarını faal alğa\nketirmek içün aşağıdaki bağlantını basıñız:\n\n~{2}\n\nBahsı keçken qullanıcı esabı sizge *ait olmağan* olsa bu bağlantını basıñız:\n\n~{4}\n\nBu tasdıq kodu ~{3} tarihına qadar qullanılıp olacaq.
+confirmemail_invalidated|E-mail adresiniñ tasdıqı lâğu etildi
+invalidateemail|E-mail adresiniñ tasdıqı lâğu et
+scarytranscludedisabled|["Interwiki transcluding" işlemey]
+scarytranscludefailed|[~{0} şablonına irişilip olamadı]
+scarytranscludetoolong|[URL adresi çoq uzun]
+deletedwhileediting|'''Tenbi''': Bu saife siz deñişiklik yapmağa başlağandan soñ yoq etildi!
+confirmrecreate|Siz bu saifeni deñiştirgen vaqıtta [[User:~{0}\u007C~{0}]] ([[User talk:~{0}\u007Cmuzakere]]) qullanıcısı onı yoq etkendir, sebebi:\n:''~{1}''\nSaifeni yañıdan yaratmağa isteseñiz, lütfen, bunı tasdıqlañız.
+recreate|Saifeni yañıdan yarat
+confirm_purge_button|Ok
+confirm-purge-top|Saife keşini temizlesinmi?
+imgmultipageprev|← evelki saife
+imgmultipagenext|soñraki saife →
+imgmultigo|Bar
+imgmultigoto|~{0} saifesine bar
+ascending_abbrev|kiçikten büyükke
+descending_abbrev|büyükten kiçikke
+table_pager_next|Soñraki saife
+table_pager_prev|Evelki saife
+table_pager_first|İlk saife
+table_pager_last|Soñki saife
+table_pager_limit|Saife başına ~{0} dane köster
+table_pager_limit_submit|Bar
+table_pager_empty|İç netice yoq
+autosumm-blank|Saife boşatıldı
+autosumm-replace|Saifedeki malümat '~{0}' ile deñiştirildi
+autoredircomment|[[~{0}]] saifesine yollandı
+autosumm-new|Yañı saife yaratıldı. Mündericesi: '~{0}'
+livepreview-loading|Yüklenmekte…
+livepreview-ready|Yüklenmekte… Azır!
+livepreview-failed|Tez baqıp çıquv işlemey! Adiy baqıp çıquvnı qullanıp baqıñız.
+livepreview-error|Bağlanamadı: ~{0} "~{1}". Adiy baqıp çıquvnı qullanıp baqıñız.
+lag-warn-normal|{{PLURAL:~{0}\u007C1\u007C~{0}}} saniyeden evel ve ondan soñ yapılğan deñişiklikler bu cedvelde kösterilmeyip olalar.
+lag-warn-high|Malümat bazasındaki problemalar sebebinden {{PLURAL:~{0}\u007C1\u007C~{0}}} saniyeden evel ve ondan soñ yapılğan deñişiklikler bu cedvelde kösterilmeyip olalar.
+watchlistedit-numitems|Muzakere saifesini esapqa almayıp, közetüv cedveliñizde {{PLURAL:~{0}\u007C1\u007C~{0}}} saife bar.
+watchlistedit-noitems|Közetüv cedveliñizde iç bir saife yoq.
+watchlistedit-normal-title|Közetüv ceveliñizni deñiştireyatasız
+watchlistedit-normal-legend|Közetüv cedvelinden saife yoq etilüvi
+watchlistedit-normal-explain|Közetüv cedveliñizdeki saifeler aşağıda kösterilgen.\nBir saife közetüv cedvelinden yoq etmek içün onı belgilep "{{int:Watchlistedit-normal-submit}}" dögmesine basıñız.\nKözetüv cedveliñizni [[Special:EditWatchlist/raw\u007Cmetin olaraq da]] deñiştirip olasıñız.
+watchlistedit-normal-submit|Saylanğan saifelerni közetüv cevelinden yoq et
+watchlistedit-normal-done|{{PLURAL:~{0}\u007C1 saife\u007C~{0} saife}} közetüv cedveliñizden yoq etildi:
+watchlistedit-raw-title|Közetüv ceveliñizni deñiştireyatasız
+watchlistedit-raw-legend|Közetüv cedvelini deñiştirilüvi
+watchlistedit-raw-explain|Közetüv cedveliñizdeki saifeler aşağıda kösterilgen. Er satırda bir saife serlevası olmaq üzere, serlevalarnı kirsetip ya da yoq etip cedvelni deñiştirip olasıñız.\nBitirgen soñ "{{int:Watchlistedit-raw-submit}}" yazısına basıñız.\n[[Special:EditWatchlist\u007CStandart redaktornı da qullanıp olasıñız]].
+watchlistedit-raw-titles|Saifeler:
+watchlistedit-raw-submit|Közetüv cedvelini yañart
+watchlistedit-raw-done|Közetüv cedveliñiz yañardı.
+watchlistedit-raw-added|{{PLURAL:~{0}\u007C1 saife\u007C~{0} saife}} ilâve olundı:
+watchlistedit-raw-removed|{{PLURAL:~{0}\u007C1 saife\u007C~{0} saife}} yoq etildi:
+watchlisttools-view|Deñişikliklerni köster
+watchlisttools-edit|Közetüv cedvelini kör ve deñiştir
+watchlisttools-raw|Közetüv cedvelini adiy metin olaraq deñiştir
+signature|[[{{ns:user}}:~{0}\u007C~{1}]] ([[{{ns:user_talk}}:~{0}\u007Cmuzakere]])
+version|Versiya
+fileduplicatesearch-legend|Dublikatnı qıdır
+fileduplicatesearch-filename|Fayl adı:
+fileduplicatesearch-submit|Qıdır
+fileduplicatesearch-info|~{0} × ~{1} piksel<br />Fayl büyükligi: ~{2}<br />MIME çeşiti: ~{3}
+fileduplicatesearch-result-1|"~{0}" faylınıñ iç kоpiyası yоq.
+fileduplicatesearch-result-n|"~{0}" faylınıñ {{PLURAL:~{1}\u007Cbir kоpiyası\u007C~{1} kоpiyası}} bar.
+specialpages|Mahsus saifeler
+specialpages-group-maintenance|Baqım esabatları
+specialpages-group-other|Diger mahsus saifeler
+specialpages-group-login|Kiriş / Qayd oluv
+specialpages-group-changes|Soñki deñişiklikler ve jurnallar
+specialpages-group-media|Fayl esabatları ve yükleme
+specialpages-group-users|Qullanıcılar ve aqları
+specialpages-group-highuse|Çоq qullanılğan saifeler
+specialpages-group-pages|Saifeler cedveli
+specialpages-group-pagetools|Saife aletleri
+specialpages-group-wiki|Viki malümat ve aletler
+specialpages-group-redirects|Yollama mahsus saifeler
+specialpages-group-spam|Spamğa qarşı aletler
+blankpage|Bоş saife
+intentionallyblankpage|Bu saife aselet boş qaldırılğan
+comparepages|Saifelerni teñeştirüv
+compare-selector|Saifelerniñ versiyalarını teñeştirüv
+compare-submit|Teñeştir
+htmlform-reset|Deñişikliklerni keri al
+searchsuggest-containing|içinde bu olğan...
+wm-license-information-description|Tasvir
+wm-license-information-source|Menba
+sitesupport|Bağışlar
+wikimedia-copyright|Metin <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a> litsenziyasınen berilgen; bazıda ilâve şartlar qullanılıp ola. Tafsilât içün <a href="https://wikimediafoundation.org/wiki/Terms_of_Use">Qullanuv Şartları</a>na baqıñız.
+wikimedia-copyrightwarning|'''“{{int:savearticle}}”''' dögmesine basıp siz [https://wikimediafoundation.org/wiki/Terms_of_Use Qullanuv Şartları]nen razı olıp [https://creativecommons.org/licenses/by-sa/3.0/deed.ru Creative Commons Attribution/Share-Alike 3.0] ve [https://www.gnu.org/copyleft/fdl.html GFDL] litsenziyalarınıñ şartlarına köre yazğanıñıznıñ keri qaytarılmaz şekilde derc etilgenini qabul etersiñiz. Creative Commons litsenziyasınıñ talaplarına uyğun olmaq içün bu saifege bağlantı bermek ya da bu saifeniñ URL adresini bildirmek yeterlik olacağını da qabul etersiñiz.
+']:>
+).lang
+;

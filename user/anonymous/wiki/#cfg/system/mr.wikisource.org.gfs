@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('पान', 'पान_चर्चा', 'अनुक्रमणिका', 'अनुक्रमणिका_चर्चा');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('पान', 'पान_चर्चा', 'अनुक्रमणिका', 'अनुक्रमणिका_चर्चा');
+// wiki.xtns.pages.end

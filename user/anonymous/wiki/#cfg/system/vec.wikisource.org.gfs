@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Pagina', 'Discussion_pagina', 'Indice', 'Discussion_indice');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Pagina', 'Discussion_pagina', 'Indice', 'Discussion_indice');
+// wiki.xtns.pages.end

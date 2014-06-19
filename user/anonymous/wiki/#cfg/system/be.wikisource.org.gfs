@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Старонка', 'Размовы_пра_старонку', 'Індэкс', 'Размовы_пра_індэкс');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('Старонка', 'Размовы_пра_старонку', 'Індэкс', 'Размовы_пра_індэкс');
+// wiki.xtns.pages.end

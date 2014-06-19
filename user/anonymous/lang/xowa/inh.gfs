@@ -1,0 +1,947 @@
+this
+.fallback_load('ru')
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|КӀиранди
+monday|Оршот
+tuesday|Шинара
+wednesday|Кхаьра
+thursday|Ера
+friday|ПӀаьраска
+saturday|Шоатта
+sun|КӀи
+mon|Ор
+tue|Ши
+wed|Кха
+thu|Ер
+fri|ПӀаь
+sat|Шоа
+january|Нажгамсхой
+february|Саькур
+march|Мутхьол
+april|Тушоли
+may_long|Бекарг
+june|Аьтинг
+july|КӀимарс
+august|Мангал
+september|Моажол
+october|Тов
+november|Лайчил
+december|Чантар
+january-gen|Нажгамсхой бетт
+february-gen|Саькур бетт
+march-gen|Мутхьол бетт
+april-gen|Тушоли бетт
+may-gen|Бекарг бетт
+june-gen|Аьтинг бетт
+july-gen|КӀимарс бетт
+august-gen|Мангал бетт
+september-gen|Моажол бетт
+october-gen|Тов бетт
+november-gen|Лайчил бетт
+december-gen|Чантар бетт
+jan|Нажг.
+feb|Саьк.
+mar|Мутхь.
+apr|Tуш.
+may|Бек.
+jun|Аьт.
+jul|КӀим.
+aug|Манг.
+sep|Моаж.
+oct|Тов.
+nov|Лайч.
+dec|Чант.
+toc|Чулоацам
+redirectedfrom|(~{0} тӀера хьадейта да)
+allpages|Еррига оагIувнаш
+prevpage|(~{0}) хьалхара оагIув
+collapsible-collapse|чудерзаде
+collapsible-expand|хьадоаржаде
+categories|Цатегаш
+lastmodifiedat|Укх оагӀув тӀехьара  хувцам: ~{1}, ~{0}.
+thumbnail-more|Хьадоккхаде
+otherlanguages|Кхыча меттал
+blanknamespace|(Корта)
+pagecategories|{{PLURAL:~{0}\u007CКатаг\u007CКатагаш}}
+category_header|"~{0}" Катагачар оагӀувнаш
+subcategories|Чуракатагаш
+category-media-header|"~{0}" Катагачар паьлаш
+category-empty|''Укх катагчоа цхьаккха оагӀувнаш е паьлаш яц.''
+category-subcat-count|{{PLURAL:~{1}\u007CЙола катаг тӀехьара бухкатаг чулоаца.\u007C{{PLURAL:~{0}\u007C~{0} бухкатаг хьахьекха я\u007C~{0} бухкатагаш хьахьекха я}} ~{1} йолачара.}}
+category-subcat-count-limited|Укх катагий {{PLURAL:~{0}\u007C~{0} кӀалкатаг\u007C~{0} кӀалкатагаш}}.
+category-article-count|{{PLURAL:~{1}\u007CЙола цатег цхьа оагӀув мара чулоацац.\u007C{{PLURAL:~{0}\u007C~{0} оагӀув хьахекха я\u007C~{0} оагӀувнаш хьахекха я}} укх цатега ~{1} йолачарах.}}
+category-article-count-limited|Укх катагач {{PLURAL:~{0}\u007C~{0} оагӀув\u007C~{0} оагӀувнаш\u007C}}.
+category-file-count|{{PLURAL:~{1}\u007CУкх цатего ца паьла мара чулоацац.\u007C{{PLURAL:~{0}\u007C~{0} паьла хьахьекха я\u007C~{0} паьлаш хьахьекха я}} укх цатегий ~{1} долачаьрахь.}}
+category-file-count-limited|Укх катагач {{PLURAL:~{0}\u007C~{0} паьл\u007C~{0} паьлаш}}.
+nextn|{{PLURAL:~{0}\u007Cтlехьайоагlар ~{0}\u007Cтlехьайоагlараш ~{0}\u007Cтlехьайоагlараш ~{0}}}
+prevn|{{PLURAL:~{0}\u007Cхьалхйоаг\u007Cар ~{0}\u007Cхьалхйоаг\u007Cараш ~{0}\u007Cхьалхйоаг\u007Cараш ~{0}}}
+listingcontinuesabbrev|дӀахо
+showingresultsheader|{{PLURAL:~{4}\u007C'''~{0}''' толамче укх '''~{2}''' долачарах\u007C'''~{0} — ~{1}''' толамчаш укх '''~{2}''' долачарах}} '''~{3}'''а
+bold_sample|Сома яздам
+bold_tip|Сома яздам
+italic_sample|Кулга яздам
+italic_tip|Кулга яздам
+link_sample|Ӏинка кортале
+link_tip|ЧураӀинк
+headline_sample|Кортален яздам
+headline_tip|2-гӀа лагӀарлен кортале
+hidden-category-category|Къайла катагаш
+statistics|Дагара куц
+statistics-pages|ОагIувнаш
+tog-underline|Ӏинкаш белгалде:
+tog-justify|Яздам оагӀува шоралца хьанийсде
+tog-hideminor|ЗӀамига хувцамаш керда хувцаман дагарленашках къайлаяккха
+tog-hidepatrolled|Керда хувцаман дагарленач дӀанийсаяь хувцамаш къайладаккха
+tog-newpageshidepatrolled|Керда оагӀувна дагарленач дӀанийсаяь хувцамаш къайладаккха
+tog-extendwatchlist|Шераяь теркама дагарле, массадола хувцамаш чулоацаш
+tog-usenewrc|Керда хувцами теркама дагарлеи хувцамаш тоабъе (JavaScript)
+tog-numberheadings|Корталенашт аланза таьрахьал де
+tog-showtoolbar|ГӀалатнийcдара юкъе лакхера гӀорсан гартакх хьахьокха (JavaScript)
+tog-editondblclick|Шозза цлицакацa oагӀув хувца (JavaScript)
+tog-editsection|ХӀара дакъа "хувца" яха Ӏинк хьахьокха
+tog-editsectiononrightclick|Декъам хувца кертмугӀа аьтта цлицака я (JavaScript)
+tog-showtoc|Кортанче хьокха (кхьаннена дукхагӀа кертмугӀанаш йoлa оагӀувна)
+tog-rememberpassword|(укх ~{0} {{PLURAL:~{0}\u007Cден\u007Cденошк}}) мара са чувалара/ялара дагалоаца дезаш дац
+tog-watchcreations|Аз яь йола оагӀувнаш теркама дагарле йолач чуяьккха
+tog-watchdefault|Аз хийца йола оагӀувнаш теркама дагарле йолач чуяьккха
+tog-watchmoves|Аз цӀи хийца йола оагӀувнаш теркама дагарле йолач чуяьккха
+tog-watchdeletion|Аз дӀаяьккха йола оагӀувнаш теркама дагарле йолач чуяьккха
+tog-minordefault|Теркамза хувцамаш лоархӀамза белгалде
+tog-previewontop|ГӀалатнийсдара кора хьалхе бӀаргтассам оттае
+tog-previewonfirst|ГӀалатнийсдаре дехьавоалаш/йоалаш бӀаргтассам хьахьокха
+tog-nocache|Укхазара оагӀувнаший лочкъараш дӀадоаде
+tog-enotifwatchlistpages|ОагӀувний хувцамахи теркама дагарленахи лаьца, д-хоамнец хоам бе
+tog-enotifusertalkpages|Са дувцама оагӀув тӀа хувцамаш хилача, д-хоамнец хоам бе
+tog-enotifminoredits|Геттара зӀамига хувцамаш хилача, д-хоамнец хоам бе
+tog-enotifrevealaddr|ЗӀы хоамаш тӀа са хоамни моттиг хьахьокха
+tog-shownumberswatching|Ший теркама дагарленгах оагӀув чулаьца бола дакъалаьцархой таьрах хьахьокха
+tog-oldsig|Дола кулгайоазув:
+tog-fancysig|Ший кулга яздара массахоамбаккхам (ший лоӀаме Ӏинка йоацаш)
+tog-showjumplinks|"Дехьадала" яха новкъостала Ӏинк хьахьокха
+tog-uselivepreview|Сиха бӀарахьажар (JavaScript) (Экспериментально)
+tog-forceeditsummary|Хоам бе, хувцамий лоацам белгал даь деце
+tog-watchlisthideown|Са хувцамаш теркама дагарчера къайладаккха
+tog-watchlisthidebots|БӀатий хувцамаш теркама дагарчера къайладаккха
+tog-watchlisthideminor|Са зӀамига хувцамаш теркама дагарчера къайладаккха
+tog-watchlisthideliu|Чубаьнна дакъалаьцархой хувцамаш теркама дагaрчеча къайлаяьккха
+tog-watchlisthideanons|ЦӀи йоаца дакъалаьцархой хувцамаш теркама дагрчеча къайлаяьккха
+tog-watchlisthidepatrolled|Теркама дагарчера дӀанийсъя хувцамаш къайлаяьккха
+tog-ccmeonemails|Аз дакъалаьцархошоа дахта каьхаташ са д-хоамни тӀа хьатӀадайта
+tog-diffonly|Диста кIал йоалаж йола оагӀувна дакъа ма хьокха
+tog-showhiddencats|Къайла катагаш хьахьокха
+underline-always|Массаза
+underline-never|ЦӀаккха
+underline-default|МазабӀарглокхарий оттамаш хайрамбе
+editfont-style|ТIеракуц хувца
+hidden-categories|{{PLURAL:~{0}\u007CКъайла катаг\u007CКъайла катагаш}}
+index-category|ДIахьожаман оагӀувнаш
+noindex-category|ДIахьожаманза оагӀувнаш
+broken-file-category|Болхбеш йоаца паьла Ӏинкашца оагӀувнаш
+about|Лоацам
+article|Йоазув
+newwindow|(керда кора)
+cancel|Юхавалa/ялa
+moredotdotdot|ДӀахо
+mypage|Са оагӀув
+mytalk|Са дувцама оагӀув
+anontalk|Укх IP-моттига дувцам
+navigation|Никътохкарг
+and| кхы
+qbfind|Лахар
+qbbrowse|БӀаргтасса
+qbedit|Хувца
+qbpageoptions|ОагӀува оттамаш
+qbmyoptions|Са оттамаш
+qbspecialpages|ГӀулакхий оагӀувнаш
+faq|Каст-каста хаттараш
+faqpage|Project:Каст-каста хаттараш
+vector-action-addsection|БӀагал тӀатоха
+vector-action-delete|ДӀадаккха
+vector-action-move|ЦӀи хувца
+vector-action-protect|Лораде
+vector-action-undelete|Юхаоттаде
+vector-action-unprotect|Лорам хувца
+vector-simplesearch-preference|Яьржа лахарий довзамаш чуяьккха (Vector skin only)
+vector-view-create|Кхолларле
+vector-view-edit|Хувцам
+vector-view-history|Искар
+vector-view-view|Дешар
+vector-view-viewsource|Зембакхама бӀаргтассам
+actions|ДулархIамаш
+namespaces|ЦӀерий аренаш
+variants|Доштайпарленаш
+errorpagetitle|ГӀалат
+returnto|~{0} оагӀув тӀа юхавалар/ялар
+tagline|Кечал укхазара я {{SITENAME}}
+help|Куцтохкам
+search|Лахаp
+searchbutton|Хьалаха
+go|Дехьавала
+searcharticle|Дехьавала
+history|искар
+history_short|Искар
+updatedmarker|Со ханача денца хувцамаш хиннaд
+printableversion|Каьхатзарбане доржам
+permalink|Даим латта Ӏинк
+print|Каьхат арадаккха
+view|БӀаргтассам
+edit|Хувца
+create|Хьаде
+editthispage|Ер оагӀув хувца
+create-this-page|Ep oагӀув хьае
+delete|ДӀадаккха
+deletethispage|Ер оагӀув дӀаяьккха
+undelete_short|Меттаоттае {{PLURAL:~{0}\u007Cхувцам\u007C~{0} хувцамаш}}
+viewdeleted_short|БӀаргтасса {{PLURAL:~{0}\u007CдӀадаьккха хувцам тӀа\u007C~{0} дӀадаьккха хувцамаш тӀа}}
+protect|Лораде
+protect_change|хувца
+protectthispage|Лорае ер оагӀув
+unprotect|Лорам хувца
+unprotectthispage|Лорам хувца
+newpage|Керда оагӀув
+talkpage|Укх оагӀув тӀа дувцам бе
+talkpagelinktext|дувцам
+specialpage|ГӀулакха оагӀув
+personaltools|Са гӀорсаш
+postcomment|Керда декъам
+articlepage|Йоазув тӀа бӀаргтасса
+talk|Дувцам
+views|БӀаргтассамаш
+toolbox|ГӀорсаш
+userpage|Дакъалаьцачунна оагӀуве бӀаргтасса
+projectpage|Хьахьоадайтама оагӀуве бӀаргтасса
+imagepage|Паьла оагӀув тӀа бӀаргтасса
+mediawikipage|Xоаман оагӀув хьахьокха
+templatepage|ЧӀабала оагӀув тӀа бӀаргтасса
+viewhelppage|Куцтохкам беха
+categorypage|Катага оагӀув тӀа бӀаргтасса
+viewtalkpage|Дувцамага бӀаргтасса
+redirectpagesub|ДӀа-хьа дайта оагӀув
+viewcount|Укх оагӀув тӀа бӀаргтасса хиннад {{PLURAL:~{0}\u007Cцхьазза\u007C~{0} шозза}}.
+protectedpage|Лорама оагӀув
+jumpto|Укхаза дехьавала/яла:
+jumptonavigation|никътохкарг
+jumptosearch|леха
+pool-timeout|ЧIегатохара сабаран ха чакхаяьннай
+pool-queuefull|Хаттарий цӀа хьалдизад
+pool-errorunknown|Довзаш доаца гӀалат
+aboutsite|Лоацам {{SITENAME}}
+aboutpage|Project:Лоацам
+copyright|~{0} чулоацамаца тIакхоачаш да.
+copyrightpage|{{ns:project}}:Яздаьчунна бокъо
+currentevents|ХӀанзара хоамаш
+currentevents-url|Project:ХӀанзара хоамаш
+disclaimers|Бокъонах юхавалаp
+disclaimerpage|Project:Бокъонах юхавалаp
+edithelp|Хувцама куцтохкам
+helppage|Help:Чулоацам
+mainpage|Кертера оагӀув
+mainpage-description|Кертера оагӀув
+policy-url|Project:Бокъонаш
+portal|Гулламков
+portal-url|Project:Гулламков
+privacy|Паьлбокъо
+privacypage|Project:Паьлбокъо
+badaccess|Чуваларa гӀалат
+badaccess-group0|Оаш хьадийха дулархIам шун де йишяц.
+badaccess-groups|Дахта кхоачашдар {{PLURAL:~{1}\u007Cтоабачара\u007Cтоабашкара}} ~{0} дакъалаьцархой мара де бокъо яц.
+versionrequired|~{0} MediaWiki доржам эша
+versionrequiredtext|Укх оагӀув бeлха MediaWiki доржамаш эша ~{0}. Хьажа [[Special:Version\u007Cversion page]].
+ok|ХӀаа
+retrievedfrom|"~{0}" ГӀувам
+youhavenewmessages|Оаш ~{0} (~{1}) дӀайийцад
+newmessageslink|керда хоамаш
+newmessagesdifflink|тӀехьара хувцамаш
+youhavenewmessagesmulti|Оаш ~{0}чу керда хоамаш дӀайийцад
+editsection|хувца
+editold|хувца
+viewsourceold|xьайоагӀа къайлорг тӀа бӀаргтасса
+editlink|хувца
+viewsourcelink|xьайоагӀа къайлорг тӀа бӀаргтасса
+editsectionhint|Декъам хувца: ~{0}
+showtoc|хьахьокха
+hidetoc|къайладаккха
+thisisdeleted|~{0} бӀаргтасса е юхаметтаоттаде?
+viewdeleted|~{0} бӀаргтасса?
+restorelink|{{PLURAL:~{0}\u007CдӀаяьккха хувцам\u007C~{0} дӀаяьккха хувцамаш}}
+feedlinks|Цу тайпара:
+site-rss-feed|~{0} RSS мугӀ
+site-atom-feed|~{0} Atom мугӀ
+page-rss-feed|"~{0}" RSS мугӀ
+page-atom-feed|"~{0}" Atom мугӀ
+red-link-title|~{0} (укх тайпара оагӀув яц)
+nstab-main|Йоазув
+nstab-user|Дакъалаьцархо
+nstab-media|Медифаг
+nstab-special|ГӀулакха оагӀув
+nstab-project|Хьахоадайтамах лаьца
+nstab-image|Паьл
+nstab-mediawiki|Хоам
+nstab-template|ЧIабал
+nstab-help|Куцтохкам
+nstab-category|Катаг
+nosuchaction|Цу тайпара дулархIам бац
+nosuchspecialpage|Изза мо гӀон оагӀув яц
+error|ГӀалат
+missing-article|Кораде дезаш хинна оагӀувни яздам корадаьдац «~{0}» ~{1}.\n\nИз мо гӀалат нийсалуш хула, саг тишъенна Ӏинкаца, д\u007Cадаьккха дола оагӀувни хувца искара тӀа чувала гӀертача.\n\nНаггахь санна из иштта децe, шоана гӀорса Ӏалаш деча гӀалат кораяь хила мега.\nДехар да, [[Special:ListUsers/sysop\u007Cмазакулгалхочоа]] хоам бе, URL хьахьокхаш.
+missingarticle-rev|(бӀаргоагӀув № ~{0})
+internalerror|Чура гӀалат
+internalerror_info|Чура гӀалат: ~{0}
+cannotdelete-title|ОагIув дIаяккха йиш яц "~{0}"
+badtitle|Мегаш йоаца цӀи
+badtitletext|Дехаш дола оагӀувни цӀи, нийса яц, яьсса я е меттаюкъара е массаюкъара цӀи харцахь я. ЦӀера юкъе мегаш доаца харакъаш нийсаденна хила мегаш да.
+viewsource|БIаргтассам
+actionthrottled|Сихален овзамал
+protectedpagetext|Хувцаман белхаш долаш ер оагIув къайла я.
+virus-unknownscanner|довзашдоаца мазаундохьалург:
+yourname|Дакъалаьцархочунна цӀи:
+yourpassword|КъайладIоагӀа:
+yourpasswordagain|КъайладIоагӀа юха Ӏоязаде:
+remembermypassword|(укх ~{0} {{PLURAL:~{0}\u007Cден\u007Cденошкахь}}) мара са чувалара/чуялара дагалоаца дезаш дац
+yourdomainname|Шун цӀеноагӀув:
+login|Чувала/яла
+nav-login-createaccount|ЦӀи яьккха/Ший oагӀув ела
+loginprompt|Укх белхацхьоагIоца доттагӀал лаца, шун "cookies" йийла хьалдеза.
+userlogin|ЦӀи яьккха/ОагӀув ела
+userloginnocreate|Чувала/яла
+logout|Аравала/яла
+userlogout|Аравала/яла
+notloggedin|Оаш шоай цӀи хьааьннадац
+nologin|Леламе дIаяздар дац? '''~{0}'''.
+nologinlink|Леламе дIаяздар кхолла
+createaccount|Керда дакъалаьцархо кхолла
+gotaccount|Укхаза дӀаязабенна дий шо? '''~{0}'''.
+gotaccountlink|Чувала/яла
+userlogin-resetlink|Чувала/яла цӀии дIоагӀаи дийцаденнадий?
+createaccountmail|КъайладIоагIа д-хоамнец хьадайта
+createaccountreason|Бахьан:
+badretype|Оаша яьккха дIоагIий цIераш шоайл таралуш яц.
+loginerror|Дакъалаьцархочун цIи нийса яц
+mailmypassword|Керда къайладIоагӀа хьаэца
+mailerror|Хоам дIабохьийташ гIалат даьннад: ~{0}
+emailconfirmlink|Доаржален хоамни хьожадорг дIачIоагIаде
+loginlanguagelabel|Мотт: ~{0}
+resetpass|КъайладIоагIа дIахувцар
+oldpassword|Къаьна къайладIоагӀа:
+newpassword|Керда къайладIоагӀа:
+retypenew|Керда къайладIоагӀа юха Ӏоязаде:
+resetpass-submit-loggedin|КъайладIоагӀа дӀахувца
+resetpass-submit-cancel|Юхавал/ялa
+passwordreset-username|Дакъалаьцархочунна цӀи:
+passwordreset-email|Д-хоамни моттиг:
+extlink_sample|Ӏинка кортале http://www.example.com
+extlink_tip|Арен Ӏинка (http:// тамагӀах дийца ма ле)
+nowiki_sample|Укхаза кийчаде дезаш доаца яздам оттаде
+nowiki_tip|Масса-бустамлорг теркамза дита
+image_tip|Чуяьккха паьла
+media_tip|Паьла Ӏинк
+sig_tip|Шун кулгаяздар а, хӀанзара ха а
+hr_tip|Мухала мугӀ (могаш тайпара к\u007Cеззига хайраде)
+summary|Хувцамий белгалдер
+subject|БӀагал/кортале:
+minoredit|ЗӀамига хувцам
+watchthis|Укх оагӀува теркам бе
+savearticle|ОагӀув хьаязъе
+preview|Хьалхе бӀаргтассар
+showpreview|Хьалхе бӀаргтaссам
+showlivepreview|Сиха бӀаргтассар
+showdiff|Даь хувцамаш
+anoneditwarning|Зем хила! Шо кхы чудаьннадац. Шун IP-моттиг укх хийца оагӀув искаречу дӀаяздаь хургья.
+summary-preview|Лоацам ба:
+subject-preview|Кортале хургья:
+blockedtitle|Дакъалаьцархо чӀега бела ва/я
+blockednoreason|бахьан доацаш да
+loginreqlink|чувала/яла
+loginreqpagetext|Кхыйола оагӀувнашка хьожаргдолаш, оаш ~{0} де деза.
+accmailtitle|КъайладIоагӀа дӀадахьийтад
+newarticle|(Kерда)
+newarticletext|Шо йоаца оагӀув тӀа Ӏинкаца дехьадаьннад.\nИз хьае, кӀалхагӀа доала корачу яздам очуязаде (кхета хала дале [[{{MediaWiki:Helppage}}\u007Cновкъостала оагӀув тӀа]] бӀаргтасса).\nЦаховш укхаза нийсадена дале, юхавала/яла яха тоӀобама тӀа пӀелга тоӀобе.
+noarticletext|ХIанз укх оагӀув тӀа яздам доацаш да.\n[[Special:Search/{{PAGENAME}}\u007Cцу тайпара цӀи дувцам кораде]] кхыдола йоазувашках йийша я шун, вешта\n<span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} тара дола таптарий йоазув карае], е\n'''[{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} изза мо цӀи йолаш оагӀув ела]'''</span>.
+noarticletext-nopermission|ХIанз укх оагӀув тӀа яздам дац.\nШун йиш я, кхыдола йоазувнашках [[Special:Search/{{PAGENAME}}\u007Cдола цӀерий хаттам корае]] е <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} нийсамий тептара йоазувнаш корае].</span>
+note|'''ХӀамоалар:'''
+previewnote|'''Хьалхе б\u007Cаргтассам мара бац.'''\nЯздам кхы яздаь дац!
+editing|ГӀалатнийсдар: ~{0}
+editingsection|ГIалатнийсдар ~{0} (оагӀувдакъа)
+editingcomment|ГӀалатнийсдар ~{0} (керда декъам)
+editconflict|ГӀалатнийсдара къовсам: ~{0}
+yourtext|Хьа яздам
+copyrightwarning|Теркам бе, ~{1} (~{0} хьажа) бокъонаца лорадеш, тӀахьежама кӀала уллаш, оаш мел чуяккхаш дола хоамаш, яздамаш долга.\nНаггахь санна шоай яздамаш пурам доацаш мала волашву саго хувца е кхы дола моттиге яздердолаш, безам беци, укхаз Ӏочуцаяздеча, дикаьгӀа да.<br />\nОаш дош лу, даь дола хувцама да волга/йолга, е оаш пурам долаш Ӏочуяздеш да кхычера меттигара шоай яздамаш/хоамаш.\n'''Яздархой бокъоца лорадеш дола хӀамаш, цара пурам доацаш, Ӏочумаязаде!'''
+templatesused|Укх бӀаргоагӀувни оагӀув тӀа лелаяь {{PLURAL:~{0}\u007CКуцкеп\u007CКуцкепаш}}:
+templatesusedpreview|Хьалхе бӀаргтассама оагӀув тӀа леладеш дола {{PLURAL:~{0}\u007CКуцкеп\u007CКуцкепаш}}:
+template-protected|(лорам лаьца)
+template-semiprotected|(дакъа-лорам)
+hiddencategories|Ер оагӀув укх {{PLURAL:~{0}\u007Cкъайла цатегаца\u007Cкъайла цатегашца}} дакъа лоаца:
+permissionserrorstext-withaction|~{1} де бокъо яц {{PLURAL:~{0}\u007Cиз бахьан долаш\u007Cиз бахьанаш долаш}}:
+recreate-moveddeleted-warn|'''Зем бе! Шо хьалххе дIайоаккхаш хинна оагӀув хьае гӀерта.'''\n\nХьажа, бокъонцахь езаш йолга.\nКӀалхагIа укх оагӀуви дӀадаккхами цӀи хувцами тептараш хьекха да.
+moveddeleted-notice|Ер оагӀув дӀаяьккха хиннай.\nНовкъостала, кӀалха дӀадаккхама а хувцама а тептарашкера нийсама йоазувнаш хьахьекха я.
+log-fulllog|Деррига таптара бӀаргтасса
+edit-conflict|Хувцамий къовсам.
+post-expand-template-inclusion-warning|Зембаккхам: жамIан чIабалаш чулоаца дустам геттара доккха да.\nЦхьадола чIабалаш чулоацалургдац.
+post-expand-template-inclusion-category|Чулоаца чIабала мегаш дола дустам дукхалена тӀехьайоала оагӀувнаш
+post-expand-template-argument-warning|Зем бе! Ер оагӀув цаӀ куцкепа \u007Cаьлдош мара чулоацац, юхадастара сел доккха дустам йолаш.\nЦу тайпара \u007Cаьлдешаш ӀокӀаладаькха да.
+post-expand-template-argument-category|Куцкепий теркамза \u007Cаьлдешаш чулоаца оагӀувнаш
+viewpagelogs|Укх оагӀува тептараш хьокха
+currentrev-asof|~{0} тӀа эггара тӀехьара доржам
+revisionasof|~{0} доржам
+revision-info|~{0}; ~{1} хувцам
+previousrevision|← Xьалхйоаг\u007Cараш
+nextrevision|ТIехьайоагIараш →
+currentrevisionlink|Дола доржам
+cur|хӀанз.
+next|тӀехь.
+last|хьалх.
+page_first|хьалхара
+page_last|тӀехьара
+histlegend|Кхетам: (хӀанз.) = хӀанза йолачунна бӀаргоагӀувни хьакъоастам ба; (хьалх.) = хьалха хинначунна бӀаргоагӀувни хьакъоастам ба; '''зӀ''' = зӀамига хьахувцам ба.
+history-fieldset-title|Искара бӀаргтасса
+history-show-deleted|ДӀадаьккхараш мара
+histfirst|къаьнараш
+histlast|ха яннараш
+historyempty|(даьсса)
+history-feed-title|Хувцамий искар
+history-feed-description|Укх оагӀуви вики тӀа хувцамий искар
+history-feed-item-nocomment|~{0}гӀара ~{1}гӀачу
+rev-delundel|хьахьокха/къайлаяьккха
+rev-showdeleted|хьахьокха
+revdelete-show-file-submit|XӀаа
+revdelete-radio-set|XӀаа
+revdelete-radio-unset|A
+revdelete-log|Бахьан
+revdel-restore|Кустгойтам хувца
+revdel-restore-deleted|дӀадаьккха доржамаш
+revdel-restore-visible|бӀаргагушдола доржамаш
+pagehist|ОагӀува искар
+deletedhist|ДӀадаккхамий искар
+revdelete-reasonotherlist|Кхыдола бахьан
+mergehistory-list|ВIашагIатоха хувцамий искар
+mergehistory-go|ВIашагIатоха хувцамаш хьахьокха
+mergehistory-submit|Хувцамаш вIашагIатоха
+mergehistory-empty|ВIашагIатохара хувцамаш кораяь яц.
+mergehistory-reason|Бахьан:
+revertmerge|Декъа
+history-title|"~{0}" — хувцамий искар
+lineno|МугI ~{0}:
+compareselectedversions|Хьаржа доржамаша тарона тIа хьажа
+editundo|юхавала/яла
+diff-multi|({{PLURAL:~{0}\u007C~{0} юкъара доржам хьахьекха дац\u007C~{0} юкъара доржамаш хьахьекха дац}} {{PLURAL:~{1}\u007C~{1} дакъалаьцархочунна\u007C~{1} дакъалаьцархоший}})
+searchresults|Тохкама гIулакхахилар
+searchresults-title|"~{0}" тохка
+searchresulttext|Хьахьоадайтама оагIувнаш тIа тохкамах лаьца лоаца маIандар эца [[{{MediaWiki:Helppage}}\u007Cновкъостала декъамага]] хьажа.
+searchsubtitle|Хоаттамах лаьца «[[:~{0}]]» ([[Special:Prefixindex/~{0}\u007Cцу цIерах ювалу оагIувнаш]]{{int:pipe-separator}}[[Special:WhatLinksHere/~{0}\u007Cцу цIерах Iинкаш еш йола]])
+searchsubtitleinvalid|'''~{0}''' хаттара
+notitlematches|ОагIувни цIераш вIашагIа кхеташ яц
+notextmatches|ОагIувнаша яздамий вIашагIакхетараш дац
+prevn-title|{{PLURAL:~{0}\u007C~{0} хьалхара йоазув\u007C~{0} хьалхара йоазувнаш}}
+nextn-title|{{PLURAL:~{0}\u007C~{0} тIехьара йоазув\u007C~{0} тIехьара йоазувнаш}}
+shown-title|Укх оагIувни ~{0} {{PLURAL:~{0}\u007Cйоазув\u007Cйоазувнаш}} хьахьокха
+viewprevnext|(~{0} {{int:pipe-separator}} ~{1}) (~{2}) хьажа
+searchmenu-exists|'''Укх масса-хьахьоадайтамач ер оаг\u007Cув "[[:$1]]" я'''
+searchmenu-new|'''Укх "[[:$1]]" масса-хьахоадайтамач оагIув хьае!'''
+searchprofile-articles|Гомлен оагIувнаш
+searchprofile-project|Дагарлеи хьахоадайтами оагIувнаш
+searchprofile-images|Медифаг
+searchprofile-everything|Массана
+searchprofile-advanced|Шера я
+searchprofile-articles-tooltip|~{0}чу лахар
+searchprofile-project-tooltip|~{0}чу лахар
+searchprofile-images-tooltip|Паьлий лахар
+searchprofile-everything-tooltip|Массадола оагIувний лахар (дувцама оагIувнаш чулоацаш)
+searchprofile-advanced-tooltip|Iочуязаяь цIераренашках лаха
+search-result-size| ~{0} ({{PLURAL:~{1}\u007C1 дош\u007C~{1} дешаш}})
+search-result-category-size|{{PLURAL:~{0}\u007C~{0} дакъа\u007C~{0} дакъаш}} ({{PLURAL:~{1}\u007C~{1} кIалцатег\u007C~{1} кIалцатегаш}}, {{PLURAL:~{2}\u007C~{2} паьла\u007C~{2} паьлий\u007C~{2} паьлий}})
+search-redirect|(~{0} дехьачуяьккхар)
+search-section| (дакъа ~{0})
+search-suggest|Iа лохар из хила мега: ~{0}
+search-interwiki-caption|Гаргалон хьахьоадайтамаш
+search-interwiki-default|~{0} толамчаш:
+search-interwiki-more|(кха)
+search-relatedarticle|шоайл дола
+searchrelated|гаргара
+searchall|деррига
+nonefound|'''Зем лаца.''' Цхьа дола цIера аренаш мара лахалац.\n''all:'' яха тIаоттарга пайдабе, массадола цIеран аренашкахь (дакъалаьцархой дуцамаш а, куцкепаш а, кхы дара а чулоацаш), е деза цIера аренаш Iочуязаде.
+search-nonefound|ДIахаттама нийсамаш корадаьдац.
+powersearch| Доккха тахкар
+powersearch-legend| Доккха тахкар
+powersearch-ns| ЦIерий аренашкахь лахар
+powersearch-redir|ДIа-хьа оагIувнаш гойта
+powersearch-field|Лахар
+powersearch-toggleall|Деррига
+powersearch-togglenone|Цхьаккха
+preferences|Оттамаш
+mypreferences|Оттамаш
+prefsnologin|Шо чудаьнна дац
+changepassword|КъайладIоaгIа дIахувцар
+prefs-skin|БIагала куц
+skin-preview|Хьажа
+prefs-datetime|Таьрахьи сахьати
+prefs-personal|Хьа хьай далам
+prefs-rc|Керда хувцамаш
+prefs-watchlist|Теркама дагарче
+prefs-watchlist-days|Ден дукхал
+prefs-resetpass|КъайладIоагIа хувца
+prefs-rendering|ТIера бIаса
+saveprefs|Дита
+prefs-editing|ГIалатнийсдар
+searchresultshead|Лахаp
+timezonelegend|Сахьати юкъ:
+localtime|Вола/Йола моттиги ха:
+timezoneregion-africa|Аьприк
+timezoneregion-america|Iаьмрик
+timezoneregion-antarctica|Энтарцит
+timezoneregion-arctic|Эрцит
+timezoneregion-asia|Iаьзик
+timezoneregion-atlantic|Iаьтланта форд
+timezoneregion-australia|Устралик
+timezoneregion-europe|Аьроп
+timezoneregion-indian|ХIинда форд
+timezoneregion-pacific|Тийна форд
+prefs-searchoptions|Тохкама оттамаш
+prefs-files|Паьлаш
+youremail|Д-хоамни:
+username|Дакъалаьцархочунна цIи:
+yourrealname|Шун цIи:
+yourlanguage|Мотт:
+gender-male|МаIа
+gender-female|Кхал
+email|Д-хоамни
+prefs-help-email|Д-хоамни моттиг ала эшаш дац, амма новкъа даца, наггахь санна къайладIоагIа шоана дийцалой, цу тIа хьатIадайтаргда.
+prefs-help-email-others|Кхыбола дакъалаьцархоша шоаца бувзам я йийшхургья шун оагIува тIа гIолла, д-хоамни хьаела ца езаш.
+prefs-signature|Кулгяздар
+userrights-user-editname|Дакъалаьцархочунна цIи Iоязаде
+editusergroup|Дакъалаьцархочунна тоабаш хувца
+saveusergroups|Дакъалаьцархочунна тоабаш дита
+userrights-groupsmember|Тоабий дакъалаьцархо:
+userrights-reason|Бахьан:
+userrights-changeable-col|Оаш хувца мегаш йола тоабаш
+userrights-unchangeable-col|Оаш хувца мегаш йоаца тоабаш
+group|Тоаб:
+group-user|Дакъалаьцархой
+group-bot|БIаташ
+group-sysop|Мазакулгалхой
+group-all|(деррига)
+group-user-member|{{GENDER:~{0}\u007Cдакъалаьцархо\u007Cдакъалаьцархо}}
+group-bot-member|{{GENDER:~{0}\u007CбIат}}
+group-sysop-member|{{GENDER:~{0}\u007Cмазакулгалхо}}
+grouppage-user|{{ns:project}}:Дакъалаьцархой
+grouppage-bot|{{ns:project}}:БIаташ
+grouppage-sysop|{{ns:project}}:Мазакулгалхой
+right-read|ОагIувнаш деша
+right-edit|ОагIувнаш хувца
+right-createtalk|дувцама оагIувний хьакхоллам
+right-move|ОагIувний цIи хувца
+right-movefile|Паьлий цIи хувца
+newuserlogpage|Дакъалаьцархоший дIаязбeнна таптар
+rightslog|Дакъалаьцархочунна бокъона тептар
+action-read|Укх оагIуви дешам
+action-edit|Ер оагIув хувца
+nchanges|~{0} {{PLURAL:~{0}\u007Cхувцам\u007Cхувцамаш}}
+recentchanges|Керда хувцамаш
+recentchanges-legend|Керда хувцамий оттамаш
+recentchanges-summary|КIалхагIа лоарамий доаламе тIехьара оагIувний хувцамаш дIаязадаь да{{grammar:genitive\u007C{{SITENAME}}}}.
+recentchanges-feed-description|Укх ларамца тIехьара массахувцамашт теркам бе.
+recentchanges-label-newpage|Укх хувцамаца керда оагIув даь хиннад
+recentchanges-label-minor|ЗIамига хувцам я
+recentchanges-label-bot|Ер хувцам бIатаца яь е
+recentchanges-label-unpatrolled|Ер хувцам ший моттиге кхы дIадехьаяьккхаяц.
+rcnote|{{PLURAL:~{0}\u007CТlехьара '''~{0}''' хувцам\u007CТlехьара '''~{0}''' хувцамаш}} дола '''~{1}''' {{PLURAL:~{1}\u007Cден\u007Cденошкахь}}, укх сахьате ~{4} ~{3}.
+rcnotefrom|КIалхагIа хувцамаш хьахьекха я <strong>~{1}</strong> денза (<strong>~{0}</strong> кхачалца).
+rclistfrom|~{0} тIара хувцамаш хьахьокха
+rcshowhideminor|зIамига хувцамаш ~{0}
+rcshowhidebots|~{0} шабелхалой
+rcshowhideliu|Чубаьнначара дакъалаьцархочий ~{0}
+rcshowhideanons|цIияьккханза дакъалаьцархой ~{0}
+rcshowhidepatr|~{0} теркам даь хувцамаш
+rcshowhidemine|~{0} сай хувцамаш
+rclinks|~{1} динах<br />~{2} ~{0} хинна тIехьара хувцамаш хьахьокха
+diff|кхы.
+hist|искар
+hide|Къайлдаккха
+show|Хьахьокха
+minoreditletter|м
+newpageletter|Н
+boteditletter|б
+rc_categories_any|МоллагIа а
+rc-enhanced-expand|Ма дарра чулоацамаш хьахьокха (JavaScriptаца)
+rc-enhanced-hide|Ма дарра чулоацамаш къайладаккха
+recentchangeslinked|Гаргалон хувцамаш
+recentchangeslinked-feed|Гаргалон хувцамаш
+recentchangeslinked-toolbox|Гаргалон хувцамаш
+recentchangeslinked-title|~{0}ца хьалаьца хувцамаш
+recentchangeslinked-noresult|Укх заманашка гаргарон оагIувнаш тIа хувцамаш хиннаяц.
+recentchangeslinked-summary|Ер, Iинк яь йола оагIув (е укх цатегачу чуйоагIараш), дукха ха йоацаш хьийца оагIувнашкий дагарле я.\n[[Special:Watchlist\u007CШун теркама дагарленашках]] чуйоагIа оагIувнаш '''белгалаяь я'''.
+recentchangeslinked-page|ОагIува цIи
+recentchangeslinked-to|ОагIувнаш тIа хувцамаш хьахьокха, хьахьекха йола оагIув тIа Iинкаш еш йола.
+upload|Паьл чуяьккха
+uploadbtn|Паьл чуяьккха
+uploadlogpage|Чуяьккхамий тептар
+filedesc|Лоаца лоацам
+fileuploadsummary|Лоаца лоацам:
+uploadedimage|"[[~{0}]]" чуяьккхай
+license|ЦIийяздар
+license-header|ЦIийяздар
+imgfile|паьл
+listfiles|Паьлий дагарче
+listfiles_date|Денха
+listfiles_name|Паьла цIи
+listfiles_user|Дакъалаьцархо
+listfiles_size|Дустам
+listfiles_description|Лоацам
+listfiles_count|Доржамаш
+file-anchor-link|Паьл
+filehist|Паьла искар
+filehist-help|Хьалхе паьла мишта хиннай хьожаpгволаш/йолаш, дентаьрах/сахьата тIа пIелга тIообе.
+filehist-revert|юхаяьккха
+filehist-current|xIанзара
+filehist-datetime|Дентаьрах/Ха
+filehist-thumb|ЗIамигасуртанче
+filehist-thumbtext|~{0} доржаме зIамигсуртанчoa
+filehist-user|Дакъалаьцархо
+filehist-dimensions|ХIамана дустам
+filehist-filesize|Паьла юстарал
+filehist-comment|ХIамоалар
+filehist-missing|Паьла йоацаш я
+imagelinks|Паьлий пайда эца
+linkstoimage|{{PLURAL:~{0}\u007CТIехьайоагIа ~{0} оагIув Iинк ду\u007CТIехьайоагIа ~{0} оагIувнаш Iинкаш ду}} укх паьла тIа:
+nolinkstoimage|Йола паьла тIа  Iинк ю оагIувнаш дац
+sharedupload|Ер паьла ~{0}чера я, кхыча хьахьоадайтамча хьахайраде йийшайолаш я.
+sharedupload-desc-here|Ер паьл ~{0}чара я, кхыдола хьахьоадайтамача хайрамбе йийш йолаш да.\nЦун [~{1} лоацама оагIувца] лоаца маIандар кIалхагIа латта.
+uploadnewversion-linktext|Укх паьлий керда бIаса чуяьккха
+filerevert-comment|Бахьан:
+filedelete-comment|Бахьан:
+filedelete-submit|ДIадаккха
+filedelete-reason-otherlist|Кхыдола бахьан
+download|хьачуяьккха
+unwatchedpages|Теркамза оагIувнаш
+randompage|Дагадоаца йоазув
+disambiguationspage|Template: ЦаI маIандоацар
+brokenredirects-edit|хувца
+brokenredirects-delete|дIадаккха
+withoutinterwiki-submit|Хьахьокха
+nbytes|~{0} {{PLURAL:~{0}\u007CбIат\u007CбIаташ}}
+nmembers|~{0} {{PLURAL:~{0}\u007Cдакъалаьцархо\u007Cдакъалаьцархой}}
+prefixindex|ОагIувнаший хьалхера цIи хьагойтар
+shortpages|Лоаца оагIувнаш
+longpages|Доккхий оагIувнаш
+usercreated|{{GENDER:~{2}\u007CЧуваьннав\u007CЧуяьннай}} ~{0}  ~{1}
+newpages|Керда оагIувнаш
+move|ЦIи хувца
+movethispage|Укх оагIува цIи хувца
+pager-newer-n|{{PLURAL:~{0}\u007CкердагIа дара\u007CкердагIа дараш\u007CкердагIа долачаьрахь}} ~{0}
+pager-older-n|{{PLURAL:~{0}\u007Cкъаьнара дара\u007Cкъаьнара дараш\u007Cкъаьнара долaчаьрахь}} ~{0}
+booksources|Китабий гIувам
+booksources-search-legend|Китаба лоаца маIандара тохкам
+booksources-go|Лаха
+log|Тептараш
+alphaindexline|~{0}гIара ~{1}гIачу
+allpagesfrom|Цу тайпара ювлаж йола оагIувнаш белгал е:
+allpagesto|Укх оагIувнаш тIа бIарга дита:
+allarticles|Еррига оагIувнаш
+allpagessubmit|Кхоачашде
+linksearch|Т\u007Cера\u007Cинкаш лахар
+linksearch-ok|Лаха
+linksearch-line|~{0} тIа Iинк ~{1} юкъера
+listgrouprights-members|(тоабий дагарче)
+emailuser|Дакъалаьцархочоа д-хоамни:
+watchlist|Теркама дагарче
+mywatchlist|Теркама дагарле
+watchlistfor2|~{0} ~{1} царна
+addedwatchtext|"[[:~{0}]]" оагIув, шун [[Special:Watchlist\u007Cтеркама дагаршкахь]] чуяккха я. \nТехьара мел йола укх оагIувни хувцамаш цу дагаршкахь хоам беш хургья. Вешта [[Special:RecentChanges\u007Cкерда хувцама дагаршкаехь]] сома къоалмаца хьакъоастлуш хургья.
+removedwatchtext|"[[:~{0}]]" оагIув, шун [[Special:Watchlist\u007Cтеркама дарагчера]] дIаяккха хиннай.
+watch|Тохкам бе
+watchthispage|Укх оагIува теркам бе
+unwatch|Лора ма де
+watchlist-details|Шун теркама дагарченгахь йола  ~{0} {{PLURAL:~{0}\u007CоагIув\u007CоагIувнаш}}, дувцама оагIувнаш ца лоархIаш.
+wlshowlast|Тlехьара ~{0} сахьаташ ~{1} денош ~{2} хьахьокха
+watchlist-options|Зем баккха дагарена хувцамаш
+watching|Тохкам беча оагIув тIа тIадаккха
+unwatching|Тохкам беча оагIув тIера дIадаккха
+deletepage|ОагIув дIаяьккха
+confirmdeletetext|Оаш оагIувни (е сурти) барча дIадаккхар хьайийхай кха еррига хувцамий искар долама ковчера. \nДехар да, жоп дала, шоай из бокъонцахь де безам болаш да, шоай даьчоахь хургдолчоахь кхеташ долга, [[{{MediaWiki:Policy-url}}]] декъамачу Iоязадаь дола адаташ ца из деш долга.
+actioncomplete|ДулархIам баьб
+actionfailed|Оттам даьдац
+deletedtext|"~{0}" дIаяьккха хиннай.\nТIехьара дIадаьккха дагарчена хьожаргволаш/хьожаргьйолаш, ~{1} хьажа.
+dellogpage|ДIадаккхара тептар
+deletecomment|Бахьан:
+deleteotherreason|Кхыдола бахьан/тIатохар:
+deletereasonotherlist|Кхыдола бахьан
+rollbacklink|юхаяьккха
+protectlogpage|Лорама тептар
+protectedarticle|"[[~{0}]]" оагIув лорам деж я
+modifiedarticleprotection|"[[~{0}]]" оагIувни лорама лагIа хувцаяьннай
+protectcomment|Бахьан:
+protectexpiry|Кхоачалуш латта:
+protect_expiry_invalid|Чакхабоала лорама харца ха
+protect_expiry_old|Чакхайоала ха - яха зама я.
+protect-text|'''~{0}''' укхаз шоана шоай оагIув лорамлагIа хувца a бIаргтасса a йийш хургья.
+protect-locked-access|Шун лархIама йоазуви нидза кхоачаш бац оагIувни лорама лагIа хувца. '''~{0}''' оагIувни дIаоттамаш:
+protect-cascadeon|{{PLURAL:~{0}\u007CКIалхахь хьагойташ йола оагIувчу\u007CКIалхахь хьагойташ йола оагIувнашчу}} ер оагIув чуяккха халарахь, лорам Iоттая я, хурхала лорам Iоттая я. Укх оагIувни лорама лагIа хувца йийш йолаш я, амма хурхала лорам хувцлургдац.
+protect-default|Лорамза
+protect-fallback|"~{0}" пурам эша
+protect-level-autoconfirmed|Керда а, дакъалаьцабоацачаьрахь а лораде
+protect-level-sysop|Мазакулгалхо мара чувала бокъо яц
+protect-summary-cascade|хурхала
+protect-expiring|чакхайоала ~{0} (UTC)
+protect-cascade|Укх оагIувач чуяьккха оагIуваш лорае (хурхала лорам)
+protect-cantedit|Шун укх оагIувни лорама лагIа хувца мегаш дац, гIалатнийсдара шун бокъо йоацандаь.
+restriction-type|Бокъонаш:
+restriction-level|Чувоала лагIа:
+restriction-edit|ГIалатнийсдар
+restriction-move|ЦIи хувцаp
+restriction-create|Кхоллам
+restriction-upload|Чудаккхар
+undeletelink|БIаргтасса/юхаметтаоттаде
+undeleteviewlink|бIаргтасса
+namespace|ЦIерий аренаш
+invert|Хьаржар юхадаккха
+contributions|{{GENDER:~{0}\u007CДакъалаьцархочунна}} къахьегам
+contributions-title|~{0} дакъалаьцархочунна къахьегам
+mycontris|Са къахьегам
+contribsub2|~{0} (~{1}) баь болх
+uctop|(тIехьара)
+month|Цхьа бутт хьалхагIа (кхы хьалхагIа)
+year|Цхьа шу хьалхагIа (кхы хьалхагIа):
+sp-contributions-newbies|Керда даязья йоазоначера мара баь бола къахьегам ма хьокха
+sp-contributions-blocklog|чIегаш
+sp-contributions-uploads|чуяьккхамаш
+sp-contributions-logs|тептараш
+sp-contributions-talk|дувцам
+sp-contributions-search|Къахьегама лахар
+sp-contributions-username|IP-моттиг е цIи:
+sp-contributions-toponly|ТIехьара доржамаш лоархаш дола хувцамаш мара ма хьокха
+sp-contributions-submit|Хьалаха
+whatlinkshere|Iинкаш укхаза
+whatlinkshere-title|"~{0}" тIа Iинкаш еш йола оагIувнаш
+whatlinkshere-page|ОагIув
+linkshere|ТIехьара оагIувнаш '''[[:~{0}]]''' тIа Iинкаш ю:
+nolinkshere|'''[[:~{0}]]''' оагIув тIа, кхыдола оагIувашкара Iинкаш йоацаш я
+isredirect|дIа-хьа оагIув
+istemplate|чудаккхар
+isimage|паьла Iинк
+whatlinkshere-prev|{{PLURAL:~{0}\u007CхьалхайоагIа\u007CхьалхайоагIараш}} ~{0}
+whatlinkshere-next|{{PLURAL:~{0}\u007CтIехьайоагIа\u007CтIехьайоагIараш}} ~{0}
+whatlinkshere-links|← Iинкаш
+whatlinkshere-hideredirs|~{0} дIа-хьа чуяьккхамаш
+whatlinkshere-hidetrans|~{0} чуяьккхамаш
+whatlinkshere-hidelinks|~{0} Iинкаш
+whatlinkshere-hideimages|~{0} суртIинкаш
+whatlinkshere-filters|ЦIенъераш
+blockip|Дакъалаьцархочунна чIега бола
+ipboptions|2 сахьат:2 hours,1 ди:1 day,3 ди:3 days,1 кIира:1 week,2 кIира:2 weeks,1 бутт:1 month,3 бутт:3 months,6 бутт:6 months,1 шу:1 year,сиха ца луш:infinite
+ipblocklist|ЧIега бела дакъалаьцархой
+blocklink|чIегa тоха
+unblocklink|чIега баста
+change-blocklink|ЧIегатохар хувца
+contribslink|къахьегам
+blocklogpage|ЧIегаш тoха таптар
+blocklogentry|[[~{0}]] чIега белаб,  ~{1} ~{2} ха ялалца
+unblocklogentry|~{0} юха яста я
+block-log-flags-nocreate|ЛархIамий дагарчена цIи яьккхар пурам янза я.
+blockme|ЧIега бола сона
+proxyblocksuccess|Хьадаьд.
+move-page-legend|ОагIува цIи хувца
+movepagetext|КIалхара кепаца болхабеча, оаш оагIувни цIи хувцаргья, цунна хувцамий тептар кхыйола меттиге дIачудоаккхаш.\nКIаьнара цIерахь керда цIерий дIачудаккхам хургда.\nКIаьнара цIера тIа даь дола дIачудаккхамаш, шун ший лоIамахь кердадаккха йийш хургья.\nИз оаш ца дой, дехар да, [[Special:DoubleRedirects\u007Cшолха]] кхы [[Special:BrokenRedirects\u007CвIашагIаяккха дIачудаккхамий]] кардоламахь хьажа.\nОаш жоп лу, шоай чуяккха йола Iинкаш, даим болхбеш хургдолга.\n\nЗем бахка, оагIувни цIи хувцалургьяц, изза мо цIи йолаш оагIув хилача. \nЙолаш йола оагIув хувца йийш яц, амма хийца йола оагIув юха хьахувца йийш я. \n\n'''Хоамхайтар'''\n\nЦIи хувцар, йовзаш йола оагIувнаший, доккха а цаьхха а хувцамшка дIатIадала мегаш да.\nДехар да, оаш дIахо болх белаьхь, хургдола хIама кхеташ долга, кхеталаш.
+movepagetalktext|ТIатеха дувцама оагIув, ший лоIамахь цIи хувлургья, '''ер дага а доацар, доаца:'''\n\n*Изза мо цIи йолаш яьсса дувцама оагIув я е\n*Оаш кIалхахь белгало даьдац.\n\nИз иштта дале, кулги новкъосталца оагIувнаш вIашагIатоха  е дIадехьаяккха деза шун.
+movearticle|ОагIува цIи хувца
+newtitle|Керда цIи
+move-watch|Ер оагIув теркама дагаршкахь чуяккха
+movepagebtn|ОагIува цIи хувца
+pagemovedsub|ОагIув керд цIи тилла я
+movepage-moved|'''"~{0}" оагув "~{1}" хьийца я'''
+articleexists|Изза мо цIи йола оагIув, йолаш я е оаш тила цIи мегаш яц.\nДехар да, кхыйола цIи хьаржа.
+talkexists|'''ОагIувни цIи хьийца хиннай, амма дувцама оагIувни цIи хувца мегаш яц, изза мо цIи йолаш оагIув йоландаь. Дехар да, кулга новкъосталца цхьанна вIашагIатоха уш.'''
+movedto|керда цIи тилла я
+movetalk|МаIан чулоаца дувцама оагIувни цIи хувца
+movelogpage|Хувцама тептар
+movereason|Бахьан
+revertmove|юхаяьккха
+export|ОагIувий эхфортам
+allmessagesname|ЦIи
+allmessagesdefault|Сатийна улла яздам
+allmessages-filter-all|Дерригаш
+allmessages-language|Мотт:
+allmessages-filter-submit|Дехьавала/яла
+thumbnail_error|ЗIамигасуртанчий кхеллама гIалат: ~{0}
+import-upload-filename|ПаьлацIи:
+tooltip-pt-userpage|Дакъалаьцархочунна оагIув
+tooltip-pt-mytalk|Шун дувцамий оагIув
+tooltip-pt-preferences|Шун оттамаш
+tooltip-pt-watchlist|ОоагIувна дагарле, шо бIаргалокхаш йола
+tooltip-pt-mycontris|Шун хувцамаш
+tooltip-pt-login|Укхаза хьай цIи аьле чувала/яла йиша я, амма чуцаваьлача/ялача хIама а дац
+tooltip-pt-logout|Аравала/яла
+tooltip-ca-talk|ОагIувна чулоацаме дувцам
+tooltip-ca-edit|Ер оагIув хувца йишйолаш я. Дехар да, Iалаш елаьх, хьалхе бIаргтассама оагIув тIа бIаргтасса.
+tooltip-ca-addsection|Керда декъам хьаде
+tooltip-ca-viewsource|Ер оагIув хувцамах лораяь я, амма шун цунна гIувамага хьажа бокъо я.
+tooltip-ca-history|Укх оагIувни хувцама таптар
+tooltip-ca-protect|Eр оагIув лорае
+tooltip-ca-delete|Ер оагIув дIаяькха
+tooltip-ca-move|Укх оагIува цIи хувца
+tooltip-ca-watch|Ер оагIув теркам беча каьхата тIа тIаяьккха
+tooltip-ca-unwatch|Ер оагIув теркам беча каьхата тIара дIаяькха
+tooltip-search|Цу тайпара дош лаха {{SITENAME}}
+tooltip-search-go|Изза мо цӀи йолаш оагӀув тӀa дехьавала
+tooltip-search-fulltext|Изза мо яздам долаш оагӀувнаш лаха
+tooltip-p-logo|Кертера оагIув тIа дехьавала
+tooltip-n-mainpage|Кертера оагIув тIа дехьавала
+tooltip-n-mainpage-description|Кертера оагIув тIа дехьавала
+tooltip-n-portal|Хьахьоадайтамахь лаьца, хьа де йишдар, фу а мичча а йоала
+tooltip-n-currentevents|ХIанзара хоаман дагарле
+tooltip-n-recentchanges|ТӀехьара хувцамий дагарче
+tooltip-n-randompage|Бе йоаца оагӀув ела
+tooltip-n-help|Новкъостала моттиг
+tooltip-t-whatlinkshere|Массайола оагIувий дагарле, укх оагIув тIа Iинкаш луш йола
+tooltip-t-recentchangeslinked|ОагIувнаш тIа тIехьара хувцамаш, укх оагIувнера Iинк яь йола
+tooltip-feed-rss|Укх оагIувна RSSчу гойтар
+tooltip-feed-atom|Укх оаг\u007Cувна Atomчу гойтар
+tooltip-t-contributions|Укх дакъалаьцархочу хьийца йола оагIувнаш хьахьокха
+tooltip-t-emailuser|Укх дакъалаьцархочоа зIы яхьийта
+tooltip-t-upload|Паьлаш чуяьккха
+tooltip-t-specialpages|ГIулакха оагIувний дагарчe
+tooltip-t-print|Укх оаугIувна каьхатзарбане доржам
+tooltip-t-permalink|Укх оагIув доржама даим латта Iинк
+tooltip-ca-nstab-main|Йоазува чулоацам
+tooltip-ca-nstab-user|Дакъалаьцархочунна ший оагIув
+tooltip-ca-nstab-special|Ер гIулакха оагIув я, из хувца хьо бокъо йолаш вац/яц.
+tooltip-ca-nstab-project|Хьахьоадайтама оагIув
+tooltip-ca-nstab-image|Паьла оагIув
+tooltip-ca-nstab-template|ЧIабала оагIув
+tooltip-ca-nstab-category|Цатега оагIув
+tooltip-minoredit|Ер хувцар башха доаца санна белгалде
+tooltip-save|Хувцамаш кходе
+tooltip-preview|ОагIув тIа хьалхе бIаргтассар, дехар да, оагIув дIаязъелаьх, цун теркам бе.
+tooltip-diff|Яздам тIа яь йола хувцамаш хьахьокха
+tooltip-compareselectedversions|Укх оагIувни шин доржамаш тIа юкъера хувцамаш зе.
+tooltip-watch|Ер оагIув теркам беча каьхата тIа яькха
+tooltip-rollback|ГIалaтнийсадаро тIехьара яь йола хувцамаш, пIелг тоIобе дIаяьккха.
+tooltip-undo|Баь хувцам дIабаьккхe, бIаргатассам хьахьокха, кара дале, дIаяьккха бахьан Iочуязаде моттигаца.
+tooltip-summary|Лоаца чулоацам Iочуязаде
+previousdiff|← Хьалхара хувцам
+nextdiff|ТIайоагIа хувцам
+file-info-size|~{0} × ~{1} фихсам, паьла дустам: ~{2}, MIME-тайп: ~{3}
+file-nohires|Укхал доккхагIа доржам дац
+svg-long-desc|SVG-паьл, ~{0} × ~{1} фихелашца, паьла дустам: ~{2}
+show-big-image|Хьадоккхадаь сурт
+noimages|Суртaш бIаргагуш дац.
+ilsubmit|Лаха
+bad_image_list|Бустам цу тайпара хила беза:\n\nДагарлен хьаракъаш мара лоарх\u007Cаш хургьяц (укх тамагIалгацa * дувлашду мугIараш).\nМугIарен хьалхара Iинк, сурт Iоттае пурам доаца Iинка, хила еза. \nЦу мугIара тIехьайоагIа Iинкаш, арадаккхар мо лоарх\u007Cаш хургья, вешта аьлча, йоазувашка чуIоттаде мегаш дола сурт санна ларх\u007Cа мега.
+metadata|МетахIамаш
+metadata-help|Паьлас чулоаца, кхыдола хIамаш, таьрахьа суртдоакхаргца е тIагIолладоакхаргца чудакхаш дола. Хьаяь паьл, гIалатахь мукъадаькха хинна дале, хьахьокхаш дола сурт, деррига хIамаш чулоацаргдац.
+metadata-expand|Кхыдола хIамаш хьахьокха
+metadata-collapse|Кхыдола хIамаш къайладаккха
+metadata-fields|Укх дагарченгахь дагaрадаь метахIамаша суртий мугIаш, сурт оагIув тIа хьахьекха хургья, чуерзaяь метахIамашийца. Вож мугIанаш ха йоалаш къайла хургья.\n* make\n* model\n* datetimeoriginal\n* exposuretime\n* fnumber\n* isospeedratings\n* focallength\n* artist\n* copyright\n* imagedescription\n* gpslatitude\n* gpslongitude\n* gpsaltitude
+exif-imagewidth|Шерал
+exif-imagelength|Лакхал
+exif-imagedescription|Сурта цIи
+exif-artist|Яздархо
+exif-colorspace|Басара аре
+exif-pixelydimension|Сурта шерал
+exif-pixelxdimension|Сурта лакхал
+exif-writer|Яздама да
+exif-languagecode|Мотт
+exif-iimcategory|Цатег
+exif-scenecapturetype-1|ЛаьттабIаса
+exif-scenecapturetype-2|Сурт
+exif-iimcategory-edu|Дешар
+exif-iimcategory-evn|Арен буне
+exif-iimcategory-hth|Могар
+exif-iimcategory-hum|Адамий искараш
+exif-iimcategory-rel|Дини тешари
+exif-iimcategory-sci|Iилмаи кулгболхи
+exif-iimcategory-soi|Сагий хаттараш
+exif-iimcategory-spo|Нидзоамал
+exif-iimcategory-war|ТIемаш, кховсамаши латтараши
+exif-iimcategory-wea|Хаоттам
+edit-externally|Йола болхоагIувца паьла гIалатах мукъаяьккха
+edit-externally-help|(ма даррачунга хьажа [//www.mediawiki.org/wiki/Manual:External_editors хьаоттама кулгалхо])
+watchlistall2|деррига
+namespacesall|деррига
+monthsall|деррига
+limitall|деррига
+confirm_purge_button|ХIаа
+imgmultigo|Дехьавала/яла!
+imgmultigoto|~{0} оагIув тIа дехьавала
+table_pager_limit_submit|Кхоачашде
+watchlisttools-view|Дагарчера оагIувнаш тIа хувцамаш
+watchlisttools-edit|Дагарче хьажа/хувца
+watchlisttools-raw|Яздам мо хувца
+duplicate-defaultsort|Зем бе. Сатийна дIа-хьа хьоржама доагI "~{1}" хьалхара сатийна дIа-хьа хьоржама доагI "~{0}" хьахьоржа.
+version|Доржам
+version-specialpages|ГIулакхий оагIувнаш
+version-version|(Доржам ~{0})
+version-software-version|Доржам
+fileduplicatesearch-filename|ПаьлацIи:
+fileduplicatesearch-submit|Лаха
+specialpages|ГIулакхий оагIувнаш
+specialpages-group-users|Дакъалаьцархой, цара бокъо
+specialpages-group-pages|ОагIувний дагарченаш
+specialpages-group-pagetools|ОагIувнаша гIирсаш
+external_image_whitelist|#Ер мугI ший долаш тайпара дита<pre>\n#Каст-каста оаламаш укхаза дIаязаде(юкъе дола дакъа //)\n#арара суртий URLца дIанийсалургда уш.\n#Пайдан дола, сурташ мо хьахьекха хургья, дахIодараш, сурта тIа Iинкаш мо хуpгья хьахьекха.\n#Укх # тамагIалгаца дIадувлаш дола мугIанаш, оалам мо лоархаш да.\n#МугIанаш яздaтакха каьда да\n\n#Каст-каста оаламаш укх мугIа лакхе дIаязаде. Из мугI ший долаш тайпара дита</pre>
+tag-filter|[[Special:Tags\u007CЙоазоний]] цIенаярг:
+tag-filter-submit|ЦIенъе
+tags-title|Йоазонаш
+tags-tag|Йоазон цIи
+tags-hitcount-header|Белгалаяь хувцамаш
+tags-edit|хувца
+tags-hitcount|~{0} {{PLURAL:~{0}\u007Cхувцам\u007Cхувцамаш}}
+compare-page1|1. ОагIув
+compare-page2|2. ОагIув
+compare-rev1|1. Доржам
+compare-rev2|2. Доржам
+dberr-header|Укх массано халонаш ловш латта
+htmlform-submit|ДIадахьийта
+htmlform-reset|Хувцамаш юхадаккха
+htmlform-selectorother-other|Кхыдола
+rightsnone|(а)
+categorytree|Цатегий гаьн
+categorytree-portlet|Цатегаш
+categorytree-legend|Цатегий гаьн хьахьокха
+categorytree-category|Цатег:
+categorytree-go|Га хьокха
+categorytree-parents|Даь-ноаной цатегаш
+categorytree-mode-categories|Алха цатегаш
+categorytree-mode-all|eррига оагIувнаш
+categorytree-num-empty|яьсса
+categorytree-load|чуяьккха
+categorytree-loading|чуяьккхаш латт...
+categorytree-nothing-found|Укх цатего цхьаккха чурацатега чу ца лоац
+categorytree-no-subcategories|чурацатегаш яц
+categorytree-no-parent-categories|даь-ноаной чурацатегаш яц
+categorytree-no-pages|чурацатегашеи йоазувнашеи яц
+wikieditor-toolbar-characters-page-latin|Лаьтмий
+wikieditor-toolbar-characters-page-greek|Джелтий
+wikieditor-toolbar-characters-page-cyrillic|Цырилиций
+wikieditor-toolbar-characters-page-arabic|Ӏарбий
+wikieditor-toolbar-characters-page-persian|Фаьранзий
+wikieditor-toolbar-characters-page-hebrew|Жугтий
+sitesupport|СагӀа
+']:>
+).lang
+;

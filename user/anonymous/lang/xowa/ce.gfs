@@ -1,0 +1,1997 @@
+this
+.fallback_load('ru')
+.ns_names
+  .load_text(
+<:['
+-2|Медиа
+-1|Белхан
+1|Дийцаре
+2|Декъашхо
+3|Декъашхон дийцаре
+5|{{GRAMMAR:genitive\u007C$1}} дийцаре
+6|Файл
+7|Файлан дийцаре
+8|MediaWiki
+9|MediaWiki дийцаре
+10|Кеп
+11|Кепан дийцаре
+12|ГӀо
+13|ГӀо дийцаре
+14|Категори
+15|Категорин дийцаре
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+-2|Медйа
+-1|Башхо
+1|Дийца
+2|Юзер
+3|Юзери дийца
+3|Дийцаре декъашхо
+5|$1 Дийца
+5|Дийцаре {{GRAMMAR:genitive\u007C$1}}
+6|Сурт
+7|Сурти дийца
+6|Хlум
+7|Хlуман дийцаре
+7|Дийцаре хlуман
+8|МедйаВики
+9|МедйаВики дийца
+9|MediaWiki Дийцаре
+10|Дакъан
+11|Дакъан дийца
+10|Куцкеп
+11|Куцкеп дийцаре
+12|ГІо
+13|ГІодан дийца
+12|Гlо
+13|Гlон дийцаре
+14|Тоба
+15|Тобан дийца
+14|Кадегар
+15|Кадегар дийцаре
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+redirect|0|#дlасахьажайар\\'~\\'#хьажайо\\'~\\'#REDIRECT~#перенаправление~#перенапр~#REDIRECT~
+notoc|0|__БАЦ_ЧУЛАЦАМ__~__БАЦ_ЧУЛ__~__БЕЗ_ОГЛАВЛЕНИЯ__~__БЕЗ_ОГЛ__~__NOTOC__~
+nogallery|0|__ЙАЦ_УЧЕ__~__БЕЗ_ГАЛЕРЕИ__~__NOGALLERY__~
+forcetoc|0|__ТlЕДУЬЛЛУ_ЧУЛАЦАМБАР__~__ТlЕДУЬЛ_ЧУЛ__~__ОБЯЗАТЕЛЬНОЕ_ОГЛАВЛЕНИЕ__~__ОБЯЗ_ОГЛ__~__FORCETOC__~
+toc|0|__ЧУЛАЦАМ__~__ЧУЛ__~__ОГЛАВЛЕНИЕ__~__ОГЛ__~__TOC__~
+noeditsection|0|__ЦАМЕГ_РЕДАККХА_АГlОН__~__БЕЗ_РЕДАКТИРОВАНИЯ_РАЗДЕЛА__~__NOEDITSECTION__~
+currentmonth|1|КАРАРА_БУТТ~КАРАРА_БУТТ_2~ТЕКУЩИЙ_МЕСЯЦ~ТЕКУЩИЙ_МЕСЯЦ_2~CURRENTMONTH~CURRENTMONTH2~
+currentmonth1|1|КАРАРА_БУТТ_1~ТЕКУЩИЙ_МЕСЯЦ_1~CURRENTMONTH1~
+currentmonthname|1|КАРАРАЧУ_БЕТТА_ЦlЕ~НАЗВАНИЕ_ТЕКУЩЕГО_МЕСЯЦА~CURRENTMONTHNAME~
+currentmonthnamegen|1|КАРАРАЧУ_БЕТТА_ЦlЕ_МУХ~НАЗВАНИЕ_ТЕКУЩЕГО_МЕСЯЦА_РОД~CURRENTMONTHNAMEGEN~
+currentmonthabbrev|1|КАРАРАЧУ_БЕТТА_ЦlЕ_АБР~НАЗВАНИЕ_ТЕКУЩЕГО_МЕСЯЦА_АБР~CURRENTMONTHABBREV~
+currentday|1|КАРАРА_ДЕ~ТЕКУЩИЙ_ДЕНЬ~CURRENTDAY~
+currentday2|1|КАРАРА_ДЕ_2~ТЕКУЩИЙ_ДЕНЬ_2~CURRENTDAY2~
+currentdayname|1|КАРАРАЧУ_ДЕ_ЦlЕ~НАЗВАНИЕ_ТЕКУЩЕГО_ДНЯ~CURRENTDAYNAME~
+currentyear|1|КАРАРА_ШО~ТЕКУЩИЙ_ГОД~CURRENTYEAR~
+currenttime|1|КАРАРА_ХАН~ТЕКУЩЕЕ_ВРЕМЯ~CURRENTTIME~
+currenthour|1|КАРАРА_САХЬТ~ТЕКУЩИЙ_ЧАС~CURRENTHOUR~
+localmonth|1|МЕТТИГАН_БУТТ~МЕСТНЫЙ_МЕСЯЦ_2~МЕСТНЫЙ_МЕСЯЦ~LOCALMONTH~LOCALMONTH2~
+localmonth1|1|МЕТТИГАН_БУТТ_1~МЕСТНЫЙ_МЕСЯЦ_1~LOCALMONTH1~
+localmonthname|1|МЕТТИГАН_БЕТТА_ЦlЕ~НАЗВАНИЕ_МЕСТНОГО_МЕСЯЦА~LOCALMONTHNAME~
+localmonthnamegen|1|МЕТТИГАН_БЕТТА_ЦlЕ_МУХ~НАЗВАНИЕ_МЕСТНОГО_МЕСЯЦА_РОД~LOCALMONTHNAMEGEN~
+localmonthabbrev|1|МЕТТИГАН_БЕТТА_ЦlЕ_АБР~НАЗВАНИЕ_МЕСТНОГО_МЕСЯЦА_АБР~LOCALMONTHABBREV~
+localday|1|МЕТТИГАН_ДЕ~МЕСТНЫЙ_ДЕНЬ~LOCALDAY~
+localday2|1|МЕТТИГАН_ДЕ_2~МЕСТНЫЙ_ДЕНЬ_2~LOCALDAY2~
+localdayname|1|МЕТТИГАН_ДЕ_ЦlЕ~НАЗВАНИЕ_МЕСТНОГО_ДНЯ~LOCALDAYNAME~
+localyear|1|МЕТТИГАН_ШО~МЕСТНЫЙ_ГОД~LOCALYEAR~
+localtime|1|МЕТТИГАН_ХАН~МЕСТНОЕ_ВРЕМЯ~LOCALTIME~
+localhour|1|МЕТТИГАН_САХЬТ~МЕСТНЫЙ_ЧАС~LOCALHOUR~
+numberofpages|1|АГlОНИЙ_ДУКХАЛЛА~КОЛИЧЕСТВО_СТРАНИЦ~NUMBEROFPAGES~
+numberofarticles|1|ЯЗЗАМАШИ_ДУКХАЛЛА~КОЛИЧЕСТВО_СТАТЕЙ~NUMBEROFARTICLES~
+numberoffiles|1|ХlУМНИЙ_ДУКХАЛЛА~КОЛИЧЕСТВО_ФАЙЛОВ~NUMBEROFFILES~
+numberofusers|1|ДЕКЪАШХОЙ_ДУКХАЛЛА~КОЛИЧЕСТВО_УЧАСТНИКОВ~NUMBEROFUSERS~
+numberofactiveusers|1|ДУКХАЛЛА_ЖИГАРА_ДЕКЪАШХОЙ~КОЛИЧЕСТВО_АКТИВНЫХ_УЧАСТНИКОВ~NUMBEROFACTIVEUSERS~
+numberofedits|1|НИСДАРШИЙ_ДУКХАЛЛА~КОЛИЧЕСТВО_ПРАВОК~NUMBEROFEDITS~
+numberofviews|1|ХЬАЖАРИЙ_ДУКХАЛЛА~КОЛИЧЕСТВО_ПРОСМОТРОВ~NUMBEROFVIEWS~
+pagename|1|АГlОН_ЦlЕ~НАЗВАНИЕ_СТРАНИЦЫ~PAGENAME~
+pagenamee|1|АГlОН_ЦlЕ_2~НАЗВАНИЕ_СТРАНИЦЫ_2~PAGENAMEE~
+namespace|1|ЦlЕРИ_АНА~ПРОСТРАНСТВО_ИМЁН~NAMESPACE~
+namespacee|1|ЦlЕРИ_АНА_2~ПРОСТРАНСТВО_ИМЁН_2~NAMESPACEE~
+talkspace|1|ДИЙЦАРШИ_АНА~ПРОСТРАНСТВО_ОБСУЖДЕНИЙ~TALKSPACE~
+talkspacee|1|ДИЙЦАРШИ_АНА_2~ПРОСТРАНСТВО_ОБСУЖДЕНИЙ_2~TALKSPACEE~
+subjectspace|1|ЯЗЗАМАШИ_АНА~ПРОСТРАНСТВО_СТАТЕЙ~SUBJECTSPACE~ARTICLESPACE~
+subjectspacee|1|ЯЗЗАМАШИ_АНА_2~ПРОСТРАНСТВО_СТАТЕЙ_2~SUBJECTSPACEE~ARTICLESPACEE~
+fullpagename|1|ЮЬЗЗИНА_АГlОН_ЦlЕ~ПОЛНОЕ_НАЗВАНИЕ_СТРАНИЦЫ~FULLPAGENAME~
+fullpagenamee|1|ЮЬЗЗИНА_АГlОН_ЦlЕ_2~ПОЛНОЕ_НАЗВАНИЕ_СТРАНИЦЫ_2~FULLPAGENAMEE~
+subpagename|1|АГlОН_КlЕЛАРА_ЦlЕ~НАЗВАНИЕ_ПОДСТРАНИЦЫ~SUBPAGENAME~
+subpagenamee|1|АГlОН_КlЕЛАРА_ЦlЕ_2~НАЗВАНИЕ_ПОДСТРАНИЦЫ_2~SUBPAGENAMEE~
+basepagename|1|АГlОН_ЦlЕРА_БУХ~ОСНОВА_НАЗВАНИЯ_СТРАНИЦЫ~BASEPAGENAME~
+basepagenamee|1|АГlОН_ЦlЕРА_БУХ_2~ОСНОВА_НАЗВАНИЯ_СТРАНИЦЫ_2~BASEPAGENAMEE~
+talkpagename|1|ДИЙЦАРЕ_АГlОН_ЦlЕ~НАЗВАНИЕ_СТРАНИЦЫ_ОБСУЖДЕНИЯ~TALKPAGENAME~
+talkpagenamee|1|ДИЙЦАРЕ_АГlОН_ЦlЕ_2~НАЗВАНИЕ_СТРАНИЦЫ_ОБСУЖДЕНИЯ_2~TALKPAGENAMEE~
+subjectpagename|1|АГlОН_ЯЗЗАМАН_ЦlЕ~НАЗВАНИЕ_СТРАНИЦЫ_СТАТЬИ~SUBJECTPAGENAME~ARTICLEPAGENAME~
+subjectpagenamee|1|АГlОН_ЯЗЗАМАН_ЦlЕ_2~НАЗВАНИЕ_СТРАНИЦЫ_СТАТЬИ_2~SUBJECTPAGENAMEE~ARTICLEPAGENAMEE~
+msg|0|ХААМ~СООБЩЕНИЕ~СООБЩ~MSG~
+subst|0|ХlОТТОР:~ХlОТТ:~ПОДСТАНОВКА:~ПОДСТ:~SUBST:~
+msgnw|0|ВИКИ_ХААМ_БОЦАШ~СООБЩ_БЕЗ_ВИКИ~MSGNW~
+img_thumbnail|1|жима~жимо~мини~миниатюра~thumbnail~thumb~
+img_manualthumb|1|жима=$1~жимо=$1~мини=$1~миниатюра=$1~thumbnail=$1~thumb=$1~
+img_right|1|бакъхьа~справа~right~
+img_left|1|харцхьа~слева~left~
+img_none|1|йоцуш~без~none~
+img_width|1|$1цинт~$1пкс~$1px~
+img_center|1|юккъ~центр~center~centre~
+img_framed|1|гурабе~обрамить~framed~enframed~frame~
+img_frameless|1|гурабоцаш~безрамки~frameless~
+img_page|1|агlо=$1~агlо_$1~page_$1~страница=$1~страница $1~page=$1~page $1~
+img_upright|1|бакъхьалакхо~бакъхьалакхо=$1~бакъхьалакхо_$1~upright_$1~сверхусправа~сверхусправа=$1~сверхусправа $1~upright~upright=$1~upright $1~
+img_border|1|доза~граница~border~
+img_baseline|1|бух~основание~baseline~
+img_sub|1|буха~под~sub~
+img_super|1|тlе~над~super~sup~
+img_top|1|лакхахь~сверху~top~
+img_text_top|1|лакххьара-йоза~текст-сверху~text-top~
+img_middle|1|юккъе~посередине~middle~
+img_bottom|1|бухар~снизу~bottom~
+img_text_bottom|1|бухара-йоза~текст-снизу~text-bottom~
+img_link|1|хьажориг=$1~ссылка=$1~link=$1~
+img_alt|1|альт=$1~alt=$1~
+int|0|ЧУЬРА~ВНУТР~INT~
+sitename|1|МЕТТИГ_ЦlЕ~НАЗВАНИЕ_САЙТА~SITENAME~
+ns|0|БО~ПИ~NS~
+nse|0|БОХЬ~ПИК~NSE~
+localurl|0|ХlОТТАЕЛЛА_МЕТТИГ~ЛОКАЛЬНЫЙ_АДРЕС~LOCALURL~
+localurle|0|ХlОТТАЕЛЛА_МЕТТИГ_2~ЛОКАЛЬНЫЙ_АДРЕС_2~LOCALURLE~
+server|0|ГlУЛКХДИРИГ~СЕРВЕР~SERVER~
+servername|0|ГlУЛКХДЕЧУЬНА_ЦlЕ~НАЗВАНИЕ_СЕРВЕРА~SERVERNAME~
+scriptpath|0|НЕКЪ_ОЦ_МЕТТАКЕПА~ПУТЬ_К_СКРИПТУ~SCRIPTPATH~
+stylepath|0|ЙОМАНХАТl~ПУТЬ_К_СТИЛЮ~STYLEPATH~
+grammar|0|ДОЖАР~ПАДЕЖ~GRAMMAR~
+gender|0|ВУ_ЙУ~GENDER~ПОЛ~GENDER~
+notitleconvert|0|__ХИЙЦАР_ДОЦУШ_КОЬРТЕ__~__БЕЗ_ПРЕОБРАЗОВАНИЯ_ЗАГОЛОВКА__~__NOTITLECONVERT__~__NOTC__~
+nocontentconvert|0|__ЙОЗА_ХИЙЦАР_ДОЦУШ__~__БЕЗ_ПРЕОБРАЗОВАНИЯ_ТЕКСТА__~__NOCONTENTCONVERT__~__NOCC__~
+currentweek|1|КАРАРА_КlИР~ТЕКУЩАЯ_НЕДЕЛЯ~CURRENTWEEK~
+currentdow|1|КАРАРА_КlИРАН_ДЕ~ТЕКУЩИЙ_ДЕНЬ_НЕДЕЛИ~CURRENTDOW~
+localweek|1|МЕТТИГЕРА_КlИРА~МЕСТНАЯ_НЕДЕЛЯ~LOCALWEEK~
+localdow|1|МЕТТИГАН_КlИРАН_ДЕ~МЕСТНЫЙ_ДЕНЬ_НЕДЕЛИ~LOCALDOW~
+revisionid|1|ЦУЬНА_БАШХО~ИД_ВЕРСИИ~REVISIONID~
+revisionday|1|ДЕ_БАШХО~ДЕНЬ_ВЕРСИИ~REVISIONDAY~
+revisionday2|1|ДЕ_БАШХО_2~ДЕНЬ_ВЕРСИИ_2~REVISIONDAY2~
+revisionmonth|1|БЕТТА_БАШХО~МЕСЯЦ_ВЕРСИИ~REVISIONMONTH~
+revisionyear|1|ШО_БАШХО~ГОД_ВЕРСИИ~REVISIONYEAR~
+revisiontimestamp|1|КЪАСТАМ_ХЕНА_БАШХО~ОТМЕТКА_ВРЕМЕНИ_ВЕРСИИ~REVISIONTIMESTAMP~
+revisionuser|1|ДЕКЪАШХОН_БАШХО~ВЕРСИЯ_УЧАСНИКА~ВЕРСИЯ_УЧАСТНИКА~REVISIONUSER~
+plural|0|ДУКХАЛЛИН_ТЕРАХЬ~МНОЖЕСТВЕННОЕ_ЧИСЛО~PLURAL~
+fullurl|0|МАЙАРРА_МЕТТИГ~ПОЛНЫЙ_АДРЕС~FULLURL~
+fullurle|0|МАЙАРРА_МЕТТИГ_2~ПОЛНЫЙ_АДРЕС_2~FULLURLE~
+lcfirst|0|ХЬАЛХАР_ЭЛП_ЖИМА~ПЕРВАЯ_БУКВА_МАЛЕНЬКАЯ~LCFIRST~
+ucfirst|0|ХЬАЛХАР_ЭЛП_ДОККХА~ПЕРВАЯ_БУКВА_БОЛЬШАЯ~UCFIRST~
+lc|0|КЕГИЙЧУ_ЭЛПАШЦА~МАЛЕНЬКИМИ_БУКВАМИ~LC~
+uc|0|ДАККХИЙЧУ_ЭЛПАШЦА~БОЛЬШИМИ_БУКВАМИ~UC~
+raw|0|ТАЙАНЗА~НЕОБРАБ~RAW~
+displaytitle|1|ГАЙТА_КОЬРТАМОГl~ПОКАЗАТЬ_ЗАГОЛОВОК~DISPLAYTITLE~
+rawsuffix|1|Т~Н~R~
+newsectionlink|1|__ХЬАЖОРИГ_ОЦ_КЕРЛАЧУ_ДЕКЪАН__~__ССЫЛКА_НА_НОВЫЙ_РАЗДЕЛ__~__NEWSECTIONLINK__~
+nonewsectionlink|1|__ЙОЦАШ_ХЬАЖОРИГ_ОЦ_КЕРЛАЧУ_ДЕКЪАН__~__БЕЗ_ССЫЛКИ_НА_НОВЫЙ_РАЗДЕЛ__~__NONEWSECTIONLINK__~
+currentversion|1|ЙОЛШЙОЛУ_БАШХО~ТЕКУЩАЯ_ВЕРСИЯ~CURRENTVERSION~
+urlencode|0|ИШАРЙИНА_МЕТТИГ~ЗАКОДИРОВАННЫЙ_АДРЕС~URLENCODE~
+anchorencode|0|ИШАРЙАР_МЕТТИГАН~КОДИРОВАТЬ_МЕТКУ~ANCHORENCODE~
+currenttimestamp|1|КЪАСТАМ_ЙОЛУЧУ_ХАННА~ОТМЕТКА_ТЕКУЩЕГО_ВРЕМЕНИ~CURRENTTIMESTAMP~
+localtimestamp|1|КЪАСТАМ_МЕТТИГА_ХАННА~ОТМЕТКА_МЕСТНОГО_ВРЕМЕНИ~LOCALTIMESTAMP~
+directionmark|1|ХЬАЖОЧЕ_ХААМ~НАПРАВЛЕНИЕ_ПИСЬМА~DIRECTIONMARK~DIRMARK~
+language|0|#МОТТ~#ЯЗЫК~#LANGUAGE~
+contentlanguage|1|МОТТ_ЧУЛАЦАМ~ЯЗЫК_СОДЕРЖАНИЯ~CONTENTLANGUAGE~CONTENTLANG~
+pagesinnamespace|1|АГlОНАШ_ОЦ_ЦlЕРАШКАХЬ~СТРАНИЦ_В_ПРОСТРАНСТВЕ_ИМЁН~PAGESINNAMESPACE~PAGESINNS~
+numberofadmins|1|АДМАНКУЬГАЛХОЙ_ДУКХАЛЛА~КОЛИЧЕСТВО_АДМИНИСТРАТОРОВ~NUMBEROFADMINS~
+formatnum|0|ТЕРАХЬАН_БАРАМХlОТТОР~ФОРМАТИРОВАТЬ_ЧИСЛО~FORMATNUM~
+padleft|0|ЙУЗА_ХАРЦЕ~ЗАПОЛНИТЬ_СЛЕВА~PADLEFT~
+padright|0|ЙУЗА_БАКЪЕ~ЗАПОЛНИТЬ_СПРАВА~PADRIGHT~
+special|0|белхан~гlуллакхан~служебная~special~
+defaultsort|1|ЛИСТАР_ЦАХЬЕХОР~ДОГlА_ЛИСТАРАН~СОРТИРОВКА_ПО_УМОЛЧАНИЮ~КЛЮЧ_СОРТИРОВКИ~DEFAULTSORT~DEFAULTSORTKEY~DEFAULTCATEGORYSORT~
+filepath|0|ОЦ_ХlУМАНТlЕ_НЕКЪ~ПУТЬ_К_ФАЙЛУ~FILEPATH~
+tag|0|къастам~къасто~къаст~метка~тег~тэг~#tag~
+hiddencat|1|__КЪАЙЛАХЙОЛУ_КАДЕГАР__~__СКРЫТАЯ_КАТЕГОРИЯ__~__HIDDENCAT__~
+pagesincategory|1|АГlОНАШ_ОЦУ_КАДЕГАРШЧОХЬ~СТРАНИЦ_В_КАТЕГОРИИ~PAGESINCATEGORY~PAGESINCAT~
+pagesize|1|АГlОН_БАРАМ~РАЗМЕР_СТРАНИЦЫ~PAGESIZE~
+index|1|__МЕТТИГТЕРАХЬ__~__ИНДЕКС__~__INDEX__~
+noindex|1|__МЕТТИГТЕРАХЬ_ЙОЦАШ__~__БЕЗ_ИНДЕКСА__~__NOINDEX__~
+numberingroup|1|ТЕРАХЬ_ОЦ_ТОБАНЦА~ЧИСЛО_В_ГРУППЕ~NUMBERINGROUP~NUMINGROUP~
+staticredirect|1|__БУХЕХЬДЕРГ_ДlАСХЬАЖАЙАР__~__СТАТИЧЕСКОЕ_ПЕРЕНАПРАВЛЕНИЕ__~__STATICREDIRECT__~
+protectionlevel|1|ГlАРОЛЛИ_БАРАМ~УРОВЕНЬ_ЗАЩИТЫ~PROTECTIONLEVEL~
+formatdate|0|#терахьибарам~#форматдаты~#formatdate~#dateformat~
+url_path|0|ЙОМА~ПУТЬ~PATH~
+url_wiki|0|ЧЕХКА~ВИКИ~WIKI~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#хан~#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|кlиран де
+monday|Оршот
+tuesday|Шинара
+wednesday|Кхаара
+thursday|Еара
+friday|Пlераска
+saturday|Шот
+sun|Кlи
+mon|Ор
+tue|Ши
+wed|Кх
+thu|Еа
+fri|Пle
+sat|Шот
+january|январь
+february|февраль
+march|март
+april|апрель
+may_long|май
+june|июнь
+july|июль
+august|август
+september|сентябрь
+october|октябрь
+november|ноябрь
+december|декабрь
+january-gen|январь
+february-gen|февраль
+march-gen|март
+april-gen|апрель
+may-gen|май
+june-gen|июнь
+july-gen|июль
+august-gen|август
+september-gen|сентябрь
+october-gen|октябрь
+november-gen|ноябрь
+december-gen|декабрь
+jan|январь
+feb|февраль
+mar|март
+apr|апрель
+may|май
+jun|июнь
+jul|июль
+aug|август
+sep|сентябрь
+oct|октябрь
+nov|ноябрь
+dec|декабрь
+pfunc_time_error|Гlалато: хан нийса яц
+pfunc_expr_stack_exhausted|Яздарехь гlалат ду: хьаладуьззина татол
+pfunc_expr_unrecognised_word|Яздарехь гlалат ду: дойзуш доцу дош «~{0}»
+pfunc_expr_unexpected_operator|Дешнийн гӀалам : ца хаа оператор ~{0}
+pfunc_expr_unrecognised_punctuation|Дешнашан гӀалат: евзина йоцу пунктуацин символ «~{0}»
+toc|Чулацам
+redirectedfrom|(Дlасахьажийна кху ~{0})
+allpages|Массо агlонаш
+prevpage|Хьалхалера агlо (~{0})
+nextpage|Тlаьхьа йогlу агlо (~{0})
+collapsible-collapse|къайла яккха
+collapsible-expand|хьайаста
+sort-descending|Ма хийла нисяр
+sort-ascending|Ма хила нисяр
+categories|Категореш
+lastmodifiedat|Хlокху агlон тlаьххьаралера хийцам: ~{1}, ~{0}.
+thumbnail-more|Доккха де
+otherlanguages|Кхечу маттахь дерш
+blanknamespace|(Коьрта)
+pagecategories|{{PLURAL:~{0}\u007CКатегори\u007CКатегореш}}
+category_header|Агlонаш оц категоречохь «~{0}»
+subcategories|Бухаркатегореш
+category-media-header|Файлаш оцу категори чохь «~{0}»
+category-empty|''ХӀара категори хӀинца йаьсса ю.''
+category-subcat-count|{{PLURAL:~{1}\u007CХӀокх категори чохь ю хӀокхуьна бухар категори.\u007C{{PLURAL:~{0}\u007CГойташ ~{0} бухар категори\u007CГойту ~{0} бухар категори\u007CГойту ~{0} бухар категори}} оцу ~{1}.}}
+category-subcat-count-limited|Хlокх категори чохь {{PLURAL:~{0}\u007C~{0} бухар категори\u007C~{0} бухар категореша\u007C~{0} бухар категореш}}.
+category-article-count|{{PLURAL:~{1}\u007CХӀокх категори чохь яц цхьа агӀо бе.\u007C{{PLURAL:~{0}\u007CГойташ ~{0} агӀо\u007CГойту ~{0} агӀонаш\u007CГойту ~{0} агӀонаш}} хӀокх категорешца кху ~{1}.}}
+category-article-count-limited|Хlокх категори чохь {{PLURAL:~{0}\u007C~{0} агlо\u007C~{0} агlонаш\u007C~{0} агlонаш}}.
+category-file-count|{{PLURAL:~{1}\u007CХӀокх категори чохь цхьа файл бе яц.\u007C{{PLURAL:~{0}\u007CГойта ~{0} файл\u007CГойту ~{0} файл\u007CГойту ~{0} файлаш}} хӀокх категорешца кху ~{1}.}}
+category-file-count-limited|ХӀокх категори чохь {{PLURAL:~{0}\u007C~{0} файл\u007C~{0} файл\u007C~{0} файлаш}}.
+nextn|{{PLURAL:~{0}\u007Cтlаьхьйогlург ~{0}\u007Cтlаьхьйогlурш ~{0}\u007Cтlаьхьйогlурш ~{0}}}
+prevn|{{PLURAL:~{0}\u007Cхьалхарниг ~{0}\u007Cхьалхарнаш ~{0}\u007Cхьалхарнаш ~{0}}}
+listingcontinuesabbrev|(кхин дlа)
+showingresultsheader|{{PLURAL:~{4}\u007CХилам '''~{0}''' кху '''~{2}'''\u007CХиламаш '''~{0} — ~{1}''' кху '''~{2}'''}} оцун '''~{3}'''
+bold_sample|Дерстино до йоза
+bold_tip|Дерстино до йоза
+italic_sample|Курсеттан до йоза
+italic_tip|Курсеттан до йоза
+link_sample|Хьажориган коьрта могlа
+link_tip|Чоьхьа хьажориг
+headline_sample|Йозан корта
+headline_tip|Корта 2-гlа локхаллийца
+wikieditor-toolbar-tool-ulist|Къастам бина могlам
+wikieditor-toolbar-tool-ulist-example|Къастам бина могlаман файл
+wikieditor-toolbar-tool-olist|Терахьца болу могlам
+wikieditor-toolbar-tool-olist-example|Терахьца болу могlаман файл
+hidden-category-category|Къайлаха йолу категореш
+statistics|Бухехьдерг
+statistics-header-pages|Агlонашан жамlа
+statistics-articles|Яззамаш
+statistics-pages|Агlонаш
+statistics-pages-desc|Массо вики агlонаш, дийцаре агlонашцани, дlасахьаждарш а кхин дерш.
+tog-underline|Кlел сиз хьака хьажориган:
+tog-justify|Нисде йоза шораллий агlонца
+tog-hideminor|Къайладаха кигийра нисдарш оц могlама керла хийцамехь
+tog-hidepatrolled|Къайладаха гlаролладина нисдарш оц могlама керла нисдашкахь
+tog-newpageshidepatrolled|Къайлайаха гlароллайина агlонаш оц могlама керла агlонашкахь
+tog-extendwatchlist|Шорбина тlехьажарна могlам, ша беригге а хийцамаш чубогlуш, тlяхьабина боцурш а
+tog-usenewrc|Лелабе дика могlам керла чу хийцамашна (оьшу JavaScript)
+tog-numberheadings|Ша шех хlитто терахь корташна
+tog-showtoolbar|Гайта лакхара гlирсан дакъа нисйеш аттон оц тадар чохь (JavaScript)
+tog-editondblclick|Нисйе агlонаш шозза тlетаlийча (JavaScript)
+tog-editsection|Гайта хьажориг «нисйе» аьлла хlора агlона
+tog-editsectiononrightclick|Нисде дакъа шозза бакъехьар дахка тlетаlийча оцу кортан (JavaScript)
+tog-showtoc|Гойти коьртнаш (оцу агlонашна лаххара 3 коьртнашца)
+tog-rememberpassword|Даглаца сан дlавазвалар/ялар хlокху гlулкхдечу гlирса тlяхь (цхьан ~{0} {{PLURAL:~{0}\u007Cде\u007Cден\u007Cдинахь}})
+tog-watchcreations|Тlетоха ас кхоллина агlонаш тергаме могlам чу
+tog-watchdefault|Тlетоха ас нисйина агlонаш тергаме могlам чу
+tog-watchmoves|Тlетоха ас цlераш хийцина агlонаш тергаме могlам чу
+tog-watchdeletion|Тlетоха ас дӀаяхина агlонаш тергаме могlам чу
+tog-minordefault|Къастам бе нисйиначарн хlумцадеш кегийра долушсанна
+tog-previewontop|Чуяккха хьалххьажар рéдоккхучу кора хьалха
+tog-previewonfirst|Гайта хьалххьажар рéдоккхуче дехьа волуш
+tog-nocache|Ма латае гойтучун къайлаха латториг
+tog-enotifwatchlistpages|Хаам бо зlе чухул, тергаме могlаман хийцамах лаьцна
+tog-enotifusertalkpages|Хаам бо зlе чухул, долахь йолу дийцаре агlон хийцамах лаьцна
+tog-enotifminoredits|Хаам бо зlе чухул, цхьа жимма а хийцамаш биняхь
+tog-enotifrevealaddr|Гайта сан зlе оцу хаамаш барехь
+tog-shownumberswatching|Гайта декъашхойн терахь, агlо латийна болу шай тергаме могlам юкъа
+tog-oldsig|Хьалххьажар долучу куьгтаlорна:
+tog-fancysig|Шен вики-къастаман куьгтаlдар (ша шех хьажориг йоцуш)
+tog-showjumplinks|Латайе гlодарна хьажоригаш «дехьа вала оцу»
+tog-uselivepreview|Лелайа чехка хьалха хьажа (JavaScript, муха ю хьажарна)
+tog-forceeditsummary|Дага даийта, нагахь нисйарх лаьцна чохь язъйина язахь
+tog-watchlisthideown|Къайлаяха ас нисйинарш оцу тергаме могlам чура
+tog-watchlisthidebots|Къайладаха шаболх бечо нисдинарш оцу тергаме могlам чура
+tog-watchlisthideminor|Къайладаха кегийра нисдарш оцу тергаме могlам чура
+tog-watchlisthideliu|Къайладаха вовзийтина болу декъашхойн нисдарш оцу тергаме могlам чура
+tog-watchlisthideanons|Къайладаха къайлаха болу декъашхойн нисдарш оцу тергаме могlам чура
+tog-watchlisthidepatrolled|Къайладаха хьаьжина волу нисдарш оцу тергаме могlам чура
+tog-ccmeonemails|Дlадахьийта суна исанна кехат, аса дохьуьйтуш долу кхечу декъашхошна.
+tog-diffonly|Ма гайта агlон чулацам шина башхонца цхьатерра йолуш
+tog-showhiddencats|Гайта къайлаха йолу категореш
+tog-noconvertlink|Хааман хьажориг кхуллу гlирс дlабайа
+tog-norollbackdiff|Йух яккхиначул тlаьхьа ма гайта къастаман башхо
+tog-useeditwarning|Хаамбе бина хийцамаш дӀаязцабеш ара волучу хенахь
+underline-always|Даимна
+underline-never|Цкъа а
+underline-default|Лелайа браузеран нисйарца
+editfont-style|Тадар чохь долу йозан тайп:
+editfont-default|Йоза оцу хьажгlодириг нисйинчура
+editfont-monospace|Цхьатерра доцу йоза
+editfont-sansserif|Аьтта доцу йоза
+editfont-serif|Аьтта долу йоза
+january-date|Январь ~{0}
+february-date|Февраль ~{0}
+march-date|Март ~{0}
+april-date|Апрель ~{0}
+may-date|Май ~{0}
+june-date|Июнь ~{0}
+july-date|Июль ~{0}
+august-date|Август  ~{0}
+september-date|Сентябрь ~{0}
+october-date|Октябрь ~{0}
+november-date|Ноябрь ~{0}
+december-date|Декабрь ~{0}
+hidden-categories|{{PLURAL:~{0}\u007CКъайлаха категори\u007CКъайлаха йолу категореш}}
+index-category|Меттигтерахьйо агlонаш
+noindex-category|ДӀахьушйоцу агӀонаш
+broken-file-category|{{#switch:{{NAMESPACE}}\n \u007C{{ns:0}}=Болх цабеш файланши хьажоригаш йолу агӀонаш}}
+linkprefix|/^(.*?)([a-zA-Z\\x80-\\xff]+)$/sD
+about|Цуьнах лаьцна
+article|Яззам
+newwindow|(керлачу корехь)
+cancel|Цаоьшу
+moredotdotdot|Кхин дӀа…
+mypage|Долахь йолу агӀо
+mytalk|Сан дийцаре агӀо
+anontalk|Дийцаре хӀара IP-долуметтиг
+navigation|Навигаци
+and| а
+qbfind|Лаха
+qbbrowse|Хьажар
+qbedit|Нисйé
+qbpageoptions|Агlо нисйар
+qbmyoptions|Хьан нисдарш
+qbspecialpages|Леррина агlонаш
+faq|СиХХ
+faqpage|Project:СиХХ
+vector-action-addsection|Тlетоха хьедар
+vector-action-delete|ДӀаяккха
+vector-action-move|Цlе хийца
+vector-action-protect|Гlаролла дé
+vector-action-undelete|Меттахlоттадé
+vector-action-unprotect|Гlароллех къаста
+vector-simplesearch-preference|Шуьйра лахаран хьехар лата де (декъа «Хьушйерг» кечйарца)
+vector-view-create|Кхоллар
+vector-view-edit|Нисйé
+vector-view-history|Хьажа истори
+vector-view-view|Éшар
+vector-view-viewsource|Билглонашка хьажа
+actions|Дийраш
+namespaces|Цlерийн ана
+variants|Кепараш
+navigation-heading|Навигацин меню
+errorpagetitle|Гlалат
+returnto|Юхагlо оцу агlоне ~{0}.
+tagline|Гlирс хlокхуьна бу {{grammar:genitive\u007C{{SITENAME}}}}
+help|Нийсвохаам
+search|Лаха
+searchbutton|Лаха
+go|Дехьа вала
+searcharticle|Дехьа вала
+history|Истори
+history_short|Истори
+updatedmarker|Керла яккхина со чуваьллачултlаьхьа
+printableversion|Зорба туху верси
+permalink|Даиман йолу хьажориг
+print|Зорба тоха
+view|Хьажа
+edit|Нисйé
+create|Кхолла
+editthispage|Нисйé хlара агlо
+create-this-page|Кхолла хlара агlо
+delete|ДӀаяккха
+deletethispage|ДӀаяккха хӀара агӀо
+undeletethispage|ХӀара агӀо меттахӀоттор
+undelete_short|Меттахlоттайé ~{0} {{PLURAL:~{0}\u007Cнисйинарг\u007Cнисйинарш\u007Cнисйинарш}}
+viewdeleted_short|Хьажар {{PLURAL:~{0}\u007C~{0} дlадаьккхина нийсдар\u007C~{0} дlадаьхна нийсдарш\u007C~{0} дlадаьхна нийсдарш}}
+protect|Гlаролла дé
+protect_change|хийца
+protectthispage|Гlаролла дé хlокху агlон
+unprotect|ГӀароллех къаста
+unprotectthispage|ГӀароллех къаста
+newpage|Керла агlо
+talkpage|Дийцаре йила хlара агlо
+talkpagelinktext|Дийцаре
+specialpage|Белха агlо
+personaltools|Долахь болу гlирсаш
+postcomment|Керла дакъа
+articlepage|Хьажа яззаме
+talk|Дийцаре
+views|Хьажарш
+toolbox|Гlирсаш
+userpage|Хьажа декъашхочуьна агlоне
+projectpage|Хьажа кхолламан агlоне
+imagepage|Хьажа файлан агlоне
+mediawikipage|Хьагайта хааман агlо
+templatepage|Хьажа куцкепа агlоне
+viewhelppage|Схьаэца нийсвохаам
+categorypage|Хьажа категореши агӀоне
+viewtalkpage|Хьажа дийцаре
+redirectpagesub|Агlо-дlасахьажайар
+viewcount|Хlокху агlонга хьойсина ~{0} {{PLURAL:~{0}\u007Cза\u007Cза\u007Cза}}.
+protectedpage|Гlароллийца йолу агlо
+jumpto|Дехьавала/яла оцу:
+jumptonavigation|навигаци
+jumptosearch|лаха
+view-pool-error|Бехк цабиллар доьха, хlинц гlулкхдириг йоьттина йу.\nКаьчна дуккха дехарш хlокху агlонтlе хьажарца.\nДехар до, собардеш а йуха хьажа хlокху агlонтlе жим тlаьхьо.\n\n~{0}
+pool-timeout|Блоктоха еза хан тlех йаьлла
+pool-queuefull|Дехаршан чоь йуззина йу
+pool-errorunknown|Дойзаш доцу гlалат
+aboutsite|{{grammar:genitive\u007C{{SITENAME}}}} лаьцна
+aboutpage|Project:Цуьнах лаьцна
+copyright|Чулацам лело мега догlуш хиларца оцу ~{0}.
+copyrightpage|{{ns:project}}:Куьг де бакъо
+currentevents|Хlинцлера хилларш
+currentevents-url|Project:Хlинцлера хилларш
+disclaimers|Бехк тlе ца эцар
+disclaimerpage|Project:Бяхк тlецалацар
+edithelp|Нийсвохаам оцу тадарна
+helppage|Help:Чулацам
+mainpage|Коьрта агӀо
+mainpage-description|Коьрта агlо
+policy-url|Project:Бакъо
+portal|Юкъараллин ков
+portal-url|Project:Юкъараллин ков
+privacy|Политика къайлаха
+privacypage|Project:Политика къайлаха
+badaccess|Тlекхачарехь гlалат
+badaccess-group0|Шуьга кхочуш далур дац дехарца деш дерг
+badaccess-groups|Дехарца деш дерг кхочуш далундерш бу хlара декъашхой оцу {{PLURAL:~{1}\u007Cтобанашах\u007Cтобанах}} ~{0}.
+versionrequired|Оьшу MediaWiki тайпанара ~{0}
+versionrequiredtext|Болх бан хlоку агlонца оьшу MediaWiki тайпан ~{0}. Хьажа. [[Special:Version\u007Cлелочу тайпанара башхонах лаьцна хаам]].
+ok|Хlаъ
+pagetitle|~{0} — {{SITENAME}}
+pagetitle-view-mainpage|{{SITENAME}}
+retrievedfrom|Хьост — «~{0}»
+youhavenewmessages|Хьуна кхечи ~{0} (~{1}).
+newmessageslink|керла хаамаш
+newmessagesdifflink|тlаьххьара хийцамаш
+youhavenewmessagesfromusers|Хьуна кхачанна ~{0} {{PLURAL:~{2}\u007C~{2} декъашхочунгара\u007C~{2} декъашхошкара\u007C~{2} декъашхошкара}} (~{1}).
+newmessageslinkplural|{{PLURAL:~{0}\u007Cкерла хаам}}
+newmessagesdifflinkplural|{{PLURAL:~{0}\u007CтӀаьхьара бина хийцамаш}}
+youhavenewmessagesmulti|Хьуна кхаьчна керла хаам оцу ~{0}
+editsection|нисйé
+editsection-brackets|[~{0}]
+editold|нисйé
+viewsourceold|хьажа йолш йолучу ишаре
+editlink|нисйé
+viewsourcelink|хьажа йолш йолучу ишаре
+editsectionhint|Нисде даакъа: ~{0}
+showtoc|гайта
+hidetoc|дlайаккха
+thisisdeleted|Хьажа йа меттахlоттайé ~{0}?
+viewdeleted|Хьалххьожи ~{0}?
+restorelink|{{PLURAL:~{0}\u007C~{0} дӀадяккхина нийсдар\u007C~{0} дӀадяхна нийсдарш\u007C~{0} дӀадяхна нийсдарш}}
+feedlinks|Оцу хатlаьхь:
+feed-invalid|Тайпан нийсадоцу талол оцу куьгтаlорна.
+feed-unavailable|Хаитарца йолу асанаш тlекхочучехь яц
+site-rss-feed|~{0} — RSS-аса
+site-atom-feed|~{0} — Atom-аса
+page-rss-feed|«~{0}» — RSS-аса
+page-atom-feed|«~{0}» — Atom-аса
+feed-atom|Атом
+feed-rss|RSS
+red-link-title|~{0} (ишта агlо йоцуш йу)
+nstab-main|Яззам
+nstab-user|Декъашхо
+nstab-media|Медиа агӀо
+nstab-special|Белха агlо
+nstab-project|Кхолламех
+nstab-image|Файл
+nstab-mediawiki|Хаам
+nstab-template|Кеп
+nstab-help|Нийсвохаам
+nstab-category|Категори
+nosuchaction|Ишта дийриг дац
+nosuchspecialpage|Ишта белха агlо йац
+nospecialpagetext|<strong>Ишта белхан агӀо яц.</strong>\n\nБелхан агӀонашан могӀам: [[Special:SpecialPages\u007C{{int:specialpages}}]].
+error|Гlалат
+databaseerror|Гlалат хаамийн бухера
+laggedslavemode|Тергам бе: агӀона чохь керла йаьхинарш ца хила мега.
+readonly|Блоктоьхна дӀайаздар хаамийн бухе
+enterlockreason|Билгал де блоктохаран бахьна а и чекх йолу хан а.
+missing-article|Хlокху чохь кароезаш йолу хьан дехарца йозан агlонаш цакарийна «~{0}» ~{1}.\n\nИштнарг наггахь хуьлу хьажориг дlайаьккхина йалхь йа хийцам бина тиша хьажоригца дехьа вала гlоьртича.\n\nНагахьсан гlулкх цуьнах доьзна дацахь, хьуна карийна гlирс латточехь гlалат.\nДехар до, хаам бе оцуьнах [[Special:ListUsers/sysop\u007Cкуьйгалхога]], гойтуш URL.
+missingarticle-rev|(верси № ~{0})
+missingarticle-diff|(тейп тайпнара: ~{0}, ~{1})
+internalerror|Чоьхьара гlалат
+internalerror_info|Чоьхьара гlалат: ~{0}
+fileappenderrorread|Тар ца дели еша «~{0}» тӀетухучу хенахь.
+fileappenderror|Тар ца дели тӀетоха «~{0}» оцунах «~{1}».
+filerenameerror|Файлан «~{0}» цӀе хийца «~{1}» йиш яц.
+filedeleteerror|ДӀаяккха цатарло файл «~{0}».
+filenotfound|Файл «~{0}» каро йиш яц.
+fileexistserror|Файл «~{0}» дӀаязяан йиш яц: файл йолуш ю.
+cannotdelete|Цатарло дӀаяккха я цӀе хийца «~{0}».\nАгӀо хьалхо дӀаяккхина хила тарло
+cannotdelete-title|Цатарло агӀо дӀаяккха «~{0}»
+badtitle|Цамегаш йолу цlе
+badtitletext|Дехарца йолу агlонан цlе нийса яц, йаьсса ю, хила мега нийса ца хlоттийна меттаюкъар йа юкъарвики цlе. Хила мега, цlарца цамагош йолу саберг.
+perfcachedts|Лахара хаам схьаэца кэша чура иза тӀаьхьара цӀинялла ~{0}. Кэша чохь латтаё оцул ~{3} кӀезиг {{PLURAL:~{3}\u007CдӀаяздарш\u007CдӀаяздарш\u007CдӀаяздарш}}.
+viewsource|Хьажар
+viewsource-title|Агӏона ~{0} дуьххьарлера йозане хьажар
+protectedpagetext|ХӀара агӀо дӀакъойлина йу рé цадаккхийта.
+viewsourcetext|Хьоьга далундерг хьажар а дезахь хlокху агlон чура йоза хьаэцар:
+protectedinterface|ХӀара схьгайтарна гӀирса хаамаш латтош йолу агӀо ю. Куьйгалхошна бен иза хийца цало.
+exception-nologin|Ахьа хӀой вовзийтина/йовзийтина вац/яц
+virus-unknownscanner|йозуш йоцу антивирус:
+logouttext|'''Хьо аравела/ела.'''\nХьан йиш ю {{grammar:genitive\u007C{{SITENAME}}}} чохь хьой ца вовзийташ/йовзийташ болх бан я <span class='plainlinks'>[~{0} кхин чувала/яла ]</span> хьой чохь хила цӀарца я кхин цӀарца.\nЦхьа йолу агӀонаш чохь хьо хьай цӀарца болх беш сана хила тарло ишта ца хилийта керлаякха браузеран кэш.
+welcomeuser|Марша ДогӀийла, ~{0}!
+yourname|Декъашхон цlе:
+userlogin-yourname|Декъашхон цӀе
+userlogin-yourname-ph|Язъе декъашхон цӀе
+yourpassword|Ишар:
+userlogin-yourpassword|Ишар
+userlogin-yourpassword-ph|Язъе ишар
+createacct-yourpassword-ph|Язъе ишар
+yourpasswordagain|Юха язъйе ишар:
+createacct-yourpasswordagain|Бакъе ишар
+createacct-yourpasswordagain-ph|Кхин цкъа язъе ишар
+remembermypassword|Даглаца сан дlавазвалар/ялар хlокху гlулкхдечу гlирса тlяхь (цхьан ~{0} {{PLURAL:~{0}\u007Cден\u007Cдинахь\u007Cдинахь}})
+userlogin-remembermypassword|Дагахь латт ве/е со
+userlogin-signwithsecure|Ларийна цхьаьнакхетар
+yourdomainname|Хьан машан меттиг:
+login|Чувалар/ялар
+nav-login-createaccount|Вовзийта/Йовзийта хьой / дӀавазло/дӀаязло
+loginprompt|Ахьа бакъо йала йеза оцу «cookies» хьайна вовзийта лаахь гlирсан.
+userlogin|Чувалар/ялар я декъашхон дӀаяздар кхоллар
+userloginnocreate|Чувалар/ялар
+logout|Аравалар/ялар
+userlogout|Аравалар/ялар
+notloggedin|Хьо вовзийта/йовзийта гlирсан
+userlogin-noaccount|Хlинца дlа вазвина/язйина вац/яц?
+nologin|Хlинца дlа вазвина/язйина вац/яц? '''~{0}'''.
+nologinlink|Кхолла декъашхон дӀаяздар
+createaccount|Кхолла декъашхон дӀаяздар
+gotaccount|Дlавазвелла вуй хьо? '''~{0}'''.
+gotaccountlink|Чувалар/ялар
+userlogin-resetlink|Чуволу/йолу хаам биц бела?
+helplogin-url|Help:Чувалар/ялар
+userlogin-helplink|[[{{MediaWiki:helplogin-url}}\u007CЧувала/яла гӀодар]]
+createacct-join|ДӀаязбе лахахь хай хаам.
+createacct-emailrequired|Электронни почтан адрес
+createacct-emailoptional|Электронни почтан адрес (ца яздича мега)
+createacct-email-ph|ДӀаязде электронни почтан адрес
+createaccountmail|хааман зlене хула
+createacct-realname|Хьан цӀе (ца язйича мега)
+createaccountreason|Бахьан:
+createacct-reason|Бахьна
+createacct-reason-ph|{{PLURAL:~{0}\u007CагӀо\u007CагӀонаш}}‎
+createacct-captcha|Кхерамзалла хьажар
+createacct-imgcaptcha-ph|ДӀаязде хьайна лакхахь гуш долу йоза
+createacct-submit|Кхолла декъашхон дӀаяздар
+createacct-benefit-heading|{{SITENAME}} кхолийна хьо санначу наха.
+createacct-benefit-body1|{{PLURAL:~{0}\u007Cнисдар\u007Cнисдарш}}
+createacct-benefit-body2|{{PLURAL:~{0}\u007Cяззам\u007Cяззамаш}}
+createacct-benefit-body3|{{PLURAL:~{0}\u007Cдекъашхо\u007Cдекъашхой}} тӀаьхьарачу хенахь
+loginerror|Гlалат ду декъашхо вовзарехь/йовзарехь
+createaccounterror|Декъашхон дӀаяздар кхолла йиш яц: ~{0}
+nocookiesforlogin|{{int:nocookieslogin}}
+loginsuccesstitle|Хьо вовзар/йовзар хаз чакхдели
+loginsuccess|Хlинца ахьа болх бó оцу цlарца ~{0}.
+nosuchuser|Цlарца ~{0} декъашхо вац/яц.\nДекъашхой цlераш хаалуш йу дlайазвалрца/яларца элраш.\nНийса юьй хьажа цlе йа [[Special:UserLogin/signup\u007Cдlаяздар кхолла керла]].
+wrongpassword|Ахьа язъйина йолу ишар нийса яц. Хьажа йуху цхьаъз.
+mailmypassword|Схьаэца керла ишар
+emailauthenticated|Хьан почтан адрес бакъдина ~{1} ~{2}.
+accountcreated|Дlавазвар кхоллина дели
+accountcreatedtext|Кхоллина декъашхо дlавазвар ~{0}.
+loginlanguagelabel|Мотт: ~{0}
+resetpass|Ишар хийца
+resetpass_text|<!-- Кхузахь язъде хьай йоза -->
+resetpass_header|Жамlаш дlаязвеллачуьна ишар хийцар
+oldpassword|Шираелла ишар:
+newpassword|Керла ишар:
+retypenew|Юха язъйе керла ишар:
+resetpass-submit-loggedin|Хийца ишар
+resetpass-submit-cancel|Цаоьшу
+passwordreset-username|Декъашхочун цӀе:
+changeemail|Хийца электрони почт
+changeemail-submit|Хийца email
+changeemail-cancel|Цаоьшу
+extlink_sample|http://www.example.com хьажориг корта
+extlink_tip|Арахьа хьажориг (йиц ма йе хlотталушерг http://)
+nowiki_sample|Чудиллийша кхузе барамхlоттонза йоза.
+nowiki_tip|Тергал ца бо вики-бáрамхlоттор
+image_sample|Example.jpg
+image_tip|Чохь йолу файл
+media_sample|Example.ogg
+media_tip|Хьажориг оцу медиа-хlуман
+sig_tip|Хьан куьгтаlор аъ хlоттина хан
+hr_tip|Ана сиз (сих сиха ма леладайша)
+summary|Хийцамех лаьцна:
+subject|Дlахьедар/коьрта могlа:
+minoredit|Жим хийцам
+watchthis|Латайе хlара агlо тергаме могlам юкъа
+savearticle|Дlайазъé агlо
+preview|Хьалха муха ю хьажа
+showpreview|Хьалха муха ю хьажар
+showdiff|Хlоттина болу хийцам
+anoneditwarning|'''Тергам бе''': Ахьа хьо вовзитина вац гlирсан. Хьан IP-долу меттиг дlаязйина хира ю хlокху агlон истори чу.
+summary-preview|Цуьнах лаьцна хирду:
+blockedtitle|Декъашхон блоктоьхана
+loginreqlink|Логин
+accmailtitle|Ишар дlаяхьийтина.
+accmailtext|Ишар декъашхочуьна [[User talk:~{0}\u007C~{0}]], йина ша шех хитта делла чу элпашах, дlаяхийтина хьокху хааман зlен чу ~{1}.\n\nДlаязвинчултlяхьа, кху гlирса чохь шуьга хийцалур ю ''[[Special:ChangePassword\u007Cшай ишар]]''.
+newarticle|(Kерла)
+newarticletext|Хьо веана хьажоригци хlокху агlон тlе, хlара агlо хlинца йоцаш ю.\nНагахь иза кхолла лаахь, хlотта де лахо гуш долу корехь йоза (мадарра хьажа. [[{{MediaWiki:Helppage}}\u007Cгlон агlон чу]]).\nНагахь гlалат даьлла нисвелляхь кхузе, атта тlе тlаlа йе '''юха йоккхуриг''' хьай гlирса тlяхь.
+anontalkpagetext|----''Хlара дийцаре агIо къайлаха волу декъашхочуьна  ю, хlинца дӀавазвина/дӀаязйина воцуш/йоцуш, я лелош воцуш/йоцуш.\nЦундела иза вовзийта/йовзийта лелош ду терахьца IP-долу метаг.\nИза терахь долу меттиг хила мега кхечу декъашхойчух терра.\nНагахь хьо къайлах волу декъашхо валахь хьайна хаам кхаьчна аьлла хеташн, хьуна хьажийна доцуш, дехар до, кхолла хьай меттиг кху чохь[[Special:UserLogin/signup\u007Cдlавазло]] йа [[Special:UserLogin\u007Cхьой вовзийта/йовзийта]],
+noarticletext|Хlокх хан чохь кху агlонца йоза дац.\nШуьга далундерг [[Special:Search/{{PAGENAME}}\u007Cлахар ишта хьехош йолу цlе]] кхечу яззамашкахь,\n<span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} лахар кхечу тептаршкахь],\nйа '''[{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} кхолла ишта цlе йолу агlо]'''</span>.
+noarticletext-nopermission|ХӀокх хан чохь кху агӀонца йоза дац.\nШуьга далундерг [[Special:Search/{{PAGENAME}}\u007Cлахар ишта хьехош йолу цӀе]] кхечу яззамашкахь,\nйа <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} лаха оцуьнах терадерг кхечу тептаршкахь].</span>
+userpage-userdoesnotexist|Ишта дlайазвар «<nowiki>~{0}</nowiki>» хlинца дац. Хьажа билгал, хьуна бакъалла лаьи кхолла йа хийцам ба хlокху агlон.
+sitecsspreview|'''ХӀара хьалх хьажар ду, хӀара CSS.'''\n'''хӀинца Ӏалашдина дац!'''
+sitejspreview|'''ХӀара хьалх хьажар ду, хӀара JavaScript-ишар.'''\n'''хӀинца Ӏалашдина дац!'''
+updated|(Карла йаькхина)
+note|'''Билгалдаккхар:'''
+previewnote|'''Хlара хьалх хьажар ду, йоза хlинца язданза ду!'''
+continue-editing|Кхин дӀа тадар
+session_fail_preview|Сервер лара ца йира ахьа бина хийцамаш дӀаязба. Кхиъ цкъа а гӀортахь.\nНагахь санна хӀара гӀалат юха а далахь, [[Special:UserLogout\u007Cсеанс дӀа а къоьвлин]], юха а системин чувала/яла хьажа.
+editing|Тадар: ~{0}
+creating|АгӀо кхоллар «~{0}»
+editingsection|Тадар ~{0} (даакъа)
+editingcomment|Тадар ~{0} (керла даакъа)
+editconflict|Тадарна дойнаш: ~{0}
+explainconflict|Хьо хӏара агӏо тоеш волчу хенахь, цхьам хийцамаш бина.\nЛакхарчу таяран корехь хьона гуш ду хӏинца агӏона чохь долу йоза.\nЛахарчу корехь ахь бина хийцам бу.\nХьой бина хийцам лахарчу корера лакхарчу коре баккха.\nКнопкан «{{int:savearticle}}» тӏетаӏича лакхара корера йоза дӏаязлурду.
+yourtext|Хьан йоза
+yourdiff|Башхаллаш
+copyrightwarning|Тергаме хьажа, массо яззаман чутухуш долу йозан хийцам хьажарехь бу, арахоьцушсанна оцу бакъойалар хьоляхь ~{1} (хьаж. ~{0}).\nНагахь хьо лууш вацахь хьай йозанаш маьрша даржа а кхечаьрга хийцам байта, мадаха уьш кху чу.<br />\nИшта чlагlо йой ахьа, айхьа далош долучуьн хьо куьг да ву аьлла, йа хьаэцна цхьан\nхьостера, хийцам ба а дlаса даржада а чулацам болуш.<br />\n'''МАТОХИЙШ БАКЪО ЙОЦУ ГlИРСАШ КХУ ЧУ, КУЬГ ДЕ БАКЪО ЛАР ЙЕШ ЙОЛУ!'''
+readonlywarning|'''ДӀАХЬЕДО. ГӀирса бух блоктоьхна оьшуш долучу хьаштан, цундера хӀинц хьоьга дӀа ца йазло хийцам.\nХила мега, ахьа Ӏалаш дан дезаш хьайн йоза, йуха тӀаьхьо леладан иза йоза.'''\n\nКуьйгалхочо блоктоьхна гӀирса бух, цо битина кхетош хӀара хаам: ~{0}
+protectedpagewarning|'''Дlахьедар. Хlара агlо гlаролла дина ю хийцам цабайта, иза хийца йа нисйа а бакъо йолуш адаманкуьйгалла лелош болу декъашхой бе бац.'''\nЛахахьа гойту хаамаш тlаьхьара бина болу хийцамна тептар чура:
+cascadeprotectedwarning|<div id="cascadeprotectedwarning" style="border:1px solid #ee0; padding:10px; background:#ffa; margin-bottom:1em">[[file:Padlock.svg\u007Cleft\u007C25px\u007CДовгӀа\u007Clink=]]\nХӀара агӀо тада бакъо йолуш [[Project:Куьйгалхой\u007Cкуьйгалхой]] бу, хӀунда аьлча и агӀо латийна кхечу агӀонашца хӀоттделлачу гӀаролле:</div>
+templatesused|{{PLURAL:~{0}\u007CКеп, лелийна\u007CКепаш, лелош ду}} хlокху агlон башхонца:
+templatesusedpreview|{{PLURAL:~{0}\u007CКеп, лелошдолу\u007CКепаш, лелошдолу}} оцу хьалх хьожучу агlонца:
+template-protected|(гlароллийца)
+template-semiprotected|(дуьззина доцуш гlаролла)
+hiddencategories|Хlара агlо чуйогlуш ю оцу ~{0} {{PLURAL:~{0}\u007Cкъайлаха кадегарчу\u007Cкъайлаха кадегаршчу\u007Cкъайлаха кадегаршчу}}:
+edittools|<!-- Кхузе буха диллина йоза гуш хир ду редоккхуче бухахь а хlума чуйоккхуче бухахь. -->
+permissionserrorstext|Хьан бакъо яц кхочуш хилийта хийцам оцу {{PLURAL:~{0}\u007Cшолгlа бахьанца\u007Cшолгlа бахьанашца}}:
+permissionserrorstext-withaction|Хьан бакъо яц хlумда «'''~{1}'''» оцу {{PLURAL:~{0}\u007Cшолгlа бахьанца\u007Cшолгlа бахьанашца}}:
+recreate-moveddeleted-warn|'''Тидам бе. Хьо ву (ле йу) йуха кхолла гӀерташ агӀо, хьалхо дӀаяккхина йолу.'''\n\nХьажа, билгалла оьши хьуна хӀара яззам йуха кхолла.\nЛахахь далина ду дӀаяхарш тӀяхь долу тептарш а хӀокх яззам цӀера бина хийцамаш.
+moveddeleted-notice|Иза агlо дlайайина йара.\nХаийтарна лахахьа гойту, цуьнца долу дlаяздарш кху дlадайина тептар чура а цlе хийцарш а.
+log-fulllog|Хьажа деригге тептаре
+postedit-confirmation|Хьан нисдар дӏайазъдина.
+content-model-javascript|JavaScript
+content-model-css|CSS
+parser-template-loop-warning|Карийна кепаш юкъахь хилла шад: [[~{0}]]
+parser-template-recursion-depth-warning|Дозанал хьалаваьлла кlоргенца йух йуха дина кеп (~{0})
+undo-success|Нисйинарг а тlе цалаца мега. Дехар до, хьажа цхьатерра йуй башхо, тешна хила, баккъалла иза хийцам буйте хьуна безарг, тlакха тlе таlайе «дlайазйе агlо», хийцам хlотта ба.
+undo-summary|Юхадаьккхина {{GENDER:~{1}\u007Cдекъашхочун\u007Cдекъашхочун}} [[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Cдийц.]]) нисдар ~{0}
+viewpagelogs|Гайта хlокху агlонан тептар
+currentrev-asof|ХӀинцлера верси оцу ~{0}
+revisionasof|Верси ~{0}
+previousrevision|← Хьалха йоьдург
+nextrevision|Тlаьхьайогlург →
+currentrevisionlink|Хlинцлера верси
+cur|карара.
+next|кхин
+last|хьалх.
+page_first|хьалхара
+page_last|тlаьххьара
+histlegend|Кхетор: (хlинцлера.) — йолучу башхон къастам; (хьалх.) — хьалхлерачу башхон къастам; '''ж''' — жимо бозалца болу хийцам.
+history-fieldset-title|Хьажа исцlарерачу
+history-show-deleted|ДӀаяхинарш
+histfirst|ширниш
+histlast|хьалхарниш
+historysize|({{PLURAL:~{0}\u007C1 байт\u007C~{0} байташ}})
+historyempty|(йаьсса)
+history-feed-title|Хийцаман истори
+history-feed-item-nocomment|~{0} оцу ~{1}
+rev-deleted-user|(авторан цӏе дӏаяйина)
+rev-delundel|гайта/къайла
+rev-showdeleted|гайта
+revdelete-show-file-submit|Хlаъ
+revdelete-radio-same|(ма хийца)
+revdelete-radio-set|Хlаъ
+revdelete-radio-unset|Хlахlа
+revdelete-log|Бахьан:
+revdel-restore|Хийцам бе схьагарехь
+revdelete-reasonotherlist|Кхин бахьан
+mergehistory-from|Дуьххьарлера агӀоно
+mergehistory-reason|Бахьан:
+revertmerge|Йекъа
+history-title|~{0} — хийцаман истори
+difference-title|~{0} — Версешан башхалла
+lineno|Могlа ~{0}:
+compareselectedversions|Хаьржиначуьна башхо муха ю хьажа
+showhideselectedversions|Гайта/къайлайаха хаьржина башхонаш
+editundo|цаоьшу
+searchresults|Лахарна хилам
+searchresults-title|Лаха «~{0}»
+searchresulttext|Хlокху кхолламан агlонаш чохь лахарх лаьцна кхетош хаам, хьажа. [[{{MediaWiki:Helppage}}\u007Cнисвохааман дакъанчу]].
+searchsubtitle|Дехарца йолу «[[:~{0}]]» ([[Special:Prefixindex/~{0}\u007Cагlонаш, дlайуьлалуш йу хlо цlарца]]{{int:pipe-separator}}[[Special:WhatLinksHere/~{0}\u007Cтlетовжуш йу хlо цlарна]])
+searchsubtitleinvalid|Кху дехарца «~{0}»
+notitlematches|Агlонаши цlерашца цхьатера йогlуш яц
+notextmatches|Агlонаш чура йозанашца цхьатера йогlуш яц
+viewprevnext|Хьажа (~{0} {{int:pipe-separator}} ~{1}) (~{2})
+searchmenu-legend|Лахарна гlирс нисба
+searchmenu-exists|'''Хlокху вики-кхолламашца йолуш ю ишта агlо «[[:~{0}]]»'''
+searchmenu-new|'''Кхолла ишта агlо «[[:~{0}]]» хlокху вики-кхолламашчохь!'''
+searchmenu-prefix|[[Special:PrefixIndex/~{0}\u007CГайта агlонаш ишта хlоттам болуш]]
+searchprofile-articles|Къаьстина агlонаш
+searchprofile-project|Нисвохааман агlонаш а кхолламаш
+searchprofile-images|Мультимедиа
+searchprofile-everything|Массанхьа
+searchprofile-advanced|Шуьйра
+searchprofile-articles-tooltip|Лаха оцу ~{0}
+searchprofile-project-tooltip|Лаха оцу ~{0}
+searchprofile-images-tooltip|Файлаш лахар
+searchprofile-everything-tooltip|Лаха массо агlонашкахь (дийцаре агlонашцани)
+searchprofile-advanced-tooltip|Лаха дехарца хlокху ана цlерашкахь
+search-result-size|~{0} ({{PLURAL:~{1}\u007C~{1} дош\u007C~{1} дешнаш\u007C~{1} дешнаш}})
+search-redirect|(дlасахьажийна ~{0})
+search-section|(дакъа ~{0})
+search-suggest|Хила мега ахьа лоьхарг: ~{0}
+search-interwiki-caption|Гергара кхолламаш
+search-interwiki-default|~{0} хилам.:
+search-interwiki-more|(кхин)
+mwsuggest-disable|ДӀабайа лахаран хьехам
+searcheverything-enable|Массо цIера анахь лахар
+searchrelated|хlоттаделларг
+searchall|массо
+showingresults|Лахахьа {{PLURAL:~{0}\u007Cгойта\u007Cгойту\u007Cгойту}} <strong>~{0}</strong> {{PLURAL:~{0}\u007Cхилам\u007Cхиламаш\u007Cхиламаш}}, дlаболало кху № <strong>~{1}</strong>.
+nonefound|'''Билгалдаккхар.''' ХӀумма цадеш Ӏад йитича массо цӀеран энахь цалоху. Лела йе тӀехуттург ''all:'', лахийта массо цӀеран энахь (юкъадалош декъашхойн дийцарш а кепаш а кхин дерг.), йа хӀотта йе оьшуш йолу цӀеран эна.
+search-nonefound|Дехарар терра цхьа хlума цакарийна.
+powersearch|Шуьйра лахар
+powersearch-legend|Шуьро лахар
+powersearch-ns|Цlераши анахь лахар:
+powersearch-redir|Схьагайта дlасахьажийнарш
+powersearch-field|Лаха
+powersearch-togglelabel|Билгалдан:
+powersearch-toggleall|Массо
+powersearch-togglenone|Хlумма цаоьшу
+search-external|Арахула лахар
+preferences|Гlирс нисбан
+mypreferences|ГӀирс нисбан
+prefs-edits|Нисдарши дукхалла:
+changepassword|Хийцамба ишарна
+prefs-skin|Кечяран тема
+skin-preview|Хьалха муха ю хьажа
+datedefault|Iад йитарца
+prefs-beta|Гlоле таронаш
+prefs-datetime|Терахь а хан а
+prefs-labs|Муха ю хьажарна таронаш
+prefs-user-pages|Декъашхочун агӀо
+prefs-personal|Долахь болу хаамаш
+prefs-rc|Керла нисдарш
+prefs-watchlist|Тергаме могlам
+prefs-watchlist-days|Денойн дукхалла:
+prefs-watchlist-days-max|Къезиг  ~{0} {{PLURAL:~{0}\u007Cдена}}
+prefs-watchlist-edits|Тергаме могӀам чохь гойтучу нисдаршан максимальни дукхалла:
+prefs-watchlist-edits-max|Уггар дукха: 1000
+prefs-watchlist-token|Тергаме могӀанан токен:
+prefs-misc|Кхин гlирсаш
+prefs-resetpass|Хийца ишар
+prefs-changeemail|Хийца электрони почт
+prefs-email|Электронан почтан параметрш
+prefs-rendering|Арахьара хатl
+saveprefs|lалашдан
+restoreprefs|МеттахӀоттабе гӀирс дуьхӀар сана
+prefs-editing|Тадар
+rows|МогӀанаш:
+columns|БӀогӀамаш:
+searchresultshead|Лаха
+resultsperpage|Карийначу дӀаяздаршан дукхалла:
+stub-threshold|Кеч яран доза <a href="#" class="stub">коьртамогӀамна хьажоригаш</a> (байташках):
+recentchangesdays|Керла нисдар гайта динахь:
+recentchangesdays-max|Къезиг  ~{0} {{PLURAL:~{0}\u007Cдена}}
+recentchangescount|Iад йитарца гойтуш долу нисдаршан дукхалла
+prefs-help-recentchangescount|Гойту керла нисдарш, аӀонашан истори, тептарш.
+prefs-help-watchlist-token|Кхуза къайлах догӀа яздича хьан тергаме спискан RSS-трансляци кхуллур ю. \nМассо а догӀа хууш верг трансляци еша йиш йолуш ву. \nЦундела цхьанне а ца хуу догӀа харжа деза. Хьан йиш ю ца хууш кхоьллина догӀа лелада: ~{0}
+savedprefs|Хьан гӀирс Ӏалашбина.
+timezonelegend|Сахьатан аса:
+localtime|Меттигера хан:
+servertime|Сервера хан:
+timezoneregion-asia|Ази
+timezoneregion-australia|Австрали
+timezoneregion-indian|Индин океан
+timezoneregion-pacific|Тийна океан
+allowemail|Магийта декъашхошна хьайга электрони почтехула кехат кхехьийта
+prefs-searchoptions|Лаха
+defaultns|Я лаха лахахь гайтинчу аннашкахь:
+default|Iад йитарца
+prefs-files|Файлаш
+prefs-custom-css|Долахь йолу CSS
+prefs-custom-js|Долахь йолу JS
+prefs-common-css-js|Юкъара CSS/JS массо кеч даран темашан:
+prefs-emailconfirm-label|Бакъ яр электрони почт:
+youremail|Кехат яздо зlе цlе:
+username|Декъашхон цlе:
+uid|Декъашхочун {{GENDER:~{0}\u007Cкод}}:
+prefs-memberingroups|{{GENDER:~{1}\u007CТобана\u007CТобана}} {{PLURAL:~{0}\u007Cдекъашхо\u007Cдекъашхо}}:
+prefs-registration|{{GENDER:~{1}\u007CДӀавазвелла\u007CДӀаязелла}} хан:
+yourrealname|Хьан бакъ цlе:
+yourlanguage|Мотт:
+yourvariant|Метта башхо
+yournick|Керла куьгтаӀор:
+prefs-help-signature|Дийцаре агӀонаш чохь къуьгтаӀо деза символшца «<nowiki>~~~~</nowiki>», цара гойтур ду хьан къуьгтаӀор а хан а.
+yourgender|Ву/Йу:
+gender-unknown|хlоттийна яц
+gender-male|борша
+gender-female|сте
+prefs-help-gender|ТӀехь доцург: и хаам лелош бу цхьайолу хаамаш чохь декъашхочун пол гучуйоккхуш.\nИ хаам массарна гуш хир бу.
+email|Email
+prefs-help-email|Кехат яздо зlен цlе цахlоттийча аъ хlумма дац, амма иза оьшар ю, нагахь хьуна хьай ишар йицлахь.
+prefs-help-email-others|Кхин дӀа цо кхечу декъашхошна йиш хуьлуьйту хьога электронни кехат даийта хьан агӀона чохь йолу хьажориган гӀонца.
+prefs-info|Коьрта хаам
+prefs-i18n|Юкъардекъа мотт
+prefs-signature|КуьгтаӀор
+prefs-dateformat|Терахьан формат
+prefs-timeoffset|Хенан  гӀирс
+prefs-advancedediting|Кхин гӀирс нисбар
+prefs-advancedrc|Кхин гӀирс нисбар
+prefs-advancedrendering|Кхин гӀирс нисбар
+prefs-advancedsearchoptions|Кхин гӀирс нисбар
+prefs-advancedwatchlist|Кхин гӀирс нисбар
+prefs-displayrc|Гуш болу гӀирсаш
+prefs-displaysearchoptions|Гуш болу гӀирсаш
+prefs-displaywatchlist|Гуш болу гӀирсаш
+prefs-diffs|Башхон верси
+userrights|Декъашхочуьн бакъона урхалладар
+userrights-lookup-user|Декъашхошан бакъонашан урхалладар
+userrights-user-editname|Язъе цӀе:
+editusergroup|Хийца декъашхон бакъо
+editinguser|Хийца декъашхочуьна бакъо '''[[User:~{0}\u007C~{0}]]''' ([[User talk:~{0}\u007C{{int:talkpagelinktext}}]]{{int:pipe-separator}}[[Special:Contributions/~{0}\u007C{{int:contribslink}}]])
+userrights-editusergroup|Хийца декъашхон бакъо
+saveusergroups|Декъашхон бакъонаш ӏалашян
+userrights-groupsmember|Декъашхо:
+userrights-groupsmember-auto|Бакъонашан тоба:
+userrights-groups-help|Хьона хийца ло декъашхочуьн бакъонаш.\n* Бакъона цӏера юххехь билгало елахь, цуна и бакъо йолуш ю.\n* Билгало яцахь — декъашхон и бакъо яц.\n* Знако * билгала до ахьа бакъо еллачул тӏхьа хьона и дӏаяккха лур цахилар.
+userrights-reason|Бахьан:
+userrights-no-interwiki|Хьан бакъо яц декъашхой бакъо хийца кхечу википеди чохь.
+userrights-nologin|Куьйгалхочунна бакъо йолу [[Special:UserLogin\u007Cд1аяздарца]] ло декъашхон бакъо.
+userrights-notallowed|Хьан дӀаяздарца магийна дац декъашхошна бакъо яла а дӀаяккха а.
+userrights-changeable-col|Хьона хийца луш йолу бакъонаш
+userrights-unchangeable-col|Хьона хийца луш йоцу бакъонаш
+group|Тоба:
+group-user|Декъашхой
+group-autoconfirmed|Бакъонаш йолу декъашхой
+group-bot|Шаболххой
+group-sysop|Куьйгалхой
+group-bureaucrat|Даржахой
+group-suppress|Левисорхой
+group-all|(массо)
+group-user-member|{{GENDER:~{0}\u007Cдекъашхо}}
+group-bot-member|шаболххо
+group-sysop-member|{{GENDER:~{0}\u007Cкуьйгалхо}}
+group-bureaucrat-member|даржахо
+group-suppress-member|левисорхо
+grouppage-user|{{ns:project}}:Декъашхой
+grouppage-autoconfirmed|{{ns:project}}:Бакъонаш йолу декъашхой
+grouppage-bot|{{ns:project}}:Шаболххой
+grouppage-sysop|{{ns:project}}:Куьйгалхой
+grouppage-bureaucrat|{{ns:project}}:Даржахой
+grouppage-suppress|{{ns:project}}:Левисорхой
+right-edit|АгӀоаш нисяр
+right-createpage|АгӀонаш кхоллар (дийцарш дац)
+right-createtalk|Дийцаре агӀонаш кхоллар
+right-createaccount|декъашхошна керла дӀаяздарш кхоллар
+right-move|АгӀонашан цӀераш хийцар
+right-move-subpages|АгӀонашан цӀераш хийцар цера бухара агӀонашцан
+right-movefile|Файланши цӀе хийцар
+right-upload|Файлаш чуйаьхар
+right-delete|агӀош дӀаяхар
+right-bigdelete|еха хийцаман истори йолу агӀонаш дӀаяхар
+right-browsearchive|ДӀаяхна агӀонаш лахар
+right-undelete|АгӀонаш меттахӀоттор
+right-blockemail|Цамагдо декъашхошка хааман кехаташ кхехьийта
+right-unblockself|Ша шин блокдӀаяккхар
+right-protect|АгӀона гӀоралла хийцар а гӀоралла дина агӀо нисяр а
+newuserlogpage|Декъашхой дlабазбина тептар
+rightslog|Декъашхон бакъона тéптар
+action-edit|нисйа хlара агlо
+action-delete|дӀаяккха хӀара агӀо
+nchanges|~{0} {{PLURAL:~{0}\u007Cхийцам\u007Cхийцамаш\u007Cхийцамаш}}
+recentchanges|Керла нисдарш
+recentchanges-legend|Гlирс нисбарна керла нисдарш
+recentchanges-summary|Лахахь гайтина хене хьаьжна Википедин агӀонашкахь тӀаьхьара бина хийцамаш
+recentchanges-feed-description|Тергам бе тlаьхьара вики хийцаман хlокху ларца.
+recentchanges-label-newpage|Оцу нисдарца кхоллина керла агlо.
+recentchanges-label-minor|Хlара нисдинарг къастийна жимо долушсан
+rcnote|{{PLURAL:~{0}\u007CТlаьххьара '''~{0}''' хийцам\u007CТlаьххьара '''~{0}''' хийцамаш\u007CТlаьххьара '''~{0}''' хийцамаш}} за '''~{1}''' {{PLURAL:~{1}\u007Cде\u007Cдийнахь\u007Cдийнахь}}, оцу хан чохь ~{4} ~{3}.
+rclistfrom|Гайта хийцам оцу ~{0}.
+rcshowhideminor|~{0} кегийра нисдарш
+rcshowhidebots|~{0} шабелхалой
+rcshowhideliu|~{0} шайн цӀершца болу декъашхой
+rcshowhideanons|~{0} хьулбелларш
+rcshowhidepatr|~{0} хьажжина нисдарш
+rcshowhidemine|~{0} айхьа нисдинарш
+rclinks|Гайта тlаьхьара ~{0} хийцамаш оцу ~{1} ден<br />~{2}
+diff|тейп тайпнара
+hist|истори
+hide|Къайлаяккха
+show|Гайта
+minoreditletter|ж
+newpageletter|К
+boteditletter|б
+rc_categories_any|Муьлхаа
+newsectionsummary|/* ~{0} */ Керла хьедар
+rc-enhanced-expand|Гайта ма дарра дерг (лелош ю JavaScript)
+rc-enhanced-hide|Ма дарра дерг къайладаккха
+recentchangeslinked|Кхуьнца долу нисдарш
+recentchangeslinked-feed|Кхуьнца долу нисдарш
+recentchangeslinked-toolbox|Кхуьнца долу нисдарш
+recentchangeslinked-title|Кхуьнца долу нисдарш ~{0}
+recentchangeslinked-summary|Хlара хийцам биначу агlонашан могlам бу, тlетовжар долуш хьагучу агlон (йа хьагойтуш йолучу категорена).\nАгlонаш юькъайогlуш йолу хьан [[Special:Watchlist\u007Cтергаме могlам чохь]] '''къастийна йу'''.
+recentchangeslinked-page|Агlон цlе:
+recentchangeslinked-to|Кхечу агlор, гайта хийцамаш агlонашца, хlоттийначу агlонтlе хьажориг йолуш
+upload|Файл чуяккхар
+uploadbtn|Файл чуяккхар
+uploadlogpage|Чуйахаран тéптар
+uploadlogpagetext|Лахахьа гойтуш бу могlам тlаьххьара чуяхна файлаши. Ишта хьажа. [[Special:ImageList\u007Cфайлаши могlам]] йа [[Special:NewImages\u007Cгалеларе файлаши]].
+filename|Файлан цӀе
+filedesc|Файлах лаьцна
+fileuploadsummary|Файлах лаьцна:
+filereuploadsummary|Файлан хийцамаш:
+filesource|Хьост:
+ignorewarnings|ДӀахедар тергал ца дан
+uploadwarning|Дlахьедар
+uploadedimage|чуяккхина «[[~{0}]]»
+overwroteimage|Чуяккхина файлан керла верси «[[~{0}]]»
+upload-source|ДIайолалун файл
+sourcefilename|ДIайолалун файл:
+destfilename|Файлан керла цӀе:
+upload-description|Файлах лаьцна
+upload-options|Чуякхаран параметраш
+watchthisupload|Латайе хlара файл тергаме могlам юкъа
+filename-prefix-blacklist|#<!-- битийша хlара могlа ша мабарра --> <pre>\n# Бухасиз шолгlа:\n#  * Массо, саболчунтlийра йуьлалуш ерш «#» хуьлу хетаме дерг (могlа чекх балац)\n#  * Хlора баьсса боцу могlа — хlман цlе лораш йу, терахьца сурт доккхучо луш ма хиллар\nCIMG # Casio\nDSC_ # Nikon\nDSCF # Fuji\nDSCN # Nikon\nDUW # ишта цхьаболу лера гlирс а\nIMG # еригге\nJD # Jenoptik\nMGP # Pentax\nPICT # тайп тайпан\n #</pre> <!-- битийша хlара могlа ша мабарра -->
+license|Бакъойалар:
+license-header|Бакъойалар
+nolicense|Яц
+listfiles-summary|Лахахь гойтуш ю ерриг файлаш.\nДекъашхо къастичи, цун керла файлаш гойту.
+listfiles_search_for|Лаха хIуман цIарца:
+imgfile|файл
+listfiles|Файлаши могӀам
+listfiles_date|Терахь
+listfiles_name|Файлан цӀе
+listfiles_user|Декъашхо
+listfiles_size|Барам
+listfiles_description|Цуьнах лаьцна
+file-anchor-link|Файл
+filehist|Файлан истори
+filehist-help|Тlетаlаде терахь/хан, муха хилла хьажарна и файл.
+filehist-deleteall|массо дӀаяккха
+filehist-deleteone|дӀаяккха
+filehist-revert|файл юхаерзо
+filehist-current|карара
+filehist-datetime|Терахь/Хан
+filehist-thumb|Жима
+filehist-thumbtext|Жимо башхо оцу ~{0}
+filehist-user|Декъашхо
+filehist-dimensions|Файлан барам
+filehist-filesize|Файлан барам
+filehist-comment|Билгалдаккхар
+imagelinks|Хьажоригаш оцу файлан
+linkstoimage|{{PLURAL:~{0}\u007CТlаьхьайогlу ~{0} агlо тlетойжина\u007CТlаьхьайогlу ~{0} агlонаш тlетойжина\u007CТlаьхьайогlу ~{0} агlонаш тlетойжина}} хlокху файлан:
+nolinkstoimage|АгӀонашчохь файл лелош яц.
+sharedupload|Хlара хlума оцун ~{0} чура ю иза хила мега лелош кхечу кхолламашкахь.
+sharedupload-desc-here|ХӀара файл ~{0} чура ю и лело йиш ю массо проекташкахь.\nЦунна хаам гайтина лахахь. [~{1} Файл ВикидӀайуьллучехь]
+uploadnewversion-linktext|Чуяккха керла верси хӀокху файлан
+shared-repo-name-wikimediacommons|Викидlайуллуче
+filerevert|Тохарлера верси юхаерзор ~{0}
+filerevert-legend|Файлан верси юхаерзо
+filerevert-intro|<span class="plainlinks">Файл юхаерзош ю '''[[Media:~{0}\u007C~{0}]]''' оцу [~{3} верси ~{2}, ~{1}].</span>
+filerevert-comment|Бахьан:
+filerevert-defaultcomment|Юхаерзош ю оцу ~{1}, ~{0} хенахь хила верси
+filerevert-submit|Юхаяккха
+filerevert-success|Юхаерзина файл '''[[Media:~{0}\u007C~{0}]]''' оцу [~{3} верси ~{2}, ~{1}].
+filedelete-legend|ДӀаяккха и файл
+filedelete-intro|<div class="plainlinks">\nХьо  дӀаяккха лууш ву '''[[Media:$1\u007C$1]]''' ([{{fullurl:{{FULLPAGENAME}}\u007Caction=history}} истори])\n\n* '''Тешна хила, и файл [{{fullurl:Special:WhatLinksHere/File:$1\u007Chidetrans=1&hideredirs=1&hidelinks=1}} лелош цахиларна]''' (йа [[:commons:File:{{PAGENAME}}\u007Cоцуьнах терра файл ю]] оц ВикидӀайуьллуче чохь)\n* Хьажа [{{fullurl:Special:WhatLinksHere/File:$1\u007Chideimages=1}} гуттаралера хьажориг йуй] оц файлан тӀе\n\n{{#ifexist:{{TALKPAGENAME}}\u007CХӀокху агӀона ю '''[[{{TALKPAGENAME}}\u007Cдийцаре агӀо]].'''}}\n</div>
+filedelete-comment|Бахьан:
+filedelete-submit|ДӀаяккха
+filedelete-success|~{0} дӀаяккхи.
+filedelete-otherreason|Кхин бахьан:
+filedelete-reason-otherlist|Кхин бахьан
+filedelete-reason-dropdown|* Даржина долу дӀаяккхаран баьхьанаш \n** Авторан бакъонаш талхор\n** ЦхӀатера файлаш хилар
+filedelete-edit-reasonlist|Бахьанин список нисяр
+mimesearch|MIME хула лаха
+unwatchedpages|Цхьамо тергам ца беш йолу агIонаш
+listredirects|ДIасахьажоран могIам
+unusedtemplates|Лелош доцу кепаш
+randompage|Цахууш нисйелла агӀо
+randomredirect|Цахууш нисделла дIасахьажор
+statistics-header-edits|Нисдаран жамlа
+statistics-header-users|Декъашхойн жамlа
+statistics-files|Чуйаьхна файлаш
+statistics-edits|Нисдаран дукхалла {{grammar:genitive\u007C{{SITENAME}}}} дlа йолайаларца
+statistics-edits-average|Йукъера агlонан нисдаран терхь
+statistics-users|[[ВП:Дlаязвалар\u007CДlаязбелларш]] шаберигге декъашхой чохь болу [[Special:ListUsers\u007C(могlам)]]
+statistics-users-active|Жигар декъашхой
+statistics-users-active-desc|Декъашхой, муьлха цхьа хlум дина болу, кху {{PLURAL:~{0}\u007Cтlаьххьара ~{0} динахь\u007Cтlаьххьара ~{0} дийнахь}}
+disambiguations|Дуккха маьIнаш долу хьажорца йолу агIонаш
+disambiguationspage|Кеп:цхьатера маьӀна доцуш
+doubleredirects|ШалгIа дIасахьажийнарш
+double-redirect-fixed-move|Агlон [[~{0}]] цlе хийцна, хlинца иза дlахьажийна оцу [[~{1}]]
+brokenredirects|ДIахаьдна долу дIасахьажораш
+brokenredirects-edit|нисйé
+brokenredirects-delete|дӀаяккха
+withoutinterwiki|Кхечу меттанашан хьажориг йоцу агIонаш
+withoutinterwiki-submit|Гайта
+fewestrevisions|ЧIогIа кIезиг башхонаш йолу агIонаш
+nbytes|~{0} {{PLURAL:~{0}\u007Cбайт\u007Cбайташ\u007Cбайт}}
+ncategories|~{0} {{PLURAL:~{0}\u007Cкатегори\u007Cкатегореш\u007Cкатегореш}}
+nmembers|~{0} {{PLURAL:~{0}\u007CхӀума\u007CхӀумнаш}}
+nimagelinks|Лелош ю ~{0} {{PLURAL:~{0}\u007CагӀоначохь\u007CагӀонашкахь\u007CагӀонашкахь}}
+ntransclusions|лелош ю ~{0} {{PLURAL:~{0}\u007CагӀоначохь\u007CагӀонашкахь\u007CагӀонашкахь}}
+specialpage-empty|Дехаро хlумма ца елла.
+lonelypages|Байлахь йисина агIонаш
+uncategorizedpages|Категореш йоцу агIонаш
+uncategorizedcategories|Категореш йоцу категореш
+uncategorizedimages|Категореш йоцу файлаш
+uncategorizedtemplates|Категореш йоцу кепаш
+unusedcategories|Йаьсса категореш
+unusedimages|Лелош доцу файлаш
+wantedcategories|Оьшуш йолу категореш
+wantedpages|Оьшуш йолу агIонаш
+wantedfiles|Оьшуш йолу файлаш
+wantedtemplates|Оьшуш долу кепаш
+mostlinked|Дуккха хьажоригаш тIе тоьхна йолу агIонаш
+mostlinkedcategories|Дуккха тӀе хьажораш йолу категореш
+mostlinkedtemplates|Массарел дуккха а леладо кепаш
+mostcategories|Дуккха категореш тӀе тоьхна йолу агӀонаш
+mostimages|Массарел дуккха лелайо файлаш
+mostrevisions|Сих сиха нисйина йолу агIонаш
+prefixindex|Хьалха агlонашан цlераш хlотто йеза
+prefixindex-namespace|Хьалха агӀонашан цӀераш хӀотто еза («{{ns:~{0}}}»)
+shortpages|Боцоа яззамаш
+longpages|Беха яззамаш
+deadendpages|Дика йоцу агIонаш
+protectedpages|ГIаролла дина агIонаш
+protectedtitles|ГIаролла дина цIераш
+listusers|Декъашхой могlам
+listusers-editsonly|Цхаъ мукъане а хийцам бина декъашхой гайта
+listusers-creationsort|Кхолларан хене хьаьжна нисъяр
+usercreated|{{GENDER:~{2}\u007CдӀавазвелла\u007CдӀаязелла}} ~{0} ~{1}
+newpages|Керла агlонаш
+newpages-username|Декъашхо:
+ancientpages|Яззамаш оцу терахьца тяххьара тадар дина долу
+move|Цlе хийца
+movethispage|Хlокху агlон цlе хийца
+unusedimagestext|Дехар до, тидаме эца, кхин йолу дуьнана машан-меттигаш а лелош хила мега нисса йогlу хьажориг (URL) хlокху хlуман, хlокху могlаме йогlуш ялахь яцахь а иза хила мега жигара лелош.
+notargettitle|Ӏалашо билгал йина яц
+nopagetitle|Ишта агӀо яц
+nopagetext|Ишта агӀо яц.
+pager-newer-n|{{PLURAL:~{0}\u007Cалсамо керла\u007Cалсамо керланаш\u007Cалсамо керлачарех}} ~{0}
+pager-older-n|{{PLURAL:~{0}\u007Cалсамо шира\u007Cалсамо ширниш\u007Cалсамо ширачарех}} ~{0}
+booksources|Жайнан хьосташ
+booksources-search-legend|Жайнех лаьцна хаам лахар
+booksources-go|Лаха
+specialloguserlabel|Декъашхо:
+speciallogtitlelabel|Ӏалашо (цӀе я декъашхо):
+log|Тéптарш
+all-logs-page|Деригге тléкхочучéхь долу тéптарш
+alllogstext|Массо тéптар могlам. {{SITENAME}}.\nШуьга харжалур бу хилам оцу тептаре хьаьжжина, декъашхон цlе (дlаязвар диц а цадеш) йа иза хьакхавелла агlонаш (ишта дlаязвар а диц цадеш).
+logempty|Тептарш чохь хӀокху агӀона дӀаяздарш дац.
+alphaindexline|оцу ~{0} кху ~{1}
+allpagesfrom|Гучé яха агlонаш, йуьлалуш йолу оцу:
+allpagesto|Арайахар сацадé оцу:
+allarticles|Массо агlонаш
+allinnamespace|Массо агlонаш оцу цlери анахь «~{0}»
+allpagesnext|Тlаьхьайогlурш
+allpagessubmit|Кхочушдé
+allpagesprefix|Лаха агlонаш, дlайуьлалуш йолу:
+allpagesbadtitle|Цамагош йолу агlон цlе. Коьрта могlан юкъах ю юкъарвики меттанашан юкъе тlечlагlйина йолу хьаьрк йа магийна доцу оцу коьрта моlанца сабол элп йа кхин.
+allpages-bad-ns|{{SITENAME}} кху чохь ана цlераш яц «~{0}».
+allpages-hide-redirects|Къайлаяха дӀасахьажийнарш
+categoriespagetext|{{PLURAL:~{0}\u007CЛахара категореш чохь ю\u007CЛахара категореш чохь ю}} агӀонаш я медиа-файлаш.\nКхузахь гойтуш яц [[Special:UnusedCategories\u007Cлелош йоцу категореш]].\nКхин дӀа [[Special:WantedCategories\u007C хийла еза категореш]].
+categoriesfrom|Гучé яха категореш, оцу:
+deletedcontributions|Декъашхочуьн дlабайина къинхьегам
+deletedcontributions-title|ДӀабаьккхина къинхьегам
+sp-deletedcontributions-contribs|къинхьегам
+linksearch|Арахьа хьажориг
+linksearch-ok|Лаха
+linksearch-line|~{1} — хьажориг кху ~{0}
+listusersfrom|ТӀера волавелла декъашхой гайта:
+listusers-submit|Гайта
+listusers-noresult|Декъашхой цакарий.
+activeusers|Жигар декъашхой могlам
+activeusers-from|Гучé баха декъашхой, болалуш болу оцу:
+activeusers-noresult|Декъашхой цакарий.
+listgrouprights|Декъашхойн тобанаши бакъонаш
+listgrouprights-group|Тоба
+listgrouprights-helppage|Help:Тобан бакъонаш
+listgrouprights-members|(тобан могlам)
+emailuser|Декъашхочун хааман кехат
+emailuser-title-target|Декъашхочунга кехат яздар
+emailuser-title-notarget|Декъашхочунга кехат яздар
+defemailsubject|Хаам {{grammar:genitive\u007C{{SITENAME}}}} чура бу
+emailusernamesubmit|ДӀадахьийта
+email-legend|{{grammar:genitive\u007C{{SITENAME}}}} кхечу декъашхочунга кехат дахьийтар
+emailfrom|Хьаьнгара
+emailto|Хьаьнга:
+emailmessage|Хаам:
+emailsent|Кехат дӏадахьийтина
+emailsenttext|Хьан электроннан хаам дӏабахьийтина.
+watchlist|Тергаме могlам
+mywatchlist|Тергаме могӀам
+watchnologin|Хьо вовзийта/йовзийта гlирсан
+addedwatchtext|Хlар агlо «[[:~{0}]]» тlетоьхна хьан [[Special:Watchlist\u007Cтидаме могlам чу]].\nТlаьхьабогlу хийцамаш хlокх агlонна а кхунца дозуш долу дийцаре агlо а дlаяздийра ду кху могlамашкахь, ишта къастина хирду уьш шуьрочу элпашца хlокх агlон чохь [[Special:RecentChanges\u007Cкерла хийцаме могlамашкахь]], бгlаьран га атту болуш.
+removedwatchtext|Агlо «[[:~{0}]]» дlаяккхина йара хьан [[Special:Watchlist\u007Cтергаме могlам юкъар]].
+watch|Тидам бе
+watchthispage|Тергам бé хlокху агlон
+unwatch|Тергамах къаста
+notanarticle|Бац яззам
+watchlist-details|Хьан тергаме могlамца ~{0} {{PLURAL:~{0}\u007Cагlо\u007Cагlонаш\u007Cагlонаш}} ю, дийцаре агlонаша йоцуш.
+wlheader-showupdated|Хийцам бина агӀонаш '''Ӏаьржа''' шрифтцан билгальяха ю.
+wlnote|Лахахьа {{PLURAL:~{0}\u007Cтlаьхьа богlу ~{0} хийцам\u007Cтlаьхьа богlу ~{0} хийцамаш\u007Cтlаьхьа богlу ~{0} хийцамаш}} хlокху {{PLURAL:~{1}\u007Cтlаьхьар\u007Cтlаьхьара\u007Cтlаьхьара}} <strong>~{1}</strong> {{plural:~{1}\u007Cсохьт\u007Cсохьатехь\u007Cсохьташкахь}}.
+wlshowlast|Гайта тlаьххьара ~{0} сахьташ ~{1} денош ~{2}
+watchlist-options|Тергаме могlаман гlирс нисбар
+watching|Тергаме мlогаман юкъаяккха…
+unwatching|Тергаме мlогаман чура дlайаккха…
+deletepage|ДӀаяккха агӀо
+confirm|Бакъдан
+excontent|чуьраниг: «~{0}»
+excontentauthor|чуьраниг: «~{0}» (дуьххьара кхоллина да вара иза [[Special:Contributions/~{1}\u007C~{1}]])
+exbeforeblank|чуьраниг дlацlанйале хьалха: «~{0}»
+exblank|агlо йаьсса йара
+delete-confirm|~{0} — дӀаяккхар
+delete-legend|ДӀаяккхар
+historywarning|'''Тергам:''' хӀокху агӀона герггарчу хьесапехь ~{0} {{PLURAL:~{0}\u007Cверсеш\u007Cверси\u007Cверси}} ю:
+confirmdeletetext|Хьан дехар ду хlара агlо ше бухци дlабайа аьлла (йа сурт) а массо цуьнан истори оцу бух чура. Дехар до, бакъде, билгала хьайна иза лаахь, кхеташ хира ву хьо тlаьхьа хир долу чун, иза деш ду ахьа бакъонца догlуш, вахьа дехкина долучу дакъанца [[{{MediaWiki:Policy-url}}]].
+actioncomplete|Дешдерг кхочушди
+deletedtext|«~{0}» дӀаяккхина яра.\nХьажа. ~{1} хьажарна оцу тӀаьхьара дӀаяхначара могӀаме.
+dellogpage|ДӀадяхнарш долу тéптар
+deletionlog|дӀадяхнарш долу тéптар
+deletecomment|Бахьан:
+deleteotherreason|Кхин бахьан/тlетохар:
+deletereasonotherlist|Кхин бахьан
+deletereason-dropdown|* Даржина долу дӀаяккхаран баьхьанаш \n** зулма  \n** авторан лаамца\n** авторан бакъонаш талхор
+delete-edit-reasonlist|Бахьанин список нисяр
+rollback|Юхабаккха хийцам
+rollbacklink|юхаяккха
+rollbacklinkcount|юхадаккха ~{0} {{PLURAL:~{0}\u007Cнисдар\u007Cнисдарш}}
+rollbacklinkcount-morethan|Юхадаккха ~{0} дукха {{PLURAL:~{0}\u007Cнисдар\u007Cнисдарш\u007Cнисдарш}}
+revertpage|Нисдарш [[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Cдийцаре]]) йуха йаьхна башхаллийн [[User:~{0}\u007C~{0}]]
+rollback-success|Юха даьхна ~{0}; нисдарш, ~{1} версен.
+protectlogpage|Гlаролли тептар
+protectedarticle|гlаролла дина агlо «[[~{0}]]»
+modifiedarticleprotection|агlонан гlаролли локхалла хийцина «[[~{0}]]»
+unprotectedarticle|ГӀоролла дӀадаьстина «[[~{0}]]»
+movedarticleprotection|«[[~{1}]]» гӀаролла сехьадаккха «[[~{0}]]»
+protect-title|Оцунна «~{0}» гӀоралла дар
+prot_1movedto2|«[[~{0}]]» цlе хийцина оцу «[[~{1}]]»
+protect-legend|Бакъде гӀоралла дар
+protectcomment|Бахьан:
+protectexpiry|Чекхйолу:
+protect_expiry_invalid|Нийса йоцу хан гlаролла дlайаларехь.
+protect_expiry_old|Хан чаккхе — хьалхалера.
+protect-unchain-permissions|Схьабелла кхин гӀорралин гӀирс
+protect-text|Кхузéхь хьо хьажало хийцалуш гlаролли локхалла оцу агlонашна '''~{0}'''.
+protect-locked-access|Хьан дlаязваларéхь тоъал бакъо яц гlароллийн локхаллéхь агlон хийцам бá. Дlадоьлху хlоттийнарш оцу агlонна '''~{0}''':
+protect-cascadeon|Хlара агlо гlароллийца ю, хlунд аьлча иза латийна {{PLURAL:~{0}\u007Cлахахьа гойтучу агlонца, цуьнца хlоттийна\u007Cлахахьа гойтучу агlоншца, цаьрца хlоттийна}} чахчарийца гlаролла. Хьога хийцалур ю гlаролли локхалла хlокху агlон, амма оцо хийцам бийра бац чахчарехь йолучу гlароллийна.
+protect-default|Гlаролла йоцуш
+protect-fallback|Бакъо оьшу «~{0}»
+protect-level-autoconfirmed|Гlаролла дé оцу керла а дlабазбина боцучу декъашхойх
+protect-level-sysop|Куьйгалхошна бé цамагдо
+protect-summary-cascade|чахчареца
+protect-expiring|чакхйолу ~{0} (UTC)
+protect-expiring-local|чекхйолу ~{0}
+protect-expiry-indefinite|хан чаккхе йоцуш
+protect-cascade|Гlаролла йé агlонаш, хlокху агlонца хlоттайелларш (чахчарé гlаролла)
+protect-cantedit|Хьéга хийцам цабало хlокху агlон гlаролли локхалан, хlуд аьлча хьан бакъо яц оцун рéдаккха.
+protect-othertime|Кхин хан:
+protect-othertime-op|кхин хан
+protect-otherreason|Кхин бахьна/тӀетохар:
+protect-otherreason-op|Кхин бахьан
+protect-dropdown|* ГӀоралла дарна баьхьаш \n** сих-сиха зулам дар \n** дуккха спам хилар\n** нисдаршан тӀом \n** гӀараялл агӀо
+protect-edit-reasonlist|Бахьанин список нисяр
+protect-expiry-options|1 сахьт:1 hour,1 де:1 day,1 кӀиран:1 week,2 кӀиран:2 weeks,1 бутт:1 month,3 бутт:3 months,6 бутт:6 months,1 шо:1 year,цlкъа:infinite
+restriction-type|Бакъо:
+restriction-level|ТӀекхочаран локхалла:
+restriction-edit|Тадар
+restriction-move|ЦӀе хийцар
+restriction-upload|Чуйолуш
+restriction-level-autoconfirmed|дуьззина доцуш гӀаролла
+restriction-level-all|массо барам
+undelete|ДIайайина йолу агIонашка хьажар
+undeletepage|ДӀаяхина агӀонашка хьажар а меттахӀоттор а
+undeletepagetitle|'''Лахахь гайтина хӀокху [[:~{0}]] агӀона дӀаяхина версеш'''.
+viewdeletedpage|ДIайайина йолу агIонашка хьажар
+undelete-fieldset-title|МеттахӀоттае версеш
+undeleteextrahelp|Ерриге агӀонан истори меттахӀоттая массо а билгалонаш еса а йити '''«{{int:undeletebtn}}»''' тӀетаӀае.\nЦхӀайолу агӀонан версиш меттахӀоттая цкъахьалха меттахӀоттош йолу версиш билгалъяхна тӀетагӀе '''«{{int:undeletebtn}}»'''.
+undeletehistory|Агӏо меттахӏотта йича цуьнан хийцаман истори меттахӏотта ло.\nАгӏо дӏаяккхинчул тӏяха юху кхолийна елахь меттахӏоттина йолу версеш гучуер ю керлачу версешна хьалха
+undeleterevdel|Метта хlоттор хира дац, нагахь иза дакъошкахь дlадайина далахь а тlаьххьара кисак башхо йа хlума.\nИштнарг хилча ахьа дlабаккха беза хlоттийна болу къастам йа хьагайта тlаьххьара дlайайина башхо.
+undeletebtn|МеттахӀоттае
+undeletelink|хьажа/меттахӀоттае
+undeleteviewlink|хьажа
+undeleteinvert|Къастае массо
+undeletecomment|Бахьан:
+undeletedrevisions|~{0} {{PLURAL:~{0}\u007Cхийцамаш\u007Cхийцамаш\u007Cхийцамаш}} меттахӀоттайина
+undeletedfiles|~{0} {{PLURAL:~{0}\u007Cфайл меттахӀоттайина\u007Cфайлаш меттахӀоттайина\u007Cфайлаш меттахӀоттайина}}
+undeletedpage|'''МеттахӀоттайина агӀо «~{0}».'''\n\nДӀадяхнарш долу могӀане [[Special:Log/delete\u007Cтéптаре хьажа]].
+undelete-search-submit|Лаха
+namespace|Цlерийн ана:
+invert|Хаьржинарг хилийта
+namespace_association|Йихкина меттиг
+contributions|Декъашхон къинхьегам
+contributions-title|Декъашхон къинхьегам ~{0}
+mycontris|Сан къинхьегам
+contribsub2|Къинхьегам ~{0} (~{1})
+uctop| (тlаьхьара)
+month|Беттаца (йа хьалхе):
+year|Шерачохь (йа хьалхе):
+sp-contributions-newbies|Гайта бекъ къинхьегам, керла дlабазбиначара бина болу
+sp-contributions-blocklog|блоктоьхарш
+sp-contributions-deleted|дӀадяхна нийсдарш
+sp-contributions-uploads|Файлаш
+sp-contributions-logs|тéптарш
+sp-contributions-talk|дийцаре
+sp-contributions-userrights|декъашхочуьн бакъона урхалладар
+sp-contributions-search|Къинхьегам лахар
+sp-contributions-username|IP-долу меттиг йа декъашхон цlе:
+sp-contributions-toponly|ТӀаьхьара бина хийцамаш гайта
+sp-contributions-submit|Лаха
+whatlinkshere|Хьажоригаш кхузе
+whatlinkshere-title|Агlонаш, хьажоригца оцу «~{0}»
+whatlinkshere-page|Агlо:
+linkshere|Тlаьхьайогlу агlонаш хьажоригца ю оцу '''[[:~{0}]]''':
+nolinkshere|ХӀокху '''[[:~{0}]]''' агӀона тӀе кхечу агӀонашчохь хьажоригаш яц
+nolinkshere-ns|Хаьржинчу анахь яц '''[[:~{0}]]''' цӀе йолу агӀонаш
+isredirect|агlо-дlасахьажайар
+istemplate|лата йe
+isimage|Оцу суьртан хьажориг
+whatlinkshere-prev|{{PLURAL:~{0}\u007Cхьалхайодарг\u007Cхьалхайодарш\u007Cхьалхайодарш}} ~{0}
+whatlinkshere-next|{{PLURAL:~{0}\u007Cтlаьхьайогlург\u007Cтlаьхьайогlурш\u007Cтlаьхьайогlурш}} ~{0}
+whatlinkshere-links|← хьажоригаш
+whatlinkshere-hideredirs|~{0} дlасахьажйар
+whatlinkshere-hidetrans|~{0} латораш
+whatlinkshere-hidelinks|~{0} хьажоригаш
+whatlinkshere-filters|Литтарш
+block|Декъашхон блоктохар
+blockip|Блоктоха
+blockip-legend|Декъашхон блоктохар
+blockiptext|Бухахь йолу форманца блоктоха IP-адресна цунтӏера дӏаяздарш ца дайта.\nБлоктоха магийна цо зенаш деш делахь кхин хӏокху [[{{MediaWiki:Policy-url}}\u007Cнизам ца]].\nЛахахь билгалде блоктохарна бахьна.
+ipadressorusername|IP-долу меттиг йа декъашхон цlе:
+ipbexpiry|Хан чекхйолу:
+ipbreason|Бахьан:
+ipbreasonotherlist|Кхин бахьан
+ipbreason-dropdown|* Белхан некъ дӀакъовлар бахьанаш:\n** Харца хаам бар\n** АгӀонан чураниг дӀаяккхар\n** Спам-хьажорагаш арахьара сайташна\n** МаьӀна доцу текст тӀетохар\n** Декъашхой хьийзабар, кхерамаш тиссар\n** Масийтта лараман яздар зуламан лелаяр\n** Магитина йоцу декъашхон цӀе
+ipb-hardblock|Шаш довзийтина болу декъашхошна бехкам бе хӀокху IP-адресца тадарш дан
+ipbcreateaccount|Цамагдо дӀаязвалар/ялар
+ipbemailban|Цамагдо декъашхошка хааман кехаташ кхехьийта
+ipbenableautoblock|Блоктоха декъашхочо лелош йолу IP-адресашна
+ipbsubmit|Блоктоха декъашхон
+ipbother|Кхин хан:
+ipboptions|2 сахьат:2 hours,1 де:1 day,3 де:3 days,1 кlиран:1 week,2 кlиран:2 weeks,1 бутт:1 month,3 бутт:3 months,6 бутт:6 months,1 шо:1 year,цlкъа:infinite
+ipbwatchuser|ТӀетоха тергаме могӀам юкъа цуьнан долахь йолу агӀо а цуьнан дийцаре агӀо а
+ipb-disableusertalk|Цамагдо шин дийцаре агӀо та я блоктоьхна волучу хенахь
+ipb-change-block|Юхаблоктоха декъашхон оьцу хийцамашца
+ipb-confirm|Бакъде блоктохар
+blockipsuccesssub|Блоктохар чакхдели
+blockipsuccesstext|[[Special:Contributions/~{0}\u007C«~{0}»]] {{GENDER:~{0}\u007Cблоктоьхна ву\u007Cблоктоьхна ю}}.<br />\nХьажа. [[Special:BlockList\u007Cблоктоьхна IP-адресашан могӀам]].
+ipb-blockingself|Хьо хьайна блоктухуш ву/ю! Лууш вуй/юй хьо и кхочушдан?
+ipb-edit-dropdown|Бахьанин список нисяр
+ipb-unblock-addr|ДӀаякхаблок ~{0}
+ipb-unblock|дӀаякхаблок декъашхонтӀера я IP-адрес тӀера
+ipb-blocklist|Блоктоьхнарш
+ipb-blocklist-contribs|Декъашхон къинхьегам ~{0}
+unblockip|ДӀаякхаблок декъашхонтӀера
+unblocked|[[User:~{0}\u007C~{0}]] хьайаьстина.
+ipblocklist|Блоктоьхна декъашхой
+ipblocklist-legend|Блоктоьхна декъашхо лахар
+blocklist-userblocks|ДӀахьулян дӀаяздаршан блоктохарш
+blocklist-tempblocks|ДӀахьулян цхьан ханна йолу блоктохарш
+blocklist-addressblocks|ДӀахулдан цхьайолу IP адресан блоктохарш
+blocklist-rangeblocks|ДӀахьулян блоктоьхна йолу диапазонаш
+blocklist-timestamp|Терахь/хан
+blocklist-target|Ӏалашо
+blocklist-expiry|Чекхйолу
+blocklist-by|Цунна блоктоьхана куьйгалхо
+blocklist-params|Блоктохаран параметрш
+blocklist-reason|Бахьан:
+ipblocklist-submit|Лаха
+infiniteblock|хан чаккхе йоцуш
+noautoblockblock|ша блоктухарг дӏаяйина
+blocklink|блоктоха
+unblocklink|дӀаякхаблок
+change-blocklink|хийцам бе блоктохарна
+contribslink|къинхьегам
+blocklogpage|Блоктоьхарш болу тептар
+blocklog-showlog|{{GENDER:~{0}\u007CХӀокху декъашхон хьалхо блоктоьхна хила}}.\nЛахахь гойту блоктохарш долу тептар:
+blocklogentry|блоктоьхна [[~{0}]] цхьана ханна ~{1} ~{2}
+reblock-logentry|Хийцина  блоктоьхна хан [[~{0}]] ~{1} ~{2}
+blocklogtext|Блоктохаршна а блокдӀаякхаршна а тептар. Ша блоккхеташ долу IP-адресаш кхузахь гойтуш дац. Кхин. [[Special:BlockList\u007CхӀийнца блоктоьха берш]].
+unblocklogentry|дӀаякхинаблок ~{0}
+block-log-flags-anononly|Къайлаха берш
+block-log-flags-nocreate|цамагдо керла дӏаяздарш кхоллар
+block-log-flags-noautoblock|ша блоктухарг дӏаяйина
+ipb-needreblock|ХӀара ~{0} {{GENDER:~{0}\u007Cблоктоьхна ву\u007Cблоктоьхна ю}}. Лаьий хьуна блоктохаран параметрш хийца?
+move-page|~{0} — цlе хийцар
+move-page-legend|ЦӀe хийца яр
+movepagetext|Леладан лахар хатlаьхь, хьо агlон цlе хуьйцуш ву, цхьатерра дехьа а докхуш цуьнан хийцаман тептар.\nТиша цlе хира ю дlасахьажйарехь керлачун тlе хьажийна.\nХьега далур ду ша шех дlасахьажор керла яккхар, хьалхалерачуьна метта йиллина йолу.\nНагахь ахьа иза цадинехь, дехар до, хьажа йуйла [[Special:DoubleRedirects\u007Cшалгlа]] а [[Special:BrokenRedirects\u007Cхадийначу дlасахьажориш]].\nАхьа жоп лур ду кхин дlа а хьажориг хьажийна хилийта, хила йезаче.\n\nТергамбеш хила, иза агlо '''хира яц''' цlе хийцина, нагахь иза цlе йолуш керла агlо йалахь, цхьа йолу хенахь, нагахь иза йалахь цхьан тlе хьажийна йа йаьсса а нисйарца истори йоцуш.\nИза бохург ду, хьега хийцалур ю оцу агlон цlе оцу цlарца, хlинц цуьна хилла йолу, нагахь ахьа гlалатонца цlе хийцанехь, йолуш йолу агlо цахууш йа мега хьа.\n\n'''ДlАХЬЕДАР!'''\nЦlе хийцарца хила тарло барамашкахь а цамётту хийцам ''гlар йойлачу'' агlонашна.\nДехар до, кхин дlа хьо вахале, дика ойла йе, хьо кхеташ хиларехь тlаьхьа хиндолучунах.
+movepagetext-noredirectfixer|Бухахь йолу форманца агӀон цӀе хийцало. Цул совнах цуьна хийцаман журнал кхоьчу метте доккха. Хьалхалера цӀарахь хиръю керла кхоьллина агӀонан хьажораг.\n\nХьовсалаш [[Special:DoubleRedirects\u007Cшалха]] а [[Special:BrokenRedirects\u007Cйохна хьажорагаш]] юй техь аьлла.\n\nШу жоьпехь ду хьажорагаш нийса некъ гойтуш хиларан.\n\nТидам бе хьалхалера агӀон цӀе ‘’’хийцалур яц’’’ иштта цӀе йолу агӀо йолуш елахь. Юкъардаккхар: йолуш йолу агӀо кхоьчухьа хьажораг елахь, я еса елахь а, цуьна хьийцаме истори яцахь а.\n\nИ бохург ду шун агӀонан цӀе юха а хьалха хилларгчунтӀе хийца йиш ю, амма йолуш йолу агӀо дӀаяккха йиш яц.\n\n'''ДӀАХЬЕДАР!'''\n\nЦӀе хийцар бахьнехь гӀаръялла агӀонашна дукха дагахь боцу хийцамаш хила тарло. Цундела цӀе хийцале шеш хила тарлучу тӀехьонашах кхета аьлла тешна хила.
+movepagetalktext|Тlе хlоьттина йолу дийцаре агlо ишта цlе хийцина хира ю, '''цхьа йолу ханчохь, маца:'''\n\n*Йаьсса йоцу дийцаре агlо йолуш ю оцу цlарца йа\n*Ахьа къастаман харжам цабиняхь а къастам хlотточехь.\n\nИшта чу ханчохь, ахьа дехьа яккха йезар ю йа куьйга хlоттайар, нагахь иза хьашт йалахь.
+movearticle|Цle хийца хlокху агlон
+newtitle|Керла цlе
+move-watch|Латайé хlара агlо тергаме могlам юкъа
+movepagebtn|Агlон цlе хийца
+pagemovedsub|Агlон цlе хийцина
+movepage-moved|'''Агlон цlе «~{0}» хийцина хlокху «~{1}»'''
+movepage-moved-redirect|Кхоьллина дӀасахьажориг.
+movepage-moved-noredirect|ДӀасхьажориг кхоллар дохина.
+articleexists|Хlарасанна цlе йолу агlо йолуш ю йа ахьа гойтуш йолу цlе магош яц.\nДехар до, харжа кхин цlе.
+talkexists|'''Агlон цlе хийцина йара, амма дийцаре агlон цlе хийца цало, хlунда аьльча иза санна цlе йолу агlо йолуш ю. Дехар до, куьйга хlотта уьш.'''
+movedto|цlе хийцина оцу
+movetalk|Цуьнца йогlуш йолу дийцаре агlон цlе хийцар
+move-subpages|ЦӀeрш хийцае бухара агӀонаши (~{0} кхаччалц)
+move-talk-subpages|ЦӀе хийца бухара агӀонаши а агӀонашан дийцаре а (~{0}  кхаччалц)
+movepage-page-exists|Агӏо ~{0} йолуш ю цундела и ша юху дӏаязъян йиш яц.
+movepage-page-moved|АгӀона ~{0} цӀе хийцина оцу ~{1}.
+movelogpage|Цlераш хийцаран тептар
+movesubpage|{{PLURAL:~{0}\u007CБухара агӀо\u007CБухара агӀонаш}}
+movenosubpage|ХӀокху агӀона бухара агӀонаш яц.
+movereason|Бахьан:
+revertmove|юхаяккха
+delete_and_move|Цle а хуьйцуш дӀаяккха
+delete_and_move_text|== ДӀаяккха хьокъ ю ==\nИ цӀе йолу аг1о «[[:~{0}]]» йолуш ю. \nЛаьий хьуна и дӀаяккха, цӀе хийца таро хилийта?
+delete_and_move_confirm|Хlаъ, дӀаяккха хlара агlо
+delete_and_move_reason|ДӀаяккхина цӀе хийца я таро хилийта  «[[~{0}]]»
+selfmove|АгӀона цӏе хийца йиш яц: и цӏе хӏокху агӏона йолуш ю.
+immobile-source-page|ХӀокху агӏона цӏе хийца йиш яц.
+move-leave-redirect|Ӏадйита дӀасахьажориг
+protectedpagemovewarning|'''Дlахьедар.''' Хlара агlо гlаролла йина йу; цlе хийца йа нисйа а бакъо йолуш адаманкуьйгалхой бе бац.\nЛахахьа тептаро балийна тlаьхьаралера дlаязбина хаам:
+semiprotectedpagemovewarning|'''Дlахьедо.''' Хlара агlо гlаролла йина йу; дlабазбиначу декъашхошка бе цlе хийцалуш яц.\nЛахахьа тептаро балийна тlаьхьаралера дlаязбина хаам:
+export|Яззамаш кхечу меттиган арадахар
+exporttext|Шуьга далур ду кхечу меттера чудахарш, йоза а хийцаме тептарш билгалла йолу агlонаш йа гулдина йолу агlонаш хlокх XML барамца, йуха тlяхьа чура [[Special:Import\u007Cхьаэцалурдолш]] кхечу вики-хьалхен, болх беш йолу хlокху MediaWiki гlирсаца.\n\nКхечу меттера яззамаш чуйаха, чуязйе цlе редокхчу метте, цlхьа могlан цlе могlаршкахь, йуха харжа лаьи шуна Кхечу меттер чуйаха массо яззамашна истори хийцамбарш йа тlяхьаралера яззамна башхо.\n\nШуьга кхи даландерг, лелаеш йолу меттиг къастаман машан хьажориг кхечу меттер чудаха тlяхьарлера башхон яззамаш. Массала оцу яззамна [[{{MediaWiki:Mainpage}}]] хlара хира йу хьажориг [[{{#Special:Export}}/{{MediaWiki:Mainpage}}]].
+export-templates|Латадé кепаш
+allmessages|Гlирса хаамаш
+allmessagesname|Хаам
+allmessagesdefault|Шаьшха йоза
+allmessagescurrent|Карарчу хенан йоза
+allmessages-filter-legend|Литтар
+allmessages-filter|Литтар оцу хьола хийцамца:
+allmessages-filter-unmodified|Хийцан йоцурш
+allmessages-filter-all|Массо
+allmessages-filter-modified|Хийцнарш
+allmessages-prefix|Литтар оцу дешахьалхе:
+allmessages-language|Мотт:
+allmessages-filter-submit|Дехьа вала
+import|Кхин яззам агlонаш чуяхар
+import-interwiki-source|Вики-хьост/агlо:
+import-interwiki-templates|Лата де массо кепаш
+import-upload-filename|Файлан цӀе:
+tooltip-pt-userpage|Декъашхочуьна агlо
+tooltip-pt-mytalk|Сан дийцаре агlо
+tooltip-pt-preferences|Хьан гlирс нисбар
+tooltip-pt-watchlist|Ахьа тергам бо агlонаши хийцаман могlам
+tooltip-pt-mycontris|Хьан нисдаран могlам
+tooltip-pt-login|Хlокху гlирса чохь дlавазвала/яла мега, амма иза тlедожош дац.
+tooltip-pt-logout|Дlадерзадо болх бар
+tooltip-ca-talk|Дийцаре агlон чулацам
+tooltip-ca-edit|Хlара агlо хийцалур ю. Лелайе, дехар до, хьалххьажар айхьа чутохале lалашан
+tooltip-ca-addsection|Кхолла керла дакъа
+tooltip-ca-viewsource|Хlара агlо хийцам цабайта гароллехь ю, хьоьга далундерг хьажар а дезахь чура йоза хьаэцар
+tooltip-ca-history|Хlокху агlон хийцамаш болу тептар
+tooltip-ca-protect|Гlаролла дé хlокху агlон хийцам цабайта
+tooltip-ca-unprotect|Дlадаккха хlокху агlонна долу гаролла
+tooltip-ca-delete|ДӀаяккха хӀара агӀо
+tooltip-ca-move|Агlон цlе хийца
+tooltip-ca-watch|Тlетоха хlара агlо сан тергаме могlам юкъа
+tooltip-ca-unwatch|Дlайаккха хlара агlо хьай тергаме могlам юкъар
+tooltip-search|Лаха иза дош
+tooltip-search-go|Билгала и санна цlе йолучу агlон чу дехьа вала
+tooltip-search-fulltext|Лаха агlонаш ше чулацамехь хlара йоза долуш
+tooltip-p-logo|Коьрта агIо
+tooltip-n-mainpage|Дехьавалар коьрта агlончу
+tooltip-n-mainpage-description|Дехьавалар коьрта агlончу
+tooltip-n-portal|Оцу кхолламах, мичахь хlу йу лаьташ а хlудалур ду шуьга
+tooltip-n-currentevents|Дlаоьхуш болу хаамашна могlам
+tooltip-n-recentchanges|Тlаьххьаралера хийцаман могlам
+tooltip-n-randompage|Хьажа цахууш нисйеллачу агlоне
+tooltip-n-help|Нисвохаамаш оцу кхолламца «{{SITENAME}}»
+tooltip-t-whatlinkshere|Массо агlон могlам, хlокху агlонтlе хьажийна йолу
+tooltip-t-recentchangeslinked|Тlаьхьарлера хийцамаш хlокху агlонашкахь, мичхьа хьажийна хlара агlо
+tooltip-feed-rss|Хьагайтар оцу RSS цани хlокху агlон
+tooltip-feed-atom|Хьагайтар оцу Atom цани хlокху агlон
+tooltip-t-contributions|Хlокху декъашхочо хийцина йолу агlонашан могlам
+tooltip-t-emailuser|Дlабахьийта хаам оцу декъашхона
+tooltip-t-upload|Чуйаха файлаш
+tooltip-t-specialpages|Белха агlонаши могlам
+tooltip-t-print|Хlокху агlонна зорба туху башхо
+tooltip-t-permalink|Даимна йолу хьажориг хlокху башха агlонна
+tooltip-ca-nstab-main|Яззамна чулацам
+tooltip-ca-nstab-user|Хlора декъашхон долахь йолу агlо
+tooltip-ca-nstab-media|Медиа-файл
+tooltip-ca-nstab-special|Хlара белха агlо йу, хlара рéдаккхалуш яц
+tooltip-ca-nstab-project|Кхолламан дакъа
+tooltip-ca-nstab-image|Хlуман агlо
+tooltip-ca-nstab-mediawiki|Хааман агlо MediaWiki
+tooltip-ca-nstab-template|Куцкепа агlо
+tooltip-ca-nstab-category|Категореши агӀо
+tooltip-minoredit|Къастам бé хlокху хийцамна кlеззиг боуш санна
+tooltip-save|Хьан хийцамаш lалашбой
+tooltip-preview|Дехар до, агlо lалаш йарал хьалха хьажа муха йу яз!
+tooltip-diff|Гайта долуш долу йозанах бина болу хийцам.
+tooltip-compareselectedversions|Хlокху шина хаьржина агlона башхо муха ю хьажа.
+tooltip-watch|Тlетоха хlара агlо сан тергаме могlам юкъа
+tooltip-rollback|Цхьоз тlетаlийча дlабаккха кхечо бина болу тlаьххьара хийцам
+tooltip-undo|Дlабаккха бина болу хийцам а хьалхьажар гойтуш, дlайаккхарна бахьан гайта аьтту беш
+common.css|/** Чуйиллина йолу кхузе CSS хир йу лелош масхьа кечйечу чохь */
+monobook.css|/* Чуйиллина йолу кхузе CSS хир йу лелош масхьа Monobook чохь */
+print.css|/* Чуйиллина йолу кхузе CSS хир йу лелош масхьа зорба тухучуче чохь */
+common.js|/* Чуйиллина йолу кхузе JavaScript ишар гучу ерайу массо декъашхошна оцара схьаелларца хlора агlо */
+monobook.js|/* Кхузе чу яззийна йолу JavaScript ишар, чу йера йу, массо MonoBook хатl лелош болу декъашхошна */
+siteuser|декъашхо {{grammar:genitive\u007C{{SITENAME}}}} ~{0}
+others|кхин
+siteusers|{{PLURAL:~{1}\u007Cдекъашхо\u007Cдекъашхой}} {{grammar:genitive\u007C{{SITENAME}}}} ~{0}
+nocredits|Бац декъашхойн могlам хlокху яззамца
+spamprotectiontitle|Совбиларна литтар
+pageinfo-language|АгӀона мотт
+pageinfo-toolboxlink|Агlонах болу бовзам
+skinname-modern|Кхузаманан
+skinname-vector|Векторни
+markaspatrolledtext|Пайден агӏо хилар билгало ян
+markedaspatrollednotify|АгӀо «~{0}» пайдане хилар билгалдина
+previousdiff|← Хьалхдоьда нисдинарг
+nextdiff|Тlяхьа догlа нисдинарг →
+imagemaxsize|Суьртан бараман доза тохар:<br />''(Файла агӀона куц дийцар)''
+thumbsize|Жима дина суьртан барам:
+widthheightpage|~{0} × ~{1}, ~{2} {{PLURAL:~{2}\u007Cагlо\u007Cагlонаш\u007Cагlонаш}}
+file-info|файлан барам: ~{0}, MIME-тайп: ~{1}
+file-info-size|~{0} × ~{1} {{PLURAL:~{1}\u007Cпиксель\u007Cпикселш\u007Cпикселш}}, файлан барам: ~{2}, MIME-тайп: ~{3}
+file-info-size-pages|~{0} × ~{1} пикселш, файлан барам: ~{2}, MIME-тайп: ~{3}, ~{4} {{PLURAL:~{4}\u007CагӀо\u007CагӀонаш}}
+file-nohires|Кхи йоккха гlоле башхо яц.
+svg-long-desc|SVG-файл, лартӀахь ю ~{0} × ~{1} {{PLURAL:~{1}\u007Cпиксель\u007Cпикселш\u007Cпикселш}}, файлан барам: ~{2}
+svg-long-desc-animated|Анимироват йина SVG-файл, номинальни ~{0} × ~{1} {{PLURAL:~{1}\u007Cпиксель\u007Cпикселш}}, файлан барам: ~{2}
+show-big-image|Сурт цlанал лаккхара бакъонца
+show-big-image-preview|Барам хьажале: ~{0}.
+show-big-image-other|{{PLURAL:~{1}\u007CКхин шоралла\u007CКхин шоралла}}: ~{0}.
+show-big-image-size|~{0} × ~{1} пикселш
+newimages|Керлачу файланшан галерий
+newimages-legend|Литтар
+ilsubmit|Лаха
+seconds-abbrev|~{0}оцу
+bad_image_list|Барам хила беза ишта:\n\nЛораш хира йу могlамяхь йолу хlумнаш (могlийн, йола луш йолу сабол тlира *).\nДуьхьаралера хьажориг магlарши хила беза хьажориг кху цамагдо сурт дуьлаче.\nТlяхьа йогlуш йолу хьажориг оцу могlарехь хира йу магóш, билгалла аьлча яззамаш долуче, сурт хьаллаточехь.
+metadata|Метахаамаш
+metadata-help|ХӀокху файлаца кхин тӀе хаам бу, даиман чуйоккхуш йолу терахьца чоьнашца йа тӀейоккхучуьнца. Нагахь файлан тӀаьхьа хийцам биняхь, тӀаккха цӀхьаболу барам цӀхьаьна ца ба мега хӀинцалера суьртаца.
+metadata-expand|Гайта кхин тlе болу хаам
+metadata-collapse|Къайла баккха кхин тlе болу хаам
+metadata-fields|Метахааман майда, хьахийна йолу хlокху могlамца, lад-йитича гойтур ю суьрти агlонца, йисинарш хира ю къайлаха.\n* make\n* model\n* datetimeoriginal\n* exposuretime\n* fnumber\n* isospeedratings\n* focallength\n* artist\n* copyright\n* imagedescription\n* gpslatitude\n* gpslongitude\n* gpsaltitude
+exif-imagewidth|Шоралла
+exif-imagelength|Локхалла
+exif-orientation|Суьртан хьал
+exif-xresolution|Шоралла
+exif-yresolution|Локхалла
+exif-datetime|Файл хийцина терахь а хан
+exif-imagedescription|Суьртан цӏе
+exif-software|Лелина программа
+exif-colorspace|Беснашан хьал
+exif-pixelxdimension|Суьртан локхалла
+exif-datetimeoriginal|Дуьххьарлера терахь а хан
+exif-datetimedigitized|Оцифровк йина терахь а хан а
+exif-gpsaltitude|Локхалла
+exif-gpsdestlatitude|Объектан дохалла
+exif-gpsdatestamp|Терахь
+exif-source|Хьост
+exif-languagecode|Мотт
+exif-orientation-1|Лартӏахь
+exif-xyresolution-i|~{0} тӏадамаш дюйман
+exif-scenetype-1|Сурт даьккхина нис дуьххьал
+exif-contrast-0|Лартӏахь
+exif-saturation-0|Лартӏахь
+exif-sharpness-0|Лартӏахь
+exif-dc-date|Терахь(ш)
+edit-externally|Рéдаккха хlокху хlуман, арахьара диллагlарам лелош
+edit-externally-help|(мадарра хьажа. оцу [//www.mediawiki.org/wiki/Manual:External_editors куьйгалийца дlахlотторе])
+watchlistall2|массо
+namespacesall|массо
+monthsall|массо
+limitall|массо
+confirmrecreate|Декъашхо [[User:~{0}\u007C~{0}]] ([[User talk:~{0}\u007Cдийцаре]]) хlара агlо дlадайина, хьо иза нисда вола велча, дlадайарна бахьан:\n: ''~{1}''\nДехар до, тешал де, хьо иза агlо метта хlотто лууш ву але.
+imgmultipageprev|← хьалхара агlо
+imgmultipagenext|тlаьхьара агlо →
+imgmultigo|Дехьавала!
+imgmultigoto|Дехьавала агlончу ~{0}
+table_pager_next|Тlаьхьа йогlу агlо
+table_pager_prev|Хьалха йоьду агlо
+table_pager_first|Дуьххьаралера агlо
+table_pager_last|Тlаьххьаралера агlо
+table_pager_limit|Гайта ~{0} хlумнаш агlон тlаьхь
+table_pager_limit_label|АгӀона чохь гойтуш ю оццул:
+table_pager_limit_submit|Кхочушдé
+table_pager_empty|Цакарийна
+autosumm-blank|Агӏон чулацам дӏабяккхина
+autosumm-replace|АгӀона чуьраниг хийцина оцу «~{0}»
+autoredircomment|ДӀасахьажийна цуна [[~{0}]] тӏе
+autosumm-new|Керла агlо: «~{0}»
+livepreview-loading|Чуйолуш…
+livepreview-ready|Чуйолуш… Кийча йу!
+watchlistedit-normal-submit|Дlадайá язъдинарш
+watchlisttools-view|Могlам чура агlонашан хийцамаш
+watchlisttools-edit|Хьажа/нисбé могlам
+watchlisttools-raw|Йоза санна нисдé
+signature|[[{{ns:user}}:~{0}\u007C~{1}]] ([[{{ns:user_talk}}:~{0}\u007Cдийцаре]])
+version|Верси MediaWiki
+version-other|Кхин
+version-license|Бакъо
+fileduplicatesearch|Лаха цхьатера йолу хIумнаш
+fileduplicatesearch-filename|Файлан цӀе:
+fileduplicatesearch-submit|Лаха
+fileduplicatesearch-info|~{0} × ~{1} {{PLURAL:~{1}\u007Cпиксель\u007Cпикселш\u007Cпикселш}}<br />Файлан барам: ~{2}<br />MIME-тайп: ~{3}
+specialpages|Леррина агlонаш
+specialpages-note|----\n* Гуттарлера белха агlонаш.\n* <strong class="mw-specialpagerestricted">Кlеззиг таронаш йолу леррина агlонаш.</strong>
+specialpages-group-maintenance|Жамlаш гlирса хьашташ кхочушдар
+specialpages-group-other|Кхин гlуллакхан агlонаш
+specialpages-group-login|Хьой вовзийта/йовзийта / дӀавазло/дӀаязло
+specialpages-group-changes|Керла нисдарш а тéптарш
+specialpages-group-media|Жамlаш оцу медиа-гlирсашан а чуяхарш
+specialpages-group-users|Декъашхой а бакъонаш
+specialpages-group-highuse|Уггаре дукха лелайо агlонаш
+specialpages-group-pages|Агlонаши могlамаш
+specialpages-group-pagetools|Гlирсаш оцу агlонашан
+specialpages-group-wiki|Вики-баххаш а гlирсаш
+specialpages-group-redirects|Дlасахьажош йолу гlуллакхан агlонаш
+specialpages-group-spam|Гlирсаш совбиларна дуьхьал
+blankpage|Йаьсса агlо
+tags|Болш болу хийцаман къастам
+tag-filter|Литтар [[Special:Tags\u007Cкъастам]]:
+tag-filter-submit|Литта
+tags-hitcount-header|Къастам бина нисдарш
+tags-edit|нисйé
+tags-hitcount|~{0} {{PLURAL:~{0}\u007Cхийцам\u007Cхийцамаш\u007Cхийцамаш}}
+dberr-header|Хlара вики ловш йу халона бала
+dberr-problems|Бехк ма бил! Хlинц машан меттиган хилла гlирсаца халонаш.
+dberr-again|Хьажа карла йаккха агlо массех минот йаьлча.
+dberr-info|(аьтто ца хили зlе хlотта гlулкхдечуьнца бухара хаамашца: ~{0})
+dberr-usegoogle|Цlачун хьо хьажа лаха гlонца Google.
+dberr-outofdate|Хьуна хаалахь, цуьна йолу меттиг хила мега тишйелла черахь.
+htmlform-submit|ДӀадахьийта
+htmlform-selectorother-other|Кхин
+logentry-delete-delete|~{0} {{GENDER:~{1}\u007CдӀаякхина\u007CдӀаякхина}} агӀо ~{2}
+logentry-delete-restore|~{0} {{GENDER:~{1}\u007CметтахӀоттайина\u007CметтахӀоттайина}} агӀо ~{2}
+logentry-move-move|~{0} {{GENDER:~{1}\u007CцӀе хийцина\u007CцӀе хийцина}} ~{2} оцу ~{3}
+logentry-move-move-noredirect|~{0} {{GENDER:~{1}\u007CцӀе хийцина\u007CцӀе хийцина}} ~{2} оцу ~{3} дӀасахьажийнарг цаюьтуш
+logentry-move-move_redir|~{0} {{GENDER:~{1}\u007CцӀе хийцина\u007CцӀе хийцина}} ~{2} оцу ~{3} дӀасахьажоран тӀохул
+logentry-move-move_redir-noredirect|~{0} {{GENDER:~{1}\u007CцӀе хийцина\u007CцӀе хийцина}} ~{2} оцу ~{3} дӀасахьажоран тӀохул а дӀасахьажийнарг цаюьтуш а
+logentry-newusers-newusers|{{GENDER:~{1}\u007CДӀавазвелла\u007CДӀаязелла}} керла декъашхо ~{0}
+logentry-newusers-create|{{GENDER:~{1}\u007CДӀавазвелла\u007CДӀаязелла}} керла декъашхо ~{0}
+logentry-rights-rights-legacy|~{0} {{GENDER:~{1}\u007Cхийцина}} хӏокхуна ~{2} бакъо
+feedback-cancel|Цаоьшу
+searchsuggest-search|Лаха
+categorytree|Кадегарши дит
+categorytree-portlet|Кадегарш
+categorytree-legend|Гайта кадегарши дит
+categorytree-category|Кадегар:
+categorytree-go|Чуйаккха
+categorytree-parents|Кхолламан кадегарш
+categorytree-mode-all|массо агlонаш
+categorytree-collapse|къайла яккха
+categorytree-expand|хьайаста
+categorytree-loading|чуйолуш…
+categorytree-no-subcategories|йац бухаркадегарш
+categorytree-not-found|Кадегар «~{0}» ца карийна.
+cite_error|ГӀалат дешнаш далорна ~{0}
+cite_error_references_no_text|Тег <code>&lt;ref&gt;</code> нийса яц; тIетовжаран <code>~{0}</code> йоза яздина дац
+cite_error_refs_without_references|Йолуш йолу тегаца <code>&lt;ref&gt;</code> йогӀуш йолу тег <code>&lt;references/&gt;</code> ца карийна
+cite_error_group_refs_without_references|Группан «~{0}» йолуш йолу тегашца <code>&lt;ref&gt;</code> йогӀуш йолу тег <code>&lt;references group="~{0}"/&gt;</code> ца карийна
+cite_references_link_accessibility_label|Дехьа гӀо
+cite_references_link_many_accessibility_label|Дехьа гӀо:
+imagemap_invalid_image|ГӀалат: нийса дац я ишта сурт дац кху чохь
+imagemap_no_link|ГӀалат: ~{0} могӀанан чаккхехь нийса йоцу хьажораг ю
+imagemap_invalid_title|ГӀалат: могӀана ~{0} хьажориган корта нийса яц
+imagemap_description|Суьртах лаьцна
+proofreadpage_image|сурт
+proofreadpage_header|Корта (юкъаяло цатарло):
+proofreadpage_specialpage_label_key|Лаха:
+proofreadpage_source|Хьост
+proofreadpage-group-zoom|Барам
+proofreadpage-group-other|Кхин
+scribunto-console-clear|ЦӀанъян
+scribunto-common-error-category|Срипташан гӀалаташ долу агӀонаш
+cite_article_link|АгӀонах лаьцна дешнаш дало
+tooltip-cite-article|ХӀара бу хаам агӀонах лаьцна дешнаш муха дало деза гойтуш
+cite|Далийнадош
+cite_page|АгӀо:
+cite_submit|Даладе дош
+wikieditor|Викийозан рéдоккхучечохь аллсам чулоцург
+wikieditor-desc|Аьтто бо тlе хуттучо, викийозан аъ ишта кхечу харжамна рéдоккхучечохь аллсам чулоцучо
+wikieditor-wikitext-tab|Викийоза
+wikieditor-loading|Чуйолуш
+wikieditor-preview-preference|Латайé хьалха муха ю хьажар дуьхь дуьхьал
+wikieditor-preview-tab|Хьалха муха ю хьажа
+wikieditor-preview-changes-tab|Хийцам
+wikieditor-preview-loading|Чуйолуш…
+wikieditor-previewDialog-preference|Латайé йоза хьалха муха ду хьажар
+wikieditor-previewDialog-tab|Хьалха муха ю хьажа
+wikieditor-previewDialog-loading|Чуйолуш…
+wikieditor-publish-preference|Латайé цхьац ког бокхуш чутохар
+wikieditor-publish-button-publish|Нахангайта
+wikieditor-publish-button-cancel|Цаоьшу
+wikieditor-publish-dialog-title|{{SITENAME}} проектехь арахецар
+wikieditor-publish-dialog-summary|Хийцамах лаьцна (доц язде хlу хийцам бина ахьа):
+wikieditor-publish-dialog-minor|Жим хийцам
+wikieditor-publish-dialog-watch|Тергам бé хlокху агlон
+wikieditor-publish-dialog-publish|Нахангайта
+wikieditor-publish-dialog-goback|Юха
+wikieditor-template-editor-preference|Латайé куцкепа рéдаккхар бáраман гlонца
+wikieditor-template-editor-dialog-title|Кеп хийцам
+wikieditor-template-editor-dialog-submit|Карлаяккха
+wikieditor-template-editor-dialog-cancel|Цаоьшу
+wikieditor-templates-preference|Латедé кеп хьарчар
+wikieditor-toc-preference|Латедé коьрта дерг шавигарна аттонца
+wikieditor-toc-show|Гайта коьртехь дерг
+wikieditor-toc-hide|Къайлахьо коьртехь дерг
+wikieditor-toolbar|Рéдоккху меттиг
+wikieditor-toolbar-desc|Рéдоккху меттиг гlоле лелорца
+wikieditor-toolbar-preference|Латайé гlоле йолу тадар
+wikieditor-toolbar-dialogs-preference|Латайé йозан хьажораг йуьллург, таблицан а кхин хӀумнашна а
+wikieditor-toolbar-loading|Чуйолуш…
+wikieditor-toolbar-tool-bold|Дерстино
+wikieditor-toolbar-tool-bold-example|Дерстино до йоза
+wikieditor-toolbar-tool-italic|Сетта
+wikieditor-toolbar-tool-italic-example|Сеттан до йоза
+wikieditor-toolbar-tool-ilink|Чоьхьа хьажораг
+wikieditor-toolbar-tool-ilink-example|Хьажориган коьрта могlа
+wikieditor-toolbar-tool-xlink|Арахьара хьажораг (йиц ма йе хӀотталушерг http://)
+wikieditor-toolbar-tool-xlink-example|http://www.example.com хьажораг корта
+wikieditor-toolbar-tool-link|Хьажораг
+wikieditor-toolbar-tool-link-title|Чуйилла хьажораг
+wikieditor-toolbar-tool-link-int|Вики агӀоне
+wikieditor-toolbar-tool-link-int-target|Хьажийна агlо йа URL:
+wikieditor-toolbar-tool-link-int-target-tooltip|Агlон цlе йа URL
+wikieditor-toolbar-tool-link-int-text|Гойтуш долу йоза:
+wikieditor-toolbar-tool-link-int-text-tooltip|Чудилла схьагайта дезаш долу йоза
+wikieditor-toolbar-tool-link-ext|Хьалхара агlон чохь
+wikieditor-toolbar-tool-link-ext-target|URL хьажорагаш:
+wikieditor-toolbar-tool-link-ext-text|Хьажораган йоза:
+wikieditor-toolbar-tool-link-insert|Чуйилла хьажораг
+wikieditor-toolbar-tool-link-cancel|Цаоьшу
+wikieditor-toolbar-tool-link-int-target-status-exists|Ишта агlо йолш ю
+wikieditor-toolbar-tool-link-int-target-status-notexists|Ишта агlо яц
+wikieditor-toolbar-tool-link-int-target-status-invalid|Ца магайо цlе
+wikieditor-toolbar-tool-link-int-target-status-external|Арахьара хьажораг
+wikieditor-toolbar-tool-link-int-target-status-loading|Агlо ю яц хьоьжуш…
+wikieditor-toolbar-tool-link-int-target-status-disambig|Дуккха маьӀнаш долу агӀонаш
+wikieditor-toolbar-tool-link-int-invalid|Гойтуш йолу цlе ца магайо.
+wikieditor-toolbar-tool-link-lookslikeinternal|Ахьа хоттийна URL кхечу вики-агӀонан хьажорагах тера ю. Лаьий хьуна и хьажораг чоьхьарчех я?
+wikieditor-toolbar-tool-link-lookslikeinternal-int|Чоьхьа хьажораг
+wikieditor-toolbar-tool-link-lookslikeinternal-ext|Арахьара хьажораг
+wikieditor-toolbar-tool-link-empty|Ахьа ца гайтин мичхьа хьажойеза хьажораг.
+wikieditor-toolbar-tool-file|Чохь йолу файл
+wikieditor-toolbar-tool-file-example|Example.jpg
+wikieditor-toolbar-tool-file-title|Файл чуйиллар
+wikieditor-toolbar-file-target|Файлан цӀе:
+wikieditor-toolbar-file-caption|КуьгтаӀор:
+wikieditor-toolbar-file-size|Барам:
+wikieditor-toolbar-file-float|Нисдар:
+wikieditor-toolbar-file-default|(Iад йитарца)
+wikieditor-toolbar-tool-file-insert|Чудилла
+wikieditor-toolbar-tool-file-cancel|Цаоьшу
+wikieditor-toolbar-tool-reference|ТIетовжар
+wikieditor-toolbar-tool-reference-example|Чудилла кхузе тIетовжа деза йоза
+wikieditor-toolbar-tool-reference-cancel|Цаоьшу
+wikieditor-toolbar-tool-reference-title|Чудилла тIетовжар
+wikieditor-toolbar-tool-reference-insert|Чудилла
+wikieditor-toolbar-tool-reference-text|ТIетовжаран йоза
+wikieditor-toolbar-tool-signature|Куьгтаlор хан хlоттош
+wikieditor-toolbar-section-advanced|Кхин тӀе
+wikieditor-toolbar-tool-heading|Корта
+wikieditor-toolbar-tool-heading-1|Локхалла 1
+wikieditor-toolbar-tool-heading-2|Локхалла 2
+wikieditor-toolbar-tool-heading-3|Локхалла 3
+wikieditor-toolbar-tool-heading-4|Локхалла 4
+wikieditor-toolbar-tool-heading-5|Локхалла 5
+wikieditor-toolbar-tool-heading-example|Коьрта йоза
+wikieditor-toolbar-group-format|Бáрам
+wikieditor-toolbar-tool-indent|Дlахило
+wikieditor-toolbar-tool-indent-example|Могlа дlахилабо
+wikieditor-toolbar-tool-nowiki|Тергал ца бо вики-бáрамхlоттор
+wikieditor-toolbar-tool-nowiki-example|Чудилла кхузе йоза, бáрам хlотто ца оьшуш дерг
+wikieditor-toolbar-tool-redirect|Дlасахьажор
+wikieditor-toolbar-tool-redirect-example|Хьжочу агlонан цlе
+wikieditor-toolbar-tool-big|Доккха
+wikieditor-toolbar-tool-big-example|Доккха йоза
+wikieditor-toolbar-tool-small|Жима
+wikieditor-toolbar-tool-small-example|Жима йоза
+wikieditor-toolbar-tool-superscript|Могlан лакха
+wikieditor-toolbar-tool-superscript-example|Могlан лакхар йоза
+wikieditor-toolbar-tool-subscript|Могlан буха
+wikieditor-toolbar-tool-subscript-example|Могlан бухар йоза
+wikieditor-toolbar-group-insert|Диллар
+wikieditor-toolbar-tool-gallery|Дуккха суьрташ
+wikieditor-toolbar-tool-gallery-example|~{0}:Example.jpg\u007CЦуьнах лаце1\n~{0}:Example.jpg\u007CЦуьнах лаце2
+wikieditor-toolbar-tool-newline|Керла могlа
+wikieditor-toolbar-tool-table|Таблица
+wikieditor-toolbar-tool-table-example-old|-\n! коьрта могlа 1\n! коьрта могlа 2\n! коьрта могlа 3\n\u007C-\n\u007C могlа 1, чоь 1\n\u007C могlа 1, чоь 2\n\u007C могlа 1, чоь 3\n\u007C-\n\u007C могlа 2, чоь 1\n\u007C могlа 2, чоь 2\n\u007C могlа 2, чоь 3
+wikieditor-toolbar-tool-table-example-cell-text|Чоьнан йоза
+wikieditor-toolbar-tool-table-example-header|Коьрта йоза
+wikieditor-toolbar-tool-table-title|Чуйилла таблица
+wikieditor-toolbar-tool-table-dimensions-rows|МогӀанаш
+wikieditor-toolbar-tool-table-dimensions-columns|Бlогlамаш
+wikieditor-toolbar-tool-table-dimensions-header|ТӀетоха коьрта могӀанан могӀа
+wikieditor-toolbar-tool-table-wikitable|Кечйеш дозанашца
+wikieditor-toolbar-tool-table-sortable|Листалуш йе таблица
+wikieditor-toolbar-tool-table-example|Чоьнан йоза
+wikieditor-toolbar-tool-table-preview|Хьалха муха ю хьажа
+wikieditor-toolbar-tool-table-insert|Чуйилла
+wikieditor-toolbar-tool-table-cancel|Цаоьшу
+wikieditor-toolbar-tool-table-toomany|Оцул чоьнаш йа аьтту ца болу, таблийцан чоьнашна бáрам ~{0} хоттало.
+wikieditor-toolbar-tool-table-invalidnumber|Ахьа нийса ца хоттийн цхьатерра могlанаш ле бlогlамаш.
+wikieditor-toolbar-tool-table-zero|Хьога йиллалур яц таблица йоцургца могӀанаш ле бӀогӀамаш долуш.
+wikieditor-toolbar-tool-replace|Лаха хийца а хуьйцуш
+wikieditor-toolbar-tool-replace-title|Лаха хийца а хуьйцуш
+wikieditor-toolbar-tool-replace-search|Лаха:
+wikieditor-toolbar-tool-replace-replace|Хийца оцуьнца:
+wikieditor-toolbar-tool-replace-case|Яздар тидаме оьцуш
+wikieditor-toolbar-tool-replace-regex|Хилийта могlа юх-юха лохуш долу дош
+wikieditor-toolbar-tool-replace-button-findnext|Караде тӀаьхьа-догӀург
+wikieditor-toolbar-tool-replace-button-replace|Хийца
+wikieditor-toolbar-tool-replace-button-replaceall|Дерриге хийца
+wikieditor-toolbar-tool-replace-close|ДӀачӀагӀа
+wikieditor-toolbar-tool-replace-nomatch|Хьан дехарца хlумма ца карийна.
+wikieditor-toolbar-tool-replace-success|Балийна хийцам: ~{0}.
+wikieditor-toolbar-tool-replace-emptysearch|Ахьа ца гайтна хlу лаха деза.
+wikieditor-toolbar-tool-replace-invalidregex|Ахьа язйина цlе юх-юха нийса яц: ~{0}
+wikieditor-toolbar-section-characters|Леррина символаш
+wikieditor-toolbar-characters-page-latin|Латинан
+wikieditor-toolbar-characters-page-latinextended|Латинан алсам
+wikieditor-toolbar-characters-page-ipa|ДАЭ (IPA)
+wikieditor-toolbar-characters-page-symbols|Символаш
+wikieditor-toolbar-characters-page-greek|Гlайрхойн
+wikieditor-toolbar-characters-page-cyrillic|Кирилан
+wikieditor-toolbar-characters-page-arabic|Ӏарбийн
+wikieditor-toolbar-characters-page-arabicextended|Iаьрбийн шординарш
+wikieditor-toolbar-characters-page-persian|Пхьарсхойн
+wikieditor-toolbar-characters-page-hebrew|Жуьгтийн
+wikieditor-toolbar-characters-page-bangla|Бангалойн
+wikieditor-toolbar-characters-page-tamil|Тамилхойн
+wikieditor-toolbar-characters-page-telugu|Телугойн
+wikieditor-toolbar-characters-page-sinhala|Синхалойн
+wikieditor-toolbar-characters-page-gujarati|Гужаратойн
+wikieditor-toolbar-characters-page-thai|Тайхойн
+wikieditor-toolbar-characters-page-lao|Лаохойн
+wikieditor-toolbar-characters-page-khmer|Кхимерхойн
+wikieditor-toolbar-section-help|ГӀо
+wikieditor-toolbar-help-heading-description|Цуьнах лаьцна
+wikieditor-toolbar-help-heading-syntax|Хlу йуьллу ахьа
+wikieditor-toolbar-help-heading-result|Хlу хуьлу хьуна
+wikieditor-toolbar-help-page-format|Бáрамхlоттор
+wikieditor-toolbar-help-page-link|Хьажорагаш
+wikieditor-toolbar-help-page-heading|Коьрта могlнаш
+wikieditor-toolbar-help-page-list|Могlамаш
+wikieditor-toolbar-help-page-file|Файлаш
+wikieditor-toolbar-help-page-reference|Билгалдаккхар
+wikieditor-toolbar-help-page-discussion|Дийцаре
+wikieditor-toolbar-help-content-italic-description|Сетта
+wikieditor-toolbar-help-content-italic-syntax|''Сеттан до йоза''
+wikieditor-toolbar-help-content-italic-result|<em>Сеттан до йоза</em>
+wikieditor-toolbar-help-content-bold-description|Дерстино
+wikieditor-toolbar-help-content-bold-syntax|'''Дерстино до йоза'''
+wikieditor-toolbar-help-content-bold-result|<strong>Дерстино до йоза</strong>
+wikieditor-toolbar-help-content-bolditalic-description|Дерстино курсеттан
+wikieditor-toolbar-help-content-bolditalic-syntax|'''''Дерстино курсеттан'''''
+wikieditor-toolbar-help-content-bolditalic-result|<em><strong>Дерстино курсеттан</strong></em>
+wikieditor-toolbar-help-content-ilink-description|Чоьхьа хьажораг
+wikieditor-toolbar-help-content-ilink-syntax|[[Агlонан коьрта могlа\u007CХьажориган йоза]]<br />[[Агlонан коьрта могlа]]
+wikieditor-toolbar-help-content-ilink-result|<a href='#'>Хьажориган йоза</a><br /><a href='#'>Агlонан коьрта могlа</a>
+wikieditor-toolbar-help-content-xlink-description|Арахьара хьажораг
+wikieditor-toolbar-help-content-xlink-syntax|[http://www.example.org Хьажориган йоза]<br />[http://www.example.org]<br />http://www.example.org
+wikieditor-toolbar-help-content-xlink-result|<a href='#' class='external'>Хьажориган йоза</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>
+wikieditor-toolbar-help-content-heading2-description|Коьрта могlа 2-гlа локхалла
+wikieditor-toolbar-help-content-heading2-syntax|== Коьрта могlан йоза ==
+wikieditor-toolbar-help-content-heading2-result|<h2>Коьрта могlан йоза</h2>
+wikieditor-toolbar-help-content-heading3-description|Коьрта могlа 3-гlа локхалла
+wikieditor-toolbar-help-content-heading3-syntax|=== Коьрта могlан йоза ===
+wikieditor-toolbar-help-content-heading3-result|<h3>Коьрта могlан йоза</h3>
+wikieditor-toolbar-help-content-heading4-description|Коьрта могlа 4-гlа локхалла
+wikieditor-toolbar-help-content-heading4-syntax|==== Коьрта могlан йоза ====
+wikieditor-toolbar-help-content-heading4-result|<h4>Коьрта могlан йоза</h4>
+wikieditor-toolbar-help-content-heading5-description|Коьрта могlа 5-гlа локхалла
+wikieditor-toolbar-help-content-heading5-syntax|===== Коьрта могlан йоза =====
+wikieditor-toolbar-help-content-heading5-result|<h5>Коьрта могlан йоза</h5>
+wikieditor-toolbar-help-content-ulist-description|Къастам бина могlам
+wikieditor-toolbar-help-content-ulist-syntax|* Могlаман файл<br />* Могlаман файл
+wikieditor-toolbar-help-content-ulist-result|<ul><li>Могlаман файл</li><li>Могlаман файл</li></ul>
+wikieditor-toolbar-help-content-olist-description|Терахьца болу могlам
+wikieditor-toolbar-help-content-olist-syntax|# Могlаман файл<br /># Могlаман файл
+wikieditor-toolbar-help-content-olist-result|<ol><li>Могlаман файл</li><li>Могlаман файл</li></ol>
+wikieditor-toolbar-help-content-file-description|Чохь йолу файл
+wikieditor-toolbar-help-content-file-syntax|[[~{0}:Example.png\u007Cthumb\u007CОцуьнах лаьцна йоза]]
+wikieditor-toolbar-help-content-file-result|<div style='width:104px;' class='thumbinner'><a title='\nОцуьнах лаьцна йоза' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='~{1}/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Доккха дан' class='internal' href='#'><img height='11' width='15' alt='' src='~{0}/common/images/magnify-clip.png'/></a></div>\nОцуьнах лаьцна йоза</div></div>
+wikieditor-toolbar-help-content-reference-description|Билгалдаккхар
+wikieditor-toolbar-help-content-reference-syntax|Агlонан йоза.&lt;ref name="test"&gt;[http://www.example.org Хьажориган йоза], кхин тlе дузуш йоза.&lt;/ref&gt;
+wikieditor-toolbar-help-content-reference-result|Агlонан йоза.<sup><a href='#'>[1]</a></sup>
+wikieditor-toolbar-help-content-rereference-description|Кхин тӀе лело изза хьажораг
+wikieditor-toolbar-help-content-rereference-result|Агlонан йоза<sup><a href='#'>[1]</a></sup>.
+wikieditor-toolbar-help-content-showreferences-description|Гайта билгалдаккхар
+wikieditor-toolbar-help-content-showreferences-result|<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Хьажориган йоза</a>, кхин тlе дузуш йоза.</li></ol>
+wikieditor-toolbar-help-content-signaturetimestamp-description|Куьгтаlор хан хlоттош
+wikieditor-toolbar-help-content-signaturetimestamp-result|<a href='#' title='{{#special:mypage}}'>Декъашхочун цӀе</a> (<a href='#' title='{{#special:mytalk}}'>дийцаре</a>) 15:54, 10 июнь 2009 (UTC)
+wikieditor-toolbar-help-content-signature-description|Куьгтаlор
+wikieditor-toolbar-help-content-signature-result|<a href='#' title='{{#special:mypage}}'>Декъашхочун цӀе</a> (<a href='#' title='{{#special:mytalk}}'>дийцаре</a>)
+wikieditor-toolbar-help-content-indent-description|Дlахило
+wikieditor-toolbar-help-content-indent-syntax|Гуттарлера йоза<br />:Дlахилийна йоза<br />::Дlахилийна йоза
+wikieditor-toolbar-help-content-indent-result|Гуттарлера йоза<dl><dd>Дlахилийна йоза<dl><dd>Дlахилийна йоза</dd></dl></dd></dl>
+wikibase-edit|тадар
+wikibase-save|Ӏалашян
+wikibase-cancel|цаоьшу
+wikibase-add|тIетоха
+wikibase-addreference|тӏетоха хьост
+wikibase-save-inprogress|Ӏалашяр…
+wikibase-label-empty|Билгало (цӀе) яц.
+wikibase-label-edit-placeholder|язъе цӀе
+wikibase-description-edit-placeholder|ДӀаязде цунах лаьцна
+wikibase-alias-edit-placeholder|дӀаязъе кхин тӀе цӀе (синоним)
+wikibase-label-input-help-message|ДӀаязъе цӀе хӀокху ~{0} меттахь.
+wikibase-statements|ТIечIагIдалар
+wikibase-terms|Кхечу маттахь дерш
+wikibase-sitelinks-add|Сайтан агӀона тӀе тӀетоха хьажораг
+wikibase-remove|дӀаяккха
+wikibase-empty-undo|Эцахь хӀума яц кхузахь билгаляккха
+wikibase-propertyedittool-counter-entrieslabel|{{PLURAL:~{0}\u007CдӀаяздар\u007CдӀаяздарш}}
+wikibase-aliases-label|Кхин:
+wikibase-datatype-label|Хаамашан тайп:
+wikibase-statementview-referencesheading-pendingcountersubject|{{PLURAL:~{0}\u007Cхьост\u007Cхьосташ}}
+wikibase-snakview-variations-somevalue-label|маьӀна хууш дац
+wikibase-snakview-variations-novalue-label|маьӀна цакарийна
+wikibase-snakview-snaktypeselector-value|шийн маьӀна
+wikibase-snakview-snaktypeselector-somevalue|маьӀна хууш дац
+wikibase-snakview-snaktypeselector-novalue|маьӀна цакарийна
+wikibase-entityselector-more|кхин
+wikibase-error-sitelink-already-used|Хьажораг оцу [~{0} ~{1}] сайтан тӀе хӀинцале лелош ю хӀокху [[~{2}]] элементо.
+special-itembytitle|Элементаш коьртамогӀомца
+wikibase-itembytitle-lookup-fieldset|Лаха элемент сайтаца а коьртамгӀанца а
+wikibase-itembytitle-lookup-site|Сайт:
+wikibase-itembytitle-lookup-page|АгӀо:
+wikibase-itembytitle-submit|Лаха
+wikibase-itemdisambiguation-lookup-language|Мотт:
+wikibase-itemdisambiguation-lookup-label|ЦӀе:
+wikibase-itemdisambiguation-submit|Лаха
+wikibase-newproperty-datatype|Хаамашан тайп:
+special-newitem|Керла элемент кхоллар
+wikibase-newentity-label|ЦӀе (билгало):
+wikibase-newentity-description|Цуьнах лаьцна:
+special-setlabel|Язъе цӀе
+wikibase-setlabel-label|ЦӀе (билгало):
+wikibase-setlabel-submit|Язъе цӀе
+wikibase-setdescription-label|Цуьнах лаьцна:
+wikibase-setsitelink-label|Сайтан тӀе хьажораг:
+wikibase-modifyterm-language|Мотт:
+wikibase-dispatchstats-change-timestamp|Терахь/хан
+wikibase-dispatchstats-oldest-change|Уггар ширанийш
+wikibase-history-title-with-label|Хийцаман истори «~{1}» (~{0})
+wikibase-entitieswithoutlabel-label-language|Мотт:
+wikibase-entitieswithoutlabel-submit|Лаха
+wikibase-restoreold|меттахӀоттае
+wikibase-item-summary-wbeditentity-update|Элемент карлаяьккина
+wikibase-item-summary-wbsetreference|Хьостан тӀе хьажораг къастина
+wikibase-item-summary-wbsetsitelink-add|ХӀокхуна [~{1}] тӀетоьхна хьажораг
+wikibase-item-summary-wbsetsitelink-set|Хийцина хьажораг оцу [~{1}]
+wikibase-item-summary-wbsetsitelink-remove|ТӀера [~{1}] хьажораг дӀаяьккхина
+wikibase-item-summary-wbcreateclaim-value|{{PLURAL:~{0}\u007CКхоьллина дехар\u007CКхоьллина дехар}}
+wikibase-item-summary-wbcreateclaim-novalue|{{PLURAL:~{0}\u007CКхоьллина дехар\u007CКхоьллина дехарш}}
+wikibase-item-summary-wbcreateclaim|{{PLURAL:~{0}\u007CКхоьллина дехар\u007CКхоьллина дехарш}}
+wikibase-item-summary-wbcreateclaim-create|Кхоьллина дехар
+wikibase-item-summary-wbsetclaim-create|{{PLURAL:~{2}\u007CКхоьллина дехар\u007CКхоьллина дехарш}}
+wikibase-item-summary-clientsitelink-update|АгӀо кхечухьа яьккхина (цӀе хийцина) [~{2}] оцу [~{3}]
+wikibase-property-summary-wbsetlabel-set|Хийцина [~{1}] цӀе
+wikibase-listdatatypes-globe-coordinate-head|Глобальни координаташ
+wikibase-listdatatypes-time-head|Хан
+right-item-remove|элементаш дӀаяхар
+right-property-remove|башхалонаш дӀаяхар
+right-sitelink-remove|сайташан тӀе йолу хьажораш дӀаяхар
+action-item-remove|элементаш дӀаяхар
+action-property-remove|башхалонаш дӀаяхар
+wikimedialicensetexts-desc|Викимедиа бакъойаларна хаам
+wm-license-artwork-title|ЦӀе
+wm-license-artwork-notes|Билгалдаккхар
+wm-license-artwork-source|Хьост/суьрташдохург
+wm-license-book-editor|Тадархо
+wm-license-book-language|Мотт
+wm-license-book-page-overview|АгӀоне хьажар
+wm-license-book-series-title|Серин цӀе
+wm-license-book-subtitle|Корталг
+wm-license-book-title|ЦӀе
+wm-license-book-translator|Гочдархо
+wm-license-creator-description|Цуьнах лаьцна
+wm-license-information-description|Цуьнах лаьцна
+wm-license-information-source|Хьост
+wm-license-information-date|Терахь
+wm-license-pd-wiki-link|w:ce:Юкъараллин хьал
+sitesupport|Википедин гӀо дар
+tooltip-n-sitesupport|ГIо дайша тхуна
+group-abusefilter|Зулам литтаран тадархой
+grouppage-abusefilter|{{ns:project}}:Зулам литтаран тадархой
+group-accountcreator|Декъашхойн дӀаяздарш кхуллурш
+group-accountcreator-member|{{GENDER:~{0}\u007Cдекъашхошан дӀаяздарш кхуллург}}
+grouppage-accountcreator|{{ns:project}}:Декъашхойн дӀаяздарш кхуллурш
+group-confirmed|ТӀелаьцболу декъашхой
+group-confirmed-member|{{GENDER:~{0}\u007CтӀелаьцна декъашхо}}
+grouppage-confirmed|{{ns:project}}:ТӀелаьцболу декъашхой
+group-flood|Декъашхой-шаболххой
+group-flood-member|декъашхой-шаболххой
+grouppage-flood|{{ns:project}}:Декъашхой-шаболххой
+group-founder|Йиллинарш
+grouppage-founder|{{ns:project}}:Йиллинарш
+group-import|Импорт ерш
+group-import-member|{{GENDER:~{0}\u007Cимпорт ериг}}
+grouppage-import|{{ns:project}}:Импорт ерш
+group-interface_editor|Интерфейсан тадархой
+grouppage-interface_editor|{{ns:project}}:Интерфейсан тадархой
+group-ipblock-exempt|IP-сацор юкъарадоккху
+group-ipblock-exempt-member|{{GENDER:~{0}\u007Cюкъараваккхар/яккхар IP-блоктохаршана}}
+grouppage-ipblock-exempt|{{ns:project}}:Юкъараваккхар/яккхар IP-блоктохаршана
+group-transwiki|Викиюкъахь-импорт ерш
+group-transwiki-member|{{GENDER:~{0}\u007Cвикипедишан юкъехь-импорт ериг}}
+grouppage-transwiki|{{ns:project}}:Викиюкъахь-импорт ерш
+group-Global_bot|Масхьара шаболххой
+group-Global_bot-member|масхьара шаболххо
+group-Global_sysops|Глобальни куьйгалхой
+group-editinterface|Интерфейсан тадархой
+group-steward|Стюардхой
+group-sysadmin|Системин куьйгалхой
+group-oauthadmin-member|{{GENDER:~{0}\u007CКуьйгалхо OAuth}}
+shared-repo-name-shared|Викигулам
+wikimedia-copyright|Йоза тlекхочучехь ду оцу хьола бакъойаларца <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike</a>, цхьайолчу хенахь хила мега хьоле хьаьжжина локхаллий таронца. Мадарра хьажа. <a href="https://wikimediafoundation.org/wiki/Terms_of_Use/ce">Лелоран хьал</a>.
+wikidata-shortcopyrightwarning|Ахьа "{{int:wikibase-save}}" тӀетаӀича, [https://wikimediafoundation.org/wiki/Terms_of_Use хӀокху бакъонашца] лело аьтту ло [https://creativecommons.org/publicdomain/zero/1.0/ лицензица CC0].
+wikimedia-copyrightwarning|Хийцамаш Ӏалашбеш, хьан пурбанца уьш чутохар юха боьхур боцуш оцу бакъонашца [https://creativecommons.org/licenses/by-sa/3.0/deed.ru Creative Commons Attribution/Share-Alike 3.0] а [https://www.gnu.org/copyleft/fdl.html GFDL]. Хьан пурбанца, ахьа бина хийцамаш тӀаьхь болу агӀо лелош, хьуна тӀе хьажораг йийра ю, оцу лаккхар хьажорагех я URL, йогӀучу агӀон тӀе.\nМадарра хьажа. [https://wikimediafoundation.org/wiki/Terms_of_Use/ru Лелоран таронаш].
+wikibase-sitelinks-wikivoyage|Wikivoyage чура хӀокху элементах тесна йолу агӀонаш
+wikibase-sitelinks-commons|Викилуламехь хӀокху элементах тесна йолу агӀо
+wikimedia-developers|Кечдархой
+']:>
+).lang
+;

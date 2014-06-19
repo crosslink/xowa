@@ -1,0 +1,615 @@
+this
+.fallback_load('it')
+.ns_names
+  .load_text(
+<:['
+-2|Media
+-1|Speciàle
+1|Chiàcchiera
+2|Utente
+3|Utente chiàcchiera
+5|$1 chiàcchiera
+6|Fiùra
+7|Fiùra chiàcchiera
+8|MediaWiki
+9|MediaWiki chiàcchiera
+10|Modello
+11|Modello chiàcchiera
+12|Ajùto
+13|Ajùto chiàcchiera
+14|Categurìa
+15|Categurìa chiàcchiera
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+-1|Speciale
+1|Discussione
+2|Utente
+3|Discussioni utente
+5|Discussioni $1
+6|Immagine
+7|Discussioni immagine
+8|MediaWiki
+9|Discussioni MediaWiki
+11|Discussioni template
+12|Aiuto
+13|Discussioni aiuto
+14|Categoria
+15|Discussioni categoria
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|dumméneca
+monday|lunnerì
+tuesday|marterì
+wednesday|miercurì
+thursday|gioverì
+friday|viernarì
+saturday|sàbbato
+sun|dum
+mon|lun
+tue|mar
+wed|mier
+thu|gio
+fri|ven
+sat|sab
+january|jennaro
+february|frevàro
+march|màrzo
+april|abbrile
+may_long|màjo
+june|giùgno
+july|luglio
+august|aústo
+september|settembre
+october|ottobbre
+november|nuvembre
+december|dicèmbre
+january-gen|jennaro
+february-gen|frevaro
+march-gen|màrzo
+april-gen|abbrile
+may-gen|maggio
+june-gen|giùgno
+july-gen|luglio
+august-gen|aùsto
+september-gen|settembre
+october-gen|ottovre
+november-gen|nuvembre
+december-gen|dicembre
+jan|jen
+feb|fre
+mar|mar
+apr|abb
+may|maj
+jun|giu
+jul|lug
+aug|aus
+sep|set
+oct|ott
+nov|nuv
+dec|dic
+toc|Énnece
+redirectedfrom|(Redirect 'a ~{0})
+allpages|Tutte 'e ppaggene
+categories|Categurìe
+lastmodifiedat|Urdema cagnamiénto pe' a paggena: ~{1}, ~{0}.
+thumbnail-more|Ingrandisce
+otherlanguages|Ate léngue
+blanknamespace|(Prencepale)
+pagecategories|{{PLURAL:~{0}\u007CCategurìa\u007CCategurìe}}
+category_header|Paggene rìnt'a categurìa "~{0}"
+subcategories|Categurìe secunnarie
+category-media-header|File 'int'â categuría "~{0}"
+category-subcat-count|{{PLURAL:~{1}\u007CChesta categurìa cuntene n'unneca sottocategurìa, nzignata 'e seguito.\u007CChesta categurìa cuntene {{PLURAL:~{0}\u007C'a sottocategurìa nzignata\u007C'e ~{0} sottocategurìe nzignate}} 'e seguito, 'a nu totale 'e ~{1}.}}
+category-article-count|{{PLURAL:~{1}\u007CChesta categurìa cuntiene un'unneca paggena, nzignata ccà sotto.\u007CChesta categurìa cuntiene {{PLURAL:~{0}\u007C'a paggena nzignata\u007C'e ~{0} paggene nzignate}} ccà sotto, faccenno nu totale 'e ~{1}.}}
+nextn|{{PLURAL:~{0}\u007Csuccessivo\u007Csuccessive ~{0}}}
+prevn|{{PLURAL:~{0}\u007Cprecedente\u007Cprecedente ~{0}}}
+listingcontinuesabbrev|cont.
+italic_sample|Corsivo
+italic_tip|Corsivo
+link_sample|Titulo ddo cullegamente
+headline_sample|Testate
+headline_tip|Testate 'e 2° livello
+statistics|Statistiche
+tog-underline|Sottolinia 'e jonte:
+tog-justify|Alliniamento d''e paracrafe mpare
+tog-hideminor|Annascunne 'e cagne piccirille  'int'a ll'úrdeme cagne
+tog-hidepatrolled|Annascunne 'e cagne 'verificate' 'int'a ll'úrdeme cagne
+tog-extendwatchlist|Spanne ll'asservate speciale pe fà vedé tutte 'e cagnàmiente, nun solo l'ultimo
+tog-usenewrc|Urdeme càgnamiente avanzate (JavaScript)
+tog-numberheadings|Annúmmera automatecamente 'e títule
+tog-showtoolbar|Aspone 'a barra d''e stromiente 'e cagno (JavaScript)
+tog-editondblclick|Cagna 'e pàggene cliccanno ddoje vote (JavaScript)
+tog-editsection|Permette 'e cagnà 'e sezzione cu a jonta [cagna]
+tog-editsectiononrightclick|Permette 'e cangne 'e sezzione cliccanno p''o tasto destro ncopp 'e titule 'e sezzione (JavaScript)
+tog-showtoc|Mosta ll'innece pe 'e paggene cu cchiù 'e 3 sezzione
+tog-rememberpassword|Ricurda 'a registrazzione pe' cchiu sessione (ppe 'numassimo 'e ~{0} {{PLURAL:~{0}\u007Cjuorno\u007Cjuorne}})
+underline-always|Sèmpe
+underline-never|Màje
+hidden-categories|{{PLURAL:~{0}\u007CCategurìa annascusa\u007CCateguríe annascuse}}
+about|Nfromma
+article|Articulo
+newwindow|(s'arape n'ata fenèsta)
+cancel|Scancèlla
+moredotdotdot|Cchiù...
+mypage|Paggena
+mytalk|'E mmie chiàcchieriate
+anontalk|Chiacchierate pe chisto IP
+navigation|Navigazzione
+qbfind|Truòva
+qbedit|Càgna
+qbpageoptions|Chesta paggena
+qbmyoptions|'E ppaggene mie
+qbspecialpages|Pàggene speciàle
+faq|FAQ
+vector-action-delete|Scancèlla
+vector-action-move|Spusta
+vector-action-protect|Prutegge
+vector-view-create|Cria
+vector-view-edit|Càgna
+vector-view-history|Vere cronologgia
+vector-view-view|Legge
+vector-view-viewsource|Vere sorgente
+actions|Azione
+namespaces|Namespace
+variants|Variante
+errorpagetitle|Sbaglio
+returnto|Torna a ~{0}.
+tagline|Dda {{SITENAME}}.
+help|Ajùto
+search|Truova
+searchbutton|Truova
+go|Vàje
+searcharticle|Vàje
+history|Verziune 'e primma
+history_short|Cronologgia
+printableversion|Verzione pe' stampa
+permalink|Jonta permanente
+edit|Càgna
+create|Cria
+editthispage|Càgna chesta paggena
+create-this-page|Cria sta paggena
+delete|Scancèlla
+deletethispage|Scancèlla chésta paggena
+protect|Ferma
+protect_change|càgna
+protectthispage|Ferma chesta paggena
+unprotect|Càgna prutezzione
+unprotectthispage|Càgna prutezzione 'e chesta paggena
+newpage|Paggena nòva
+talkpage|Paggena 'e chiàcchiera
+talkpagelinktext|Chiàcchiera
+specialpage|Paggena speciàle
+personaltools|Strumiente perzonale
+postcomment|Nova sezzione
+articlepage|Vere a paggena e contenuto
+talk|Chiàcchiera
+views|Visite
+toolbox|Strumiente
+userpage|Vere a paggena utente
+imagepage|Vere a paggena ddo file
+viewcount|Chesta paggena è stata lètta {{PLURAL:~{0}\u007Cuna vòta\u007C~{0} vòte}}.
+protectedpage|Paggena prutetta
+jumpto|Vaje a:
+jumptonavigation|navigazione
+jumptosearch|truova
+aboutsite|'Nfrummazione ncòpp'a {{SITENAME}}
+aboutpage|Project:'Nfrummazione
+copyrightpage|{{ns:project}}:Copyrights
+currentevents|Novità
+currentevents-url|Project:Novità
+disclaimers|Avvertimiènte
+disclaimerpage|Project:Avvertimiènte generale
+edithelp|Guida
+edithelppage|Help:Càgna
+helppage|Help:Ajùto
+mainpage|Paggena prencepale
+mainpage-description|Paggena prencepale
+portal|Porta d''a cummunetà
+portal-url|Project:Porta d''a cummunetà
+privacy|'Nformazzione ppe a privacy
+privacypage|Project:'Nfrummazione ncopp'â privacy
+badaccess|Nun haje 'e premmesse abbastante.
+retrievedfrom|Estratto 'e "~{0}"
+youhavenewmessages|Haje ~{0} (~{1}).
+newmessageslink|nuove 'mmasciàte
+newmessagesdifflink|differenze cu 'a revisione precedente
+youhavenewmessagesmulti|Tiene nuove mmasciate ~{0}
+editsection|càgna
+editold|càgna
+editlink|càgna
+viewsourcelink|Vere sorgente
+editsectionhint|Modifica a sezzione ~{0}
+showtoc|faje vedé
+hidetoc|annascunne
+viewdeleted|Vire ~{0}?
+site-atom-feed|Feed Atom 'e ~{0}
+red-link-title|~{0} (a paggena nun esiste)
+nstab-main|Articulo
+nstab-user|Paggena utente
+nstab-special|Paggena speciale
+nstab-project|Paggena 'e servizio
+nstab-image|Fiura
+nstab-mediawiki|'Mmasciata
+nstab-template|Modello
+nstab-help|Ajùto
+nstab-category|Categurìa
+filedeleteerror|Nun se pô scancellà 'o file "~{0}"
+cannotdelete|Nun è possibbele scassà 'a paggena o 'a fiura addamannata. (Putria éssere stato già scancellato.)
+badtitle|'O nnomme nun è jùsto
+viewsource|Vere sorgente
+exception-nologin|Acciesso nun affettuato
+logouttext|'''Site asciùte.'''\n\nPutite cuntinuà a ausà {{SITENAME}} comme n'utente senza nomme, o si nò putite trasì n'ata vota, cu 'o stesso nomme o cu n'ato nomme.
+welcomeuser|Bemmenuto, ~{0}!
+yourname|Nomme utente
+yourpassword|Password:
+remembermypassword|Allicuordate d"a password (for a maximum of ~{0} {{PLURAL:~{0}\u007Cday\u007Cdays}})
+yourdomainname|Spiecà 'o dumminio
+login|Tràse
+nav-login-createaccount|Tràse o cria n'acciesso nuovo
+userlogin|Tràse o cria n'acciesso nuovo
+userloginnocreate|Tràse
+logout|Jèsce
+userlogout|Jèsce
+notloggedin|Acciesso nun affettuato
+nologin|Nun haje ancora n'acciesso? '''~{0}'''.
+nologinlink|Crialo mmo
+createaccount|Cria nu cunto nuovo
+gotaccount|Tiene già nu cunto? '''~{0}'''.
+gotaccountlink|Tràse
+loginerror|Probblema 'e accièsso
+loginsuccesstitle|Acciesso affettuato
+nosuchusershort|Nun ce stanno utente cu o nòmme "~{0}". Cuntrolla si scrivìste buòno.
+nouserspecified|Tiene 'a dìcere nu nomme pricìso.
+acct_creation_throttle_hit|Ce dispiace, haje già criato ~{0} utente. Nun ne pô crià ate.
+accountcreated|Cunto criato
+loginlanguagelabel|Lengua: ~{0}
+extlink_sample|http://www.example.com titulo ddo cullegamente
+image_sample|Essempio.jpg
+image_tip|Fiura ncuorporata
+media_tip|Cullegamente a file multimediale
+minoredit|Chisto è nu cagnamiénto piccerillo
+watchthis|Tiene d'uocchio chesta paggena
+savearticle|Sarva 'a paggena
+preview|Anteprimma
+showpreview|Vere anteprimma
+showdiff|Fa veré 'e cagnamiente
+loginreqtitle|Pe' cagnà chesta paggena abbesognate aseguì ll'acciesso ô sito.
+loginreqlink|aseguì ll'acciesso
+loginreqpagetext|Pe' veré ate ppaggene abbesognate ~{0}.
+accmailtitle|'O password è stato mannato.
+accmailtext|'A password pe ll'utente "~{0}" fuje mannata ô nnerizzo ~{1}.
+newarticle|(Novo)
+previewnote|'''Chesta è sola n'anteprimma; 'e cagnamiénte â paggena nun songo ancora sarvate!'''
+editing|Cagnamiento 'e ~{0}
+editingsection|Cagnamiénto di ~{0} (sezzione)
+templatesused|{{PLURAL:~{0}\u007CTemplate\u007CTemplates}} ausate 'a chesta paggena:
+template-protected|(prutetto)
+undo-summary|Canciella 'o cagnamiento ~{0} 'e [[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007CChiàcchiera]])
+currentrev|Verzione 'e mmo
+currentrev-asof|Vversione attuale dde ~{0}
+revisionasof|Vversione delle ~{0}
+nextrevision|Vversione cchiù recente →
+cur|corr
+last|prec
+history-feed-item-nocomment|~{0} 'o ~{1}
+rev-delundel|faje vedé/annascunne
+revdel-restore|càgna visiblità
+lineno|Riga ~{0}:
+editundo|annulla
+searchresults|Risultato d''a recerca
+searchresults-title|Ascià risultate ppe "~{0}"
+searchresulttext|Pe sapé de cchiù ncopp'â comme ascia 'a {{SITENAME}}, vere [[{{MediaWiki:Helppage}}\u007CRicerca in {{SITENAME}}]].
+notitlematches|Voce addemannata nun truvata dint' 'e titule 'e articulo
+notextmatches|Voce addemannata nun truvata dint' 'e teste 'e articulo
+prevn-title|{{PLURAL:~{0}\u007CRisultato precediente\u007C~{0} risultate precedenti}}
+nextn-title|{{PLURAL:~{0}\u007CRisultato successivo\u007C~{0} risultate successive}}
+shown-title|Fa vere {{PLURAL:~{0}\u007C'nu risultato\u007C~{0} risultate}} ppe paggena
+viewprevnext|Vere(~{0} {{int:pipe-separator}} ~{1}) (~{2}).
+searchmenu-new|'''Cria a paggena "[[:$1]]" ncopp'â chisto wiki!'''
+searchhelp-url|Help:Ajùto
+searchprofile-articles|Paggene 'e contenute
+searchprofile-project|Paggene 'e ajùto e relative 'o prugietto
+searchprofile-images|Multimedia
+searchprofile-everything|Tutto
+searchprofile-advanced|Avanzate
+searchprofile-articles-tooltip|Circa dint'ô ~{0}
+searchprofile-project-tooltip|Circa dint'ô ~{0}
+searchprofile-images-tooltip|Circa file
+searchprofile-advanced-tooltip|Circa dint'e namespace perzonalizzate
+search-result-size|~{0} ({{PLURAL:~{1}\u007C'na parola\u007C~{1} parole}})
+search-redirect|(redirect ~{0})
+search-section|(sezzione ~{0})
+searchall|Tutte
+powersearch|Truova
+mypreferences|Preferenze d''e mmeje
+changepassword|Cagna password
+prefs-rc|Urdeme nove
+prefs-watchlist|Asservate speciale
+columns|Culonne:
+timezoneregion-africa|Afreca
+youremail|E-mail:
+username|Nomme utente
+yourlanguage|Lengua:
+action-edit|càgna chesta paggena
+recentchanges|Urdeme nove
+recentchanges-summary|Ncoppa chesta paggena song' appresentate ll'urdeme cagnamiente fatto ê cuntenute d"o sito.
+recentchanges-label-newpage|Chista modifica ha criato 'na nova paggena
+recentchanges-label-minor|Chisto è nu cagnamiénto piccerillo
+rcnote|Ccà sotto nce songo ll'urdeme {{PLURAL:~{0}\u007Ccangiamiento\u007C'''~{0}''' cangiamiente}} 'e ll'urdeme {{PLURAL:~{1}\u007Cjuorno\u007C'''~{1}''' juorne}}, agghiuornate alle ~{4} ddo ~{3}.
+rclistfrom|Faje vedé 'e cagnamiénte fatte a partì 'a ~{0}
+rcshowhideminor|~{0} 'e cagnamiénte piccerille
+rcshowhidebots|~{0} 'e bot
+rcshowhideliu|~{0} ll'utente reggìstrate
+rcshowhideanons|~{0} ll'utente anonime
+rcshowhidemine|~{0} 'e ffatiche mmee
+rclinks|Faje vedé ll'urdeme ~{0} cagnamiente dint' ll'urdeme ~{1} juorne<br />~{2}
+diff|diff
+hist|cron
+hide|annascunne
+show|faje vedé
+minoreditletter|m
+newpageletter|N
+boteditletter|b
+rc_categories_any|Qualònca
+recentchangeslinked|Cagnamiénte cullegate
+recentchangeslinked-feed|Cagnamiénte cullegate
+recentchangeslinked-toolbox|Cagnamiénte cullegate
+recentchangeslinked-page|Nomme dda paggena
+upload|Careca file
+uploadedimage|ha carecato "[[~{0}]]"
+license|Licenze:
+license-header|Licenza
+listfiles_name|Nomme
+file-anchor-link|Fiura
+filehist-current|attuale
+filehist-datetime|Data/Ora
+filehist-thumb|Miniature
+filehist-user|Utente
+filehist-dimensions|Dimenzione
+imagelinks|Jonte ê ffiure
+randompage|Na paggena qualsiase
+randompage-nopages|Nessuna pagina nel namespace selezionato.
+disambiguations|Paggene 'e disambigua
+doubleredirects|Redirect duppie
+nbytes|~{0} {{PLURAL:~{0}\u007Cbyte\u007Cbyte}}
+ncategories|~{0} {{PLURAL:~{0}\u007Ccategoria\u007Ccategorie}}
+nlinks|~{0} {{PLURAL:~{0}\u007Ccullegamiento\u007Ccullegamiente}}
+popularpages|Paggene cchiù 'speziunate
+wantedpages|Paggene cchiù addemannate
+shortpages|Paggene curte
+longpages|Paggene cchiú longhe
+usercreated|{{GENDER:~{2}\u007CCriato/a}} 'o ~{0} a ~{1}
+newpages|Paggene cchiù frische
+move|Spusta
+movethispage|Spusta chesta paggena
+booksources-go|Vàje
+log|Logs
+alphaindexline|da ~{0} a ~{1}
+allarticles|Tutt' 'e vvoce
+allinnamespace|Tutt' 'e ppaggene d''o namespace ~{0}
+allpagessubmit|Vàje
+categoriespagetext|Lista cumpleta d"e categurie presente ncopp' 'o sito.\n[[Special:UnusedCategories\u007CUnused categories]] are not shown here.\nAlso see [[Special:WantedCategories\u007Cwanted categories]].
+linksearch-ok|Truova
+mywatchlist|osservate speciale
+watchlistfor2|Ppe ~{0} ~{1}
+watch|Secuta
+unwatch|Nun segui
+notanarticle|Chesta paggena nun è na voce
+changed|cagnata
+deletepage|Scancella paggena
+excontent|'o cuntenuto era: '~{0}'
+excontentauthor|'o cuntenuto era: '~{0}' (e ll'unneco cuntribbutore era '[[Special:Contributions/~{1}\u007C~{1}]]')
+exbeforeblank|'O cuntenuto apprimm' 'a ll'arrevacamento era: '~{0}'
+exblank|'a paggena era vacante
+actioncomplete|Azzione fernuta
+deletedtext|Qauccheruno ha scancellata 'a paggena "~{0}".  Addumannà 'o ~{1} pe na lista d"e ppaggene scancellate urdemamente.
+dellogpage|Scancellazione
+deletionlog|Log d"e scancellazione
+deletecomment|Raggióne
+rollback|Ausa na revizione 'e primma
+rollbacklink|a vascio
+revertpage|Cangiaje 'e cagnamiénte 'e [[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Cdiscussione]]), cu â verzione 'e pprimma 'e  [[User:~{0}\u007C~{0}]]
+prot_1movedto2|ha spustato [[~{0}]] a [[~{1}]]
+protect-expiry-options|2 ore:2 hours,1 juorno:1 day,3 juorne:3 days,1 semmana:1 week,2 semmane:2 weeks,1 mise:1 month,3 mese:3 months,6 mese:6 months,1 anno:1 year,infinito:infinite
+viewdeletedpage|Vìre 'e ppàggine scancellate
+undeleteviewlink|vere
+namespace|Namespace:
+invert|abbarruca 'a sceveta
+contributions|Contribbute {{GENDER:~{0}\u007Cutente}}
+mycontris|'E ffatiche d''e mmeje
+uctop|(ultima ppe a paggena)
+sp-contributions-talk|Chiàcchiera
+sp-contributions-submit|Truova
+whatlinkshere|Paggene ca cullegano a chesta
+whatlinkshere-title|Paggene ca cullegano a ~{0}
+whatlinkshere-page|Paggena:
+nolinkshere|Nisciuna paggena cuntene jonte ca mpuntano a '''[[:~{0}]]'''.
+whatlinkshere-links|← jonte
+whatlinkshere-hideredirs|~{0} redirects
+whatlinkshere-hideimages|~{0} links ddo file
+blockip|Ferma utelizzatóre
+ipadressorusername|Nnerizzo IP o nomme utente
+ipboptions|2 ore:2 hours,1 juorno:1 day,3 juorne:3 days,1 semmana:1 week,2 semmane:2 weeks,1 mise:1 month,3 mese:3 months,6 mese:6 months,1 anno:1 year,infinito:infinite
+blockipsuccesssub|Blocco aseguito
+blocklink|ferma
+unblocklink|sblocca
+contribslink|contribuzzione
+blocklogpage|Blocche
+blocklogentry|ha fermato "[[~{0}]]" pe' nu mumento 'e ~{1} ~{2}
+blocklogtext|Chesta è 'a lista d''e azzione 'e blocco e sblocco utente.  'E nnerizze IP bloccate automaticamente nun nce so'. Addumannà 'a [[Special:BlockList\u007Clista IP bloccate]] pp' 'a lista d''e nnerizze e nomme utente 'o ca blocco nce sta.
+movearticle|Spusta 'a paggena
+newtitle|Titulo nuovo:
+movepagebtn|Spusta 'a paggena
+articleexists|Na paggena cu chisto nomme asiste già, o pure 'o nomme scegliuto nun è buono.  Scegliere n'ato titulo.
+movedto|spustata a
+movelogpage|Spustamente
+movereason|Raggióne
+revertmove|ripristina
+delete_and_move|Scancèlla e spusta
+delete_and_move_confirm|Sì, suprascrivi 'a paggena asistente
+export|Spurta 'e ppaggene
+allmessages|'Mmasciate d''o sistema
+allmessagesname|Nomme
+allmessagescurrent|Testo 'e mo
+import|Mpurta paggene
+import-interwiki-submit|Mpurta
+import-logentry-upload|ha mpurtato [[~{0}]] trammeto upload
+tooltip-pt-mycontris|Elenco dde tuje contributte
+tooltip-pt-login|A reggistrazione e consegliata
+tooltip-pt-logout|Jésce (logout)
+tooltip-ca-edit|Puo modifica chista paggena. Ppe favore usa 'o pulsante 'e anteprimma primma 'e salva
+tooltip-ca-addsection|Cummincia 'na nova sezzione
+tooltip-ca-viewsource|Chista paggena è prutetta, ma puo vere 'o codice sorgente
+tooltip-ca-history|Vversione precedente 'e chista paggena
+tooltip-ca-move|Spusta chista paggena
+tooltip-search|Truova dint'ô {{SITENAME}}
+tooltip-search-fulltext|Ascià 'o testo indicato dint'e paggene
+tooltip-p-logo|Visita a paggena prencepale
+tooltip-n-mainpage|Visita a paggena prencepale
+tooltip-n-mainpage-description|Visita a paggena prencepale
+tooltip-n-portal|Descrizione ddo prugietto, che pou fa, addo truova e cose
+tooltip-n-recentchanges|Ennece dde urdeme cagnamiénte ddo sito
+tooltip-n-randompage|Na paggena qualsiase
+tooltip-n-help|Paggena 'e ajùto
+tooltip-t-recentchangeslinked|Urdeme cagnamiénte dde paggene ca cullegano a chesta
+tooltip-t-upload|Careca file
+tooltip-t-specialpages|Lista 'e tutte e paggene speciale
+tooltip-t-print|Vversione pe' stampa 'e chista paggena
+tooltip-t-permalink|Jonta permanente a chista vversione dda paggena
+tooltip-ca-nstab-main|Vere a paggena e contenuto
+tooltip-ca-nstab-template|Vere 'o modello
+tooltip-minoredit|Rénne chìsto cagnamiénto cchiù ppiccirìllo.
+tooltip-save|Sàrva 'e cagnamiénte.
+tooltip-preview|Primma 'e sarvà, vìre primma chille ca hê cagnàte!
+tooltip-rollback|"A vascio" annulla 'e modefeche 'e chista paggena ell'ultimo contributore cu n' uneco click
+others|ate
+file-info-size|~{0} × ~{1} pixel, dimenzione ddo file: ~{2}, tipo MIME: ~{3}
+show-big-image|Vversione ad ata risoluzione
+noimages|Nun nc'è nind' 'a veré.
+ilsubmit|Truova
+metadata|Metadate
+exif-xyresolution-i|~{0} punte pe pollice (dpi)
+exif-meteringmode-0|Scanusciuto
+exif-meteringmode-255|Ato
+exif-lightsource-0|Scanusciuta
+exif-lightsource-10|'Ntruvulato
+exif-lightsource-11|Aumbruso
+exif-gaincontrol-0|Nisciuno
+exif-subjectdistancerange-0|Scanusciuta
+edit-externally-help|Pe piglià cchiù nfromma veré 'e [//www.mediawiki.org/wiki/Manual:External_editors struzione] ('n ngrese)
+watchlistall2|tutte
+namespacesall|Tutte
+monthsall|tutte
+confirmemail_needlogin|Abbesognate ~{0} pe cunfirmà 'o nnerizzo 'e e-mail d''o vuosto.
+confirmemail_loggedin|'O nnerizzo 'e e-mail è vàleto
+deletedwhileediting|Attenziòne: quaccherùno have scancellàto chesta pàggena prìmma ca tu accuminciàste â scrìvere!
+autoredircomment|Redirect â paggena [[~{0}]]
+autosumm-new|Paggena criate ch''o: ~{0}
+specialpages|Paggene speciale
+rightsnone|(nisciuno)
+indexpages|Elenco dde paggene 'e énnece
+pageswithoutscans|Paggene senza scans
+proofreadpage_desc|Consente 'nu facile cunfrunto tra 'nu testo e a soja scansione originale
+proofreadpage_image|Fiùra
+proofreadpage_index|Ennece
+proofreadpage_index_expected|Errore: previsto énnece
+proofreadpage_nosuch_index|Errore: énnece nun presente
+proofreadpage_nosuch_file|Errore: file nun presiente
+proofreadpage_badpage|Formato errato
+proofreadpage_badpagetext|'O formato dda paggena che se è tentato 'e salva nun è corrette.
+proofreadpage_indexdupe|Cullegamento duplicato
+proofreadpage_indexdupetext|E paggene nun possono essere elencate cchiù 'e na vota su 'na paggena 'e énnece.
+proofreadpage_nologin|Acciesso nun affettuato
+proofreadpage_nologintext|Ppe càgna 'o stato 'e verifica dde paggene, dev essere [[Special:UserLogin\u007Cconnetto]].
+proofreadpage_notallowed|Càgnamento nun cunsentito
+proofreadpage_notallowedtext|Nun si autorizzato a càgna 'o stato 'e verifica 'e chista paggena.
+proofreadpage_dataconfig_badformatted|Prublema dint'â cunfigurazzione dde date
+proofreadpage_dataconfig_badformattedtext|'A paggena [[Mediawiki:Proofreadpage index data config]] nun è dint'ô 'nu formato JSON corrette.
+proofreadpage_number_expected|Errore: previsto valore nummerico
+proofreadpage_interval_too_large|Errore: intervallo tropo ampio
+proofreadpage_invalid_interval|Errore: intervallo nun valido
+proofreadpage_nextpage|Paggena successiva
+proofreadpage_prevpage|Paggena precedente
+proofreadpage_header|Testata (nun inclusa):
+proofreadpage_body|Cuorpo dda paggena (a include):
+proofreadpage_footer|Piè 'e paggena (nun incluse)
+proofreadpage_toggleheaders|attiva/disattiva a visibilità dde sezzione nun incluse
+proofreadpage_quality0_category|Senza testo
+proofreadpage_quality1_category|A corregge
+proofreadpage_quality2_category|Prublemateco
+proofreadpage_quality3_category|Corrette
+proofreadpage_quality4_category|Verificate
+proofreadpage_quality0_message|Chista paggena nun necessita 'e essere corrette
+proofreadpage_quality1_message|Chista paggena nun è stata corrette
+proofreadpage_quality2_message|C'è stato 'nu prublema dint'â correzzione 'e chista paggena
+proofreadpage_quality3_message|Chista paggena è stata corrette
+proofreadpage_quality4_message|Chista paggena è stata cunvalidate
+proofreadpage_index_status|Stato avanzzamiento
+proofreadpage_index_size|Nummero 'e paggene
+proofreadpage_specialpage_label_orderby|Ordina ppe:
+proofreadpage_specialpage_label_key|Circa:
+proofreadpage_specialpage_label_sortascending|Ordinamento crescente
+proofreadpage_alphabeticalorder|Ordene alfabetico
+proofreadpage_index_listofpages|Lista dde paggene
+proofreadpage_image_message|Cullegamento dint'â paggena énnece
+proofreadpage_page_status|Status dda paggena
+proofreadpage_js_attributes|Autore Titolo Anno Editore
+proofreadpage_index_attributes|Autore\nTitolo\nAnno\u007CAnno 'e pubblicazzione\nEditore\nFunte\nFiùre\u007CFiùre 'e coppertina\nPaggene\u007C\u007C20\nNote\u007C\u007C10
+proofreadpage_pages|~{1} {{PLURAL:~{0}\u007Cpaggena\u007Cpaggene}}
+proofreadpage_specialpage_legend|Circa tra e paggene énnece
+proofreadpage_specialpage_searcherror|Errore dint'ô motore 'e ricerca
+proofreadpage_specialpage_searcherrortext|'O motore 'e ricerca nun funzziona. Ci scusiamo ppe 'o disaggio.
+proofreadpage_source|Funte
+proofreadpage_source_message|Edizzione scanusciuta utilizzata ppe ricava chisto testo
+right-pagequality|Càgna a qualità dda paggena
+proofreadpage-section-tools|Strumiente proofread
+proofreadpage-group-zoom|Zoom
+proofreadpage-group-other|Atro
+proofreadpage-button-toggle-visibility-label|Vere/nasconde testata e piè dda paggena
+proofreadpage-button-zoom-out-label|Zoom a vascio
+proofreadpage-button-reset-zoom-label|Ripristina zoom
+proofreadpage-button-zoom-in-label|Zoom avanzato
+proofreadpage-button-toggle-layout-label|Layout verticale/orizzuntale
+proofreadpage-preferences-showheaders-label|Vere a testata e 'o piè dda paggena durante o' càgnamento ddo namespace {{ns:page}}
+proofreadpage-preferences-horizontal-layout-label|Usa 'o layout orrizzontale durante 'o càgnamento dint'ô namespace {{ns:page}}
+proofreadpage-indexoai-repositoryName|Metadati dde libbri 'e {{SITENAME}}
+proofreadpage-indexoai-eprint-content-text|Metadati dde libbri 'e ProofreadPage.
+proofreadpage-indexoai-error-schemanotfound|Schema nun truvato
+proofreadpage-indexoai-error-schemanotfound-text|'O schema ~{0} nun è stato truovato.
+proofreadpage-disambiguationspage|Template:disambigua
+wm-license-gfdl-1.2-and-later|Chisto documento se pô copià, distribuì e/o modefecà secunno 'a licenzia '''[[{{int:wm-license-gfdl-wiki-link}}\u007CGNU Free Documentation License]]''', Verzione 1.2 o seguente; senza alcuna sezzione nun modificabile, senza testo 'e copertina e senza testo 'e quarta 'e copertina. Na copia d''a licenzia se pô truvà 'int'â sezzione ''[[{{int:wm-license-gfdl-full-1.2-link}}\u007CTesto d''a GNU Free Documentation License]]''.
+sitesupport|Donazzione
+']:>
+).lang
+;

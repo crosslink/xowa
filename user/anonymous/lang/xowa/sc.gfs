@@ -1,0 +1,1576 @@
+this
+.ns_names
+  .load_text(
+<:['
+-1|Ispetziale
+1|Cuntierra
+2|Usuàriu
+3|Cuntierra usuàriu
+5|Cuntierra $1
+6|File
+7|Cuntierra file
+9|Cuntierra MediaWiki
+11|Cuntierra template
+12|Agiudu
+13|Cuntierra agiudu
+14|Categoria
+15|Cuntierra categoria
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+-1|Speciale
+1|Contièndha
+2|Utente
+3|Utente discussioni
+5|$1 discussioni
+6|Immàgini
+7|Immàgini contièndha
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|Domìnigu
+monday|Lunis
+tuesday|Martis
+wednesday|Mèrcuris
+thursday|Giòvia
+friday|Chenàbura
+saturday|Sàbadu
+sun|Dom
+mon|Lun
+tue|Mar
+wed|Mèr
+thu|Giò
+fri|Che
+sat|Sàb
+january|Ghennàrgiu
+february|Freàrgiu
+march|Martzu
+april|Abrile
+may_long|Maju
+june|Làmpadas
+july|Trìulas
+august|Austu
+september|Cabudanni
+october|Santugaine
+november|Santandria
+december|Nadale
+january-gen|Ghennàrgiu
+february-gen|Freàrgiu
+march-gen|Martzu
+april-gen|Abrile
+may-gen|Maju
+june-gen|Làmpadas
+july-gen|Trìulas
+august-gen|Austu
+september-gen|Cabudanni
+october-gen|Santugaine
+november-gen|Santandria
+december-gen|Nadale
+jan|Ghe
+feb|Fre
+mar|Mar
+apr|Abr
+may|Maj
+jun|Làm
+jul|Trì
+aug|Aus
+sep|Cab
+oct|Stg
+nov|Std
+dec|Nad
+toc|Cuntènnidu
+redirectedfrom|(Reindiritzadu dae ~{0})
+allpages|Totu is pàginas
+prevpage|Pàgina in antis (~{0})
+categories|Categorias
+lastmodifiedat|Ùrtimu acontzu su ~{0}, a is ~{1}.
+thumbnail-more|Amannia
+otherlanguages|Àteras limbas
+blanknamespace|(Printzipale)
+pagecategories|{{PLURAL:~{0}\u007CCategoria\u007CCategorias}}
+category_header|Pàginas in sa categoria "~{0}"
+subcategories|Subcategorias
+category-media-header|Mèdios in sa categoria "~{0}"
+category-empty|''In custa categoria non bi est peruna pàgina o mèdiu.''
+category-subcat-count|{{PLURAL:~{1}\u007CCusta categoria cuntenet un'ùnica subcategoria ammustrada a suta.\u007CCusta categoria cuntenet {{PLURAL:~{0}\u007Csa subcategoria indicada\u007C~{0} subcategorias indicadas}} a suta, de ~{1} totales.}}
+category-subcat-count-limited|Custa categoria tenet {{PLURAL:~{0}\u007Cuna subcategoria, ammustrada\u007C~{0} subcategorias, ammustradas}} a suta.
+category-article-count|{{PLURAL:~{1}\u007CCusta categoria cuntènnit isceti sa pàgina chi sighit.\u007CCusta categoria cuntènnit {{PLURAL:~{0}\u007Csa pàgina indicada\u007Cis ~{0} pàginas indicadas}} a suta, dae unu totale de ~{1}.}}
+category-article-count-limited|{{PLURAL:~{0}\u007CSa pàgina ki sighit est\u007CIs ~{0} pàginas ki sighint sunt}} in custa categoria.
+category-file-count|{{PLURAL:~{1}\u007CCusta categoria cuntenet feti su file ki sighit.\u007C{{PLURAL:~{0}\u007CSu file ki sighit est\u007CIs ~{0} files ki sighint sunt}} in custa categoria, dae ~{1} totales.}}
+category-file-count-limited|{{PLURAL:~{0}\u007CSu file ki sighit est\u007CIs ~{0} files ki sighint sunt}} in sa categoria currente.
+nextn|{{PLURAL:~{0}\u007Cimbeniente\u007Cimbenientes ~{0}}}
+prevn|{{PLURAL:~{0}\u007Ccabudianu\u007Ccabudianos ~{0}}}
+listingcontinuesabbrev|sighit
+showingresultsheader|{{PLURAL:~{4}\u007CResultadu '''~{0}''' de '''~{2}'''\u007CResultadus '''~{0} - ~{1}''' de '''~{2}'''}} pro '''~{3}'''
+bold_sample|Grassu
+bold_tip|Grassu
+italic_sample|Corsivu
+italic_tip|Corsivu
+link_sample|Tìtulu cullegamentu
+link_tip|Cullegamentu internu
+headline_sample|Testu de su tìtulu
+headline_tip|Tìtulu de su de duos livellu
+wikieditor-toolbar-tool-ulist|Lista puntegiada
+wikieditor-toolbar-tool-ulist-example|Elementu de sa lista puntegiada
+wikieditor-toolbar-tool-olist|Lista numerada
+wikieditor-toolbar-tool-olist-example|Elementu de sa lista numerada
+semicolon-separator|; 
+comma-separator|, 
+colon-separator|: 
+autocomment-prefix|- 
+word-separator| 
+ellipsis|…
+percent|~{0}%
+hidden-category-category|Categorias cuadas
+statistics|Statìsticas
+statistics-pages|Pàginas
+tog-underline|Sutalìnea is cullegamentos
+tog-justify|Alliniamentu paràgrafos giustificados
+tog-hideminor|Cua is acontzos minores in sa pàgina de is ùrtimas mudàntzias
+tog-hidepatrolled|Cua is acontzos verificados in is ùrtimas mudàntzias
+tog-newpageshidepatrolled|Cua is pàginas verificadas dae sa lista de is pàginas noas
+tog-extendwatchlist|Ammània sa watchlist pro ammustrare totu is mudàntzias, non feti is prus reghentes
+tog-usenewrc|Imprea is ùrtimas mudàntzias megioradas (esigit JavaScript)
+tog-numberheadings|Auto-numeratzione de is tìtulos
+tog-showtoolbar|Ammustra s'amusta de is ainas pro is acontzos (esigit JavaScript)
+tog-editondblclick|Acontza pàginas cun dòpiu click (esigit JavaScript)
+tog-editsection|Acontza setziones dae su butone [acontza]
+tog-editsectiononrightclick|Abilita s'acontzu de is setziones cun dòpiu click in is tìtulos de is setziones (esigit JavaScript)
+tog-showtoc|Ammustra s'ìndixe de is cuntènnidos (pro pàginas cun prus de 3 setziones)
+tog-rememberpassword|Ammenta sa sessione in custu navigadore (pro unu màssimu de ~{0} {{PLURAL:~{0}\u007Cdie\u007Cdies}})
+tog-watchcreations|Aciungi is pàginas chi apo creadu a sa watchlist mea
+tog-watchdefault|Aciungi is pàginas chi apo acontzadu a sa watchlist mea
+tog-watchmoves|Aciungi is pàginas chi apo mòvidu a sa watchlist mea
+tog-watchdeletion|Aciungi is pàginas chi apo fuliadu a sa watchlist mea
+tog-minordefault|Signa totu is acontzos comente minores pro difetu
+tog-previewontop|Ammustra s'antiprima a subra sa casella de acontzu e no a suta
+tog-previewonfirst|Ammustra s'antiprima pro su primu acontzu
+tog-nocache|Disativa sa ''cache'' pro is pàginas de su ''browser''
+tog-enotifwatchlistpages|Spedi·mi una missada eletrònica cando una pàgina de sa watchlist mea est acontzada
+tog-enotifusertalkpages|Spedi·mi una missada eletrònica cando sa pàgina de is cuntierras mias est acontzada
+tog-enotifminoredits|Spedi·mi una missada eletrònica fintzas pro is acontzos minores de is pàginas
+tog-enotifrevealaddr|Faghe schire s'indiritzu e-mail miu in is notìficas de is e-mails
+tog-shownumberswatching|Ammustra su nùmeru de is usuàrios ca sunt ponende ogru a sa pàgina
+tog-oldsig|Antiprima de sa firma atuale:
+tog-fancysig|Trata sa firma comente unu testu wiki (chentza cullegamentos automaticos)
+tog-uselivepreview|Imprea sa funtzione "live preview" (esigit JavaScript) (sperimentale)
+tog-watchlisthideown|Cua is acontzos meos dae sa watclist
+tog-watchlisthidebots|Cua is acontzos de is bots dae sa watchlist
+tog-watchlisthideminor|Cua is acontzos minores dae sa watchlist
+tog-watchlisthideliu|Cua is acontzos de is usuàrios intraus dae sa watchlist
+tog-watchlisthideanons|Cua is acontzos de is usuàrios anonimus dae sa watchlist
+tog-watchlisthidepatrolled|Cua acontzos verificados dae sa watchlist
+tog-ccmeonemails|Spedi·mi is còpias de is e-mails ca spedu a is àteros usuàrios
+tog-showhiddencats|Ammustra is categorias cuadas
+underline-always|Semper
+underline-never|Mai
+underline-default|Definiduras dae su browser tuo
+editfont-style|Stile lìteras in s'àrea de acontzu:
+editfont-default|Definidu dae su browser
+editfont-monospace|Font monospàtziu
+editfont-sansserif|Font sans-serif
+editfont-serif|Font serif
+hidden-categories|{{PLURAL:~{0}\u007CCategoria cuada\u007CCategorias cuadas}}
+index-category|Pàginas indicizadas
+noindex-category|Pàginas no indicitzadas
+linkprefix|/^(.*?)([a-zA-Z\\x80-\\xff]+)$/sD
+about|A propòsitu de
+article|Artìculu
+newwindow|(aberit in una bentana noa)
+cancel|Burra
+moredotdotdot|Àteru…
+mypage|Sa pàgina mea
+mytalk|Cuntierras meas
+anontalk|Cuntierras pro custu IP
+navigation|Navigadura
+and| e
+qbfind|Busca
+qbbrowse|Nàviga
+qbedit|Acontza
+qbpageoptions|Possibilidades de sa pàgina
+qbmyoptions|Is preferèntzias meas
+qbspecialpages|Pàginas spetziales
+faq|Pregontas/Respostas (FAQ)
+faqpage|Project:FAQ
+vector-action-addsection|Giunghe cuntierra
+vector-action-delete|Cantzella
+vector-action-move|Move
+vector-action-protect|Ampara
+vector-action-undelete|Recùpera
+vector-view-create|Crea
+vector-view-edit|Acontza
+vector-view-history|Càstia istòria
+vector-view-view|Leghe
+vector-view-viewsource|Càstia mitza
+actions|Atziones
+namespaces|Nùmene-logos
+variants|Variantes
+errorpagetitle|Faddina
+returnto|Torra a ~{0}.
+tagline|Dae {{SITENAME}}
+help|Agiudu
+search|Chirca
+searchbutton|Chirca
+go|Bae
+searcharticle|Bae
+history|Istòria de sa pàgina
+history_short|Istòria
+updatedmarker|agiornada dae s'ùrtima bìsita mia
+printableversion|Versione de imprenta
+permalink|Acàpiu fitianu
+print|Imprenta
+edit|Acontza
+create|Crea
+editthispage|Acontza custa pàgina
+create-this-page|Crea custa pàgina
+delete|Fùlia
+deletethispage|Fùlia custa pàgina
+undelete_short|Restaurare {{PLURAL:~{0}\u007Cun acontzu\u007C~{0} acontzos}}
+protect|Ampara
+protect_change|mudàntzia
+protectthispage|Ampara custa pàgina
+unprotect|Disampara
+unprotectthispage|Disampara custa pàgina
+newpage|Pàgina noa
+talkpage|Pàgina de cuntierra
+talkpagelinktext|Cuntierra
+specialpage|Pàgina Ispetziale
+personaltools|Ainas personales
+postcomment|Setzione noa
+articlepage|Càstia s'artìculu
+talk|Cuntierras
+views|Bisuras
+toolbox|Ainas
+userpage|Càstia sa pàgina usuàriu
+projectpage|Càstia sa pàgina meta
+imagepage|Càstia sa pàgina de su file
+mediawikipage|Càstia su messàgiu
+templatepage|Càstia su template
+viewhelppage|Càstia sa pàgina de agiudu
+categorypage|Càstia sa categoria
+viewtalkpage|Càstia cuntierras
+redirectpagesub|Pàgina de reindiritzadura
+viewcount|Custu artìculu est stadu lìgiu {{PLURAL:~{0}\u007Cborta\u007C~{0} bortas}}.
+protectedpage|Pàgina amparada
+jumpto|Bae a:
+jumptonavigation|navigadura
+jumptosearch|chirca
+pool-errorunknown|Faddina disconnota
+aboutsite|A propòsitu de {{SITENAME}}
+aboutpage|Project:Informatziones
+copyright|Cuntènnidu a suta licèntzia ~{0}.
+copyrightpage|{{ns:project}}:Copyrights
+currentevents|Noas
+currentevents-url|Project:Noas
+disclaimers|Abbertimentos
+disclaimerpage|Project:Abbertimentos generales
+edithelp|Agiudu pro s'acontzu o sa scritura
+helppage|Help:Agiudu
+mainpage|Pàgina Base
+mainpage-description|Pàgina Base
+policy-url|Project:Polìticas
+portal|Portale comunidade
+privacy|Polìtica pro is datos privados
+privacypage|Project:Polìtica pro is datos privados
+badaccess|Permissu non bastante
+ok|OK
+pagetitle|~{0} - {{SITENAME}}
+pagetitle-view-mainpage|{{SITENAME}}
+retrievedfrom|Bogau dae  "~{0}"
+youhavenewmessages|Tenes ~{0} (~{1}).
+newmessageslink|messàgios noos
+newmessagesdifflink|ùrtima mudàntzia
+youhavenewmessagesmulti|Tenes messàgios noos in ~{0}
+editsection|acontza
+editsection-brackets|[~{0}]
+editold|acontza
+viewsourceold|càstia mitza
+editlink|acontza
+viewsourcelink|càstia mitza
+editsectionhint|Acontza sa setzione: ~{0}
+showtoc|ammustra
+hidetoc|cua
+thisisdeleted|Càstiare o recuperare ~{0}?
+viewdeleted|Bisi ~{0}?
+restorelink|{{PLURAL:~{0}\u007Cunu acontzu burradu\u007C~{0} acontzos burrados}}
+feedlinks|Feed:
+site-rss-feed|Feed Atom de ~{0}
+site-atom-feed|Feed Atom de ~{0}
+page-rss-feed|Feed RSS pro "~{0}"
+page-atom-feed|Feed Atom pro "~{0}"
+feed-atom|Atom
+feed-rss|RSS
+red-link-title|~{0} (sa pàgina no esistit)
+nstab-main|Pàgina
+nstab-user|Pàgina usuàriu
+nstab-media|File multimediale
+nstab-special|Pàgina ispetziale
+nstab-project|Pàgina de servìtziu
+nstab-image|File
+nstab-mediawiki|Messàgiu
+nstab-template|Template
+nstab-help|Agiudu
+nstab-category|Categoria
+nosuchaction|No esistit tale atzione
+nosuchactiontext|S'atzione spetzificada in sa URL no est vàlida.\nEst possìbile ki sa URL siat stada carcada male, o si siat sighidu unu cullegamentu non vàlidu.\nCustu diat a pòder èsser unu "bug" de {{SITENAME}}.
+nosuchspecialpage|Custa pàgina ispetziale no esistit
+nospecialpagetext|<strong>As pediu una pàgina ispetziale non balida.</strong>\n\nUna lista de pàginas ispetziales bàlidas d'agatas in [[Special:SpecialPages\u007C{{int:specialpages}}]].
+error|Faddina
+databaseerror|Faddina de su database
+dberrortext|Faddina de sintassi in sa pregunta fata a su database.\nCustu podet indicare unu sbàlliu de su software.\nS'ùrtima consulta imbiada a su database est istada:\n<blockquote><tt>~{0}</tt></blockquote>\naintru de sa funtzione "<tt>~{1}</tt>".\nSu database at torradu custa faddina "<tt>~{2}: ~{3}</tt>".
+readonly|Database bloccadu
+enterlockreason|Inserta su motivu de su bloccu, ispetzifichende su momentu probabile chi su bloccu at a acabai
+readonlytext|In custu momentu su database est bloccadu dae aciunturas e àteras modificas, probabilmente pro ordinaria manutentzione a su database, a pustis de custas at a èssere normale torra.\n\nS'aministradore chi dd'at bloccadu at donadu custa ispiegatzione: ~{0}
+missing-article|Su database no at agatadu su testu de una pàgina ki diat àer agatadu a suta de su nùmene "~{0}" ~{1}.\n\nCustu a su sòlitu si verìficat cando bi est unu ligàmine in sa stòria o in unu cunfrontu intre revisiones de una pàgina ki est stada fuliada.\n\nSi no est custu su casu, s'est agatada una faddina de su software.\nPro praxere signa s'acuntèssidu a unu [[Special:ListUsers/sysop\u007Camministradore]] spetzifichende su URL de sa faddina.
+missingarticle-rev|(revisione nùmeru: ~{0})
+missingarticle-diff|(Dif: ~{0}, ~{1})
+internalerror|Faddina interna
+internalerror_info|Faddina interna: ~{0}
+filecopyerror|No est stadu possìbile copiare su file "~{0}" comente "~{1}".
+filerenameerror|No est stadu possìbile re-numenare su file "~{0}" in "~{1}".
+filedeleteerror|No est stadu possìbile cantzellare su file "~{0}".
+filenotfound|No est stadu possìbile agatare "~{0}".
+unexpected|Valore non previstu: "~{0}"="~{1}".
+formerror|Errore: impossìbile imbiare su modellu
+badarticleerror|Operatzione non cunsentida pro custa pàgina.
+cannotdelete|No est stadu possìbile burrare sa pàgina o su file "~{0}".\nPodet èsser stadu burradu dae calicunu àteru.
+badtitle|Tìtulu malu
+badtitletext|Su tìtulu de sa pàgina ch'as pediu est bùidu, isballiau, o iscritu in is cullegamentus inter-wiki in manera non currègia o cun caràteres no amìtius.
+viewsource|Càstia mitza
+actionthrottled|Atzione rimandada
+sqlhidden|(Consulta SQL cuada)
+namespaceprotected|Non tenes su permissu de acontzare is pàginas in su nùmene-lugu '''~{0}'''.
+ns-specialprotected|Is pàginas ispetziales non podent èssere acontzadas.
+virus-scanfailed|scansione faddida (còdixe ~{0})
+virus-unknownscanner|antivirus disconnotu:
+logouttext|'''As acabadu sa sessione.'''\n\nImmoe podes sighire a impreare {{SITENAME}} in forma anònima, o ti podes <span class='plainlinks'>[~{0} identificare torra]</span> comente su de prima o comente usuàriu diferente.\nTene contu ca is pàginas ki sunt giai abertas in àteras bentanas podent sighire a pàrrer comente cando fias identificadu, fintzas a cando non ddas renfriscas.
+yourname|Nùmene usuàriu
+yourpassword|Password:
+yourpasswordagain|Repite sa password:
+remembermypassword|Ammenta sa password in custu carculadore (pro unu màssimu de ~{0} {{PLURAL:~{0}\u007Cdie\u007Cdies}})
+yourdomainname|Spetzificare su domìniu
+login|Intra
+nav-login-createaccount|Intra / crea account
+loginprompt|Est netzessàriu abilitare is ''cookies'' pro si registrare in {{SITENAME}}.
+userlogin|Intra / crea account
+userloginnocreate|Intra
+logout|Serra sessione
+userlogout|Essida
+notloggedin|Non ses intradu
+nologin|Non tenes unu account? '''~{0}'''.
+nologinlink|Crea unu account
+createaccount|Crea account
+gotaccount|Tenes giai unu account? ~{0}.
+gotaccountlink|Identifica·ti
+createaccountmail|via e-mail
+createaccountreason|Motivu:
+badretype|Sas passwords chi as insertau non currenspundint.
+userexists|Su nùmene usuàriu insertadu est giai impreadu.\nSèbera unu nùmene diferente.
+loginerror|Faddina de identificatzione
+noname|Su nùmene usuàriu insertadu no est vàlidu.
+loginsuccesstitle|Ti ses identificadu
+loginsuccess|'''Immoe ses intradu in {{SITENAME}} cun su nùmene usuàriu "$1".'''
+nosuchuser|Non bi est usuàriu cun su nùmene "~{0}".\nIs nùmenes usuàriu sunt sensìbiles a is lìteras mannas.\nVerìfica su nùmene insertadu o [[Special:UserLogin/signup\u007Ccrea unu account nou]].
+nouserspecified|Depes spetzificare unu nùmene usuàriu.
+wrongpassword|Sa password insertada no est bona. Prova torra.
+wrongpasswordempty|No as scritu sa password.\nProva torra.
+passwordtooshort|Is passwords depent tènner a su mancu {{PLURAL:~{0}\u007C1 caràtere\u007C~{0} caràteres}}.
+password-name-match|Sa password tua depet èsser diferente dae su nùmene usuàriu tuo.
+mailmypassword|Ispedi una password noa a s'indiritzu e-mail miu
+passwordremindertitle|Servitziu Password Reminder di {{SITENAME}}
+passwordremindertext|Calicunu (probabilmenti tue, cun s'indiritzu IP ~{0}) at pediu de arritziri una password noa pro intrare a {{SITENAME}} (~{3}).\nUna password temporanea pro s'usuàriu "~{1}" est istada impostada a "~{2}".\nChi custu fiat ne is intentziones tuas, depis intrare (log in) e scioberari una password noa.\nSa password temporanea tua at a iscadiri in {{PLURAL:~{4}\u007Cuna die\u007C~{4} dies}}.\n\nChi non ses istadu a pediri sa password, o chi as torrau a agatare sa password torra e non da depis cambiari prus, non cunsideras custu messagiu e sighi a impreare sa password beccia.
+noemail|Peruna e-mail resurtat registrada pro s'usuàriu "~{0}".
+passwordsent|Una password noa est stada mandada a s'indiritzu e-mail de s'usuàriu "~{0}".\nPro praxere, cando dda retzis identìfica·ti torra.
+mailerror|Faddina imbiende su messàgiu: ~{0}
+emailauthenticated|S'indiritzu e-mail tuo est istadu autenticau su ~{1} a is ~{2}.
+emailconfirmlink|Cunfirma s'indiritzu e-mail tuo
+accountcreated|Account creadu
+accountcreatedtext|S'account usuàriu pro ~{0} est stadu creadu.
+createaccount-title|Creatzione de unu account pro {{SITENAME}}
+loginlanguagelabel|Limba: ~{0}
+resetpass|Càmbia sa password
+resetpass_header|Càmbia sa password de su account
+oldpassword|Password betza:
+newpassword|Password noa:
+retypenew|Re-scrie sa password noa:
+resetpass_submit|Càmbia sa password e identifica·ti
+resetpass_forbidden|No est possìbile cambiare is passwords
+resetpass-no-info|Depes èsser identificadu pro abèrrer custa pàgina deretu.
+resetpass-submit-loggedin|Càmbia password
+resetpass-submit-cancel|Burra
+resetpass-temp-password|Password temporànea:
+extlink_sample|http://www.example.com tìtulu de s'acàpiu
+extlink_tip|Acàpiu a foras (ammenta su prefissu http://)
+nowiki_sample|Inserta su testu non-formatadu inoghe
+nowiki_tip|Ignora sa formatatzione wiki
+image_sample|Esèmpiu.jpg
+image_tip|Incòrpora una pintura
+media_sample|Esèmpiu.ogg
+media_tip|Cullegamentu a unu file
+sig_tip|Firma cun data e ora
+hr_tip|Lìnia orizontale (de usare cun critèriu)
+summary|Ogetu:
+subject|Tema/tìtulu:
+minoredit|Custu est un'acontzu minore:
+watchthis|Pone custa pàgina in sa watchlist mea
+savearticle|Sarva sa pàgina
+preview|Antiprima
+showpreview|Ammustra s'antiprima
+showlivepreview|Funtzione ''Live preview''
+showdiff|Ammustra is mudàntzias
+anoneditwarning|'''Atentzione:''' Non ses identificadu (log in).\nS'indiritzu IP tuo at a èsser registradu in sa stòria de custa pàgina.
+anonpreviewwarning|''Non ses identificadu. Sarbende s'indiritzu IP tuo at a èsser registradu in sa stòria de sa pàgina.''
+missingcommenttext|Inserta unu cummentu inoghe a suta.
+summary-preview|Antiprima ogetu:
+subject-preview|Antiprima tema/tìtulu:
+blockedtitle|S'usuàriu est istadu bloccau
+blockedtext|'''Custu nùmene usuàriu o indiritzu IP est stadu bloccadu.'''\n\nSu bloccu est stadu postu dae ~{0}. Su motivu de su bloccu est: ''~{1}''\n\n* Su bloccu incumentzat: ~{7}\n* Su bloccu scadit: ~{5}\n* Intervallu de bloccu: ~{6}\n\nSi boles, podes tzerriare ~{0} o un'àteru [[{{MediaWiki:Grouppage-sysop}}\u007Camministradore]] pro faeddare de su bloccu.\n\nNota ca sa funtzione 'Ispedi un'e-mail a custu usuàriu' no est ativa ki no est stadu registradu un'indiritzu e-mail vàlidu in is [[Special:Preferences\u007Cpreferèntzias]] tuas o ki s'usu de custa funtzione est stadu bloccadu.\n\nS'indiritzu IP atuale est ~{2}, su nùmeru ID de su bloccu est #~{4}.\nPro praxere spetzìfica totu is particulares in antis in carche siat pregunta de acrarimentu.
+blockednoreason|perunu motivu indicadu
+loginreqtitle|Identificatzione rekesta
+loginreqlink|identifica·ti
+loginreqpagetext|Depes èsser ~{0} pro bìer àteras pàginas.
+accmailtitle|Password ispedia.
+newarticle|(Nou)
+newarticletext|Custa pàgina no esistit galu.\nPro creare sa pàgina, scrie in su box inoghe in bàsciu (abbàida sa [[{{MediaWiki:Helppage}}\u007Cpàgina de agiudu]] pro àteras informatziones).\nSi ses intradu inoghe pro sbàlliu, carca in su browser tuo su butone '''back/indietro'''.
+anontalkpagetext|----''Custa est sa pàgina de cuntierra de unu usuàriu anònimu ki no at creadu unu account galu, o ki non dd'usat. Pro custu impreamus su nùmeru de indiritzos IP pro ddu identificare. Is indiritzos IP podent però èsser cundivìdidos dae unos cantos usuàrios. Si ses unu usuàriu anònimu e ritenes ki custos cummentos non sunt diretos a tue, pro praxere [[Special:UserLogin/signup\u007Ccrea unu account]] o [[Special:UserLogin\u007Cidentifica·ti (log in)]] pro evitare cunfusione cun àteros usuàrios anònimos.''
+noarticletext|In custu momentu sa pàgina est bùida.\nPodes [[Special:Search/{{PAGENAME}}\u007Cchircare custu tìtulu]] in àteras pàginas, <span class="plainlinks">[{{fullurl:{{#Special:Log}}\u007Cpage={{FULLPAGENAMEE}}}} chircare in is registros ligados] oppuru [{{fullurl:{{FULLPAGENAME}}\u007Caction=edit}} acontzare sa pàgina]</span>.
+userpage-userdoesnotexist|S'account de s'usuàriu "<nowiki>~{0}</nowiki>" no est stadu registradu.\nPro praxere abbàida si boles creare/acontzare custa pàgina.
+userpage-userdoesnotexist-view|S'account de s'usuàriu "~{0}" no est stadu registradu.
+updated|(Agiornadu)
+note|'''Nota:'''
+previewnote|'''Regorda·ti ca custa est feti una ANTIPRIMA. Is mudàntzias tuas non sunt galu sarbadas!'''
+previewconflict|Custa antiprima rapresentat su testu in s'àrea acontzu testu de susu comente at a pàrrer si dda sarbas.
+editing|Acontzu de ~{0}
+editingsection|Acontzende ~{0} (setzione)
+editingcomment|Acontzu de ~{0} (setzione noa)
+editconflict|Cunflitu de editzione: ~{0}
+explainconflict|Calicunu àteru at acontzadu custa pàgina in su tempus ki dda fias acontzende tue.\nS'àrea de testu de susu cuntènnet su testu de sa pàgina in sa forma atuale.\nIs mudàntzias tuas sunt ammustradas in s'àrea de testu de bàsciu.\nAs a dèper insertare is mudàntzias tuas in su testu atuale, e pro custu a ddas scrìer in s'àrea de susu.\n'''Solu''' su testu in s'àrea de susu at a èsser sarbadu si carcas su butone "{{int:savearticle}}".
+yourtext|Su testu tuo
+storedversion|Revisione in arkìvio
+editingold|'''ATENTZIONE: Ses acontzende una revisione non-agiornada de sa pàgina.'''\nSi dda sarbas de aici, totu is acontzos fatos a pustis de custa revisione ant a bènner pèrdidos pro semper.
+yourdiff|Diferèntzias
+copyrightwarning|Abbàida, pro praxere, ki totu is contributziones a {{SITENAME}} sunt cunsideradas lassadas a suta permissu de tipu ~{1} (càstia ~{0} pro nde schire de prus). Si non keris ki su scritu tuo potzat èsser acontzadu e re-distribuidu dae kie si siat sena piedade e sena àteros lìmites, non ddu imbies a {{SITENAME}}.<br />\nCun s'imbiu de custu scritu ses garantende, a responsabilidade tua, si su scritu ddu as cumpostu tue de persona e in originale, o puru si est stadu copiadu dae una fonte de domìniu pùblicu, o una fonte de gasi, o puru si as otentu permissu craru de impreare custu scritu e si ddu podes dimustrare. '''NO IMPREARE MATERIALE COBERTU DAE DERETU DE AUTORE SENA PERMISSU CRARU!'''
+templatesused|{{PLURAL:~{0}\u007CTemplate impreadu\u007CTemplates impreados}} in custa pàgina:
+templatesusedpreview|{{PLURAL:~{0}\u007CTemplate impreadu\u007CTemplates impreados}} in custa antiprima:
+templatesusedsection|{{PLURAL:~{0}\u007CTemplate impreadu\u007CTemplates impreados}} in custa setzione:
+template-protected|(amparadu)
+template-semiprotected|(mesu-amparadu)
+hiddencategories|Custa pàgina faghet parte de {{PLURAL:~{0}\u007C1 categoria cuada\u007C~{0} categorias cuadas}}:
+nocreate-loggedin|Non tenes su permissu de creare pàginas noas.
+permissionserrors|Faddina de permissos
+permissionserrorstext-withaction|Non tenes su permissu de ~{1}, pro {{PLURAL:~{0}\u007Ccustu motivu\u007Ccustus motivus}}:
+moveddeleted-notice|Custa pàgina est istada fuliada.\nSu registru de is fuliaduras e moviduras de sa pàgina est ammustradu pro informatzione.
+log-fulllog|Abbista su registru intreu
+edit-conflict|Cunflitu de editzione.
+viewpagelogs|Càstia sos registros de custa pàgina
+nohistory|Non b'est sa stòria de is acontzos pro custa pàgina.
+currentrev|Revisione currente
+currentrev-asof|Versione currente de is ~{0}
+revisionasof|Revisione de is ~{0}
+revision-info|Revisione de is ~{0} dae ~{1}
+previousrevision|← Acontzu in antis
+nextrevision|Acontzu in fatu →
+currentrevisionlink|Revisione currente
+cur|curr
+next|in fatu
+last|ant
+page_first|prima
+page_last|ùrtima
+histlegend|Cunfrontu intre versiones: sebera sa casella de sa versione ki boles e carca "Invio" o su butone in bàsciu.<br />\nCosas de ammentare: '''({{int:cur}})''' = diferèntzias cun sa versione currente,\n'''({{int:last}})''' = diferèntzias cun sa versione in antis, '''{{int:minoreditletter}}''' = acontzu minore.
+history-fieldset-title|Sfògia sa stòria
+history-show-deleted|Petzi borrados
+histfirst|Prima
+histlast|Ùrtima
+historysize|({{PLURAL:~{0}\u007C1 byte\u007C~{0} bytes}})
+historyempty|(bùida)
+history-feed-item-nocomment|~{0} su ~{1}
+rev-delundel|ammustra/cua
+rev-showdeleted|ammustra
+revdelete-show-file-submit|Eja
+revdelete-radio-set|Eja
+revdel-restore|Muda sa visibilidade
+revdel-restore-deleted|revisiones burradas
+revdel-restore-visible|revisiones visìbiles
+pagehist|Istòria de sa pàgina
+deletedhist|Istòria fuliada
+revdelete-reasonotherlist|Àteru motivu
+mergehistory-from|Pàgina de orìgine:
+mergehistory-into|Pàgina de destinatzione:
+mergehistory-no-source|Sa pàgina de orìgine ~{0} no esistit.
+mergehistory-reason|Motivu:
+revertmerge|Fùrria s'unione
+history-title|Istòria de is revisiones de "~{0}"
+lineno|Lìnia ~{0}:
+compareselectedversions|Cumpara versiones scioberadas
+editundo|annudda
+searchresults|Resurtados de sa chirca
+searchresults-title|Resurtados pro sa chirca de "~{0}"
+searchresulttext|Pro àteras informatziones a subra sa chirca intre de {{SITENAME}}, càstia [[{{MediaWiki:Helppage}}\u007CChirca in {{SITENAME}}]].
+searchsubtitle|Chirca de '''[[:~{0}]]''' ([[Special:Prefixindex/~{0}\u007Ctotu is pàginas ca incumentzant pro "~{0}"]]{{int:pipe-separator}}[[Special:WhatLinksHere/~{0}\u007Ctotu is pàginas chi ligant a "~{0}"]])
+searchsubtitleinvalid|As chircadu "~{0}"
+titlematches|Currispondèntzias in su tìtulu de s'artìculu
+notitlematches|Peruna currispondentzia de is tìtulos de pàgina
+textmatches|Currispondèntzias in su testu de s'artìculu
+notextmatches|Peruna currispondèntzia in su testu de s'artìculu
+shown-title|Ammustra ~{0} {{PLURAL:~{0}\u007Cresurtadu\u007Cresurtados}} pro pàgina
+viewprevnext|Càstia (~{0} {{int:pipe-separator}} ~{1}) (~{2}).
+searchmenu-legend|Possibilidades de chirca
+searchprofile-everything|Totu
+searchprofile-advanced|Avantzada
+searchprofile-articles-tooltip|Chirca in ~{0}
+searchprofile-project-tooltip|Chirca in ~{0}
+searchprofile-images-tooltip|Chirca files
+search-result-size|~{0} ({{PLURAL:~{1}\u007C1 faeddu\u007C~{1} faeddos}})
+search-result-score|Rilevàntzia: ~{0}%
+search-redirect|(redirect ~{0})
+search-section|(setzione ~{0})
+search-suggest|Fortzis fias chirkende: ~{0}
+search-interwiki-caption|Progetos frades
+search-interwiki-default|~{0} resurtados:
+search-interwiki-more|(àteru)
+searcheverything-enable|Chirca in totu is nùmene-logos:
+searchall|totu
+showingresults|Inoghe sighende {{PLURAL:~{0}\u007Cbenit ammustradu '''1''' resurtadu\u007Cbenint ammustrados '''~{0}''' resurtados}} incumentzende dae su nùmeru '''~{1}'''.
+nonefound|'''Annota''': sa chirca est fata "pro definidura" sceti in unos cantos Nùmene-logos.\nProva a seberare ''totu:'' pro chircare in totu su cuntènnidu (inclùdidas pàginas de cuntierra, template, etc), opuru sèbera comente prefissu su pretzisu Nùmene-logu ki boles.
+powersearch|Chirca
+powersearch-legend|Chirca delantada
+powersearch-ns|Chirca in su nùmene-logu:
+powersearch-redir|Lista re-indiritzamentos
+powersearch-field|Chirca
+powersearch-togglelabel|Seletziona:
+powersearch-toggleall|Totu
+powersearch-togglenone|Nudda
+preferences|Preferèntzias
+mypreferences|Preferèntzias meas
+prefs-edits|Nùmeru de acontzos:
+prefsnologin|Non ses intrau
+prefsnologintext|Depes èsser <span class="plainlinks">[{{fullurl:{{#Special:UserLogin}}\u007Creturnto=~{0}}} intradu]</span> pro seberare is preferèntzias.
+changepassword|Càmbia password
+prefs-skin|Bisura
+skin-preview|Antiprima
+prefs-datetime|Data e ora
+prefs-personal|Datos personales
+prefs-rc|Ùrtimas mudàntzias
+prefs-watchlist|Watchlist
+prefs-misc|Àteras preferèntzias
+prefs-resetpass|Càmbia password
+saveprefs|Sarva preferèntzias
+resetprefs|Re-imposta is preferèntzias
+prefs-editing|Box de acontzadura
+rows|Lìnias:
+columns|Colunnas:
+searchresultshead|Settaggio delle preferenze per la ricerca
+resultsperpage|Risultati da visualizzare per pagina
+stub-threshold-disabled|Disativadu
+recentchangescount|Nùmeru de acontzos de amostare pro definidura:
+savedprefs|Is preferèntzias tuas sunt stadas sarbadas.
+timezonelegend|Zona de oràriu:
+localtime|Ora locale:
+timezoneoffset|Diferèntzia¹:
+timezoneregion-africa|Àfrica
+timezoneregion-america|Amèrica
+timezoneregion-antarctica|Antàrtide
+timezoneregion-arctic|Àrtide
+timezoneregion-asia|Àsia
+timezoneregion-australia|Austràlia
+timezoneregion-europe|Europa
+prefs-searchoptions|Possibilidades a subra de sa chirca
+prefs-namespaces|Nùmene-logos
+prefs-files|Files
+youremail|E-mail:
+username|Nùmene usuàriu:
+uid|ID usuàriu:
+prefs-registration|Ora de registratzione:
+yourrealname|Nùmene beru:
+yourlanguage|Limba:
+yournick|Sa firma tua:
+yourgender|Natura:
+gender-unknown|Non spetzificadu
+gender-male|Mascu
+gender-female|Fèmina
+email|E-mail
+prefs-info|Informatzione bàsica
+prefs-signature|Firma
+prefs-dateformat|Formadu data
+prefs-advancedediting|Sèberos avantzados
+prefs-advancedrc|Sèberos avantzados
+prefs-advancedrendering|Sèberos avantzados
+prefs-advancedsearchoptions|Sèberos avantzados
+prefs-advancedwatchlist|Sèberos avantzados
+prefs-diffs|Diferèntzias
+userrights-user-editname|Inserta unu nùmene usuàriu:
+editinguser|Cambiamentu de is deretos usuàriu de s'usuàriu '''[[User:~{0}\u007C~{0}]]''' ([[User talk:~{0}\u007C{{int:talkpagelinktext}}]]{{int:pipe-separator}}[[Special:Contributions/~{0}\u007C{{int:contribslink}}]])
+userrights-reason|Motivu:
+userrights-irreversible-marker|~{0}*
+group|Grupu:
+group-user|Usuàrios
+group-autoconfirmed|Usuàrios autocunfirmadus
+group-bot|Bots
+group-sysop|Amministradores
+group-bureaucrat|Buròcrates
+group-all|(totus)
+group-user-member|Usuàriu
+group-autoconfirmed-member|Autocunfirmados usuàrios
+group-bot-member|Bot
+group-sysop-member|Amministradore
+group-bureaucrat-member|burocrate
+grouppage-user|{{ns:project}}:Usuàrios
+grouppage-autoconfirmed|{{ns:project}}:Usuàrios autocunfirmadus
+grouppage-bot|{{ns:project}}:Bots
+grouppage-sysop|{{ns:project}}:Amministradores
+grouppage-bureaucrat|{{ns:project}}:Burocrates
+right-read|Lègere pàginas
+right-edit|Acontzare pàginas
+right-move|Mòver pàginas
+right-move-subpages|Mòvere pàginas cun is suta-pàginas issoru
+right-move-rootuserpages|Mòvere is pàginas base de is usuàrios
+right-movefile|Mòvere files
+right-upload|Carrigare files
+right-reupload|Subra-iscrìere files esistentes
+right-reupload-own|Subra-iscrìere files esistentes carrigados dae issetotu
+right-upload_by_url|Carrigare files dae unu URL
+right-autoconfirmed|Acontzare pàginas mesu-amparadas
+right-delete|Fuliare pàginas
+right-browsearchive|Chircare pàginas fuliadas
+right-undelete|Restaurare una pàgina
+right-siteadmin|Bloccare e sbloccare su database
+newuserlogpage|Usuàrios nous
+rightslog|Deretos de is usuàrios
+action-read|lègher custa pàgina
+action-edit|acontzare custa pàgina
+action-createpage|creare pàginas
+action-move|mòvere custa pàgina
+action-movefile|mòvere custu file
+action-delete|burrare custa pàgina
+action-browsearchive|chircare pàginas fuliadas
+nchanges|~{0} {{PLURAL:~{0}\u007Cmudàntzia\u007Cmudàntzias}}
+recentchanges|Ùrtimas mudàntzias
+recentchanges-legend|Possibilidades subra ùrtimas mudàntzias
+recentchanges-feed-description|Custu feed riportada is ùrtimas mudàntzias a is cuntènnidos de su giassu.
+recentchanges-label-newpage|Custu acontzu at creadu una pàgina noa
+recentchanges-label-minor|Custu est unu acontzu minore
+recentchanges-label-bot|Custu acontzu est stadu fatu dae unu bot
+rcnote|Inoghe sighende {{PLURAL:~{0}\u007Cb'est s'ùrtima mudàntzia\u007Cbi sunt is ùrtimas '''~{0}''' mudàntzias}} {{PLURAL:~{1}\u007Cin s'ùrtima die\u007Cin is ùrtimas '''~{1}''' dies}}; is datos sunt agiornados a  ~{4}, ~{3}.
+rcnotefrom|Sas chi sighint sunt sas mudàntzias dae '''~{1}''' (fintzas a '''~{0}''').
+rclistfrom|Ammustra mudàntzias dae ~{0}
+rcshowhideminor|~{0} acontzos minores
+rcshowhidebots|~{0} bots
+rcshowhideliu|~{0} usuàrios intraus
+rcshowhideanons|~{0} usuàrios anònimos
+rcshowhidemine|~{0} acontzos meos
+rclinks|Ammustra is ùrtimas ~{0} mudàntzias fatas in is ùrtimas ~{1} dies<br />~{2}
+diff|dif
+hist|ist
+hide|Cua
+show|Ammustra
+minoreditletter|m
+newpageletter|N
+boteditletter|b
+rc_categories_any|Calesisiat
+rc-change-size|~{0}
+newsectionsummary|/* ~{0} */ setzione noa
+rc-enhanced-expand|Ammustra particulares (esigit JavaScript)
+rc-enhanced-hide|Cua particulares
+recentchangeslinked|Mudàntzias ligadas
+recentchangeslinked-feed|Mudàntzias ligadas
+recentchangeslinked-toolbox|Mudàntzias ligadas
+recentchangeslinked-title|Mudàntzias ligadas a "~{0}"
+recentchangeslinked-summary|Custa est una lista de is mudàntzias fatas dae pagu a is pàginas ligadas a cussa spetzificada.\nIs pàginas de sa [[Special:Watchlist\u007Cwatchlist tua]] sunt in '''grassu'''.
+recentchangeslinked-page|Nùmene pàgina:
+recentchangeslinked-to|Ammustra feti mudàntzias a pàginas ligadas a cussa spetzificada
+upload|Càrriga file
+uploadbtn|Càrriga file
+reuploaddesc|Torra a su mòdulu pro su carrigamentu.
+uploadnologin|Non ses intrau
+uploadnologintext|Depes èsser [[Special:UserLogin\u007Cidentificadu (log in)]] pro carrigare files.
+uploaderror|Faddina de carrigamentu
+uploadtext|Imprea su modulu a suta pro carrigare files nous.\nPro castiare o chircare is files giai carrigaus, bae a sa [[Special:FileList\u007Clista de is files carrigaus]]. Carrigamentos de files e de noas versiones de files sunt registradas in su [[Special:Log/upload\u007Cregistru de carrigamentu]], is burraduras in su [[Special:Log/delete\u007Cregistru burraduras]].\n\nPro insertare unu file aintru de una pàgina, tocat a faghere unu cullegamentu tipu custu:\n* '''<code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code>''' pro impreare sa versione cumpleta de su file\n* '''<code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png\u007C200px\u007Cthumb\u007Cleft\u007Ctesto alternativo]]</nowiki></code>''' pro impreare una versione lada 200 pixel insertada in d'unu box, allinniada a manca e cun 'testu alternativu' comente didascalia\n* '''<code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code>''' pro ingenerare unu cullegamentu a su file chentza de du biri
+uploadlogpage|Carrigadas
+uploadlogpagetext|A suta ddoi est sa lista de is files carrigados de reghente.\nCàstia sa [[Special:NewFiles\u007Cgalleria de files nous]] pro una presentada prus bisuale.
+filename|Nùmene file
+filedesc|Ogetu
+fileuploadsummary|Ogetu:
+filereuploadsummary|Mudàntzias a su file:
+filesource|Orìgine:
+uploadedfiles|Files carrigadus
+badfilename|Su nùmene de su file est stadu cunvertidu in "~{0}".
+uploadwarning|Avvisu de carrigamentu
+savefile|Sarva file
+uploadedimage|carrigadu "[[~{0}]]"
+upload-source|File de orìgine
+sourcefilename|Nùmene de su file de orìgine:
+sourceurl|Diretzione originària:
+destfilename|Nùmene de su file de destinatzione:
+upload-description|Descritzione de su file
+upload-success-subj|Carrigamentu acabau
+upload-file-error|Faddina a intru
+license|Licèntzia:
+license-header|Licèntzia
+upload_source_file| (unu file in su computer tuo)
+imgfile|file
+listfiles|Lista de is files
+listfiles_date|Data
+listfiles_name|Nùmene
+listfiles_user|Usuàriu
+listfiles_size|Mannesa in byte
+listfiles_description|Descritzione
+listfiles_count|Versiones
+file-anchor-link|File
+filehist|Stòria de su file
+filehist-help|Carca unu grupu data/ora pro castiare su file comente si presentada in su tempus indicadu.
+filehist-deleteall|fùlia totu
+filehist-deleteone|cantzella
+filehist-revert|fùrria
+filehist-current|currente
+filehist-datetime|Data/Ora
+filehist-thumb|Miniatura
+filehist-thumbtext|Miniatura de sa versione de is ~{0}
+filehist-nothumb|Peruna miniatura
+filehist-user|Usuàriu
+filehist-dimensions|Dimensiones
+filehist-filesize|Mannesa de su file
+filehist-comment|Cummentu
+filehist-missing|File pèrdidu
+imagelinks|Ligant a custu file
+linkstoimage|{{PLURAL:~{0}\u007CSa pàgina ki sighit ligat\u007CIs ~{0} pàginas ki sighint ligant}} a custu file:
+nolinkstoimage|Peruna pàgina ligat a custu file.
+sharedupload|Custu file benit dae ~{0} e podet èssere impreau in àteros progetos.
+uploadnewversion-linktext|Carriga una versione noa de custu file
+shared-repo-from|dae ~{0}
+filerevert-comment|Motivu:
+filedelete|Cantzella ~{0}
+filedelete-legend|Cantzella su file
+filedelete-submit|Cantzella
+filedelete-success|Su file '''~{0}''' est istadu fuliau.
+filedelete-reason-otherlist|Àteru motivu
+download|scàrriga
+listredirects|Lista de totu is redirects
+randompage|Pàgina a sa tzurpa
+statistics-header-users|Statìsticas subra is usuàrios
+disambiguationspage|Template:Disambìgua
+doubleredirects|Redirects dòpios
+doubleredirectstext|Custa pàgina cuntenet una lista de pàginas ki re-indiritzant a àteras pàginas de re-indiritzamentu.\nOgni lìnia cuntenet ligàmines a su primu e a su de duos re-indiritzamentu, aici comente sa prima lìnia de sa de duos re-indiritzamentos, chi de sòlitu adòbiat s'artìculu "beru", a sa cale fintzas su primu re-indiritzamentu dia depet puntare.\nIs re-indiritzamentos <del>cantzellados</del> sunt stados curretos.
+brokenredirects|Redirects isballiaus
+brokenredirectstext|Custus redirects ligant cun pàginas chi no esistint.
+brokenredirects-edit|acontza
+brokenredirects-delete|cantzella
+withoutinterwiki-legend|Prefissu
+withoutinterwiki-submit|Ammustra
+nbytes|~{0} {{PLURAL:~{0}\u007Cbyte\u007Cbytes}}
+ncategories|~{0} {{PLURAL:~{0}\u007Ccategoria\u007Ccategorias}}
+nlinks|~{0} {{PLURAL:~{0}\u007Cligàmene\u007Cligàmenes}}
+nmembers|~{0} {{PLURAL:~{0}\u007Ccumponente\u007Ccumponentes}}
+nrevisions|~{0} {{PLURAL:~{0}\u007Crevisione\u007Crevisiones}}
+nviews|~{0} {{PLURAL:~{0}\u007Cbisura\u007Cbisuras}}
+lonelypages|Pàginas burdas
+unusedimages|Files no impreaus
+popularpages|Pàginas populares
+wantedpages|Artìculos prus chircados
+mostrevisions|Pàginas cun prus revisiones
+prefixindex|Ìndighe de is pàginas pro initziales
+shortpages|Pàginas crutzas
+longpages|Pàginas longas
+deadendpages|Pàginas chentza bessida
+protectedpages|Pàginas amparadas
+protectedtitles|Tìtulus amparadus
+listusers|Lista usuàrios
+usereditcount|~{0} {{PLURAL:~{0}\u007Cacontzu\u007Cacontzos}}
+usercreated|Creadu su ~{0} a is ~{1}
+newpages|Pàginas noas
+newpages-username|Nùmene usuàriu:
+move|Movi
+movethispage|Move custa pàgina (càmbia su tìtulu)
+unusedimagestext|Is files ki sighint sunt stados carrigados ma non sunt impreados.\nDia podent essere immàgines impreadas dae àteros giassos cun unu ligàmine diretu, e tando podent essere listados inoghe comente usu ativu.
+notargettitle|Perunu obietivu
+notargettext|Non hai specificato una pagina o un Utente in relazione al quale eseguire l'operazione richiesta.
+pager-newer-n|{{PLURAL:~{0}\u007C1 prus nou\u007C~{0} prus nous}}
+pager-older-n|{{PLURAL:~{0}\u007C1 prus betzu\u007C~{0} prus betzos}}
+booksources|Fontes libràrias
+booksources-search-legend|Chirca fontes libràrias
+booksources-isbn|ISBN:
+booksources-go|Bae
+specialloguserlabel|Usuàriu:
+speciallogtitlelabel|Tìtulu:
+log|Registros
+alphaindexline|dae ~{0} a ~{1}
+allpagesfrom|Ammustra pàginas a partire dae:
+allpagesto|Ammustra pàginas fintzas a:
+allarticles|Totu is pàginas
+allinnamespace|Totu is pàginas (nùmene-logu ~{0})
+allpagessubmit|Bae
+allpages-bad-ns|Su nùmene-logu "~{0}" non esistit in {{SITENAME}}.
+sp-deletedcontributions-contribs|contributziones
+linksearch|Acàpios a foras
+linksearch-ns|Nùmene-logu:
+linksearch-ok|Chirca
+listusers-submit|Ammustra
+activeusers-hidebots|Cua bots
+activeusers-hidesysops|Cua amministradores
+listgrouprights-group|Grupu
+listgrouprights-members|(lista de is cumponentes)
+mailnologintext|Depes èsser [[Special:UserLogin\u007Cidentificadu (login)]] e àer registradu un'indiritzu e-mail vàlidu in is [[Special:Preferences\u007Cpreferèntzias tuas]] pro imbiare e-mail a àteros usuàrios.
+emailuser|E-mail a custu usuàriu
+emailpage|Ispedi una missada a s'usuàriu
+emailpagetext|Imprea su mòdulu a suta pro ispedire una missada eletrònica a custu usuàriu.\nS'indiritzu chi as insertadu in is [[Special:Preferences\u007Cpreferèntzias usuàriu tuas]] at a pàrrere comente su chi at ispedidu sa e-mail, pro fàghere sa manera chi su destinatàriu ti respundat deretu.
+defemailsubject|Missada dae {{SITENAME}}
+noemailtitle|Perunu indiritzu e-mail
+noemailtext|Custu usuàriu no at ispetzificadu un indiritzu e-mail vàlidu.
+email-legend|Imbia una missada e-mail a un àteru usuàriu de {{SITENAME}}
+emailfrom|Dae:
+emailto|A:
+emailsubject|Ogetu:
+emailmessage|Messàgiu:
+emailsend|Imbia
+emailccme|Ispedimia una còpia de su messàgiu miu.
+emailsent|E-mail ispedia
+emailsenttext|Sa e-mail tua est istada imbiada.
+usermessage-editor|Missu de su sistema
+watchlist|Sa watchlist mea
+mywatchlist|Sa watchlist mea
+nowatchlist|No as indicadu pàginas in sa watchlist tua.
+watchnologin|No intrau (log in)
+watchnologintext|Devi prima fare il [[Special:UserLogin\u007Clogin]]\nper modificare la tua lista di osservati speciali.
+addedwatchtext|Sa pàgina "[[:$1]]" est istada aciunta a sa [[Special:Watchlist\u007Cwatchlist]] tua.\nIs mudàntzias de custa pàgina e de sa pàgina de cuntierras sua ant a bennere elencadas inoe, e su tìtulu at a aparire in '''grassetto''' in sa pàgina de is [[Special:RecentChanges\u007Cùrtimas mudàntzias]] pro du bidere mengius.
+removedwatchtext|Sa pàgina  "[[:~{0}]]" est istada tirada dae sa [[Special:Watchlist\u007Cwatchlist tua]].
+watch|Pone in sa watchlist
+watchthispage|Pone ogru a custu artìculu
+unwatch|Tira dae sa watchlist
+unwatchthispage|Boga custa pàgina dae sa watchlist tua
+notanarticle|Custa pàgina no est unu artìculu
+watchlist-details|Sa watchlist tua cuntènnit {{PLURAL:~{0}\u007C~{0} pàgina\u007C~{0} pàginas}}, chentza contare is pàginas de cuntierras.
+wlshowlast|Ammustra is ùrtimas ~{0} oras ~{1} dies ~{2}
+watchlist-options|Possibilidades subra sa watchlist
+watching|Giunghende a sa watchlist...
+unwatching|Boghende dae sa watchlist...
+enotif_impersonal_salutation|Usuàriu de {{SITENAME}}
+created|creada
+deletepage|Fùlia pàgina
+confirm|Cunfima
+excontent|su cuntènnidu fiat: '~{0}'
+excontentauthor|su cuntènnidu fiat: '~{0}' (e s'ùnicu contribudori fiat '[[Special:Contributions/~{1}\u007C~{1}]]')
+exblank|sa pàgina fiat bùida
+delete-confirm|Fùlia "~{0}"
+delete-legend|Fuliare
+confirmdeletetext|Ses acanta de burrare una pàgina cun totu su stòria sua.\nPro praxere, cunfirma ca est intentzione tua fàgher custu, ca connosches is cosseguèntzias de s'atzione tua, a ca custa est cunforma a is [[{{MediaWiki:Policy-url}}\u007Clìnias polìticas]].
+actioncomplete|Acabada s'atzione
+actionfailed|Atzione faddida
+deletedtext|Sa pàgina "~{0}" est istada fuliada.\nCàstia su log ~{1} pro unu registru de is ùrtimas fuliaduras.
+dellogpage|Burraduras
+dellogpagetext|A sighire una lista de is prus reghentes burraduras.
+reverted|Torrada a sa versione in antis
+deletecomment|Motivu:
+deleteotherreason|Àteru motivu o motivu agiuntivu:
+deletereasonotherlist|Àteru motivu
+rollback|Annudda is acontzos
+rollbacklink|rollback
+rollbackfailed|Rollback faddidu
+cantrollback|Non si podet furriare s'acontzu;\ns'ùrtimu contribuidore est s'ùnicu autore de custa pàgina.
+revertpage|Burradas is mudàntzias de [[Special:Contributions/~{1}\u007C~{1}]] ([[User talk:~{1}\u007Ccuntierras]]), torrada a sa versione cabudiana de [[User:~{0}\u007C~{0}]]
+protectlogpage|Amparaduras
+protectedarticle|at amparau "[[~{0}]]"
+modifiedarticleprotection|at cambiau su livellu de amparadura pro "[[~{0}]]"
+protectcomment|Motivu:
+protectexpiry|Iscadèntzia:
+protect_expiry_invalid|S'iscadèntzia est imbàlida.
+protect_expiry_old|Iscadentzia giai passada.
+protect-text|Custu modulu serbit pro castiari e cambiari su livellu de amparadura de sa pàgina '''~{0}'''.
+protect-locked-access|Non tenes su permissu pro cambiare is livellus de amparadura de sa pàgina.\nIs impostatziones atuales pro sa pàgina '''~{0}''':
+protect-cascadeon|A su momentu custa pàgina est bloccada pro ite est inclùdia {{PLURAL:~{0}\u007Cin sa pàgina indicada a suta, pro sa cali\u007Cin is pàginas indicadas a suta, pro is calis}} est ativa s'amparadura ricorsiva. Est possìbile cambiare su livellu de amparadura de custa pàgina, ma is impostatziones derivadas dae s'amparadura ricorsiva non ant a èssere mudadas.
+protect-default|Autoritza totu is usuàrios
+protect-fallback|Esigit su permissu "~{0}"
+protect-level-autoconfirmed|Blocca is usuàrios nobos o non registrados
+protect-level-sysop|Isceti aministradores
+protect-summary-cascade|ricorsiva
+protect-expiring|iscadèntzia: ~{0} (UTC)
+protect-cascade|Ampara totu is pàginas inclùdias in custa (amparadura ricorsiva)
+protect-cantedit|Non podes cambiare is livellus de amparadura pro sa pàgina, pro ite non tenes su permissu de acontzare sa pàgina etotu.
+protect-othertime|Àteru perìodu:
+protect-expiry-options|1 ora:1 hour,1 die:1 day,1 chida:1 week,2 chidas:2 weeks,1 mese:1 month,3 meses:3 months,6 meses:6 months,1 annu:1 year,infinidu:infinite
+restriction-type|Permissu:
+restriction-level|Livellu de restritzioni:
+pagesize|(bytes)
+restriction-edit|Acontzadura
+restriction-move|Movimentu
+restriction-create|Creatzione
+restriction-upload|Carrigadroxiu
+restriction-level-sysop|amparadura intrea
+restriction-level-autoconfirmed|mesu-amparada
+restriction-level-all|ogni livellu
+undelete|Càstia pàginas fuliadas
+undeletepage|Càstia e restaura pàginas fuliadas
+viewdeletedpage|Càstia pàginas fuliadas
+undeletepagetext|{{PLURAL:~{0}\u007CSa pàgina chi sighit est istada fuliada, ma est ancora in archiviu e podit èssere recuperada\u007CIs pàginas chi sighint sunt istadas fuliadas, ma sunt ancora in archiviu e podint èssere recuperadas}}. S'archiviu podit èssere sbudiau a periodus.
+undelete-fieldset-title|Restàura revisiones
+undeleterevisions|~{0} {{PLURAL:~{0}\u007Crevisione\u007Crevisiones}} in archìviu
+undeletehistory|Restaurende custa pàgina, totu is revisiones ant a torrare in sa istòria sua.\nChi est istada creada una pàgina cun su matessi tìtulu, is revisiones recuperadas ant a insertare in sa istoria in antis.
+undeletebtn|Ripristina
+undeletelink|càstia/riprìstina
+undeleteviewlink|abbista
+undeleteinvert|Fùrria sa seletzione
+undeletecomment|Motivu:
+undeletedrevisions|{{PLURAL:~{0}\u007C1 revisione restaurada\u007C~{0} revisiones restauradas}}
+undeletedrevisions-files|{{PLURAL:~{0}\u007C1 revisione\u007C~{0} revisiones}} e {{PLURAL:~{1}\u007C1 file\u007C~{1} files}} restaurados
+undeletedfiles|{{PLURAL:~{0}\u007C1 file restauradu\u007C~{0} files restaurados}}
+undelete-search-box|Chirca pàginas fuliadas
+undelete-search-prefix|Ammustra is pàginas ca su tìtulu cumentzat cun:
+undelete-search-submit|Chirca
+undelete-show-file-submit|Eja
+namespace|Nùmene-logu:
+invert|Fùrria sa seletzione
+contributions|Contributziones usuàriu
+contributions-title|Contributziones de ~{0}
+mycontris|Contributziones meas
+contribsub2|Pro ~{0} (~{1})
+nocontribs|Nessuna modifica trovata conformemente a questi criteri.
+uctop|(ùrtimu de sa pàgina)
+month|Dae su mese (e in antis):
+year|Dae s'annu (e in antis):
+sp-contributions-newbies|Ammustra feti is contributziones de is accounts noos
+sp-contributions-blocklog|registru de is bloccos
+sp-contributions-talk|cuntierra
+sp-contributions-search|Chirca contributziones
+sp-contributions-username|Indiritzu IP o nùmene usuàriu:
+sp-contributions-submit|Chirca
+whatlinkshere|Pàginas chi ligant a custa
+whatlinkshere-title|Pàginas chi ligant a "~{0}"
+whatlinkshere-page|Pàgina:
+linkshere|Sas pàginas chi sighint ligant a '''[[:~{0}]]''':
+nolinkshere|Peruna pàgina ligat a '''[[:~{0}]]'''.
+nolinkshere-ns|Peruna pàgina ligat a '''[[:~{0}]]''' in su nùmene-logu seberadu.
+isredirect|redirect
+istemplate|inclusione
+isimage|acàpiu pintura
+whatlinkshere-prev|{{PLURAL:~{0}\u007Ccabudianu\u007Ccabudianos ~{0}}}
+whatlinkshere-next|{{PLURAL:~{0}\u007Cimbeniente\u007Cimbenientes ~{0}}}
+whatlinkshere-links|← acàpius
+whatlinkshere-hideredirs|~{0} redirects
+whatlinkshere-hidetrans|~{0} inclusionis
+whatlinkshere-hidelinks|~{0} acàpius
+whatlinkshere-filters|Filtros
+blockip|Blocca usuàriu
+blockip-title|Blocca usuàriu
+blockip-legend|Blocca usuàriu
+blockiptext|Usa il modulo sottostante per bloccare l'accesso con diritto di scrittura da uno specifico indirizzo IP. Questo blocco deve essere operato SOLO per prevenire atti di vandalismo, ed in stretta osservanza dei principi tutti della [[{{MediaWiki:Policy-url}}\u007Cpolicy di {{SITENAME}}]]. Il blocco non può in nessun caso essere applicato per motivi ideologici.\nScrivi un motivo specifico per il quale questo indirizzo IP dovrebbe a tuo avviso essere bloccato (per esempio, cita i titoli di pagine eventualmente già oggetto di vandalismo editoriale).
+ipadressorusername|Indiritzu IP o nùmene usuàriu:
+ipbexpiry|Scadèntzia:
+ipbreason|Motivu:
+ipbreasonotherlist|Àteru motivu
+ipbsubmit|Blocca custu usuàriu
+ipbother|Àteru perìodu:
+ipboptions|2 oras:2 hours,1 die:1 day,3 dies:3 days,1 chida:1 week,2 chidas:2 weeks,1 mese:1 month,3 meses:3 months,6 meses:6 months,1 annu:1 year,infinidu:infinite
+ipbotheroption|àteru
+badipaddress|S'indiritzu IP indicadu non est currègidu.
+blockipsuccesssub|Bloccu esecutivu
+blockipsuccesstext|[[Special:Contributions/~{0}\u007C~{0}]] è stadu bloccadu. <br />\nAbbàida sa [[Special:BlockList\u007Clista de IP bloccados]] pro bìder sas bloccaduras.
+ipb-edit-dropdown|Acontza su motivu de su bloccu
+ipb-unblock-addr|Sblocca ~{0}
+ipb-blocklist-contribs|Contributziones de ~{0}
+unblockip|Sblocca s'usuàriu
+unblockiptext|Usa il modulo sottostante per restituire il diritto di scrittura ad un indirizzo IP precedentemente bloccato.
+ipusubmit|Boga custu bloccu
+ipblocklist|Usuàrios e indiritzos bloccados
+ipblocklist-submit|Chirca
+infiniteblock|infinitu
+expiringblock|scadit su ~{0} a is ~{1}
+blocklink|blocca
+unblocklink|sblocca
+change-blocklink|tramuda su bloccu
+contribslink|contributziones
+blocklogpage|Bloccos de usuàrios
+blocklogentry|bloccau [[~{0}]] pro unu tempu de ~{1} ~{2}
+unblocklogentry|at sbloccau ~{0}
+block-log-flags-nocreate|creatzione account bloccada
+blockme|Blocca·mi
+proxyblocksuccess|Fatu.
+sorbs|DNSBL
+lockdb|Blocca su database
+unlockdb|Sblocca su database
+lockdbtext|Bloccare il database sospenderà la possibilità per tutti gli Utenti di modificare le pagine o di crearne di nuove, di cambiare le loro preferenze, di modificare le loro liste di Osservati Speciali, ed in genere non consentirà a nessuno di eseguire operazioni che richiedano modifiche del database.<br /><br />\nPer cortesia, conferma che questo è effettivamente quanto tu intendi ora effettuare e, soprattutto, che il prima possibile sbloccherai nuovamente il database, ripristinandone la corretta funzionalità, non appena avrai terminato le tue manutenzioni.
+unlockdbtext|Sbloccare il database ripristinerà la possibilità per tutti gli Utenti di modificare le pagine o di crearne di nuove, di cambiare le loro preferenze, di modificare le loro liste di Osservati Speciali, ed in genere di eseguire operazioni che richiedano modifiche del database.\nPer cortesia, conferma che questo è effettivamente quanto tu intendi ora effettuare.
+lockconfirm|Sì, effettivamente intendo, sotto la mia responsabilità, bloccare il database.
+unlockconfirm| Sì, effettivamente intendo, sotto la mia responsabilità, sbloccare il database.
+lockbtn|Blocca su database
+unlockbtn|Sblocca su database
+locknoconfirm|Non hai spuntato la casellina di conferma.
+lockdbsuccesssub|Blocco del database eseguito
+unlockdbsuccesssub|Sblocco del database eseguito, rimosso blocco
+lockdbsuccesstext|Il database di {{SITENAME}} è stato bloccato.\n<br />Ricordati di rimuovere il blocco non appena avrai terminatoi le tue manutenzioni.
+unlockdbsuccesstext|Su database est istadu sbloccau.
+databasenotlocked|Su database no est bloccadu.
+move-page|Movimentu de ~{0}
+move-page-legend|Movimentu pàgina
+movepagetext|Cun custu mòdellu podes renumenare una pàgina, movende totu sa stòria sua a sa pàgina noa.\nSu tìtulu bèciu at a diventare una pàgina de reindiritzamentu a su tìtulu nou.\nPodes agiornare automaticamente is redirects ca ligant a su tìtulu originàriu.\nSi sèberas de no, assicura·ti de controllare pro [[Special:DoubleRedirects\u007C reindiritzaduras dòpias]] o [[Special:BrokenRedirects\u007Csballiadas]].\nSes responsàbile de t'assigurare ca is cullegamentos sighint a puntare  a ue depent puntare.\n\nAnnota ca sa pàgina '''non''' s'at a mòver si nde esistit giai un'àtera a su tìtulu nou, si no est ki siat bùida o cun sceti unu reindiritzamentu a sa bècia e siat chentza acontzos in antis. In casu de movimentu sballiadu, duncas, si podet torrare a su tìtulu bèciu, ma non podes subrascrìer una pàgina chi giai esistit.\n\n'''ATENTZIONE:'''\nUnu cambiamentu dràsticu podet creare problemas, mescamente a is pàginas prus populares;\npro praxere depes èsser seguru de àer cumpresu is cunsighèntzias prima de sighire a in antis.
+movepagetalktext|Sa pàgina cuntierras asotziada, chi esistit, at a èssere movida automaticamenti impare a sa pàgina base, '''a parte in custos casos''':\n* su movimentu de sa pàgina est intre namespaces diversos;\n* in currispondèntzia de su tìtulu nou esistit giai una pàgina de cuntierras (non bùida);\n* sa casella inoe in bàsciu no est istata sceberada.\n\nIn custos casos, si cheres, depes mòvere a manu su cuntènnidu de sa pàgina.
+movearticle|Move sa pàgina
+movenologin|No identificadu (login)
+movenologintext|Depes èsser unu usuàriu registradu e [[Special:UserLogin\u007Cidentificadu]] pro pòder mòver una pàgina
+newtitle|Tìtulu nou:
+move-watch|Pone ogru a custa pàgina
+movepagebtn|Move sa pàgina
+pagemovedsub|Movimentu andadu bene
+movepage-moved|'''"~{0}" est istada mòvida a "~{1}"'''
+articleexists|Una pàgina cun custu nùmene esistit giai, o su nùmene ki as seberadu no est bàlidu.\nPro praxere sèbera un'àteru nùmene.
+talkexists|'''Su movimentu de sa pàgina est andadu bene, ma no est stadu possìbile mòver sa pàgina de cuntierras pro ite nde esistit giai un'àtera cun su matessi tìtulu. Pro praxere giunghe tue su cuntestu de sa pàgina betza.'''
+movedto|mòvida a
+movetalk|Move sa pàgina de cuntierra galu
+movelogpage|Moviduras
+movereason|Motivu:
+revertmove|fùrria
+delete_and_move_confirm|Eja, cantzella sa pàgina
+selfmove|Is tìtulos de orìgine e de destinatzione sunt uguales;\nimpossìbile mòver sa pàgina a issa etotu.
+immobile-source-page|Non si podet mòver custa pàgina.
+move-leave-redirect|Lassa unu reindiritzamentu a palas
+export|Esporta pàginas
+export-download|Sarba comente file
+allmessagesname|Nùmene
+allmessages-filter-legend|Filtru
+allmessages-filter-all|Totu
+allmessages-language|Limba:
+allmessages-filter-submit|Bae
+import-interwiki-namespace|Nùmene-logu de destinatzione:
+import-upload-filename|Nùmene file:
+import-comment|Cummentu:
+tooltip-pt-userpage|Sa pàgina usuàriu tua
+tooltip-pt-mytalk|Sa pàgina de is cuntierras tuas
+tooltip-pt-preferences|Is preferèntzias chi podes scioberai
+tooltip-pt-watchlist|Sa lista de is pàginas chi tue ses ponende ogru
+tooltip-pt-mycontris|Sa lista de is contributziones meas
+tooltip-pt-login|Si cunsìgiat sa registratzione; mancari non siat obligatoria
+tooltip-pt-logout|Bessida (log out)
+tooltip-ca-talk|Cuntierras a propositu de su cuntestu de sa pàgina
+tooltip-ca-edit|Podes acontzare custa pàgina.\nPro praxere, prima de sarbare càstia s'antiprima
+tooltip-ca-addsection|Incumintza una setzione noa
+tooltip-ca-viewsource|Sa pàgina est amparada.\nPodes castiare sa mitza sua
+tooltip-ca-history|Versiones coladas de custa pàgina
+tooltip-ca-protect|Ampara custa pàgina
+tooltip-ca-delete|Fùlia custa pàgina
+tooltip-ca-move|Move custa pàgina (càmbia su tìtulu)
+tooltip-ca-watch|Giunghe custa pàgina a sa ''watchlist'' tua
+tooltip-ca-unwatch|Tira custa pàgina da sa watchlist tua
+tooltip-search|Chirca a intru de {{SITENAME}}
+tooltip-search-go|Anda a una pàgina cun custu nùmene, si esistit
+tooltip-search-fulltext|Chirca custu testu in sas pàginas
+tooltip-p-logo|Bìsita sa pàgina base
+tooltip-n-mainpage|Bìsita sa pàgina base
+tooltip-n-mainpage-description|Bìsita sa pàgina base
+tooltip-n-portal|Descritzione de su progetu, ite podes fàgher, a innue agatas is cosas
+tooltip-n-currentevents|Informatziones subra acuntèssias atuales
+tooltip-n-recentchanges|Sa lista de is ùrtimas mudàntzias de su giassu
+tooltip-n-randompage|Càrriga una pàgina a sorte
+tooltip-n-help|Pàginas de agiudu
+tooltip-t-whatlinkshere|Lista de totu is pàginas chi ligant a custa
+tooltip-t-recentchangeslinked|Lista de is ùrtimas mudàntzias de is pàginas ki ligant a custa
+tooltip-feed-rss|RSS feed pro custa pàgina
+tooltip-feed-atom|Atom feed pro custa pàgina
+tooltip-t-contributions|Càstia sa lista de is contributziones de custu usuàriu
+tooltip-t-emailuser|Ispedi una missada eletronica a custu usuàriu
+tooltip-t-upload|Càrriga file multimediale
+tooltip-t-specialpages|Lista de is pàginas ispetziales
+tooltip-t-print|Versione de custa pàgina pro s'imprenta
+tooltip-t-permalink|Cullegamentu permanente a custa versione de sa pàgina
+tooltip-ca-nstab-main|Càstia su cuntènnidu de sa pàgina
+tooltip-ca-nstab-user|Càstia sa pàgina usuàriu
+tooltip-ca-nstab-special|Custa est una pàgina ispetziale, non dda podes acontzare
+tooltip-ca-nstab-project|Càstia sa pàgina de servìtziu
+tooltip-ca-nstab-image|Càstia sa pàgina de su file
+tooltip-ca-nstab-template|Càstia su template
+tooltip-ca-nstab-category|Càstia sa pàgina de sa categoria
+tooltip-minoredit|Signa comente acontzu minore
+tooltip-save|Sarva is mudàntzias tuas
+tooltip-preview|Antiprima de is mudàntzias, pro pregeri usa custu prima de sarvari!
+tooltip-diff|Ammustra is mudàntzias ki as fatu a su testu
+tooltip-compareselectedversions|Càstia is diferèntzias de is duas versiones seberadas de custa pàgina
+tooltip-watch|Aciungi custa pàgina a sa watchlist tua
+tooltip-recreate|Torra a creare sa pàgina mancari siat stada fuliada
+tooltip-upload|Cumentza a carrigare
+tooltip-rollback|"Rollback" annudda is mudàntzias de custa pàgina fatas dae s'ùrtimu contribudori
+tooltip-undo|"Annudda" fùrriat custu acontzu e aberit su mòdulu de acontzu comente antiprima.\nPodes agiùnger unu motivu in s'ogetu de s'acontzu.
+siteuser|~{0}, {{GENDER:~{0}\u007Cusuàriu\u007Cusuària}} de {{SITENAME}}
+anonuser| ~{0}, usuàriu anònimu de {{SITENAME}}
+others|àteros
+siteusers|~{0}, {{PLURAL:~{1}\u007Cusuàriu\u007Cusuàrios}} de {{SITENAME}}
+anonusers|~{0}, {{PLURAL:~{1}\u007Cusuàriu anònimu\u007Cusuàrios anònimos}} de {{SITENAME}}
+creditspage|Autores de sa pàgina
+previousdiff|← Acontzu in antis
+nextdiff|Acontzu in fatu →
+file-info-size|~{0} × ~{1} pixels, mannesa de su file: ~{2}, tipu de MIME: ~{3}
+file-nohires|Non si tenent risolutziones prus artas.
+svg-long-desc|file in formadu SVG, mannesa nominale ~{0} × ~{1} pixel, mannesa de su file: ~{2}
+show-big-image|Versione a risolutzione arta
+imagelisttext|Innoe sighendi du est una lista de '''~{0}''' {{PLURAL:~{0}\u007Cfile\u007Cfiles}} ordinada ~{1}.
+ilsubmit|Chirca
+bydate|data
+video-dims|~{0}, ~{1}×~{2}
+seconds-abbrev|~{0}s
+minutes-abbrev|~{0}m
+hours-abbrev|~{0}h
+bad_image_list|Su formau est su chi sighit:\n\nBenint consideraus isceti is listas putadas (lìnias chi incumentzant cun *).\nSu primu cullegamentu depit èssere unu acàpiu a unu file malu (o indesiderau).\nIs acàpius chi sighint in sa matessi lìnia sunt cunsideraus comente eccetziones (ossiat, pàginas innui si podet usare su file).
+metadata|Metadatos
+metadata-help|Custu file cuntènnit informatziones aciuntivas, probabilmente aciuntas dae sa fotocamera o dae su scannerizadori impreaus pro ddu creare o ddu digitalizare. Si su file est istadu acontzau, unos particolares podent non currispundere a sa realtade.
+metadata-expand|Ammustra particulares
+metadata-collapse|Cua particulares
+metadata-fields|Is campus de is metadatos EXIF listaus in custu messàgiu ant a èssere amostaus in sa pàgina de s'immàgine candu sa tabella de is metadatos est presentada in forma breve. Pro impostatzione predefinia, is àteros campus ant a èssere cuaus.\n* make\n* model\n* datetimeoriginal\n* exposuretime\n* fnumber\n* isospeedratings\n* focallength\n* artist\n* copyright\n* imagedescription\n* gpslatitude\n* gpslongitude\n* gpsaltitude
+exif-artist|Autore
+exif-exposuretime-format|~{0} s (~{1})
+exif-fnumber-format|f/~{0}
+exif-flash|Flash
+exif-focallength-format|~{0} mm
+exif-compression-6|JPEG
+exif-photometricinterpretation-2|RGB
+exif-photometricinterpretation-6|YCbCr
+exif-orientation-1|Normale
+exif-xyresolution-i|~{0} dpi
+exif-xyresolution-c|~{0} dpc
+exif-colorspace-1|sRGB
+exif-colorspace-65535|FFFF.H
+exif-componentsconfiguration-1|Y
+exif-componentsconfiguration-2|Cb
+exif-componentsconfiguration-3|Cr
+exif-subjectdistance-value|~{0} metros
+exif-lightsource-4|Lampu
+exif-gaincontrol-0|Nudda
+exif-contrast-0|Normale
+exif-sharpness-0|Normale
+edit-externally|Acontza custu file usendi unu programma de foras
+edit-externally-help|(Pro àteras informatziones càstia is [//www.mediawiki.org/wiki/Manual:External_editors istrutziones])
+watchlistall2|totu
+namespacesall|totu
+monthsall|totu
+limitall|totu
+confirmemail|Cunfirma s'indiritzu e-mail
+confirm_purge_button|OK
+imgmultipageprev|← pàgina in antis
+imgmultipagenext|pàgina in fatu →
+imgmultigo|Bae!
+imgmultigoto|Bae a sa pàgina ~{0}
+table_pager_first|Primu pàgina
+table_pager_last|Ùrtima pàgina
+table_pager_limit_submit|Bae
+autosumm-blank|Pàgina isbuidada
+autosumm-replace|Pàgina cambiada cun '~{0}'
+autoredircomment|Re-indiritzada a sa pàgina [[~{0}]]
+autosumm-new|Pàgina creada cun '~{0}'
+size-bytes|~{0} B
+size-kilobytes|~{0} KB
+size-megabytes|~{0} MB
+size-gigabytes|~{0} GB
+watchlistedit-normal-title|Acontza sa watchlist
+watchlistedit-raw-titles|Tìtulos:
+watchlisttools-view|Càstia mudàntzias de importu
+watchlisttools-edit|Càstia e acontza sa watchlist
+watchlisttools-raw|Acontza sa watchlist dae su testu
+timezone-utc|UTC
+version|Versione
+version-specialpages|Pàginas ispetziales
+version-other|Àteru
+version-version|(Versione ~{0})
+version-license|Licèntzia
+version-software-version|Versione
+fileduplicatesearch-submit|Chirca
+specialpages|Pàginas ispetziales
+specialpages-group-pages|Listas de is pàginas
+tags-edit|acontza
+htmlform-selectorother-other|Àteru
+rightsnone|(nisciunu)
+searchsuggest-search|Chirca
+categorytree-portlet|Categorias
+categorytree-category|Categoria:
+categorytree-mode-all|totu is pàginas
+proofreadpage_image|Immàgine
+proofreadpage_index_listofpages|Lista de is pàginas
+proofreadpage_pages|{{PLURAL:~{0}\u007Cpàgina\u007Cpàginas}}
+wikieditor-loading|Carrigamentu
+wikieditor-preview-preference|Abilita s'antiprima cumparativa
+wikieditor-preview-tab|Antiprima
+wikieditor-preview-changes-tab|Mudàntzias
+wikieditor-preview-loading|Carrigamentu...
+wikieditor-previewDialog-tab|Antiprima
+wikieditor-previewDialog-loading|Carrigamentu...
+wikieditor-publish-button-publish|Pùblica
+wikieditor-publish-dialog-minor|Acontzu minore
+wikieditor-publish-dialog-watch|Pone custa pàgina in sa watchlist mea
+wikieditor-toolbar|Barra de is ainas pro s'acontzu
+wikieditor-toolbar-desc|Barra de is ainas pro s'acontzu megiorada
+wikieditor-toolbar-preference|Abilita sa barra de is ainas megiorada
+wikieditor-toolbar-dialogs-preference|Abilita is bentanas pro insertare ligàmines, tabellas e àteru
+wikieditor-toolbar-loading|Carrigamentu...
+wikieditor-toolbar-tool-bold|Grassu
+wikieditor-toolbar-tool-bold-example|Testu grassu
+wikieditor-toolbar-tool-italic|Corsivu
+wikieditor-toolbar-tool-italic-example|Testu corsivu
+wikieditor-toolbar-tool-ilink|Ligàmine a intro
+wikieditor-toolbar-tool-ilink-example|Tìtulu de su ligàmine
+wikieditor-toolbar-tool-xlink|Ligàmine a foras (ammenta su prefissu http://)
+wikieditor-toolbar-tool-xlink-example|http://www.example.com tìtulu de su ligàmine
+wikieditor-toolbar-tool-link|Ligàmine
+wikieditor-toolbar-tool-link-title|Inserta su ligàmine
+wikieditor-toolbar-tool-link-int|A una pàgina wiki
+wikieditor-toolbar-tool-link-int-target|Tìtulu de sa pàgina:
+wikieditor-toolbar-tool-link-int-target-tooltip|Tìtulu de sa pàgina o URL
+wikieditor-toolbar-tool-link-int-text|Testu de ammustrare:
+wikieditor-toolbar-tool-link-int-text-tooltip|Inserta su testu de ammustrare
+wikieditor-toolbar-tool-link-ext|A una pàgina web esterna
+wikieditor-toolbar-tool-link-ext-target|URL de su ligàmine:
+wikieditor-toolbar-tool-link-ext-text|Testu de su ligàmine:
+wikieditor-toolbar-tool-link-insert|Inserta su ligàmine
+wikieditor-toolbar-tool-link-cancel|Annudda
+wikieditor-toolbar-tool-link-int-target-status-exists|Sa pàgina esistit
+wikieditor-toolbar-tool-link-int-target-status-notexists|Sa pàgina no esistit
+wikieditor-toolbar-tool-link-int-target-status-invalid|Tìtulu non bàlidu
+wikieditor-toolbar-tool-link-int-target-status-external|Ligàmine a foras
+wikieditor-toolbar-tool-link-int-target-status-loading|Cumproende s'esistèntzia de sa pàgina...
+wikieditor-toolbar-tool-link-int-invalid|Su tìtulu ki as spetzificadu no est bàlidu.
+wikieditor-toolbar-tool-link-lookslikeinternal|Su URL ki as spetzificadu paret essere unu ligàmine a un'àtera pàgina wiki. Boles a ddu mudare a ligàmine internu?
+wikieditor-toolbar-tool-link-lookslikeinternal-int|Ligàmine a intro
+wikieditor-toolbar-tool-link-lookslikeinternal-ext|Ligàmine a foras
+wikieditor-toolbar-tool-link-empty|No as insertadu nudda a su cale ligare.
+wikieditor-toolbar-tool-file|File incorporadu
+wikieditor-toolbar-tool-file-example|Esèmpiu.jpg
+wikieditor-toolbar-tool-reference|Referèntzia
+wikieditor-toolbar-tool-reference-example|Inserta inoghe su testu de sa nota
+wikieditor-toolbar-tool-reference-cancel|Annudda
+wikieditor-toolbar-tool-reference-title|Inserta sa nota
+wikieditor-toolbar-tool-reference-insert|Inserta
+wikieditor-toolbar-tool-reference-text|Testu de sa nota
+wikieditor-toolbar-tool-signature|Firma e data
+wikieditor-toolbar-section-advanced|Avantzadu
+wikieditor-toolbar-tool-heading|Intestada
+wikieditor-toolbar-tool-heading-1|Livellu 1
+wikieditor-toolbar-tool-heading-2|Livellu 2
+wikieditor-toolbar-tool-heading-3|Livellu 3
+wikieditor-toolbar-tool-heading-4|Livellu 4
+wikieditor-toolbar-tool-heading-5|Livellu 5
+wikieditor-toolbar-tool-heading-example|Testu de su tìtulu
+wikieditor-toolbar-group-format|Formadu
+wikieditor-toolbar-tool-indent|Indentatzione
+wikieditor-toolbar-tool-indent-example|Lìnia indentada
+wikieditor-toolbar-tool-nowiki|Sena formadu wiki
+wikieditor-toolbar-tool-nowiki-example|Inserta su testu non-formatadu inoghe
+wikieditor-toolbar-tool-redirect|Re-indiritzu
+wikieditor-toolbar-tool-redirect-example|Nùmene de sa pàgina de destinatzione
+wikieditor-toolbar-tool-big|Mannu
+wikieditor-toolbar-tool-big-example|Testu mannu
+wikieditor-toolbar-tool-small|Piticu
+wikieditor-toolbar-tool-small-example|Testu piticu
+wikieditor-toolbar-tool-superscript|Superscritu
+wikieditor-toolbar-tool-superscript-example|Testu superscritu
+wikieditor-toolbar-tool-subscript|Subscritu
+wikieditor-toolbar-tool-subscript-example|Testu subscritu
+wikieditor-toolbar-group-insert|Inserta
+wikieditor-toolbar-tool-gallery|Galleria de immàgines
+wikieditor-toolbar-tool-gallery-example|~{0}:Esèmpiu.jpg\u007CDidascalia1\n~{0}:Esèmpiu.jpg\u007CDidascalia2
+wikieditor-toolbar-tool-newline|Lìnia noa
+wikieditor-toolbar-tool-table|Tabella
+wikieditor-toolbar-tool-table-example-old|-\n! tìtulu 1\n! tìtulu 2\n! tìtulu 3\n\u007C-\n\u007C lìnia 1, tzella 1\n\u007C lìnia 1, tzella 2\n\u007C lìnia 1, tzella 3\n\u007C-\n\u007C lìnia 2, tzella 1\n\u007C lìnia 2, tzella 2\n\u007C lìnia 2, tzella 3
+wikieditor-toolbar-tool-table-example-cell-text|Testu de sa tzella
+wikieditor-toolbar-tool-table-example-header|Testu de su tìtulu
+wikieditor-toolbar-tool-table-title|Inserta una tabella
+wikieditor-toolbar-tool-table-dimensions-rows|Lìnias
+wikieditor-toolbar-tool-table-dimensions-columns|Colunnas
+wikieditor-toolbar-tool-table-dimensions-header|Include una lìnia pro is tìtulos
+wikieditor-toolbar-tool-table-wikitable|Stile cun òrulos
+wikieditor-toolbar-tool-table-sortable|Tabella ki si podet ordinare
+wikieditor-toolbar-tool-table-example|Testu de sa tzella
+wikieditor-toolbar-tool-table-preview|Antiprima
+wikieditor-toolbar-tool-table-insert|Inserta
+wikieditor-toolbar-tool-table-cancel|Annudda
+wikieditor-toolbar-tool-table-toomany|Cun custu cuadru de allega no est possìbile insertare una tabella cun prus de ~{0} tzellas.
+wikieditor-toolbar-tool-table-invalidnumber|No as insertadu unu nùmeru vàlidu de lìnias o colunnas.
+wikieditor-toolbar-tool-table-zero|Non podes insertare una tabella cun zeru lìnias o colunnas.
+wikieditor-toolbar-tool-replace|Chirca e rimpiatza
+wikieditor-toolbar-tool-replace-title|Chirca e rimpiatza
+wikieditor-toolbar-tool-replace-search|Chirca:
+wikieditor-toolbar-tool-replace-replace|Rimpiatza cun:
+wikieditor-toolbar-tool-replace-case|Distinghe lìteras mannas/minores
+wikieditor-toolbar-tool-replace-regex|Trata sa cadena de chirca comente una espressione regulare
+wikieditor-toolbar-tool-replace-button-findnext|Agata imbenientes
+wikieditor-toolbar-tool-replace-button-replaceall|Rimpiatza totu
+wikieditor-toolbar-tool-replace-close|Serra
+wikieditor-toolbar-tool-replace-nomatch|Sa chirca tua no at agatadu cointzidèntzias.
+wikieditor-toolbar-tool-replace-success|~{0} rimpiatzadu/os.
+wikieditor-toolbar-tool-replace-emptysearch|No as indicadu ite chircare.
+wikieditor-toolbar-tool-replace-invalidregex|S'espressione regulare insertada no est vàlida: ~{0}
+wikieditor-toolbar-section-characters|Caràteres spetziales
+wikieditor-toolbar-characters-page-latin|Latinu
+wikieditor-toolbar-characters-page-latinextended|Latinu disterradu
+wikieditor-toolbar-characters-page-ipa|IPA
+wikieditor-toolbar-characters-page-symbols|Sìmbulos
+wikieditor-toolbar-characters-page-greek|Grecu
+wikieditor-toolbar-characters-page-cyrillic|Cirìllicu
+wikieditor-toolbar-characters-page-arabic|Aràbicu
+wikieditor-toolbar-characters-page-persian|Persianu
+wikieditor-toolbar-characters-page-hebrew|Ebreu
+wikieditor-toolbar-characters-page-bangla|Bengalesu
+wikieditor-toolbar-characters-page-telugu|Telugu
+wikieditor-toolbar-characters-page-sinhala|Singalesu
+wikieditor-toolbar-characters-page-gujarati|Gujarati
+wikieditor-toolbar-characters-page-thai|Thai
+wikieditor-toolbar-characters-page-lao|Lao
+wikieditor-toolbar-characters-page-khmer|Khmer
+wikieditor-toolbar-section-help|Agiudu
+wikieditor-toolbar-help-heading-description|Descritzione
+wikieditor-toolbar-help-heading-syntax|Ite scries
+wikieditor-toolbar-help-heading-result|Ite nde otènnes
+wikieditor-toolbar-help-page-format|Formatatzione
+wikieditor-toolbar-help-page-link|Ligàmines
+wikieditor-toolbar-help-page-heading|Intestaduras
+wikieditor-toolbar-help-page-list|Listas
+wikieditor-toolbar-help-page-file|Files
+wikieditor-toolbar-help-page-reference|Referèntzias
+wikieditor-toolbar-help-page-discussion|Cuntierra
+wikieditor-toolbar-help-content-italic-description|Corsivu
+wikieditor-toolbar-help-content-italic-syntax|''Testu in corsivu''
+wikieditor-toolbar-help-content-italic-result|<em>Testu in corsivu</em>
+wikieditor-toolbar-help-content-bold-description|Grassu
+wikieditor-toolbar-help-content-bold-syntax|'''Testu grassu'''
+wikieditor-toolbar-help-content-bold-result|<strong>Testu grassu</strong>
+wikieditor-toolbar-help-content-bolditalic-description|Grassu &amp; corsivu
+wikieditor-toolbar-help-content-bolditalic-syntax|'''''Testu grassu e corsivu'''''
+wikieditor-toolbar-help-content-bolditalic-result|<strong><em>Testu grassu e corsivu</em></strong>
+wikieditor-toolbar-help-content-ilink-description|Ligàmine a intro
+wikieditor-toolbar-help-content-ilink-syntax|[[Tìtulu de sa pàgina\u007CEticheta de su ligàmine]]<br />[[Tìtulu de sa pàgina]]
+wikieditor-toolbar-help-content-ilink-result|<a href='#'>Eticheta de su ligàmine</a><br /><a href='#'>Tìtulu de sa pàgina</a>
+wikieditor-toolbar-help-content-xlink-description|Ligàmine a foras
+wikieditor-toolbar-help-content-xlink-syntax|[http://www.example.org Eticheta de su ligàmine]<br />[http://www.example.org]<br />http://www.example.org
+wikieditor-toolbar-help-content-xlink-result|<a href='#' class='external'>Eticheta de su ligàmine</a><br /><a href='#' class='external autonumber'>[1]</a><br /><a href='#' class='external'>http://www.example.org</a>
+wikieditor-toolbar-help-content-heading2-description|Su de 2 livellu de intestada
+wikieditor-toolbar-help-content-heading2-syntax|== Tìtulu de sa setzione ==
+wikieditor-toolbar-help-content-heading2-result|<h2>Tìtulu de sa setzione</h2>
+wikieditor-toolbar-help-content-heading3-description|Su de 3 livellu de intestada
+wikieditor-toolbar-help-content-heading3-syntax|=== Tìtulu de sa setzione ===
+wikieditor-toolbar-help-content-heading3-result|<h3>Tìtulu de sa setzione</h3>
+wikieditor-toolbar-help-content-heading4-description|Su de 4 livellu de intestada
+wikieditor-toolbar-help-content-heading4-syntax|==== Tìtulu de sa setzione ====
+wikieditor-toolbar-help-content-heading4-result|<h4>Tìtulu de sa setzione</h4>
+wikieditor-toolbar-help-content-heading5-description|Su de 5 livellu de intestada
+wikieditor-toolbar-help-content-heading5-syntax|===== Tìtulu de sa setzione =====
+wikieditor-toolbar-help-content-heading5-result|<h5>Tìtulu de sa setzione</h5>
+wikieditor-toolbar-help-content-ulist-description|Lista puntegiada
+wikieditor-toolbar-help-content-ulist-syntax|* Elementu de sa lista<br />* Elementu de sa lista
+wikieditor-toolbar-help-content-ulist-result|<ul><li>Elementu de sa lista</li><li>Elementu de sa lista</li></ul>
+wikieditor-toolbar-help-content-olist-description|Lista numerada
+wikieditor-toolbar-help-content-olist-syntax|# Elementu de sa lista<br /># Elementu de sa lista
+wikieditor-toolbar-help-content-olist-result|<ol><li>Elementu de sa lista</li><li>Elementu de sa lista</li></ol>
+wikieditor-toolbar-help-content-file-description|File incorporadu
+wikieditor-toolbar-help-content-file-syntax|[[~{0}:Esempru.png\u007Cthumb\u007CTestu de sa didascalia]]
+wikieditor-toolbar-help-content-file-result|<div style='width:104px;' class='thumbinner'><a title='Testu de sa didascalia' class='image' href='#'><img height='50' width='100' border='0' class='thumbimage' src='~{1}/WikiEditor/modules/images/toolbar/example-image.png' alt=''/></a><div class='thumbcaption'><div class='magnify'><a title='Amannia' class='internal' href='#'><img height='11' width='15' alt='' src='~{0}/common/images/magnify-clip.png'/></a></div>Testu de sa didascalia</div></div>
+wikieditor-toolbar-help-content-reference-description|Referèntzia
+wikieditor-toolbar-help-content-reference-result|Testu de sa pàgina.<sup><a href='#'>[1]</a></sup>
+wikieditor-toolbar-help-content-rereference-result|Testu de sa pàgina.<sup><a href='#'>[1]</a></sup>
+wikieditor-toolbar-help-content-showreferences-description|Ammustra referèntzias
+wikieditor-toolbar-help-content-signaturetimestamp-description|Firma cun data e ora
+wikieditor-toolbar-help-content-signature-description|Firma
+wikieditor-toolbar-help-content-indent-description|Indentatzione
+wm-license-cc-attribution|Atributzione
+wm-license-cc-by-1.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/1.0/deed.it Atributzione 1.0 Genèricu]
+wm-license-cc-by-1.0-fi-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/1.0/fi/deed.it Atributzione 1.0 Finlàndia]
+wm-license-cc-by-1.0-il-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/1.0/il/ Atributzione 1.0 Israele].
+wm-license-cc-by-1.0-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/1.0/nl/ Atributzione 1.0 Netherlands].
+wm-license-cc-by-2.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/ Atributzione 2.0 Genèricu].
+wm-license-cc-by-2.0-at-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/at/ Atributzione 2.0 Àustria].
+wm-license-cc-by-2.0-au-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/au/ Atributzione 2.0 Austràlia].
+wm-license-cc-by-2.0-be-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/be/ Atributzione 2.0 Bèlgiu].
+wm-license-cc-by-2.0-br-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/br/ Atributzione 2.0 Brasile].
+wm-license-cc-by-2.0-ca-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/ca/ Atributzione 2.0 Cànada].
+wm-license-cc-by-2.0-cl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/cl/ Atributzione 2.0 Tzile].
+wm-license-cc-by-2.0-de-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/de/ Atributzione 2.0 Germània].
+wm-license-cc-by-2.0-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/es/ Atributzione 2.0 Spagna].
+wm-license-cc-by-2.0-fr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/fr/ Atributzione 2.0 Frantza].
+wm-license-cc-by-2.0-hr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/hr/ Atributzione 2.0 Croàtzia].
+wm-license-cc-by-2.0-it-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/it/ Atributzione 2.0 Itàlia].
+wm-license-cc-by-2.0-jp-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/jp/ Atributzione 2.0 Giapone].
+wm-license-cc-by-2.0-kr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/kr/ Atributzione 2.0 Korea].
+wm-license-cc-by-2.0-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/nl/ Atributzione 2.0 Netherlands].
+wm-license-cc-by-2.0-pl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/pl/ Atributzione 2.0 Polònia].
+wm-license-cc-by-2.0-tw-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/tw/ Atributzione 2.0 Taiwan].
+wm-license-cc-by-2.0-uk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/uk/ Atributzione 2.0 Inghilterra & Galles].
+wm-license-cc-by-2.0-za-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.0/za/ Atributzione 2.0 Sud Àfrica].
+wm-license-cc-by-2.1-au-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.1/au/ Atributzione 2.1 Austràlia]
+wm-license-cc-by-2.1-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.1/es/ Atributzione 2.1 Spagna].
+wm-license-cc-by-2.1-jp-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.1/jp/ Atributzione 2.1 Giapone].
+wm-license-cc-by-2.5-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/ Atributzione 2.5 Genèricu].
+wm-license-cc-by-2.5-au-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/au/ Atributzione 2.5 Austràlia].
+wm-license-cc-by-2.5-bg-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/bg/ Atributzione 2.5 Bulgaria].
+wm-license-cc-by-2.5-br-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/br/ Atributzione 2.5 Brasile].
+wm-license-cc-by-2.5-ca-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/ca/ Attribution 2.5 Cànada].
+wm-license-cc-by-2.5-ch-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/ch/ Atributzione 2.5 Svìtzera].
+wm-license-cc-by-2.5-cn-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/cn/ Atributzione 2.5 Tzina].
+wm-license-cc-by-2.5-co-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/co/ Atributzione 2.5 Colòmbia].
+wm-license-cc-by-2.5-dk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/dk/ Atributzione 2.5 Danimarca].
+wm-license-cc-by-2.5-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/es/ Atributzione 2.5 Spagna].
+wm-license-cc-by-2.5-hr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/hr/ Atributzione 2.5 Croàtzia].
+wm-license-cc-by-2.5-hu-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/hu/ Atributzione 2.5 Ungaria].
+wm-license-cc-by-2.5-il-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/il/ Atributzione 2.5 Israele].
+wm-license-cc-by-2.5-in-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/in/ Atributzione 2.5 Ìndia].
+wm-license-cc-by-2.5-it-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/it/ Atributzione 2.5 Itàlia].
+wm-license-cc-by-2.5-mk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/mk/ Atributzione 2.5 Macedònia].
+wm-license-cc-by-2.5-mt-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/mt/ Atributzione 2.5 Malta].
+wm-license-cc-by-2.5-mx-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/mx/ Atributzione 2.5 Mèssicu].
+wm-license-cc-by-2.5-my-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/my/ Atributzione 2.5 Malaysia].
+wm-license-cc-by-2.5-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/nl/ Atributzione 2.5 Netherlands].
+wm-license-cc-by-2.5-pe-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/pe/ Atributzione 2.5 Perù].
+wm-license-cc-by-2.5-pl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/pl/ Atributzione 2.5 Polònia].
+wm-license-cc-by-2.5-pt-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/pt/ Atributzione 2.5 Portugallu].
+wm-license-cc-by-2.5-scotland-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/scotland/ Atributzione 2.5 UK: Scòtzia].
+wm-license-cc-by-2.5-se-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/se/ Atributzione 2.5 Svètzia].
+wm-license-cc-by-2.5-si-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/si/ Atributzione 2.5 Slovènia].
+wm-license-cc-by-2.5-tw-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/tw/ Atributzione 2.5 Taiwan].
+wm-license-cc-by-2.5-za-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/2.5/za/ Atributzione 2.5 Sud Àfrica].
+wm-license-cc-by-3.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/ Atributzione 3.0 Unported].
+wm-license-cc-by-3.0-2.5-2.0-1.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] Atributzione [//creativecommons.org/licenses/by/3.0/ 3.0 Unported], [//creativecommons.org/licenses/by/2.5/ 2.5 Genèricu], [//creativecommons.org/licenses/by/2.0/ 2.0 Genèricu] e [//creativecommons.org/licenses/by/1.0/ 1.0 Genèricu].
+wm-license-cc-by-3.0-at-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/at/ Atributzione 3.0 Àustria].
+wm-license-cc-by-3.0-cz-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/cz/ Atributzione 3.0 Repùbbrica Tzeca].
+wm-license-cc-by-3.0-de-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/de/ Atributzione 3.0 Germània].
+wm-license-cc-by-3.0-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/es/ Atributzione 3.0 Spagna].
+wm-license-cc-by-3.0-gr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/gr/ Atributzione 3.0 Grèghia].
+wm-license-cc-by-3.0-gt-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/gt/ Atributzione 3.0 Guatemala].
+wm-license-cc-by-3.0-hk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/hk/ Atributzione 3.0 Hong Kong].
+wm-license-cc-by-3.0-hr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/hr/ Atributzione 3.0 Croàtzia].
+wm-license-cc-by-3.0-lu-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/lu/ Atributzione 3.0 Lussemburgu].
+wm-license-cc-by-3.0-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/nl/ Atributzione 3.0 Netherlands].
+wm-license-cc-by-3.0-no-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/no/ Atributzione 3.0 Norvègia].
+wm-license-cc-by-3.0-nz-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/nz/ Atributzione 3.0 New Zealand].
+wm-license-cc-by-3.0-ph-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/ph/ Atributzione 3.0 Philippines].
+wm-license-cc-by-3.0-pl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/pl/ Atributzione 3.0 Polònia].
+wm-license-cc-by-3.0-pr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/pr/ Atributzione 3.0 Puerto Rico].
+wm-license-cc-by-3.0-ro-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/ro/ Atributzione 3.0 Romania].
+wm-license-cc-by-3.0-rs-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/rs/ Atributzione 3.0 Sèrbia].
+wm-license-cc-by-3.0-sg-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/sg/ Atributzione 3.0 Singapore].
+wm-license-cc-by-3.0-th-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/th/ Atributzione 3.0 Thailand].
+wm-license-cc-by-3.0-tw-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/tw/ Atributzione 3.0 Taiwan].
+wm-license-cc-by-3.0-us-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by/3.0/us/ Atributzione 3.0 Stados Unidos].
+wm-license-cc-by-sa-1.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/1.0/ Atributzione-Cundivide cantepare 1.0 Genèricu].
+wm-license-cc-by-sa-1.0-fi-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/1.0/fi/ Atributzione-Cundivide cantepare 1.0 Finland].
+wm-license-cc-by-sa-1.0-il-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/1.0/il/ Atributzione-Cundivide cantepare 1.0 Israele].
+wm-license-cc-by-sa-1.0-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/1.0/nl/ Atributzione-Cundivide cantepare 1.0 Netherlands].
+wm-license-cc-by-sa-2.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/ Atributzione-Cundivide cantepare 2.0 Genèricu].
+wm-license-cc-by-sa-2.0-at-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/at/ Atributzione-Cundivide cantepare 2.0 Àustria].
+wm-license-cc-by-sa-2.0-au-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/au/ Atributzione-Cundivide cantepare 2.0 Austràlia].
+wm-license-cc-by-sa-2.0-be-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/be/ Atributzione-Cundivide cantepare 2.0 Bèlgiu].
+wm-license-cc-by-sa-2.0-br-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/br/ Atributzione-Cundivide cantepare 2.0 Brasile].
+wm-license-cc-by-sa-2.0-ca-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/ca/ Atributzione-Cundivide cantepare 2.0 Cànada].
+wm-license-cc-by-sa-2.0-cl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/cl/ Atributzione-Cundivide cantepare 2.0 Tzile].
+wm-license-cc-by-sa-2.0-de-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/de/ Atributzione-Cundivide cantepare 2.0 Germània].
+wm-license-cc-by-sa-2.0-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/es/ Atributzione-Cundivide cantepare 2.0 Spagna].
+wm-license-cc-by-sa-2.0-fr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/fr/ Atributzione-Cundivide cantepare 2.0 Frantza].
+wm-license-cc-by-sa-2.0-hr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/hr/ Atributzione-Cundivide cantepare 2.0 Croàtzia].
+wm-license-cc-by-sa-2.0-it-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/it/ Atributzione-Cundivide cantepare 2.0 Itàlia].
+wm-license-cc-by-sa-2.0-jp-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/jp/ Atributzione-Cundivide cantepare 2.0 Giapone].
+wm-license-cc-by-sa-2.0-kr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/kr/ Atributzione-Cundivide cantepare 2.0 Korea].
+wm-license-cc-by-sa-2.0-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/nl/ Atributzione-Cundivide cantepare 2.0 Netherlands].
+wm-license-cc-by-sa-2.0-pl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/pl/ Atributzione-Cundivide cantepare 2.0 Polònia].
+wm-license-cc-by-sa-2.0-tw-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/tw/ Atributzione-Cundivide cantepare 2.0 Taiwan].
+wm-license-cc-by-sa-2.0-uk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/uk/ Atributzione-Cundivide cantepare 2.0 Inghilterra & Galles].
+wm-license-cc-by-sa-2.0-za-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.0/za/ Atributzione-Cundivide cantepare 2.0 Sud Àfrica].
+wm-license-cc-by-sa-2.1-au-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.1/au/ Atributzione-Cundivide cantepare 2.1 Austràlia].
+wm-license-cc-by-sa-2.1-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.1/es/ Atributzione-Cundivide cantepare 2.1 Spagna].
+wm-license-cc-by-sa-2.1-jp-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.1/jp/ Atributzione-Cundivide cantepare 2.1 Giapone].
+wm-license-cc-by-sa-2.5-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/ Atributzione-Cundivide cantepare 2.5 Genèricu].
+wm-license-cc-by-sa-2.5-2.0-1.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] Atributzione-Cundivide cantepare [//creativecommons.org/licenses/by-sa/2.5/ 2.5 Genèricu], [//creativecommons.org/licenses/by-sa/2.0/ 2.0 Genèricu] and [//creativecommons.org/licenses/by-sa/1.0/ 1.0 Genèricu].
+wm-license-cc-by-sa-2.5-ar-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/ar/ Atributzione-Cundivide cantepare 2.5 Argentina].
+wm-license-cc-by-sa-2.5-au-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/au/ Atributzione-Cundivide cantepare 2.5 Austràlia].
+wm-license-cc-by-sa-2.5-bg-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/bg/ Atributzione-Cundivide cantepare 2.5 Bulgaria].
+wm-license-cc-by-sa-2.5-br-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/br/ Atributzione-Cundivide cantepare 2.5 Brasile].
+wm-license-cc-by-sa-2.5-ca-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/ca/ Atributzione-Cundivide cantepare 2.5 Cànada].
+wm-license-cc-by-sa-2.5-ch-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/ch/ Atributzione-Cundivide cantepare 2.5 Svìtzera].
+wm-license-cc-by-sa-2.5-cn-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/cn/ Atributzione-Cundivide cantepare 2.5 Tzina].
+wm-license-cc-by-sa-2.5-co-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/co/ Atributzione-Cundivide cantepare 2.5 Colòmbia].
+wm-license-cc-by-sa-2.5-dk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/dk/ Atributzione-Cundivide cantepare 2.5 Denmark].
+wm-license-cc-by-sa-2.5-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/es/ Atributzione-Cundivide cantepare 2.5 Spagna].
+wm-license-cc-by-sa-2.5-hr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/hr/ Atributzione-Cundivide cantepare 2.5 Croàtzia].
+wm-license-cc-by-sa-2.5-hu-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/hu/ Atributzione-Cundivide cantepare 2.5 Ungaria].
+wm-license-cc-by-sa-2.5-il-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/il/ Atributzione-Cundivide cantepare 2.5 Israele].
+wm-license-cc-by-sa-2.5-in-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/in/ Atributzione-Cundivide cantepare 2.5 Ìndia].
+wm-license-cc-by-sa-2.5-it-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/it/ Atributzione-Cundivide cantepare 2.5 Itàlia].
+wm-license-cc-by-sa-2.5-mk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/mk/ Atributzione-Cundivide cantepare 2.5 Macedònia].
+wm-license-cc-by-sa-2.5-mt-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/mt/ Atributzione-Cundivide cantepare 2.5 Malta].
+wm-license-cc-by-sa-2.5-mx-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/mx/ Atributzione-Cundivide cantepare 2.5 Mèssicu].
+wm-license-cc-by-sa-2.5-my-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/my/ Atributzione-Cundivide cantepare 2.5 Malaysia].
+wm-license-cc-by-sa-2.5-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/nl/ Atributzione-Cundivide cantepare 2.5 Netherlands].
+wm-license-cc-by-sa-2.5-pe-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/pe/ Atributzione-Cundivide cantepare 2.5 Perù].
+wm-license-cc-by-sa-2.5-pl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/pl/ Atributzione-Cundivide cantepare 2.5 Polònia].
+wm-license-cc-by-sa-2.5-pt-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/pt/ Atributzione-Cundivide cantepare 2.5 Portugallu].
+wm-license-cc-by-sa-2.5-scotland-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/scotland/ Atributzione-Cundivide cantepare 2.5 UK: Scòtzia].
+wm-license-cc-by-sa-2.5-se-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/se/ Atributzione-Cundivide cantepare 2.5 Svètzia].
+wm-license-cc-by-sa-2.5-si-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/si/ Atributzione-Cundivide cantepare 2.5 Slovènia].
+wm-license-cc-by-sa-2.5-tw-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/tw/ Atributzione-Cundivide cantepare 2.5 Taiwan].
+wm-license-cc-by-sa-2.5-za-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/2.5/za/ Atributzione-Cundivide cantepare 2.5 Sud Àfrica].
+wm-license-cc-by-sa-3.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/ Atributzione-Cundivide cantepare 3.0 Unported].
+wm-license-cc-by-sa-3.0-2.5-2.0-1.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] Atributzione-Cundivide cantepare [//creativecommons.org/licenses/by-sa/3.0/ 3.0 Unported], [//creativecommons.org/licenses/by-sa/2.5/ 2.5 Genèricu], [//creativecommons.org/licenses/by-sa/2.0/ 2.0 Genèricu] e [//creativecommons.org/licenses/by-sa/1.0/ 1.0 Genèricu].
+wm-license-cc-by-sa-3.0-at-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/at/ Atributzione-Cundivide cantepare 3.0 Àustria].
+wm-license-cc-by-sa-3.0-cz-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/cz/ Atributzione-Cundivide cantepare 3.0 Repùbbrica Tzeca].
+wm-license-cc-by-sa-3.0-de-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/de/ Atributzione-Cundivide cantepare 3.0 Germània].
+wm-license-cc-by-sa-3.0-es-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/es/ Atributzione-Cundivide cantepare 3.0 Spagna].
+wm-license-cc-by-sa-3.0-gr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/gr/ Atributzione-Cundivide cantepare 3.0 Grèghia].
+wm-license-cc-by-sa-3.0-gt-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/gt/ Atributzione-Cundivide cantepare 3.0 Guatemala].
+wm-license-cc-by-sa-3.0-hk-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/hk/ Atributzione-Cundivide cantepare 3.0 Hong Kong].
+wm-license-cc-by-sa-3.0-hr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/hr/ Atributzione-Cundivide cantepare 3.0 Croàtzia].
+wm-license-cc-by-sa-3.0-lu-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/lu/ Atributzione-Cundivide cantepare 3.0 Lussemburgu].
+wm-license-cc-by-sa-3.0-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/nl/ Atributzione-Cundivide cantepare 3.0 Netherlands].
+wm-license-cc-by-sa-3.0-no-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/no/ Atributzione-Cundivide cantepare 3.0 Norvègia].
+wm-license-cc-by-sa-3.0-nz-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/nz/ Atributzione-Cundivide cantepare 3.0 New Zealand].
+wm-license-cc-by-sa-3.0-ph-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/ph/ Atributzione-Cundivide cantepare 3.0 Philippines].
+wm-license-cc-by-sa-3.0-pl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/pl/ Atributzione-Cundivide cantepare 3.0 Polònia].
+wm-license-cc-by-sa-3.0-pr-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/pr/ Atributzione-Cundivide cantepare 3.0 Puerto Rico].
+wm-license-cc-by-sa-3.0-ro-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/ro/ Atributzione-Cundivide cantepare 3.0 Romania].
+wm-license-cc-by-sa-3.0-rs-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/rs/ Atributzione-Cundivide cantepare 3.0 Sèrbia].
+wm-license-cc-by-sa-3.0-sg-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/sg/ Atributzione-Cundivide cantepare 3.0 Singapore].
+wm-license-cc-by-sa-3.0-th-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/th/ Atributzione-Cundivide cantepare 3.0 Thailand].
+wm-license-cc-by-sa-3.0-tw-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/tw/ Atributzione-Cundivide cantepare 3.0 Taiwan].
+wm-license-cc-by-sa-3.0-us-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/by-sa/3.0/us/ Atributzione-Cundivide cantepare 3.0 Stados Unidos].
+wm-license-cc-sa-1.0-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/sa/1.0/deed.en Cundivide cantepare 1.0 Genèricu].
+wm-license-cc-sa-1.0-fi-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/sa/1.0/fi/deed.en Cundivide cantepare 1.0 Finland].
+wm-license-cc-sa-1.0-nl-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/sa/1.0/nl/deed.en Cundivide cantepare 1.0 Netherlands].
+wm-license-cc-sa-2.0-jp-text|Custu file est licentziadu in base a is tèrmines de sa licèntzia [[{{int:wm-license-cc-wiki-link}}\u007CCreative Commons]] [//creativecommons.org/licenses/sa/2.0/jp/deed.en Cundivide cantepare 2.0 Giapone].
+wm-license-cc-free|Tue ses lìberu:
+wm-license-cc-free-to-share-header|de cundivìder
+wm-license-cc-conditions-attribution-header|atributzione
+wm-license-cc-conditions-share_alike-header|cundivide cantepare
+wikimedialicensetexts-desc|Messàgios de sa licèntzia de Wikimedia
+wm-license-gfdl-wiki-link|w:sc:GNU Free Documentation License
+wm-license-gpl-wiki-link|w:sc:Licèntzia GPL
+wm-license-information-description|Descritzione
+wm-license-information-source|Mitza
+wm-license-information-date|Data
+wm-license-information-author|Autore
+wm-license-information-permission|Licèntzia
+wm-license-information-permission-see-below|Abbista a suta.
+wm-license-information-other-versions|Àteras versiones
+wm-license-own-work|Traballu pròpriu
+sitesupport|Donaduras
+tooltip-n-sitesupport|Acotza·nos
+group-steward|Stewards
+wikimedia-copyright|Su testu est disponìbile segundu sa <a href="https://creativecommons.org/licenses/by-sa/3.0/">licèntzia Atributzione Creative Commons-Cundivide cantepare</a>; si podent aplicare prus cunditziones galu. Abbista is <a href="https://wikimediafoundation.org/wiki/Terms_of_Use"> cunditziones de impreu</a> pro is particulares.
+wikimedia-copyrightwarning|Sarbende, acunsentis de non pòder prus retirare su contributu tuo lassadu de nou a suta is licèntzias [https://creativecommons.org/licenses/by-sa/3.0/ Atributzione Creative Commons/Cundivide cantepare 3.0] e [https://www.gnu.org/copyleft/fdl.html GFDL].\nAcunsentis ca is re-usuàrios ti ddu ant a atribuire a su mancu cun unu ligàmine iper-testuale e unu URL a sa pàgina a sa cale as contribuidu. Abbista is [https://wikimediafoundation.org/wiki/Terms_of_Use cunditziones de impreu] pro is particulares.
+']:>
+).lang
+;

@@ -1,0 +1,70 @@
+this
+.fallback_load('ru')
+.ns_names
+  .load_text(
+<:['
+-2|Меди
+-1|Тусхай
+1|Хэлэлсэхэ
+2|Хэрэглэгшэ
+3|Хэрэглэгшые хэлэлсэхэ
+5|$1 тухай хэлэлсэхэ
+6|Файл
+7|Файл хэлэлсэхэ
+9|MediaWiki хэлэлсэхэ
+10|Загбар
+11|Загбар хэлэлсэхэ
+12|Туһаламжа
+13|Туһаламжа хэлэлсэл
+14|Категори
+15|Категори хэлэлсэхэ
+']:>
+).lang
+.ns_aliases
+  .load_text(
+<:['
+1|Обсуждение
+2|Участник
+3|Обсуждение участника
+5|Обсуждение {{GRAMMAR:genitive\u007C$1}}
+7|Обсуждение файла
+9|Обсуждение MediaWiki
+11|Обсуждение шаблона
+12|Справка
+13|Обсуждение справки
+14|Категория
+15|Обсуждение категории
+']:>
+).lang
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sitesupport|Хандиблаха
+']:>
+).lang
+;

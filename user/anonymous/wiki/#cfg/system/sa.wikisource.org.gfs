@@ -1,0 +1,6 @@
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('पुटम्', 'पुटसंवाद', 'अनुक्रमणिका', 'अनुक्रमणिकासंवाद');
+// wiki.xtns.pages.end
+// wiki.xtns.pages.bgn
+parser.xtns.get('pages').ns_names_('पुटम्', 'पुटसंवाद', 'अनुक्रमणिका', 'अनुक्रमणिकासंवाद');
+// wiki.xtns.pages.end

@@ -1,0 +1,1079 @@
+!!!"u|!!!$E|!!!!U|!!#,/|!!!9`|!!!0#|!!!#@|!!!4_|!!!&c|!!!%3|!!!"2|!!!"V|!!!BI|!!!*s|!!!"T|!!!"d|!!!FW|!!!%a|
+!!!!!	#8BlT	Diagnostics/Basic	local p = {}
+
+function p.print(frame)
+    return "print"
+end
+
+function p.new_line(frame)
+    local s = "a\nb"
+    return s
+end
+
+return p
+	
+!!!!!	#8CT4	Diagnostics/SiteLibrary	local p = {}
+
+function p.siteName(frame)
+  return mw.site.siteName
+end
+
+function p.ns_associated(frame)
+  local arg_1 = frame.args[1]
+  local ns = mw.site.namespaces[arg_1]
+  local ns_associated = ns.associated
+  return ns_associated.name
+end
+
+return p
+	
+!!!!!	#8BlL	MessageLibrary	local p = {}
+
+return p
+	
+!!!!!	#8;Ir	Diagnostics/String	--[[  
+
+This module is intended to provide access to basic string functions.
+
+Most of the functions provided here can be invoked with named parameters, 
+unnamed parameters, or a mixture.  If named parameters are used, Mediawiki will 
+automatically remove any leading or trailing whitespace from the parameter.  
+Depending on the intended use, it may be advantageous to either preserve or
+remove such whitespace.
+
+Global options
+    ignore_errors: If set to 'true' or 1, any error condition will result in 
+        an empty string being returned rather than an error message.  
+        
+    error_category: If an error occurs, specifies the name of a category to 
+        include with the error message.  The default category is  
+        [Category:Errors reported by Module String].
+        
+    no_category: If set to 'true' or 1, no category will be added if an error
+        is generated.
+        
+Unit tests for this module are available at Module:String/tests.
+]]
+
+local str = {}
+
+--[[
+len
+
+This function returns the length of the target string.
+
+Usage:
+{{#invoke:String|len|target_string|}}
+OR
+{{#invoke:String|len|s=target_string}}
+
+Parameters
+    s: The string whose length to report
+
+If invoked using named parameters, Mediawiki will automatically remove any leading or
+trailing whitespace from the target string.  
+]]
+function str.len( frame )
+    local new_args = str._getParameters( frame.args, {'s'} );
+    local s = new_args['s'] or '';
+    return mw.ustring.len( s )
+end
+
+--[[
+sub
+
+This function returns a substring of the target string at specified indices.
+
+Usage:
+{{#invoke:String|sub|target_string|start_index|end_index}}
+OR
+{{#invoke:String|sub|s=target_string|i=start_index|j=end_index}}
+
+Parameters
+    s: The string to return a subset of
+    i: The fist index of the substring to return, defaults to 1.
+    j: The last index of the string to return, defaults to the last character.
+    
+The first character of the string is assigned an index of 1.  If either i or j
+is a negative value, it is interpreted the same as selecting a character by 
+counting from the end of the string.  Hence, a value of -1 is the same as 
+selecting the last character of the string.
+
+If the requested indices are out of range for the given string, an error is 
+reported.
+]]
+function str.sub( frame )
+    local new_args = str._getParameters( frame.args, { 's', 'i', 'j' } );
+    local s = new_args['s'] or '';
+    local i = tonumber( new_args['i'] ) or 1;
+    local j = tonumber( new_args['j'] ) or -1;
+    
+    local len = mw.ustring.len( s );
+
+    -- Convert negatives for range checking
+    if i < 0 then
+        i = len + i + 1;
+    end
+    if j < 0 then
+        j = len + j + 1;
+    end
+    
+    if i > len or j > len or i < 1 or j < 1 then
+        return str._error( 'String subset index out of range' );
+    end
+    if j < i then
+        return str._error( 'String subset indices out of order' );
+    end
+    
+    return mw.ustring.sub( s, i, j )
+end
+
+--[[
+This function implements that features of {{str sub old}} and is kept in order
+to maintain these older templates.
+]]
+function str.sublength( frame )
+    local i = tonumber( frame.args.i ) or 0
+    local len = tonumber( frame.args.len )
+    return mw.ustring.sub( frame.args.s, i + 1, len and ( i + len ) )
+end
+
+--[[
+match
+
+This function returns a substring from the source string that matches a 
+specified pattern.
+
+Usage:
+{{#invoke:String|match|source_string|pattern_string|start_index|match_number|plain_flag|nomatch_output}}
+OR
+{{#invoke:String|pos|s=source_string|pattern=pattern_string|start=start_index
+    |match=match_number|plain=plain_flag|nomatch=nomatch_output}}
+
+Parameters
+    s: The string to search
+    pattern: The pattern or string to find within the string
+    start: The index within the source string to start the search.  The first
+        character of the string has index 1.  Defaults to 1.
+    match: In some cases it may be possible to make multiple matches on a single 
+        string.  This specifies which match to return, where the first match is 
+        match= 1.  If a negative number is specified then a match is returned 
+        counting from the last match.  Hence match = -1 is the same as requesting
+        the last match.  Defaults to 1.
+    plain: A flag indicating that the pattern should be understood as plain
+        text.  Defaults to false.
+    nomatch: If no match is found, output the "nomatch" value rather than an error.
+
+If invoked using named parameters, Mediawiki will automatically remove any leading or
+trailing whitespace from each string.  In some circumstances this is desirable, in 
+other cases one may want to preserve the whitespace.
+
+If the match_number or start_index are out of range for the string being queried, then
+this function generates an error.  An error is also generated if no match is found.
+If one adds the parameter ignore_errors=true, then the error will be suppressed and 
+an empty string will be returned on any failure.
+
+For information on constructing Lua patterns, a form of [regular expression], see:
+
+* http://www.lua.org/manual/5.1/manual.html#5.4.1
+* http://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#Patterns
+* http://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#Ustring_patterns
+
+]]
+function str.match( frame )
+    local new_args = str._getParameters( frame.args, {'s', 'pattern', 'start', 'match', 'plain', 'nomatch'} );
+    local s = new_args['s'] or '';
+    local start = tonumber( new_args['start'] ) or 1;
+    local plain_flag = str._getBoolean( new_args['plain'] or false );
+    local pattern = new_args['pattern'] or '';
+    local match_index = math.floor( tonumber(new_args['match']) or 1 );
+    local nomatch = new_args['nomatch'];
+    
+    if s == '' then
+        return str._error( 'Target string is empty' );
+    end
+    if pattern == '' then
+        return str._error( 'Pattern string is empty' );
+    end
+    if math.abs(start) < 1 or math.abs(start) > mw.ustring.len( s ) then
+        return str._error( 'Requested start is out of range' );
+    end
+    if match_index == 0 then
+        return str._error( 'Match index is out of range' );
+    end
+    if plain_flag then
+        pattern = str._escapePattern( pattern );
+    end
+    
+    local result
+    if match_index == 1 then
+        -- Find first match is simple case
+        result = mw.ustring.match( s, pattern, start )
+    else
+        if start > 1 then
+            s = mw.ustring.sub( s, start );
+        end
+        
+        local iterator = mw.ustring.gmatch(s, pattern);
+        if match_index > 0 then
+            -- Forward search
+            for w in iterator do
+                match_index = match_index - 1;
+                if match_index == 0 then
+                    result = w;
+                    break;
+                end
+            end    
+        else
+            -- Reverse search
+            local result_table = {};
+            local count = 1;
+            for w in iterator do
+                result_table[count] = w;
+                count = count + 1;
+            end
+            
+            result = result_table[ count + match_index ];            
+        end
+    end        
+    
+    if result == nil then
+        if nomatch == nil then
+            return str._error( 'Match not found' );
+        else
+            return nomatch;
+        end
+    else
+        return result;
+    end
+end
+
+--[[
+pos
+
+This function returns a single character from the target string at position pos.
+
+Usage:
+{{#invoke:String|pos|target_string|index_value}}
+OR
+{{#invoke:String|pos|target=target_string|pos=index_value}}
+
+Parameters
+    target: The string to search
+    pos: The index for the character to return
+
+If invoked using named parameters, Mediawiki will automatically remove any leading or
+trailing whitespace from the target string.  In some circumstances this is desirable, in 
+other cases one may want to preserve the whitespace.
+
+The first character has an index value of 1.
+
+If one requests a negative value, this function will select a character by counting backwards 
+from the end of the string.  In other words pos = -1 is the same as asking for the last character.
+
+A requested value of zero, or a value greater than the length of the string returns an error.
+]]
+function str.pos( frame )
+    local new_args = str._getParameters( frame.args, {'target', 'pos'} );
+    local target_str = new_args['target'] or '';
+    local pos = tonumber( new_args['pos'] ) or 0;
+
+    if pos == 0 or math.abs(pos) > mw.ustring.len( target_str ) then
+        return str._error( 'String index out of range' );
+    end    
+    
+    return mw.ustring.sub( target_str, pos, pos );
+end
+
+--[[
+str_find
+
+This function duplicates the behavior of {{str_find}}, including all of its quirks.
+This is provided in order to support existing templates, but is NOT RECOMMENDED for 
+new code and templates.  New code is recommended to use the "find" function instead.
+
+Returns the first index in "source" that is a match to "target".  Indexing is 1-based,
+and the function returns -1 if the "target" string is not present in "source".
+
+Important Note: If the "target" string is empty / missing, this function returns a
+value of "1", which is generally unexpected behavior, and must be accounted for
+separatetly.
+]]
+function str.str_find( frame )
+    local new_args = str._getParameters( frame.args, {'source', 'target'} );
+    local source_str = new_args['source'] or '';
+    local target_str = new_args['target'] or '';
+
+    if target_str == '' then
+        return 1;
+    end    
+    
+    local start = mw.ustring.find( source_str, target_str, 1, true )
+    if start == nil then
+        start = -1
+    end
+    
+    return start
+end
+
+--[[
+find
+
+This function allows one to search for a target string or pattern within another
+string.
+
+Usage:
+{{#invoke:String|find|source_str|target_string|start_index|plain_flag}}
+OR
+{{#invoke:String|find|source=source_str|target=target_str|start=start_index|plain=plain_flag}}
+
+Parameters
+    source: The string to search
+    target: The string or pattern to find within source
+    start: The index within the source string to start the search, defaults to 1
+    plain: Boolean flag indicating that target should be understood as plain
+        text and not as a Lua style regular expression, defaults to true
+
+If invoked using named parameters, Mediawiki will automatically remove any leading or
+trailing whitespace from the parameter.  In some circumstances this is desirable, in 
+other cases one may want to preserve the whitespace.
+
+This function returns the first index >= "start" where "target" can be found 
+within "source".  Indices are 1-based.  If "target" is not found, then this 
+function returns 0.  If either "source" or "target" are missing / empty, this
+function also returns 0.
+
+This function should be safe for UTF-8 strings.
+]]
+function str.find( frame )
+    local new_args = str._getParameters( frame.args, {'source', 'target', 'start', 'plain' } ); 
+    local source_str = new_args['source'] or '';
+    local pattern = new_args['target'] or '';
+    local start_pos = tonumber(new_args['start']) or 1;
+    local plain = new_args['plain'] or true;
+        
+    if source_str == '' or pattern == '' then
+        return 0;
+    end    
+    
+    plain = str._getBoolean( plain );
+
+    local start = mw.ustring.find( source_str, pattern, start_pos, plain )
+    if start == nil then
+        start = 0
+    end
+    
+    return start
+end
+
+--[[
+replace
+
+This function allows one to replace a target string or pattern within another
+string.
+
+Usage:
+{{#invoke:String|replace|source_str|pattern_string|replace_string|replacement_count|plain_flag}}
+OR
+{{#invoke:String|replace|source=source_string|pattern=pattern_string|replace=replace_string|
+   count=replacement_count|plain=plain_flag}}
+
+Parameters
+    source: The string to search
+    pattern: The string or pattern to find within source
+    replace: The replacement text
+    count: The number of occurences to replace, defaults to all.
+    plain: Boolean flag indicating that pattern should be understood as plain
+        text and not as a Lua style regular expression, defaults to true 
+]]
+function str.replace( frame )
+    local new_args = str._getParameters( frame.args, {'source', 'pattern', 'replace', 'count', 'plain' } ); 
+    local source_str = new_args['source'] or '';
+    local pattern = new_args['pattern'] or '';
+    local replace = new_args['replace'] or '';
+    local count = tonumber( new_args['count'] );
+    local plain = new_args['plain'] or true;
+        
+    if source_str == '' or pattern == '' then
+        return source_str;
+    end    
+    plain = str._getBoolean( plain );
+
+    if plain then
+        pattern = str._escapePattern( pattern );
+        replace = mw.ustring.gsub( replace, "%%", "%%%%" ); --Only need to escape replacement sequences.
+    end
+    
+    local result;
+
+    if count ~= nil then
+        result = mw.ustring.gsub( source_str, pattern, replace, count );
+    else
+        result = mw.ustring.gsub( source_str, pattern, replace );
+    end        
+
+    return result;
+end
+
+--[[
+Helper function that populates the argument list given that user may need to use a mix of
+named and unnamed parameters.  This is relevant because named parameters are not
+identical to unnamed parameters due to string trimming, and when dealing with strings
+we sometimes want to either preserve or remove that whitespace depending on the application.
+]]
+function str._getParameters( frame_args, arg_list )
+    local new_args = {};
+    local index = 1;
+    local value;
+    
+    for i,arg in ipairs( arg_list ) do
+        value = frame_args[arg]
+        if value == nil then
+            value = frame_args[index];
+            index = index + 1;
+        end
+        new_args[arg] = value;
+    end
+    
+    return new_args;
+end        
+
+--[[
+Helper function to handle error messages.
+]]
+function str._error( error_str )
+    local frame = mw.getCurrentFrame();
+    local error_category = frame.args.error_category or 'Errors reported by Module String';
+    local ignore_errors = frame.args.ignore_errors or false;
+    local no_category = frame.args.no_category or false;
+    
+    if str._getBoolean(ignore_errors) then
+        return '';
+    end
+    
+    local error_str = '<strong class="error">String Module Error: ' .. error_str .. '</strong>';
+    if error_category ~= '' and not str._getBoolean( no_category ) then
+        error_str = '[[Category:' .. error_category .. ']]' .. error_str;
+    end        
+    
+    return error_str;
+end
+
+--[[
+Helper Function to interpret boolean strings
+]]
+function str._getBoolean( boolean_str )
+    local boolean_value;
+    
+    if type( boolean_str ) == 'string' then
+        boolean_str = boolean_str:lower();
+        if boolean_str == 'false' or boolean_str == 'no' or boolean_str == '0' 
+                or boolean_str == '' then
+            boolean_value = false;
+        else
+            boolean_value = true;
+        end    
+    elseif type( boolean_str ) == 'boolean' then
+        boolean_value = boolean_str;
+    else
+        error( 'No boolean value found' );
+    end    
+    return boolean_value
+end
+
+--[[
+Helper function that escapes all pattern characters so that they will be treated 
+as plain text.
+]]
+function str._escapePattern( pattern_str )
+    return mw.ustring.gsub( pattern_str, "([%(%)%.%%%+%-%*%?%[%^%$%]])", "%%%1" );
+end
+
+return str
+	
+!!!!!	#:/ZE	Diagnostics/LanguageLibrary	local p = {}
+
+function p.getContLangCode(frame)
+  return mw.getContentLanguage().code
+end
+ 
+function p.isKnownLanguageTag(frame)
+  return mw.language.isKnownLanguageTag(frame.args[1])
+end
+
+function p.isValidCode(frame)
+  return mw.language.isValidCode(frame.args[1])
+end
+
+function p.isValidBuiltInCode(frame)
+  return mw.language.isValidBuiltInCode(frame.args[1])
+end
+
+function p.fetchLanguageName(frame)
+  return mw.language.fetchLanguageName(frame.args[1], frame.args[2])
+end
+
+function p.fetchLanguageNames_get(frame)
+  local lang_names = mw.language.fetchLanguageNames()
+  return lang_names[frame.args[1]]
+end
+
+function p.new_lang_code(frame)
+  local lang = mw.language.new(frame.args[1])
+  return lang.code
+end
+
+function p.formatNum(frame)
+  local lang_code = frame.args[2] or "en"
+  local lang = mw.language.new(lang_code)
+  return lang:formatNum(frame.args[1])
+end
+
+function p.parseFormattedNum(frame)
+  local lang_code = frame.args[2] or "en"
+  local lang = mw.language.new(lang_code)
+  return lang:formatNum(frame.args[1])
+end
+
+function p.formatDate_valid(frame)
+  local lang = mw.language.new("en")
+  if (pcall(formatDate_exec, lang, frame.args[1], frame.args[2])) then
+    return 'y'
+  else
+    return 'n'
+  end
+end
+
+function formatDate_exec(lang, fmt, date)
+  return lang:formatDate(fmt, date)
+end
+
+function p.convertGrammar(frame)
+    local lang = mw.language.new(frame.args[1])
+    return lang:convertGrammar(frame.args[2], frame.args[3])
+end
+
+function p.isRTL(frame)
+    local lang = mw.language.new(frame.args[1])
+    return lang:isRTL()
+end
+
+function p.format_durations_hms(frame)
+  local lang = mw.language.getContentLanguage()
+  return lang:formatDuration(tonumber(frame.args[1]), {'hours', 'minutes', 'seconds'})
+end
+
+function p.get_duration_intervals_hms(frame)
+  local lang = mw.language.getContentLanguage()
+  local intervals = lang:getDurationIntervals(tonumber(frame.args[1]), {'hours', 'minutes', 'seconds'})
+  return (intervals['hours'] or '') .. ',' .. (intervals['minutes'] or '') .. ',' .. (intervals['seconds'] or '')
+end
+
+return p	
+!!!!"	#:(%c	Diagnostics/UstringLibrary	local p = {}
+
+function p.match(frame)
+    local arg_1 = frame.args[1]
+    local arg_2 = frame.args[2]
+    return mw.ustring.match(arg_1, arg_2)
+end
+
+function p.match_error__regx_only(frame)
+    return mw.ustring.match(nil, 'regx_only')
+end
+
+function p.gsub_string(frame)
+    local arg_1 = frame.args[1]
+    local arg_2 = frame.args[2]
+    local arg_3 = frame.args[3]
+    local rv = ""
+    rv = mw.ustring.gsub(arg_1, arg_2, arg_3)
+    return rv
+end
+
+function p.gsub_table(frame)
+    local rv = ""
+    rv = mw.ustring.gsub("abcabc", "[ac]", { a = 'A', ['c'] = 'C' })
+    return rv;
+end
+
+function p.gsub_function_lua_basic(frame)
+    local rv = ""
+    rv = mw.ustring.gsub("abcabc", "[a]", function(m) if m == 'a' then return "A" end return m end)
+    return rv
+end
+
+function p.gsub_function_lua_grouping(frame)
+    local rv = ""
+    rv = mw.ustring.gsub("abcabc", "([a])", function(m) if m == 'a' then return "A" end return m end)
+    return rv
+end
+
+function p.gmatch(frame)
+    local arg_1 = frame.args[1]
+    local arg_2 = frame.args[2]
+
+    local rv = ""
+    local x, y
+    for x, y in mw.ustring.gmatch(arg_1, arg_2) do
+        rv = rv .. (x or '') .. ','
+        rv = rv .. (y or '') .. ';'
+    end     
+    return rv
+end
+
+return p
+	
+!!!!!	#:,!"	Diagnostics/TitleBlacklist	local p = {}
+
+function p.test(frame)
+  local rv = mw.ext.TitleBlacklist.test(frame.args[1])
+  if rv == nil then
+    rv = "pass"
+  end
+  return rv
+end
+
+return p
+	
+!!!!!	#9kk#	Diagnostics/TitleLibrary	local p = {}
+
+function p.newTitle(frame)
+  local ttl_txt = frame.args[1]
+  local ns_txt = frame.args[2]
+  local ttl = mw.title.new(ttl_txt, ns_txt)
+  local rv = "isLocal:" .. tostring(ttl.isLocal)
+
+  if (ttl.nsText == "") then
+    ns_txt = ""
+  else
+    ns_txt = ttl.nsText .. ":"
+  end
+  return ns_txt .. ttl.text
+end
+
+function p.getCurrentTitle(frame)
+    local ttl = mw.title.getCurrentTitle();
+    return ttl.nsText .. ":" .. ttl.text
+end
+
+function p.makeTitle(frame)
+    local ns = frame.args[1]
+    local ttl_str = frame.args[2]
+    local anchor = frame.args[3]
+    local xwiki = frame.args[4]
+    local ttl = mw.title.makeTitle(ns, ttl_str, anchor, xwiki)
+
+    if (ttl.interwiki == "") then
+        xwiki = ""
+    else
+        xwiki = ttl.interwiki .. ":"
+    end
+    if (ttl.nsText == "") then
+        ns = ""
+    else
+        ns = ttl.nsText .. ":"
+    end
+    if (ttl.fragment == "") then
+        anchor = ""
+    else
+        anchor = "#" .. ttl.fragment
+    end
+    return xwiki .. ns .. ttl.text .. anchor
+end
+
+function p.fullUrl(frame)
+    local ttl = mw.title.makeTitle(frame.args[1], frame.args[2])
+    return ttl:fullUrl()
+end
+
+function p.localUrl(frame)
+    local ttl = mw.title.makeTitle(frame.args[1], frame.args[2])
+    return ttl:localUrl()
+end
+
+function p.canonicalUrl(frame)
+    local ttl = mw.title.makeTitle(frame.args[1], frame.args[2])
+    return ttl:canonicalUrl()
+end
+
+function p.print_globals(frame)
+  local rv = ''
+  local count = 0
+  for k,v in pairs(_G) do
+    count = count + 1
+    rv = rv .. 'key: ' .. k .. ';value:' .. type(v) .. '<br/>'
+  end
+  rv = rv .. 'count:' .. count
+  return rv
+end
+
+return p
+	
+!!!!"	#8?H@	Diagnostics/UriLibrary	local p = {}
+
+function p.anchorEncode(frame)
+  local arg_1 = frame.args[1]
+  local rv = mw.uri.anchorEncode(arg_1)
+  return rv
+end
+
+function p.localUrl(frame)
+  local arg_1 = frame.args[1]
+  local rv = mw.uri.localUrl(arg_1)
+  return rv
+end
+
+function p.fullUrl(frame)
+  local arg_1 = frame.args[1]
+  local rv = mw.uri.fullUrl(arg_1)
+  return rv
+end
+
+function p.defaultUrl(frame)
+  local rv = mw.uri.new() -- will call defaultUrl
+  return rv
+end
+
+return p	
+!!!!"	#8CR/	Diagnostics/TextLibrary	local p = {}
+
+function p.unstrip(frame)
+  local ttl = mw.text.unstrip(frame.args[1])
+  return ttl
+end
+
+function p.decode(frame)
+  local ttl = mw.text.decode('&' .. frame.args[1], true)
+  return ttl
+end
+
+function p.listToText(frame)
+  return mw.text.listToText({frame.args[1], frame.args[2], frame.args[3]})
+end
+
+return p	
+!!!!!	#8AQj	Lib_0	local p = { }
+
+function p.lib_0_proc(frame)
+    return "lib_0_proc"
+end
+
+return p
+	
+!!!!"	#8AQj	Lib_1	local p = { }
+local libx = require "Module:Lib_0"
+
+function p.lib_1_proc(frame)
+    return "lib_1_proc"
+end
+
+return p
+	
+!!!!"	#:7/E	Diagnostics/LuaCommon	local p = {}
+
+function p.getExpandedArgument_number_2(frame)
+    local arg_1 = frame.args[1]
+    local arg_2 = frame.args[2]
+    return "arg_1 is '" .. arg_1 .. "'; arg_2 is '" .. arg_2 .. "'"
+end
+
+function p.getExpandedArgument_by_ordinal(frame)
+    local arg_1 = frame.args[1]
+    return "[1] is '" .. arg_1 .. "'"
+end
+
+function p.getAllExpandedArguments(frame)
+    local rv = ""
+    for k, v in pairs(frame.args) do
+        rv = rv .. k .. ":" .. v .. ";"
+    end
+    return rv
+end
+
+function p.getAllExpandedArguments_int_key(frame) -- must pass integer key, or else this test is pointless; EX: {{#invoke:getAllExpandedArguments_int|1=a}}
+    local tmp = {}                                -- create tmp table
+    for k, v in pairs(frame.args) do              -- call getAllExpandedArguments
+        tmp[k] = v                                -- set each slot in tmp to arg
+    end
+    return tmp[1]                                 -- return tmp[1]; note that this tests that getAllExpandedArguments is returning int for key
+end
+
+function p.preprocess_ifeq_as_yn(frame)
+    local arg_1 = frame.args[1]
+    local arg_2 = frame.args[2]
+    return frame:preprocess("{{#ifeq:"..arg_1.."|"..arg_2.."|{{{when_true_val|{{{3}}}}}}|{{{when_false_val|{{{4}}}}}}}}")
+end
+
+function p.expandTemplate(frame)
+    local arg_1 = frame.args[1]
+    local arg_2 = frame.args[2]
+    return frame:expandTemplate{title = "Diagnostics/Examples/ExpandTemplate", args = {arg_1, arg_2}}
+end
+
+function p.expandTemplate_bool(frame)
+    return frame:expandTemplate{title = "Diagnostics/Examples/ExpandTemplate_bool", args = {bool_true = true, bool_false = false}}
+end
+
+function p.callParserFunction(frame)
+    local arg_1 = frame.args[1]
+    return frame:callParserFunction{name = arg_1, args = {frame.args[2]}}
+end
+
+function p.isSubsting(frame)
+    return mw.isSubsting()
+end
+
+function p.getFrameTitle_current(frame)
+    return frame:getTitle()
+end
+
+function p.getFrameTitle_parent(frame)
+    return frame:getParent():getTitle()
+end
+
+function p.newChildFrame_titled(frame)
+    local frame0 = frame:newChild{'current', title='title0', args={["k1"] = "v1"}}
+    local frame0_title = frame0:getTitle();
+    local frame0_arg1 = frame0.args["k1"];
+    return 'title:' .. frame0_title .. '; arg1:' .. frame0_arg1
+end
+
+function p.newChildFrame_untitled(frame)
+    local frame0 = frame:newChild{'current', 'title0', args={["k1"] = "v1"}}
+    local frame0_title = frame0:getTitle();
+    local frame0_arg1 = frame0.args["k1"];
+    return 'title:' .. frame0_title .. '; arg1:' .. frame0_arg1
+end
+
+function p.preprocess_args_current(frame)
+  return frame:preprocess("{{#ifeq:match|{{{1}}}|{{{2}}}|{{{3}}}}}")
+end
+
+function p.preprocess_args_parent(frame)
+  return frame:getParent():preprocess("{{#ifeq:match|{{{1}}}|{{{2}}}|{{{3}}}}}")
+end
+
+return p	
+!!!!!	#:#m/	Diagnostics/MessageLibrary	local p = {}
+
+function p.getDefaultLanguage(frame)
+  return mw.message.getDefaultLanguage().code
+end
+
+function p.message_new(frame)
+  return mw.message.new(frame.args[1])
+end
+
+function p.plain(frame)
+  local msg = mw.message.new(frame.args[1], frame.args[2] or "")
+  local rv = msg["plain"](msg)
+  return rv
+end
+
+function p.check(frame)
+  local chk = frame.args[1]
+  local msg = mw.message.new(frame.args[2])
+  local rv = msg[chk](msg)
+  return rv
+end
+
+function p.plain_inLanguage(frame)
+  local msg = mw.message.new(frame.args[2], frame.args[3] or "")
+  msg = msg:inLanguage(frame.args[1])
+  local rv = msg["plain"](msg)
+  return rv
+end
+
+function p.plain_rawMessage(frame)
+  local msg = mw.message.newRawMessage(frame.args[1], frame.args[2] or "")
+  local rv = msg["plain"](msg)
+  return rv
+end
+
+return p
+	
+!!!!"	#8]5?	Diagnostics/WikibaseLibrary	local p = {}
+
+function p.label(frame)
+  return mw.wikibase.label(frame.args[1])
+end
+
+return p
+	
+!!!!"	#:#f8	Diagnostics/HtmlLibrary	local p = {}
+
+function p.create_span(frame)
+  local rv = mw.html.create("span").tagName
+  return rv
+end
+
+return p
+	
+!!!!"	#:-s[	Diagnostics/Luaj	local p = {}
+
+function p.value_tonumber_trim(frame)
+  return tonumber(' \t\n\r123 \t\n\r')
+end
+
+function p.varargs_arg(frame)
+  return varargs_1st('a', 'b', 'c')
+end
+
+function varargs_1st(...)
+  for k,v in pairs(arg) do
+    return v
+  end
+  return nil
+end
+
+function p.pairs_next(frame)
+  local tbl = {['a']='a1', ['b']='b1', ['c']='c1'}
+  for key, val in pairs(tbl) do
+    local new_val = val
+    if key == 'a' then
+      new_val = nil    -- will cause failure on next loop; SEE:en.d:Module:fi-nominal
+    end
+    tbl[key] = new_val
+  end
+  return 'ok'
+end
+
+function p.string_compare_lte(frame)
+  return frame.args[1] <= frame.args[2]
+end
+function p.string_compare_mt(frame)
+  return frame.args[1] > frame.args[2]
+end
+
+function p.string_rep_test(frame)
+  return 'pass:' .. string.rep('a', -1)
+end
+
+function p.string_format(frame)
+  return string.format(frame.args[1], frame.args[2])
+end
+
+function p.string_format_2(frame)
+  return string.format(frame.args[1], frame.args[2], frame.args[3])
+end
+
+function p.string_gfind(frame)
+  for k in string.gfind(frame.args[1], frame.args[2]) do
+    return k
+  end
+end
+
+function p.string_gmatch(frame)
+  local rv = ''
+  local src = frame.args[1]
+  local pat = frame.args[2]
+  for val in string.gmatch(src, pat) do
+    rv = rv .. val .. ';'
+  end
+  return rv
+end
+
+function p.string_gmatch_convert(frame)
+  local rv = ''
+  for val in string.gmatch(frame.args[1], '([^[]*)(%[%[[^[]*%]%])([^[]*)') do
+    rv = rv .. val .. ';'
+  end
+  return rv
+end
+
+function p.string_gsub(frame)
+  result, matches = string.gsub(frame.args[1], frame.args[2], frame.args[3])
+  return result
+end
+
+function p.string_multibyte_2(frame)
+  return 'â';
+end
+
+function p.string_multibyte_3(frame)
+  return 'อา' -- thai for sunday
+end
+
+function p.string_surrogate_pair(frame)
+  return mw.ustring.len('𐑓') -- boomerang
+end
+
+function p.table_concat(frame)
+  local dlm = ''
+  local bgn_idx = -1
+  local end_idx = -1
+  local args = {}
+  local arg_idx = 1
+  for key, val in ipairs(frame.args) do
+    if     (key == 1) then
+      dlm = val
+    elseif (key == 2) then
+      bgn_idx = val
+    elseif (key == 3) then
+      if (val == '') then
+        val = nil
+      end
+      end_idx = val
+    else
+      args[arg_idx] = val
+      arg_idx = arg_idx + 1
+    end
+  end
+  return table.concat(args, dlm, bgn_idx, end_idx)
+end
+
+function p.table_maxn(frame)
+  local tbl = {[1]='a1', [2]='b1', [3]='c1'}
+  return table.maxn(tbl)
+end
+
+function p.table_getn__key_is_num(frame)
+  local tbl = {[1]='a1', [2]='b1', [3]='c1'}
+  return table.getn(tbl)
+end
+
+function p.table_getn__key_is_str(frame)
+  local tbl = {['a']='a1', ['b']='b1', ['c']='c1'}
+  return table.getn(tbl)
+end
+
+function p.math_log10(frame)
+  return math.log10(frame.args[1])
+end
+
+function p.math_mod(frame)
+  return math.mod(frame.args[1], frame.args[2])
+end
+
+function p.os_time(frame)
+  local time = os.time({year=frame.args[1], month=frame.args[2], day=frame.args[3]})
+  return time ~= 0 and time ~= ''
+end
+
+function p.os_date(frame)
+  local date = os.date(frame.args[1], frame.args[2])
+  return date.year .. '-' .. string.format('%02d', date.month) .. '-' .. string.format('%02d', date.day)
+end
+
+return p
+	
+!!!!!	#:2Ne	Test	local p={}
+
+function p.parseVerbalDate( frame )	
+	local _
+	local pos
+	local day
+	local monthName
+	local month
+	local year
+	local form = ""
+	local lang = mw.language.new( "cs" )
+	
+	verbalDate = frame.args[1]
+	_, _, day, pos = mw.ustring.find( verbalDate, "^(%d+)%. ()" )
+	_, _, monthName, pos = mw.ustring.find( verbalDate, "^([^%d ]+) ?()", pos )
+        return monthName
+end
+
+return p	

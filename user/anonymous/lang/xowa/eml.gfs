@@ -1,0 +1,133 @@
+this
+.fallback_load('it')
+.keywords
+  .load_text(
+<:['
+tag|0|#tag~
+formatdate|0|#formatdate~#dateformat~
+expr|0|#expr~
+if|0|#if~
+ifeq|0|#ifeq~
+ifexpr|0|#ifexpr~
+iferror|0|#iferror~
+switch|0|#switch~
+default|0|#default~
+ifexist|0|#ifexist~
+time|0|#time~
+timel|0|#timel~
+rel2abs|0|#rel2abs~
+titleparts|0|#titleparts~
+lst|0|#section~#lst~
+lstx|0|#section-x~#lstx~
+invoke|0|#invoke~
+property|0|#property~
+noexternallanglinks|0|noexternallanglinks~
+disambiguation|0|__DISAMBIG__~
+']:>
+).lang
+.messages
+  .load_text(
+<:['
+sunday|Dmànga
+monday|Lonedè
+tuesday|Martedè
+wednesday|Merculdè
+thursday|Giuvidè
+friday|Venerdè
+saturday|Sâbet
+january|Znèr
+february|Febrèr
+march|Mèrz
+april|Avrîl
+june|Zógn
+july|Lój
+august|Agòst
+september|Setàmber
+october|Utóber
+november|Nuvàmber
+december|Dzèmber
+may|Mâz
+allpages|Tôt al pàgin
+mytalk|I mê discussiòun
+qbspecialpages|Pagini specièli
+returnto|Tórna a ~{0}.
+help|Per quî rivê da pôch
+history_short|Stôria
+printableversion|Versiòun stampàbil
+permalink|Link permanèint
+edit|Mudifichèr
+delete|Dscanzèla
+protect|Prutèzz
+specialpage|Pàgina specièla
+talk|Discussiòun
+jumptosearch|Zerca
+currentevents|Fât e prugèt ed tót
+currentevents-url|Project:Prugèt_ed_tót
+helppage|Help:Introduzione
+portal|Discóter e quistiunêr
+portal-url|Project:Bar
+nstab-main|Artéccol
+nstab-template|Modèl
+logouttext|'''Adèsa s'et discunnês.'''\n\nPutiv cuntinuèr ad usèr {{SITENAME}} anonimamèint, o putiv cunnètterv dòp cun al stèss nàmm o cun un èter.\nNutêv ca alcuni pàgini i putrèbber cuntinuèr a cràdder ca vueter a-sîv discunnès, finchè non purghê la cache dal vòster browser.
+userlogin|Entrèr / Argistrères
+logout|va fôra
+userlogout|Va fôra
+userexists|Al nòmm ch'èt scélt l'è stê bèle usê: càten un èter, per piasêr.
+loginsuccess|'''Adèsa sèt cunês in {{SITENAME}} cun al nàmm d'utèint "$1".'''
+wrongpassword|La password ch'et méss l'è sbajèda. Pròva ancàrra.
+blocked-mailpassword|Al tô indirézz IP l'an pôl più feèr di cambiamèint, e l'en brisa abilitê par user la funziòun ed recópper ed password par evitèr di abûs.
+accountcreated|Et criê un nôv account
+summary|Mutîv d'al cambiamèint:
+minoredit|Còst cambiamèint ché l'é un gnînt in tót
+watchthis|Tîn a drê a c'la pàgina chè
+savearticle|Salva
+showpreview|Anteprémma
+showdiff|Guèrda al differèinzi
+anoneditwarning|'''Attenziòun:''' An sîv ménga vgnû dèinter. Al vòster indirézz IP al vrà signê in d'la stòria d'i cambiamèint ed sta pagina chè..
+anontalkpagetext|----''Sta chè l'éla pàgina ed discussiòun d'un utèint anònim c'al n'à brisa criê un sô account o c'an l'usa ménga. Bsògna quindi usêr al sô indirézz IP par identifichèrel. L'istèss indirézz IP al pôl èsser usê da di mòndi utèint. Se sèt un utèint anònim e pèinset c'a-t in sun stèdi fâti di cummèint irrilevànt, per piasér [[Special:UserLogin\u007Ccriêt un account o fê al log-in]] par evitèr confusiòuni futuri cun di èter utèint anònim.''
+editing|Cambiamèint ed ~{0}
+yourdiff|Differèinzi
+templatesused|{{PLURAL:~{0}\u007CModêl\u007CModêl}} usèdi in sta pàgina:
+searchhelp-url|Help:Introduzione
+mypreferences|AL mê preferèinzi
+yourrealname|Al tô vér nàmm:
+yourlanguage|Léngua:
+recentchanges|Ûltem cambiamèint
+diff|diferèinzi
+hist|stôria
+recentchangeslinked|Mudéffic curelèdi
+recentchangeslinked-feed|Mudéffic curelèdi
+recentchangeslinked-toolbox|Mudéffic curelèdi
+upload|Carghèr un file
+filedesc|Ugêt d'al cambiamèint
+fileuploadsummary|Ugêt d'al cambiamèint:
+listfiles_size|Dimensiòun (bytes)
+randompage|Una pàgina a chès
+move|Môv
+specialloguserlabel|Utèint:
+newuserlogpage|Regestér di nōv utèint
+watchlist|Al còsi ca guèrd
+watch|Tîn a drê
+watchthispage|Tîn a drê a c'la pàgina chè
+excontent|al cointgnû l'éra: '~{0}'
+excontentauthor|al cointgnû l'éra: '~{0}' (e l'ónic cuntribudôr l'éra '[[Special:Contributions/~{1}\u007C~{1}]]')
+confirmdeletetext|Stèt per scanzlèr 'na pàgina o n'imàgin, insìmma a tòt la sô crunolugî dal database.\nCunfermèr per piasèr ca saîv quàl che stèv par fêr, ca capîv al pussìbil counseguèinzi e ca stèv facènd quàst in confurmitê cun [[{{MediaWiki:Policy-url}}]].
+deletedtext|"~{0}" l'è stê scanzlê.\nGuèrda ~{1} par vèdder la lésta d'al pàgin ch'i sun stèdi scanzlèdi di recèint.
+dellogpage|Regestér dal scanzladûri
+deletionlog|regéster dal scanzladûri
+mycontris|I mê cuntribùdi
+whatlinkshere|I pùnten chè
+blocklink|blòchel
+contribslink|còl ch'l'à scrét
+movelogpage|Regestér di muvimèint
+ilsubmit|Zerca
+specialpages|Pàgin specièli
+wikibase-edit|mudéfica
+wikibase-save|sêlva
+wikibase-terms|In êtri léngui
+wikibase-setdescription-label|Spiegasiòun
+wikibase-setdescription-submit|Scrév la spiegasiòun
+sitesupport|Dunasiòun
+']:>
+).lang
+;
