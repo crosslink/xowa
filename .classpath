@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="400_xowa/src_100_app"/>
+	<classpathentry kind="src" path="400_xowa/src_405_tkn"/>
+	<classpathentry kind="src" path="400_xowa/src_200_bldr"/>
+	<classpathentry kind="src" path="400_xowa/src_410_amp"/>
+	<classpathentry kind="src" path="400_xowa/src_500_tmpl"/>
+	<classpathentry kind="src" path="400_xowa/src_409_tkn_misc"/>
+	<classpathentry kind="src" path="400_xowa/src_220_bldr_file"/>
+	<classpathentry kind="src" path="400_xowa/src"/>
+	<classpathentry kind="src" path="400_xowa/src_210_bldr_core"/>
+	<classpathentry kind="src" path="400_xowa/xtn"/>
+	<classpathentry kind="src" path="400_xowa/src_040_io"/>
+	<classpathentry kind="src" path="400_xowa/src_420_apos"/>
+	<classpathentry kind="src" path="400_xowa/src_400_parser"/>
+	<classpathentry kind="src" path="400_xowa/src_470_list"/>
+	<classpathentry kind="src" path="400_xowa/src_440_lnki"/>
+	<classpathentry kind="src" path="400_xowa/src_140_lang"/>
+	<classpathentry kind="src" path="400_xowa/src_480_tblw"/>
+	<classpathentry kind="src" path="400_xowa/src_510_pf_core"/>
+	<classpathentry kind="src" path="400_xowa/src_450_hdr"/>
+	<classpathentry kind="src" path="400_xowa/src_121_wiki_data"/>
+	<classpathentry kind="src" path="400_xowa/src_310_url"/>
+	<classpathentry kind="src" path="400_xowa/src_161_meta"/>
+	<classpathentry kind="src" path="400_xowa/src_350_gui"/>
+	<classpathentry kind="src" path="400_xowa/src_490_xnde"/>
+	<classpathentry kind="src" path="400_xowa/src_240_install"/>
+	<classpathentry kind="src" path="400_xowa/src_300_html"/>
+	<classpathentry kind="src" path="400_xowa/src_060_utl"/>
+	<classpathentry kind="src" path="400_xowa/src_430_lnke"/>
+	<classpathentry kind="src" path="400_xowa/src_120_wiki"/>
+	<classpathentry kind="src" path="400_xowa/src_020_byte"/>
+	<classpathentry kind="src" path="400_xowa/src_550_pf_xtn"/>
+	<classpathentry kind="src" path="400_xowa/src_162_xfer"/>
+	<classpathentry kind="src" path="400_xowa/src_160_file"/>
+	<classpathentry kind="src" path="400_xowa/src_460_para"/>
+	<classpathentry kind="src" path="400_xowa/src_530_pf_str"/>
+	<classpathentry kind="lib" path="lib/any/java/jdbc/sqlite/sqlite-jdbc-3.7.15-M1.jar"/>
+	<classpathentry kind="lib" path="lib/any/java/jtidy/jtidy_xowa.jar"/>
+	<classpathentry kind="lib" path="lib/any/java/luaj/luaj_xowa.jar"/>
+	<classpathentry kind="lib" path="lib/any/java/xowa/tcp_console/xowa_tcp_console.jar"/>
+	<classpathentry kind="lib" path="lib/linux_64/swt/swt.jar"/>
+	<classpathentry kind="lib" path="dev/140_dbs/lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="dev/140_dbs/lib/postgresql-8.4-701.jdbc4.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/any/java/apache/commons-compress-1.5.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/400_xowa"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/100_core"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/110_gfml"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/140_dbs"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/150_gfui"/>
+	<classpathentry kind="lib" path="/100_core/bin"/>
+	<classpathentry kind="lib" path="/110_gfml/bin"/>
+	<classpathentry kind="lib" path="/140_dbs/bin"/>
+	<classpathentry kind="lib" path="/150_gfui/bin"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

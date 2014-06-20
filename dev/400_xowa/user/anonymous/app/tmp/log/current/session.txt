@@ -416,3 +416,75 @@ arguments:
 20140619_063436.605 moving history files
 20140619_063436.611 moved history files: 0
 20140619_063436.615 gfs.done: /home/monfee/Downloads/dev/400_xowa/xowa.gfs
+20140619_234407.756 env.init: version=1.6.3.1
+20140619_234408.068 env.init: build_date=2014-06-19 23:38
+20140619_234408.103 env.init: jar url=/home/monfee/Downloads/dev/dev/400_xowa/xowa.jar; op_sys=linux64
+20140619_234408.230 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20140619_234412.994 app.init
+20140619_234414.617 moving history files
+20140619_234414.626 moved history files: 0
+20140619_234414.677 gfs.done: /home/monfee/Downloads/dev/dev/400_xowa/xowa.gfs
+20140619_234415.284 shutting down app; saving cfg: len=75
+20140619_234415.821 app.upgrade.done
+20140619_234424.752 app.gui.kit_init.done
+20140619_234424.759 app.gui.win_load.done
+20140619_234424.796 app.launch.page.bgn
+20140619_234424.796 wiki.init.bgn: home
+20140619_234424.979 wiki.init.end
+20140619_234425.077 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_234439.118 run_failed: 20140619_234424.980 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:21)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140619_234624.851 env.init: version=1.6.3.1
+20140619_234624.885 env.init: build_date=2014-06-19 23:38
+20140619_234624.900 env.init: jar url=/home/monfee/Downloads/dev/dev/400_xowa/xowa.jar; op_sys=linux64
+20140619_234624.906 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20140619_234625.309 app.init
+20140619_234625.702 moving history files
+20140619_234625.708 moved history files: 0
+20140619_234625.712 gfs.done: /home/monfee/Downloads/dev/dev/400_xowa/xowa.gfs
