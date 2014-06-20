@@ -488,3 +488,63 @@ arguments:
 20140619_234625.702 moving history files
 20140619_234625.708 moved history files: 0
 20140619_234625.712 gfs.done: /home/monfee/Downloads/dev/dev/400_xowa/xowa.gfs
+20140620_033528.327 env.init: version=1.6.3.1
+20140620_033529.170 env.init: build_date=2014-06-20 03:31
+20140620_033529.712 env.init: jar url=/home/monfee/Downloads/dev/dev/400_xowa/xowa.jar; op_sys=linux64
+20140620_033529.749 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20140620_033539.516 app.init
+20140620_033543.361 moving history files
+20140620_033543.537 moved history files: 0
+20140620_033543.760 gfs.done: /home/monfee/Downloads/dev/dev/400_xowa/xowa.gfs
+20140620_033544.880 shutting down app; saving cfg: len=75
+20140620_033545.368 app.upgrade.done
+20140620_033559.824 app.gui.kit_init.done
+20140620_033600.188 app.gui.win_load.done
+20140620_033600.221 app.launch.page.bgn
+20140620_033600.222 wiki.init.bgn: home
+20140620_033600.578 wiki.init.end
+20140620_033600.732 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:22)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140620_033616.371 run_failed: 20140620_033600.579 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:22)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+

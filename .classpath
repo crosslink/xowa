@@ -53,6 +53,6 @@
 	<classpathentry kind="lib" path="/100_core/bin"/>
 	<classpathentry kind="lib" path="/110_gfml/bin"/>
 	<classpathentry kind="lib" path="/140_dbs/bin"/>
-	<classpathentry kind="lib" path="/150_gfui/bin"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="/150_gfui/bin" sourcepath="/150_gfui"/>
+	<classpathentry kind="output" path="classes"/>
 </classpath>

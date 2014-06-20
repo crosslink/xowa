@@ -301,3 +301,44 @@
 	gplx.ErrMsgWtr.Message_gplx
 		(ErrMsgWtr.java:21)
 
+20140620_033600.732 page_load fail: page=home/wiki/Main_Page err=	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:22)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:108)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Launch
+		(Xog_tab_itm_read_mgr.java:90)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:23)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page
+		(Xog_tab_itm_read_mgr.java:44)
+	gplx.xowa.gui.views.Xog_tab_itm_read_mgr.Show_page_err
+		(Xog_tab_itm_read_mgr.java:72)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
+20140620_033616.371 run_failed: 20140620_033600.579 app.launch.page.show
+ 	class java.lang.NullPointerException null <java.lang.NullPointerException>
+	gplx.ErrMsgWtr.Message_gplx
+--------------------------------------------------------------------------------
+	gplx.xowa.Xowa_main.main
+		(Xowa_main.java:22)
+	gplx.xowa.Xoa_app_.Run
+		(Xoa_app_.java:23)
+	gplx.xowa.Xoa_app_boot_mgr.Run
+		(Xoa_app_.java:46)
+	gplx.xowa.Xoa_app_boot_mgr.Run_app
+		(Xoa_app_.java:161)
+	gplx.xowa.gui.Xoa_gui_mgr.Run
+		(Xoa_gui_mgr.java:112)
+	gplx.ErrMsgWtr.Message_gplx
+		(ErrMsgWtr.java:21)
+
